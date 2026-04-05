@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+# Pre-commit hook: блокирует коммит если обнаружены API ключи
+
+DIFF=$(git diff --cached --diff-filter=ACM)
+
+for pattern in "AIzaSy[a-zA-Z0-9_-]\{33\}" "sk-[a-zA-Z0-9]\{48\}" "AKIA[0-9A-Z]\{16\}"; do
+    if echo "$DIFF" | grep -qE "$pattern"; then
+        echo "ERROR: Обнаружен API ключ в коммите!"
+        echo "Паттерн: $pattern"
+        echo "Используйте .env файл для хранения ключей."
+        exit 1
+    fi
+done
+
+exit 0
