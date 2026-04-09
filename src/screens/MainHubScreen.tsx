@@ -45,7 +45,8 @@ const getModules = (texts: InterfaceTexts): ModuleItem[] => [
     title: texts.textTranslatorTitle,
     subtitle: texts.textTranslatorSubtitle,
     iconName: 'text-outline',
-    route: 'TextTranslator',
+    route: 'ComingSoon',
+    isComingSoon: true,
   },
   {
     id: 'ai-assistants',
@@ -86,7 +87,7 @@ export default function MainHubScreen() {
 
   const handleModulePress = (module: ModuleItem) => {
     if (module.isComingSoon) {
-      const feature = module.id === 'visual-translator' ? 'visual' : module.id === 'ai-assistants' ? 'ai' : 'voice';
+      const feature = module.id === 'visual-translator' ? 'visual' : module.id === 'ai-assistants' ? 'ai' : module.id === 'text-translator' ? 'translator' : 'voice';
       navigation.navigate('ComingSoon', { feature });
       return;
     }

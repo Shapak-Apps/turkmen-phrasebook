@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ykjam Terjime — План</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+        :root {
+            --blue: #2D8CFF;
+            --blue-light: #EBF4FF;
+            --blue-dark: #1A6FD4;
+            --green: #10B981;
+            --green-light: #D1FAE5;
+            --orange: #F59E0B;
+            --orange-light: #FEF3C7;
+            --red: #EF4444;
+            --red-light: #FEE2E2;
+            --purple: #8B5CF6;
+            --purple-light: #EDE9FE;
+            --gray: #6B7280;
+            --gray-light: #F3F4F6;
+            --border: #E5E7EB;
+            --text: #1F2937;
+            --text-light: #9CA3AF;
+            --bg: #FAFBFC;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
+            color: #fff;
+            padding: 60px 40px 50px;
+            text-align: center;
+        }
+        .header h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; }
+        .header .subtitle { font-size: 18px; opacity: 0.7; font-weight: 300; }
+        .header .date { margin-top: 16px; font-size: 14px; opacity: 0.5; }
+        .header .version-badge {
+            display: inline-block;
+            background: var(--blue);
+            color: #fff;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+
+        .section { margin-bottom: 48px; }
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--blue);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-title .icon { font-size: 28px; }
+
+        .card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .card-title { font-size: 18px; font-weight: 600; }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-done { background: var(--green-light); color: #065F46; }
+        .badge-progress { background: var(--blue-light); color: var(--blue-dark); }
+        .badge-todo { background: var(--orange-light); color: #92400E; }
+        .badge-blocked { background: var(--red-light); color: #991B1B; }
+        .badge-idea { background: var(--purple-light); color: #5B21B6; }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-number { font-size: 36px; font-weight: 800; color: var(--blue); }
+        .stat-label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+        .checklist { list-style: none; }
+        .checklist li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 15px;
+        }
+        .checklist li:last-child { border-bottom: none; }
+        .check { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+        .check-done { color: var(--green); }
+        .check-todo { color: var(--text-light); }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            background: var(--gray-light);
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--gray);
+        }
+        tr:hover td { background: #FAFBFC; }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-light);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 8px 0;
+        }
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        @media (max-width: 768px) {
+            .two-col { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        .highlight-box {
+            background: var(--blue-light);
+            border-left: 4px solid var(--blue);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+        .warning-box {
+            background: var(--orange-light);
+            border-left: 4px solid var(--orange);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+        .danger-box {
+            background: var(--red-light);
+            border-left: 4px solid var(--red);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--gray-light);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-family: monospace;
+            color: var(--gray);
+        }
+
+        .divider {
+            border: none;
+            border-top: 2px dashed var(--border);
+            margin: 40px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-light);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Ykjam Terjime</h1>
+    <div class="subtitle">Туркменский разговорник &mdash; Статус и план</div>
+    <div class="version-badge">v1.0.3 &rarr; v2.0</div>
+    <div class="date">7 апреля 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
+</div>
+
+<div class="container">
+
+<!-- ЦИФРЫ -->
+<div class="section">
+    <div class="section-title"><span class="icon">📊</span> Текущие цифры</div>
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number">293</div>
+            <div class="stat-label">Фраз в базе</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">22</div>
+            <div class="stat-label">Категорий (50+ подкатегорий)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">306</div>
+            <div class="stat-label">Аудио файлов (M4A)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">5 / 30</div>
+            <div class="stat-label">Языков открыто / всего</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">14</div>
+            <div class="stat-label">Экранов</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">15/15</div>
+            <div class="stat-label">Lingify адаптация</div>
+        </div>
+    </div>
+</div>
+
+<!-- ТЕКУЩИЙ СТАТУС -->
+<div class="section">
+    <div class="section-title"><span class="icon">🟢</span> Текущий статус</div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Публикация в сторах</div>
+        </div>
+        <table>
+            <tr><td><strong>App Store</strong></td><td><span class="badge badge-done">Опубликовано</span></td><td>v1.0.2, январь 2026</td></tr>
+            <tr><td><strong>Google Play</strong></td><td><span class="badge badge-done">Опубликовано</span></td><td>v1.0.2 (versionCode 5), 19.03.2026</td></tr>
+            <tr><td><strong>v1.0.3 билд</strong></td><td><span class="badge badge-todo">Не отправлен</span></td><td>Багфиксы готовы, надо собрать и залить</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Что в текущей версии (v1.0.3 локально)</div>
+        </div>
+        <ul class="checklist">
+            <li><span class="check check-done">&#10003;</span> Исправлен Onboarding — белый фон вместо синего (текст был невидимый)</li>
+            <li><span class="check check-done">&#10003;</span> Исправлен Visual/Voice Translator — текст фич не отображался рядом с иконками</li>
+            <li><span class="check check-done">&#10003;</span> Исправлен Dictionary — невидимая стрелка назад</li>
+            <li><span class="check check-done">&#10003;</span> Заблокированы языки — открыты только: 🇨🇳 🇷🇺 🇬🇧 🇹🇷 (+🇹🇲)</li>
+            <li><span class="check check-done">&#10003;</span> AI раздел закрыт — Coming Soon v2.0</li>
+            <li><span class="check check-done">&#10003;</span> Текстовый переводчик закрыт — Coming Soon v2.0</li>
+            <li><span class="check check-done">&#10003;</span> Lingify редизайн — все 15 этапов завершены</li>
+            <li><span class="check check-done">&#10003;</span> Безопасность — API ключи в .env, pre-commit hook</li>
+            <li><span class="check check-todo">&#9744;</span> <strong>Собрать APK/AAB и отправить в Google Play + App Store</strong></li>
+        </ul>
+        <div class="warning-box">
+            <strong>Главная задача:</strong> v1.0.3 готова локально, но НЕ отправлена в сторы. Надо собрать билды и залить.
+            <br><span class="tag">app.json: version 1.0.3, versionCode 7</span>
+        </div>
+    </div>
+</div>
+
+<!-- АРХИТЕКТУРА -->
+<div class="section">
+    <div class="section-title"><span class="icon">🏗</span> Архитектура приложения</div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Технологический стек</div>
+        </div>
+        <table>
+            <tr><td>Фреймворк</td><td><strong>Expo SDK 54</strong> + React Native 0.81</td></tr>
+            <tr><td>Язык</td><td>TypeScript (strict)</td></tr>
+            <tr><td>Навигация</td><td>React Navigation (Stack + Bottom Tabs)</td></tr>
+            <tr><td>AI</td><td>Google Gemini 2.5 Flash (через @google/generative-ai)</td></tr>
+            <tr><td>TTS</td><td>3 провайдера: Local MP3, Expo Speech, Edge TTS</td></tr>
+            <tr><td>Перевод</td><td>MyMemory API (основной) + LibreTranslate (запасной)</td></tr>
+            <tr><td>Хранилище</td><td>AsyncStorage (локальное)</td></tr>
+            <tr><td>Сборка</td><td>EAS Build (eas.json)</td></tr>
+            <tr><td>Пакет</td><td>com.shapak.translator</td></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Все экраны приложения</div>
+        </div>
+        <table>
+            <thead><tr><th>Экран</th><th>Статус</th><th>Lingify</th><th>Описание</th></tr></thead>
+            <tbody>
+                <tr><td>MainHubScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Главный хаб — модули приложения</td></tr>
+                <tr><td>HomeScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Разговорник — список категорий</td></tr>
+                <tr><td>CategoryScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Фразы в категории, аудио, избранное</td></tr>
+                <tr><td>PhraseDetailScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Детали фразы, минималистичный дизайн</td></tr>
+                <tr><td>AdvancedSearchScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Полнотекстовый поиск с подсветкой</td></tr>
+                <tr><td>TextTranslatorScreen</td><td><span class="badge badge-blocked">Coming Soon</span></td><td>✅</td><td>Переводчик текста — закрыт, откроется в v2.0</td></tr>
+                <tr><td>FavoritesHubScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Избранное: фразы + переводы</td></tr>
+                <tr><td>StatsScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Статистика, достижения, графики</td></tr>
+                <tr><td>SettingsScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Настройки, TTS, выбор языка</td></tr>
+                <tr><td>OnboardingScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>4 слайда, анимации</td></tr>
+                <tr><td>LanguageSelectionScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Выбор языка интерфейса (31 язык)</td></tr>
+                <tr><td>LanguagePairSelectionScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Выбор пары языков для разговорника</td></tr>
+                <tr><td>AskAIScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>AI вопросы по фразам (Gemini)</td></tr>
+                <tr><td>UniversalAIChatScreen</td><td><span class="badge badge-blocked">Coming Soon</span></td><td>✅</td><td>Закрыт в v1, откроется в v2.0</td></tr>
+                <tr><td>DictionaryScreen</td><td><span class="badge badge-blocked">Coming Soon</span></td><td>✅</td><td>Заглушка, сбор email</td></tr>
+                <tr><td>ComingSoonScreen</td><td><span class="badge badge-blocked">Заглушка</span></td><td>✅</td><td>Visual/Voice Translator</td></tr>
+                <tr><td>AdditionalFeaturesScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Сетка доп. функций</td></tr>
+                <tr><td>AboutScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>О приложении</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- ЯЗЫКИ -->
+<div class="section">
+    <div class="section-title"><span class="icon">🌍</span> Языки</div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Открытые языки (5)</div>
+            <span class="badge badge-done">Активны</span>
+        </div>
+        <table>
+            <thead><tr><th>Флаг</th><th>Язык</th><th>Код</th><th>TTS</th><th>Транскрипция</th></tr></thead>
+            <tbody>
+                <tr><td>🇹🇲</td><td>Туркменский</td><td>tk</td><td>tr-TR</td><td>Нет</td></tr>
+                <tr><td>🇨🇳</td><td>Китайский</td><td>zh</td><td>zh-CN</td><td>Да (пиньинь)</td></tr>
+                <tr><td>🇷🇺</td><td>Русский</td><td>ru</td><td>ru-RU</td><td>Да</td></tr>
+                <tr><td>🇬🇧</td><td>Английский</td><td>en</td><td>en-US</td><td>Нет</td></tr>
+                <tr><td>🇹🇷</td><td>Турецкий</td><td>tr</td><td>tr-TR</td><td>Нет</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Заблокированные языки (25)</div>
+            <span class="badge badge-blocked">Coming Soon</span>
+        </div>
+        <p style="color: var(--gray); font-size: 14px; margin-bottom: 12px;">
+            Переводы на все 25 языков уже есть в коде (src/data/languages/translations/). Откроются по мере готовности контента в v2.0.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <span class="tag">🇩🇪 Немецкий</span>
+            <span class="tag">🇫🇷 Французский</span>
+            <span class="tag">🇪🇸 Испанский</span>
+            <span class="tag">🇮🇹 Итальянский</span>
+            <span class="tag">🇵🇹 Португальский</span>
+            <span class="tag">🇵🇱 Польский</span>
+            <span class="tag">🇳🇱 Нидерландский</span>
+            <span class="tag">🇺🇦 Украинский</span>
+            <span class="tag">🇯🇵 Японский</span>
+            <span class="tag">🇰🇷 Корейский</span>
+            <span class="tag">🇸🇦 Арабский</span>
+            <span class="tag">🇮🇳 Хинди</span>
+            <span class="tag">🇹🇭 Тайский</span>
+            <span class="tag">🇻🇳 Вьетнамский</span>
+            <span class="tag">🇮🇩 Индонезийский</span>
+            <span class="tag">🇲🇾 Малайский</span>
+            <span class="tag">🇮🇷 Персидский</span>
+            <span class="tag">🇵🇰 Урду</span>
+            <span class="tag">🇦🇫 Пушту</span>
+            <span class="tag">🇺🇿 Узбекский</span>
+            <span class="tag">🇰🇿 Казахский</span>
+            <span class="tag">🇦🇿 Азербайджанский</span>
+            <span class="tag">🇰🇬 Кыргызский</span>
+            <span class="tag">🇹🇯 Таджикский</span>
+            <span class="tag">🇦🇲 Армянский</span>
+            <span class="tag">🇬🇪 Грузинский</span>
+        </div>
+    </div>
+</div>
+
+<!-- СКАЧАННЫЕ РАЗГОВОРНИКИ -->
+<div class="section">
+    <div class="section-title"><span class="icon">📚</span> Скачанные разговорники (downloads/)</div>
+    <div class="card">
+        <p style="margin-bottom: 12px;">PDF разговорники для перевода на туркменский в версии 2.0. <strong>42 МБ</strong> суммарный размер.</p>
+        <div class="two-col">
+            <div>
+                <strong>Фаза 1 — Популярные (14 языков):</strong>
+                <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px; color: var(--gray);">
+                    <li>Английский, Немецкий, Французский, Испанский</li>
+                    <li>Итальянский, Турецкий, Португальский, Польский</li>
+                    <li>Нидерландский, Китайский, Японский, Корейский</li>
+                    <li>Арабский, Украинский</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Фаза 2 — СНГ (7 языков):</strong>
+                <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px; color: var(--gray);">
+                    <li>Узбекский, Казахский, Азербайджанский</li>
+                    <li>Кыргызский, Таджикский, Армянский, Грузинский</li>
+                </ul>
+                <strong style="display:block; margin-top: 12px;">Фаза 3 — Азия (8 языков):</strong>
+                <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px; color: var(--gray);">
+                    <li>Хинди, Персидский, Тайский, Вьетнамский</li>
+                    <li>Индонезийский, Малайский, Урду, Пушту</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="divider">
+
+<!-- ЧТО НУЖНО СДЕЛАТЬ -->
+<div class="section">
+    <div class="section-title"><span class="icon">🎯</span> Что нужно сделать</div>
+
+    <!-- v1.0.3 -->
+    <div class="card" style="border-left: 4px solid var(--orange);">
+        <div class="card-header">
+            <div class="card-title">БЛИЖАЙШЕЕ: Выпустить v1.0.3</div>
+            <span class="badge badge-todo">Ожидает</span>
+        </div>
+        <p style="font-size: 14px; color: var(--gray); margin-bottom: 12px;">Все багфиксы готовы. Осталось только собрать и отправить.</p>
+        <ul class="checklist">
+            <li><span class="check check-todo">&#9744;</span> Собрать production билд: <span class="tag">eas build --platform android --profile production</span></li>
+            <li><span class="check check-todo">&#9744;</span> Проверить AAB на эмуляторе/устройстве</li>
+            <li><span class="check check-todo">&#9744;</span> Залить в Google Play Console (versionCode 7)</li>
+            <li><span class="check check-todo">&#9744;</span> Собрать iOS билд: <span class="tag">eas build --platform ios --profile production</span></li>
+            <li><span class="check check-todo">&#9744;</span> Залить в App Store Connect</li>
+        </ul>
+    </div>
+
+    <!-- v2.0 -->
+    <div class="card" style="border-left: 4px solid var(--purple);">
+        <div class="card-header">
+            <div class="card-title">V2.0 — Идеальный разговорник</div>
+            <span class="badge badge-idea">Планируется</span>
+        </div>
+
+        <div class="highlight-box">
+            <strong>Концепция v2.0:</strong> Найти лучшие русско-X разговорники для каждого языка &rarr; команда переводит русскую часть на туркменский &rarr; получается туркменский разговорник для каждого языка.
+        </div>
+
+        <h4 style="margin: 20px 0 12px; font-size: 16px;">Контент:</h4>
+        <ul class="checklist">
+            <li><span class="check check-todo">&#9744;</span> Скачать и проверить качество каждого разговорника Фазы 1</li>
+            <li><span class="check check-todo">&#9744;</span> Определить формат для передачи команде переводчиков</li>
+            <li><span class="check check-todo">&#9744;</span> Перевести русскую часть на туркменский (команда)</li>
+            <li><span class="check check-todo">&#9744;</span> Определить финальную структуру категорий и фраз</li>
+            <li><span class="check check-todo">&#9744;</span> Записать аудио произношение</li>
+        </ul>
+
+        <h4 style="margin: 20px 0 12px; font-size: 16px;">Приложение:</h4>
+        <ul class="checklist">
+            <li><span class="check check-todo">&#9744;</span> Изменить логотип приложения</li>
+            <li><span class="check check-todo">&#9744;</span> Адаптировать под Lingify оставшиеся экраны: DictionaryScreen, LanguagePairSelectionScreen, AdditionalFeaturesScreen, PhraseDetailScreen, AskAIScreen</li>
+            <li><span class="check check-todo">&#9744;</span> Открыть остальные языки по мере готовности контента</li>
+            <li><span class="check check-todo">&#9744;</span> Вернуть AI раздел (выбрать провайдера)</li>
+            <li><span class="check check-todo">&#9744;</span> Добавить Voice Translator (v2.0)</li>
+            <li><span class="check check-todo">&#9744;</span> Добавить Visual Translator (v1.5)</li>
+            <li><span class="check check-todo">&#9744;</span> Добавить Dictionary</li>
+        </ul>
+
+        <h4 style="margin: 20px 0 12px; font-size: 16px;">Идея: Иллюстрации к фразам</h4>
+        <ul class="checklist">
+            <li><span class="check check-todo">&#9744;</span> Выбрать подход (SVG + облачка — рекомендуется)</li>
+            <li><span class="check check-todo">&#9744;</span> Подобрать иллюстрации под категории (Storyset, unDraw)</li>
+            <li><span class="check check-todo">&#9744;</span> Реализовать компонент с облачками</li>
+            <li><span class="check check-todo">&#9744;</span> Интегрировать в экран фраз</li>
+        </ul>
+    </div>
+
+    <!-- Open Source -->
+    <div class="card" style="border-left: 4px solid var(--green);">
+        <div class="card-header">
+            <div class="card-title">Open Source (Shapak-Apps)</div>
+            <span class="badge badge-progress">В процессе</span>
+        </div>
+        <ul class="checklist">
+            <li><span class="check check-done">&#10003;</span> Очистить код от секретов (API ключи в .env)</li>
+            <li><span class="check check-done">&#10003;</span> Добавить .gitignore</li>
+            <li><span class="check check-done">&#10003;</span> Залить исходный код в Shapak-Apps/turkmen-phrasebook</li>
+            <li><span class="check check-todo">&#9744;</span> Создать полный README.md (3 языка: TK, RU, EN)</li>
+            <li><span class="check check-todo">&#9744;</span> Добавить MIT лицензию</li>
+            <li><span class="check check-todo">&#9744;</span> Настроить GitHub Pages</li>
+            <li><span class="check check-todo">&#9744;</span> Оформить организацию (логотип, описание, профиль)</li>
+            <li><span class="check check-todo">&#9744;</span> Создать Telegram-группу</li>
+        </ul>
+    </div>
+</div>
+
+<!-- ПРЕДУПРЕЖДЕНИЯ -->
+<div class="section">
+    <div class="section-title"><span class="icon">⚠️</span> Важные замечания</div>
+
+    <div class="warning-box">
+        <strong>expo-av устарел:</strong> Будет удалён в SDK 54. Нужно заменить на <span class="tag">expo-audio</span> + <span class="tag">expo-video</span>.
+    </div>
+
+    <div class="warning-box">
+        <strong>Обновление пакетов:</strong> 13 пакетов требуют обновления для совместимости с Expo 54. Некритично, но стоит сделать перед следующим билдом.
+    </div>
+
+    <div class="danger-box">
+        <strong>Keystore в репо:</strong> Файл <span class="tag">ykjam-terjime.jks</span> лежит в корне проекта. Не должен быть в Git! Добавить в .gitignore если ещё не добавлен.
+    </div>
+
+    <div class="highlight-box">
+        <strong>Git:</strong> Ветка — main, рабочая директория чистая. 2 неотслеженных файла: IDEA_ILLUSTRATIONS.md (дубликат в docs/).
+    </div>
+</div>
+
+<!-- ПРИОРИТЕТЫ -->
+<div class="section">
+    <div class="section-title"><span class="icon">⚡</span> Приоритеты (что делать дальше)</div>
+
+    <div class="card">
+        <table>
+            <thead><tr><th>#</th><th>Задача</th><th>Приоритет</th><th>Сложность</th></tr></thead>
+            <tbody>
+                <tr><td>1</td><td><strong>Собрать и залить v1.0.3 в Google Play + App Store</strong></td><td><span class="badge badge-todo">Срочно</span></td><td>Легко</td></tr>
+                <tr><td>2</td><td>Убрать ykjam-terjime.jks из Git, обновить .gitignore</td><td><span class="badge badge-todo">Срочно</span></td><td>Легко</td></tr>
+                <tr><td>3</td><td>Заменить expo-av на expo-audio</td><td><span class="badge badge-progress">Средний</span></td><td>Средняя</td></tr>
+                <tr><td>4</td><td>Обновить зависимости Expo 54</td><td><span class="badge badge-progress">Средний</span></td><td>Легко</td></tr>
+                <tr><td>5</td><td>Создать README.md + MIT лицензию (open source)</td><td><span class="badge badge-progress">Средний</span></td><td>Легко</td></tr>
+                <tr><td>6</td><td>Начать работу над v2.0 контентом (разговорники)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
+                <tr><td>7</td><td>Добавить иллюстрации к фразам</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+<div class="footer">
+    Ykjam Terjime &bull; Shapak-Apps &bull; 7 апреля 2026<br>
+    Создано автоматически на основе анализа кодовой базы
+</div>
+
+</body>
+</html>

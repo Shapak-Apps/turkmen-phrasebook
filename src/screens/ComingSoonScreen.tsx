@@ -31,6 +31,10 @@ const FEATURE_CONFIG = {
     version: '2.0',
     icon: 'sparkles-outline' as const,
   },
+  translator: {
+    version: '2.0',
+    icon: 'text-outline' as const,
+  },
 };
 
 export default function ComingSoonScreen() {
@@ -55,18 +59,21 @@ export default function ComingSoonScreen() {
   const getTitle = () => {
     if (feature === 'voice') return texts.voiceTranslatorTitle || 'Voice Translator';
     if (feature === 'ai') return texts.aiAssistantsTitle || 'AI Assistant';
+    if (feature === 'translator') return texts.textTranslatorTitle || 'Text Translator';
     return texts.visualTranslatorTitle || 'Visual Translator';
   };
 
   const getComingSoonTitle = () => {
     if (feature === 'voice') return texts.voiceComingSoonTitle || 'Voice Translator is Coming!';
     if (feature === 'ai') return texts.aiComingSoonTitle || 'AI Assistant is Coming!';
+    if (feature === 'translator') return 'Text Translator is Coming!';
     return texts.visualComingSoonTitle || 'Visual Translator is Coming!';
   };
 
   const getDescription = () => {
     if (feature === 'voice') return texts.voiceComingSoonDesc || 'We are working hard to bring you an amazing voice translation experience.';
     if (feature === 'ai') return texts.aiComingSoonDesc || 'We are working on an intelligent AI assistant to help you learn languages faster.';
+    if (feature === 'translator') return 'We are building a powerful text translator to help you communicate in any language.';
     return texts.visualComingSoonDesc || 'Translate text from images instantly with AI-powered recognition.';
   };
 
@@ -83,6 +90,13 @@ export default function ComingSoonScreen() {
         { icon: 'sparkles-outline' as const, text: texts.aiComingSoonFeature1 || 'Smart phrase explanations' },
         { icon: 'chatbubble-outline' as const, text: texts.aiComingSoonFeature2 || 'Interactive conversations' },
         { icon: 'school-outline' as const, text: texts.aiComingSoonFeature3 || 'Personalized learning tips' },
+      ];
+    }
+    if (feature === 'translator') {
+      return [
+        { icon: 'text-outline' as const, text: 'Translate text between 30+ languages' },
+        { icon: 'swap-horizontal-outline' as const, text: 'Auto language detection' },
+        { icon: 'copy-outline' as const, text: 'Copy & share translations' },
       ];
     }
     return [
