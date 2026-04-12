@@ -1,5 +1,5 @@
-# STATUS - Ykjam Terjime
-**Last Updated:** March 19, 2026
+# STATUS - Ykjam Terjime (Türkmen Gepleşik kitaby)
+**Last Updated:** April 9, 2026
 
 ---
 
@@ -15,6 +15,12 @@
 - [x] Заблокированы языки — открыты только: 🇨🇳 Китайский, 🇷🇺 Русский, 🇬🇧 Английский, 🇹🇷 Турецкий (+🇹🇲 Туркменский)
 - [x] AI раздел закрыт — Coming Soon v2.0 (отказ от Gemini API в v1)
 - [ ] Собрать билд и отправить в Google Play + App Store
+
+## Репозиторий:
+- Рабочая папка: C:\Users\seydi\Shapak-Apps\turkmen-phrasebook
+- GitHub: github.com/Shapak-Apps/turkmen-phrasebook
+- Старый репо (TheSeydiCharyyev/TurkmenPhrasebook): ✅ Архивирован (09.04.2026)
+- Секреты: .env (локально, не в GitHub)
 
 ## Keystore info:
 - File: D:\2. SEYDI\5. Documents\Google Play Keystore\ykjam-terjime.jks
