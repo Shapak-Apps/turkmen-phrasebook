@@ -12,15 +12,12 @@ interface ConfigContextType {
   turkmenLanguage: string;       // Всегда 'tk' (фиксированный)
   isLoading: boolean;
   isFirstLaunch: boolean;
-  onboardingCompleted: boolean;
-  setOnboardingCompleted: (completed: boolean) => Promise<void>;
 }
 
 const ConfigContext = createContext<ConfigContextType | undefined>(undefined);
 
 const STORAGE_KEY_LANGUAGE = '@turkmen_phrasebook:selected_language';
 const STORAGE_KEY_FIRST_LAUNCH = '@turkmen_phrasebook:first_launch';
-const STORAGE_KEY_ONBOARDING = '@onboarding_completed';
 
 interface ConfigProviderProps {
   children: ReactNode;
@@ -30,7 +27,6 @@ export const ConfigProvider: React.FC<ConfigProviderProps> = ({ children }) => {
   const [selectedLanguage, setSelectedLanguageState] = useState<string>('tk'); // Default туркменский
   const [isLoading, setIsLoading] = useState(true);
   const [isFirstLaunch, setIsFirstLaunch] = useState(true);
-  const [onboardingCompleted, setOnboardingCompleted] = useState(false);
 
   // Загрузка сохранённого языка при запуске
   useEffect(() => {
@@ -39,14 +35,10 @@ export const ConfigProvider: React.FC<ConfigProviderProps> = ({ children }) => {
 
   const loadConfig = async () => {
     try {
-      const [savedLanguage, firstLaunch, onboardingStatus] = await Promise.all([
+      const [savedLanguage, firstLaunch] = await Promise.all([
         AsyncStorage.getItem(STORAGE_KEY_LANGUAGE),
-        AsyncStorage.getItem(STORAGE_KEY_FIRST_LAUNCH),
-        AsyncStorage.getItem(STORAGE_KEY_ONBOARDING)
+        AsyncStorage.getItem(STORAGE_KEY_FIRST_LAUNCH)
       ]);
-
-      // Проверяем статус onboarding
-      setOnboardingCompleted(onboardingStatus === 'true');
 
       if (savedLanguage) {
         // Проверяем что язык доступен
@@ -113,24 +105,12 @@ export const ConfigProvider: React.FC<ConfigProviderProps> = ({ children }) => {
     }
   };
 
-  const setOnboardingCompletedFunc = async (completed: boolean) => {
-    try {
-      await AsyncStorage.setItem(STORAGE_KEY_ONBOARDING, completed ? 'true' : 'false');
-      setOnboardingCompleted(completed);
-    } catch (error) {
-      console.error('Failed to save onboarding status:', error);
-      throw error;
-    }
-  };
-
   const contextValue: ConfigContextType = {
     selectedLanguage,
     setSelectedLanguage,
     turkmenLanguage: 'tk', // Всегда туркменский
     isLoading,
     isFirstLaunch,
-    onboardingCompleted,
-    setOnboardingCompleted: setOnboardingCompletedFunc
   };
 
   return (

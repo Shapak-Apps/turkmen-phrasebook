@@ -105,22 +105,6 @@ describe('ConfigContext', () => {
       expect(result.current.selectedLanguage).toBe('tk');
     });
 
-    it('should load onboarding status', async () => {
-      (AsyncStorage.getItem as jest.Mock).mockImplementation((key: string) => {
-        if (key === '@onboarding_completed') {
-          return Promise.resolve('true');
-        }
-        return Promise.resolve(null);
-      });
-
-      const { result } = renderHook(() => useConfig(), { wrapper });
-
-      await waitFor(() => {
-        expect(result.current.isLoading).toBe(false);
-      });
-
-      expect(result.current.onboardingCompleted).toBe(true);
-    });
   });
 
   describe('setSelectedLanguage', () => {
@@ -165,38 +149,6 @@ describe('ConfigContext', () => {
           await result.current.setSelectedLanguage('unavailable');
         });
       }).rejects.toThrow('Language unavailable is not available yet');
-    });
-  });
-
-  describe('setOnboardingCompleted', () => {
-    it('should update onboarding status', async () => {
-      const { result } = renderHook(() => useConfig(), { wrapper });
-
-      await waitFor(() => {
-        expect(result.current.isLoading).toBe(false);
-      });
-
-      await act(async () => {
-        await result.current.setOnboardingCompleted(true);
-      });
-
-      expect(result.current.onboardingCompleted).toBe(true);
-      expect(AsyncStorage.setItem).toHaveBeenCalledWith('@onboarding_completed', 'true');
-    });
-
-    it('should handle setting onboarding to false', async () => {
-      const { result } = renderHook(() => useConfig(), { wrapper });
-
-      await waitFor(() => {
-        expect(result.current.isLoading).toBe(false);
-      });
-
-      await act(async () => {
-        await result.current.setOnboardingCompleted(false);
-      });
-
-      expect(result.current.onboardingCompleted).toBe(false);
-      expect(AsyncStorage.setItem).toHaveBeenCalledWith('@onboarding_completed', 'false');
     });
   });
 

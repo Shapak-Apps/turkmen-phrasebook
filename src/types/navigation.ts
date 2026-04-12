@@ -15,9 +15,6 @@ export type RootStackParamList = {
   // Language Selection - выбор языка интерфейса
   LanguageSelection: undefined;
 
-  // Onboarding - первичная настройка приложения
-  Onboarding: undefined;
-
   // Phrasebook Module (Phase 1 - Ready)
   Home: undefined;  // Phrasebook Home Stack
   PhraseDetail: { phrase: PhraseWithTranslation };

@@ -24,7 +24,7 @@ interface LanguageSelectionScreenProps {
 }
 
 export default function LanguageSelectionScreen({ navigation, onLanguageSelect }: LanguageSelectionScreenProps) {
-  const { setSelectedLanguage, selectedLanguage, onboardingCompleted } = useConfig();
+  const { setSelectedLanguage, selectedLanguage } = useConfig();
   const { setLanguageMode, config } = useAppLanguage();
   const [isChanging, setIsChanging] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -52,7 +52,7 @@ export default function LanguageSelectionScreen({ navigation, onLanguageSelect }
         } catch (error) {
           console.warn('Failed to save language on first launch:', error);
         }
-        navigation.replace(onboardingCompleted ? 'MainHub' : 'Onboarding');
+        navigation.replace('MainHub');
       }
       return;
     }
@@ -72,7 +72,7 @@ export default function LanguageSelectionScreen({ navigation, onLanguageSelect }
       if (code !== 'tk') await setSelectedLanguage(code);
 
       if (navigation) {
-        navigation.replace(onboardingCompleted ? 'MainHub' : 'Onboarding');
+        navigation.replace('MainHub');
       }
     } catch (error) {
       console.error('Failed to select language:', error);

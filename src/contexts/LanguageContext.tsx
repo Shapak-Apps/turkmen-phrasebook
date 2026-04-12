@@ -261,51 +261,6 @@ export interface InterfaceTexts {
   aiSelectModel: string;
   aiSelectModelMessage: string;
 
-  // Onboarding Screen
-  onboardingSkip: string;
-  onboardingNext: string;
-
-  // Slide 1: Welcome
-  onboardingWelcomeTitle: string;
-  onboardingWelcomeSubtitle: string;
-
-  // Slide 2: Phrasebook
-  onboardingPhrasebookTitle: string;
-  onboardingPhrasebookSubtitle: string;
-  onboardingPhrasebookDemo: string;
-  onboardingPlayAudio: string;
-  onboardingPlaying: string;
-
-  // Slide 2: Phrasebook - Features
-  onboardingFeatureAudio: string;
-  onboardingFeatureOffline: string;
-
-  // Slide 3: Translation
-  onboardingTranslationTitle: string;
-  onboardingTranslationSubtitle: string;
-  onboardingTextTranslator: string;
-  onboardingTranslate: string;
-  onboardingTryAgain: string;
-  onboardingVisualTranslator: string;
-  onboardingVoiceTranslator: string;
-  onboardingAIAssistant: string;
-  onboardingAIPowered: string;
-  onboardingComingSoon: string;
-
-  // Slide 4: Ready
-  onboardingReadyTitle: string;
-  onboardingReadySubtitle: string;
-  onboardingGetStarted: string;
-
-  // Slide 4: Ready - Feature Tags
-  onboardingTagPhrasebook: string;
-  onboardingTagAudio: string;
-  onboardingTagOffline: string;
-  onboardingTagTranslator: string;
-  onboardingTagAI: string;
-  onboardingTagVisual: string;
-  onboardingTagVoice: string;
-
   // Settings Screen - Additional translations (Task 1)
   settingsInstalledVoices?: string;
   settingsInstalledVoicesDesc?: string;
@@ -562,44 +517,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} çykar',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Geç',
-    onboardingNext: 'Indiki',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Türkmençä we türkmençeden — çalt hem aňsat terjime!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 dil jübütligi',
-    onboardingPhrasebookSubtitle: 'Sesli aýdylyş bilen gepleşik kitaby, oflaýn işleýär',
-    onboardingPhrasebookDemo: 'Salam',
-    onboardingPlayAudio: 'Sesi diňle',
-    onboardingPlaying: 'Oýnadylýar...',
-    onboardingFeatureAudio: 'Türkmençe sesli aýdylyş',
-    onboardingFeatureOffline: 'Internetsiz işleýär',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Akylly terjime',
-    onboardingTranslationSubtitle: 'Tekst terjimeçi we AI kömekçi',
-    onboardingTextTranslator: 'Tekst terjimeçi',
-    onboardingTranslate: 'Terjime et',
-    onboardingTryAgain: 'Gaýtadan synap gör',
-    onboardingVisualTranslator: 'Wizual terjimeçi',
-    onboardingVoiceTranslator: 'Ses terjimeçi',
-    onboardingAIAssistant: 'AI kömekçi',
-    onboardingAIPowered: 'AI bilen işleýär',
-    onboardingComingSoon: 'Ýakynda',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Hemme zat taýýar!',
-    onboardingReadySubtitle: 'Türkmen dilini häzir öwrenmäge başla',
-    onboardingGetStarted: 'Başla',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: 'Gepleşik kitaby',
-    onboardingTagAudio: 'Sesli aýdylyş',
-    onboardingTagOffline: 'Oflaýn',
-    onboardingTagTranslator: 'Terjimeçi',
-    onboardingTagAI: 'AI kömekçi',
-    onboardingTagVisual: 'Wizual terjime',
-    onboardingTagVoice: 'Ses terjime',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Gurlan sesler',
     settingsInstalledVoicesDesc: 'Ähli TTS seslerini görüň',
@@ -854,44 +771,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version}即将推出',
 
-    // Onboarding - Navigation
-    onboardingSkip: '跳过',
-    onboardingNext: '下一步',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: '土库曼语翻译 — 快速便捷！',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30种语言对',
-    onboardingPhrasebookSubtitle: '带语音发音的短语手册，支持离线',
-    onboardingPhrasebookDemo: '你好',
-    onboardingPlayAudio: '播放音频',
-    onboardingPlaying: '正在播放...',
-    onboardingFeatureAudio: '土库曼语语音发音',
-    onboardingFeatureOffline: '无需网络',
-    // Slide 3: Translation
-    onboardingTranslationTitle: '智能翻译',
-    onboardingTranslationSubtitle: '文本翻译器和AI助手',
-    onboardingTextTranslator: '文本翻译器',
-    onboardingTranslate: '翻译',
-    onboardingTryAgain: '重试',
-    onboardingVisualTranslator: '视觉翻译器',
-    onboardingVoiceTranslator: '语音翻译器',
-    onboardingAIAssistant: 'AI助手',
-    onboardingAIPowered: '由AI驱动',
-    onboardingComingSoon: '即将推出',
-    // Slide 4: Ready
-    onboardingReadyTitle: '一切就绪！',
-    onboardingReadySubtitle: '立即开始学习土库曼语',
-    onboardingGetStarted: '开始使用',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '短语手册',
-    onboardingTagAudio: '语音发音',
-    onboardingTagOffline: '离线',
-    onboardingTagTranslator: '翻译器',
-    onboardingTagAI: 'AI助手',
-    onboardingTagVisual: '视觉翻译',
-    onboardingTagVoice: '语音翻译',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: '已安装语音',
     settingsInstalledVoicesDesc: '查看所有TTS语音',
@@ -1144,44 +1023,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Выйдет в v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'Пропустить',
-    onboardingNext: 'Далее',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Переводи на туркменский и с туркменского — быстро и удобно!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 языковых пар',
-    onboardingPhrasebookSubtitle: 'Разговорник с озвучкой, работает офлайн',
-    onboardingPhrasebookDemo: 'Привет',
-    onboardingPlayAudio: 'Воспроизвести',
-    onboardingPlaying: 'Воспроизведение...',
-    onboardingFeatureAudio: 'Озвучка на туркменском',
-    onboardingFeatureOffline: 'Работает без интернета',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Умный перевод',
-    onboardingTranslationSubtitle: 'Текстовый переводчик и AI помощник',
-    onboardingTextTranslator: 'Текстовый переводчик',
-    onboardingTranslate: 'Перевести',
-    onboardingTryAgain: 'Ещё раз',
-    onboardingVisualTranslator: 'Визуальный переводчик',
-    onboardingVoiceTranslator: 'Голосовой переводчик',
-    onboardingAIAssistant: 'AI помощник',
-    onboardingAIPowered: 'На базе AI',
-    onboardingComingSoon: 'Скоро',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Всё готово!',
-    onboardingReadySubtitle: 'Начни изучение туркменского прямо сейчас',
-    onboardingGetStarted: 'Начать',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Разговорник',
-    onboardingTagAudio: '🔊 Озвучка',
-    onboardingTagOffline: '✈️ Офлайн',
-    onboardingTagTranslator: '📝 Переводчик',
-    onboardingTagAI: '🤖 AI помощник',
-    onboardingTagVisual: '📷 Визуальный',
-    onboardingTagVoice: '🎤 Голосовой',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Установленные голоса',
@@ -1436,44 +1277,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Coming in v{version}',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Skip',
-    onboardingNext: 'Next',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Translate to and from Turkmen — fast and easy!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 language pairs',
-    onboardingPhrasebookSubtitle: 'Phrasebook with audio, works offline',
-    onboardingPhrasebookDemo: 'Hello',
-    onboardingPlayAudio: 'Play',
-    onboardingPlaying: 'Playing...',
-    onboardingFeatureAudio: 'Turkmen audio pronunciation',
-    onboardingFeatureOffline: 'Works without internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Smart Translation',
-    onboardingTranslationSubtitle: 'Text translator and AI assistant',
-    onboardingTextTranslator: 'Text Translator',
-    onboardingTranslate: 'Translate',
-    onboardingTryAgain: 'Try Again',
-    onboardingVisualTranslator: 'Visual Translator',
-    onboardingVoiceTranslator: 'Voice Translator',
-    onboardingAIAssistant: 'AI Assistant',
-    onboardingAIPowered: 'AI Powered',
-    onboardingComingSoon: 'Coming Soon',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'All Set!',
-    onboardingReadySubtitle: 'Start learning Turkmen right now',
-    onboardingGetStarted: 'Get Started',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Phrasebook',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Translator',
-    onboardingTagAI: '🤖 AI Assistant',
-    onboardingTagVisual: '📷 Visual',
-    onboardingTagVoice: '🎤 Voice',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Installed Voices',
     settingsInstalledVoicesDesc: 'View all available TTS voices',
@@ -1727,44 +1530,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} sürümünde çıkacak',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Geç',
-    onboardingNext: 'İleri',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Türkmence çeviri — hızlı ve kolay!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 dil çifti',
-    onboardingPhrasebookSubtitle: 'Sesli konuşma kılavuzu, çevrimdışı çalışır',
-    onboardingPhrasebookDemo: 'Merhaba',
-    onboardingPlayAudio: 'Oynat',
-    onboardingPlaying: 'Oynatılıyor...',
-    onboardingFeatureAudio: 'Türkmence sesli telaffuz',
-    onboardingFeatureOffline: 'İnternetsiz çalışır',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Akıllı Çeviri',
-    onboardingTranslationSubtitle: 'Metin çevirici ve AI asistan',
-    onboardingTextTranslator: 'Metin Çevirici',
-    onboardingTranslate: 'Çevir',
-    onboardingTryAgain: 'Tekrar Dene',
-    onboardingVisualTranslator: 'Görsel Çevirici',
-    onboardingVoiceTranslator: 'Sesli Çevirici',
-    onboardingAIAssistant: 'AI Asistan',
-    onboardingAIPowered: 'AI Destekli',
-    onboardingComingSoon: 'Yakında',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Her Şey Hazır!',
-    onboardingReadySubtitle: 'Türkmence öğrenmeye hemen başla',
-    onboardingGetStarted: 'Başla',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Konuşma Kılavuzu',
-    onboardingTagAudio: '🔊 Sesli',
-    onboardingTagOffline: '✈️ Çevrimdışı',
-    onboardingTagTranslator: '📝 Çevirici',
-    onboardingTagAI: '🤖 AI Asistan',
-    onboardingTagVisual: '📷 Görsel',
-    onboardingTagVoice: '🎤 Sesli',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Yüklü Sesler',
     settingsInstalledVoicesDesc: 'Tüm TTS seslerini görüntüle',
@@ -1991,44 +1756,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Kommt in v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'Überspringen',
-    onboardingNext: 'Weiter',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Turkmenisch übersetzen — schnell und einfach!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 Sprachpaare',
-    onboardingPhrasebookSubtitle: 'Sprachführer mit Audio, funktioniert offline',
-    onboardingPhrasebookDemo: 'Hallo',
-    onboardingPlayAudio: 'Abspielen',
-    onboardingPlaying: 'Wird abgespielt...',
-    onboardingFeatureAudio: 'Turkmenische Aussprache',
-    onboardingFeatureOffline: 'Funktioniert ohne Internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Intelligente Übersetzung',
-    onboardingTranslationSubtitle: 'Textübersetzer und KI-Assistent',
-    onboardingTextTranslator: 'Textübersetzer',
-    onboardingTranslate: 'Übersetzen',
-    onboardingTryAgain: 'Erneut versuchen',
-    onboardingVisualTranslator: 'Visueller Übersetzer',
-    onboardingVoiceTranslator: 'Sprachübersetzer',
-    onboardingAIAssistant: 'KI-Assistent',
-    onboardingAIPowered: 'KI-gestützt',
-    onboardingComingSoon: 'Demnächst',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Alles bereit!',
-    onboardingReadySubtitle: 'Beginne jetzt Turkmenisch zu lernen',
-    onboardingGetStarted: 'Jetzt starten',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Sprachführer',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Übersetzer',
-    onboardingTagAI: '🤖 KI-Assistent',
-    onboardingTagVisual: '📷 Visuell',
-    onboardingTagVoice: '🎤 Sprache',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Installierte Stimmen',
@@ -2257,44 +1984,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Disponible en v{version}',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Passer',
-    onboardingNext: 'Suivant',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Traduction turkmène — rapide et facile !',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 paires de langues',
-    onboardingPhrasebookSubtitle: 'Guide de conversation avec audio, fonctionne hors ligne',
-    onboardingPhrasebookDemo: 'Bonjour',
-    onboardingPlayAudio: 'Lire',
-    onboardingPlaying: 'Lecture en cours...',
-    onboardingFeatureAudio: 'Prononciation turkmène',
-    onboardingFeatureOffline: 'Fonctionne sans internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Traduction intelligente',
-    onboardingTranslationSubtitle: 'Traducteur de texte et assistant IA',
-    onboardingTextTranslator: 'Traducteur de texte',
-    onboardingTranslate: 'Traduire',
-    onboardingTryAgain: 'Réessayer',
-    onboardingVisualTranslator: 'Traducteur visuel',
-    onboardingVoiceTranslator: 'Traducteur vocal',
-    onboardingAIAssistant: 'Assistant IA',
-    onboardingAIPowered: 'Propulsé par IA',
-    onboardingComingSoon: 'Bientôt',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Tout est prêt !',
-    onboardingReadySubtitle: 'Commencez à apprendre le turkmène maintenant',
-    onboardingGetStarted: 'Commencer',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Guide',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Hors ligne',
-    onboardingTagTranslator: '📝 Traducteur',
-    onboardingTagAI: '🤖 Assistant IA',
-    onboardingTagVisual: '📷 Visuel',
-    onboardingTagVoice: '🎤 Vocal',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Voix installées',
     settingsInstalledVoicesDesc: 'Voir toutes les voix TTS disponibles',
@@ -2518,44 +2207,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Disponible en v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'Omitir',
-    onboardingNext: 'Siguiente',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Traducción turcomana — ¡rápida y fácil!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 pares de idiomas',
-    onboardingPhrasebookSubtitle: 'Guía de conversación con audio, funciona sin conexión',
-    onboardingPhrasebookDemo: 'Hola',
-    onboardingPlayAudio: 'Reproducir',
-    onboardingPlaying: 'Reproduciendo...',
-    onboardingFeatureAudio: 'Pronunciación turcomana',
-    onboardingFeatureOffline: 'Funciona sin internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Traducción inteligente',
-    onboardingTranslationSubtitle: 'Traductor de texto y asistente IA',
-    onboardingTextTranslator: 'Traductor de texto',
-    onboardingTranslate: 'Traducir',
-    onboardingTryAgain: 'Intentar de nuevo',
-    onboardingVisualTranslator: 'Traductor visual',
-    onboardingVoiceTranslator: 'Traductor de voz',
-    onboardingAIAssistant: 'Asistente IA',
-    onboardingAIPowered: 'Impulsado por IA',
-    onboardingComingSoon: 'Próximamente',
-    // Slide 4: Ready
-    onboardingReadyTitle: '¡Todo listo!',
-    onboardingReadySubtitle: 'Comienza a aprender turcomano ahora',
-    onboardingGetStarted: 'Comenzar',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Guía',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Sin conexión',
-    onboardingTagTranslator: '📝 Traductor',
-    onboardingTagAI: '🤖 Asistente IA',
-    onboardingTagVisual: '📷 Visual',
-    onboardingTagVoice: '🎤 Voz',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Voces instaladas',
@@ -2781,44 +2432,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Disponibile nella v{version}',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Salta',
-    onboardingNext: 'Avanti',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Traduzione turkmena — veloce e facile!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 coppie di lingue',
-    onboardingPhrasebookSubtitle: 'Frasario con audio, funziona offline',
-    onboardingPhrasebookDemo: 'Ciao',
-    onboardingPlayAudio: 'Riproduci',
-    onboardingPlaying: 'Riproduzione...',
-    onboardingFeatureAudio: 'Pronuncia turkmena',
-    onboardingFeatureOffline: 'Funziona senza internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Traduzione intelligente',
-    onboardingTranslationSubtitle: 'Traduttore di testo e assistente IA',
-    onboardingTextTranslator: 'Traduttore di testo',
-    onboardingTranslate: 'Traduci',
-    onboardingTryAgain: 'Riprova',
-    onboardingVisualTranslator: 'Traduttore visivo',
-    onboardingVoiceTranslator: 'Traduttore vocale',
-    onboardingAIAssistant: 'Assistente IA',
-    onboardingAIPowered: 'Alimentato da IA',
-    onboardingComingSoon: 'Prossimamente',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Tutto pronto!',
-    onboardingReadySubtitle: 'Inizia a imparare il turkmeno ora',
-    onboardingGetStarted: 'Inizia',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Frasario',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Traduttore',
-    onboardingTagAI: '🤖 Assistente IA',
-    onboardingTagVisual: '📷 Visivo',
-    onboardingTagVoice: '🎤 Vocale',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Voci installate',
     settingsInstalledVoicesDesc: 'Visualizza tutte le voci TTS disponibili',
@@ -3041,44 +2654,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Disponível na v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'Pular',
-    onboardingNext: 'Próximo',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Tradução turcomana — rápida e fácil!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 pares de idiomas',
-    onboardingPhrasebookSubtitle: 'Guia de conversação com áudio, funciona offline',
-    onboardingPhrasebookDemo: 'Olá',
-    onboardingPlayAudio: 'Reproduzir',
-    onboardingPlaying: 'Reproduzindo...',
-    onboardingFeatureAudio: 'Pronúncia turcomana',
-    onboardingFeatureOffline: 'Funciona sem internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Tradução inteligente',
-    onboardingTranslationSubtitle: 'Tradutor de texto e assistente IA',
-    onboardingTextTranslator: 'Tradutor de texto',
-    onboardingTranslate: 'Traduzir',
-    onboardingTryAgain: 'Tentar novamente',
-    onboardingVisualTranslator: 'Tradutor visual',
-    onboardingVoiceTranslator: 'Tradutor de voz',
-    onboardingAIAssistant: 'Assistente IA',
-    onboardingAIPowered: 'Alimentado por IA',
-    onboardingComingSoon: 'Em breve',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Tudo pronto!',
-    onboardingReadySubtitle: 'Comece a aprender turcomano agora',
-    onboardingGetStarted: 'Começar',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Guia',
-    onboardingTagAudio: '🔊 Áudio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Tradutor',
-    onboardingTagAI: '🤖 Assistente IA',
-    onboardingTagVisual: '📷 Visual',
-    onboardingTagVoice: '🎤 Voz',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Vozes instaladas',
@@ -3303,44 +2878,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Beschikbaar in v{version}',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Overslaan',
-    onboardingNext: 'Volgende',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Turkmeense vertaling — snel en gemakkelijk!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 taalparen',
-    onboardingPhrasebookSubtitle: 'Taalgids met audio, werkt offline',
-    onboardingPhrasebookDemo: 'Hallo',
-    onboardingPlayAudio: 'Afspelen',
-    onboardingPlaying: 'Afspelen...',
-    onboardingFeatureAudio: 'Turkmeense uitspraak',
-    onboardingFeatureOffline: 'Werkt zonder internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Slimme vertaling',
-    onboardingTranslationSubtitle: 'Tekstvertaler en AI-assistent',
-    onboardingTextTranslator: 'Tekstvertaler',
-    onboardingTranslate: 'Vertalen',
-    onboardingTryAgain: 'Opnieuw proberen',
-    onboardingVisualTranslator: 'Visuele vertaler',
-    onboardingVoiceTranslator: 'Spraakvertaler',
-    onboardingAIAssistant: 'AI-assistent',
-    onboardingAIPowered: 'AI-aangedreven',
-    onboardingComingSoon: 'Binnenkort',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Alles klaar!',
-    onboardingReadySubtitle: 'Begin nu met Turkmeen leren',
-    onboardingGetStarted: 'Aan de slag',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Taalgids',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Vertaler',
-    onboardingTagAI: '🤖 AI-assistent',
-    onboardingTagVisual: '📷 Visueel',
-    onboardingTagVoice: '🎤 Spraak',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Geïnstalleerde stemmen',
     settingsInstalledVoicesDesc: 'Bekijk alle beschikbare TTS-stemmen',
@@ -3563,44 +3100,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Dostępne w v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'Pomiń',
-    onboardingNext: 'Dalej',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Tłumaczenie turkmeńskie — szybko i łatwo!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 par językowych',
-    onboardingPhrasebookSubtitle: 'Rozmówki z audio, działają offline',
-    onboardingPhrasebookDemo: 'Cześć',
-    onboardingPlayAudio: 'Odtwórz',
-    onboardingPlaying: 'Odtwarzanie...',
-    onboardingFeatureAudio: 'Turkmeńska wymowa',
-    onboardingFeatureOffline: 'Działa bez internetu',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Inteligentne tłumaczenie',
-    onboardingTranslationSubtitle: 'Tłumacz tekstowy i asystent AI',
-    onboardingTextTranslator: 'Tłumacz tekstowy',
-    onboardingTranslate: 'Przetłumacz',
-    onboardingTryAgain: 'Spróbuj ponownie',
-    onboardingVisualTranslator: 'Tłumacz wizualny',
-    onboardingVoiceTranslator: 'Tłumacz głosowy',
-    onboardingAIAssistant: 'Asystent AI',
-    onboardingAIPowered: 'Napędzane AI',
-    onboardingComingSoon: 'Wkrótce',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Wszystko gotowe!',
-    onboardingReadySubtitle: 'Zacznij uczyć się turkmeńskiego teraz',
-    onboardingGetStarted: 'Rozpocznij',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Rozmówki',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Tłumacz',
-    onboardingTagAI: '🤖 Asystent AI',
-    onboardingTagVisual: '📷 Wizualny',
-    onboardingTagVoice: '🎤 Głosowy',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Zainstalowane głosy',
@@ -3828,44 +3327,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Вийде у v{version}',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Пропустити',
-    onboardingNext: 'Далі',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Переклад туркменською — швидко та зручно!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 мовних пар',
-    onboardingPhrasebookSubtitle: 'Розмовник з озвучкою, працює офлайн',
-    onboardingPhrasebookDemo: 'Привіт',
-    onboardingPlayAudio: 'Відтворити',
-    onboardingPlaying: 'Відтворення...',
-    onboardingFeatureAudio: 'Озвучка туркменською',
-    onboardingFeatureOffline: 'Працює без інтернету',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Розумний переклад',
-    onboardingTranslationSubtitle: 'Текстовий перекладач і AI помічник',
-    onboardingTextTranslator: 'Текстовий перекладач',
-    onboardingTranslate: 'Перекласти',
-    onboardingTryAgain: 'Ще раз',
-    onboardingVisualTranslator: 'Візуальний перекладач',
-    onboardingVoiceTranslator: 'Голосовий перекладач',
-    onboardingAIAssistant: 'AI помічник',
-    onboardingAIPowered: 'На базі AI',
-    onboardingComingSoon: 'Незабаром',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Все готово!',
-    onboardingReadySubtitle: 'Почни вивчати туркменську прямо зараз',
-    onboardingGetStarted: 'Почати',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Розмовник',
-    onboardingTagAudio: '🔊 Озвучка',
-    onboardingTagOffline: '✈️ Офлайн',
-    onboardingTagTranslator: '📝 Перекладач',
-    onboardingTagAI: '🤖 AI помічник',
-    onboardingTagVisual: '📷 Візуальний',
-    onboardingTagVoice: '🎤 Голосовий',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Встановлені голоси',
     settingsInstalledVoicesDesc: 'Переглянути всі доступні TTS голоси',
@@ -4090,44 +3551,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'v{version}で公開',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'スキップ',
-    onboardingNext: '次へ',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'トルクメン語翻訳 — 速くて簡単！',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30の言語ペア',
-    onboardingPhrasebookSubtitle: '音声付きフレーズブック、オフライン対応',
-    onboardingPhrasebookDemo: 'こんにちは',
-    onboardingPlayAudio: '再生',
-    onboardingPlaying: '再生中...',
-    onboardingFeatureAudio: 'トルクメン語音声発音',
-    onboardingFeatureOffline: 'インターネット不要',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'スマート翻訳',
-    onboardingTranslationSubtitle: 'テキスト翻訳とAIアシスタント',
-    onboardingTextTranslator: 'テキスト翻訳',
-    onboardingTranslate: '翻訳',
-    onboardingTryAgain: 'もう一度',
-    onboardingVisualTranslator: 'ビジュアル翻訳',
-    onboardingVoiceTranslator: '音声翻訳',
-    onboardingAIAssistant: 'AIアシスタント',
-    onboardingAIPowered: 'AI搭載',
-    onboardingComingSoon: '近日公開',
-    // Slide 4: Ready
-    onboardingReadyTitle: '準備完了！',
-    onboardingReadySubtitle: '今すぐトルクメン語を学び始めよう',
-    onboardingGetStarted: '始める',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 フレーズブック',
-    onboardingTagAudio: '🔊 音声',
-    onboardingTagOffline: '✈️ オフライン',
-    onboardingTagTranslator: '📝 翻訳',
-    onboardingTagAI: '🤖 AIアシスタント',
-    onboardingTagVisual: '📷 ビジュアル',
-    onboardingTagVoice: '🎤 音声',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'インストール済み音声',
@@ -4354,44 +3777,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version}에서 출시',
 
-    // Onboarding - Navigation
-    onboardingSkip: '건너뛰기',
-    onboardingNext: '다음',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: '투르크멘어 번역 — 빠르고 쉽게!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30개 언어 쌍',
-    onboardingPhrasebookSubtitle: '음성 포함 회화집, 오프라인 지원',
-    onboardingPhrasebookDemo: '안녕하세요',
-    onboardingPlayAudio: '재생',
-    onboardingPlaying: '재생 중...',
-    onboardingFeatureAudio: '투르크멘어 음성 발음',
-    onboardingFeatureOffline: '인터넷 없이 작동',
-    // Slide 3: Translation
-    onboardingTranslationTitle: '스마트 번역',
-    onboardingTranslationSubtitle: '텍스트 번역기와 AI 어시스턴트',
-    onboardingTextTranslator: '텍스트 번역기',
-    onboardingTranslate: '번역',
-    onboardingTryAgain: '다시 시도',
-    onboardingVisualTranslator: '시각적 번역기',
-    onboardingVoiceTranslator: '음성 번역기',
-    onboardingAIAssistant: 'AI 어시스턴트',
-    onboardingAIPowered: 'AI 기반',
-    onboardingComingSoon: '출시 예정',
-    // Slide 4: Ready
-    onboardingReadyTitle: '모두 준비 완료!',
-    onboardingReadySubtitle: '지금 투르크멘어 학습을 시작하세요',
-    onboardingGetStarted: '시작하기',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 회화집',
-    onboardingTagAudio: '🔊 음성',
-    onboardingTagOffline: '✈️ 오프라인',
-    onboardingTagTranslator: '📝 번역기',
-    onboardingTagAI: '🤖 AI 어시스턴트',
-    onboardingTagVisual: '📷 시각적',
-    onboardingTagVoice: '🎤 음성',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: '설치된 음성',
     settingsInstalledVoicesDesc: '사용 가능한 모든 TTS 음성 보기',
@@ -4616,44 +4001,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'มาใน v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'ข้าม',
-    onboardingNext: 'ถัดไป',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'แปลภาษาเติร์กเมน — เร็วและง่าย!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 คู่ภาษา',
-    onboardingPhrasebookSubtitle: 'คู่มือสนทนาพร้อมเสียง ใช้ออฟไลน์ได้',
-    onboardingPhrasebookDemo: 'สวัสดี',
-    onboardingPlayAudio: 'เล่น',
-    onboardingPlaying: 'กำลังเล่น...',
-    onboardingFeatureAudio: 'การออกเสียงภาษาเติร์กเมน',
-    onboardingFeatureOffline: 'ใช้งานได้โดยไม่ต้องใช้อินเทอร์เน็ต',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'การแปลอัจฉริยะ',
-    onboardingTranslationSubtitle: 'ตัวแปลข้อความและผู้ช่วย AI',
-    onboardingTextTranslator: 'ตัวแปลข้อความ',
-    onboardingTranslate: 'แปล',
-    onboardingTryAgain: 'ลองอีกครั้ง',
-    onboardingVisualTranslator: 'ตัวแปลภาพ',
-    onboardingVoiceTranslator: 'ตัวแปลเสียง',
-    onboardingAIAssistant: 'ผู้ช่วย AI',
-    onboardingAIPowered: 'ขับเคลื่อนด้วย AI',
-    onboardingComingSoon: 'เร็วๆ นี้',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'พร้อมทุกอย่างแล้ว!',
-    onboardingReadySubtitle: 'เริ่มเรียนภาษาเติร์กเมนตอนนี้เลย',
-    onboardingGetStarted: 'เริ่มต้น',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 คู่มือสนทนา',
-    onboardingTagAudio: '🔊 เสียง',
-    onboardingTagOffline: '✈️ ออฟไลน์',
-    onboardingTagTranslator: '📝 ตัวแปล',
-    onboardingTagAI: '🤖 ผู้ช่วย AI',
-    onboardingTagVisual: '📷 ภาพ',
-    onboardingTagVoice: '🎤 เสียง',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'เสียงที่ติดตั้ง',
@@ -4880,44 +4227,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Ra mắt trong v{version}',
 
-    // Onboarding - Navigation
-    onboardingSkip: 'Bỏ qua',
-    onboardingNext: 'Tiếp theo',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Dịch tiếng Turkmen — nhanh và dễ dàng!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 cặp ngôn ngữ',
-    onboardingPhrasebookSubtitle: 'Sách cụm từ có âm thanh, hoạt động ngoại tuyến',
-    onboardingPhrasebookDemo: 'Xin chào',
-    onboardingPlayAudio: 'Phát',
-    onboardingPlaying: 'Đang phát...',
-    onboardingFeatureAudio: 'Phát âm tiếng Turkmen',
-    onboardingFeatureOffline: 'Hoạt động không cần internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Dịch thông minh',
-    onboardingTranslationSubtitle: 'Trình dịch văn bản và trợ lý AI',
-    onboardingTextTranslator: 'Trình dịch văn bản',
-    onboardingTranslate: 'Dịch',
-    onboardingTryAgain: 'Thử lại',
-    onboardingVisualTranslator: 'Trình dịch hình ảnh',
-    onboardingVoiceTranslator: 'Trình dịch giọng nói',
-    onboardingAIAssistant: 'Trợ lý AI',
-    onboardingAIPowered: 'Hỗ trợ bởi AI',
-    onboardingComingSoon: 'Sắp ra mắt',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Tất cả đã sẵn sàng!',
-    onboardingReadySubtitle: 'Bắt đầu học tiếng Turkmen ngay bây giờ',
-    onboardingGetStarted: 'Bắt đầu',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Sách cụm từ',
-    onboardingTagAudio: '🔊 Âm thanh',
-    onboardingTagOffline: '✈️ Ngoại tuyến',
-    onboardingTagTranslator: '📝 Trình dịch',
-    onboardingTagAI: '🤖 Trợ lý AI',
-    onboardingTagVisual: '📷 Hình ảnh',
-    onboardingTagVoice: '🎤 Giọng nói',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Giọng nói đã cài',
     settingsInstalledVoicesDesc: 'Xem tất cả giọng TTS có sẵn',
@@ -5142,44 +4451,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Tersedia di v{version}',
-
-    // Onboarding - Navigation
-    onboardingSkip: 'Lewati',
-    onboardingNext: 'Berikutnya',
-    // Slide 1: Welcome
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Terjemahan Turkmen — cepat dan mudah!',
-    // Slide 2: Phrasebook
-    onboardingPhrasebookTitle: '30 pasangan bahasa',
-    onboardingPhrasebookSubtitle: 'Buku frasa dengan audio, bekerja offline',
-    onboardingPhrasebookDemo: 'Halo',
-    onboardingPlayAudio: 'Putar',
-    onboardingPlaying: 'Memutar...',
-    onboardingFeatureAudio: 'Pengucapan bahasa Turkmen',
-    onboardingFeatureOffline: 'Bekerja tanpa internet',
-    // Slide 3: Translation
-    onboardingTranslationTitle: 'Terjemahan Cerdas',
-    onboardingTranslationSubtitle: 'Penerjemah teks dan asisten AI',
-    onboardingTextTranslator: 'Penerjemah Teks',
-    onboardingTranslate: 'Terjemahkan',
-    onboardingTryAgain: 'Coba Lagi',
-    onboardingVisualTranslator: 'Penerjemah Visual',
-    onboardingVoiceTranslator: 'Penerjemah Suara',
-    onboardingAIAssistant: 'Asisten AI',
-    onboardingAIPowered: 'Didukung AI',
-    onboardingComingSoon: 'Segera hadir',
-    // Slide 4: Ready
-    onboardingReadyTitle: 'Semua Siap!',
-    onboardingReadySubtitle: 'Mulai belajar Turkmen sekarang',
-    onboardingGetStarted: 'Mulai',
-    // Slide 4: Ready - Feature Tags
-    onboardingTagPhrasebook: '📖 Buku Frasa',
-    onboardingTagAudio: '🔊 Audio',
-    onboardingTagOffline: '✈️ Offline',
-    onboardingTagTranslator: '📝 Penerjemah',
-    onboardingTagAI: '🤖 Asisten AI',
-    onboardingTagVisual: '📷 Visual',
-    onboardingTagVoice: '🎤 Suara',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Suara Terpasang',
@@ -5406,39 +4677,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Tersedia dalam v{version}',
 
-    // Onboarding
-    onboardingSkip: 'Langkau',
-    onboardingNext: 'Seterusnya',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Terjemah ke dan dari bahasa Turkmen — pantas dan mudah!',
-    onboardingPhrasebookTitle: '30 pasangan bahasa',
-    onboardingPhrasebookSubtitle: 'Buku frasa dengan sebutan, berfungsi luar talian',
-    onboardingPhrasebookDemo: 'Hello',
-    onboardingPlayAudio: 'Main Audio',
-    onboardingPlaying: 'Memainkan...',
-    onboardingFeatureAudio: 'Sebutan dalam bahasa Turkmen',
-    onboardingFeatureOffline: 'Berfungsi tanpa internet',
-    onboardingTranslationTitle: 'Terjemahan Pintar',
-    onboardingTranslationSubtitle: 'Penterjemah teks dan pembantu AI',
-    onboardingTextTranslator: 'Penterjemah Teks',
-    onboardingTranslate: 'Terjemah',
-    onboardingTryAgain: 'Cuba Lagi',
-    onboardingVisualTranslator: 'Penterjemah Visual',
-    onboardingVoiceTranslator: 'Penterjemah Suara',
-    onboardingAIAssistant: 'Pembantu AI',
-    onboardingAIPowered: 'Dikuasakan AI',
-    onboardingComingSoon: 'Akan datang',
-    onboardingReadyTitle: 'Semua sedia!',
-    onboardingReadySubtitle: 'Mula belajar bahasa Turkmen sekarang',
-    onboardingGetStarted: 'Mula',
-    onboardingTagPhrasebook: '📖 Buku Frasa',
-    onboardingTagAudio: '🔊 Sebutan',
-    onboardingTagOffline: '✈️ Luar Talian',
-    onboardingTagTranslator: '📝 Penterjemah',
-    onboardingTagAI: '🤖 Pembantu AI',
-    onboardingTagVisual: '📷 Visual',
-    onboardingTagVoice: '🎤 Suara',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Suara Dipasang',
     settingsInstalledVoicesDesc: 'Lihat semua suara TTS yang tersedia',
@@ -5663,39 +4901,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} में उपलब्ध',
-
-    // Onboarding
-    onboardingSkip: 'छोड़ें',
-    onboardingNext: 'आगे',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'तुर्कमेन में और तुर्कमेन से अनुवाद करें — तेज़ और आसान!',
-    onboardingPhrasebookTitle: '30 भाषा जोड़े',
-    onboardingPhrasebookSubtitle: 'उच्चारण के साथ वाक्यांश पुस्तक, ऑफ़लाइन काम करती है',
-    onboardingPhrasebookDemo: 'नमस्ते',
-    onboardingPlayAudio: 'ऑडियो चलाएं',
-    onboardingPlaying: 'चल रहा है...',
-    onboardingFeatureAudio: 'तुर्कमेन में उच्चारण',
-    onboardingFeatureOffline: 'इंटरनेट के बिना काम करता है',
-    onboardingTranslationTitle: 'स्मार्ट अनुवाद',
-    onboardingTranslationSubtitle: 'पाठ अनुवादक और AI सहायक',
-    onboardingTextTranslator: 'पाठ अनुवादक',
-    onboardingTranslate: 'अनुवाद करें',
-    onboardingTryAgain: 'पुनः प्रयास करें',
-    onboardingVisualTranslator: 'दृश्य अनुवादक',
-    onboardingVoiceTranslator: 'वॉयस अनुवादक',
-    onboardingAIAssistant: 'AI सहायक',
-    onboardingAIPowered: 'AI संचालित',
-    onboardingComingSoon: 'जल्द आ रहा है',
-    onboardingReadyTitle: 'सब तैयार!',
-    onboardingReadySubtitle: 'अभी तुर्कमेन सीखना शुरू करें',
-    onboardingGetStarted: 'शुरू करें',
-    onboardingTagPhrasebook: '📖 वाक्यांश पुस्तक',
-    onboardingTagAudio: '🔊 उच्चारण',
-    onboardingTagOffline: '✈️ ऑफ़लाइन',
-    onboardingTagTranslator: '📝 अनुवादक',
-    onboardingTagAI: '🤖 AI सहायक',
-    onboardingTagVisual: '📷 दृश्य',
-    onboardingTagVoice: '🎤 वॉयस',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'स्थापित आवाजें',
@@ -5922,39 +5127,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} میں دستیاب',
 
-    // Onboarding
-    onboardingSkip: 'چھوڑیں',
-    onboardingNext: 'اگلا',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'ترکمن میں اور ترکمن سے ترجمہ کریں — تیز اور آسان!',
-    onboardingPhrasebookTitle: '30 زبان کے جوڑے',
-    onboardingPhrasebookSubtitle: 'تلفظ کے ساتھ فقرہ کتاب، آف لائن کام کرتی ہے',
-    onboardingPhrasebookDemo: 'ہیلو',
-    onboardingPlayAudio: 'آڈیو چلائیں',
-    onboardingPlaying: 'چل رہا ہے...',
-    onboardingFeatureAudio: 'ترکمن میں تلفظ',
-    onboardingFeatureOffline: 'انٹرنیٹ کے بغیر کام کرتا ہے',
-    onboardingTranslationTitle: 'سمارٹ ترجمہ',
-    onboardingTranslationSubtitle: 'ٹیکسٹ مترجم اور AI معاون',
-    onboardingTextTranslator: 'ٹیکسٹ مترجم',
-    onboardingTranslate: 'ترجمہ کریں',
-    onboardingTryAgain: 'دوبارہ کوشش کریں',
-    onboardingVisualTranslator: 'بصری مترجم',
-    onboardingVoiceTranslator: 'صوتی مترجم',
-    onboardingAIAssistant: 'AI معاون',
-    onboardingAIPowered: 'AI سے چلنے والا',
-    onboardingComingSoon: 'جلد آ رہا ہے',
-    onboardingReadyTitle: 'سب تیار!',
-    onboardingReadySubtitle: 'ابھی ترکمن سیکھنا شروع کریں',
-    onboardingGetStarted: 'شروع کریں',
-    onboardingTagPhrasebook: '📖 فقرہ کتاب',
-    onboardingTagAudio: '🔊 تلفظ',
-    onboardingTagOffline: '✈️ آف لائن',
-    onboardingTagTranslator: '📝 مترجم',
-    onboardingTagAI: '🤖 AI معاون',
-    onboardingTagVisual: '📷 بصری',
-    onboardingTagVoice: '🎤 صوتی',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'نصب شدہ آوازیں',
     settingsInstalledVoicesDesc: 'تمام دستیاب TTS آوازیں دیکھیں',
@@ -6179,39 +5351,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'در v{version} موجود می‌شود',
-
-    // Onboarding
-    onboardingSkip: 'رد کردن',
-    onboardingNext: 'بعدی',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'به ترکمنی و از ترکمنی ترجمه کنید — سریع و آسان!',
-    onboardingPhrasebookTitle: '30 جفت زبان',
-    onboardingPhrasebookSubtitle: 'کتاب عبارات با تلفظ، آفلاین کار می‌کند',
-    onboardingPhrasebookDemo: 'سلام',
-    onboardingPlayAudio: 'پخش صدا',
-    onboardingPlaying: 'در حال پخش...',
-    onboardingFeatureAudio: 'تلفظ به ترکمنی',
-    onboardingFeatureOffline: 'بدون اینترنت کار می‌کند',
-    onboardingTranslationTitle: 'ترجمه هوشمند',
-    onboardingTranslationSubtitle: 'مترجم متن و دستیار هوش مصنوعی',
-    onboardingTextTranslator: 'مترجم متن',
-    onboardingTranslate: 'ترجمه',
-    onboardingTryAgain: 'دوباره تلاش کنید',
-    onboardingVisualTranslator: 'مترجم تصویری',
-    onboardingVoiceTranslator: 'مترجم صوتی',
-    onboardingAIAssistant: 'دستیار هوش مصنوعی',
-    onboardingAIPowered: 'مجهز به هوش مصنوعی',
-    onboardingComingSoon: 'به زودی',
-    onboardingReadyTitle: 'همه چیز آماده!',
-    onboardingReadySubtitle: 'همین الان شروع به یادگیری ترکمنی کنید',
-    onboardingGetStarted: 'شروع کنید',
-    onboardingTagPhrasebook: '📖 کتاب عبارات',
-    onboardingTagAudio: '🔊 تلفظ',
-    onboardingTagOffline: '✈️ آفلاین',
-    onboardingTagTranslator: '📝 مترجم',
-    onboardingTagAI: '🤖 دستیار هوش مصنوعی',
-    onboardingTagVisual: '📷 تصویری',
-    onboardingTagVoice: '🎤 صوتی',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'صداهای نصب شده',
@@ -6438,39 +5577,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'په v{version} کې شتون لري',
 
-    // Onboarding
-    onboardingSkip: 'پرېښودل',
-    onboardingNext: 'بل',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'ترکمني ته او له ترکمني ژباړه وکړئ — چټک او اسانه!',
-    onboardingPhrasebookTitle: '30 ژبې جوړې',
-    onboardingPhrasebookSubtitle: 'د تلفظ سره جملې کتاب، آفلاین کار کوي',
-    onboardingPhrasebookDemo: 'سلام',
-    onboardingPlayAudio: 'آډیو غږول',
-    onboardingPlaying: 'غږیږي...',
-    onboardingFeatureAudio: 'په ترکمني تلفظ',
-    onboardingFeatureOffline: 'پرته له انټرنټ کار کوي',
-    onboardingTranslationTitle: 'هوښیار ژباړه',
-    onboardingTranslationSubtitle: 'متن ژباړونکی او AI مرستندوی',
-    onboardingTextTranslator: 'متن ژباړونکی',
-    onboardingTranslate: 'ژباړه',
-    onboardingTryAgain: 'بیا هڅه وکړئ',
-    onboardingVisualTranslator: 'بصری ژباړونکی',
-    onboardingVoiceTranslator: 'غږ ژباړونکی',
-    onboardingAIAssistant: 'AI مرستندوی',
-    onboardingAIPowered: 'د AI لخوا پرمخ وړل کیږي',
-    onboardingComingSoon: 'ډېر ژر راځي',
-    onboardingReadyTitle: 'ټول تیار!',
-    onboardingReadySubtitle: 'اوس همدا ترکمني زده کول پیل کړئ',
-    onboardingGetStarted: 'پیل کړئ',
-    onboardingTagPhrasebook: '📖 جملې کتاب',
-    onboardingTagAudio: '🔊 تلفظ',
-    onboardingTagOffline: '✈️ آفلاین',
-    onboardingTagTranslator: '📝 ژباړونکی',
-    onboardingTagAI: '🤖 AI مرستندوی',
-    onboardingTagVisual: '📷 بصری',
-    onboardingTagVoice: '🎤 غږ',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'نصب شوي غږونه',
     settingsInstalledVoicesDesc: 'ټول موجود TTS غږونه وګورئ',
@@ -6695,39 +5801,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} da mavjud',
-
-    // Onboarding
-    onboardingSkip: 'O\'tkazib yuborish',
-    onboardingNext: 'Keyingisi',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Turkman tiliga va turkman tilidan tarjima qiling — tez va oson!',
-    onboardingPhrasebookTitle: '30 til juftligi',
-    onboardingPhrasebookSubtitle: 'Talaffuz bilan iboralar kitobi, oflayn ishlaydi',
-    onboardingPhrasebookDemo: 'Salom',
-    onboardingPlayAudio: 'Audiоni ijro etish',
-    onboardingPlaying: 'Ijro etilmoqda...',
-    onboardingFeatureAudio: 'Turkman tilida talaffuz',
-    onboardingFeatureOffline: 'Internetsiz ishlaydi',
-    onboardingTranslationTitle: 'Aqlli tarjima',
-    onboardingTranslationSubtitle: 'Matn tarjimon va AI yordamchi',
-    onboardingTextTranslator: 'Matn tarjimon',
-    onboardingTranslate: 'Tarjima qilish',
-    onboardingTryAgain: 'Qayta urinish',
-    onboardingVisualTranslator: 'Vizual tarjimon',
-    onboardingVoiceTranslator: 'Ovozli tarjimon',
-    onboardingAIAssistant: 'AI yordamchi',
-    onboardingAIPowered: 'AI tomonidan quvvatlanadi',
-    onboardingComingSoon: 'Tez kunda',
-    onboardingReadyTitle: 'Hammasi tayyor!',
-    onboardingReadySubtitle: 'Hoziroq turkman tilini o\'rganishni boshlang',
-    onboardingGetStarted: 'Boshlash',
-    onboardingTagPhrasebook: '📖 Iboralar kitobi',
-    onboardingTagAudio: '🔊 Talaffuz',
-    onboardingTagOffline: '✈️ Oflayn',
-    onboardingTagTranslator: '📝 Tarjimon',
-    onboardingTagAI: '🤖 AI yordamchi',
-    onboardingTagVisual: '📷 Vizual',
-    onboardingTagVoice: '🎤 Ovoz',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: "O'rnatilgan ovozlar",
@@ -6954,39 +6027,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} нұсқасында шығады',
 
-    // Onboarding
-    onboardingSkip: 'Өткізіп жіберу',
-    onboardingNext: 'Келесі',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Түрікмен тіліне және түрікмен тілінен аударыңыз — жылдам және оңай!',
-    onboardingPhrasebookTitle: '30 тіл жұбы',
-    onboardingPhrasebookSubtitle: 'Айтылыммен сөйлем кітабы, офлайн жұмыс істейді',
-    onboardingPhrasebookDemo: 'Сәлем',
-    onboardingPlayAudio: 'Аудио ойнату',
-    onboardingPlaying: 'Ойнатылуда...',
-    onboardingFeatureAudio: 'Түрікмен тілінде айтылым',
-    onboardingFeatureOffline: 'Интернетсіз жұмыс істейді',
-    onboardingTranslationTitle: 'Ақылды аударма',
-    onboardingTranslationSubtitle: 'Мәтін аудармашысы және AI көмекші',
-    onboardingTextTranslator: 'Мәтін аудармашысы',
-    onboardingTranslate: 'Аударма',
-    onboardingTryAgain: 'Қайталап көру',
-    onboardingVisualTranslator: 'Көрнекі аудармашы',
-    onboardingVoiceTranslator: 'Дауыс аудармашысы',
-    onboardingAIAssistant: 'AI көмекші',
-    onboardingAIPowered: 'AI қуатымен',
-    onboardingComingSoon: 'Жақында',
-    onboardingReadyTitle: 'Бәрі дайын!',
-    onboardingReadySubtitle: 'Қазір түрікмен тілін үйренуді бастаңыз',
-    onboardingGetStarted: 'Бастау',
-    onboardingTagPhrasebook: '📖 Сөйлем кітабы',
-    onboardingTagAudio: '🔊 Айтылым',
-    onboardingTagOffline: '✈️ Офлайн',
-    onboardingTagTranslator: '📝 Аудармашы',
-    onboardingTagAI: '🤖 AI көмекші',
-    onboardingTagVisual: '📷 Көрнекі',
-    onboardingTagVoice: '🎤 Дауыс',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Орнатылған дауыстар',
     settingsInstalledVoicesDesc: 'Барлық қолжетімді TTS дауыстарын көру',
@@ -7211,39 +6251,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'v{version}-da gələcək',
-
-    // Onboarding
-    onboardingSkip: 'Keç',
-    onboardingNext: 'Növbəti',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Türkmən dilinə və türkmən dilindən tərcümə edin — sürətli və asan!',
-    onboardingPhrasebookTitle: '30 dil cüt',
-    onboardingPhrasebookSubtitle: 'Tələffüzlü ifadələr kitabı, oflayn işləyir',
-    onboardingPhrasebookDemo: 'Salam',
-    onboardingPlayAudio: 'Audio oxut',
-    onboardingPlaying: 'Oxudulur...',
-    onboardingFeatureAudio: 'Türkmən dilində tələffüz',
-    onboardingFeatureOffline: 'İnternetsiz işləyir',
-    onboardingTranslationTitle: 'Ağıllı tərcümə',
-    onboardingTranslationSubtitle: 'Mətn tərcüməçisi və AI köməkçi',
-    onboardingTextTranslator: 'Mətn tərcüməçisi',
-    onboardingTranslate: 'Tərcümə et',
-    onboardingTryAgain: 'Yenidən cəhd et',
-    onboardingVisualTranslator: 'Vizual tərcüməçi',
-    onboardingVoiceTranslator: 'Səsli tərcüməçi',
-    onboardingAIAssistant: 'AI köməkçi',
-    onboardingAIPowered: 'AI ilə işləyir',
-    onboardingComingSoon: 'Tezliklə',
-    onboardingReadyTitle: 'Hamısı hazırdır!',
-    onboardingReadySubtitle: 'İndi türkmən dilini öyrənməyə başlayın',
-    onboardingGetStarted: 'Başla',
-    onboardingTagPhrasebook: '📖 İfadələr kitabı',
-    onboardingTagAudio: '🔊 Tələffüz',
-    onboardingTagOffline: '✈️ Oflayn',
-    onboardingTagTranslator: '📝 Tərcüməçi',
-    onboardingTagAI: '🤖 AI köməkçi',
-    onboardingTagVisual: '📷 Vizual',
-    onboardingTagVoice: '🎤 Səs',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Quraşdırılmış səslər',
@@ -7470,39 +6477,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} версиясында чыгат',
 
-    // Onboarding
-    onboardingSkip: 'Өткөрүп жиберүү',
-    onboardingNext: 'Кийинки',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Түркмөн тилине жана түркмөн тилинен которуңуз — тез жана оңой!',
-    onboardingPhrasebookTitle: '30 тил жупу',
-    onboardingPhrasebookSubtitle: 'Айтылыш менен сүйлөм китеби, офлайн иштейт',
-    onboardingPhrasebookDemo: 'Салам',
-    onboardingPlayAudio: 'Аудио ойнотуу',
-    onboardingPlaying: 'Ойнотууда...',
-    onboardingFeatureAudio: 'Түркмөн тилинде айтылыш',
-    onboardingFeatureOffline: 'Интернетсиз иштейт',
-    onboardingTranslationTitle: 'Акылдуу которуу',
-    onboardingTranslationSubtitle: 'Текст которуучу жана AI жардамчы',
-    onboardingTextTranslator: 'Текст которуучу',
-    onboardingTranslate: 'Которуу',
-    onboardingTryAgain: 'Кайра аракет кылыңыз',
-    onboardingVisualTranslator: 'Визуалдык которуучу',
-    onboardingVoiceTranslator: 'Үн которуучу',
-    onboardingAIAssistant: 'AI жардамчы',
-    onboardingAIPowered: 'AI менен иштейт',
-    onboardingComingSoon: 'Жакында',
-    onboardingReadyTitle: 'Баары даяр!',
-    onboardingReadySubtitle: 'Азыр түркмөн тилин үйрөнүүнү баштаңыз',
-    onboardingGetStarted: 'Баштоо',
-    onboardingTagPhrasebook: '📖 Сүйлөм китеби',
-    onboardingTagAudio: '🔊 Айтылыш',
-    onboardingTagOffline: '✈️ Офлайн',
-    onboardingTagTranslator: '📝 Которуучу',
-    onboardingTagAI: '🤖 AI жардамчы',
-    onboardingTagVisual: '📷 Визуалдык',
-    onboardingTagVoice: '🎤 Үн',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Орнотулган үндөр',
     settingsInstalledVoicesDesc: 'Бардык жеткиликтүү TTS үндөрүн көрүү',
@@ -7727,39 +6701,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'Дар v{version} мебарояд',
-
-    // Onboarding
-    onboardingSkip: 'Гузаронидан',
-    onboardingNext: 'Минбаъда',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Ба туркманӣ ва аз туркманӣ тарҷума кунед — зуд ва осон!',
-    onboardingPhrasebookTitle: '30 ҷуфти забон',
-    onboardingPhrasebookSubtitle: 'Китоби ибораҳо бо талаффуз, офлайн кор мекунад',
-    onboardingPhrasebookDemo: 'Салом',
-    onboardingPlayAudio: 'Пахши аудио',
-    onboardingPlaying: 'Дар ҳоли пахш...',
-    onboardingFeatureAudio: 'Талаффуз ба туркманӣ',
-    onboardingFeatureOffline: 'Бе интернет кор мекунад',
-    onboardingTranslationTitle: 'Тарҷумаи ҳушманд',
-    onboardingTranslationSubtitle: 'Тарҷумони матнӣ ва ёрирасони AI',
-    onboardingTextTranslator: 'Тарҷумони матнӣ',
-    onboardingTranslate: 'Тарҷума кардан',
-    onboardingTryAgain: 'Боз кӯшиш кардан',
-    onboardingVisualTranslator: 'Тарҷумони визуалӣ',
-    onboardingVoiceTranslator: 'Тарҷумони овозӣ',
-    onboardingAIAssistant: 'Ёрирасони AI',
-    onboardingAIPowered: 'Бо AI',
-    onboardingComingSoon: 'Ба зудӣ',
-    onboardingReadyTitle: 'Ҳама омода!',
-    onboardingReadySubtitle: 'Ҳозир омӯзиши туркманиро оғоз кунед',
-    onboardingGetStarted: 'Оғоз кардан',
-    onboardingTagPhrasebook: '📖 Китоби ибораҳо',
-    onboardingTagAudio: '🔊 Талаффуз',
-    onboardingTagOffline: '✈️ Офлайн',
-    onboardingTagTranslator: '📝 Тарҷумон',
-    onboardingTagAI: '🤖 Ёрирасони AI',
-    onboardingTagVisual: '📷 Визуалӣ',
-    onboardingTagVoice: '🎤 Овоз',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Овозҳои насбшуда',
@@ -7986,38 +6927,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'Coming in v{version}',
 
-    // Onboarding
-    onboardingSkip: 'Բdelays θdelays',
-    onboardingNext: 'Ηdelays',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'Θdelays delays delays delays delays — delays delays delays!',
-    onboardingPhrasebookTitle: '30 delays delays delays',
-    onboardingPhrasebookSubtitle: 'Αdelays delays delays, delays delays delays',
-    onboardingPhrasebookDemo: 'Βdelays',
-    onboardingPlayAudio: 'Νdelays delays delays',
-    onboardingPlaying: 'Νdelays delays...',
-    onboardingFeatureAudio: 'Αdelays delays delays',
-    onboardingFeatureOffline: 'delays delays delays delays',
-    onboardingTranslationTitle: 'Χdelays delays delays',
-    onboardingTranslationSubtitle: 'Τdelays delays delays AI delays',
-    onboardingTextTranslator: 'Τdelays delays delays',
-    onboardingTranslate: 'Θdelays',
-    onboardingTryAgain: 'Φdelays delays',
-    onboardingVisualTranslator: 'Τdelays delays delays',
-    onboardingVoiceTranslator: 'delays delays delays',
-    onboardingAIAssistant: 'AI delays',
-    onboardingAIPowered: 'AI-delays delays',
-    onboardingComingSoon: 'Σdelays',
-    onboardingReadyTitle: 'Αdelays delays!',
-    onboardingReadySubtitle: 'delays delays delays delays delays delays delays',
-    onboardingGetStarted: 'Σdelays',
-    onboardingTagPhrasebook: '📖 Αdelays delays delays',
-    onboardingTagAudio: '🔊 Αdelays',
-    onboardingTagOffline: '✈️ Οdelays',
-    onboardingTagTranslator: '📝 Θdelays',
-    onboardingTagAI: '🤖 AI delays',
-    onboardingTagVisual: '📷 Τdelays',
-    onboardingTagVoice: '🎤 Delays',
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'Installed Voices',
     settingsInstalledVoicesDesc: 'Available TTS voices',
@@ -8243,39 +7152,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     // Coming Soon version badge
     comingSoonInVersion: 'გამოვა v{version}-ში',
 
-    // Onboarding
-    onboardingSkip: 'გამოტოვება',
-    onboardingNext: 'შემდეგი',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'თურქმენულად და თურქმენულიდან თარგმნეთ — სწრაფად და მარტივად!',
-    onboardingPhrasebookTitle: '30 ენის წყვილი',
-    onboardingPhrasebookSubtitle: 'ფრაზების წიგნი გამოთქმით, მუშაობს ოფლაინ',
-    onboardingPhrasebookDemo: 'გამარჯობა',
-    onboardingPlayAudio: 'აუდიოს დაკვრა',
-    onboardingPlaying: 'დაკვრა...',
-    onboardingFeatureAudio: 'გამოთქმა თურქმენულად',
-    onboardingFeatureOffline: 'მუშაობს ინტერნეტის გარეშე',
-    onboardingTranslationTitle: 'ჭკვიანი თარგმანი',
-    onboardingTranslationSubtitle: 'ტექსტის მთარგმნელი და AI ასისტენტი',
-    onboardingTextTranslator: 'ტექსტის მთარგმნელი',
-    onboardingTranslate: 'თარგმნა',
-    onboardingTryAgain: 'სცადეთ ხელახლა',
-    onboardingVisualTranslator: 'ვიზუალური მთარგმნელი',
-    onboardingVoiceTranslator: 'ხმოვანი მთარგმნელი',
-    onboardingAIAssistant: 'AI ასისტენტი',
-    onboardingAIPowered: 'AI-ით მართული',
-    onboardingComingSoon: 'მალე',
-    onboardingReadyTitle: 'ყველაფერი მზადაა!',
-    onboardingReadySubtitle: 'ახლავე დაიწყეთ თურქმენული ენის შესწავლა',
-    onboardingGetStarted: 'დაწყება',
-    onboardingTagPhrasebook: '📖 ფრაზების წიგნი',
-    onboardingTagAudio: '🔊 გამოთქმა',
-    onboardingTagOffline: '✈️ ოფლაინ',
-    onboardingTagTranslator: '📝 მთარგმნელი',
-    onboardingTagAI: '🤖 AI ასისტენტი',
-    onboardingTagVisual: '📷 ვიზუალური',
-    onboardingTagVoice: '🎤 ხმა',
-
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'დაყენებული ხმები',
     settingsInstalledVoicesDesc: 'ყველა ხელმისაწვდომი TTS ხმის ნახვა',
@@ -8500,39 +7376,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Coming Soon version badge
     comingSoonInVersion: 'قادم في v{version}',
-
-    // Onboarding
-    onboardingSkip: 'تخطي',
-    onboardingNext: 'التالي',
-    onboardingWelcomeTitle: 'Şapak - Ykjam Terjime',
-    onboardingWelcomeSubtitle: 'ترجم إلى التركمانية ومنها — بسرعة وسهولة!',
-    onboardingPhrasebookTitle: '30 زوج لغة',
-    onboardingPhrasebookSubtitle: 'كتاب عبارات مع النطق، يعمل بدون اتصال',
-    onboardingPhrasebookDemo: 'مرحباً',
-    onboardingPlayAudio: 'تشغيل الصوت',
-    onboardingPlaying: 'جاري التشغيل...',
-    onboardingFeatureAudio: 'النطق بالتركمانية',
-    onboardingFeatureOffline: 'يعمل بدون إنترنت',
-    onboardingTranslationTitle: 'ترجمة ذكية',
-    onboardingTranslationSubtitle: 'مترجم النصوص ومساعد الذكاء الاصطناعي',
-    onboardingTextTranslator: 'مترجم النصوص',
-    onboardingTranslate: 'ترجم',
-    onboardingTryAgain: 'حاول مرة أخرى',
-    onboardingVisualTranslator: 'المترجم المرئي',
-    onboardingVoiceTranslator: 'المترجم الصوتي',
-    onboardingAIAssistant: 'مساعد الذكاء الاصطناعي',
-    onboardingAIPowered: 'مدعوم بالذكاء الاصطناعي',
-    onboardingComingSoon: 'قريباً',
-    onboardingReadyTitle: 'كل شيء جاهز!',
-    onboardingReadySubtitle: 'ابدأ تعلم التركمانية الآن',
-    onboardingGetStarted: 'ابدأ',
-    onboardingTagPhrasebook: '📖 كتاب العبارات',
-    onboardingTagAudio: '🔊 النطق',
-    onboardingTagOffline: '✈️ بدون اتصال',
-    onboardingTagTranslator: '📝 المترجم',
-    onboardingTagAI: '🤖 مساعد AI',
-    onboardingTagVisual: '📷 مرئي',
-    onboardingTagVoice: '🎤 صوتي',
 
     // Settings Screen - Additional translations (Task 2)
     settingsInstalledVoices: 'الأصوات المثبتة',
