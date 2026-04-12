@@ -239,6 +239,13 @@ export interface InterfaceTexts {
   visualComingSoonFeature2: string;
   visualComingSoonFeature3: string;
 
+  // AI Assistant Coming Soon (v2.0) — fallback в ComingSoonScreen.tsx
+  aiComingSoonTitle?: string;
+  aiComingSoonDesc?: string;
+  aiComingSoonFeature1?: string;
+  aiComingSoonFeature2?: string;
+  aiComingSoonFeature3?: string;
+
   // Coming Soon version badge
   comingSoonInVersion: string;
 
