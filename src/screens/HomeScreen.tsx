@@ -30,10 +30,11 @@ type HomeScreenNavigationProp = StackNavigationProp<HomeStackParamList, 'Categor
 // Header
 const MinimalHeader = React.memo<{
   onLanguagePress: () => void;
+  onSettingsPress: () => void;
   onBackPress: () => void;
   selectedLanguageCode: string;
 }>(
-  ({ onLanguagePress, onBackPress, selectedLanguageCode }) => {
+  ({ onLanguagePress, onSettingsPress, onBackPress, selectedLanguageCode }) => {
     const selectedLang = getLanguageByCode(selectedLanguageCode);
     const isTurkmenMode = selectedLanguageCode === 'tk';
     const secondLang = isTurkmenMode ? getLanguageByCode('en') : getLanguageByCode('tk');
@@ -50,7 +51,7 @@ const MinimalHeader = React.memo<{
           <Text style={styles.flagIcon}>{secondLang?.flag || '🇹🇲'}</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.settingsButton} onPress={onLanguagePress} activeOpacity={0.7}>
+        <TouchableOpacity style={styles.settingsButton} onPress={onSettingsPress} activeOpacity={0.7}>
           <Ionicons name="settings-outline" size={moderateScale(24)} color={Colors.text} />
         </TouchableOpacity>
       </View>
@@ -71,6 +72,13 @@ export default function HomeScreen() {
 
   const handleLanguagePress = useCallback(() => {
     navigation.navigate('LanguagePairSelection');
+  }, [navigation]);
+
+  const handleSettingsPress = useCallback(() => {
+    const parentNavigation = navigation.getParent();
+    if (parentNavigation) {
+      parentNavigation.navigate('Settings');
+    }
   }, [navigation]);
 
   const handleBackPress = useCallback(() => {
@@ -97,6 +105,7 @@ export default function HomeScreen() {
       <TabScreen backgroundColor="#FFFFFF">
         <MinimalHeader
           onLanguagePress={handleLanguagePress}
+          onSettingsPress={handleSettingsPress}
           onBackPress={handleBackPress}
           selectedLanguageCode={selectedLanguage}
         />

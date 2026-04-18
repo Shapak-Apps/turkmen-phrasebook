@@ -1,7 +1,7 @@
 // src/services/tts/providers/LocalAudioProvider.ts
 // Провайдер для локальных MP3 файлов (туркменский)
 
-import { Audio } from 'expo-av';
+import { createAudioPlayer, setAudioModeAsync, AudioPlayer } from 'expo-audio';
 import { getAudioSource } from '../../../data/audioMapping';
 import {
   ITTSProvider,
@@ -15,7 +15,7 @@ export class LocalAudioProvider implements ITTSProvider {
   readonly type: TTSProviderType = 'local_mp3';
   readonly supportedLanguages = ['turkmen'];
 
-  private currentSound: Audio.Sound | null = null;
+  private currentPlayer: AudioPlayer | null = null;
   private isInitialized = false;
 
   async checkAvailability(): Promise<TTSProviderStatus> {
@@ -47,12 +47,12 @@ export class LocalAudioProvider implements ITTSProvider {
     try {
       // Инициализация аудио режима
       if (!this.isInitialized) {
-        await Audio.setAudioModeAsync({
-          allowsRecordingIOS: false,
-          playsInSilentModeIOS: true,
-          staysActiveInBackground: false,
-          shouldDuckAndroid: true,
-          playThroughEarpieceAndroid: false,
+        await setAudioModeAsync({
+          allowsRecording: false,
+          playsInSilentMode: true,
+          shouldPlayInBackground: false,
+          interruptionMode: 'duckOthers',
+          shouldRouteThroughEarpiece: false,
         });
         this.isInitialized = true;
       }
@@ -74,18 +74,15 @@ export class LocalAudioProvider implements ITTSProvider {
       }
 
       // Создаем и воспроизводим звук
-      const { sound } = await Audio.Sound.createAsync(audioSource, {
-        shouldPlay: true,
-        volume,
-        rate,
-      });
-
-      this.currentSound = sound;
+      const player = createAudioPlayer(audioSource);
+      player.volume = volume;
+      player.setPlaybackRate(rate);
+      this.currentPlayer = player;
 
       // Ждем завершения воспроизведения
       return new Promise((resolve) => {
-        sound.setOnPlaybackStatusUpdate((status: any) => {
-          if (status.isLoaded && status.didJustFinish) {
+        player.addListener('playbackStatusUpdate', (status: any) => {
+          if (status.didJustFinish) {
             this.cleanup();
             resolve({
               success: true,
@@ -95,6 +92,7 @@ export class LocalAudioProvider implements ITTSProvider {
             });
           }
         });
+        player.play();
       });
     } catch (error) {
       console.error('[LocalAudioProvider] Play error:', error);
@@ -109,21 +107,25 @@ export class LocalAudioProvider implements ITTSProvider {
   }
 
   async stop(): Promise<void> {
-    if (this.currentSound) {
+    if (this.currentPlayer) {
       try {
-        await this.currentSound.stopAsync();
-        await this.currentSound.unloadAsync();
+        this.currentPlayer.pause();
+        this.currentPlayer.remove();
       } catch (error) {
         console.warn('[LocalAudioProvider] Stop error:', error);
       }
-      this.currentSound = null;
+      this.currentPlayer = null;
     }
   }
 
   private cleanup(): void {
-    if (this.currentSound) {
-      this.currentSound.unloadAsync().catch(console.warn);
-      this.currentSound = null;
+    if (this.currentPlayer) {
+      try {
+        this.currentPlayer.remove();
+      } catch (error) {
+        console.warn('[LocalAudioProvider] Cleanup error:', error);
+      }
+      this.currentPlayer = null;
     }
   }
 }

@@ -3,7 +3,7 @@
 // Работает через HTTP API (openai-edge-tts или Edge TTS Worker)
 // С поддержкой кэширования аудио
 
-import { Audio } from 'expo-av';
+import { createAudioPlayer, setAudioModeAsync, AudioPlayer } from 'expo-audio';
 import * as FileSystem from 'expo-file-system/legacy';
 import {
   ITTSProvider,
@@ -98,7 +98,7 @@ export class EdgeTTSProvider implements ITTSProvider {
   readonly supportedLanguages: string[];
 
   private config: EdgeTTSConfig;
-  private currentSound: Audio.Sound | null = null;
+  private currentPlayer: AudioPlayer | null = null;
   private isInitialized = false;
 
   constructor(config?: Partial<EdgeTTSConfig>) {
@@ -195,12 +195,12 @@ export class EdgeTTSProvider implements ITTSProvider {
     try {
       // Инициализация аудио
       if (!this.isInitialized) {
-        await Audio.setAudioModeAsync({
-          allowsRecordingIOS: false,
-          playsInSilentModeIOS: true,
-          staysActiveInBackground: false,
-          shouldDuckAndroid: true,
-          playThroughEarpieceAndroid: false,
+        await setAudioModeAsync({
+          allowsRecording: false,
+          playsInSilentMode: true,
+          shouldPlayInBackground: false,
+          interruptionMode: 'duckOthers',
+          shouldRouteThroughEarpiece: false,
         });
         this.isInitialized = true;
       }
@@ -298,16 +298,12 @@ export class EdgeTTSProvider implements ITTSProvider {
     language: string,
     fromCache: boolean
   ): Promise<TTSPlayResult> {
-    const { sound } = await Audio.Sound.createAsync(
-      { uri: filePath },
-      { shouldPlay: true }
-    );
-
-    this.currentSound = sound;
+    const player = createAudioPlayer({ uri: filePath });
+    this.currentPlayer = player;
 
     return new Promise((resolve) => {
-      sound.setOnPlaybackStatusUpdate((status: any) => {
-        if (status.isLoaded && status.didJustFinish) {
+      player.addListener('playbackStatusUpdate', (status: any) => {
+        if (status.didJustFinish) {
           this.cleanup();
           // НЕ удаляем файл если он из кэша
           if (!fromCache && !this.config.enableCache) {
@@ -321,25 +317,30 @@ export class EdgeTTSProvider implements ITTSProvider {
           });
         }
       });
+      player.play();
     });
   }
 
   async stop(): Promise<void> {
-    if (this.currentSound) {
+    if (this.currentPlayer) {
       try {
-        await this.currentSound.stopAsync();
-        await this.currentSound.unloadAsync();
+        this.currentPlayer.pause();
+        this.currentPlayer.remove();
       } catch (error) {
         console.warn('[EdgeTTSProvider] Stop error:', error);
       }
-      this.currentSound = null;
+      this.currentPlayer = null;
     }
   }
 
   private cleanup(): void {
-    if (this.currentSound) {
-      this.currentSound.unloadAsync().catch(() => {});
-      this.currentSound = null;
+    if (this.currentPlayer) {
+      try {
+        this.currentPlayer.remove();
+      } catch (error) {
+        console.warn('[EdgeTTSProvider] Cleanup error:', error);
+      }
+      this.currentPlayer = null;
     }
   }
 }

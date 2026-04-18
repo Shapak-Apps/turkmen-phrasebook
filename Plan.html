@@ -230,12 +230,35 @@
     <h1>Ykjam Terjime</h1>
     <div class="subtitle">Туркменский разговорник &mdash; Статус и план</div>
     <div class="version-badge">v1.0.3 &rarr; v2.0</div>
-    <div class="date">12 апреля 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
+    <div class="date">18 апреля 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
 </div>
 
 <div class="container">
 
-<!-- СДЕЛАНО СЕГОДНЯ -->
+<!-- СДЕЛАНО 18.04.2026 -->
+<div class="section">
+    <div class="section-title"><span class="icon">✅</span> Сделано 18.04.2026</div>
+
+    <div class="card" style="border-left: 4px solid var(--green);">
+        <div class="card-header">
+            <div class="card-title">Сессия 18 апреля — Android verification, secrets audit, закрытие AI</div>
+            <span class="badge badge-done">Готово</span>
+        </div>
+        <ul class="checklist">
+            <li><span class="check check-done">&#10003;</span> <strong>Android Developer Verification пройдена</strong> — Google автоматически зарегистрировал <span class="tag">com.shapak.translator</span> (зелёная галочка в Play Console)</li>
+            <li><span class="check check-done">&#10003;</span> <strong>Secrets audit пройден</strong> — <span class="tag">.env</span> никогда не попадал в git, hardcoded ключей (AIza…) нет, keystore/google-services.json отсутствуют в репо</li>
+            <li><span class="check check-done">&#10003;</span> <strong>AI полностью закрыт в v1.0.3</strong> — inline «sparkles» кнопка убрана из CategoryScreen (PhraseItem), <span class="tag">AskAIScreen</span> удалён из AppNavigator. <span class="tag">src/api/gemini.ts</span> больше не попадает в bundle v1.0.3</li>
+            <li><span class="check check-done">&#10003;</span> <strong>Заблокированы лишние Android permissions</strong> в <span class="tag">app.json</span>: CAMERA, RECORD_AUDIO, SYSTEM_ALERT_WINDOW, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE (для соответствия Google Play Policy 2026)</li>
+            <li><span class="check check-done">&#10003;</span> <strong>Миграция <span class="tag">expo-av</span> → <span class="tag">expo-audio</span> завершена</strong> — переписаны 3 файла (<span class="tag">useAudio.ts</span>, <span class="tag">LocalAudioProvider.ts</span>, <span class="tag">EdgeTTSProvider.ts</span>), обновлён jest-mock, удалён пакет <span class="tag">expo-av</span>, плагин <span class="tag">expo-audio</span> добавлен в <span class="tag">app.json</span>, <span class="tag">npx tsc --noEmit</span> = 0 ошибок. Осталось протестировать на эмуляторе.</li>
+            <li><span class="check check-done">&#10003;</span> Обновлён <span class="tag">STATUS.md</span> — зафиксировано реальное состояние v1.0.3 + результаты аудита</li>
+        </ul>
+        <div class="highlight-box">
+            <strong>Итог:</strong> v1.0.3 готов к сборке. AI-код физически остался в <span class="tag">src/screens/AskAIScreen.tsx</span> и <span class="tag">src/api/gemini.ts</span> для будущей v2.0, но через dependency tree недоступен — Metro не включит в bundle.
+        </div>
+    </div>
+</div>
+
+<!-- СДЕЛАНО 12.04.2026 -->
 <div class="section">
     <div class="section-title"><span class="icon">✅</span> Сделано 12.04.2026</div>
 
@@ -317,11 +340,13 @@
             <li><span class="check check-done">&#10003;</span> Исправлен Visual/Voice Translator — текст фич не отображался рядом с иконками</li>
             <li><span class="check check-done">&#10003;</span> Исправлен Dictionary — невидимая стрелка назад</li>
             <li><span class="check check-done">&#10003;</span> Заблокированы языки — открыты только: 🇨🇳 🇷🇺 🇬🇧 🇹🇷 (+🇹🇲)</li>
-            <li><span class="check check-done">&#10003;</span> AI раздел закрыт — Coming Soon v2.0</li>
+            <li><span class="check check-done">&#10003;</span> <strong>AI раздел полностью закрыт</strong> (18.04.2026) — MainHub кнопка ведёт в ComingSoon, inline AI-кнопка из CategoryScreen убрана, AskAIScreen удалён из navigator</li>
             <li><span class="check check-done">&#10003;</span> Текстовый переводчик закрыт — Coming Soon v2.0</li>
             <li><span class="check check-done">&#10003;</span> Lingify редизайн — все 15 этапов завершены</li>
             <li><span class="check check-done">&#10003;</span> Безопасность — API ключи в .env, pre-commit hook</li>
             <li><span class="check check-done">&#10003;</span> <strong>Пакеты обновлены до Expo SDK 54</strong> (12.04.2026) — 11 пакетов</li>
+            <li><span class="check check-done">&#10003;</span> <strong>Android permissions зачищены</strong> (18.04.2026) — заблокированы CAMERA, RECORD_AUDIO, SYSTEM_ALERT_WINDOW, READ/WRITE_EXTERNAL_STORAGE</li>
+            <li><span class="check check-done">&#10003;</span> <strong>Android Developer Verification пройдена</strong> (18.04.2026) — Google Play зарегистрировал package автоматически</li>
             <li><span class="check check-todo">&#9744;</span> <strong>Собрать APK/AAB и отправить в Google Play + App Store</strong> (делает Сейди сам, в самом конце после всех улучшений)</li>
         </ul>
         <div class="warning-box">
@@ -343,7 +368,7 @@
             <tr><td>Фреймворк</td><td><strong>Expo SDK 54</strong> + React Native 0.81</td></tr>
             <tr><td>Язык</td><td>TypeScript (strict)</td></tr>
             <tr><td>Навигация</td><td>React Navigation (Stack + Bottom Tabs)</td></tr>
-            <tr><td>AI</td><td>Google Gemini 2.5 Flash (через @google/generative-ai)</td></tr>
+            <tr><td>AI</td><td>Отключён в v1.0.3, провайдер для v2.0 пока не выбран (Gemini/Groq/OpenRouter/etc — TBD)</td></tr>
             <tr><td>TTS</td><td>3 провайдера: Local MP3, Expo Speech, Edge TTS</td></tr>
             <tr><td>Перевод</td><td>MyMemory API (основной) + LibreTranslate (запасной)</td></tr>
             <tr><td>Хранилище</td><td>AsyncStorage (локальное)</td></tr>
@@ -368,10 +393,9 @@
                 <tr><td>FavoritesHubScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Избранное: фразы + переводы</td></tr>
                 <tr><td>StatsScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Статистика, достижения, графики</td></tr>
                 <tr><td>SettingsScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Настройки, TTS, выбор языка</td></tr>
-                <tr><td>OnboardingScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>4 слайда, анимации</td></tr>
                 <tr><td>LanguageSelectionScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Выбор языка интерфейса (31 язык)</td></tr>
                 <tr><td>LanguagePairSelectionScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>Выбор пары языков для разговорника</td></tr>
-                <tr><td>AskAIScreen</td><td><span class="badge badge-done">Работает</span></td><td>✅</td><td>AI вопросы по фразам (Gemini)</td></tr>
+                <tr><td>AskAIScreen</td><td><span class="badge badge-blocked">Удалён из bundle v1.0.3</span></td><td>✅</td><td>Файл остался в src/ для v2.0, но не импортируется</td></tr>
                 <tr><td>UniversalAIChatScreen</td><td><span class="badge badge-blocked">Coming Soon</span></td><td>✅</td><td>Закрыт в v1, откроется в v2.0</td></tr>
                 <tr><td>DictionaryScreen</td><td><span class="badge badge-blocked">Coming Soon</span></td><td>✅</td><td>Заглушка, сбор email</td></tr>
                 <tr><td>ComingSoonScreen</td><td><span class="badge badge-blocked">Заглушка</span></td><td>✅</td><td>Visual/Voice Translator</td></tr>
@@ -479,49 +503,28 @@
 <div class="section">
     <div class="section-title"><span class="icon">🎯</span> Что нужно сделать</div>
 
-    <!-- expo-av migration (next task) -->
-    <div class="card" style="border-left: 4px solid var(--blue);">
+    <!-- expo-audio migration (DONE 18.04.2026) -->
+    <div class="card" style="border-left: 4px solid var(--green);">
         <div class="card-header">
-            <div class="card-title">СЛЕДУЮЩАЯ ЗАДАЧА: Миграция expo-av &rarr; expo-audio</div>
-            <span class="badge badge-progress">План готов, не начато</span>
+            <div class="card-title">Миграция expo-av &rarr; expo-audio — ✅ Готово (18.04.2026)</div>
+            <span class="badge badge-done">Готово</span>
         </div>
         <p style="font-size: 14px; color: var(--gray); margin-bottom: 12px;">
-            <strong>Почему:</strong> expo-av помечен deprecated, удалят в следующем Expo SDK. Сейчас работает, но надо мигрировать до релиза v2.0.
+            expo-av был deprecated. Переписали 3 файла на новое API <span class="tag">expo-audio</span>, обновили jest-mock, удалили пакет.
         </p>
 
-        <h4 style="margin: 16px 0 8px; font-size: 15px;">Какие файлы использует expo-av (3 штуки):</h4>
+        <h4 style="margin: 16px 0 8px; font-size: 15px;">Что сделано:</h4>
         <ul class="checklist">
-            <li><span class="check check-todo">&#9744;</span> <span class="tag">src/hooks/useAudio.ts</span> — главный хук воспроизведения (MP3 туркменский + TTS fallback)</li>
-            <li><span class="check check-todo">&#9744;</span> <span class="tag">src/services/tts/providers/LocalAudioProvider.ts</span> — локальные MP3</li>
-            <li><span class="check check-todo">&#9744;</span> <span class="tag">src/services/tts/providers/EdgeTTSProvider.ts</span> — Microsoft Edge TTS</li>
+            <li><span class="check check-done">&#10003;</span> Установлен пакет: <span class="tag">npx expo install expo-audio</span> (Expo автоматически добавил плагин в <span class="tag">app.json</span>)</li>
+            <li><span class="check check-done">&#10003;</span> Переписан <span class="tag">src/hooks/useAudio.ts</span> — <span class="tag">soundRef: Audio.Sound</span> → <span class="tag">playerRef: AudioPlayer</span>, <span class="tag">createAsync</span> → <span class="tag">createAudioPlayer + .play()</span>, <span class="tag">setOnPlaybackStatusUpdate</span> → <span class="tag">addListener('playbackStatusUpdate', ...)</span>, <span class="tag">stopAsync+unloadAsync</span> → <span class="tag">pause+remove</span></li>
+            <li><span class="check check-done">&#10003;</span> Переписан <span class="tag">LocalAudioProvider.ts</span> — <span class="tag">currentSound</span> → <span class="tag">currentPlayer</span></li>
+            <li><span class="check check-done">&#10003;</span> Переписан <span class="tag">EdgeTTSProvider.ts</span> — включая <span class="tag">playFromFile</span> с <span class="tag">{ uri }</span> source</li>
+            <li><span class="check check-done">&#10003;</span> Обновлены audio mode опции: <span class="tag">allowsRecordingIOS</span> → <span class="tag">allowsRecording</span>, <span class="tag">playsInSilentModeIOS</span> → <span class="tag">playsInSilentMode</span>, <span class="tag">staysActiveInBackground</span> → <span class="tag">shouldPlayInBackground</span>, <span class="tag">shouldDuckAndroid: true</span> → <span class="tag">interruptionMode: 'duckOthers'</span>, <span class="tag">playThroughEarpieceAndroid</span> → <span class="tag">shouldRouteThroughEarpiece</span></li>
+            <li><span class="check check-done">&#10003;</span> Обновлён jest-mock для <span class="tag">expo-audio</span> в <span class="tag">jest-setup.js</span></li>
+            <li><span class="check check-done">&#10003;</span> Удалён пакет: <span class="tag">npm uninstall expo-av</span></li>
+            <li><span class="check check-done">&#10003;</span> <span class="tag">npx tsc --noEmit</span> — 0 ошибок</li>
+            <li><span class="check check-todo">&#9744;</span> <strong>Остаётся: протестировать на эмуляторе</strong> — туркменский MP3, TTS для всех языков, остановку/паузу</li>
         </ul>
-
-        <h4 style="margin: 16px 0 8px; font-size: 15px;">Карта API-замен:</h4>
-        <table>
-            <thead><tr><th>expo-av (старый)</th><th>expo-audio (новый)</th></tr></thead>
-            <tbody>
-                <tr><td><span class="tag">Audio.setAudioModeAsync(opts)</span></td><td><span class="tag">setAudioModeAsync(opts)</span> — top-level</td></tr>
-                <tr><td><span class="tag">Audio.Sound.createAsync(source, opts)</span> → <span class="tag">{sound}</span></td><td><span class="tag">createAudioPlayer(source)</span> → <span class="tag">AudioPlayer</span></td></tr>
-                <tr><td><span class="tag">sound.setOnPlaybackStatusUpdate(cb)</span></td><td><span class="tag">player.addListener('playbackStatusUpdate', cb)</span></td></tr>
-                <tr><td><span class="tag">sound.stopAsync()</span></td><td><span class="tag">player.pause()</span></td></tr>
-                <tr><td><span class="tag">sound.unloadAsync()</span></td><td><span class="tag">player.remove()</span></td></tr>
-            </tbody>
-        </table>
-
-        <h4 style="margin: 16px 0 8px; font-size: 15px;">Пошаговый план:</h4>
-        <ul class="checklist">
-            <li><span class="check check-todo">&#9744;</span> Установить: <span class="tag">npx expo install expo-audio</span></li>
-            <li><span class="check check-todo">&#9744;</span> Переписать <span class="tag">useAudio.ts</span> — imperative API createAudioPlayer</li>
-            <li><span class="check check-todo">&#9744;</span> Переписать <span class="tag">LocalAudioProvider.ts</span></li>
-            <li><span class="check check-todo">&#9744;</span> Переписать <span class="tag">EdgeTTSProvider.ts</span> (не забыть playFromFile)</li>
-            <li><span class="check check-todo">&#9744;</span> Удалить <span class="tag">expo-av</span> из package.json и package-lock.json</li>
-            <li><span class="check check-todo">&#9744;</span> Запустить <span class="tag">npx tsc --noEmit</span> — должно быть 0 ошибок</li>
-            <li><span class="check check-todo">&#9744;</span> <strong>КРИТИЧНО: Протестировать на эмуляторе</strong> — туркменский MP3, TTS для всех языков, остановку/паузу</li>
-        </ul>
-
-        <div class="warning-box">
-            <strong>Риск:</strong> Это core-функционал. Если сломаем — аудио перестанет работать во всём приложении. Обязательно тестировать на эмуляторе ПОСЛЕ каждой замены файла, не в конце.
-        </div>
     </div>
 
     <!-- v1.0.3 -->
@@ -605,20 +608,20 @@
 <div class="section">
     <div class="section-title"><span class="icon">⚠️</span> Важные замечания</div>
 
-    <div class="warning-box">
-        <strong>expo-av устарел:</strong> Будет удалён в SDK 54. Нужно заменить на <span class="tag">expo-audio</span> + <span class="tag">expo-video</span>.
-    </div>
-
-    <div class="warning-box">
-        <strong>Обновление пакетов:</strong> 13 пакетов требуют обновления для совместимости с Expo 54. Некритично, но стоит сделать перед следующим билдом.
-    </div>
-
-    <div class="danger-box">
-        <strong>Keystore в репо:</strong> Файл <span class="tag">ykjam-terjime.jks</span> лежит в корне проекта. Не должен быть в Git! Добавить в .gitignore если ещё не добавлен.
+    <div class="highlight-box">
+        <strong>AI провайдер для v2.0 не выбран:</strong> Ключи <span class="tag">GEMINI_API_KEY</span> и <span class="tag">OCR_SPACE_API_KEY</span> в <span class="tag">.env</span> больше не нужны в v1.0.3. Перед выбором нового провайдера — отозвать ключи в Google AI Studio и ocr.space, очистить <span class="tag">.env</span>. Когда провайдер выбран — полностью убрать <span class="tag">react-native-dotenv</span> + <span class="tag">env.d.ts</span> + <span class="tag">@env</span> импорты из <span class="tag">AIAssistantService.ts</span> и <span class="tag">gemini.ts</span>.
     </div>
 
     <div class="highlight-box">
-        <strong>Git:</strong> Ветка — main, рабочая директория чистая. 2 неотслеженных файла: IDEA_ILLUSTRATIONS.md (дубликат в docs/).
+        <strong>Secrets audit (18.04.2026):</strong> <span class="tag">.env</span> с <span class="tag">GEMINI_API_KEY</span> и <span class="tag">OCR_SPACE_API_KEY</span> никогда не попадал в git. Hardcoded API ключей (AIza…) в коде нет. Keystore <span class="tag">ykjam-terjime.jks</span> лежит вне репо (<span class="tag">D:\2. SEYDI\5. Documents\Google Play Keystore\</span>), в <span class="tag">.gitignore</span> есть <span class="tag">*.jks</span>. В git отслеживается только <span class="tag">.env.example</span> (шаблон).
+    </div>
+
+    <div class="highlight-box">
+        <strong>AI-код физически остался в src/</strong>, но не в bundle: <span class="tag">src/screens/AskAIScreen.tsx</span> и <span class="tag">src/api/gemini.ts</span> больше не импортируются. Metro не включит их в v1.0.3 bundle. Сохранены для v2.0.
+    </div>
+
+    <div class="warning-box">
+        <strong>Перед билдом v1.0.3:</strong> запустить <span class="tag">npx expo prebuild --clean</span>, чтобы <span class="tag">android/app/src/main/AndroidManifest.xml</span> перегенерировался и в нём остались только INTERNET, ACCESS_NETWORK_STATE, MODIFY_AUDIO_SETTINGS, VIBRATE. Сейчас в manifest ещё торчат старые CAMERA, RECORD_AUDIO, SYSTEM_ALERT_WINDOW и т.д. (они попадут в build если не перегенерировать).
     </div>
 </div>
 
@@ -630,13 +633,19 @@
         <table>
             <thead><tr><th>#</th><th>Задача</th><th>Приоритет</th><th>Сложность</th></tr></thead>
             <tbody>
-                <tr><td>1</td><td>Убрать ykjam-terjime.jks из Git, обновить .gitignore</td><td><span class="badge badge-todo">Срочно</span></td><td>Легко</td></tr>
-                <tr><td>2</td><td><strong>Заменить expo-av на expo-audio</strong> <span style="color: var(--gray); font-size: 12px;">(следующая задача — план готов)</span></td><td><span class="badge badge-progress">Средний</span></td><td>Средняя</td></tr>
-                <tr style="opacity: 0.55; background: var(--green-light);"><td>3</td><td><s>Обновить зависимости Expo 54</s> — ✅ Сделано 12.04.2026 (11 пакетов)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
-                <tr style="opacity: 0.55; background: var(--green-light);"><td>4</td><td><s>Создать README.md + MIT лицензию (open source)</s> — ✅ Сделано 12.04.2026 (5 файлов)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
-                <tr><td>5</td><td>Начать работу над v2.0 контентом (разговорники)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
-                <tr><td>6</td><td>Добавить иллюстрации к фразам</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
+                <tr><td>1</td><td><strong>Протестировать аудио на эмуляторе после миграции expo-audio</strong> — турк. MP3, TTS для всех языков, пауза</td><td><span class="badge badge-progress">Следующая</span></td><td>Легко</td></tr>
+                <tr><td>2</td><td><s>Очистить AI-ключи</s> — ✅ 18.04.2026: Gemini ключ отозван в Google AI Studio, <span class="tag">.env</span> очищен. OCR Space (free-tier) оставлен. После выбора провайдера v2.0 — убрать <span class="tag">react-native-dotenv</span> + <span class="tag">env.d.ts</span> + <span class="tag">@env</span> импорты</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr><td>3</td><td>Выбрать AI провайдера для v2.0 (Gemini / Groq / OpenRouter / Anthropic / ...)</td><td><span class="badge badge-idea">Решение</span></td><td>Исследование</td></tr>
+                <tr><td>4</td><td>Open Source: GitHub Pages, оформить <span class="tag">Shapak-Apps</span> org, Telegram-группа</td><td><span class="badge badge-todo">В работе</span></td><td>Средняя</td></tr>
+                <tr><td>5</td><td>Начать работу над v2.0 контентом (разговорники из PDF, 42 МБ в <span class="tag">downloads/</span>)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
+                <tr><td>6</td><td>Добавить иллюстрации к фразам (SVG + облачка)</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
                 <tr><td>7</td><td><strong>Собрать и залить v1.0.3 в Google Play + App Store</strong> <span style="color: var(--gray); font-size: 12px;">(делаю сам, в самом конце)</span></td><td><span class="badge badge-todo">В конце</span></td><td>Легко</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Миграция expo-av → expo-audio</s> — ✅ 18.04.2026 (3 файла + jest-mock, 0 TS ошибок)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Убрать ykjam-terjime.jks из Git</s> — ✅ Проверено 18.04.2026, keystore вне репо, <span class="tag">*.jks</span> в .gitignore</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Android Developer Verification</s> — ✅ 18.04.2026, автоматически зарегистрирован Google</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Закрыть AI в v1.0.3</s> — ✅ 18.04.2026 (кнопка из CategoryScreen, AskAIScreen из navigator)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Обновить зависимости Expo 54</s> — ✅ 12.04.2026 (11 пакетов)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>README.md + MIT лицензия (open source)</s> — ✅ 12.04.2026 (5 файлов)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
             </tbody>
         </table>
     </div>
@@ -645,7 +654,7 @@
 </div>
 
 <div class="footer">
-    Ykjam Terjime &bull; Shapak-Apps &bull; обновлено 12 апреля 2026<br>
+    Ykjam Terjime &bull; Shapak-Apps &bull; обновлено 18 апреля 2026<br>
     Создано автоматически на основе анализа кодовой базы
 </div>
 

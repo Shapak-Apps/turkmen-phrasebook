@@ -261,8 +261,15 @@ export default function CategoryScreen() {
   };
 
   const selectedSubcategoryName = selectedSubcategory
-    ? getSubcategoryNameByLanguage(selectedSubcategory, selectedLanguage)
+    ? getSubcategoryNameByLanguage(selectedSubcategory, config.mode)
     : null;
+
+  const phrasesLabel =
+    config.mode === 'tk' ? 'sözlem' :
+    config.mode === 'zh' ? '短语' :
+    config.mode === 'tr' ? 'ifade' :
+    config.mode === 'en' ? 'phrases' :
+    'фраз';
 
   const getLanguageFlag = (langCode: string): string => {
     const flagMap: { [key: string]: string } = {
@@ -311,18 +318,20 @@ export default function CategoryScreen() {
           <View style={styles.headerTitleRow}>
             <Text style={styles.headerEmoji}>{category.icon}</Text>
             <Text style={styles.headerTitle} numberOfLines={1}>
-              {selectedSubcategoryName || getCategoryNameByLanguage(selectedLanguage)}
+              {selectedSubcategoryName || getCategoryNameByLanguage(config.mode)}
             </Text>
           </View>
           <Text style={styles.headerSubtitle}>
-            {getLanguageFlag(selectedLanguage)} ↔ 🇹🇲 · {filteredPhrases.length} phrases
+            🇹🇲 → {getLanguageFlag(selectedLanguage)} · {filteredPhrases.length} {phrasesLabel}
           </Text>
         </View>
 
-        {selectedSubcategory && (
+        {selectedSubcategory ? (
           <TouchableOpacity style={styles.backToCategoryButton} onPress={handleBackToCategory}>
             <Ionicons name="grid-outline" size={moderateScale(22)} color="#6B7280" />
           </TouchableOpacity>
+        ) : (
+          <View style={styles.headerRightPlaceholder} />
         )}
       </View>
 
@@ -438,13 +447,19 @@ const styles = StyleSheet.create({
 
   headerContent: {
     flex: 1,
-    marginLeft: scale(8),
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
   headerTitleRow: {
     alignItems: 'center',
     flexDirection: 'row',
     gap: scale(8),
+    justifyContent: 'center',
+  },
+
+  headerRightPlaceholder: {
+    width: scale(40),
   },
 
   headerEmoji: {
@@ -455,13 +470,14 @@ const styles = StyleSheet.create({
     color: '#1A1A1A',
     fontSize: moderateScale(18),
     fontWeight: '600',
-    flex: 1,
+    textAlign: 'center',
   },
 
   headerSubtitle: {
     color: '#6B7280',
     fontSize: moderateScale(13),
     marginTop: verticalScale(2),
+    textAlign: 'center',
   },
 
   backToCategoryButton: {

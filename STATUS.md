@@ -25,11 +25,13 @@
 - [ ] Собрать билд и отправить в Google Play + App Store
 
 ## Secrets audit (18.04.2026):
-- ✅ `.env` (с `GEMINI_API_KEY`, `OCR_SPACE_API_KEY`) никогда не попадал в git
+- ✅ `.env` никогда не попадал в git
 - ✅ В git отслеживается только `.env.example` (шаблон без реальных ключей)
 - ✅ Keystore файлы, google-services.json, GoogleService-Info.plist отсутствуют в репе
 - ✅ Hardcoded Google API ключи (`AIza…`) в коде не найдены
-- Ключи в `.env` остаются локально для v2.0
+- ✅ **Gemini ключ отозван** 18.04.2026 в Google AI Studio (ключ `AIzaSyCh5HwwcBEetRRU_NW0w_3hjavhRjfsm2A` удалён)
+- ✅ `.env` очищен — AI провайдер для v2.0 пока не выбран
+- OCR Space ключ (free-tier, без привязки к аккаунту) оставлен как есть — риск минимальный
 
 ## Репозиторий:
 - Рабочая папка: C:\Users\seydi\Shapak-Apps\turkmen-phrasebook

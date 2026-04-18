@@ -30,7 +30,7 @@ interface LanguagePair {
   isAvailable?: boolean;
 }
 
-const AVAILABLE_CODES = ['zh'];
+const AVAILABLE_CODES = ['zh', 'ru', 'en', 'tr'];
 
 type LanguagePairNavigationProp = StackNavigationProp<HomeStackParamList, 'LanguagePairSelection'>;
 
@@ -329,6 +329,8 @@ const LanguagePairSelectionScreen: React.FC = () => {
         return '选择会话手册语言';
       case 'ru':
         return 'Выберите язык разговорника';
+      case 'tr':
+        return 'Sözlük dilini seçin';
       case 'en':
         return 'Choose Phrasebook Language';
       default:
@@ -336,42 +338,37 @@ const LanguagePairSelectionScreen: React.FC = () => {
     }
   };
 
-  const getPairDescription = (pairCode: string) => {
-    // Всегда возвращаем английский вариант
-    const descriptions: Record<string, string> = {
-      zh: 'Chinese - Turkmen',
-      ru: 'Russian - Turkmen',
-      en: 'English - Turkmen',
-      tr: 'Turkish - Turkmen',
-      uz: 'Uzbek - Turkmen',
-      de: 'German - Turkmen',
-      fr: 'French - Turkmen',
-      es: 'Spanish - Turkmen',
-      it: 'Italian - Turkmen',
-      ja: 'Japanese - Turkmen',
-      ko: 'Korean - Turkmen',
-      pl: 'Polish - Turkmen',
-      pt: 'Portuguese - Turkmen',
-      nl: 'Dutch - Turkmen',
-      az: 'Azerbaijani - Turkmen',
-      kk: 'Kazakh - Turkmen',
-      ky: 'Kyrgyz - Turkmen',
-      tg: 'Tajik - Turkmen',
-      uk: 'Ukrainian - Turkmen',
-      th: 'Thai - Turkmen',
-      vi: 'Vietnamese - Turkmen',
-      id: 'Indonesian - Turkmen',
-      hi: 'Hindi - Turkmen',
-      ar: 'Arabic - Turkmen',
-      fa: 'Persian - Turkmen',
-      ms: 'Malay - Turkmen',
-      ur: 'Urdu - Turkmen',
-      ps: 'Pashto - Turkmen',
-      hy: 'Armenian - Turkmen',
-      ka: 'Georgian - Turkmen',
+  const getPairDescription = (pairCode: string): string => {
+    // Имя языка на языке интерфейса (только для 4 доступных пар)
+    const langNames: Record<string, Record<string, string>> = {
+      tk: { zh: 'Hytaýça', ru: 'Rusça', en: 'Iňlisçe', tr: 'Türkçe' },
+      ru: { zh: 'Китайский', ru: 'Русский', en: 'Английский', tr: 'Турецкий' },
+      en: { zh: 'Chinese', ru: 'Russian', en: 'English', tr: 'Turkish' },
+      zh: { zh: '中文', ru: '俄语', en: '英语', tr: '土耳其语' },
+      tr: { zh: 'Çince', ru: 'Rusça', en: 'İngilizce', tr: 'Türkçe' },
     };
+    const turkmenLabel: Record<string, string> = {
+      tk: 'Türkmençe',
+      ru: 'Туркменский',
+      en: 'Turkmen',
+      zh: '土库曼语',
+      tr: 'Türkmence',
+    };
+    const interfaceLang = langNames[config.mode] ? config.mode : 'en';
+    const name = langNames[interfaceLang][pairCode] || pairCode.toUpperCase();
+    const tk = turkmenLabel[interfaceLang] || 'Turkmen';
+    return `${name} - ${tk}`;
+  };
 
-    return descriptions[pairCode] || `${pairCode.toUpperCase()} - Turkmen`;
+  const getComingSoonLabel = (): string => {
+    switch (config.mode) {
+      case 'tk': return 'Ýakynda';
+      case 'ru': return 'Скоро';
+      case 'zh': return '即将推出';
+      case 'tr': return 'Yakında';
+      case 'en':
+      default: return 'Coming Soon';
+    }
   };
 
   const styles = React.useMemo(() => StyleSheet.create({
@@ -523,7 +520,7 @@ const LanguagePairSelectionScreen: React.FC = () => {
                 <View style={styles.pairInfo}>
                   <Text style={[styles.pairName, !pair.isAvailable && styles.pairNameDisabled]}>{pair.name}</Text>
                   <Text style={[styles.pairDescription, !pair.isAvailable && styles.pairDescriptionDisabled]}>
-                    {pair.isAvailable ? getPairDescription(pair.code) : 'Coming Soon'}
+                    {pair.isAvailable ? getPairDescription(pair.code) : getComingSoonLabel()}
                   </Text>
                 </View>
 

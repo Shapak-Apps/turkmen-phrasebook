@@ -2,7 +2,7 @@
 // ✅ ГИБРИДНАЯ СИСТЕМА: MP3 (туркменский) + TTS (поддерживаемые языки)
 
 import { useState, useCallback, useEffect, useRef } from 'react';
-import { Audio } from 'expo-av';
+import { createAudioPlayer, setAudioModeAsync, AudioPlayer } from 'expo-audio';
 import * as Speech from 'expo-speech';
 import { Alert } from 'react-native';
 import { getAudioSource } from '../data/audioMapping';
@@ -28,7 +28,7 @@ export function useAudio() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState<string | null>(null);
-  const soundRef = useRef<Audio.Sound | null>(null);
+  const playerRef = useRef<AudioPlayer | null>(null);
   const isPlayingRef = useRef(false);
   const isLoadingRef = useRef(false);
 
@@ -69,12 +69,12 @@ export function useAudio() {
   useEffect(() => {
     const initAudio = async () => {
       try {
-        await Audio.setAudioModeAsync({
-          allowsRecordingIOS: false,
-          playsInSilentModeIOS: true,
-          staysActiveInBackground: false,
-          shouldDuckAndroid: true,
-          playThroughEarpieceAndroid: false,
+        await setAudioModeAsync({
+          allowsRecording: false,
+          playsInSilentMode: true,
+          shouldPlayInBackground: false,
+          interruptionMode: 'duckOthers',
+          shouldRouteThroughEarpiece: false,
         });
       } catch (error) {
         console.warn('Audio initialization failed:', error);
@@ -86,8 +86,13 @@ export function useAudio() {
   // Очистка при размонтировании
   useEffect(() => {
     return () => {
-      if (soundRef.current) {
-        soundRef.current.unloadAsync().catch(console.warn);
+      if (playerRef.current) {
+        try {
+          playerRef.current.remove();
+        } catch (error) {
+          console.warn('[useAudio] Cleanup error:', error);
+        }
+        playerRef.current = null;
       }
       Speech.stop();
     };
@@ -169,9 +174,13 @@ export function useAudio() {
       setLoadingState(true);
 
       // Останавливаем предыдущее воспроизведение
-      if (soundRef.current) {
-        await soundRef.current.unloadAsync();
-        soundRef.current = null;
+      if (playerRef.current) {
+        try {
+          playerRef.current.remove();
+        } catch (error) {
+          console.warn('[useAudio] Remove previous player error:', error);
+        }
+        playerRef.current = null;
       }
       Speech.stop();
 
@@ -180,20 +189,20 @@ export function useAudio() {
         const audioSource = getAudioSource(audioPath);
 
         if (audioSource) {
-          const { sound } = await Audio.Sound.createAsync(
-            audioSource,
-            { shouldPlay: true, volume: 1.0, rate: 1.0 }
-          );
-
-          soundRef.current = sound;
+          const player = createAudioPlayer(audioSource);
+          playerRef.current = player;
 
           // Callback на завершение
-          sound.setOnPlaybackStatusUpdate((status: any) => {
-            if (status.isLoaded && status.didJustFinish) {
+          player.addListener('playbackStatusUpdate', (status: any) => {
+            if (status.didJustFinish) {
               setPlayingState(false);
               setLoadingState(false);
             }
           });
+
+          player.volume = 1.0;
+          player.setPlaybackRate(1.0);
+          player.play();
 
           setPlayingState(true);
           setLoadingState(false);
@@ -247,10 +256,10 @@ export function useAudio() {
    */
   const stopAudio = useCallback(async () => {
     try {
-      if (soundRef.current) {
-        await soundRef.current.stopAsync();
-        await soundRef.current.unloadAsync();
-        soundRef.current = null;
+      if (playerRef.current) {
+        playerRef.current.pause();
+        playerRef.current.remove();
+        playerRef.current = null;
       }
       Speech.stop();
       setPlayingState(false);
