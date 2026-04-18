@@ -1,5 +1,5 @@
 # STATUS - Ykjam Terjime (Türkmen Gepleşik kitaby)
-**Last Updated:** April 9, 2026
+**Last Updated:** April 18, 2026
 
 ---
 
@@ -8,13 +8,28 @@
 - Google Play: ✅ Опубликовано (19.03.2026), v1.0.2 (versionCode 5) — IARC рейтинг активен
 - IARC Global Rating ID: 01ac1b83-da19-8222-8b50-3f056fad5d5a
 
+## Android Developer Verification (18.04.2026):
+- ✅ `com.shapak.translator` автоматически зарегистрирован Google (зелёная галочка в Play Console)
+- Распространяется только через Google Play → дополнительных действий не требуется
+- Подпись: один keystore `ykjam-terjime.jks` (SHA1: CA:46:29:FA:08:B6:3B:DC:70:D0:8E:5F:68:56:E3:72:F1:66:C7:BC)
+
 ## Готовится v1.0.3 (багфиксы + блокировка):
 - [x] Исправлен Onboarding — белый фон вместо синего (текст был невидимый)
 - [x] Исправлен Visual/Voice Translator — текст фич не отображался рядом с иконками
 - [x] Исправлен Dictionary — невидимая стрелка назад
 - [x] Заблокированы языки — открыты только: 🇨🇳 Китайский, 🇷🇺 Русский, 🇬🇧 Английский, 🇹🇷 Турецкий (+🇹🇲 Туркменский)
-- [x] AI раздел закрыт — Coming Soon v2.0 (отказ от Gemini API в v1)
+- [x] AI раздел закрыт из MainHub — Coming Soon v2.0
+- [x] AI кнопка убрана из CategoryScreen (inline "sparkles" рядом с каждой фразой) — 18.04.2026
+- [x] `AskAIScreen` удалён из `AppNavigator` → `src/api/gemini.ts` больше не попадает в bundle v1.0.3
+- [x] Заблокированы лишние Android permissions в `app.json`: CAMERA, RECORD_AUDIO, SYSTEM_ALERT_WINDOW, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE (для соответствия Google Play Policy)
 - [ ] Собрать билд и отправить в Google Play + App Store
+
+## Secrets audit (18.04.2026):
+- ✅ `.env` (с `GEMINI_API_KEY`, `OCR_SPACE_API_KEY`) никогда не попадал в git
+- ✅ В git отслеживается только `.env.example` (шаблон без реальных ключей)
+- ✅ Keystore файлы, google-services.json, GoogleService-Info.plist отсутствуют в репе
+- ✅ Hardcoded Google API ключи (`AIza…`) в коде не найдены
+- Ключи в `.env` остаются локально для v2.0
 
 ## Репозиторий:
 - Рабочая папка: C:\Users\seydi\Shapak-Apps\turkmen-phrasebook

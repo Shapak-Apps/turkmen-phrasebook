@@ -56,14 +56,13 @@ const PhraseItem = React.memo<{
   config: any;
   isFavorite: (id: string) => boolean;
   toggleFavorite: (id: string) => void;
-  onAskAI: (phrase: PhraseWithTranslation) => void;
   onPlayAudio: (phraseId: string, type: 'translation' | 'turkmen', text: string, language: string, audioPath?: string) => void;
   playingPhraseId: string | null;
   playingType: 'translation' | 'turkmen' | null;
   audioIsPlaying: boolean;
   audioIsLoading: boolean;
   isLast: boolean;
-}>(({ phrase, onPress, config, isFavorite, toggleFavorite, onAskAI, onPlayAudio, playingPhraseId, playingType, audioIsPlaying, audioIsLoading, isLast }) => {
+}>(({ phrase, onPress, config, isFavorite, toggleFavorite, onPlayAudio, playingPhraseId, playingType, audioIsPlaying, audioIsLoading, isLast }) => {
   const isThisPlaying = playingPhraseId === phrase.id;
   const thisIsLoading = isThisPlaying && audioIsLoading;
   const thisIsPlaying = isThisPlaying && audioIsPlaying;
@@ -89,10 +88,6 @@ const PhraseItem = React.memo<{
     await Clipboard.setStringAsync(textToCopy);
     Alert.alert('✓', 'Скопировано', [{ text: 'OK' }], { cancelable: true });
   }, [phrase]);
-
-  const handleAskAI = useCallback(() => {
-    onAskAI(phrase);
-  }, [phrase, onAskAI]);
 
   return (
     <>
@@ -156,10 +151,6 @@ const PhraseItem = React.memo<{
             <Ionicons name="copy-outline" size={moderateScale(14)} color="#9CA3AF" />
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={handleAskAI} activeOpacity={0.6} style={styles.actionBtn}>
-            <Ionicons name="sparkles-outline" size={moderateScale(14)} color="#9CA3AF" />
-          </TouchableOpacity>
-
           <TouchableOpacity onPress={handleToggleFavorite} activeOpacity={0.6} style={styles.actionBtn}>
             <Ionicons
               name={isFavorite(phrase.id) ? 'heart' : 'heart-outline'}
@@ -209,10 +200,6 @@ export default function CategoryScreen() {
       playAudio(text, getAudioLanguage(selectedLanguage));
     }
   }, [playAudio, selectedLanguage]);
-
-  const handleOpenAIModal = useCallback((phrase: PhraseWithTranslation) => {
-    navigation.navigate('AskAIScreen', { phrase, categoryId: category.id });
-  }, [navigation, category.id]);
 
   const subcategories = useMemo(() => {
     return getSubcategoriesByParentId(category.id);
@@ -348,7 +335,6 @@ export default function CategoryScreen() {
             config={config}
             isFavorite={isFavorite}
             toggleFavorite={toggleFavorite}
-            onAskAI={handleOpenAIModal}
             onPlayAudio={handlePlayAudio}
             playingPhraseId={playingPhraseId}
             playingType={playingType}

@@ -14,7 +14,6 @@ import MainHubScreen from '../screens/MainHubScreen';
 // Импортируем экраны
 import HomeScreen from '../screens/HomeScreen';
 import CategoryScreen from '../screens/CategoryScreen';
-import AskAIScreen from '../screens/AskAIScreen';
 import AdvancedSearchScreen from '../screens/AdvancedSearchScreen';
 import FavoritesHubScreen from '../features/favorites/screens/FavoritesHubScreen';
 import SettingsScreen from '../screens/SettingsScreen';
@@ -77,11 +76,6 @@ function HomeStackNavigator() {
       <HomeStack.Screen
         name="CategoryScreen"
         component={CategoryScreen}
-        options={{ headerShown: false }}
-      />
-      <HomeStack.Screen
-        name="AskAIScreen"
-        component={AskAIScreen}
         options={{ headerShown: false }}
       />
     </HomeStack.Navigator>
