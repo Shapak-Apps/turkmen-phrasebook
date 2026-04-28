@@ -22,6 +22,15 @@
 - [x] AI кнопка убрана из CategoryScreen (inline "sparkles" рядом с каждой фразой) — 18.04.2026
 - [x] `AskAIScreen` удалён из `AppNavigator` → `src/api/gemini.ts` больше не попадает в bundle v1.0.3
 - [x] Заблокированы лишние Android permissions в `app.json`: CAMERA, RECORD_AUDIO, SYSTEM_ALERT_WINDOW, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE (для соответствия Google Play Policy)
+- [x] **Миграция `expo-av` → `expo-audio`** (18.04.2026) — 3 файла переписаны, jest-mock обновлён, `expo-av` удалён. Bugfix: `player.playbackRate = rate` → `player.setPlaybackRate(rate)` (в expo-audio это read-only property)
+- [x] **`npx expo prebuild --clean`** выполнен (18.04.2026) — новый AndroidManifest.xml содержит только 4 нужных permissions, 7 лишних заблокированы `tools:node="remove"`
+- [x] **`expo-system-ui` установлен** (18.04.2026) — для корректной работы `userInterfaceStyle: "light"` на Android
+- [x] **UI фиксы CategoryScreen header** (18.04.2026): заголовок и подзаголовок центрированы, `getCategoryNameByLanguage(config.mode)` вместо `selectedLanguage` (теперь на языке **интерфейса**, не перевода), локализация "phrases" на 5 языков (tk/zh/tr/en/ru), замена `↔` на `→`
+- [x] **HomeScreen settings button** (18.04.2026) — шестерёнка ⚙️ теперь ведёт в `Settings` (раньше ошибочно в LanguagePairSelection)
+- [x] **LanguagePairSelectionScreen** (18.04.2026) — открыто 4 языка (zh/ru/en/tr) вместо 1 только zh. Заголовок, описания пар, "Coming Soon" локализованы на 5 интерфейсных языков
+- [x] **`.gitignore` дополнен** `*.keystore` (18.04.2026) — debug.keystore больше не попадёт в репо
+- [x] **Коммит be8c403 в GitHub** (18.04.2026) — 16 файлов, +280/-220 строк: https://github.com/Shapak-Apps/turkmen-phrasebook/commit/be8c403
+- [ ] Протестировать аудио на эмуляторе после `setPlaybackRate` bugfix — туркменский MP3, TTS других языков, остановка, переключение фраз
 - [ ] Собрать билд и отправить в Google Play + App Store
 
 ## Secrets audit (18.04.2026):
@@ -31,10 +40,16 @@
 - ✅ Hardcoded Google API ключи (`AIza…`) в коде не найдены
 - ✅ **Gemini ключ отозван** 18.04.2026 в Google AI Studio (ключ `AIzaSyCh5HwwcBEetRRU_NW0w_3hjavhRjfsm2A` удалён)
 - ✅ `.env` очищен — AI провайдер для v2.0 пока не выбран
+- ✅ `debug.keystore` (автогенерируется при prebuild) **НЕ попал в git** — перехвачен до коммита, `*.keystore` добавлен в `.gitignore`
 - OCR Space ключ (free-tier, без привязки к аккаунту) оставлен как есть — риск минимальный
 
+## GitHub Dependabot (18.04.2026):
+- ⚠️ 5 уязвимостей найдено после push: 3 high, 2 moderate
+- Детали: https://github.com/Shapak-Apps/turkmen-phrasebook/security/dependabot
+- Обычно транзитивные зависимости — не блокирует релиз, разобрать позже
+
 ## Репозиторий:
-- Рабочая папка: C:\Users\seydi\Shapak-Apps\turkmen-phrasebook
+- Рабочая папка: C:\Users\seydi\Education\Languages\Shapak-Apps\turkmen-phrasebook (перемещена 28.04.2026)
 - GitHub: github.com/Shapak-Apps/turkmen-phrasebook
 - Старый репо (TheSeydiCharyyev/TurkmenPhrasebook): ✅ Архивирован (09.04.2026)
 - Секреты: .env (локально, не в GitHub)
