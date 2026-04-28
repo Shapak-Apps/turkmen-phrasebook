@@ -49,7 +49,7 @@
 - Обычно транзитивные зависимости — не блокирует релиз, разобрать позже
 
 ## Репозиторий:
-- Рабочая папка: C:\Users\seydi\Education\Languages\Shapak-Apps\turkmen-phrasebook (перемещена 28.04.2026)
+- Рабочая папка: C:\Users\seydi\Shapak-Apps\turkmen-phrasebook (короткий путь — нужен для CMake/Ninja: Windows Long Path Limit 260 символов ломает Gradle build при длинных путях)
 - GitHub: github.com/Shapak-Apps/turkmen-phrasebook
 - Старый репо (TheSeydiCharyyev/TurkmenPhrasebook): ✅ Архивирован (09.04.2026)
 - Секреты: .env (локально, не в GitHub)
