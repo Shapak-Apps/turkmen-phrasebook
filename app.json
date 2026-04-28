@@ -45,7 +45,7 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.shapak.translator",
-      "versionCode": 7,
+      "versionCode": 8,
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE"
@@ -74,12 +74,11 @@
     "extra": {
       "translationsVersion": "1.0.0",
       "supportedLanguages": [
+        "tk",
         "zh",
         "ru",
         "en",
-        "zh",
-        "ru",
-        "en"
+        "tr"
       ],
       "eas": {
         "projectId": "YOUR_EAS_PROJECT_ID"
