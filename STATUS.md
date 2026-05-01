@@ -1,5 +1,5 @@
 # STATUS - Ykjam Terjime (Türkmen Gepleşik kitaby)
-**Last Updated:** April 28, 2026
+**Last Updated:** May 1, 2026
 
 ---
 
@@ -35,10 +35,23 @@
 - [x] **app.json правки** (28.04.2026) — `versionCode` 7→8, `supportedLanguages` дубликаты `["zh","ru","en","zh","ru","en"]` исправлены на `["tk","zh","ru","en","tr"]`
 - [x] **Перенос папки в Education/Languages → возврат** (28.04.2026) — попытка переместить в `C:\Users\seydi\Education\Languages\Shapak-Apps\` провалилась из-за **Windows MAX_PATH 260** (CMake/Ninja error на `safeareacontext_autolinked_build/.../RNCSafeAreaViewShadowNode.cpp.o`). Вернули в `C:\Users\seydi\Shapak-Apps\`. Сохранено в memory: `feedback_windows_path_limit.md`
 - [ ] **Maximum update depth exceeded** — отложенная проблема React infinite render loop, проявляется во время playback аудио. Существовала и до миграции expo-audio (маскировалась `setPlaybackRate` крашем). Не блокирует релиз, но влияет на UX (батарея/перформанс). Нужно расследовать stack trace.
-- [ ] **Production AAB через терминал** — `gradlew bundleRelease` создал AAB 80MB в `android/app/build/outputs/bundle/release/app-release.aab`, но **подписан debug-keystore** (`CN=Android Debug`), не production `ykjam-terjime.jks`. Google Play отвергнет. Нужно настроить `signingConfigs.release` в `android/app/build.gradle` + `~/.gradle/gradle.properties` с keystore паролями. **Альтернатива:** Android Studio GUI Build → Generate Signed Bundle (один раз, без правок build.gradle)
-- [ ] Загрузить v1.0.3 AAB в Google Play Console (после правильной подписи)
-- [ ] Сборка iOS через EAS Build (нужен правильный `owner` + `projectId` в `app.json` — Owner: `Seydi_123`, Project ID: получить кликнув на `shapak-translator` на https://expo.dev)
-- [ ] Загрузить iOS в App Store Connect
+- [x] **Production AAB подписан правильно** (01.05.2026) — Android Studio GUI (Build → Generate Signed Bundle) с keystore `D:\2. SEYDI\5. Documents\Google Play Keystore\ykjam-terjime.jks` (alias `upload`). Подпись: `CN=Seydi Charyyev`, SHA256withRSA, 2048-bit. AAB 80MB в `android/app/release/app-release.aab`
+- [x] **Создан `data-deletion.html`** для Google Play compliance + включён GitHub Pages → URLs работают:
+  - Privacy: https://shapak-apps.github.io/turkmen-phrasebook/privacy-policy.html
+  - Data deletion: https://shapak-apps.github.io/turkmen-phrasebook/data-deletion.html
+- [x] **Обновлены URLs в Google Play Console** — Privacy Policy + Account Deletion. Раньше старый URL с `ykjam-terjime` (несуществующий репо) — заменён на `turkmen-phrasebook`
+- [x] **Удалён Open Source раздел из Plan.html** + почищены все "Сделано" секции (28.04.2026)
+- [x] **Закрыты лишние языки в разговорнике** — оставлен только китайский (`AVAILABLE_CODES = ['zh']` в LanguagePairSelectionScreen, AppNavigator)
+- [x] **Туркменские переводы для ComingSoon экранов** — добавлены ключи `aiComingSoon*` и `textComingSoon*` в LanguageContext (5 ключей AI + 5 ключей Text Translator). ComingSoonScreen использует их вместо hardcoded English
+- [x] **Бейджи App Store / Google Play выровнены** в README.md/ru/tk — оба используют Wikimedia Commons SVG (clean, без padding)
+- [x] **`.gitignore` дополнен** `*.aab`, `*.apk`, `android/app/release/`, `android/app/build/outputs/`
+- [x] **v1.0.3 AAB загружен в Google Play Console** (01.05.2026) — versionCode 8, signature production. Изменения **на проверке Google** (1-7 дней review)
+- [ ] **iOS v1.0.3 через EAS Build** — нужно:
+  1. Получить **Project ID** на https://expo.dev/accounts/seydi_123/projects/shapak-translator (кликнуть на проект → Settings)
+  2. Прописать в `app.json`: `owner: "Seydi_123"` и `extra.eas.projectId: "<UUID>"`
+  3. `eas build --platform ios --profile production` (нужен `eas-cli` глобально и `eas login`)
+  4. Загрузить .ipa в App Store Connect (через Transporter или `eas submit`)
+  5. Заполнить App Store Connect: release notes, screenshots, privacy URL (тот же `https://shapak-apps.github.io/turkmen-phrasebook/privacy-policy.html`), data deletion URL
 
 ## Secrets audit (18.04.2026):
 - ✅ `.env` никогда не попадал в git

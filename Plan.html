@@ -230,7 +230,7 @@
     <h1>Ykjam Terjime</h1>
     <div class="subtitle">Туркменский разговорник &mdash; Статус и план</div>
     <div class="version-badge">v1.0.3 &rarr; v2.0</div>
-    <div class="date">28 апреля 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
+    <div class="date">1 мая 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
 </div>
 
 <div class="container">
@@ -243,20 +243,46 @@
 <div class="section">
     <div class="section-title"><span class="icon">🎯</span> Что нужно сделать</div>
 
-    <!-- v1.0.3 -->
+    <!-- v1.0.3 Android — DONE -->
+    <div class="card" style="border-left: 4px solid var(--green);">
+        <div class="card-header">
+            <div class="card-title">v1.0.3 Android — ✅ Отправлен на проверку (01.05.2026)</div>
+            <span class="badge badge-done">На проверке Google</span>
+        </div>
+        <p style="font-size: 14px; color: var(--gray); margin-bottom: 12px;">v1.0.3 AAB подписан production keystore (<span class="tag">CN=Seydi Charyyev</span>, SHA256withRSA), загружен в Google Play Console, отправлен на review (1-7 дней).</p>
+        <ul class="checklist">
+            <li><span class="check check-done">&#10003;</span> Подписан Android Studio GUI с production keystore (<span class="tag">ykjam-terjime.jks</span>, alias <span class="tag">upload</span>)</li>
+            <li><span class="check check-done">&#10003;</span> Загружен в Google Play Console (versionCode 8)</li>
+            <li><span class="check check-done">&#10003;</span> Создан <span class="tag">data-deletion.html</span> + включён GitHub Pages → URLs работают</li>
+            <li><span class="check check-done">&#10003;</span> Обновлены Privacy Policy + Account Deletion URLs в Play Console</li>
+            <li><span class="check check-todo">&#9744;</span> Дождаться одобрения Google Play (1-7 дней)</li>
+        </ul>
+    </div>
+
+    <!-- v1.0.3 iOS — TODO -->
     <div class="card" style="border-left: 4px solid var(--orange);">
         <div class="card-header">
-            <div class="card-title">БЛИЖАЙШЕЕ: Выпустить v1.0.3</div>
-            <span class="badge badge-todo">Ожидает</span>
+            <div class="card-title">v1.0.3 iOS — TODO через EAS Build</div>
+            <span class="badge badge-todo">Следующая задача</span>
         </div>
-        <p style="font-size: 14px; color: var(--gray); margin-bottom: 12px;">Все багфиксы готовы. AAB собран локально (gradlew bundleRelease, 80MB), но <strong>подписан debug-keystore</strong> — нужна правильная подпись.</p>
+        <p style="font-size: 14px; color: var(--gray); margin-bottom: 12px;">Для iOS используем <strong>EAS Build</strong> (не локально, т.к. нет Mac). Нужно настроить <span class="tag">app.json</span> и запустить.</p>
         <ul class="checklist">
-            <li><span class="check check-todo">&#9744;</span> Подписать AAB через Android Studio GUI (Build → Generate Signed Bundle) с keystore <span class="tag">D:\2. SEYDI\5. Documents\Google Play Keystore\ykjam-terjime.jks</span> (alias <span class="tag">upload</span>) — ИЛИ настроить signing config в <span class="tag">build.gradle</span> + <span class="tag">~/.gradle/gradle.properties</span></li>
-            <li><span class="check check-todo">&#9744;</span> Залить в Google Play Console (versionCode 8)</li>
-            <li><span class="check check-todo">&#9744;</span> Получить Project ID на expo.dev (клик на shapak-translator) → прописать в <span class="tag">app.json</span></li>
-            <li><span class="check check-todo">&#9744;</span> Собрать iOS билд: <span class="tag">eas build --platform ios --profile production</span></li>
-            <li><span class="check check-todo">&#9744;</span> Залить в App Store Connect</li>
+            <li><span class="check check-todo">&#9744;</span> <strong>Получить Project ID</strong> на <a href="https://expo.dev/accounts/seydi_123/projects/shapak-translator" style="color: var(--blue);">expo.dev/accounts/seydi_123/projects/shapak-translator</a> → Settings → Project ID (UUID)</li>
+            <li><span class="check check-todo">&#9744;</span> Прописать в <span class="tag">app.json</span>: <span class="tag">owner: "Seydi_123"</span> и <span class="tag">extra.eas.projectId: "&lt;UUID&gt;"</span></li>
+            <li><span class="check check-todo">&#9744;</span> Поднять <span class="tag">ios.buildNumber</span> в <span class="tag">app.json</span> (сейчас "1.0.0", надо выше последнего опубликованного в App Store Connect)</li>
+            <li><span class="check check-todo">&#9744;</span> Установить EAS CLI: <span class="tag">npm install -g eas-cli</span> (если ещё нет)</li>
+            <li><span class="check check-todo">&#9744;</span> <span class="tag">eas login</span> — войти под Seydi_123</li>
+            <li><span class="check check-todo">&#9744;</span> <strong>Сборка</strong>: <span class="tag">eas build --platform ios --profile production</span> (~15-30 мин в облаке)</li>
+            <li><span class="check check-todo">&#9744;</span> Скачать .ipa или использовать <span class="tag">eas submit --platform ios</span> для автоматической отправки в App Store Connect</li>
+            <li><span class="check check-todo">&#9744;</span> В App Store Connect: заполнить release notes, обновить Privacy Policy URL (тот же <span class="tag">https://shapak-apps.github.io/turkmen-phrasebook/privacy-policy.html</span>) + Data Deletion URL если требуется</li>
+            <li><span class="check check-todo">&#9744;</span> Submit for Apple review (1-3 дня)</li>
         </ul>
+        <div class="warning-box">
+            <strong>Важно:</strong> Apple обычно строже Google. Проверь чтобы:<br>
+            • <span class="tag">ITSAppUsesNonExemptEncryption: false</span> в <span class="tag">app.json</span> (уже стоит ✅)<br>
+            • Все скриншоты в App Store Connect актуальны (если UI поменялся в v1.0.3)<br>
+            • Если использовал AI features — Apple может задать вопросы про data privacy
+        </div>
     </div>
 
     <!-- v2.0 -->
@@ -327,14 +353,13 @@
         <table>
             <thead><tr><th>#</th><th>Задача</th><th>Приоритет</th><th>Сложность</th></tr></thead>
             <tbody>
-                <tr><td>1</td><td><strong>Production AAB подписан debug</strong> — настроить <span class="tag">signingConfigs.release</span> в <span class="tag">build.gradle</span> + <span class="tag">~/.gradle/gradle.properties</span> с паролями. Альтернатива: Android Studio GUI (Build → Generate Signed Bundle)</td><td><span class="badge badge-progress">Следующая</span></td><td>Средняя</td></tr>
-                <tr><td>2</td><td>Залить v1.0.3 AAB в <strong>Google Play Console</strong> (после правильной подписи)</td><td><span class="badge badge-todo">После #1</span></td><td>Легко</td></tr>
-                <tr><td>3</td><td>Получить <strong>Project ID</strong> на expo.dev (клик на shapak-translator) → прописать в <span class="tag">app.json</span> для iOS EAS Build</td><td><span class="badge badge-todo">Перед iOS</span></td><td>Легко</td></tr>
-                <tr><td>4</td><td><strong>iOS EAS Build</strong> v1.0.3 — <span class="tag">eas build --platform ios --profile production</span> → залить в App Store Connect</td><td><span class="badge badge-todo">После #3</span></td><td>Легко</td></tr>
-                <tr><td>5</td><td><strong>Maximum update depth exceeded</strong> — расследовать infinite render loop (не блокирует релиз, но бьёт по UX)</td><td><span class="badge badge-todo">Отложено</span></td><td>Средняя</td></tr>
-                <tr><td>6</td><td>Выбрать AI провайдера для v2.0 (Gemini / Groq / OpenRouter / Anthropic / ...)</td><td><span class="badge badge-idea">Решение</span></td><td>Исследование</td></tr>
-                <tr><td>7</td><td>Начать работу над v2.0 контентом (разговорники из PDF, 42 МБ в <span class="tag">downloads/</span>)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
-                <tr><td>8</td><td>Добавить иллюстрации к фразам (SVG + облачка)</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
+                <tr><td>1</td><td><strong>Дождаться одобрения v1.0.3 в Google Play</strong> — обычно 1-7 дней review</td><td><span class="badge badge-progress">Ожидание Google</span></td><td>—</td></tr>
+                <tr><td>2</td><td><strong>Получить Project ID на expo.dev</strong> (клик на shapak-translator) → прописать в <span class="tag">app.json</span></td><td><span class="badge badge-todo">Перед iOS</span></td><td>Легко</td></tr>
+                <tr><td>3</td><td><strong>iOS EAS Build v1.0.3</strong> — <span class="tag">eas build --platform ios --profile production</span> → загрузить в App Store Connect</td><td><span class="badge badge-progress">Следующая</span></td><td>Средняя</td></tr>
+                <tr><td>4</td><td><strong>Maximum update depth exceeded</strong> — расследовать infinite render loop (не блокирует релиз, но бьёт по UX)</td><td><span class="badge badge-todo">Отложено</span></td><td>Средняя</td></tr>
+                <tr><td>5</td><td>Выбрать AI провайдера для v2.0 (Gemini / Groq / OpenRouter / Anthropic / ...)</td><td><span class="badge badge-idea">Решение</span></td><td>Исследование</td></tr>
+                <tr><td>6</td><td>Начать работу над v2.0 контентом (разговорники из PDF, 42 МБ в <span class="tag">downloads/</span>)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
+                <tr><td>7</td><td>Добавить иллюстрации к фразам (SVG + облачка)</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
             </tbody>
         </table>
     </div>
@@ -343,7 +368,7 @@
 </div>
 
 <div class="footer">
-    Ykjam Terjime &bull; Shapak-Apps &bull; обновлено 28 апреля 2026<br>
+    Ykjam Terjime &bull; Shapak-Apps &bull; обновлено 1 мая 2026<br>
     Создано автоматически на основе анализа кодовой базы
 </div>
 

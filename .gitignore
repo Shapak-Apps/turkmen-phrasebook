@@ -19,6 +19,12 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
+# Android build outputs (AAB / APK)
+android/app/release/
+android/app/build/outputs/
+*.aab
+*.apk
+
 # Metro
 .metro-health-check*
 
