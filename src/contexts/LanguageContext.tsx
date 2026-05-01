@@ -246,6 +246,13 @@ export interface InterfaceTexts {
   aiComingSoonFeature2?: string;
   aiComingSoonFeature3?: string;
 
+  // Text Translator Coming Soon (v2.0) — fallback в ComingSoonScreen.tsx
+  textComingSoonTitle?: string;
+  textComingSoonDesc?: string;
+  textComingSoonFeature1?: string;
+  textComingSoonFeature2?: string;
+  textComingSoonFeature3?: string;
+
   // Coming Soon version badge
   comingSoonInVersion: string;
 
@@ -520,6 +527,20 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     visualComingSoonFeature1: 'Kameradan tekst tanama',
     visualComingSoonFeature2: 'AI tekst tanama',
     visualComingSoonFeature3: 'Galereýa we kamera goldawy',
+
+    // AI Assistant Coming Soon (v2.0)
+    aiComingSoonTitle: 'Emeli aň kömekçileri ýakynda!',
+    aiComingSoonDesc: 'Biz akylly emeli aň kömekçileri üstünde işleýäris. Ýakynda olar size dilleri has çalt öwrenmäge kömek ederler!',
+    aiComingSoonFeature1: 'Akylly fraza düşündirişleri',
+    aiComingSoonFeature2: 'Interaktiw söhbetdeşlik',
+    aiComingSoonFeature3: 'Şahsy okuw maslahatlary',
+
+    // Text Translator Coming Soon (v2.0)
+    textComingSoonTitle: 'Tekst terjimeçi ýakynda!',
+    textComingSoonDesc: 'Biz güýçli tekst terjimeçi üstünde işleýäris. Ýakynda islendik dilde tekst terjime edip bilersiňiz!',
+    textComingSoonFeature1: '30+ dilde tekst terjimesi',
+    textComingSoonFeature2: 'Awtomatik dil kesgitlemesi',
+    textComingSoonFeature3: 'Terjimeleri göçürmek we paýlaşmak',
 
     // Coming Soon version badge
     comingSoonInVersion: 'v{version} çykar',
