@@ -537,7 +537,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Text Translator Coming Soon (v2.0)
     textComingSoonTitle: 'Tekst terjimeçi ýakynda!',
-    textComingSoonDesc: 'Biz güýçli tekst terjimeçi üstünde işleýäris. Ýakynda islendik dilde tekst terjime edip bilersiňiz!',
+    textComingSoonDesc: 'Biz tekst terjimeçi hyzmatynyň üstünde işleýäris. Ýakyn geljekde tekst terjimeçiniň mümkinçiliklerinden peýdalanyp bilersiňiz!',
     textComingSoonFeature1: '30+ dilde tekst terjimesi',
     textComingSoonFeature2: 'Awtomatik dil kesgitlemesi',
     textComingSoonFeature3: 'Terjimeleri göçürmek we paýlaşmak',
