@@ -75,10 +75,7 @@
       "translationsVersion": "1.0.0",
       "supportedLanguages": [
         "tk",
-        "zh",
-        "ru",
-        "en",
-        "tr"
+        "zh"
       ],
       "eas": {
         "projectId": "YOUR_EAS_PROJECT_ID"
