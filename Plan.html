@@ -317,9 +317,6 @@
         <strong>AI-код физически остался в src/</strong>, но не в bundle: <span class="tag">src/screens/AskAIScreen.tsx</span> и <span class="tag">src/api/gemini.ts</span> больше не импортируются. Metro не включит их в v1.0.3 bundle. Сохранены для v2.0.
     </div>
 
-    <div class="warning-box">
-        <strong>Перед билдом v1.0.3:</strong> запустить <span class="tag">npx expo prebuild --clean</span>, чтобы <span class="tag">android/app/src/main/AndroidManifest.xml</span> перегенерировался и в нём остались только INTERNET, ACCESS_NETWORK_STATE, MODIFY_AUDIO_SETTINGS, VIBRATE. Сейчас в manifest ещё торчат старые CAMERA, RECORD_AUDIO, SYSTEM_ALERT_WINDOW и т.д. (они попадут в build если не перегенерировать).
-    </div>
 </div>
 
 <!-- ПРИОРИТЕТЫ -->
