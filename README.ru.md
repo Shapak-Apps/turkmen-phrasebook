@@ -149,9 +149,11 @@ turkmen-phrasebook/
 
 <div align="center">
 
-[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" style="vertical-align: middle;" />](https://apps.apple.com/app/ykjam-terjime/id6758071845)
-&nbsp;&nbsp;
-[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="90" style="vertical-align: middle;" />](https://play.google.com/store/apps/details?id=com.shapak.translator)
+<table border="0" cellpadding="0" cellspacing="0"><tr>
+<td valign="middle"><a href="https://apps.apple.com/app/ykjam-terjime/id6758071845"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" /></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td valign="middle"><a href="https://play.google.com/store/apps/details?id=com.shapak.translator"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="88" /></a></td>
+</tr></table>
 
 </div>
 
