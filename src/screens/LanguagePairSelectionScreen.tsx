@@ -30,7 +30,7 @@ interface LanguagePair {
   isAvailable?: boolean;
 }
 
-const AVAILABLE_CODES = ['zh', 'ru', 'en', 'tr'];
+const AVAILABLE_CODES = ['zh'];
 
 type LanguagePairNavigationProp = StackNavigationProp<HomeStackParamList, 'LanguagePairSelection'>;
 

@@ -1,5 +1,5 @@
 # STATUS - Ykjam Terjime (Türkmen Gepleşik kitaby)
-**Last Updated:** April 18, 2026
+**Last Updated:** April 28, 2026
 
 ---
 
@@ -30,8 +30,15 @@
 - [x] **LanguagePairSelectionScreen** (18.04.2026) — открыто 4 языка (zh/ru/en/tr) вместо 1 только zh. Заголовок, описания пар, "Coming Soon" локализованы на 5 интерфейсных языков
 - [x] **`.gitignore` дополнен** `*.keystore` (18.04.2026) — debug.keystore больше не попадёт в репо
 - [x] **Коммит be8c403 в GitHub** (18.04.2026) — 16 файлов, +280/-220 строк: https://github.com/Shapak-Apps/turkmen-phrasebook/commit/be8c403
-- [ ] Протестировать аудио на эмуляторе после `setPlaybackRate` bugfix — туркменский MP3, TTS других языков, остановка, переключение фраз
-- [ ] Собрать билд и отправить в Google Play + App Store
+- [x] **Тест аудио на эмуляторе** (28.04.2026) — туркменский MP3 ✅ играет (logs показали `playing: true`, `currentTime` от 0 до 2.55 сек, `didJustFinish: true`). TTS китайский ✅ работает. `setPlaybackRate` fix подтверждён.
+- [x] **`npm audit fix`** (28.04.2026) — закрыта 1 high severity (`@xmldom/xmldom`). Коммит `aa76836`. Остались 17 vulnerabilities (4 low, 13 moderate) — все в транзитивных зависимостях Expo SDK (jest-expo, postcss, uuid → xcode), не влияют на runtime production APK. `--force` предлагает downgrade Expo до 49 → НЕ соглашаемся (ломает SDK 54).
+- [x] **app.json правки** (28.04.2026) — `versionCode` 7→8, `supportedLanguages` дубликаты `["zh","ru","en","zh","ru","en"]` исправлены на `["tk","zh","ru","en","tr"]`
+- [x] **Перенос папки в Education/Languages → возврат** (28.04.2026) — попытка переместить в `C:\Users\seydi\Education\Languages\Shapak-Apps\` провалилась из-за **Windows MAX_PATH 260** (CMake/Ninja error на `safeareacontext_autolinked_build/.../RNCSafeAreaViewShadowNode.cpp.o`). Вернули в `C:\Users\seydi\Shapak-Apps\`. Сохранено в memory: `feedback_windows_path_limit.md`
+- [ ] **Maximum update depth exceeded** — отложенная проблема React infinite render loop, проявляется во время playback аудио. Существовала и до миграции expo-audio (маскировалась `setPlaybackRate` крашем). Не блокирует релиз, но влияет на UX (батарея/перформанс). Нужно расследовать stack trace.
+- [ ] **Production AAB через терминал** — `gradlew bundleRelease` создал AAB 80MB в `android/app/build/outputs/bundle/release/app-release.aab`, но **подписан debug-keystore** (`CN=Android Debug`), не production `ykjam-terjime.jks`. Google Play отвергнет. Нужно настроить `signingConfigs.release` в `android/app/build.gradle` + `~/.gradle/gradle.properties` с keystore паролями. **Альтернатива:** Android Studio GUI Build → Generate Signed Bundle (один раз, без правок build.gradle)
+- [ ] Загрузить v1.0.3 AAB в Google Play Console (после правильной подписи)
+- [ ] Сборка iOS через EAS Build (нужен правильный `owner` + `projectId` в `app.json` — Owner: `Seydi_123`, Project ID: получить кликнув на `shapak-translator` на https://expo.dev)
+- [ ] Загрузить iOS в App Store Connect
 
 ## Secrets audit (18.04.2026):
 - ✅ `.env` никогда не попадал в git
@@ -43,10 +50,20 @@
 - ✅ `debug.keystore` (автогенерируется при prebuild) **НЕ попал в git** — перехвачен до коммита, `*.keystore` добавлен в `.gitignore`
 - OCR Space ключ (free-tier, без привязки к аккаунту) оставлен как есть — риск минимальный
 
-## GitHub Dependabot (18.04.2026):
-- ⚠️ 5 уязвимостей найдено после push: 3 high, 2 moderate
+## GitHub Dependabot (28.04.2026 — обновлено):
+- ✅ **1 high closed** (`@xmldom/xmldom` через `npm audit fix`, коммит aa76836)
+- ⚠️ После push GitHub видит **9 (7 high, 2 moderate)** — это GHSA database, у них severity rating строже чем у npm
+- Локальный `npm audit`: **17 (4 low, 13 moderate, 0 high)** — реальная картина
+- Все остатки — **транзитивные зависимости Expo SDK** в build/dev tools (jest-expo chain, postcss → expo, uuid → xcode), **не влияют на runtime production APK**
+- `--force` fix предлагает downgrade Expo до 49 → НЕ принимаем (сломает SDK 54)
+- Это **accepted risk** для v1.0.3
 - Детали: https://github.com/Shapak-Apps/turkmen-phrasebook/security/dependabot
-- Обычно транзитивные зависимости — не блокирует релиз, разобрать позже
+
+## Expo / EAS info (28.04.2026):
+- Owner на expo.dev: `Seydi_123`
+- Project: `shapak-translator` (https://expo.dev/accounts/seydi_123/projects/shapak-translator)
+- Project ID: **TODO** — получить кликом на проект → settings (для iOS EAS Build)
+- Workflow: **Android = локальная сборка** через Android Studio / Gradle (бесплатно, не тратит EAS quota), **iOS = EAS Build** (нет Mac у Seydi)
 
 ## Репозиторий:
 - Рабочая папка: C:\Users\seydi\Shapak-Apps\turkmen-phrasebook (короткий путь — нужен для CMake/Ninja: Windows Long Path Limit 260 символов ломает Gradle build при длинных путях)

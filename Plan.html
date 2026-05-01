@@ -230,10 +230,35 @@
     <h1>Ykjam Terjime</h1>
     <div class="subtitle">Туркменский разговорник &mdash; Статус и план</div>
     <div class="version-badge">v1.0.3 &rarr; v2.0</div>
-    <div class="date">18 апреля 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
+    <div class="date">28 апреля 2026 &bull; Сейди Чарыев / Shapak-Apps</div>
 </div>
 
 <div class="container">
+
+<!-- СДЕЛАНО 28.04.2026 -->
+<div class="section">
+    <div class="section-title"><span class="icon">✅</span> Сделано 28.04.2026</div>
+
+    <div class="card" style="border-left: 4px solid var(--green);">
+        <div class="card-header">
+            <div class="card-title">Сессия 28 апреля — тест аудио, Dependabot, подготовка к билду v1.0.3</div>
+            <span class="badge badge-done">Готово (частично)</span>
+        </div>
+        <ul class="checklist">
+            <li><span class="check check-done">&#10003;</span> <strong>Тест аудио на эмуляторе</strong> — туркменский MP3 ✅ играет (logs: <span class="tag">playing: true</span>, <span class="tag">currentTime 0→2.55</span>, <span class="tag">didJustFinish: true</span>). TTS китайский ✅ работает. <span class="tag">setPlaybackRate</span> fix подтверждён.</li>
+            <li><span class="check check-done">&#10003;</span> <strong>npm audit fix</strong> — закрыта 1 high severity (<span class="tag">@xmldom/xmldom</span>). Коммит <span class="tag">aa76836</span>. Остались 17 vulnerabilities (4 low, 13 moderate) в транзитивных Expo deps — accepted risk</li>
+            <li><span class="check check-done">&#10003;</span> <strong>app.json правки</strong> — <span class="tag">versionCode</span> 7→8, <span class="tag">supportedLanguages</span> исправлены на <span class="tag">["tk","zh","ru","en","tr"]</span> (были дубликаты)</li>
+            <li><span class="check check-done">&#10003;</span> <strong>Перенос проекта Education/Languages → возврат</strong> — попытка с глубоким путём провалилась из-за <strong>Windows MAX_PATH 260</strong> (CMake error на <span class="tag">RNCSafeAreaViewShadowNode.cpp.o</span>). Вернули в <span class="tag">C:\Users\seydi\Shapak-Apps\</span>. Сохранили урок в memory <span class="tag">feedback_windows_path_limit.md</span></li>
+            <li><span class="check check-done">&#10003;</span> Установлен <span class="tag">expo-system-ui ~6.0.9</span> (убрал warning от prebuild)</li>
+            <li><span class="check check-done">&#10003;</span> Найден Expo owner: <span class="tag">Seydi_123</span>, проект <span class="tag">shapak-translator</span></li>
+            <li><span class="check check-todo">&#9744;</span> <strong>Production AAB</strong> через <span class="tag">gradlew bundleRelease</span> — собран (80MB), но <strong>подписан debug-keystore</strong> (<span class="tag">CN=Android Debug</span>). Google Play отвергнет. Нужна настройка signing config или Android Studio GUI</li>
+            <li><span class="check check-todo">&#9744;</span> <strong>Maximum update depth exceeded</strong> — обнаружен infinite render loop во время playback. Не блокирует релиз, отложено</li>
+        </ul>
+        <div class="warning-box">
+            <strong>Главная остановка:</strong> Production AAB подписан debug-keystore. Перед загрузкой в Google Play нужно либо настроить <span class="tag">signingConfigs.release</span> в <span class="tag">android/app/build.gradle</span> + <span class="tag">~/.gradle/gradle.properties</span> с паролями, либо использовать Android Studio GUI (Build → Generate Signed Bundle). Path: <span class="tag">android/app/build/outputs/bundle/release/app-release.aab</span>
+        </div>
+    </div>
+</div>
 
 <!-- СДЕЛАНО 18.04.2026 -->
 <div class="section">
@@ -643,13 +668,18 @@
         <table>
             <thead><tr><th>#</th><th>Задача</th><th>Приоритет</th><th>Сложность</th></tr></thead>
             <tbody>
-                <tr><td>1</td><td><strong>Протестировать аудио на эмуляторе после <span class="tag">setPlaybackRate</span> bugfix</strong> — турк. MP3, TTS других языков, пауза, переключение фраз</td><td><span class="badge badge-progress">После обеда</span></td><td>Легко</td></tr>
-                <tr><td>2</td><td>Разобрать 5 Dependabot уязвимостей (3 high, 2 moderate) в транзитивных зависимостях</td><td><span class="badge badge-todo">Средний</span></td><td>Легко-средняя</td></tr>
-                <tr><td>3</td><td>Выбрать AI провайдера для v2.0 (Gemini / Groq / OpenRouter / Anthropic / ...)</td><td><span class="badge badge-idea">Решение</span></td><td>Исследование</td></tr>
-                <tr><td>4</td><td>Open Source: GitHub Pages, оформить <span class="tag">Shapak-Apps</span> org, Telegram-группа</td><td><span class="badge badge-todo">В работе</span></td><td>Средняя</td></tr>
-                <tr><td>5</td><td>Начать работу над v2.0 контентом (разговорники из PDF, 42 МБ в <span class="tag">downloads/</span>)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
-                <tr><td>6</td><td>Добавить иллюстрации к фразам (SVG + облачка)</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
-                <tr><td>7</td><td><strong>Собрать и залить v1.0.3 в Google Play + App Store</strong> <span style="color: var(--gray); font-size: 12px;">(делаю сам, в самом конце после теста аудио)</span></td><td><span class="badge badge-todo">В конце</span></td><td>Легко</td></tr>
+                <tr><td>1</td><td><strong>Production AAB подписан debug</strong> — настроить <span class="tag">signingConfigs.release</span> в <span class="tag">build.gradle</span> + <span class="tag">~/.gradle/gradle.properties</span> с паролями. Альтернатива: Android Studio GUI (Build → Generate Signed Bundle)</td><td><span class="badge badge-progress">Следующая</span></td><td>Средняя</td></tr>
+                <tr><td>2</td><td>Залить v1.0.3 AAB в <strong>Google Play Console</strong> (после правильной подписи)</td><td><span class="badge badge-todo">После #1</span></td><td>Легко</td></tr>
+                <tr><td>3</td><td>Получить <strong>Project ID</strong> на expo.dev (клик на shapak-translator) → прописать в <span class="tag">app.json</span> для iOS EAS Build</td><td><span class="badge badge-todo">Перед iOS</span></td><td>Легко</td></tr>
+                <tr><td>4</td><td><strong>iOS EAS Build</strong> v1.0.3 — <span class="tag">eas build --platform ios --profile production</span> → залить в App Store Connect</td><td><span class="badge badge-todo">После #3</span></td><td>Легко</td></tr>
+                <tr><td>5</td><td><strong>Maximum update depth exceeded</strong> — расследовать infinite render loop (не блокирует релиз, но бьёт по UX)</td><td><span class="badge badge-todo">Отложено</span></td><td>Средняя</td></tr>
+                <tr><td>6</td><td>Выбрать AI провайдера для v2.0 (Gemini / Groq / OpenRouter / Anthropic / ...)</td><td><span class="badge badge-idea">Решение</span></td><td>Исследование</td></tr>
+                <tr><td>7</td><td>Open Source: GitHub Pages, оформить <span class="tag">Shapak-Apps</span> org, Telegram-группа</td><td><span class="badge badge-todo">В работе</span></td><td>Средняя</td></tr>
+                <tr><td>8</td><td>Начать работу над v2.0 контентом (разговорники из PDF, 42 МБ в <span class="tag">downloads/</span>)</td><td><span class="badge badge-idea">План</span></td><td>Большая</td></tr>
+                <tr><td>9</td><td>Добавить иллюстрации к фразам (SVG + облачка)</td><td><span class="badge badge-idea">Идея</span></td><td>Средняя</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Тест аудио на эмуляторе</s> — ✅ 28.04.2026 (туркменский MP3 играет, setPlaybackRate fix подтверждён)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>npm audit fix</s> — ✅ 28.04.2026 (закрыта 1 high severity @xmldom/xmldom, коммит aa76836)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
+                <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>app.json правки (versionCode 7→8, supportedLanguages дубликаты)</s> — ✅ 28.04.2026</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
                 <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>Коммит be8c403 запушен в GitHub</s> — ✅ 18.04.2026 (16 файлов, +280/-220)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
                 <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>UI-фиксы (CategoryScreen центровка+локализация, HomeScreen settings button, LanguagePairSelection 4 пары+локализация)</s> — ✅ 18.04.2026</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
                 <tr style="opacity: 0.55; background: var(--green-light);"><td>—</td><td><s>expo prebuild --clean + expo-system-ui</s> — ✅ 18.04.2026 (чистый AndroidManifest)</td><td><span class="badge badge-done">Готово</span></td><td>—</td></tr>
@@ -668,7 +698,7 @@
 </div>
 
 <div class="footer">
-    Ykjam Terjime &bull; Shapak-Apps &bull; обновлено 18 апреля 2026<br>
+    Ykjam Terjime &bull; Shapak-Apps &bull; обновлено 28 апреля 2026<br>
     Создано автоматически на основе анализа кодовой базы
 </div>
 

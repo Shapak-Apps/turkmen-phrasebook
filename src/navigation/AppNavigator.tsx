@@ -59,7 +59,7 @@ function HomeStackNavigator() {
 
   // Check if user has selected a language pair
   // Default is 'zh', so if it's anything valid, they've made a choice
-  const hasLanguagePair = selectedLanguage && ['zh', 'ru', 'en', 'tr'].includes(selectedLanguage);
+  const hasLanguagePair = selectedLanguage && ['zh'].includes(selectedLanguage);
 
   return (
     <HomeStack.Navigator initialRouteName={hasLanguagePair ? 'HomeScreen' : 'LanguagePairSelection'}>
