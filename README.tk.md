@@ -149,11 +149,7 @@ Säwlik tapdyňyzmy ýa-da pikiriňiz barmy? **[Issue açyň](https://github.com
 
 <div align="center">
 
-<table border="0" cellpadding="0" cellspacing="0"><tr>
-<td valign="middle"><a href="https://apps.apple.com/app/ykjam-terjime/id6758071845"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="60" /></a></td>
-<td>&nbsp;&nbsp;&nbsp;</td>
-<td valign="middle"><a href="https://play.google.com/store/apps/details?id=com.shapak.translator"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="88" /></a></td>
-</tr></table>
+<a href="https://apps.apple.com/app/ykjam-terjime/id6758071845"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="50" alt="App Store-da göçürip al" /></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shapak.translator"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" height="50" alt="Google Play-de al" /></a>
 
 </div>
 
