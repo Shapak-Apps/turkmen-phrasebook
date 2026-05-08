@@ -1,5 +1,27 @@
 # STATUS - Ykjam Terjime (Türkmen Gepleşik kitaby)
-**Last Updated:** May 1, 2026
+**Last Updated:** May 3, 2026
+
+---
+
+## ⚠️ Локальное состояние проекта (03.05.2026)
+
+**`node_modules` УДАЛЁН** для очистки диска C: (освободилось ~16.5 GB).
+
+**Перед началом разработки выполнить:**
+```powershell
+cd C:\Users\seydi\Shapak-Apps\turkmen-phrasebook
+npm ci
+```
+- `npm ci` (clean install) — устанавливает зависимости строго по `package-lock.json`, быстрее и надёжнее `npm install`
+- Займёт ~5-10 минут (RN/Expo SDK 54 + транзитивные зависимости)
+- Если будет ошибка — попробуй `npm install` вместо `npm ci`
+
+**Что осталось на месте (НЕ удалено):**
+- ✅ Исходники (src/, App.tsx, и т.д.)
+- ✅ `.git`, `.expo`, `android/` (AAB v1.0.3 в `android/app/release/app-release.aab`)
+- ✅ `package.json`, `package-lock.json`, конфиги
+- ✅ Keystore путь (`D:\2. SEYDI\5. Documents\Google Play Keystore\ykjam-terjime.jks`)
+- ✅ `assets/` (фразы, аудио, иконки)
 
 ---
 

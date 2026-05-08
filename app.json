@@ -27,9 +27,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false,
+      "supportsTablet": true,
       "bundleIdentifier": "com.shapak.translator",
-      "buildNumber": "1.0.0",
+      "buildNumber": "4",
       "infoPlist": {
         "CFBundleDisplayName": "Ykjam Terjime",
         "CFBundleName": "Ykjam Terjime",
@@ -61,7 +61,7 @@
       ]
     },
     "web": {},
-    "owner": "YOUR_EXPO_OWNER",
+    "owner": "seydi_123",
     "githubUrl": "https://github.com/Shapak-Apps/turkmen-phrasebook",
     "updates": {
       "enabled": true,
@@ -78,7 +78,7 @@
         "zh"
       ],
       "eas": {
-        "projectId": "YOUR_EAS_PROJECT_ID"
+        "projectId": "e6ee6d59-22ec-492b-a116-a4facf9f2868"
       }
     }
   }
