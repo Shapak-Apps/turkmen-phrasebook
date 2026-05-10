@@ -554,70 +554,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0079",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Meniň gynanjymy kabul ediň",
     order: 79
   },
   {
     id: "phrase_0080",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Sizi gutlaýaryn",
     order: 80
   },
   {
     id: "phrase_0081",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Gutlaglarymy kabul ediň!",
     order: 81
   },
   {
     id: "phrase_0082",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Gutlaýaryn.",
     order: 82
   },
   {
     id: "phrase_0083",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "doglan günüňiz bilen",
     order: 83
   },
   {
     id: "phrase_0084",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "toýuňyz bilen",
     order: 84
   },
   {
     id: "phrase_0085",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "ýubileýiňiz bilen",
     order: 85
   },
   {
     id: "phrase_0086",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "baýramyňyz bilen",
     order: 86
   },
   {
     id: "phrase_0087",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Täze ýyl bilen !",
     order: 87
   },
   {
     id: "phrase_0088",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Roždestwo baýramy bilen !",
     order: 88
   },
   {
