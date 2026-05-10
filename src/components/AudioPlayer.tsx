@@ -36,7 +36,11 @@ export default function AudioPlayer({
   const { isPlaying, isLoading, playAudio, stopAudio } = useAudio();
   const { config } = useAppLanguage();
 
+  // Аудио временно отключено: кнопки видны, но не реагируют на нажатие
+  const audioDisabled = true;
+
   const handlePress = async () => {
+    if (audioDisabled) return;
     if (isPlaying) {
       await stopAudio();
     } else {
@@ -71,9 +75,9 @@ export default function AudioPlayer({
   return (
     <View>
       <TouchableOpacity
-        style={[getButtonStyle(), (disabled || isLoading) && styles.disabled]}
+        style={[getButtonStyle(), (disabled || isLoading || audioDisabled) && styles.disabled]}
         onPress={handlePress}
-        disabled={disabled || isLoading}
+        disabled={disabled || isLoading || audioDisabled}
         activeOpacity={0.7}
       >
         <View style={styles.content}>
