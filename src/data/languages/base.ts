@@ -414,140 +414,140 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0059",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "?",
     order: 59
   },
   {
     id: "phrase_0060",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Meni bagyşlaň...",
     order: 60
   },
   {
     id: "phrase_0061",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "?",
     order: 61
   },
   {
     id: "phrase_0062",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "gijä galanym üçin",
     order: 62
   },
   {
     id: "phrase_0063",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "säwlik goýberenim üçin",
     order: 63
   },
   {
     id: "phrase_0064",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "kiçiräk ýalňyş goýberenim üçin",
     order: 64
   },
   {
     id: "phrase_0065",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "?",
     order: 65
   },
   {
     id: "phrase_0066",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "?",
     order: 66
   },
   {
     id: "phrase_0067",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Bu meniň günäm",
     order: 67
   },
   {
     id: "phrase_0068",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Maňa oňaýly däl",
     order: 68
   },
   {
     id: "phrase_0069",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "?",
     order: 69
   },
   {
     id: "phrase_0070",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Men siziň göwnüňize degmekçi däldim",
     order: 70
   },
   {
     id: "phrase_0071",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Nähili gynançly!",
     order: 71
   },
   {
     id: "phrase_0072",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Örän gynançly!",
     order: 72
   },
   {
     id: "phrase_0073",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Men size duýgudaşlygymy bildirýärin",
     order: 73
   },
   {
     id: "phrase_0074",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Men size oňat düşünýärin",
     order: 74
   },
   {
     id: "phrase_0075",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Alada edere zat ýok",
     order: 75
   },
   {
     id: "phrase_0076",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Alada etmäň",
     order: 76
   },
   {
     id: "phrase_0077",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Näme boldy?",
     order: 77
   },
   {
     id: "phrase_0078",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Aladalanmaň, hemme zat oňat bolar",
     order: 78
   },
   {
