@@ -225,70 +225,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0032",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Örän şat!",
     order: 32
   },
   {
     id: "phrase_0033",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Siz bilen tanyşanyma örän şat!",
     order: 33
   },
   {
     id: "phrase_0034",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "Sag boluň!",
     order: 34
   },
   {
     id: "phrase_0035",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "Köp sag boluň!",
     order: 35
   },
   {
     id: "phrase_0036",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "kömegiňiz üçin",
     order: 36
   },
   {
     id: "phrase_0037",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "goldawyňyz üçin",
     order: 37
   },
   {
     id: "phrase_0038",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "düşünýäniňiz üçin",
     order: 38
   },
   {
     id: "phrase_0039",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "ajaýyp agşam üçin",
     order: 39
   },
   {
     id: "phrase_0040",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "?",
     order: 40
   },
   {
     id: "phrase_0041",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "Siz tarapdan örän mähirli",
     order: 41
   },
   {
