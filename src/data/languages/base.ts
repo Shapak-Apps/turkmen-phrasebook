@@ -694,70 +694,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0099",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "teatra",
     order: 99
   },
   {
     id: "phrase_0100",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "kino",
     order: 100
   },
   {
     id: "phrase_0101",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "myhmançylyga",
     order: 101
   },
   {
     id: "phrase_0102",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "konserte",
     order: 102
   },
   {
     id: "phrase_0103",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "?",
     order: 103
   },
   {
     id: "phrase_0104",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "restorana",
     order: 104
   },
   {
     id: "phrase_0105",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "muzeýe",
     order: 105
   },
   {
     id: "phrase_0106",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "doglan güne",
     order: 106
   },
   {
     id: "phrase_0107",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "Bize ýene-de geliň",
     order: 107
   },
   {
     id: "phrase_0108",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "Sizi ýene görmegimize şat bolarys",
     order: 108
   },
   {
