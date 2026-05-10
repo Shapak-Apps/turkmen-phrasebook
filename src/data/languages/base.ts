@@ -85,70 +85,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0012",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Gadyrdan dostlar!",
     order: 12
   },
   {
     id: "phrase_0013",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Hanym",
     order: 13
   },
   {
     id: "phrase_0014",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Jenap",
     order: 14
   },
   {
     id: "phrase_0015",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "?",
     order: 15
   },
   {
     id: "phrase_0016",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Ýaş ýigit",
     order: 16
   },
   {
     id: "phrase_0017",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "?",
     order: 17
   },
   {
     id: "phrase_0018",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "?",
     order: 18
   },
   {
     id: "phrase_0019",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Bagyşlaň",
     order: 19
   },
   {
     id: "phrase_0020",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Haýyşt edýärin, maňa aýdyň...",
     order: 20
   },
   {
     id: "phrase_0021",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Siz tanyşmy?",
     order: 21
   },
   {
