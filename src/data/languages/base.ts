@@ -624,70 +624,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0089",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Doglan günüň bilen !",
     order: 89
   },
   {
     id: "phrase_0090",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Meniň iň gowy isleglerimi kabul ediň",
     order: 90
   },
   {
     id: "phrase_0091",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "isleýärin",
     order: 91
   },
   {
     id: "phrase_0092",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "hemme arzuwlaryň ýerine ýetmegini",
     order: 92
   },
   {
     id: "phrase_0093",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "bagt",
     order: 93
   },
   {
     id: "phrase_0094",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "saglyk",
     order: 94
   },
   {
     id: "phrase_0095",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "şowlulyk",
     order: 95
   },
   {
     id: "phrase_0096",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Bu size kiçijek sowgat",
     order: 96
   },
   {
     id: "phrase_0097",
     categoryId: "basic",
     subcategoryId: "basic_congratulation",
-    turkmen: "",
+    turkmen: "Minnetdar, sizede!",
     order: 97
   },
   {
     id: "phrase_0098",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "Sizi çagyrmaga rugsat ediň...",
     order: 98
   },
   {
