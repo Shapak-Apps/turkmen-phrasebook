@@ -155,70 +155,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0022",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Size tanyşdyrmaga rugsat ediň...",
     order: 22
   },
   {
     id: "phrase_0023",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "... meniň dostumy",
     order: 23
   },
   {
     id: "phrase_0024",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "... meniň joramy",
     order: 24
   },
   {
     id: "phrase_0025",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "... meniň ýoldaşymy",
     order: 25
   },
   {
     id: "phrase_0026",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "... meniň gelnimi",
     order: 26
   },
   {
     id: "phrase_0027",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Özümi tanyşdyrmaga rusgsat ediň, men...",
     order: 27
   },
   {
     id: "phrase_0028",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Meniň adym...",
     order: 28
   },
   {
     id: "phrase_0029",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Meniň adym...",
     order: 29
   },
   {
     id: "phrase_0030",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Meniň familiýam...",
     order: 30
   },
   {
     id: "phrase_0031",
     categoryId: "basic",
     subcategoryId: "basic_introduction",
-    turkmen: "",
+    turkmen: "Siziň adyňyz näme?",
     order: 31
   },
   {
