@@ -295,70 +295,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0042",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "",
+    turkmen: "Size minnetdar",
     order: 42
   },
   {
     id: "phrase_0043",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "",
+    turkmen: "?",
     order: 43
   },
   {
     id: "phrase_0044",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "",
+    turkmen: "?",
     order: 44
   },
   {
     id: "phrase_0045",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "",
+    turkmen: "Baş üstüne",
     order: 45
   },
   {
     id: "phrase_0046",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "",
+    turkmen: "?",
     order: 46
   },
   {
     id: "phrase_0047",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "?",
     order: 47
   },
   {
     id: "phrase_0048",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "?",
     order: 48
   },
   {
     id: "phrase_0049",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "?",
     order: 49
   },
   {
     id: "phrase_0050",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "ýene bir gezek jaň edip görüň",
     order: 50
   },
   {
     id: "phrase_0051",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "Maňa kömek ediň",
     order: 51
   },
   {
