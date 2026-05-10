@@ -8,7 +8,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0001",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Salam!",
     order: 1
   },
   {
