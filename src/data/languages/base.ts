@@ -15,70 +15,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0002",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Ertiriňiz haýyrly bolsun!",
     order: 2
   },
   {
     id: "phrase_0003",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Gündiziňiz haýyrly bolsun!",
     order: 3
   },
   {
     id: "phrase_0004",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Agşamyňyz haýyrly bolsun!",
     order: 4
   },
   {
     id: "phrase_0005",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Hoş geldiňiz!",
     order: 5
   },
   {
     id: "phrase_0006",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Sizi görenime örän şat!",
     order: 6
   },
   {
     id: "phrase_0007",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "?",
     order: 7
   },
   {
     id: "phrase_0008",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "?",
     order: 8
   },
   {
     id: "phrase_0009",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "",
+    turkmen: "Ýagdaýlaryňyz niçik?",
     order: 9
   },
   {
     id: "phrase_0010",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Hanymlar we jenaplar!",
     order: 10
   },
   {
     id: "phrase_0011",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "",
+    turkmen: "Hormatly kärdeşler!",
     order: 11
   },
   {
