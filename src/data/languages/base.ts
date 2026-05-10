@@ -365,49 +365,49 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0052",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "Mümkin eger men...?",
     order: 52
   },
   {
     id: "phrase_0053",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "Jaň etsem?",
     order: 53
   },
   {
     id: "phrase_0054",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "görsem?",
     order: 54
   },
   {
     id: "phrase_0055",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "alsam?",
     order: 55
   },
   {
     id: "phrase_0056",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "",
+    turkmen: "Kömek ediň haýyşt edýärin",
     order: 56
   },
   {
     id: "phrase_0057",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "Bagyşlaň!",
     order: 57
   },
   {
     id: "phrase_0058",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "",
+    turkmen: "?",
     order: 58
   },
   {
