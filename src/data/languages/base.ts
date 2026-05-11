@@ -834,70 +834,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0119",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "siziň şertleriňiz bilen",
     order: 119
   },
   {
     id: "phrase_0120",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Siziňki örän dogry",
     order: 120
   },
   {
     id: "phrase_0121",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Bolýar",
     order: 121
   },
   {
     id: "phrase_0122",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Bolýar",
     order: 122
   },
   {
     id: "phrase_0123",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Men goldaýan",
     order: 123
   },
   {
     id: "phrase_0124",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Men razy",
     order: 124
   },
   {
     id: "phrase_0125",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Gepleşdik / Gürleşdik",
     order: 125
   },
   {
     id: "phrase_0126",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Men garşy däl",
     order: 126
   },
   {
     id: "phrase_0127",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Bu ajap pikir",
     order: 127
   },
   {
     id: "phrase_0128",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Ajaýyp",
     order: 128
   },
   {
