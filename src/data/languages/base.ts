@@ -1044,70 +1044,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0149",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men işli",
     order: 149
   },
   {
     id: "phrase_0150",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men başaramok",
     order: 150
   },
   {
     id: "phrase_0151",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Meniň işlerim bar",
     order: 151
   },
   {
     id: "phrase_0152",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men garşy",
     order: 152
   },
   {
     id: "phrase_0153",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "?",
     order: 153
   },
   {
     id: "phrase_0154",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "?",
     order: 154
   },
   {
     id: "phrase_0155",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men düýbünden garşy",
     order: 155
   },
   {
     id: "phrase_0156",
     categoryId: "basic",
     subcategoryId: "basic_misunderstanding",
-    turkmen: "",
+    turkmen: "Men size kän düşünip bilemok",
     order: 156
   },
   {
     id: "phrase_0157",
     categoryId: "basic",
     subcategoryId: "basic_misunderstanding",
-    turkmen: "",
+    turkmen: "Men düşünemok",
     order: 157
   },
   {
     id: "phrase_0158",
     categoryId: "basic",
     subcategoryId: "basic_misunderstanding",
-    turkmen: "",
+    turkmen: "Men düşünemok, siz näme hakda aýtýarsyňyz?",
     order: 158
   },
   {
