@@ -1219,70 +1219,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0174",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Sag boluň!",
     order: 174
   },
   {
     id: "phrase_0175",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Sag bol!",
     order: 175
   },
   {
     id: "phrase_0176",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "?",
     order: 176
   },
   {
     id: "phrase_0177",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "?",
     order: 177
   },
   {
     id: "phrase_0178",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Ertire çenli!",
     order: 178
   },
   {
     id: "phrase_0179",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Soňrak görşeris",
     order: 179
   },
   {
     id: "phrase_0180",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "?",
     order: 180
   },
   {
     id: "phrase_0181",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Salam aýt...",
     order: 181
   },
   {
     id: "phrase_0182",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "?",
     order: 182
   },
   {
     id: "phrase_0183",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Sizi ýene görerin diýip umyt edýärin",
     order: 183
   },
   {
