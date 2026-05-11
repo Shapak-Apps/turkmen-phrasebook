@@ -1114,70 +1114,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0159",
     categoryId: "basic",
     subcategoryId: "basic_misunderstanding",
-    turkmen: "",
+    turkmen: "?",
     order: 159
   },
   {
     id: "phrase_0160",
     categoryId: "basic",
     subcategoryId: "basic_misunderstanding",
-    turkmen: "",
+    turkmen: "Siz maňa düşünýärsiňizmi?",
     order: 160
   },
   {
     id: "phrase_0161",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Nähili gynançly!",
     order: 161
   },
   {
     id: "phrase_0162",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "?",
     order: 162
   },
   {
     id: "phrase_0163",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "?",
     order: 163
   },
   {
     id: "phrase_0164",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "?",
     order: 164
   },
   {
     id: "phrase_0165",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Örän gynandym",
     order: 165
   },
   {
     id: "phrase_0166",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "?",
     order: 166
   },
   {
     id: "phrase_0167",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "?",
     order: 167
   },
   {
     id: "phrase_0168",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "?",
     order: 168
   },
   {
