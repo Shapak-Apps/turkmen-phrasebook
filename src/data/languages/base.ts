@@ -1184,35 +1184,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0169",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Beýle bolanyna örän gynandym",
     order: 169
   },
   {
     id: "phrase_0170",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Men size duýgudaşlygymy bildirýärin",
     order: 170
   },
   {
     id: "phrase_0171",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Alada etmäň",
     order: 171
   },
   {
     id: "phrase_0172",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Hiç zat edip bolmaz",
     order: 172
   },
   {
     id: "phrase_0173",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "",
+    turkmen: "Men size nähili kömek edip bilerin?",
     order: 173
   },
   {
