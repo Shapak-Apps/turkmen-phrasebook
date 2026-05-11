@@ -1289,35 +1289,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0184",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Geliň....",
     order: 184
   },
   {
     id: "phrase_0185",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Russiýa",
     order: 185
   },
   {
     id: "phrase_0186",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Moskwa",
     order: 186
   },
   {
     id: "phrase_0187",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "Sankt-Peterburga",
     order: 187
   },
   {
     id: "phrase_0188",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "",
+    turkmen: "?",
     order: 188
   },
   {
