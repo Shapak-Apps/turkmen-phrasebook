@@ -904,70 +904,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0129",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "?",
     order: 129
   },
   {
     id: "phrase_0130",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Ýok",
     order: 130
   },
   {
     id: "phrase_0131",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Meniň pikirimçe ýok",
     order: 131
   },
   {
     id: "phrase_0132",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "?",
     order: 132
   },
   {
     id: "phrase_0133",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Meniň pikirimçe siz ýalňyşdyňyz",
     order: 133
   },
   {
     id: "phrase_0134",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Bu beýle däl",
     order: 134
   },
   {
     id: "phrase_0135",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "?",
     order: 135
   },
   {
     id: "phrase_0136",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men siz bilen razy däl",
     order: 136
   },
   {
     id: "phrase_0137",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men beýle pikir edemok",
     order: 137
   },
   {
     id: "phrase_0138",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "?",
     order: 138
   },
   {
