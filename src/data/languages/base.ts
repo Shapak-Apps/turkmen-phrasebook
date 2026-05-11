@@ -764,70 +764,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0109",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "Haýyş edýärin giriň!",
     order: 109
   },
   {
     id: "phrase_0110",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "",
+    turkmen: "Haýyş edýärin oturyň!",
     order: 110
   },
   {
     id: "phrase_0111",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Hawa",
     order: 111
   },
   {
     id: "phrase_0112",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Dogry",
     order: 112
   },
   {
     id: "phrase_0113",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Hawa elbetde",
     order: 113
   },
   {
     id: "phrase_0114",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "?",
     order: 114
   },
   {
     id: "phrase_0115",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "Men razy...",
     order: 115
   },
   {
     id: "phrase_0116",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "bunuň bilen",
     order: 116
   },
   {
     id: "phrase_0117",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "?",
     order: 117
   },
   {
     id: "phrase_0118",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "",
+    turkmen: "siz bilen",
     order: 118
   },
   {
