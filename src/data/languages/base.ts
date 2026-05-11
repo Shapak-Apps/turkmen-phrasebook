@@ -1324,70 +1324,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0189",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Pasport bölümi nirede?",
     order: 189
   },
   {
     id: "phrase_0190",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Siziň paspordyňyz?",
     order: 190
   },
   {
     id: "phrase_0191",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Ine meniň pasportym",
     order: 191
   },
   {
     id: "phrase_0192",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Pasport kim tarapynda berildi?",
     order: 192
   },
   {
     id: "phrase_0193",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Meniň saparymyň sebäbi...",
     order: 193
   },
   {
     id: "phrase_0194",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Syýahatçylyk",
     order: 194
   },
   {
     id: "phrase_0195",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Iş",
     order: 195
   },
   {
     id: "phrase_0196",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Şahsy",
     order: 196
   },
   {
     id: "phrase_0197",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Men Hytaýda... bolmakçy",
     order: 197
   },
   {
     id: "phrase_0198",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "birnäçe gün",
     order: 198
   },
   {
