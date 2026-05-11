@@ -974,70 +974,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0139",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "?",
     order: 139
   },
   {
     id: "phrase_0140",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Siziňki dogry däl",
     order: 140
   },
   {
     id: "phrase_0141",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Elbetde, ýok",
     order: 141
   },
   {
     id: "phrase_0142",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Edil beýle däl",
     order: 142
   },
   {
     id: "phrase_0143",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Adatça ýok",
     order: 143
   },
   {
     id: "phrase_0144",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Bu adalatly däl",
     order: 144
   },
   {
     id: "phrase_0145",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men islämok",
     order: 145
   },
   {
     id: "phrase_0146",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Men başaramok",
     order: 146
   },
   {
     id: "phrase_0147",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Meniň keýpim ýok",
     order: 147
   },
   {
     id: "phrase_0148",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "",
+    turkmen: "Gynansakda",
     order: 148
   },
   {
