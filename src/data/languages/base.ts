@@ -1394,70 +1394,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0199",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "bir hepde",
     order: 199
   },
   {
     id: "phrase_0200",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "aý",
     order: 200
   },
   {
     id: "phrase_0201",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 201
   },
   {
     id: "phrase_0202",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "myhmanhanada",
     order: 202
   },
   {
     id: "phrase_0203",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "dostlarymda",
     order: 203
   },
   {
     id: "phrase_0204",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Mende birnäçe gün üçin bir saparlyk wiza bar",
     order: 204
   },
   {
     id: "phrase_0205",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Mende şu ýyl üçin birnäçe saparlyk wiza bar",
     order: 205
   },
   {
     id: "phrase_0206",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 206
   },
   {
     id: "phrase_0207",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 207
   },
   {
     id: "phrase_0208",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 208
   },
   {
