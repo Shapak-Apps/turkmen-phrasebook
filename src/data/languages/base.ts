@@ -1464,70 +1464,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0209",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Gümrük deklarasiýasy nirede?",
     order: 209
   },
   {
     id: "phrase_0210",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Ine meniň gümrük deklarasiýam",
     order: 210
   },
   {
     id: "phrase_0211",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Şu blanky maňa doldurmaga kömek ediň",
     order: 211
   },
   {
     id: "phrase_0212",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Siziň bagažyňyz nirede?",
     order: 212
   },
   {
     id: "phrase_0213",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Ine meniň bagažym",
     order: 213
   },
   {
     id: "phrase_0214",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 214
   },
   {
     id: "phrase_0215",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Meniň bagažymda ýok",
     order: 215
   },
   {
     id: "phrase_0216",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "ýarag",
     order: 216
   },
   {
     id: "phrase_0217",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "neşe serişdeleri",
     order: 217
   },
   {
     id: "phrase_0218",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "getirmäge/äkitmäge gadagan zatlar",
     order: 218
   },
   {
