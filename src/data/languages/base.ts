@@ -1604,70 +1604,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0229",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "dermanlar",
     order: 229
   },
   {
     id: "phrase_0230",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 230
   },
   {
     id: "phrase_0231",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Nähili döwlet pajyny tölemeli?",
     order: 231
   },
   {
     id: "phrase_0232",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Men eýýäm pajy töledim",
     order: 232
   },
   {
     id: "phrase_0233",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Men ilçihana (konsulstwo) jaň etmek isleýärin",
     order: 233
   },
   {
     id: "phrase_0234",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Men nirede gol çekmeli?",
     order: 234
   },
   {
     id: "phrase_0235",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Bagaž",
     order: 235
   },
   {
     id: "phrase_0236",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Walýuta",
     order: 236
   },
   {
     id: "phrase_0237",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 237
   },
   {
     id: "phrase_0238",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 238
   },
   {
