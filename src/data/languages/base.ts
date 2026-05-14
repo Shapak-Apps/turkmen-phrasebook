@@ -1534,70 +1534,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0219",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 219
   },
   {
     id: "phrase_0220",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 220
   },
   {
     id: "phrase_0221",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Rus rubly",
     order: 221
   },
   {
     id: "phrase_0222",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Amerikan dollary",
     order: 222
   },
   {
     id: "phrase_0223",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "ýuany",
     order: 223
   },
   {
     id: "phrase_0224",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "möçberde",
     order: 224
   },
   {
     id: "phrase_0225",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Bular meniň şahsy zatlarym",
     order: 225
   },
   {
     id: "phrase_0226",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "Meniň ýanymda...",
     order: 226
   },
   {
     id: "phrase_0227",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "çilim blogy",
     order: 227
   },
   {
     id: "phrase_0228",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "",
+    turkmen: "?",
     order: 228
   },
   {
