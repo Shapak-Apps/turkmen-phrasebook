@@ -1814,70 +1814,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0259",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Uçarlar haýsy günler uçýar ...?",
     order: 259
   },
   {
     id: "phrase_0260",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "... çenli petegiň bahasy näçe?",
     order: 260
   },
   {
     id: "phrase_0261",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "... reýse meniň sargydymy ýatyryň",
     order: 261
   },
   {
     id: "phrase_0262",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Men uçara gijä galdym",
     order: 262
   },
   {
     id: "phrase_0263",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Men näme etmeli?",
     order: 263
   },
   {
     id: "phrase_0264",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "№ ... reýse registrasiýa haçan?",
     order: 264
   },
   {
     id: "phrase_0265",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "№ ... reýse petekleriň registrasiýasy nirede bolup dur?",
     order: 265
   },
   {
     id: "phrase_0266",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Şu gün howa uçuşly (uçuşly däl)",
     order: 266
   },
   {
     id: "phrase_0267",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Reýsiň nomeri näçe?",
     order: 267
   },
   {
     id: "phrase_0268",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "?",
     order: 268
   },
   {
