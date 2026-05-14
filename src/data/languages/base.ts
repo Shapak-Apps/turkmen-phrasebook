@@ -1674,70 +1674,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0239",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Wiza",
     order: 239
   },
   {
     id: "phrase_0240",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Deklarasiýa",
     order: 240
   },
   {
     id: "phrase_0241",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Çemodan",
     order: 241
   },
   {
     id: "phrase_0242",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Ýarag",
     order: 242
   },
   {
     id: "phrase_0243",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Neşe serişdeleri",
     order: 243
   },
   {
     id: "phrase_0244",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 244
   },
   {
     id: "phrase_0245",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Pasport",
     order: 245
   },
   {
     id: "phrase_0246",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Döwlet pajy",
     order: 246
   },
   {
     id: "phrase_0247",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Sumka",
     order: 247
   },
   {
     id: "phrase_0248",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Syýahatçylyk",
     order: 248
   },
   {
