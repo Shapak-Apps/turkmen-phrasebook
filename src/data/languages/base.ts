@@ -1744,70 +1744,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0249",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Men uçara petek almak isleýärin",
     order: 249
   },
   {
     id: "phrase_0250",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Men petegiň sargydyny tassyklamak isleýärin",
     order: 250
   },
   {
     id: "phrase_0251",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Haýsy klas?",
     order: 251
   },
   {
     id: "phrase_0252",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Haýy edýärin...",
     order: 252
   },
   {
     id: "phrase_0253",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "birinji klas",
     order: 253
   },
   {
     id: "phrase_0254",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "biznes-klas",
     order: 254
   },
   {
     id: "phrase_0255",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "ekonom-klas",
     order: 255
   },
   {
     id: "phrase_0256",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Ýanym bilen näçe bagaž alyp bilýärin?",
     order: 256
   },
   {
     id: "phrase_0257",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Artyk agram üçin näçe tölemeli?",
     order: 257
   },
   {
     id: "phrase_0258",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "№... reýse petek beriň haýyş edýärin",
     order: 258
   },
   {
