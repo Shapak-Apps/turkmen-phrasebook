@@ -1884,70 +1884,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0269",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "?",
     order: 269
   },
   {
     id: "phrase_0270",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "№ reýse hasaba almak tamamlandy",
     order: 270
   },
   {
     id: "phrase_0271",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Bagažy hasaba almak nirede bolup dur?",
     order: 271
   },
   {
     id: "phrase_0272",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Uçar haçan uçýar?",
     order: 272
   },
   {
     id: "phrase_0273",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "?",
     order: 273
   },
   {
     id: "phrase_0274",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Reýs saklanylýar",
     order: 274
   },
   {
     id: "phrase_0275",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Reýs näçe wagtlyk saklanylýar?",
     order: 275
   },
   {
     id: "phrase_0276",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Uçuş dowamlylygy näçe ?",
     order: 276
   },
   {
     id: "phrase_0277",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Uçuş ... sagat dowam eder",
     order: 277
   },
   {
     id: "phrase_0278",
     categoryId: "travel",
     subcategoryId: "travel_airport",
-    turkmen: "",
+    turkmen: "Meniň ýerimi görkeziň, haýyş edýärin",
     order: 278
   },
   {
