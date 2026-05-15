@@ -1968,56 +1968,56 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0281",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 281
   },
   {
     id: "phrase_0282",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Howa menzili / Aeroport",
     order: 282
   },
   {
     id: "phrase_0283",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Petek",
     order: 283
   },
   {
     id: "phrase_0284",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 284
   },
   {
     id: "phrase_0285",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 285
   },
   {
     id: "phrase_0286",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Beýiklik",
     order: 286
   },
   {
     id: "phrase_0287",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Gigiena pakedi",
     order: 287
   },
   {
     id: "phrase_0288",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Ýer/ Orun",
     order: 288
   },
   {
