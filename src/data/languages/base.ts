@@ -2276,70 +2276,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0325",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Wagon-restoran",
     order: 325
   },
   {
     id: "phrase_0326",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Wokzal",
     order: 326
   },
   {
     id: "phrase_0327",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Girelge",
     order: 327
   },
   {
     id: "phrase_0328",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Çykalga",
     order: 328
   },
   {
     id: "phrase_0329",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Nirede ?",
     order: 329
   },
   {
     id: "phrase_0330",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Şäher",
     order: 330
   },
   {
     id: "phrase_0331",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Demir ýoly",
     order: 331
   },
   {
     id: "phrase_0332",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Saklanyş kamera",
     order: 332
   },
   {
     id: "phrase_0333",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Kupe",
     order: 333
   },
   {
     id: "phrase_0334",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Satyn almak",
     order: 334
   },
   {
