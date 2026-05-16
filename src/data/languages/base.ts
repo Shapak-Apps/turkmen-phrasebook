@@ -2080,70 +2080,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0297",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Reýsiň nomeri",
     order: 297
   },
   {
     id: "phrase_0298",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Uçar",
     order: 298
   },
   {
     id: "phrase_0299",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Otly haçan gelýär?",
     order: 299
   },
   {
     id: "phrase_0300",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Otly haçan ugraýar?",
     order: 300
   },
   {
     id: "phrase_0301",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 301
   },
   {
     id: "phrase_0302",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Nirede ... ýerleşýär?",
     order: 302
   },
   {
     id: "phrase_0303",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "saklanyş kamerasy",
     order: 303
   },
   {
     id: "phrase_0304",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "kassa",
     order: 304
   },
   {
     id: "phrase_0305",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "platforma",
     order: 305
   },
   {
     id: "phrase_0306",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "şähere çykalga",
     order: 306
   },
   {
