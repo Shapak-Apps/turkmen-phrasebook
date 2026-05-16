@@ -2150,70 +2150,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0307",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "taksi duralgasy",
     order: 307
   },
   {
     id: "phrase_0308",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "awtobus duralgasy",
     order: 308
   },
   {
     id: "phrase_0309",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Wagon",
     order: 309
   },
   {
     id: "phrase_0310",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "ýumşak",
     order: 310
   },
   {
     id: "phrase_0311",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "ýatylýan",
     order: 311
   },
   {
     id: "phrase_0312",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "gaty",
     order: 312
   },
   {
     id: "phrase_0313",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "bir taraplaýyn",
     order: 313
   },
   {
     id: "phrase_0314",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 314
   },
   {
     id: "phrase_0315",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 315
   },
   {
     id: "phrase_0316",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 316
   },
   {
