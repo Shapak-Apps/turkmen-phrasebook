@@ -2220,56 +2220,56 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0317",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 317
   },
   {
     id: "phrase_0318",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Ekspress",
     order: 318
   },
   {
     id: "phrase_0319",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Otlyda wagon restoran barmyka?",
     order: 319
   },
   {
     id: "phrase_0320",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 320
   },
   {
     id: "phrase_0321",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Indiki duralga haýsy?",
     order: 321
   },
   {
     id: "phrase_0322",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "Otly bu ýerde näçe wagtlap dur?",
     order: 322
   },
   {
     id: "phrase_0323",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "?",
     order: 323
   },
   {
     id: "phrase_0324",
     categoryId: "travel",
     subcategoryId: "travel_train",
-    turkmen: "",
+    turkmen: "... çenli bir petek haýyş edýärin",
     order: 324
   },
   {
