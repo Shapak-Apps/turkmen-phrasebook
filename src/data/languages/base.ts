@@ -2024,56 +2024,56 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0289",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Hasaba alyş",
     order: 289
   },
   {
     id: "phrase_0290",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Öte agram",
     order: 290
   },
   {
     id: "phrase_0291",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Uçuş",
     order: 291
   },
   {
     id: "phrase_0292",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Gonuş",
     order: 292
   },
   {
     id: "phrase_0293",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Uçar gonuşy",
     order: 293
   },
   {
     id: "phrase_0294",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Gonmak",
     order: 294
   },
   {
     id: "phrase_0295",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Hasaba alynma",
     order: 295
   },
   {
     id: "phrase_0296",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Reýs",
     order: 296
   },
   {
