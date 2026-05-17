@@ -2827,61 +2827,61 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0407",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Meniň otagym näçenji gatda?",
     order: 407
   },
   {
     id: "phrase_0408",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Sutkasyna otag näçe baha durýar?",
     order: 408
   },
   {
     id: "phrase_0409",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Sizde ... nomer barmy ?",
     order: 409
   },
   {
     id: "phrase_0410",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "arzanrak",
     order: 410
   },
   {
     id: "phrase_0411",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "kiçiräk",
     order: 411
   },
   {
     id: "phrase_0412",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "ulurak",
     order: 412
   },
   {
     id: "phrase_0413",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Bunuň içine ertirligiň bahasy hem girýärmi?",
     order: 413
   },
   {
     id: "phrase_0414",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men otaga haçan töleg etmeli?",
     order: 414
   },
   {
     id: "phrase_0415",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Bu otag maňa ýaraýar (ýaranok).",
     order: 415
   },
   {
     id: "phrase_0416",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Biziň delegasiýamyz üçin otaglar bronlanan.",
     order: 416
   },
   {
