@@ -2767,61 +2767,61 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0397",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Otagda ... barmy ?",
     order: 397
   },
   {
     id: "phrase_0398",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "wanna",
     order: 398
   },
   {
     id: "phrase_0399",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "duş",
     order: 399
   },
   {
     id: "phrase_0400",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "howa sowadyjy / kondisionar",
     order: 400
   },
   {
     id: "phrase_0401",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "telewizor",
     order: 401
   },
   {
     id: "phrase_0402",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "telefon",
     order: 402
   },
   {
     id: "phrase_0403",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "sowadyjy",
     order: 403
   },
   {
     id: "phrase_0404",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "seýf",
     order: 404
   },
   {
     id: "phrase_0405",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Ýuwaş otag beriň haýyş edýärin",
     order: 405
   },
   {
     id: "phrase_0406",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men ...-nji gatda nomer isleýärin",
     order: 406
   },
   {
