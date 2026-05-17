@@ -2528,70 +2528,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0361",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "dollara",
     order: 361
   },
   {
     id: "phrase_0362",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "marka",
     order: 362
   },
   {
     id: "phrase_0363",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Men kredit karty boýunça pul alyp bilýärinmi?",
     order: 363
   },
   {
     id: "phrase_0364",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Uly kupýuralar bilen beriň haýyş edýärin",
     order: 364
   },
   {
     id: "phrase_0365",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Ownuk pula çalşyp beriň haýyş edýärin",
     order: 365
   },
   {
     id: "phrase_0366",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Bank",
     order: 366
   },
   {
     id: "phrase_0367",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Banknota",
     order: 367
   },
   {
     id: "phrase_0368",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Bank rekwizitleri",
     order: 368
   },
   {
     id: "phrase_0369",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Bankomat",
     order: 369
   },
   {
     id: "phrase_0370",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Walýuta kursy",
     order: 370
   },
   {
