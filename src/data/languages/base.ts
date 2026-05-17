@@ -2416,42 +2416,42 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0345",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Ýol",
     order: 345
   },
   {
     id: "phrase_0346",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Tabşyrmak",
     order: 346
   },
   {
     id: "phrase_0347",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 347
   },
   {
     id: "phrase_0348",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Dur",
     order: 348
   },
   {
     id: "phrase_0349",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Duralga",
     order: 349
   },
   {
     id: "phrase_0350",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Taksi",
     order: 350
   },
   {
