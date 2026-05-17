@@ -2598,70 +2598,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0371",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Pul",
     order: 371
   },
   {
     id: "phrase_0372",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Amerikan dollary",
     order: 372
   },
   {
     id: "phrase_0373",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Kassa",
     order: 373
   },
   {
     id: "phrase_0374",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Kommisiýa ýygymy",
     order: 374
   },
   {
     id: "phrase_0375",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Kredit kartoçkasy",
     order: 375
   },
   {
     id: "phrase_0376",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Kupýura",
     order: 376
   },
   {
     id: "phrase_0377",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Maýda pul",
     order: 377
   },
   {
     id: "phrase_0378",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Teňňe",
     order: 378
   },
   {
     id: "phrase_0379",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Nagt pul",
     order: 379
   },
   {
     id: "phrase_0380",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 380
   },
   {
