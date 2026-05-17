@@ -2346,70 +2346,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0335",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Ýerleşýär",
     order: 335
   },
   {
     id: "phrase_0336",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 336
   },
   {
     id: "phrase_0337",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Duralga",
     order: 337
   },
   {
     id: "phrase_0338",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 338
   },
   {
     id: "phrase_0339",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 339
   },
   {
     id: "phrase_0340",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Otly",
     order: 340
   },
   {
     id: "phrase_0341",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Çalyşmak.",
     order: 341
   },
   {
     id: "phrase_0342",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Ýitirmek",
     order: 342
   },
   {
     id: "phrase_0343",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 343
   },
   {
     id: "phrase_0344",
     categoryId: "travel",
     subcategoryId: "travel_useful_words",
-    turkmen: "",
+    turkmen: "Ýol belet",
     order: 344
   },
   {
