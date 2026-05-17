@@ -2731,37 +2731,37 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0391",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Maňa otag gerek...",
     order: 391
   },
   {
     id: "phrase_0392",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "bir orunly",
     order: 392
   },
   {
     id: "phrase_0393",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "iki orunly",
     order: 393
   },
   {
     id: "phrase_0394",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "wannaly",
     order: 394
   },
   {
     id: "phrase_0395",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "duşly",
     order: 395
   },
   {
     id: "phrase_0396",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "balkonly",
     order: 396
   },
   {
