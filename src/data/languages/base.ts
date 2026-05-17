@@ -2695,37 +2695,37 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0385",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Biz haýsy myhmanhanada saklanarasys?",
     order: 385
   },
   {
     id: "phrase_0386",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Myhmanhananyň salgysyny beriň haýyş edýärin",
     order: 386
   },
   {
     id: "phrase_0387",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Maňa myhmanhana gerek",
     order: 387
   },
   {
     id: "phrase_0388",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men otag bronlasym gelýär",
     order: 388
   },
   {
     id: "phrase_0389",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Meniň üçin nomer bronlanan bolmaly",
     order: 389
   },
   {
     id: "phrase_0390",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Sizde boş otaglar barmy?",
     order: 390
   },
   {
