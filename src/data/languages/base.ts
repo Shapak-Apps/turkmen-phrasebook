@@ -2458,70 +2458,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0351",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Pul nirede çalşyp bolýar?",
     order: 351
   },
   {
     id: "phrase_0352",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Men çalyşmak isleýärin...",
     order: 352
   },
   {
     id: "phrase_0353",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "pul",
     order: 353
   },
   {
     id: "phrase_0354",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "ýol çeklerini",
     order: 354
   },
   {
     id: "phrase_0355",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Bank haçan açylýar?",
     order: 355
   },
   {
     id: "phrase_0356",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Bank haçan ýapylýar?",
     order: 356
   },
   {
     id: "phrase_0357",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "Men dollarymy ... çalyşmak isleýärin",
     order: 357
   },
   {
     id: "phrase_0358",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "markalar",
     order: 358
   },
   {
     id: "phrase_0359",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "?",
     order: 359
   },
   {
     id: "phrase_0360",
     categoryId: "travel",
     subcategoryId: "travel_bank",
-    turkmen: "",
+    turkmen: "?",
     order: 360
   },
   {
