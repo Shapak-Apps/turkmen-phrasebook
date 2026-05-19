@@ -3007,69 +3007,69 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0437",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men irräk gitmeli",
     order: 437
   },
   {
     id: "phrase_0438",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men hasaplaşmak isleýärin",
     order: 438
   },
   {
     id: "phrase_0439",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Meniň otagymyň açaryny beriň haýyş edýärin",
     order: 439
   },
   {
     id: "phrase_0440",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Meniň bagažymy ýokaryk äkidiň",
     order: 440
   },
   {
     id: "phrase_0441",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Meni sagat ... oýaryň",
     order: 441
   },
   {
     id: "phrase_0442",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Otaga .... sargamak mümkinmi?",
     order: 442
   },
   {
     id: "phrase_0443",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "ertirlik",
     order: 443
   },
   {
     id: "phrase_0444",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "günortanlyk",
     order: 444
   },
   {
     id: "phrase_0445",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "agşamlyk",
     order: 445
   },
   {
     id: "phrase_0446",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Meni biynjalyk etmäň",
     order: 446
   },
   {
