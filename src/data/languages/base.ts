@@ -2947,61 +2947,61 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0427",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "galmagally",
     order: 427
   },
   {
     id: "phrase_0428",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "dar",
     order: 428
   },
   {
     id: "phrase_0429",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Ertirlik sagat näçede?",
     order: 429
   },
   {
     id: "phrase_0430",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "... nirede ýerleşýär?",
     order: 430
   },
   {
     id: "phrase_0431",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "bar",
     order: 431
   },
   {
     id: "phrase_0432",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "restoran",
     order: 432
   },
   {
     id: "phrase_0433",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "dellekhana",
     order: 433
   },
   {
     id: "phrase_0434",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men ... galmak isleýärin",
     order: 434
   },
   {
     id: "phrase_0435",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "... gün",
     order: 435
   },
   {
     id: "phrase_0436",
     categoryId: "hotel",
-    turkmen: "",
+    turkmen: "Men ýene ... gün galmak isleýärin",
     order: 436
   },
   {
