@@ -3286,70 +3286,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0477",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Günortanlyk",
     order: 477
   },
   {
     id: "phrase_0478",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Ofisiant",
     order: 478
   },
   {
     id: "phrase_0479",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 479
   },
   {
     id: "phrase_0480",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 480
   },
   {
     id: "phrase_0481",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Hasaba alma / Registrasiýa",
     order: 481
   },
   {
     id: "phrase_0482",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Restoran",
     order: 482
   },
   {
     id: "phrase_0483",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 483
   },
   {
     id: "phrase_0484",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Sutka",
     order: 484
   },
   {
     id: "phrase_0485",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Sauna",
     order: 485
   },
   {
     id: "phrase_0486",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Hasap",
     order: 486
   },
   {
