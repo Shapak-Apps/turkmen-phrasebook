@@ -3216,70 +3216,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0467",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Suw",
     order: 467
   },
   {
     id: "phrase_0468",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Zatlar",
     order: 468
   },
   {
     id: "phrase_0469",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 469
   },
   {
     id: "phrase_0470",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Gat boýunça nobatçy",
     order: 470
   },
   {
     id: "phrase_0471",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Duş",
     order: 471
   },
   {
     id: "phrase_0472",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Bronlamak",
     order: 472
   },
   {
     id: "phrase_0473",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Ertirklik",
     order: 473
   },
   {
     id: "phrase_0474",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Açar",
     order: 474
   },
   {
     id: "phrase_0475",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Howa sowadyjy",
     order: 475
   },
   {
     id: "phrase_0476",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Otag",
     order: 476
   },
   {
