@@ -3076,70 +3076,70 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0447",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Haýyş edýärin, maňa taksi çagyryň",
     order: 447
   },
   {
     id: "phrase_0448",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "?",
     order: 448
   },
   {
     id: "phrase_0449",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "?",
     order: 449
   },
   {
     id: "phrase_0450",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Kim ol ýerde?",
     order: 450
   },
   {
     id: "phrase_0451",
     categoryId: "hotel",
     subcategoryId: "hotel_requests",
-    turkmen: "",
+    turkmen: "Giriň!",
     order: 451
   },
   {
     id: "phrase_0452",
     categoryId: "hotel",
     subcategoryId: "hotel_complaints",
-    turkmen: "",
+    turkmen: "Otag hapa",
     order: 452
   },
   {
     id: "phrase_0453",
     categoryId: "hotel",
     subcategoryId: "hotel_complaints",
-    turkmen: "",
+    turkmen: "Hajathana işlänok",
     order: 453
   },
   {
     id: "phrase_0454",
     categoryId: "hotel",
     subcategoryId: "hotel_complaints",
-    turkmen: "",
+    turkmen: "Gyzgyn suw ýok",
     order: 454
   },
   {
     id: "phrase_0455",
     categoryId: "hotel",
     subcategoryId: "hotel_complaints",
-    turkmen: "",
+    turkmen: "?",
     order: 455
   },
   {
     id: "phrase_0456",
     categoryId: "hotel",
     subcategoryId: "hotel_complaints",
-    turkmen: "",
+    turkmen: "Gapydaky gulp işlänok",
     order: 456
   },
   {
