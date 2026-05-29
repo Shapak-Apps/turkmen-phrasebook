@@ -3356,42 +3356,42 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0487",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Arassaçylyk",
     order: 487
   },
   {
     id: "phrase_0488",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Agşamlyk nahary",
     order: 488
   },
   {
     id: "phrase_0489",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Ütük",
     order: 489
   },
   {
     id: "phrase_0490",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Sowadyjy",
     order: 490
   },
   {
     id: "phrase_0491",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Şweýsar",
     order: 491
   },
   {
     id: "phrase_0492",
     categoryId: "hotel",
     subcategoryId: "hotel_useful_words",
-    turkmen: "",
+    turkmen: "Gat",
     order: 492
   },
   {
