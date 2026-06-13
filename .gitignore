@@ -48,3 +48,7 @@ coverage/
 
 # downloads
 downloads/
+
+# Workflow / private notes
+HANDOFF.md
+content/
