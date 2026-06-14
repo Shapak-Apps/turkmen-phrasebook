@@ -3457,61 +3457,61 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0503",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "agşamlyk edindim (edinmedim)",
     order: 503
   },
   {
     id: "phrase_0504",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Bärde nirede iýip-içip bolýar?",
     order: 504
   },
   {
     id: "phrase_0505",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Ýörüň restorana ... gideliň",
     order: 505
   },
   {
     id: "phrase_0506",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "hytaý",
     order: 506
   },
   {
     id: "phrase_0507",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "rus",
     order: 507
   },
   {
     id: "phrase_0508",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "ýapon",
     order: 508
   },
   {
     id: "phrase_0509",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "ýewropa",
     order: 509
   },
   {
     id: "phrase_0510",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Bize ... adamlyk stol gerek",
     order: 510
   },
   {
     id: "phrase_0511",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "iki",
     order: 511
   },
   {
     id: "phrase_0512",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "üç",
     order: 512
   },
   {
