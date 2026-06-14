@@ -3577,61 +3577,61 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0523",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Men buny hiç haçan dadym görmändim",
     order: 523
   },
   {
     id: "phrase_0524",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "?",
     order: 524
   },
   {
     id: "phrase_0525",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Siziň nähili milli tagamlaryňyz bar?",
     order: 525
   },
   {
     id: "phrase_0526",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Bu tagam nämeden edilen?",
     order: 526
   },
   {
     id: "phrase_0527",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Haýyş edýärin, getiriň",
     order: 527
   },
   {
     id: "phrase_0528",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "wilka (çarşajyk)",
     order: 528
   },
   {
     id: "phrase_0529",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "pyçak",
     order: 529
   },
   {
     id: "phrase_0530",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "çemçe",
     order: 530
   },
   {
     id: "phrase_0531",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "enjam",
     order: 531
   },
   {
     id: "phrase_0532",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "bokal",
     order: 532
   },
   {
