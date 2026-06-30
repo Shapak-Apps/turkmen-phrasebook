@@ -3697,68 +3697,68 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0543",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Işdäňiz açyk bolsun",
     order: 543
   },
   {
     id: "phrase_0544",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Men dok",
     order: 544
   },
   {
     id: "phrase_0545",
     categoryId: "restaurant",
-    turkmen: "",
+    turkmen: "Hasaby getiriň, haýyş edýärin",
     order: 545
   },
   {
     id: "phrase_0546",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "?",
     order: 546
   },
   {
     id: "phrase_0547",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "?",
     order: 547
   },
   {
     id: "phrase_0548",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "?",
     order: 548
   },
   {
     id: "phrase_0549",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "Wetçina",
     order: 549
   },
   {
     id: "phrase_0550",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "Kömelekler",
     order: 550
   },
   {
     id: "phrase_0551",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "?",
     order: 551
   },
   {
     id: "phrase_0552",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "?",
     order: 552
   },
   {
