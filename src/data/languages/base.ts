@@ -3800,35 +3800,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0558",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "leňňeç",
     order: 558
   },
   {
     id: "phrase_0559",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "krewetka",
     order: 559
   },
   {
     id: "phrase_0560",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "langust",
     order: 560
   },
   {
     id: "phrase_0561",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "losos",
     order: 561
   },
   {
     id: "phrase_0562",
     categoryId: "restaurant",
     subcategoryId: "restaurant_appetizers",
-    turkmen: "",
+    turkmen: "?",
     order: 562
   },
   {
