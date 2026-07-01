@@ -4115,35 +4115,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0603",
     categoryId: "restaurant",
     subcategoryId: "restaurant_meat",
-    turkmen: "",
+    turkmen: "Bifşteks",
     order: 603
   },
   {
     id: "phrase_0604",
     categoryId: "restaurant",
     subcategoryId: "restaurant_meat",
-    turkmen: "",
+    turkmen: "Göle eti",
     order: 604
   },
   {
     id: "phrase_0605",
     categoryId: "restaurant",
     subcategoryId: "restaurant_meat",
-    turkmen: "",
+    turkmen: "Goýun eti",
     order: 605
   },
   {
     id: "phrase_0606",
     categoryId: "restaurant",
     subcategoryId: "restaurant_meat",
-    turkmen: "",
+    turkmen: "Doňuz eti",
     order: 606
   },
   {
     id: "phrase_0607",
     categoryId: "restaurant",
     subcategoryId: "restaurant_meat",
-    turkmen: "",
+    turkmen: "gowrulan",
     order: 607
   },
   {
