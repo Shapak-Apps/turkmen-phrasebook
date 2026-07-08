@@ -4780,35 +4780,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0698",
     categoryId: "restaurant",
     subcategoryId: "restaurant_alcohol",
-    turkmen: "",
+    turkmen: "Ak",
     order: 698
   },
   {
     id: "phrase_0699",
     categoryId: "restaurant",
     subcategoryId: "restaurant_alcohol",
-    turkmen: "",
+    turkmen: "desertli",
     order: 699
   },
   {
     id: "phrase_0700",
     categoryId: "restaurant",
     subcategoryId: "restaurant_alcohol",
-    turkmen: "",
+    turkmen: "gyzyl",
     order: 700
   },
   {
     id: "phrase_0701",
     categoryId: "restaurant",
     subcategoryId: "restaurant_alcohol",
-    turkmen: "",
+    turkmen: "?",
     order: 701
   },
   {
     id: "phrase_0702",
     categoryId: "restaurant",
     subcategoryId: "restaurant_alcohol",
-    turkmen: "",
+    turkmen: "ýarym süýji",
     order: 702
   },
   {
