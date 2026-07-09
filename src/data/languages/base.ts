@@ -5262,31 +5262,31 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0768",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Haýyş edýärin maňa .... beriň",
     order: 768
   },
   {
     id: "phrase_0769",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "iki marka",
     order: 769
   },
   {
     id: "phrase_0770",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "poçta kagyzyny",
     order: 770
   },
   {
     id: "phrase_0771",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "üç sany konwert",
     order: 771
   },
   {
     id: "phrase_0772",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Haýyş edýärin maňa salgyny ýazyň",
     order: 772
   },
   {
