@@ -5232,31 +5232,31 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0763",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Men ibermeli",
     order: 763
   },
   {
     id: "phrase_0764",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "hat",
     order: 764
   },
   {
     id: "phrase_0765",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "pul geçirim",
     order: 765
   },
   {
     id: "phrase_0766",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "banderol",
     order: 766
   },
   {
     id: "phrase_0767",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "?",
     order: 767
   },
   {
