@@ -5322,31 +5322,31 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0778",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Men telegramma ibermeli",
     order: 778
   },
   {
     id: "phrase_0779",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Maňa telegraf blankyny beriň haýyş edýärin",
     order: 779
   },
   {
     id: "phrase_0780",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Men ... ibermeli",
     order: 780
   },
   {
     id: "phrase_0781",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "adaty telegramma",
     order: 781
   },
   {
     id: "phrase_0782",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "gyssagly telegramma",
     order: 782
   },
   {
