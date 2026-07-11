@@ -5412,31 +5412,31 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0793",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Meniň telefon belgimi ýazyp alyň",
     order: 793
   },
   {
     id: "phrase_0794",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Men telefon jaňy sargyt etmek isleýärin...",
     order: 794
   },
   {
     id: "phrase_0795",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Moskwa bilen",
     order: 795
   },
   {
     id: "phrase_0796",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Sankt-Peterburg bilen",
     order: 796
   },
   {
     id: "phrase_0797",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Nirede mobil telefon satyn alyp bolýar?",
     order: 797
   },
   {
