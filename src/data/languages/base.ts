@@ -5382,31 +5382,31 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0788",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Nirden jaň etseň bolýar?",
     order: 788
   },
   {
     id: "phrase_0789",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Telefon kartyny nirede satyn alyp bolýar?",
     order: 789
   },
   {
     id: "phrase_0790",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Siziň telefonyňyzdan peýdalanmak mümkinmi?",
     order: 790
   },
   {
     id: "phrase_0791",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Siziň telefon belgiňiz näçe?",
     order: 791
   },
   {
     id: "phrase_0792",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Telefondan jaň etmegiň bahasy näçe?",
     order: 792
   },
   {
