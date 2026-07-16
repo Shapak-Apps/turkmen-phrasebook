@@ -5502,31 +5502,31 @@ export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_0808",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Ol haçan bolarka?",
     order: 808
   },
   {
     id: "phrase_0809",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Kim telefonda?",
     order: 809
   },
   {
     id: "phrase_0810",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "Oňa aýdyň...",
     order: 810
   },
   {
     id: "phrase_0811",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "jaň etdi",
     order: 811
   },
   {
     id: "phrase_0812",
     categoryId: "communication",
-    turkmen: "",
+    turkmen: "men jaňa garaşýan",
     order: 812
   },
   {
