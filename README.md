@@ -5,11 +5,11 @@
 
 Russian-Chinese phrasebook with 2174 phrases across 13 categories
 
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)
-![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)
-![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
+[![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)](https://reactnative.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 [🇷🇺 По-русски](./README.ru.md) · [🇹🇲 Türkmençe](./README.tk.md)
 </div>
