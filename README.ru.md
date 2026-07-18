@@ -1,47 +1,46 @@
 <div align="center">
-
 <img src="./assets/logo.png" alt="Ykjam Terjime" width="120" />
 
 # Ykjam Terjime
 
-**Туркменский разговорник и языковой помощник для 5+ языков**
+Русско-Китайский разговорник: 2174 фразы в 13 категориях
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Expo SDK](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
-[![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)](https://reactnative.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)
+![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 [🇬🇧 English](./README.md) · [🇹🇲 Türkmençe](./README.tk.md)
-
 </div>
 
----
+Ykjam Terjime («Готовый перевод» на туркменском) — бесплатный оффлайн-разговорник. Сейчас сфокусирован на русско-китайских фразах: 2174 фразы в 13 категориях, с планами расширения.
 
-**Ykjam Terjime** (*«Готовый перевод»* на туркменском) — бесплатный оффлайн-разговорник и языковой помощник, созданный специально для носителей туркменского языка. Учись и общайся на китайском, русском, английском и турецком — с аудио произношением, избранным, поиском и многим другим.
-
-Часть **[Shapak-Apps](https://github.com/Shapak-Apps)** — первой open-source организации в Туркменистане.
+Часть [Shapak-Apps](https://github.com/Shapak-Apps) — первой open-source организации в Туркменистане.
 
 ## 📱 Скриншоты
 
 <div align="center">
-<img src="./assets/screenshots/1.jpg" width="240" />
-<img src="./assets/screenshots/2.jpg" width="240" />
-<img src="./assets/screenshots/3.jpg" width="240" />
+  <img src="./assets/screenshots/1.jpg" width="240" />
+  <img src="./assets/screenshots/2.jpg" width="240" />
+  <img src="./assets/screenshots/3.jpg" width="240" />
+  <img src="./assets/screenshots/4.jpg" width="240" />
+  <img src="./assets/screenshots/5.jpg" width="240" />
+  <img src="./assets/screenshots/6.jpg" width="240" />
 </div>
 
 ## ✨ Возможности
 
-- 🗣️ **293 фразы** в **22 категориях** (50+ подкатегорий)
-- 🌍 **5 языков**: 🇹🇲 туркменский, 🇨🇳 китайский, 🇷🇺 русский, 🇬🇧 английский, 🇹🇷 турецкий
-- 🔊 **306 аудио файлов** с произношением носителей (M4A)
-- 📴 **Полный оффлайн** — работает без интернета
-- 🈲 **Пиньинь-транскрипция** для китайских фраз
-- ⭐ **Избранное, статистика, полнотекстовый поиск**
-- 🎨 **Чистый минималистичный дизайн** (вдохновлён Lingify)
-- 🆓 **100% бесплатно, без рекламы и трекинга**
+- 🗣️ **2174 фразы** в 13 категориях (+ ~60 подкатегорий)
+- 🌍 Языки: 🇨🇳 Китайский, 🇷🇺 Русский (готовы); 🇹🇲 Туркменский (в процессе перевода)
+- 📖 Кириллическая транскрипция из книги (для китайских фраз)
+- 📴 Полный оффлайн — работает без интернета
+- ⭐ Избранное, статистика, полнотекстовый поиск
+- 🎨 Чистый минималистичный дизайн (вдохновлён Lingify)
+- 🆓 100% бесплатно, без рекламы и трекинга
+- 🔊 Аудио произношение носителей (вернётся в будущих версиях)
 
-**В версии 2.0:** ещё 25 языков (немецкий, французский, испанский, японский, корейский, арабский и др.), AI-переводчик, визуальный переводчик.
+В версии 2.0: ещё 25 языков (немецкий, французский, испанский, японский, корейский, арабский и др.), AI-переводчик, визуальный переводчик.
 
 ## 🛠 Технологии
 

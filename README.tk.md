@@ -1,47 +1,46 @@
 <div align="center">
-
 <img src="./assets/logo.png" alt="Ykjam Terjime" width="120" />
 
 # Ykjam Terjime
 
-**Türkmençe üçin 5+ dilde gepleşik kitaby we dil kömekçisi**
+Rus-Hytaý gepleşik kitaby: 13 kategoriýada 2174 fraza
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Expo SDK](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
-[![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)](https://reactnative.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)
+![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 [🇬🇧 English](./README.md) · [🇷🇺 По-русски](./README.ru.md)
-
 </div>
 
----
+Ykjam Terjime — mugt, oflaýn işleýän gepleşik kitaby. Häzirki wagtda rus-hytaý frazalaryna üns berilýär: 13 kategoriýada 2174 fraza, geljekde has köp dil goşular.
 
-**Ykjam Terjime** türkmen dilinde gepleýänler üçin döredilen mugt, oflaýn işleýän gepleşik kitaby we dil kömekçisidir. Hytaý, rus, iňlis we türk dillerinde öwren we gürleş — ses aýdylyşy, halan fralarym, gözleg we başga-da köp funksiýalar bilen.
-
-**[Shapak-Apps](https://github.com/Shapak-Apps)** — Türkmenistanyň ilkinji açyk kodly (open-source) guramasynyň bir bölegi.
+[Shapak-Apps](https://github.com/Shapak-Apps) — Türkmenistanyň ilkinji açyk kodly guramasynyň bir bölegi.
 
 ## 📱 Ekran şekilleri
 
 <div align="center">
-<img src="./assets/screenshots/1.jpg" width="240" />
-<img src="./assets/screenshots/2.jpg" width="240" />
-<img src="./assets/screenshots/3.jpg" width="240" />
+  <img src="./assets/screenshots/1.jpg" width="240" />
+  <img src="./assets/screenshots/2.jpg" width="240" />
+  <img src="./assets/screenshots/3.jpg" width="240" />
+  <img src="./assets/screenshots/4.jpg" width="240" />
+  <img src="./assets/screenshots/5.jpg" width="240" />
+  <img src="./assets/screenshots/6.jpg" width="240" />
 </div>
 
 ## ✨ Mümkinçilikler
 
-- 🗣️ **293 fraza** — **22 kategoriýada** (50+ kiçi kategoriýa)
-- 🌍 **5 dil**: 🇹🇲 türkmen, 🇨🇳 hytaý, 🇷🇺 rus, 🇬🇧 iňlis, 🇹🇷 türk
-- 🔊 **306 ses faýly** — ene dilinde aýdylyşy (M4A)
-- 📴 **Doly oflaýn** — internet gerek däl
-- 🈲 **Pinyin transkripsiýasy** hytaý frazalary üçin
-- ⭐ **Halanlar, statistika, doly tekst gözlegi**
-- 🎨 **Arassa, minimalistik dizaýn** (Lingify stilinde)
-- 🆓 **100% mugt, mahabatsyz, yzarlamasyz**
+- 🗣️ **2174 fraza** — 13 kategoriýada (+ ~60 kiçi kategoriýa)
+- 🌍 Diller: 🇨🇳 Hytaý, 🇷🇺 Rus (taýýar); 🇹🇲 Türkmen (terjime işlenilýär)
+- 📖 Kitapdan alynýan kiril transkripsiýasy (hytaý frazalary üçin)
+- 📴 Doly oflaýn — internet gerek däl
+- ⭐ Halanlar, statistika, doly tekst gözlegi
+- 🎨 Arassa, minimalistik dizaýn (Lingify stilinde)
+- 🆓 100% mugt, mahabatsyz, yzarlamasyz
+- 🔊 Ene dilinde ses aýdylyşy (geljekki wersiýalarda gaýdyp geler)
 
-**v2.0 wersiýasynda:** ýene 25 dil (nemes, fransuz, ispan, ýapon, koreý, arap we başg.), AI-terjimeçi, wizual terjimeçi.
+v2.0 wersiýasynda: ýene 25 dil (nemes, fransuz, ispan, ýapon, koreý, arap we başg.), AI-terjimeçi, wizual terjimeçi.
 
 ## 🛠 Tehnologiýalar
 

@@ -1,47 +1,46 @@
 <div align="center">
-
 <img src="./assets/logo.png" alt="Ykjam Terjime" width="120" />
 
 # Ykjam Terjime
 
-**Turkmen phrasebook and language companion for 5+ languages**
+Russian-Chinese phrasebook with 2174 phrases across 13 categories
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Expo SDK](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
-[![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)](https://reactnative.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)
+![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB.svg?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 [🇷🇺 По-русски](./README.ru.md) · [🇹🇲 Türkmençe](./README.tk.md)
-
 </div>
 
----
+Ykjam Terjime ("Ready Translation" in Turkmen) is a free, offline-first phrasebook and language companion. Currently focused on Russian-Chinese phrases with 2174 phrases across 13 categories, with more languages coming.
 
-**Ykjam Terjime** (*"Ready Translation"* in Turkmen) is a free, offline-first phrasebook and language companion built specifically for Turkmen speakers. Learn and communicate in Chinese, Russian, English, Turkish — with pronunciation audio, favorites, search, and more.
-
-Part of **[Shapak-Apps](https://github.com/Shapak-Apps)** — the first open-source organization in Turkmenistan.
+Part of [Shapak-Apps](https://github.com/Shapak-Apps) — the first open-source organization in Turkmenistan.
 
 ## 📱 Screenshots
 
 <div align="center">
-<img src="./assets/screenshots/1.jpg" width="240" />
-<img src="./assets/screenshots/2.jpg" width="240" />
-<img src="./assets/screenshots/3.jpg" width="240" />
+  <img src="./assets/screenshots/1.jpg" width="240" />
+  <img src="./assets/screenshots/2.jpg" width="240" />
+  <img src="./assets/screenshots/3.jpg" width="240" />
+  <img src="./assets/screenshots/4.jpg" width="240" />
+  <img src="./assets/screenshots/5.jpg" width="240" />
+  <img src="./assets/screenshots/6.jpg" width="240" />
 </div>
 
 ## ✨ Features
 
-- 🗣️ **293 phrases** across **22 categories** (50+ subcategories)
-- 🌍 **5 languages** available: 🇹🇲 Turkmen, 🇨🇳 Chinese, 🇷🇺 Russian, 🇬🇧 English, 🇹🇷 Turkish
-- 🔊 **306 audio files** with native pronunciation (M4A)
-- 📴 **Fully offline** — works without internet
-- 🈲 **Pinyin transcription** for Chinese phrases
-- ⭐ **Favorites, statistics, full-text search**
-- 🎨 **Clean, minimalist design** (Lingify-inspired)
-- 🆓 **100% free, no ads, no tracking**
+- 🗣️ **2174 phrases** across 13 categories (+ ~60 subcategories)
+- 🌍 Languages: 🇨🇳 Chinese, 🇷🇺 Russian (ready); 🇹🇲 Turkmen (in progress)
+- 📖 Cyrillic transcription from the book (for Chinese phrases)
+- 📴 Fully offline — works without internet
+- ⭐ Favorites, statistics, full-text search
+- 🎨 Clean, minimalist design (Lingify-inspired)
+- 🆓 100% free, no ads, no tracking
+- 🔊 Native pronunciation audio (coming back in future)
 
-**Coming in v2.0:** 25 more languages (German, French, Spanish, Japanese, Korean, Arabic, and more), AI-powered translator, visual translator.
+Coming in v2.0: 25 more languages (German, French, Spanish, Japanese, Korean, Arabic, and more), AI-powered translator, visual translator.
 
 ## 🛠 Tech Stack
 
