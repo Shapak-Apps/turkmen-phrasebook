@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="tk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ykjam Terjime — Maýadarlar üçin prezentasiýa</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
         * {
             margin: 0;
             padding: 0;
@@ -14,525 +13,743 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
             color: #1a1a1a;
-            background: #fff;
-            font-size: 11pt;
+            background: #ffffff;
+            padding: 20px;
         }
 
         .container {
-            max-width: 210mm;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 15mm 20mm;
         }
 
-        .page-break {
-            page-break-before: always;
-            margin-top: 40px;
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 16px;
+            margin-bottom: 40px;
         }
 
-        h1 {
-            font-size: 28pt;
-            font-weight: 700;
-            color: #00843D;
-            margin-bottom: 8px;
-            border-bottom: 3px solid #00843D;
-            padding-bottom: 10px;
-        }
-
-        h1.section-title {
-            font-size: 20pt;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 16pt;
-            font-weight: 600;
-            color: #00843D;
-            margin-top: 25px;
+        .hero h1 {
+            font-size: 48px;
             margin-bottom: 12px;
         }
 
-        h3 {
-            font-size: 13pt;
-            font-weight: 600;
-            color: #333;
-            margin-top: 18px;
-            margin-bottom: 10px;
+        .hero .subtitle {
+            font-size: 20px;
+            opacity: 0.9;
+            margin-bottom: 8px;
         }
 
-        .subtitle {
-            font-size: 14pt;
-            color: #666;
-            margin-bottom: 30px;
+        .hero .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 16px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin: 40px 0 20px;
+            color: #2D8CFF;
+            border-bottom: 2px solid #E5E7EB;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 22px;
+            margin: 24px 0 12px;
+            color: #1a1a1a;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin: 16px 0 8px;
+            color: #374151;
         }
 
         p {
             margin-bottom: 12px;
-            text-align: justify;
+            color: #374151;
         }
 
-        ul, ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
         }
 
-        li {
-            margin-bottom: 6px;
+        .stat-card {
+            background: #F9FAFB;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #E5E7EB;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #2D8CFF;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #6B7280;
+            margin-top: 4px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 15px 0;
-            font-size: 10pt;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px 12px;
-            text-align: left;
+            margin: 16px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         th {
-            background: #00843D;
+            background: #2D8CFF;
             color: white;
+            padding: 12px;
+            text-align: left;
             font-weight: 600;
         }
 
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #E5E7EB;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
         tr:nth-child(even) {
-            background: #f9f9f9;
+            background: #F9FAFB;
+        }
+
+        ul {
+            margin: 12px 0 12px 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #374151;
+        }
+
+        .features-list {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .features-list li {
+            padding: 12px 16px;
+            background: #F0F7FF;
+            border-left: 4px solid #2D8CFF;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+
+        .badge-active {
+            display: inline-block;
+            background: #10B981;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-progress {
+            display: inline-block;
+            background: #F59E0B;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-disabled {
+            display: inline-block;
+            background: #9CA3AF;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-soon {
+            display: inline-block;
+            background: #6366F1;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
         }
 
         .highlight-box {
-            background: linear-gradient(135deg, #00843D10, #00843D05);
-            border-left: 4px solid #00843D;
-            padding: 15px 20px;
-            margin: 20px 0;
-            border-radius: 0 8px 8px 0;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin: 20px 0;
-        }
-
-        .stat-card {
-            background: #f8f9fa;
-            padding: 15px;
+            background: #FEF3C7;
+            border-left: 4px solid #F59E0B;
+            padding: 16px;
             border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e9ecef;
-        }
-
-        .stat-number {
-            font-size: 24pt;
-            font-weight: 700;
-            color: #00843D;
-        }
-
-        .stat-label {
-            font-size: 10pt;
-            color: #666;
-            margin-top: 5px;
-        }
-
-        .architecture-box {
-            background: #1a1a1a;
-            color: #00ff88;
-            padding: 20px;
-            border-radius: 8px;
-            font-family: 'Courier New', monospace;
-            font-size: 9pt;
-            white-space: pre;
-            overflow-x: auto;
-            margin: 15px 0;
-        }
-
-        .flag-table td:first-child {
-            font-size: 18pt;
-            text-align: center;
-            width: 50px;
+            margin: 16px 0;
         }
 
         .footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #F9FAFB;
+            border-radius: 12px;
             margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            text-align: center;
-            color: #666;
-            font-size: 10pt;
+            color: #6B7280;
         }
 
-        .cover-page {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            page-break-after: always;
-        }
-
-        .cover-page h1 {
-            font-size: 36pt;
-            border: none;
-            margin-bottom: 20px;
-        }
-
-        .cover-page .subtitle {
-            font-size: 18pt;
-            margin-bottom: 60px;
-        }
-
-        .cover-page .tagline {
-            font-size: 14pt;
-            color: #00843D;
-            font-weight: 500;
-        }
-
-        @media print {
-            body {
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            .page-break {
-                page-break-before: always;
-            }
+        .flag {
+            font-size: 20px;
+            margin-right: 6px;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <!-- Cover Page -->
-        <div class="cover-page">
-            <h1>Ykjam Terjime</h1>
-            <p class="subtitle">Akylly Sözlük</p>
-            <p class="tagline">Türkmen dilini öwrenmek üçin mobil programma</p>
-            <br><br><br>
-            <p style="color: #999; font-size: 12pt;">Maýadarlar üçin prezentasiýa</p>
-            <p style="color: #999; font-size: 11pt;">2025</p>
+        <div class="hero">
+            <h1>📱 Ykjam Terjime</h1>
+            <div class="subtitle">Akylly Sözlük</div>
+            <div class="subtitle">Hytaý we rus dillerini öwrenmek üçin mobil programma</div>
+            <div class="badge">Maýadarlar üçin prezentasiýa • Iýul 2026</div>
         </div>
 
-        <!-- Page 1: About -->
-        <h1 class="section-title">1. Taslama hakynda</h1>
+        <h2>1. Taslama hakynda</h2>
 
-        <h2>Ykjam Terjime näme?</h2>
-        <p><strong>Ykjam Terjime</strong> — bu gündelik ýagdaýlarda türkmen dilini öwrenmäge we onda gürleşmäge kömek edýän häzirki zaman mobil programma-sözlükdir.</p>
+        <h3>Ykjam Terjime näme?</h3>
+        <p><strong>Ykjam Terjime</strong> — bu <strong>«Rus-Hytaý gepleşik kitaby» (2013)</strong> esasynda gurulan
+            häzirki zaman mobil programma-sözlükdir.</p>
 
-        <div class="highlight-box">
-            <strong>Programma özünde birleşdirýär:</strong>
-            <ul style="margin-top: 10px; margin-bottom: 0;">
-                <li>Giň gepleşik sözlemler bazasyny</li>
-                <li>Teksti terjime etmek üçin emeli aň</li>
-                <li>Professional ses aýdylyşyny</li>
-                <li>Düşnükli interfeýsi</li>
-            </ul>
-        </div>
-
-        <h2>Maksatlaýyn tomaşaçylar</h2>
-        <table>
-            <tr><th>Segment</th><th>Düşündiriş</th></tr>
-            <tr><td><strong>Syýahatçylar</strong></td><td>Türkmenistana gelýän myhmanlar</td></tr>
-            <tr><td><strong>Işewürler</strong></td><td>Türkmen hyzmatdaşlary bilen işleýän telekeçiler</td></tr>
-            <tr><td><strong>Talyplar</strong></td><td>Okuw jaýlarynda türkmen dilini öwrenýänler</td></tr>
-            <tr><td><strong>Diaspora</strong></td><td>Daşary ýurtlardaky türkmenler we olaryň maşgalalary</td></tr>
-            <tr><td><strong>Ekspatlar</strong></td><td>Türkmenistanda ýaşaýan we işleýän daşary ýurtlylar</td></tr>
-        </table>
-
-        <h2>Esasy artykmaçlyklar</h2>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">31</div>
-                <div class="stat-label">dil goldawy</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">1000+</div>
-                <div class="stat-label">sözlem bazada</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">22</div>
-                <div class="stat-label">temalaýyn kategoriýa</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">AI</div>
-                <div class="stat-label">Gemini esasyndaky terjime</div>
-            </div>
-        </div>
-
-        <h2>Bazar mümkinçiligi</h2>
-        <ul>
-            <li><strong>Türkmenistanyň ilaty</strong>: 6+ million adam</li>
-            <li><strong>Türkmen diasporasy</strong>: dünýä boýunça 2+ million adam</li>
-            <li><strong>Ösýän gyzyklanma</strong>: Merkezi Aziýa syýahatçylyk we işewürlik akymynyň artmagy</li>
-            <li><strong>Bäsdeşleriň ýoklugy</strong>: türkmen dili üçin hilli analoglaryň ýoklugy</li>
+        <p>Programma özünde birleşdirýär:</p>
+        <ul class="features-list">
+            <li>✅ <strong>2174 gepleşik sözleminiň</strong> giň bazasy</li>
+            <li>✅ <strong>13 tematiki kategoriýa</strong> (~60 kiçi kategoriýa bilen)</li>
+            <li>✅ Hytaý sözlemleri üçin <strong>kiril transkripsiýasy</strong> (kitapdan)</li>
+            <li>✅ Düşnükli interfeýs</li>
+            <li>✅ <strong>Oflaýn tertip</strong> (internetsiz işleýär)</li>
         </ul>
 
-        <!-- Page 2: Features -->
-        <div class="page-break"></div>
-        <h1 class="section-title">2. Funksiýalar</h1>
-
-        <h2>Esasy modullar</h2>
-
-        <h3>Sözlük</h3>
-        <p>Programmanyň ýüregi — <strong>22 temalaýyn kategoriýa</strong> boýunça guralan <strong>1000+ sözlemden</strong> ybarat gurluşly baza:</p>
-
+        <h3>Maksatlaýyn tomaşaçylar</h3>
         <table>
-            <tr><th>Kategoriýa</th><th>Sözlem mysallary</th></tr>
-            <tr><td>Salamlaşmak</td><td>«Salam», «Sag boluň»</td></tr>
-            <tr><td>Iýmit we restoranlar</td><td>Nahar sargamak, islegler, töleg</td></tr>
-            <tr><td>Myhmanhana</td><td>Bronlamak, hyzmatlar, meseleler</td></tr>
-            <tr><td>Ulag</td><td>Taksi, awtobus, ugurlar</td></tr>
-            <tr><td>Saglyk</td><td>Alamatlar, dermanhana, gyssagly kömek</td></tr>
-            <tr><td>Söwda</td><td>Bahalar, söwdalaşmak, töleg</td></tr>
-            <tr><td>Işewürlik</td><td>Iş duşuşyklary, gepleşikler</td></tr>
-            <tr><td>Gyssagly ýagdaýlar</td><td>Kömek, polisiýa, tiz kömek</td></tr>
+            <tr>
+                <th>Segment</th>
+                <th>Düşündiriş</th>
+            </tr>
+            <tr>
+                <td>🎓 Talyplar</td>
+                <td>Hytaý we rus dillerini öwrenýänler</td>
+            </tr>
+            <tr>
+                <td>💼 Işewürler</td>
+                <td>Hytaý we rus hyzmatdaşlary bilen işleýän telekeçiler</td>
+            </tr>
+            <tr>
+                <td>✈️ Syýahatçylar</td>
+                <td>Hytaýa we Russiýa syýahat edýänler</td>
+            </tr>
+            <tr>
+                <td>🌍 Diaspora</td>
+                <td>Daşary ýurtlardaky türkmenler we olaryň maşgalalary</td>
+            </tr>
+            <tr>
+                <td>🏢 Ekspatlar</td>
+                <td>Türkmenistanda ýaşaýan daşary ýurtlylar</td>
+            </tr>
         </table>
 
-        <p>Her sözlem öz içine alýar: türkmen dilindäki tekst, saýlan dile terjime, ses aýdylyşy we halananlara goşmak mümkinçiligi.</p>
+        <h3>Esasy artykmaçlyklar</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">2174</span>
+                <span class="stat-label">sözlem bazada</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">13</span>
+                <span class="stat-label">kategoriýa (~60 kiçi kategoriýa)</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">2+1</span>
+                <span class="stat-label">dil (taýýar + işlenilýär)</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">oflaýn tertip</span>
+            </div>
+        </div>
 
-        <h3>Tekst terjimeçisi</h3>
-        <p><strong>Google Gemini AI</strong> esasyndaky erkin terjime moduly:</p>
+        <ul class="features-list">
+            <li>🗣️ <strong>2174 sözlem</strong> 13 tematiki kategoriýada (+ ~60 kiçi kategoriýa)</li>
+            <li>🌍 <strong>2 dil doly taýýar</strong>: 🇨🇳 Hytaý, 🇷🇺 Rus</li>
+            <li>🔄 <strong>1 dil terjime işlenilýär</strong>: 🇹🇲 Türkmen</li>
+            <li>📖 <strong>Kiril transkripsiýasy</strong> «Rus-Hytaý gepleşik kitabyndan» (2013)</li>
+            <li>📴 <strong>Oflaýn tertip</strong> — esasy funksiýalar internetsiz işleýär</li>
+            <li>🎨 <strong>Häzirki zaman dizaýny</strong> — 2025-nji ýylyň standartlaryna laýyk interfeýs</li>
+            <li>🆓 <strong>Mugt model</strong> — 100% mugt, mahabatsyz, yzarlamasyz</li>
+            <li>⏸️ <strong>Ses aýdylyşy</strong> — wagtlaýyn öçürilen <span class="badge-disabled">öçürilen</span></li>
+            <li>🔜 <strong>AI terjimeçi</strong> — v2.0-da meýilleşdirilýär <span class="badge-soon">ýakynda</span></li>
+        </ul>
+
+        <h3>Bazar mümkinçiligi</h3>
         <ul>
-            <li>31 diliň islendigi arasynda terjime</li>
+            <li>Türkmenistanyň ilaty: <strong>6+ million adam</strong></li>
+            <li>Türkmen diasporasy: dünýä boýunça <strong>2+ million adam</strong></li>
+            <li>Ösýän gyzyklanma: Hytaý we Russiýa bilen syýahatçylyk hem-de işewürlik akymynyň artmagy</li>
+            <li>Bäsdeşleriň ýoklugy: türkmen dili üçin hilli analoglaryň ýoklugy</li>
+        </ul>
+
+        <h2>2. Funksiýalar</h2>
+
+        <h3>📖 Sözlük</h3>
+        <p>Programmanyň ýüregi — <strong>13 tematiki kategoriýa</strong> (~60 kiçi kategoriýa bilen) boýunça guralan
+            <strong>2174 sözlemden</strong> ybarat gurluşly baza:
+        </p>
+
+        <table>
+            <tr>
+                <th>Kategoriýa</th>
+                <th>Sözlem mysallary</th>
+            </tr>
+            <tr>
+                <td>👋 Salamlaşmak</td>
+                <td>«Salam» — Привет, «Sag boluň» — Спасибо</td>
+            </tr>
+            <tr>
+                <td>🍽️ Iýmit we restoranlar</td>
+                <td>Nahar sargamak, islegler, töleg</td>
+            </tr>
+            <tr>
+                <td>🏨 Myhmanhana</td>
+                <td>Bronlamak, hyzmatlar, meseleler</td>
+            </tr>
+            <tr>
+                <td>🚌 Ulag</td>
+                <td>Taksi, awtobus, ugurlar</td>
+            </tr>
+            <tr>
+                <td>🏥 Saglyk</td>
+                <td>Alamatlar, dermanhana, gyssagly kömek</td>
+            </tr>
+            <tr>
+                <td>🛍️ Söwda</td>
+                <td>Bahalar, söwdalaşmak, töleg</td>
+            </tr>
+            <tr>
+                <td>💼 Işewürlik</td>
+                <td>Iş duşuşyklary, gepleşikler</td>
+            </tr>
+            <tr>
+                <td>🚨 Gyssagly ýagdaýlar</td>
+                <td>Kömek, polisiýa, tiz kömek</td>
+            </tr>
+            <tr>
+                <td>🔢 Sanlar we wagt</td>
+                <td>Hasap, sagat, hepdäniň günleri</td>
+            </tr>
+            <tr>
+                <td>🌤️ Howa</td>
+                <td>Möwsümleýin aňlatmalar, çaklama</td>
+            </tr>
+            <tr>
+                <td>👨‍👩‍👧 Maşgala</td>
+                <td>Garyndaşlar, şahsy maglumatlar</td>
+            </tr>
+            <tr>
+                <td>✈️ Syýahat</td>
+                <td>Howa menzili, wokzal, serhetler</td>
+            </tr>
+            <tr>
+                <td>💬 Aragaltnaşyk</td>
+                <td>Umumy sözlemler, soraglar, jogaplar</td>
+            </tr>
+        </table>
+
+        <p>Her sözlem öz içine alýar:</p>
+        <ul>
+            <li>✅ Hytaý/rus dilindäki tekst</li>
+            <li>✅ Türkmen diline terjime</li>
+            <li>✅ Kiril transkripsiýasy (hytaý sözlemleri üçin)</li>
+            <li>✅ Halananlara goşmak mümkinçiligi</li>
+        </ul>
+
+        <h3>📝 Tekst terjimeçisi <span class="badge-soon">v2.0</span></h3>
+        <p>Erkin terjime moduly (<strong>v2.0-da meýilleşdirilýär</strong>):</p>
+        <ul>
+            <li>Dilleriň arasynda terjime</li>
             <li>Giriş dilini awtomatik kesgitlemek</li>
             <li>Terjimeleriň taryhy</li>
             <li>Netijäni göçürmek we ibermek</li>
         </ul>
 
-        <h3>Emeli aň kömekçisi</h3>
-        <p>Dil öwrenmek üçin uniwersal kömekçi: grammatikany düşündirmek, sözlemleri ulanmagyň konteksti, medeni aýratynlyklar, dil hakynda soraglara jogaplar.</p>
+        <h3>🤖 Emeli aň kömekçisi <span class="badge-soon">v2.0</span></h3>
+        <p>Dil öwrenmek üçin uniwersal kömekçi (<strong>v2.0-da meýilleşdirilýär</strong>):</p>
+        <ul>
+            <li>Grammatikany düşündirmek</li>
+            <li>Sözlemleri ulanmagyň konteksti</li>
+            <li>Medeni aýratynlyklar</li>
+            <li>Dil hakynda soraglara jogaplar</li>
+        </ul>
 
         <h3>Goşmaça funksiýalar</h3>
         <table>
-            <tr><th>Funksiýa</th><th>Düşündiriş</th></tr>
-            <tr><td>Halananlar</td><td>Halaýan sözlemleri we terjimeleri saklamak</td></tr>
-            <tr><td>Gözleg</td><td>Ähli sözlemler boýunça bulaşyk gözleg</td></tr>
-            <tr><td>Statistika</td><td>Öwreniş ösüşini yzarlamak</td></tr>
-            <tr><td>Oflaýn tertip</td><td>Sözlük internetsiz işleýär</td></tr>
+            <tr>
+                <th>Funksiýa</th>
+                <th>Düşündiriş</th>
+            </tr>
+            <tr>
+                <td>⭐ Halananlar</td>
+                <td>Halaýan sözlemleri saklamak, çalt girmek</td>
+            </tr>
+            <tr>
+                <td>🔍 Gözleg</td>
+                <td>Ähli sözlemler boýunça bulaşyk gözleg</td>
+            </tr>
+            <tr>
+                <td>📊 Statistika</td>
+                <td>Öwreniş ösüşini yzarlamak</td>
+            </tr>
+            <tr>
+                <td>🎲 Tötänleýin sözlemler</td>
+                <td>Kartlar arkaly çalt öwrenmek</td>
+            </tr>
+            <tr>
+                <td>💡 Gyzykly maglumatlar</td>
+                <td>Diller we medeniýet hakynda</td>
+            </tr>
+            <tr>
+                <td>📴 Oflaýn tertip</td>
+                <td>Sözlük internetsiz işleýär</td>
+            </tr>
         </table>
 
-        <h2>Ses ulgamy</h2>
-        <table>
-            <tr><th>Dil</th><th>Tehnologiýa</th><th>Hil</th></tr>
-            <tr><td>Türkmen</td><td>Ýerli adamlaryň ýazgylary (MP3)</td><td>Ýokary</td></tr>
-            <tr><td>20+ dil</td><td>Microsoft Edge TTS</td><td>Ýokary</td></tr>
-            <tr><td>Galanlary</td><td>Ulgam TTS</td><td>Orta</td></tr>
-        </table>
-
-        <!-- Page 3: Languages -->
-        <div class="page-break"></div>
-        <h1 class="section-title">3. Goldanýan diller</h1>
-
-        <h2>31 dil — global gurşaw</h2>
-
-        <h3>Esasy diller (doly goldaw)</h3>
-        <table class="flag-table">
-            <tr><th>Baýdak</th><th>Dil</th><th>Kod</th></tr>
-            <tr><td>🇹🇲</td><td>Türkmen</td><td>tk</td></tr>
-            <tr><td>🇨🇳</td><td>Hytaý</td><td>zh</td></tr>
-            <tr><td>🇷🇺</td><td>Rus</td><td>ru</td></tr>
-            <tr><td>🇬🇧</td><td>Iňlis</td><td>en</td></tr>
-        </table>
-
-        <h3>Merkezi Aziýa we Kawkaz</h3>
-        <table class="flag-table">
-            <tr><th>Baýdak</th><th>Dil</th><th>Kod</th></tr>
-            <tr><td>🇰🇿</td><td>Gazak</td><td>kk</td></tr>
-            <tr><td>🇺🇿</td><td>Özbek</td><td>uz</td></tr>
-            <tr><td>🇰🇬</td><td>Gyrgyz</td><td>ky</td></tr>
-            <tr><td>🇹🇯</td><td>Täjik</td><td>tg</td></tr>
-            <tr><td>🇦🇿</td><td>Azerbaýjan</td><td>az</td></tr>
-            <tr><td>🇦🇲</td><td>Ermeni</td><td>hy</td></tr>
-            <tr><td>🇬🇪</td><td>Gruzin</td><td>ka</td></tr>
-        </table>
-
-        <h3>Ýakyn Gündogar</h3>
-        <table class="flag-table">
-            <tr><th>Baýdak</th><th>Dil</th><th>Kod</th></tr>
-            <tr><td>🇸🇦</td><td>Arap</td><td>ar</td></tr>
-            <tr><td>🇮🇷</td><td>Pars</td><td>fa</td></tr>
-            <tr><td>🇹🇷</td><td>Türk</td><td>tr</td></tr>
-            <tr><td>🇵🇰</td><td>Urdu</td><td>ur</td></tr>
-            <tr><td>🇦🇫</td><td>Puştu</td><td>ps</td></tr>
-        </table>
-
-        <h3>Gündogar we Günorta Aziýa</h3>
-        <table class="flag-table">
-            <tr><th>Baýdak</th><th>Dil</th><th>Kod</th></tr>
-            <tr><td>🇯🇵</td><td>Ýapon</td><td>ja</td></tr>
-            <tr><td>🇰🇷</td><td>Koreý</td><td>ko</td></tr>
-            <tr><td>🇹🇭</td><td>Taý</td><td>th</td></tr>
-            <tr><td>🇻🇳</td><td>Wýetnam</td><td>vi</td></tr>
-            <tr><td>🇮🇩</td><td>Indoneziýa</td><td>id</td></tr>
-            <tr><td>🇲🇾</td><td>Malaý</td><td>ms</td></tr>
-            <tr><td>🇮🇳</td><td>Hindi</td><td>hi</td></tr>
-        </table>
-
-        <h3>Ýewropa</h3>
-        <table class="flag-table">
-            <tr><th>Baýdak</th><th>Dil</th><th>Kod</th></tr>
-            <tr><td>🇩🇪</td><td>Nemes</td><td>de</td></tr>
-            <tr><td>🇫🇷</td><td>Fransuz</td><td>fr</td></tr>
-            <tr><td>🇪🇸</td><td>Ispan</td><td>es</td></tr>
-            <tr><td>🇮🇹</td><td>Italýan</td><td>it</td></tr>
-            <tr><td>🇵🇹</td><td>Portugaliýa</td><td>pt</td></tr>
-            <tr><td>🇳🇱</td><td>Niderland</td><td>nl</td></tr>
-            <tr><td>🇵🇱</td><td>Polýak</td><td>pl</td></tr>
-            <tr><td>🇺🇦</td><td>Ukrain</td><td>uk</td></tr>
-        </table>
-
+        <h3>⏸️ Ses ulgamy</h3>
         <div class="highlight-box">
-            <strong>Üýtgeşiklik:</strong> Ykjam Terjime — şeýle giň dil spektri üçin türkmen dilinden/diline terjime hödürleýän ýeke-täk programma. Google Translate we Yandex-iň türkmen dili üçin çäkli ýa-da ýok goldawy bar.
+            <strong>⚠️ Wagtlaýyn öçürilen</strong> — geljekki wersiýalarda gaýdyp geler
         </div>
-
-        <!-- Page 4: Technical -->
-        <div class="page-break"></div>
-        <h1 class="section-title">4. Tehniki amala aşyrylyş</h1>
-
-        <h2>Tehnologiýa stakasy</h2>
-
-        <h3>Programmanyň esasy</h3>
         <table>
-            <tr><th>Tehnologiýa</th><th>Wersiýa</th><th>Maksat</th></tr>
-            <tr><td>React Native</td><td>0.81.5</td><td>Krossplatforma işläp düzme</td></tr>
-            <tr><td>Expo</td><td>54.0.25</td><td>Işläp düzme we ýygnamak platformasy</td></tr>
-            <tr><td>TypeScript</td><td>5.9.2</td><td>Tipizasiýa we kodun ygtybarlylygy</td></tr>
-            <tr><td>React</td><td>19.1.0</td><td>UI-kitaphana</td></tr>
+            <tr>
+                <th>Dil</th>
+                <th>Tehnologiýa</th>
+                <th>Ýagdaý</th>
+            </tr>
+            <tr>
+                <td><span class="flag">🇹🇲</span>Türkmen</td>
+                <td>Ýerli adamlaryň ýazgylary (MP3)</td>
+                <td><span class="badge-disabled">öçürilen</span></td>
+            </tr>
+            <tr>
+                <td><span class="flag">🇨🇳</span>Hytaý</td>
+                <td>Kiril transkripsiýasy</td>
+                <td><span class="badge-active">işjeň</span></td>
+            </tr>
+            <tr>
+                <td><span class="flag">🇷🇺</span>Rus</td>
+                <td>Kiril transkripsiýasy</td>
+                <td><span class="badge-active">işjeň</span></td>
+            </tr>
         </table>
 
-        <h3>Emeli aň</h3>
+        <h2>3. Goldanýan diller</h2>
+
+        <h3>✅ Taýýar diller (doly goldaw)</h3>
         <table>
-            <tr><th>Hyzmat</th><th>Maksat</th></tr>
-            <tr><td>Google Gemini API</td><td>Tekst terjimesi, emeli aň kömekçisi</td></tr>
-            <tr><td>Microsoft Edge TTS</td><td>20+ dil üçin sözleýiş sintezi</td></tr>
+            <tr>
+                <th>Baýdak</th>
+                <th>Dil</th>
+                <th>Ýagdaý</th>
+            </tr>
+            <tr>
+                <td><span class="flag">🇨🇳</span></td>
+                <td>Hytaý</td>
+                <td><span class="badge-active">Doly taýýar</span> (2174 sözlem)</td>
+            </tr>
+            <tr>
+                <td><span class="flag">🇷🇺</span></td>
+                <td>Rus</td>
+                <td><span class="badge-active">Doly taýýar</span> (2174 sözlem)</td>
+            </tr>
+        </table>
+
+        <h3>🔄 Terjime işlenilýär</h3>
+        <table>
+            <tr>
+                <th>Baýdak</th>
+                <th>Dil</th>
+                <th>Ýagdaý</th>
+            </tr>
+            <tr>
+                <td><span class="flag">🇹🇲</span></td>
+                <td>Türkmen</td>
+                <td><span class="badge-progress">Terjime işlenilýär</span></td>
+            </tr>
+        </table>
+
+        <h3>🔜 v2.0-da meýilleşdirilýär</h3>
+        <p><strong>25 goşmaça dil:</strong></p>
+        <p>
+            <span class="flag">🇩🇪</span>Nemes •
+            <span class="flag">🇫🇷</span>Fransuz •
+            <span class="flag">🇪🇸</span>Ispan •
+            <span class="flag">🇯🇵</span>Ýapon •
+            <span class="flag">🇰🇷</span>Koreý •
+            <span class="flag">🇸🇦</span>Arap •
+            <span class="flag">🇹🇷</span>Türk •
+            <span class="flag">🇬🇧</span>Iňlis •
+            <span class="flag">🇮🇹</span>Italýan •
+            <span class="flag">🇵🇹</span>Portugaliýa
+            we başgalar...
+        </p>
+
+        <h3>Üýtgeşiklik</h3>
+        <p><strong>Ykjam Terjime</strong> — barlanan çeşme (2013-nji ýylyň kitaby) esasynda gurulan, türkmen terjimesi
+            bilen hilli rus-hytaý gepleşik kitabyny hödürleýän ýeke-täk programmadır.</p>
+
+        <h2>4. Tehniki amala aşyrylyş</h2>
+
+        <h3>Tehnologiýa stakasy</h3>
+
+        <h4>Programmanyň esasy</h4>
+        <table>
+            <tr>
+                <th>Tehnologiýa</th>
+                <th>Wersiýa</th>
+                <th>Maksat</th>
+            </tr>
+            <tr>
+                <td>React Native</td>
+                <td>0.81.5</td>
+                <td>Krossplatforma işläp düzme</td>
+            </tr>
+            <tr>
+                <td>Expo</td>
+                <td>54</td>
+                <td>Işläp düzme we ýygnamak platformasy</td>
+            </tr>
+            <tr>
+                <td>TypeScript</td>
+                <td>5.9</td>
+                <td>Tipizasiýa we koduň ygtybarlylygy</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>19.1.0</td>
+                <td>UI-kitaphana</td>
+            </tr>
+        </table>
+
+        <h4>Nawigasiýa we UI</h4>
+        <table>
+            <tr>
+                <th>Kitaphana</th>
+                <th>Maksat</th>
+            </tr>
+            <tr>
+                <td>React Navigation 7</td>
+                <td>Stack + Bottom Tabs nawigasiýa</td>
+            </tr>
+            <tr>
+                <td>Reanimated 4</td>
+                <td>Ýokary öndürijilikli animasiýalar</td>
+            </tr>
+            <tr>
+                <td>Lottie 7</td>
+                <td>JSON-animasiýalar</td>
+            </tr>
+        </table>
+
+        <h4>Saklamak we ýagdaý</h4>
+        <table>
+            <tr>
+                <th>Tehnologiýa</th>
+                <th>Maksat</th>
+            </tr>
+            <tr>
+                <td>AsyncStorage</td>
+                <td>Ýerli ammar (offline-first)</td>
+            </tr>
+            <tr>
+                <td>React Context API</td>
+                <td>Global ýagdaý dolandyryşy</td>
+            </tr>
         </table>
 
         <h3>Programma arhitekturasy</h3>
-        <div class="architecture-box">┌─────────────────────────────────────────────┐
-│            Ulanyjy interfeýsi               │
+        <pre class="architecture" style="
+            background: #1a1a1a;
+            color: #10B981;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            overflow-x: auto;
+            white-space: pre;
+            margin: 16px 0;
+            line-height: 1.4;
+        ">┌─────────────────────────────────────────────┐
+│              Ulanyjy interfeýsi             │
 ├─────────────────────────────────────────────┤
-│       Nawigasiýa (React Navigation)         │
+│        Nawigasiýa (React Navigation)        │
 ├──────────┬──────────┬──────────┬────────────┤
-│  Sözlük  │Terjimeçi │ Emeli aň │ Sazlamalar │
+│  Sözlük  │  Gözleg  │Halananlar│ Sazlamalar │
 ├──────────┴──────────┴──────────┴────────────┤
 │              Hyzmat gatlagy                 │
-│  ┌────────┐  ┌────────┐  ┌────────┐        │
-│  │Storage │  │  TTS   │  │   AI   │        │
-│  │Service │  │ Router │  │Service │        │
-│  └────────┘  └────────┘  └────────┘        │
+│  ┌────────┐ ┌────────┐ ┌────────┐           │
+│  │Storage │ │ Search │ │Favorites│          │
+│  │Service │ │ Engine │ │ Service │          │
+│  └────────┘ └────────┘ └────────┘           │
 ├─────────────────────────────────────────────┤
-│              Maglumat we keş               │
-│      AsyncStorage / JSON / Audio faýllar   │
-└─────────────────────────────────────────────┘</div>
+│              Maglumat we keş                │
+│      AsyncStorage / JSON / Data faýllar     │
+└─────────────────────────────────────────────┘</pre>
 
-        <h3>Esasy kitaphanalar</h3>
-        <table>
-            <tr><th>Kitaphana</th><th>Maksat</th></tr>
-            <tr><td>@react-navigation</td><td>Ekranlar arasynda nawigasiýa</td></tr>
-            <tr><td>expo-av</td><td>Audio oýnatmak</td></tr>
-            <tr><td>expo-speech</td><td>Sözleýiş sintezi</td></tr>
-            <tr><td>@google/generative-ai</td><td>Gemini bilen integrasiýa</td></tr>
-            <tr><td>react-native-reanimated</td><td>Ýumşak animasiýalar</td></tr>
-        </table>
-
-        <h2>Öndürijilik we howpsuzlyk</h2>
+        <h3>Öndürijilik we howpsuzlyk</h3>
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">~50 MB</div>
-                <div class="stat-label">programmanyň ölçegi</div>
+                <span class="stat-number">~30 MB</span>
+                <span class="stat-label">programmanyň ölçegi</span>
             </div>
             <div class="stat-card">
-                <div class="stat-number">&lt;2 sek</div>
-                <div class="stat-label">başlangyç wagty</div>
+                <span class="stat-number">&lt;2 sek</span>
+                <span class="stat-label">başlangyç wagty</span>
             </div>
         </div>
         <ul>
-            <li>Maglumatlar enjamda ýerli saklanýar</li>
-            <li>API açarlary daşky üýtgeýjiler arkaly goralýar</li>
-            <li>Ulanyjylaryň şahsy maglumatlary ýygnalmaýar</li>
+            <li>🔒 Maglumatlar enjamda ýerli saklanýar</li>
+            <li>🛡️ API açarlary daşky üýtgeýjiler arkaly goralýar</li>
+            <li>🔐 Ulanyjylaryň şahsy maglumatlary ýygnalmaýar</li>
         </ul>
 
-        <h2>Häzirki ýagdaý</h2>
+        <h3>Häzirki ýagdaý</h3>
         <table>
-            <tr><th>Parametr</th><th>Baha</th></tr>
-            <tr><td>Wersiýa</td><td>1.0.0</td></tr>
-            <tr><td>Platforma</td><td>Android</td></tr>
-            <tr><td>Ýagdaý</td><td>Içerki synag</td></tr>
-            <tr><td>Dükan</td><td>Google Play Console</td></tr>
+            <tr>
+                <th>Parametr</th>
+                <th>Baha</th>
+            </tr>
+            <tr>
+                <td>Wersiýa</td>
+                <td><strong>1.0.3</strong></td>
+            </tr>
+            <tr>
+                <td>Platforma</td>
+                <td>Android (iOS işlenip düzülýär)</td>
+            </tr>
+            <tr>
+                <td>Ýagdaý</td>
+                <td><span class="badge-active">Işjeň işlenip düzülýär</span></td>
+            </tr>
+            <tr>
+                <td>Dükan</td>
+                <td>Google Play Console (neşir etmäge taýýarlanýar)</td>
+            </tr>
+            <tr>
+                <td>Ses</td>
+                <td><span class="badge-disabled">Wagtlaýyn öçürilen</span></td>
+            </tr>
+            <tr>
+                <td>AI funksiýalar</td>
+                <td><span class="badge-soon">v2.0-da meýilleşdirilýär</span></td>
+            </tr>
         </table>
 
-        <!-- Page 5: Roadmap -->
-        <div class="page-break"></div>
-        <h1 class="section-title">5. Ösüş meýilnamalary</h1>
+        <h2>5. Ösüş meýilnamalary</h2>
 
-        <h2>Ýol kartasy</h2>
+        <h3>Ýol kartasy</h3>
 
-        <h3>Faza 2: Platformalary giňeltmek</h3>
+        <h4>Faza 2: Platformalary giňeltmek (Q3 2026)</h4>
         <ul>
-            <li>Google Play-de neşir etmek (açyk giriş)</li>
-            <li>iOS wersiýasyny işläp düzmek we App Store-da neşir etmek</li>
-            <li>Planşetler üçin optimizasiýa</li>
+            <li>📱 Google Play-de neşir etmek (açyk giriş)</li>
+            <li>🍎 iOS wersiýasyny işläp düzmek we App Store-da neşir etmek</li>
+            <li>📲 Planşetler üçin optimizasiýa</li>
         </ul>
 
-        <h3>Faza 3: Wizual terjimeçi</h3>
+        <h4>Faza 3: Wizual terjimeçi (Q4 2026)</h4>
         <ul>
-            <li>Kameradan tekst terjimesi (OCR)</li>
-            <li>Ýazgylary, menýulary, resminamalary tanamak</li>
-            <li>AR tertibinde dessine terjime</li>
+            <li>📷 Kameradan tekst terjimesi (OCR)</li>
+            <li>🪧 Ýazgylary, menýulary, resminamalary tanamak</li>
+            <li>🥽 AR tertibinde dessine terjime</li>
         </ul>
 
-        <h3>Faza 4: Ses terjimeçisi</h3>
+        <h4>Faza 4: Ses terjimeçisi + AI (Q1 2027)</h4>
         <ul>
-            <li>Sözleýşi tanamak</li>
-            <li>Hakyky wagtda ses terjimesi</li>
-            <li>Gepleşik tertibi (conversation mode)</li>
+            <li>🎤 Sözleýşi tanamak</li>
+            <li>🗣️ Hakyky wagtda ses terjimesi</li>
+            <li>🤖 Google Gemini esasynda AI kömekçi integrasiýasy</li>
+            <li>💬 Gepleşik tertibi (conversation mode)</li>
         </ul>
 
-        <h3>Faza 5: Sözlük</h3>
+        <h4>Faza 5: Sözlük (Q2 2027)</h4>
         <ul>
-            <li>Doly türkmen-köp dilli sözlük</li>
-            <li>Sözleri ulanmagyň mysallary</li>
-            <li>Grammatiki bellikler, sinonimler we antonimler</li>
+            <li>📚 Doly türkmen-köp dilli sözlük</li>
+            <li>📝 Sözleri ulanmagyň mysallary</li>
+            <li>🔤 Grammatiki bellikler, sinonimler we antonimler</li>
         </ul>
 
-        <h3>Faza 6: Sosial funksiýalar</h3>
+        <h4>Faza 6: Köp dillilik (2027+)</h4>
         <ul>
-            <li>Ulanyjylary hasaba almak</li>
-            <li>Halananlary bulut sinhronizasiýasy</li>
-            <li>Türkmen dilini öwrenýänleriň jemgyýeti</li>
+            <li>🌍 25 täze dil goşmak</li>
+            <li>☁️ Halananlary bulut sinhronizasiýasy</li>
+            <li>👥 Dil öwrenýänleriň jemgyýeti</li>
         </ul>
 
-        <h2>Pul gazanmak modelleri</h2>
+        <h3>Pul gazanmak modelleri</h3>
         <table>
-            <tr><th>Model</th><th>Düşündiriş</th></tr>
-            <tr><td><strong>Freemium</strong></td><td>Esasy funksiýalar mugt, giňeldilen funksiýalar abuna bilen</td></tr>
-            <tr><td><strong>Abuna</strong></td><td>Aýlyk/ýyllyk premium funksiýalar abunasy</td></tr>
-            <tr><td><strong>Mahabat</strong></td><td>Mugt wersiýada ýumşak mahabat</td></tr>
-            <tr><td><strong>B2B</strong></td><td>Bilim edaralary üçin lisenziýa</td></tr>
+            <tr>
+                <th>Model</th>
+                <th>Düşündiriş</th>
+            </tr>
+            <tr>
+                <td>Freemium</td>
+                <td>Esasy funksiýalar mugt, giňeldilen funksiýalar abuna bilen</td>
+            </tr>
+            <tr>
+                <td>Abuna</td>
+                <td>Aýlyk/ýyllyk premium funksiýalar abunasy</td>
+            </tr>
+            <tr>
+                <td>B2B</td>
+                <td>Bilim edaralary üçin lisenziýa</td>
+            </tr>
         </table>
 
-        <h2>Bäsdeşlik artykmaçlyklary</h2>
-        <div class="highlight-box">
-            <ol>
-                <li><strong>Öňdebaryjy</strong> — türkmen dili üçin ilkinji hilli programma</li>
-                <li><strong>Tehnologiki artykmaçlyk</strong> — emeli aň, ýerli audio, häzirki zaman stak</li>
-                <li><strong>Giňeldip boluş</strong> — arhitektura dilleri we funksiýalary çalt goşmaga mümkinçilik berýär</li>
-                <li><strong>Topar</strong> — mobil işläp düzmede tejribe we türkmen dilini bilmek</li>
-            </ol>
-        </div>
+        <h3>Bäsdeşlik artykmaçlyklary</h3>
+        <ul class="features-list">
+            <li>🥇 <strong>Öňdebaryjy</strong> — türkmen dili üçin ilkinji hilli programma</li>
+            <li>💎 <strong>Barlanan mazmun</strong> — «Rus-Hytaý gepleşik kitaby» (2013) esasynda</li>
+            <li>🚀 <strong>Tehnologiki artykmaçlyk</strong> — häzirki zaman stak, offline-first</li>
+            <li>📈 <strong>Giňeldip boluş</strong> — arhitektura dilleri çalt goşmaga mümkinçilik berýär</li>
+            <li>👨‍💻 <strong>Topar</strong> — mobil işläp düzmede tejribe we türkmen dilini bilmek</li>
+        </ul>
 
         <div class="footer">
+            <h3>Aragatnaşyk</h3>
             <p><strong>Işläp düzüji:</strong> Shapak</p>
             <p><strong>Programma:</strong> Ykjam Terjime</p>
             <p><strong>Platforma:</strong> Android (iOS işlenip düzülýär)</p>
+            <p><strong>Gurama:</strong> Shapak-Apps </p>
             <br>
-            <p><em>Bu resminama maýadarlar üçin prezentasiýa hökmünde taýýarlandy • 2025</em></p>
+            <p><strong>Bu resminama maýadarlar üçin prezentasiýa hökmünde taýýarlandy</strong></p>
+            <p>Soňky täzelenme: <strong>Iýul 2026</strong></p>
+            <p>Wersiýa: <strong>1.0.3</strong></p>
         </div>
     </div>
 </body>
+
 </html>

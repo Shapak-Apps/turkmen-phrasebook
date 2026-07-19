@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -80,7 +81,8 @@
             transition: all 0.3s;
         }
 
-        .nav-links a:hover, .nav-links a.active {
+        .nav-links a:hover,
+        .nav-links a.active {
             background: var(--primary);
             color: white;
         }
@@ -114,7 +116,7 @@
         }
 
         .badge {
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.2);
             padding: 0.5rem 1rem;
             border-radius: 20px;
             font-size: 0.9rem;
@@ -276,7 +278,7 @@
         }
 
         .architecture .section-title p {
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
         }
 
         .arch-container {
@@ -291,8 +293,8 @@
         }
 
         .arch-layer {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
             padding: 2rem;
         }
@@ -303,7 +305,7 @@
             gap: 1rem;
             margin-bottom: 1.5rem;
             padding-bottom: 1rem;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .arch-layer-title h3 {
@@ -324,7 +326,7 @@
         }
 
         .arch-component {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             border-radius: 12px;
             padding: 1.5rem;
             border-left: 4px solid var(--primary);
@@ -354,13 +356,13 @@
 
         .arch-component p {
             font-size: 0.9rem;
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             margin-bottom: 0.75rem;
         }
 
         .arch-component code {
             display: block;
-            background: rgba(0,0,0,0.3);
+            background: rgba(0, 0, 0, 0.3);
             padding: 0.75rem;
             border-radius: 8px;
             font-size: 0.8rem;
@@ -375,7 +377,7 @@
 
         .arch-component ul li {
             padding: 0.25rem 0;
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
         }
 
         .arch-component ul li::before {
@@ -385,7 +387,7 @@
 
         /* Data Flow */
         .data-flow {
-            background: rgba(255,255,255,0.05);
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 16px;
             padding: 2rem;
             margin-top: 2rem;
@@ -430,7 +432,7 @@
 
         .flow-step p {
             font-size: 0.8rem;
-            color: rgba(255,255,255,0.6);
+            color: rgba(255, 255, 255, 0.6);
         }
 
         .flow-connector {
@@ -559,6 +561,11 @@
             color: #E65100;
         }
 
+        .status.disabled {
+            background: #ECEFF1;
+            color: #546E7A;
+        }
+
         /* Code Block */
         .code-block {
             background: #1E1E1E;
@@ -575,11 +582,25 @@
             line-height: 1.6;
         }
 
-        .code-block .comment { color: #6A9955; }
-        .code-block .keyword { color: #569CD6; }
-        .code-block .string { color: #CE9178; }
-        .code-block .type { color: #4EC9B0; }
-        .code-block .function { color: #DCDCAA; }
+        .code-block .comment {
+            color: #6A9955;
+        }
+
+        .code-block .keyword {
+            color: #569CD6;
+        }
+
+        .code-block .string {
+            color: #CE9178;
+        }
+
+        .code-block .type {
+            color: #4EC9B0;
+        }
+
+        .code-block .function {
+            color: #DCDCAA;
+        }
 
         /* API Section */
         .api-section {
@@ -612,8 +633,15 @@
             font-weight: bold;
         }
 
-        .api-method.get { background: #C8E6C9; color: #2E7D32; }
-        .api-method.post { background: #BBDEFB; color: #1565C0; }
+        .api-method.get {
+            background: #C8E6C9;
+            color: #2E7D32;
+        }
+
+        .api-method.post {
+            background: #BBDEFB;
+            color: #1565C0;
+        }
 
         .api-endpoint-body {
             padding: 1rem;
@@ -692,11 +720,25 @@
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
 
-        .diagram-box.ui { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
-        .diagram-box.context { background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%); }
-        .diagram-box.service { background: linear-gradient(135deg, #4568dc 0%, #b06ab3 100%); }
-        .diagram-box.data { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
-        .diagram-box.external { background: linear-gradient(135deg, #434343 0%, #000000 100%); }
+        .diagram-box.ui {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+        }
+
+        .diagram-box.context {
+            background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%);
+        }
+
+        .diagram-box.service {
+            background: linear-gradient(135deg, #4568dc 0%, #b06ab3 100%);
+        }
+
+        .diagram-box.data {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .diagram-box.external {
+            background: linear-gradient(135deg, #434343 0%, #000000 100%);
+        }
 
         .diagram-box h5 {
             font-size: 0.85rem;
@@ -733,6 +775,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Навигация -->
     <nav class="nav">
@@ -753,13 +796,14 @@
     <!-- Главный баннер -->
     <section class="hero">
         <h1>Ykjam Terjime (Şapak)</h1>
-        <p>Приложение для изучения туркменского языка и перевода — Техническая документация для команды разработки</p>
+        <p>Русско-Китайский разговорник с туркменским переводом — Техническая документация для команды разработки</p>
         <div class="hero-badges">
             <span class="badge">React Native 0.81.5</span>
             <span class="badge">Expo 54</span>
             <span class="badge">TypeScript 5.9</span>
-            <span class="badge">Google Gemini AI</span>
-            <span class="badge">31 язык</span>
+            <span class="badge">2174 фразы</span>
+            <span class="badge">13 категорий</span>
+            <span class="badge">2 готовых языка</span>
         </div>
     </section>
 
@@ -767,27 +811,30 @@
     <section id="overview" class="section">
         <div class="section-title">
             <h2>Обзор приложения</h2>
-            <p>Комплексная платформа для изучения туркменского языка с функциями ИИ</p>
+            <p>Комплексная платформа для изучения китайского и русского языков на основе книги «Русско-Китайский
+                разговорник» (2013)</p>
         </div>
 
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">📖</div>
                 <h3>Разговорник (Gepleşik kitaby)</h3>
-                <p>22 категории с 305+ фразами. Аудио произношение от носителей туркменского языка. Переводы на 31 язык с транскрипциями.</p>
+                <p><strong>2174 фразы</strong> в 13 тематических категориях (+ ~60 подкатегорий). Кириллическая
+                    транскрипция из книги. Переводы на китайский и русский. Офлайн режим.</p>
                 <span class="status ready">Готово</span>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">📝</div>
                 <h3>Текстовый переводчик (Tekst terjimeçi)</h3>
-                <p>Перевод текста в реальном времени между любыми языковыми парами. Озвучка TTS и работа с буфером обмена.</p>
-                <span class="status ready">Готово</span>
+                <p>Модуль свободного перевода между любыми языковыми парами. История переводов, копирование в буфер
+                    обмена.</p>
+                <span class="status coming">v2.0 Скоро</span>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🤖</div>
                 <h3>ИИ-ассистенты (Emeli Aň)</h3>
                 <p>Интеграция с Google Gemini 2.5 Flash. Контекстная помощь в изучении языка и ответы на вопросы.</p>
-                <span class="status ready">Готово</span>
+                <span class="status coming">v2.0 Скоро</span>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">📷</div>
@@ -802,10 +849,11 @@
                 <span class="status coming">v2.0 Скоро</span>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">📚</div>
-                <h3>Словарь (Sözlük)</h3>
-                <p>Полноценный туркменский словарь с определениями, примерами и формами слов.</p>
-                <span class="status coming">Фаза 5</span>
+                <div class="feature-icon">🔊</div>
+                <h3>Аудио произношение</h3>
+                <p>Система воспроизведения аудио (MP3 от носителей + TTS). Временно отключена в текущей версии
+                    (AudioPlayer.tsx → audioDisabled = true).</p>
+                <span class="status disabled">⏸️ Временно отключено</span>
             </div>
         </div>
     </section>
@@ -819,45 +867,51 @@
 
         <div class="screenshots-gallery">
             <div class="screenshot-card">
-                <img src="../assets/screenshots/1.jpg" alt="Главный экран">
+                <img src="../assets/screenshots/1.jpg" alt="Главный хаб">
                 <div class="screenshot-info">
                     <h3>1. Главный хаб (MainHubScreen)</h3>
-                    <p>Центральный навигационный хаб с модулями функций: Разговорник, Текстовый переводчик, ИИ-ассистенты, Визуальный/Голосовой переводчики. Карточный UI с иконками.</p>
+                    <p>Центральный навигационный хаб с 5 модулями: Разговорник, Текстовый переводчик, ИИ-ассистенты,
+                        Визуальный/Голосовой переводчики + кнопка "Дополнительно". Карточный UI с иконками.</p>
                 </div>
             </div>
             <div class="screenshot-card">
-                <img src="../assets/screenshots/2.jpg" alt="Выбор языка">
+                <img src="../assets/screenshots/2.jpg" alt="Список категорий">
                 <div class="screenshot-info">
-                    <h3>2. Выбор языковой пары</h3>
-                    <p>Выбор языка разговорника (Китайский-Туркменский, Русский-Туркменский и т.д.). Доступно 31 язык с флагами стран.</p>
+                    <h3>2. Список категорий (HomeScreen)</h3>
+                    <p>Список всех 13 тематических категорий разговорника. Флажки выбранной языковой пары в хедере.
+                        Кнопки настроек и смены языка.</p>
                 </div>
             </div>
             <div class="screenshot-card">
-                <img src="../assets/screenshots/3.jpg" alt="Детали фразы">
+                <img src="../assets/screenshots/3.jpg" alt="Категория/Подкатегория">
                 <div class="screenshot-info">
-                    <h3>3. Детали фразы (PhraseDetailScreen)</h3>
-                    <p>Подробный просмотр фразы с оригинальным текстом, транскрипцией (пиньинь), переводом. Кнопки воспроизведения аудио, избранное и поделиться.</p>
+                    <h3>3. Категория/Подкатегория (CategoryScreen)</h3>
+                    <p>Сетка подкатегорий и список фраз выбранной категории. Каждая фраза показывает туркменский текст,
+                        перевод, транскрипцию, кнопки аудио (временно отключено) и избранного.</p>
                 </div>
             </div>
             <div class="screenshot-card">
-                <img src="../assets/screenshots/4.jpg" alt="Текстовый переводчик">
+                <img src="../assets/screenshots/4.jpg" alt="Детали фразы">
                 <div class="screenshot-info">
-                    <h3>4. Текстовый переводчик</h3>
-                    <p>Интерфейс свободного перевода текста. Выбор языка, счётчик символов, озвучка TTS, копирование в буфер обмена.</p>
+                    <h3>4. Детали фразы (PhraseDetailScreen)</h3>
+                    <p>Подробный просмотр фразы с оригинальным текстом, транскрипцией (кириллица из книги), переводом.
+                        Кнопки избранного и поделиться. Аудио временно отключено.</p>
                 </div>
             </div>
             <div class="screenshot-card">
-                <img src="../assets/screenshots/5.jpg" alt="Визуальный переводчик">
+                <img src="../assets/screenshots/5.jpg" alt="Поиск">
                 <div class="screenshot-info">
-                    <h3>5. Визуальный переводчик (Скоро)</h3>
-                    <p>Превью функции распознавания текста с камеры (OCR). Распознавание текста с фото, ИИ-анализ текста, поддержка галереи. Планируется в v1.5.</p>
+                    <h3>5. Поиск (AdvancedSearchScreen)</h3>
+                    <p>Продвинутый поиск с fuzzy matching по всем 2174 фразам. Подсказки, подсветка совпадений,
+                        фильтрация по категориям. Семантический и контекстный поиск.</p>
                 </div>
             </div>
             <div class="screenshot-card">
-                <img src="../assets/screenshots/6.jpg" alt="Голосовой переводчик">
+                <img src="../assets/screenshots/6.jpg" alt="Избранное">
                 <div class="screenshot-info">
-                    <h3>6. Голосовой переводчик (Скоро)</h3>
-                    <p>Превью перевода речи в текст. Распознавание голоса в реальном времени, мгновенный перевод, воспроизведение аудио. Планируется в v2.0.</p>
+                    <h3>6. Избранное (FavoritesHubScreen)</h3>
+                    <p>Список избранных фраз с тремя табами: Фразы, Переводы, Слова. Удаление из избранного одним
+                        нажатием. Синхронизация через useFavorites hook.</p>
                 </div>
             </div>
         </div>
@@ -924,40 +978,40 @@
                         <div class="flow-arrow-down">↓</div>
                         <div class="flow-node" style="font-size: 0.85rem;">
                             <h4>Категории</h4>
-                            <span>22 категории</span>
+                            <span>13 категорий</span>
                         </div>
                         <div class="flow-arrow-down">↓</div>
                         <div class="flow-node" style="font-size: 0.85rem;">
                             <h4>Детали фразы</h4>
-                            <span>Аудио + Перевод</span>
+                            <span>Перевод + Транскрипция</span>
                         </div>
                     </div>
 
                     <div class="flow-branch">
                         <div class="flow-node secondary">
                             <h4>📝 Текстовый</h4>
-                            <span>TextTranslatorScreen</span>
+                            <span>ComingSoon (v2.0)</span>
                         </div>
                     </div>
 
                     <div class="flow-branch">
                         <div class="flow-node accent">
                             <h4>🤖 ИИ-чат</h4>
-                            <span>UniversalAIChatScreen</span>
+                            <span>ComingSoon (v2.0)</span>
                         </div>
                     </div>
 
                     <div class="flow-branch">
                         <div class="flow-node gray">
                             <h4>📷 Визуальный</h4>
-                            <span>ComingSoonScreen</span>
+                            <span>ComingSoonScreen (v1.5)</span>
                         </div>
                     </div>
 
                     <div class="flow-branch">
                         <div class="flow-node gray">
                             <h4>🎤 Голосовой</h4>
-                            <span>ComingSoonScreen</span>
+                            <span>ComingSoonScreen (v2.0)</span>
                         </div>
                     </div>
                 </div>
@@ -976,7 +1030,7 @@
                     </div>
                     <div class="flow-node" style="background: linear-gradient(135deg, #667eea, #764ba2);">
                         <h4>🔍 Поиск</h4>
-                        <span>Расширенный поиск</span>
+                        <span>AdvancedSearch (2174 фразы)</span>
                     </div>
                     <div class="flow-node" style="background: linear-gradient(135deg, #667eea, #764ba2);">
                         <h4>📊 Статистика</h4>
@@ -1039,7 +1093,7 @@
                         <div class="diagram-row" style="margin-top: 1rem;">
                             <div class="diagram-box" style="background: linear-gradient(135deg, #f5af19, #f12711);">
                                 <h5>Кастомные хуки (14+)</h5>
-                                <span>useFavorites, useAudio, useHistory, useTTS...</span>
+                                <span>useFavorites, useAudio, useHistory, useAdvancedSearch...</span>
                             </div>
                         </div>
                     </div>
@@ -1055,16 +1109,16 @@
                                 <span>AsyncStorage</span>
                             </div>
                             <div class="diagram-box service">
-                                <h5>TranslationService</h5>
-                                <span>Поиск фраз</span>
+                                <h5>SearchEngine</h5>
+                                <span>Поиск 2174 фраз</span>
                             </div>
                             <div class="diagram-box service">
-                                <h5>TTSRouter</h5>
-                                <span>Маршрутизация аудио</span>
+                                <h5>FavoritesService</h5>
+                                <span>Избранное</span>
                             </div>
                             <div class="diagram-box service">
-                                <h5>LanguageAnalytics</h5>
-                                <span>Отслеживание использования</span>
+                                <h5>TTSRouter ⏸️</h5>
+                                <span>Отключено</span>
                             </div>
                         </div>
                     </div>
@@ -1077,34 +1131,34 @@
                         <div class="diagram-row">
                             <div class="diagram-box data">
                                 <h5>Базовые фразы</h5>
-                                <span>305 туркменских</span>
+                                <span>2174 фразы</span>
                             </div>
                             <div class="diagram-box data">
                                 <h5>Переводы</h5>
-                                <span>31 язык</span>
+                                <span>2 языка + 1 в процессе</span>
                             </div>
                             <div class="diagram-box data">
                                 <h5>Категории</h5>
-                                <span>22 + подкатегории</span>
+                                <span>13 + ~60 подкатегорий</span>
                             </div>
                             <div class="diagram-box data">
-                                <h5>Аудио файлы</h5>
-                                <span>MP3 ресурсы</span>
+                                <h5>Транскрипция</h5>
+                                <span>Кириллица из книги</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="diagram-arrows">⬇️ Внешние API ⬇️</div>
+                    <div class="diagram-arrows">⬇️ Внешние API (v2.0) ⬇️</div>
 
                     <!-- Внешний слой -->
                     <div class="diagram-row">
                         <div class="diagram-box external">
                             <h5>Google Gemini API</h5>
-                            <span>ИИ-чат (gemini-2.5-flash)</span>
+                            <span>🔜 ИИ-чат (gemini-2.5-flash)</span>
                         </div>
                         <div class="diagram-box external">
                             <h5>Expo Speech</h5>
-                            <span>Системный TTS</span>
+                            <span>⏸️ Системный TTS (отключён)</span>
                         </div>
                         <div class="diagram-box external">
                             <h5>AsyncStorage</h5>
@@ -1128,29 +1182,32 @@
                             <p>Полноэкранные представления под управлением React Navigation</p>
                             <ul>
                                 <li>MainHubScreen.tsx - Центральный хаб функций</li>
-                                <li>HomeScreen.tsx - Категории разговорника</li>
+                                <li>HomeScreen.tsx - 13 категорий разговорника</li>
                                 <li>CategoryScreen.tsx - Фразы в категории</li>
                                 <li>PhraseDetailScreen.tsx - Просмотр фразы</li>
-                                <li>TextTranslatorScreen.tsx - Свободный перевод</li>
-                                <li>UniversalAIChatScreen.tsx - Чат с Gemini</li>
+                                <li>AdvancedSearchScreen.tsx - Поиск по 2174 фразам</li>
+                                <li>AdditionalFeaturesScreen.tsx - Хаб доп. функций</li>
+                                <li>StatsScreen.tsx - Статистика обучения</li>
                                 <li>SettingsScreen.tsx - Настройки приложения</li>
+                                <li>ComingSoonScreen.tsx - Заглушка для v1.5/v2.0</li>
                             </ul>
                         </div>
                         <div class="arch-component">
                             <h4>Компоненты (14 файлов)</h4>
                             <p>Переиспользуемые UI-блоки</p>
                             <ul>
-                                <li>AudioPlayer.tsx - Управление воспроизведением</li>
+                                <li>AudioPlayer.tsx - ⏸️ audioDisabled = true</li>
                                 <li>ErrorBoundary.tsx - Обработка ошибок</li>
                                 <li>LoadingStates.tsx - Индикаторы загрузки</li>
                                 <li>SimpleCharts.tsx - Визуализация статистики</li>
                                 <li>PhraseCard.tsx - Элемент списка фраз</li>
                                 <li>CategoryCard.tsx - Элемент сетки категорий</li>
+                                <li>SubCategoryCard.tsx - Сетка подкатегорий</li>
                             </ul>
                         </div>
                         <div class="arch-component">
                             <h4>Структура навигации</h4>
-                            <p>React Navigation v6 с вложенными стеками</p>
+                            <p>React Navigation v7 с вложенными стеками</p>
                             <code>RootStack
 ├── LanguageSelection
 ├── Onboarding
@@ -1159,14 +1216,15 @@
 │   ├── LanguagePairSelection
 │   ├── HomeScreen
 │   ├── CategoryScreen
-│   └── AskAIScreen
-├── TextTranslator
-├── UniversalAIChat
+│   └── PhraseDetailScreen
+├── TextTranslator (ComingSoon)
+├── UniversalAIChat (ComingSoon)
 ├── Settings
 ├── PhraseDetail
 └── AdditionalFeatures (Stack)
-    ├── Search
-    ├── Favorites
+    ├── AdditionalFeaturesMain
+    ├── Search (AdvancedSearch)
+    ├── Favorites (FavoritesHub)
     └── Stats</code>
                         </div>
                     </div>
@@ -1181,9 +1239,9 @@
                     <div class="arch-components">
                         <div class="arch-component service">
                             <h4>LanguageContext</h4>
-                            <p>Локализация интерфейса на 31 языке. Управляет переводами текстов интерфейса.</p>
+                            <p>Локализация интерфейса. Управляет переводами текстов интерфейса на tk/zh/ru/en.</p>
                             <code>interface AppLanguageConfig {
-  mode: AppLanguageMode; // 'tk'|'zh'|'ru'|'en'|...
+  mode: AppLanguageMode; // 'tk'|'zh'|'ru'|'en'
   primaryLanguage: 'tk' | 'zh';
   learningLanguage: 'zh' | 'tk';
   version: string;
@@ -1210,14 +1268,14 @@
                             <h4>Кастомные хуки (14 файлов)</h4>
                             <p>Инкапсулированная бизнес-логика для компонентов</p>
                             <ul>
-                                <li><strong>useFavorites</strong> - Добавление/удаление/проверка избранного</li>
+                                <li><strong>useFavorites</strong> - Единый хук для избранного (используется везде)</li>
                                 <li><strong>useAudio</strong> - Состояние воспроизведения аудио</li>
                                 <li><strong>useHistory</strong> - Отслеживание истории просмотров</li>
-                                <li><strong>useTTSSettings</strong> - Настройки синтеза речи</li>
-                                <li><strong>useAdvancedSearch</strong> - Поиск с фильтрами</li>
+                                <li><strong>useAdvancedSearch</strong> - Поиск с фильтрами и debounce</li>
                                 <li><strong>useOffline</strong> - Определение офлайн-режима</li>
                                 <li><strong>usePhrases</strong> - Доступ к данным фраз</li>
                                 <li><strong>useAnimations</strong> - Хелперы для Reanimated</li>
+                                <li><strong>useSearchHistory</strong> - История поисковых запросов</li>
                             </ul>
                         </div>
                     </div>
@@ -1227,7 +1285,7 @@
                 <div class="arch-layer">
                     <div class="arch-layer-title">
                         <h3>⚙️ Сервисный слой (Service Layer)</h3>
-                        <span class="layer-badge">src/services</span>
+                        <span class="layer-badge">src/services + src/utils</span>
                     </div>
                     <div class="arch-components">
                         <div class="arch-component data">
@@ -1249,8 +1307,25 @@
 }</code>
                         </div>
                         <div class="arch-component data">
-                            <h4>Система TTS (src/services/tts/)</h4>
-                            <p>Мульти-провайдерное воспроизведение аудио с интеллектуальной маршрутизацией</p>
+                            <h4>SearchEngine.ts (src/utils/)</h4>
+                            <p>Продвинутый поиск с fuzzy matching по 2174 фразам</p>
+                            <code>class SearchEngine {
+  search(query, options): SearchResult[]
+  getSuggestions(partialQuery): string[]
+  getRelatedPhrases(phrase): Phrase[]
+
+  // Features:
+  // - Exact match (100 score)
+  // - Prefix match (60 score)
+  // - Fuzzy match (Levenshtein distance)
+  // - Phonetic match
+  // - Semantic match (contextual)
+  // - Personalized boost (user history)
+}</code>
+                        </div>
+                        <div class="arch-component data">
+                            <h4>Система TTS ⏸️ (src/services/tts/)</h4>
+                            <p><strong>Временно отключена</strong> — audioDisabled = true в AudioPlayer.tsx</p>
                             <code>// TTSRouter.ts - Логика выбора провайдера
 class TTSRouter {
   speak(text, lang): Promise&lt;void&gt;
@@ -1265,17 +1340,6 @@ class TTSRouter {
 ├── SystemTTSProvider.ts   // TTS устройства
 ├── EdgeTTSProvider.ts     // Облачный fallback
 └── AudioCache.ts          // Слой кэширования</code>
-                        </div>
-                        <div class="arch-component data">
-                            <h4>LanguageAnalytics.ts</h4>
-                            <p>Отслеживание прогресса обучения и использования</p>
-                            <code>class LanguageAnalyticsService {
-  startSession(langCode): Promise&lt;void&gt;
-  endSession(newLang): Promise&lt;void&gt;
-  trackPhraseView(phraseId): void
-  trackAudioPlay(phraseId, lang): void
-  getStatistics(): Promise&lt;Stats&gt;
-}</code>
                         </div>
                     </div>
                 </div>
@@ -1302,44 +1366,43 @@ class TTSRouter {
 interface LanguageTranslation {
   phraseId: string;
   text: string;
-  transcription?: string; // пиньинь, ромадзи
+  transcription?: string; // кириллица из книги
 }
 
 interface Category {
   id: string;
   icon: string;         // эмодзи
   color: string;
-  nameTk, nameZh, nameRu... // 31 язык
+  nameTk, nameZh, nameRu // 3 языка
   subcategories?: SubCategory[];
 }</code>
                         </div>
                         <div class="arch-component">
                             <h4>Структура данных фраз</h4>
-                            <p>305 базовых фраз с переводами на 31 язык</p>
+                            <p><strong>2174 базовых фразы</strong> с переводами на 2 готовых языка + 1 в процессе</p>
                             <code>// src/data/languages/base.ts
 export const basePhrases: BasePhrase[] = [
   {
     id: "phrase_001",
     categoryId: "greetings",
     turkmen: "Salam",
-    audioFileTurkmen: "audio/greetings/turkmen/salam.mp3",
     order: 1
   },
-  // ... ещё 304 фразы
+  // ... ещё 2173 фразы
 ];
 
 // src/data/languages/translations/chinese.ts
 export const chineseTranslations = {
   "phrase_001": {
     text: "你好",
-    transcription: "nǐ hǎo"
+    transcription: "Ни хао"  // Кириллица из книги
   },
   // ... переводы всех фраз
 };</code>
                         </div>
                         <div class="arch-component">
                             <h4>Данные категорий</h4>
-                            <p>22 основные категории с подкатегориями</p>
+                            <p><strong>13 основных категорий</strong> с ~60 подкатегориями</p>
                             <code>// src/data/categories.ts
 export const categories: Category[] = [
   {
@@ -1349,8 +1412,6 @@ export const categories: Category[] = [
     nameTk: "Salamlaşmak",
     nameZh: "问候",
     nameRu: "Приветствия",
-    nameEn: "Greetings",
-    // ... ещё 27 названий языков
   },
   {
     id: "hotel",
@@ -1362,7 +1423,7 @@ export const categories: Category[] = [
       { id: "hotel_checkout", ... }
     ]
   },
-  // ... ещё 20 категорий
+  // ... ещё 11 категорий
 ];</code>
                         </div>
                     </div>
@@ -1376,8 +1437,8 @@ export const categories: Category[] = [
                     </div>
                     <div class="arch-components">
                         <div class="arch-component">
-                            <h4>Google Gemini API (src/api/gemini.ts)</h4>
-                            <p>Интеграция ИИ-чата с использованием модели Gemini 2.5 Flash</p>
+                            <h4>🔜 Google Gemini API (v2.0)</h4>
+                            <p>Интеграция ИИ-чата с использованием модели Gemini 2.5 Flash. Планируется в v2.0.</p>
                             <code>import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
@@ -1393,7 +1454,7 @@ export async function askAI(prompt: string): Promise&lt;string&gt; {
 
 // Использование в UniversalAIChatScreen:
 const response = await askAI(
-  `Ты репетитор туркменского языка.
+  `Ты репетитор китайского языка.
    Вопрос пользователя: ${userMessage}`
 );</code>
                         </div>
@@ -1401,11 +1462,11 @@ const response = await askAI(
                             <h4>API Expo</h4>
                             <p>Нативные интеграции платформы через Expo SDK</p>
                             <ul>
-                                <li><strong>expo-av</strong> - Воспроизведение аудио/видео для MP3 файлов</li>
-                                <li><strong>expo-speech</strong> - Системный синтез речи</li>
+                                <li><strong>expo-av</strong> - Воспроизведение аудио/видео (⏸️ временно отключено)</li>
+                                <li><strong>expo-speech</strong> - Системный синтез речи (⏸️ отключено)</li>
                                 <li><strong>expo-haptics</strong> - Тактильная обратная связь</li>
                                 <li><strong>expo-clipboard</strong> - Функции копирования/вставки</li>
-                                <li><strong>expo-camera</strong> - Доступ к камере (v1.5)</li>
+                                <li><strong>expo-camera</strong> - Доступ к камере (🔜 v1.5)</li>
                                 <li><strong>expo-image-picker</strong> - Доступ к галерее</li>
                             </ul>
                         </div>
@@ -1415,36 +1476,36 @@ const response = await askAI(
 
             <!-- Диаграмма потока данных -->
             <div class="data-flow">
-                <h3>Пример потока данных: Воспроизведение аудио фразы</h3>
+                <h3>Пример потока данных: Поиск фразы</h3>
                 <div class="flow-steps">
                     <div class="flow-step">
                         <div class="flow-step-icon">1️⃣</div>
                         <h4>Действие пользователя</h4>
-                        <p>Нажатие кнопки воспроизведения на PhraseDetailScreen</p>
+                        <p>Ввод запроса в AdvancedSearchScreen</p>
                     </div>
                     <span class="flow-connector">→</span>
                     <div class="flow-step">
                         <div class="flow-step-icon">2️⃣</div>
-                        <h4>Хук useAudio</h4>
-                        <p>Получает phraseId и язык</p>
+                        <h4>Хук useAdvancedSearch</h4>
+                        <p>Debounce 300ms → performSearch()</p>
                     </div>
                     <span class="flow-connector">→</span>
                     <div class="flow-step">
                         <div class="flow-step-icon">3️⃣</div>
-                        <h4>TTSRouter</h4>
-                        <p>Выбирает провайдер по доступности</p>
+                        <h4>SearchEngine</h4>
+                        <p>Exact → Prefix → Fuzzy → Phonetic → Semantic</p>
                     </div>
                     <span class="flow-connector">→</span>
                     <div class="flow-step">
                         <div class="flow-step-icon">4️⃣</div>
-                        <h4>LocalAudioProvider</h4>
-                        <p>Загружает MP3 из assets/audio/</p>
+                        <h4>Результаты с релевантностью</h4>
+                        <p>Сортировка по score, ограничение maxResults</p>
                     </div>
                     <span class="flow-connector">→</span>
                     <div class="flow-step">
                         <div class="flow-step-icon">5️⃣</div>
-                        <h4>expo-av</h4>
-                        <p>Воспроизводит через динамики устройства</p>
+                        <h4>FlatList с подсветкой</h4>
+                        <p>HighlightedText компонент выделяет совпадения</p>
                     </div>
                 </div>
             </div>
@@ -1499,21 +1560,21 @@ const response = await askAI(
                     <div class="tech-item">
                         <div class="tech-item-icon" style="background: #6B52AE;">NAV</div>
                         <div class="tech-item-info">
-                            <h4>React Navigation 6</h4>
-                            <span>Stack, Tab навигация</span>
+                            <h4>React Navigation 7</h4>
+                            <span>Stack + Bottom Tabs навигация</span>
                         </div>
                     </div>
                     <div class="tech-item">
                         <div class="tech-item-icon" style="background: #FF6B6B;">RA</div>
                         <div class="tech-item-info">
-                            <h4>Reanimated 4.1.3</h4>
+                            <h4>Reanimated 4</h4>
                             <span>Высокопроизводительные анимации</span>
                         </div>
                     </div>
                     <div class="tech-item">
                         <div class="tech-item-icon" style="background: #00C4B4;">LT</div>
                         <div class="tech-item-info">
-                            <h4>Lottie 7.3.4</h4>
+                            <h4>Lottie 7</h4>
                             <span>JSON-анимации</span>
                         </div>
                     </div>
@@ -1521,40 +1582,40 @@ const response = await askAI(
             </div>
 
             <div class="tech-category">
-                <h3>🔊 Аудио и медиа</h3>
+                <h3>🔊 Аудио и медиа ⏸️</h3>
                 <div class="tech-list">
                     <div class="tech-item">
-                        <div class="tech-item-icon" style="background: #FF9800;">AV</div>
+                        <div class="tech-item-icon" style="background: #9E9E9E;">AV</div>
                         <div class="tech-item-info">
                             <h4>expo-av</h4>
-                            <span>Воспроизведение аудио/видео</span>
+                            <span>Воспроизведение аудио/видео (⏸️ отключено)</span>
                         </div>
                     </div>
                     <div class="tech-item">
-                        <div class="tech-item-icon" style="background: #9C27B0;">TTS</div>
+                        <div class="tech-item-icon" style="background: #9E9E9E;">TTS</div>
                         <div class="tech-item-info">
                             <h4>expo-speech</h4>
-                            <span>Синтез речи</span>
+                            <span>Синтез речи (⏸️ отключено)</span>
                         </div>
                     </div>
                     <div class="tech-item">
                         <div class="tech-item-icon" style="background: #607D8B;">CAM</div>
                         <div class="tech-item-info">
                             <h4>expo-camera</h4>
-                            <span>Доступ к камере (v1.5)</span>
+                            <span>Доступ к камере (🔜 v1.5)</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="tech-category">
-                <h3>🤖 ИИ и API</h3>
+                <h3>🤖 ИИ и API 🔜</h3>
                 <div class="tech-list">
                     <div class="tech-item">
                         <div class="tech-item-icon" style="background: #4285F4;">AI</div>
                         <div class="tech-item-info">
                             <h4>Google Gemini 2.5 Flash</h4>
-                            <span>ИИ-чат и языковая помощь</span>
+                            <span>ИИ-чат и языковая помощь (🔜 v2.0)</span>
                         </div>
                     </div>
                     <div class="tech-item">
@@ -1574,7 +1635,7 @@ const response = await askAI(
                         <div class="tech-item-icon" style="background: #00BCD4;">AS</div>
                         <div class="tech-item-info">
                             <h4>AsyncStorage</h4>
-                            <span>Локальное хранилище данных</span>
+                            <span>Локальное хранилище данных (offline-first)</span>
                         </div>
                     </div>
                     <div class="tech-item">
@@ -1620,19 +1681,22 @@ const response = await askAI(
             <h3 style="margin-bottom: 1.5rem;">📁 Файловая структура проекта</h3>
             <div class="code-block">
                 <pre>
-TurkmenPhrasebook/
+turkmen-phrasebook/
 ├── <span class="keyword">src/</span>
 │   ├── <span class="type">api/</span>                    <span class="comment"># Интеграции с внешними API</span>
-│   │   └── gemini.ts           <span class="comment"># Клиент Google Gemini AI</span>
+│   │   └── gemini.ts           <span class="comment"># 🔜 Клиент Google Gemini AI (v2.0)</span>
 │   │
 │   ├── <span class="type">components/</span>             <span class="comment"># Переиспользуемые UI-компоненты (14 файлов)</span>
-│   │   ├── AudioPlayer.tsx
+│   │   ├── AudioPlayer.tsx     <span class="comment"># ⏸️ audioDisabled = true</span>
 │   │   ├── ErrorBoundary.tsx
 │   │   ├── LoadingStates.tsx
+│   │   ├── SimpleCharts.tsx
+│   │   ├── PhraseCard.tsx
+│   │   ├── CategoryCard.tsx
 │   │   └── ...
 │   │
 │   ├── <span class="type">config/</span>                 <span class="comment"># Конфигурация приложения</span>
-│   │   └── languages.config.ts <span class="comment"># Определения 31 языка</span>
+│   │   └── languages.config.ts <span class="comment"># Определения языков</span>
 │   │
 │   ├── <span class="type">constants/</span>              <span class="comment"># Дизайн-токены и константы</span>
 │   │   ├── Colors.ts
@@ -1640,30 +1704,34 @@ TurkmenPhrasebook/
 │   │   └── Design.ts
 │   │
 │   ├── <span class="type">contexts/</span>               <span class="comment"># React Context провайдеры</span>
-│   │   ├── LanguageContext.tsx <span class="comment"># Локализация UI (456KB!)</span>
+│   │   ├── LanguageContext.tsx <span class="comment"># Локализация UI</span>
 │   │   ├── ConfigContext.tsx   <span class="comment"># Настройки приложения</span>
 │   │   └── OfflineDataContext.tsx
 │   │
 │   ├── <span class="type">data/</span>                   <span class="comment"># Статические данные</span>
-│   │   ├── categories.ts       <span class="comment"># 22 категории + подкатегории</span>
-│   │   ├── audioMapping.ts     <span class="comment"># Пути к MP3 файлам</span>
+│   │   ├── categories.ts       <span class="comment"># 13 категорий + ~60 подкатегорий</span>
+│   │   ├── audioMapping.ts     <span class="comment"># Пути к MP3 файлам (⏸️)</span>
 │   │   └── languages/
-│   │       ├── base.ts         <span class="comment"># 305 туркменских фраз</span>
-│   │       └── translations/   <span class="comment"># Файлы 31 языка</span>
-│   │           ├── chinese.ts
-│   │           ├── russian.ts
-│   │           ├── japanese.ts
-│   │           └── ...
+│   │       ├── base.ts         <span class="comment"># 2174 базовых фразы</span>
+│   │       └── translations/   <span class="comment"># Файлы переводов</span>
+│   │           ├── chinese.ts  <span class="comment"># ✅ Готов (2174 фразы)</span>
+│   │           ├── russian.ts  <span class="comment"># ✅ Готов (2174 фразы)</span>
+│   │           └── turkmen.ts  <span class="comment"># 🔄 В процессе перевода</span>
 │   │
 │   ├── <span class="type">features/</span>               <span class="comment"># Модули функций</span>
-│   │   ├── text-translator/
-│   │   ├── ai-assistants/
+│   │   ├── text-translator/    <span class="comment"># 🔜 v2.0</span>
+│   │   ├── ai-assistants/      <span class="comment"># 🔜 v2.0</span>
 │   │   └── favorites/
+│   │       ├── screens/
+│   │       │   └── FavoritesHubScreen.tsx
+│   │       └── services/
+│   │           └── FavoritesService.ts
 │   │
 │   ├── <span class="type">hooks/</span>                  <span class="comment"># Кастомные React хуки (14 файлов)</span>
-│   │   ├── useFavorites.ts
+│   │   ├── useFavorites.ts     <span class="comment"># Единый хук для избранного</span>
 │   │   ├── useAudio.ts
 │   │   ├── useHistory.ts
+│   │   ├── useAdvancedSearch.ts
 │   │   └── ...
 │   │
 │   ├── <span class="type">navigation/</span>             <span class="comment"># Настройка React Navigation</span>
@@ -1672,14 +1740,20 @@ TurkmenPhrasebook/
 │   ├── <span class="type">screens/</span>                <span class="comment"># Компоненты экранов (15 файлов)</span>
 │   │   ├── MainHubScreen.tsx
 │   │   ├── HomeScreen.tsx
+│   │   ├── CategoryScreen.tsx
 │   │   ├── PhraseDetailScreen.tsx
+│   │   ├── AdvancedSearchScreen.tsx
+│   │   ├── AdditionalFeaturesScreen.tsx
+│   │   ├── StatsScreen.tsx
+│   │   ├── SettingsScreen.tsx
+│   │   ├── ComingSoonScreen.tsx
 │   │   └── ...
 │   │
 │   ├── <span class="type">services/</span>               <span class="comment"># Сервисы бизнес-логики</span>
 │   │   ├── StorageService.ts
 │   │   ├── TranslationService.ts
 │   │   ├── LanguageAnalytics.ts
-│   │   └── tts/                <span class="comment"># Подсистема TTS</span>
+│   │   └── tts/                <span class="comment"># ⏸️ Подсистема TTS (отключена)</span>
 │   │       ├── TTSRouter.ts
 │   │       ├── AudioCache.ts
 │   │       └── providers/
@@ -1689,15 +1763,25 @@ TurkmenPhrasebook/
 │   │   └── navigation.ts       <span class="comment"># Типы навигации</span>
 │   │
 │   └── <span class="type">utils/</span>                  <span class="comment"># Утилиты</span>
+│       ├── SearchEngine.ts     <span class="comment"># Поиск по 2174 фразам</span>
 │       └── ResponsiveUtils.ts
 │
 ├── <span class="keyword">assets/</span>                     <span class="comment"># Статические ресурсы</span>
-│   ├── audio/                  <span class="comment"># MP3 файлы произношения</span>
-│   ├── screenshots/            <span class="comment"># Скриншоты для магазинов</span>
+│   ├── audio/                  <span class="comment"># ⏸️ MP3 файлы (отключены)</span>
+│   ├── screenshots/            <span class="comment"># 6 скриншотов для магазинов</span>
 │   ├── icon.png                <span class="comment"># Иконка приложения (512x512)</span>
 │   └── logo.png                <span class="comment"># Заставка</span>
 │
+├── <span class="keyword">docs/</span>                       <span class="comment"># Документация</span>
+│   ├── Ykjam_Terjime_Presentation_RU.md
+│   ├── Ykjam_Terjime_Presentation_RU.html
+│   ├── Ykjam_Terjime_Presentation_TK.md
+│   ├── Ykjam_Terjime_Presentation_TK.html
+│   ├── SECURITY_REMEDIATION.md
+│   └── app-visualization.html  <span class="comment"># Этот файл</span>
+│
 ├── <span class="keyword">android/</span>                    <span class="comment"># Нативный Android проект</span>
+├── <span class="keyword">ios/</span>                        <span class="comment"># Нативный iOS проект (в разработке)</span>
 ├── App.tsx                     <span class="comment"># Точка входа приложения</span>
 ├── app.json                    <span class="comment"># Конфигурация Expo</span>
 ├── eas.json                    <span class="comment"># Конфигурация EAS Build</span>
@@ -1707,19 +1791,75 @@ TurkmenPhrasebook/
                 </pre>
             </div>
         </div>
+
+        <!-- Текущее состояние -->
+        <div class="api-section" style="margin-top: 2rem;">
+            <h3 style="margin-bottom: 1.5rem;">📊 Текущее состояние (Июль 2026)</h3>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr style="background: var(--bg-light);">
+                    <th style="padding: 12px; text-align: left; border: 1px solid #E2E8F0;">Параметр</th>
+                    <th style="padding: 12px; text-align: left; border: 1px solid #E2E8F0;">Значение</th>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Версия</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>1.0.3</strong></td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Платформа</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">Android (iOS в разработке)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Статус</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">Активная разработка</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Фразы</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>2174</strong> в 13 категориях (+ ~60
+                        подкатегорий)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Готовые языки</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">🇨🇳 Китайский, 🇷🇺 Русский</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>В процессе</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">🇹🇲 Туркменский</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Транскрипция</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">Кириллица из книги «Русско-Китайский
+                        разговорник» (2013)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Аудио</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">⏸️ Временно отключено</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>AI функции</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">🔜 Планируются в v2.0</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;"><strong>Организация</strong></td>
+                    <td style="padding: 12px; border: 1px solid #E2E8F0;">Shapak-Apps — первая open-source организация в
+                        Туркменистане</td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <!-- Подвал -->
     <footer class="footer">
         <p>Техническая документация Ykjam Terjime</p>
-        <p style="margin-top: 0.5rem;">Версия 1.0.2 | Пакет: com.shapak.translator</p>
+        <p style="margin-top: 0.5rem;">Версия 1.0.3 | Пакет: com.shapak.translator</p>
+        <p style="margin-top: 0.5rem;">Организация: <strong>Shapak-Apps</strong></p>
         <p style="margin-top: 1rem; font-size: 0.9rem;">Создано для команды разработки</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Последнее обновление: <strong>Июль 2026</strong></p>
     </footer>
 
     <script>
         // Плавная прокрутка для навигации
         document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', function(e) {
+            link.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -1753,4 +1893,5 @@ TurkmenPhrasebook/
         });
     </script>
 </body>
+
 </html>

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ykjam Terjime — Презентация для инвесторов</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
         * {
             margin: 0;
             padding: 0;
@@ -14,525 +13,747 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
             color: #1a1a1a;
-            background: #fff;
-            font-size: 11pt;
+            background: #ffffff;
+            padding: 20px;
         }
 
         .container {
-            max-width: 210mm;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 15mm 20mm;
         }
 
-        .page-break {
-            page-break-before: always;
-            margin-top: 40px;
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 16px;
+            margin-bottom: 40px;
         }
 
-        h1 {
-            font-size: 28pt;
-            font-weight: 700;
-            color: #00843D;
-            margin-bottom: 8px;
-            border-bottom: 3px solid #00843D;
-            padding-bottom: 10px;
-        }
-
-        h1.section-title {
-            font-size: 20pt;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 16pt;
-            font-weight: 600;
-            color: #00843D;
-            margin-top: 25px;
+        .hero h1 {
+            font-size: 48px;
             margin-bottom: 12px;
         }
 
-        h3 {
-            font-size: 13pt;
-            font-weight: 600;
-            color: #333;
-            margin-top: 18px;
-            margin-bottom: 10px;
+        .hero .subtitle {
+            font-size: 20px;
+            opacity: 0.9;
+            margin-bottom: 8px;
         }
 
-        .subtitle {
-            font-size: 14pt;
-            color: #666;
-            margin-bottom: 30px;
+        .hero .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 16px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin: 40px 0 20px;
+            color: #2D8CFF;
+            border-bottom: 2px solid #E5E7EB;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 22px;
+            margin: 24px 0 12px;
+            color: #1a1a1a;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin: 16px 0 8px;
+            color: #374151;
         }
 
         p {
             margin-bottom: 12px;
-            text-align: justify;
+            color: #374151;
         }
 
-        ul, ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
         }
 
-        li {
-            margin-bottom: 6px;
+        .stat-card {
+            background: #F9FAFB;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #E5E7EB;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #2D8CFF;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #6B7280;
+            margin-top: 4px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 15px 0;
-            font-size: 10pt;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px 12px;
-            text-align: left;
+            margin: 16px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
 
         th {
-            background: #00843D;
+            background: #2D8CFF;
             color: white;
+            padding: 12px;
+            text-align: left;
             font-weight: 600;
         }
 
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #E5E7EB;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
         tr:nth-child(even) {
-            background: #f9f9f9;
+            background: #F9FAFB;
         }
 
-        .highlight-box {
-            background: linear-gradient(135deg, #00843D10, #00843D05);
-            border-left: 4px solid #00843D;
-            padding: 15px 20px;
-            margin: 20px 0;
-            border-radius: 0 8px 8px 0;
+        ul {
+            margin: 12px 0 12px 24px;
         }
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin: 20px 0;
+        li {
+            margin-bottom: 8px;
+            color: #374151;
         }
 
-        .stat-card {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e9ecef;
+        .features-list {
+            list-style: none;
+            margin-left: 0;
         }
 
-        .stat-number {
-            font-size: 24pt;
-            font-weight: 700;
-            color: #00843D;
+        .features-list li {
+            padding: 12px 16px;
+            background: #F0F7FF;
+            border-left: 4px solid #2D8CFF;
+            margin-bottom: 8px;
+            border-radius: 4px;
         }
 
-        .stat-label {
-            font-size: 10pt;
-            color: #666;
-            margin-top: 5px;
+        .badge-active {
+            display: inline-block;
+            background: #10B981;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
         }
 
-        .architecture-box {
+        .badge-progress {
+            display: inline-block;
+            background: #F59E0B;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-disabled {
+            display: inline-block;
+            background: #9CA3AF;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-soon {
+            display: inline-block;
+            background: #6366F1;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .architecture {
             background: #1a1a1a;
-            color: #00ff88;
+            color: #10B981;
             padding: 20px;
             border-radius: 8px;
             font-family: 'Courier New', monospace;
-            font-size: 9pt;
-            white-space: pre;
+            font-size: 13px;
             overflow-x: auto;
-            margin: 15px 0;
+            white-space: pre;
+            margin: 16px 0;
         }
 
-        .flag-table td:first-child {
-            font-size: 18pt;
-            text-align: center;
-            width: 50px;
+        .highlight-box {
+            background: #FEF3C7;
+            border-left: 4px solid #F59E0B;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
         }
 
         .footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #F9FAFB;
+            border-radius: 12px;
             margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            text-align: center;
-            color: #666;
-            font-size: 10pt;
+            color: #6B7280;
         }
 
-        .cover-page {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            page-break-after: always;
-        }
-
-        .cover-page h1 {
-            font-size: 36pt;
-            border: none;
-            margin-bottom: 20px;
-        }
-
-        .cover-page .subtitle {
-            font-size: 18pt;
-            margin-bottom: 60px;
-        }
-
-        .cover-page .tagline {
-            font-size: 14pt;
-            color: #00843D;
-            font-weight: 500;
-        }
-
-        @media print {
-            body {
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            .page-break {
-                page-break-before: always;
-            }
+        .flag {
+            font-size: 20px;
+            margin-right: 6px;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <!-- Cover Page -->
-        <div class="cover-page">
-            <h1>Ykjam Terjime</h1>
-            <p class="subtitle">Умный Разговорник</p>
-            <p class="tagline">Мобильное приложение для изучения туркменского языка</p>
-            <br><br><br>
-            <p style="color: #999; font-size: 12pt;">Презентация для инвесторов</p>
-            <p style="color: #999; font-size: 11pt;">2025</p>
+        <div class="hero">
+            <h1>📱 Ykjam Terjime</h1>
+            <div class="subtitle">Умный Разговорник</div>
+            <div class="subtitle">Мобильное приложение для изучения китайского и русского языков</div>
+            <div class="badge">Презентация для инвесторов • Июль 2026</div>
         </div>
 
-        <!-- Page 1: About -->
-        <h1 class="section-title">1. О проекте</h1>
+        <h2>1. О проекте</h2>
 
-        <h2>Что такое Ykjam Terjime?</h2>
-        <p><strong>Ykjam Terjime</strong> (в переводе с туркменского — «Компактный переводчик») — это современное мобильное приложение-разговорник, которое помогает пользователям изучать туркменский язык и общаться на нём в повседневных ситуациях.</p>
+        <h3>Что такое Ykjam Terjime?</h3>
+        <p><strong>Ykjam Terjime</strong> (в переводе с туркменского — «Компактный переводчик») — это современное
+            мобильное приложение-разговорник, построенное на базе книги <strong>«Русско-Китайский разговорник»
+                (2013)</strong>.</p>
 
-        <div class="highlight-box">
-            <strong>Приложение объединяет:</strong>
-            <ul style="margin-top: 10px; margin-bottom: 0;">
-                <li>Обширную базу разговорных фраз</li>
-                <li>Искусственный интеллект для перевода текста</li>
-                <li>Профессиональное аудио-произношение</li>
-                <li>Интуитивно понятный интерфейс</li>
-            </ul>
-        </div>
-
-        <h2>Целевая аудитория</h2>
-        <table>
-            <tr><th>Сегмент</th><th>Описание</th></tr>
-            <tr><td><strong>Туристы</strong></td><td>Путешественники, посещающие Туркменистан</td></tr>
-            <tr><td><strong>Бизнесмены</strong></td><td>Предприниматели, работающие с туркменскими партнёрами</td></tr>
-            <tr><td><strong>Студенты</strong></td><td>Изучающие туркменский язык в учебных заведениях</td></tr>
-            <tr><td><strong>Диаспора</strong></td><td>Туркмены за рубежом и их семьи</td></tr>
-            <tr><td><strong>Экспаты</strong></td><td>Иностранцы, живущие и работающие в Туркменистане</td></tr>
-        </table>
-
-        <h2>Ключевые преимущества</h2>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">31</div>
-                <div class="stat-label">язык поддержки</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">1000+</div>
-                <div class="stat-label">фраз в базе</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">22</div>
-                <div class="stat-label">тематических категории</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">AI</div>
-                <div class="stat-label">перевод на базе Gemini</div>
-            </div>
-        </div>
-
-        <h2>Рыночный потенциал</h2>
-        <ul>
-            <li><strong>Население Туркменистана</strong>: 6+ миллионов человек</li>
-            <li><strong>Туркменская диаспора</strong>: 2+ миллиона человек по всему миру</li>
-            <li><strong>Растущий интерес</strong>: увеличение туристического и делового потока в Центральную Азию</li>
-            <li><strong>Отсутствие конкурентов</strong>: нет качественных аналогов для туркменского языка</li>
+        <p>Приложение объединяет:</p>
+        <ul class="features-list">
+            <li>✅ Обширную базу из <strong>2174 разговорных фраз</strong></li>
+            <li>✅ <strong>13 тематических категорий</strong> с ~60 подкатегориями</li>
+            <li>✅ <strong>Кириллическую транскрипцию</strong> из книги для китайских фраз</li>
+            <li>✅ Интуитивно понятный интерфейс</li>
+            <li>✅ <strong>Офлайн-режим</strong> (работает без интернета)</li>
         </ul>
 
-        <!-- Page 2: Features -->
-        <div class="page-break"></div>
-        <h1 class="section-title">2. Функциональность</h1>
-
-        <h2>Основные модули</h2>
-
-        <h3>Разговорник</h3>
-        <p>Сердце приложения — структурированная база из <strong>1000+ фраз</strong>, организованных по <strong>22 тематическим категориям</strong>:</p>
-
+        <h3>Целевая аудитория</h3>
         <table>
-            <tr><th>Категория</th><th>Примеры фраз</th></tr>
-            <tr><td>Приветствия</td><td>«Salam» — Привет, «Sag boluň» — До свидания</td></tr>
-            <tr><td>Еда и рестораны</td><td>Заказ блюд, предпочтения, оплата</td></tr>
-            <tr><td>Отель</td><td>Бронирование, услуги, проблемы</td></tr>
-            <tr><td>Транспорт</td><td>Такси, автобус, направления</td></tr>
-            <tr><td>Здоровье</td><td>Симптомы, аптека, экстренная помощь</td></tr>
-            <tr><td>Покупки</td><td>Цены, торг, оплата</td></tr>
-            <tr><td>Бизнес</td><td>Деловые встречи, переговоры</td></tr>
-            <tr><td>Экстренные ситуации</td><td>Помощь, полиция, скорая</td></tr>
+            <tr>
+                <th>Сегмент</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>🎓 Студенты</td>
+                <td>Изучающие китайский и русский языки</td>
+            </tr>
+            <tr>
+                <td>💼 Бизнесмены</td>
+                <td>Предприниматели, работающие с китайскими и русскими партнёрами</td>
+            </tr>
+            <tr>
+                <td>✈️ Туристы</td>
+                <td>Путешественники в Китай и Россию</td>
+            </tr>
+            <tr>
+                <td>🌍 Диаспора</td>
+                <td>Туркмены за рубежом и их семьи</td>
+            </tr>
+            <tr>
+                <td>🏢 Экспаты</td>
+                <td>Иностранцы, живущие в Туркменистане</td>
+            </tr>
         </table>
 
-        <p>Каждая фраза содержит: текст на туркменском, перевод на выбранный язык, аудио-произношение и возможность добавить в избранное.</p>
+        <h3>Ключевые преимущества</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">2174</span>
+                <span class="stat-label">фраз в базе</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">13</span>
+                <span class="stat-label">категорий (+ ~60 подкатегорий)</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">2+1</span>
+                <span class="stat-label">языка (готовы + в процессе)</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">офлайн режим</span>
+            </div>
+        </div>
 
-        <h3>Текстовый переводчик</h3>
-        <p>Модуль свободного перевода на базе <strong>Google Gemini AI</strong>:</p>
+        <ul class="features-list">
+            <li>🗣️ <strong>2174 фразы</strong> в 13 тематических категориях (+ ~60 подкатегорий)</li>
+            <li>🌍 <strong>2 языка полностью готовы</strong>: 🇨🇳 Китайский, 🇷🇺 Русский</li>
+            <li>🔄 <strong>1 язык в процессе перевода</strong>: 🇹🇲 Туркменский</li>
+            <li>📖 <strong>Кириллическая транскрипция</strong> из книги «Русско-Китайский разговорник» (2013)</li>
+            <li>📴 <strong>Офлайн-режим</strong> — базовый функционал работает без интернета</li>
+            <li>🎨 <strong>Современный дизайн</strong> — интуитивный интерфейс по стандартам 2025 года</li>
+            <li>🆓 <strong>Бесплатная модель</strong> — 100% free, без рекламы и трекинга</li>
+            <li>⏸️ <strong>Аудио произношение</strong> — временно отключено <span
+                    class="badge-disabled">отключено</span></li>
+            <li>🔜 <strong>AI переводчик</strong> — планируется в v2.0 <span class="badge-soon">скоро</span></li>
+        </ul>
+
+        <h3>Рыночный потенциал</h3>
         <ul>
-            <li>Перевод между любыми из 31 языков</li>
+            <li>Население Туркменистана: <strong>6+ миллионов человек</strong></li>
+            <li>Туркменская диаспора: <strong>2+ миллиона человек</strong> по всему миру</li>
+            <li>Растущий интерес: увеличение туристического и делового потока с Китаем и Россией</li>
+            <li>Отсутствие конкурентов: нет качественных аналогов для туркменского языка</li>
+        </ul>
+
+        <h2>2. Функциональность</h2>
+
+        <h3>📖 Разговорник</h3>
+        <p>Сердце приложения — структурированная база из <strong>2174 фраз</strong>, организованных по <strong>13
+                тематическим категориям</strong> (+ ~60 подкатегорий):</p>
+
+        <table>
+            <tr>
+                <th>Категория</th>
+                <th>Примеры фраз</th>
+            </tr>
+            <tr>
+                <td>👋 Приветствия</td>
+                <td>«Salam» — Привет, «Sag boluň» — Спасибо</td>
+            </tr>
+            <tr>
+                <td>🍽️ Еда и рестораны</td>
+                <td>Заказ блюд, предпочтения, оплата</td>
+            </tr>
+            <tr>
+                <td>🏨 Отель</td>
+                <td>Бронирование, услуги, проблемы</td>
+            </tr>
+            <tr>
+                <td>🚌 Транспорт</td>
+                <td>Такси, автобус, направления</td>
+            </tr>
+            <tr>
+                <td>🏥 Здоровье</td>
+                <td>Симптомы, аптека, экстренная помощь</td>
+            </tr>
+            <tr>
+                <td>🛍️ Покупки</td>
+                <td>Цены, торг, оплата</td>
+            </tr>
+            <tr>
+                <td>💼 Бизнес</td>
+                <td>Деловые встречи, переговоры</td>
+            </tr>
+            <tr>
+                <td>🚨 Экстренные ситуации</td>
+                <td>Помощь, полиция, скорая</td>
+            </tr>
+            <tr>
+                <td>🔢 Числа и время</td>
+                <td>Счёт, часы, дни недели</td>
+            </tr>
+            <tr>
+                <td>🌤️ Погода</td>
+                <td>Сезонные выражения, прогноз</td>
+            </tr>
+            <tr>
+                <td>👨‍👩‍👧 Семья</td>
+                <td>Родственники, личные данные</td>
+            </tr>
+            <tr>
+                <td>✈️ Путешествия</td>
+                <td>Аэропорт, вокзал, границы</td>
+            </tr>
+            <tr>
+                <td>💬 Общение</td>
+                <td>Общие фразы, вопросы, ответы</td>
+            </tr>
+        </table>
+
+        <p>Каждая фраза содержит:</p>
+        <ul>
+            <li>✅ Текст на китайском/русском языке</li>
+            <li>✅ Перевод на туркменский</li>
+            <li>✅ Кириллическая транскрипция (для китайских фраз)</li>
+            <li>✅ Возможность добавить в избранное</li>
+        </ul>
+
+        <h3>📝 Текстовый переводчик <span class="badge-soon">v2.0</span></h3>
+        <p>Модуль свободного перевода (<strong>планируется в v2.0</strong>):</p>
+        <ul>
+            <li>Перевод между любыми языками</li>
             <li>Автоматическое определение языка ввода</li>
             <li>История переводов</li>
             <li>Копирование и отправка результата</li>
         </ul>
 
-        <h3>ИИ-ассистент</h3>
-        <p>Универсальный помощник для изучения языка: объяснение грамматики, контекст использования фраз, культурные особенности, ответы на вопросы о языке.</p>
+        <h3>🤖 ИИ-ассистент <span class="badge-soon">v2.0</span></h3>
+        <p>Универсальный помощник для изучения языка (<strong>планируется в v2.0</strong>):</p>
+        <ul>
+            <li>Объяснение грамматики</li>
+            <li>Контекст использования фраз</li>
+            <li>Культурные особенности</li>
+            <li>Ответы на вопросы о языке</li>
+        </ul>
 
         <h3>Дополнительные функции</h3>
+
         <table>
-            <tr><th>Функция</th><th>Описание</th></tr>
-            <tr><td>Избранное</td><td>Сохранение любимых фраз и переводов</td></tr>
-            <tr><td>Поиск</td><td>Нечёткий поиск по всем фразам с фильтрацией</td></tr>
-            <tr><td>Статистика</td><td>Отслеживание прогресса обучения</td></tr>
-            <tr><td>Офлайн-режим</td><td>Разговорник работает без интернета</td></tr>
+            <tr>
+                <th>Функция</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>⭐ Избранное</td>
+                <td>Сохранение любимых фраз, быстрый доступ</td>
+            </tr>
+            <tr>
+                <td>🔍 Поиск</td>
+                <td>Нечёткий поиск по всем фразам с фильтрацией</td>
+            </tr>
+            <tr>
+                <td>📊 Статистика</td>
+                <td>Отслеживание прогресса обучения</td>
+            </tr>
+            <tr>
+                <td>🎲 Случайные фразы</td>
+                <td>Быстрое изучение через карточки</td>
+            </tr>
+            <tr>
+                <td>💡 Интересные факты</td>
+                <td>Информация о языках и культуре</td>
+            </tr>
+            <tr>
+                <td>📴 Офлайн-режим</td>
+                <td>Разговорник работает без интернета</td>
+            </tr>
         </table>
 
-        <h2>Аудио-система</h2>
-        <table>
-            <tr><th>Язык</th><th>Технология</th><th>Качество</th></tr>
-            <tr><td>Туркменский</td><td>Записи носителей языка (MP3)</td><td>Высокое</td></tr>
-            <tr><td>20+ языков</td><td>Microsoft Edge TTS</td><td>Высокое</td></tr>
-            <tr><td>Остальные</td><td>Системный TTS</td><td>Среднее</td></tr>
-        </table>
-
-        <!-- Page 3: Languages -->
-        <div class="page-break"></div>
-        <h1 class="section-title">3. Поддерживаемые языки</h1>
-
-        <h2>31 язык — глобальный охват</h2>
-
-        <h3>Основные языки (полная поддержка)</h3>
-        <table class="flag-table">
-            <tr><th>Флаг</th><th>Язык</th><th>Код</th></tr>
-            <tr><td>🇹🇲</td><td>Туркменский</td><td>tk</td></tr>
-            <tr><td>🇨🇳</td><td>Китайский</td><td>zh</td></tr>
-            <tr><td>🇷🇺</td><td>Русский</td><td>ru</td></tr>
-            <tr><td>🇬🇧</td><td>Английский</td><td>en</td></tr>
-        </table>
-
-        <h3>Центральная Азия и Кавказ</h3>
-        <table class="flag-table">
-            <tr><th>Флаг</th><th>Язык</th><th>Код</th></tr>
-            <tr><td>🇰🇿</td><td>Казахский</td><td>kk</td></tr>
-            <tr><td>🇺🇿</td><td>Узбекский</td><td>uz</td></tr>
-            <tr><td>🇰🇬</td><td>Кыргызский</td><td>ky</td></tr>
-            <tr><td>🇹🇯</td><td>Таджикский</td><td>tg</td></tr>
-            <tr><td>🇦🇿</td><td>Азербайджанский</td><td>az</td></tr>
-            <tr><td>🇦🇲</td><td>Армянский</td><td>hy</td></tr>
-            <tr><td>🇬🇪</td><td>Грузинский</td><td>ka</td></tr>
-        </table>
-
-        <h3>Ближний Восток</h3>
-        <table class="flag-table">
-            <tr><th>Флаг</th><th>Язык</th><th>Код</th></tr>
-            <tr><td>🇸🇦</td><td>Арабский</td><td>ar</td></tr>
-            <tr><td>🇮🇷</td><td>Персидский</td><td>fa</td></tr>
-            <tr><td>🇹🇷</td><td>Турецкий</td><td>tr</td></tr>
-            <tr><td>🇵🇰</td><td>Урду</td><td>ur</td></tr>
-            <tr><td>🇦🇫</td><td>Пушту</td><td>ps</td></tr>
-        </table>
-
-        <h3>Восточная и Южная Азия</h3>
-        <table class="flag-table">
-            <tr><th>Флаг</th><th>Язык</th><th>Код</th></tr>
-            <tr><td>🇯🇵</td><td>Японский</td><td>ja</td></tr>
-            <tr><td>🇰🇷</td><td>Корейский</td><td>ko</td></tr>
-            <tr><td>🇹🇭</td><td>Тайский</td><td>th</td></tr>
-            <tr><td>🇻🇳</td><td>Вьетнамский</td><td>vi</td></tr>
-            <tr><td>🇮🇩</td><td>Индонезийский</td><td>id</td></tr>
-            <tr><td>🇲🇾</td><td>Малайский</td><td>ms</td></tr>
-            <tr><td>🇮🇳</td><td>Хинди</td><td>hi</td></tr>
-        </table>
-
-        <h3>Европа</h3>
-        <table class="flag-table">
-            <tr><th>Флаг</th><th>Язык</th><th>Код</th></tr>
-            <tr><td>🇩🇪</td><td>Немецкий</td><td>de</td></tr>
-            <tr><td>🇫🇷</td><td>Французский</td><td>fr</td></tr>
-            <tr><td>🇪🇸</td><td>Испанский</td><td>es</td></tr>
-            <tr><td>🇮🇹</td><td>Итальянский</td><td>it</td></tr>
-            <tr><td>🇵🇹</td><td>Португальский</td><td>pt</td></tr>
-            <tr><td>🇳🇱</td><td>Нидерландский</td><td>nl</td></tr>
-            <tr><td>🇵🇱</td><td>Польский</td><td>pl</td></tr>
-            <tr><td>🇺🇦</td><td>Украинский</td><td>uk</td></tr>
-        </table>
-
+        <h3>⏸️ Аудио-система</h3>
         <div class="highlight-box">
-            <strong>Уникальность:</strong> Ykjam Terjime — единственное приложение, предлагающее перевод с/на туркменский язык для такого широкого спектра языков. Google Translate и Yandex имеют ограниченную или отсутствующую поддержку туркменского языка.
+            <strong>⚠️ Временно отключено</strong> — вернётся в будущих версиях
         </div>
-
-        <!-- Page 4: Technical -->
-        <div class="page-break"></div>
-        <h1 class="section-title">4. Техническая реализация</h1>
-
-        <h2>Технологический стек</h2>
-
-        <h3>Основа приложения</h3>
         <table>
-            <tr><th>Технология</th><th>Версия</th><th>Назначение</th></tr>
-            <tr><td>React Native</td><td>0.81.5</td><td>Кроссплатформенная разработка</td></tr>
-            <tr><td>Expo</td><td>54.0.25</td><td>Платформа разработки и сборки</td></tr>
-            <tr><td>TypeScript</td><td>5.9.2</td><td>Типизация и надёжность кода</td></tr>
-            <tr><td>React</td><td>19.1.0</td><td>UI-библиотека</td></tr>
+            <tr>
+                <th>Язык</th>
+                <th>Технология</th>
+                <th>Статус</th>
+            </tr>
+            <tr>
+                <td><span class="flag">🇹🇲</span>Туркменский</td>
+                <td>Записи носителей (MP3)</td>
+                <td><span class="badge-disabled">отключено</span></td>
+            </tr>
+            <tr>
+                <td><span class="flag">🇨🇳</span>Китайский</td>
+                <td>Кириллическая транскрипция</td>
+                <td><span class="badge-active">активно</span></td>
+            </tr>
+            <tr>
+                <td><span class="flag">🇷🇺</span>Русский</td>
+                <td>Кириллическая транскрипция</td>
+                <td><span class="badge-active">активно</span></td>
+            </tr>
         </table>
 
-        <h3>Искусственный интеллект</h3>
+        <h2>3. Поддерживаемые языки</h2>
+
+        <h3>✅ Готовые языки (полная поддержка)</h3>
         <table>
-            <tr><th>Сервис</th><th>Назначение</th></tr>
-            <tr><td>Google Gemini API</td><td>Перевод текста, ИИ-ассистент</td></tr>
-            <tr><td>Microsoft Edge TTS</td><td>Синтез речи для 20+ языков</td></tr>
+            <tr>
+                <th>Флаг</th>
+                <th>Язык</th>
+                <th>Статус</th>
+            </tr>
+            <tr>
+                <td><span class="flag">🇨🇳</span></td>
+                <td>Китайский</td>
+                <td><span class="badge-active">Полностью готов</span> (2174 фразы)</td>
+            </tr>
+            <tr>
+                <td><span class="flag">🇷🇺</span></td>
+                <td>Русский</td>
+                <td><span class="badge-active">Полностью готов</span> (2174 фразы)</td>
+            </tr>
+        </table>
+
+        <h3>🔄 В процессе перевода</h3>
+        <table>
+            <tr>
+                <th>Флаг</th>
+                <th>Язык</th>
+                <th>Статус</th>
+            </tr>
+            <tr>
+                <td><span class="flag">🇹🇲</span></td>
+                <td>Туркменский</td>
+                <td><span class="badge-progress">В процессе перевода</span></td>
+            </tr>
+        </table>
+
+        <h3>🔜 Планируются в v2.0</h3>
+        <p><strong>25 дополнительных языков:</strong></p>
+        <p>
+            <span class="flag">🇩🇪</span>Немецкий •
+            <span class="flag">🇫🇷</span>Французский •
+            <span class="flag">🇪🇸</span>Испанский •
+            <span class="flag">🇯🇵</span>Японский •
+            <span class="flag">🇰🇷</span>Корейский •
+            <span class="flag">🇸🇦</span>Арабский •
+            <span class="flag">🇹🇷</span>Турецкий •
+            <span class="flag">🇬🇧</span>Английский •
+            <span class="flag">🇮🇹</span>Итальянский •
+            <span class="flag">🇵🇹</span>Португальский
+            и другие...
+        </p>
+
+        <h3>Уникальность</h3>
+        <p><strong>Ykjam Terjime</strong> — единственное приложение, предлагающее качественный русско-китайский
+            разговорник с туркменским переводом, построенный на основе проверенного источника (книга 2013 года).</p>
+
+        <h2>4. Техническая реализация</h2>
+
+        <h3>Технологический стек</h3>
+
+        <h4>Основа приложения</h4>
+        <table>
+            <tr>
+                <th>Технология</th>
+                <th>Версия</th>
+                <th>Назначение</th>
+            </tr>
+            <tr>
+                <td>React Native</td>
+                <td>0.81.5</td>
+                <td>Кроссплатформенная разработка</td>
+            </tr>
+            <tr>
+                <td>Expo</td>
+                <td>54</td>
+                <td>Платформа разработки и сборки</td>
+            </tr>
+            <tr>
+                <td>TypeScript</td>
+                <td>5.9</td>
+                <td>Типизация и надёжность кода</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>19.1.0</td>
+                <td>UI-библиотека</td>
+            </tr>
+        </table>
+
+        <h4>Навигация и UI</h4>
+        <table>
+            <tr>
+                <th>Библиотека</th>
+                <th>Назначение</th>
+            </tr>
+            <tr>
+                <td>React Navigation 7</td>
+                <td>Stack + Bottom Tabs навигация</td>
+            </tr>
+            <tr>
+                <td>Reanimated 4</td>
+                <td>Высокопроизводительные анимации</td>
+            </tr>
+            <tr>
+                <td>Lottie 7</td>
+                <td>JSON-анимации</td>
+            </tr>
+        </table>
+
+        <h4>Хранение и состояние</h4>
+        <table>
+            <tr>
+                <th>Технология</th>
+                <th>Назначение</th>
+            </tr>
+            <tr>
+                <td>AsyncStorage</td>
+                <td>Локальное хранилище (offline-first)</td>
+            </tr>
+            <tr>
+                <td>React Context API</td>
+                <td>Глобальное управление состоянием</td>
+            </tr>
         </table>
 
         <h3>Архитектура приложения</h3>
-        <div class="architecture-box">┌─────────────────────────────────────────────┐
-│         Пользовательский интерфейс          │
-├─────────────────────────────────────────────┤
-│        Навигация (React Navigation)         │
-├──────────┬──────────┬──────────┬────────────┤
-│Разговорник│Переводчик│ ИИ-чат  │ Настройки  │
-├──────────┴──────────┴──────────┴────────────┤
-│             Сервисный слой                  │
-│  ┌────────┐  ┌────────┐  ┌────────┐        │
-│  │Storage │  │  TTS   │  │   AI   │        │
-│  │Service │  │ Router │  │Service │        │
-│  └────────┘  └────────┘  └────────┘        │
-├─────────────────────────────────────────────┤
-│             Данные и кэш                    │
-│      AsyncStorage / JSON / Audio files      │
-└─────────────────────────────────────────────┘</div>
+        <div class="architecture">┌─────────────────────────────────────────────┐
+            │ Пользовательский │
+            │ интерфейс │
+            ├─────────────────────────────────────────────┤
+            │ Навигация (React Navigation) │
+            ├──────────┬──────────┬──────────┬────────────┤
+            │Разговорник│ Поиск │Избранное│ Настройки │
+            ├──────────┴──────────┴──────────┴────────────┤
+            │ Сервисный слой │
+            │ ┌────────┐ ┌────────┐ ┌────────┐ │
+            │ │Storage │ │ Search │ │Favorites│ │
+            │ │Service │ │ Engine │ │ Service │ │
+            │ └────────┘ └────────┘ └────────┘ │
+            ├─────────────────────────────────────────────┤
+            │ Данные и кэш │
+            │ AsyncStorage / JSON / Data files │
+            └─────────────────────────────────────────────┘</div>
 
-        <h3>Ключевые библиотеки</h3>
-        <table>
-            <tr><th>Библиотека</th><th>Назначение</th></tr>
-            <tr><td>@react-navigation</td><td>Навигация между экранами</td></tr>
-            <tr><td>expo-av</td><td>Воспроизведение аудио</td></tr>
-            <tr><td>expo-speech</td><td>Синтез речи</td></tr>
-            <tr><td>@google/generative-ai</td><td>Интеграция с Gemini</td></tr>
-            <tr><td>react-native-reanimated</td><td>Плавные анимации</td></tr>
-        </table>
-
-        <h2>Производительность и безопасность</h2>
+        <h3>Производительность и безопасность</h3>
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">~50 МБ</div>
-                <div class="stat-label">размер приложения</div>
+                <span class="stat-number">~30 МБ</span>
+                <span class="stat-label">размер приложения</span>
             </div>
             <div class="stat-card">
-                <div class="stat-number">&lt;2 сек</div>
-                <div class="stat-label">время запуска</div>
+                <span class="stat-number">&lt;2 сек</span>
+                <span class="stat-label">время запуска</span>
             </div>
         </div>
         <ul>
-            <li>Данные хранятся локально на устройстве</li>
-            <li>API-ключи защищены через переменные окружения</li>
-            <li>Нет сбора персональных данных пользователей</li>
+            <li>🔒 Данные хранятся локально на устройстве</li>
+            <li>🛡️ API-ключи защищены через переменные окружения</li>
+            <li>🔐 Нет сбора персональных данных пользователей</li>
         </ul>
 
-        <h2>Текущий статус</h2>
+        <h3>Текущий статус</h3>
         <table>
-            <tr><th>Параметр</th><th>Значение</th></tr>
-            <tr><td>Версия</td><td>1.0.0</td></tr>
-            <tr><td>Платформа</td><td>Android</td></tr>
-            <tr><td>Статус</td><td>Внутреннее тестирование</td></tr>
-            <tr><td>Магазин</td><td>Google Play Console</td></tr>
+            <tr>
+                <th>Параметр</th>
+                <th>Значение</th>
+            </tr>
+            <tr>
+                <td>Версия</td>
+                <td><strong>1.0.3</strong></td>
+            </tr>
+            <tr>
+                <td>Платформа</td>
+                <td>Android (iOS в разработке)</td>
+            </tr>
+            <tr>
+                <td>Статус</td>
+                <td><span class="badge-active">Активная разработка</span></td>
+            </tr>
+            <tr>
+                <td>Магазин</td>
+                <td>Google Play Console (готовится к публикации)</td>
+            </tr>
+            <tr>
+                <td>Аудио</td>
+                <td><span class="badge-disabled">Временно отключено</span></td>
+            </tr>
+            <tr>
+                <td>AI функции</td>
+                <td><span class="badge-soon">Планируются в v2.0</span></td>
+            </tr>
         </table>
 
-        <!-- Page 5: Roadmap -->
-        <div class="page-break"></div>
-        <h1 class="section-title">5. Планы развития</h1>
+        <h2>5. Планы развития</h2>
 
-        <h2>Дорожная карта</h2>
+        <h3>Дорожная карта</h3>
 
-        <h3>Фаза 2: Расширение платформ</h3>
+        <h4>Фаза 2: Расширение платформ (Q3 2026)</h4>
         <ul>
-            <li>Публикация в Google Play (открытый доступ)</li>
-            <li>Разработка и публикация iOS-версии в App Store</li>
-            <li>Оптимизация под планшеты</li>
+            <li>📱 Публикация в Google Play (открытый доступ)</li>
+            <li>🍎 Разработка и публикация iOS-версии в App Store</li>
+            <li>📲 Оптимизация под планшеты</li>
         </ul>
 
-        <h3>Фаза 3: Визуальный переводчик</h3>
+        <h4>Фаза 3: Визуальный переводчик (Q4 2026)</h4>
         <ul>
-            <li>Перевод текста с камеры (OCR)</li>
-            <li>Распознавание вывесок, меню, документов</li>
-            <li>Мгновенный перевод в режиме AR</li>
+            <li>📷 Перевод текста с камеры (OCR)</li>
+            <li>🪧 Распознавание вывесок, меню, документов</li>
+            <li>🥽 Мгновенный перевод в режиме AR</li>
         </ul>
 
-        <h3>Фаза 4: Голосовой переводчик</h3>
+        <h4>Фаза 4: Голосовой переводчик + AI (Q1 2027)</h4>
         <ul>
-            <li>Распознавание речи</li>
-            <li>Перевод голоса в реальном времени</li>
-            <li>Режим диалога (conversation mode)</li>
+            <li>🎤 Распознавание речи</li>
+            <li>🗣️ Перевод голоса в реальном времени</li>
+            <li>🤖 Интеграция AI-ассистента на базе Google Gemini</li>
+            <li>💬 Режим диалога (conversation mode)</li>
         </ul>
 
-        <h3>Фаза 5: Словарь</h3>
+        <h4>Фаза 5: Словарь (Q2 2027)</h4>
         <ul>
-            <li>Полноценный туркменско-многоязычный словарь</li>
-            <li>Примеры использования слов</li>
-            <li>Грамматические пометки, синонимы и антонимы</li>
+            <li>📚 Полноценный туркменско-многоязычный словарь</li>
+            <li>📝 Примеры использования слов</li>
+            <li>🔤 Грамматические пометки, синонимы и антонимы</li>
         </ul>
 
-        <h3>Фаза 6: Социальные функции</h3>
+        <h4>Фаза 6: Мультиязычность (2027+)</h4>
         <ul>
-            <li>Регистрация пользователей</li>
-            <li>Облачная синхронизация избранного</li>
-            <li>Сообщество изучающих туркменский язык</li>
+            <li>🌍 Добавление 25 новых языков</li>
+            <li>☁️ Облачная синхронизация избранного</li>
+            <li>👥 Сообщество изучающих языки</li>
         </ul>
 
-        <h2>Модели монетизации</h2>
+        <h3>Модели монетизации</h3>
         <table>
-            <tr><th>Модель</th><th>Описание</th></tr>
-            <tr><td><strong>Freemium</strong></td><td>Базовый функционал бесплатно, расширенные функции по подписке</td></tr>
-            <tr><td><strong>Подписка</strong></td><td>Ежемесячная/годовая подписка на премиум-функции</td></tr>
-            <tr><td><strong>Реклама</strong></td><td>Ненавязчивая реклама в бесплатной версии</td></tr>
-            <tr><td><strong>B2B</strong></td><td>Лицензирование для образовательных учреждений</td></tr>
+            <tr>
+                <th>Модель</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>Freemium</td>
+                <td>Базовый функционал бесплатно, расширенные функции по подписке</td>
+            </tr>
+            <tr>
+                <td>Подписка</td>
+                <td>Ежемесячная/годовая подписка на премиум-функции</td>
+            </tr>
+            <tr>
+                <td>B2B</td>
+                <td>Лицензирование для образовательных учреждений</td>
+            </tr>
         </table>
 
-        <h2>Конкурентные преимущества</h2>
-        <div class="highlight-box">
-            <ol>
-                <li><strong>Первопроходец</strong> — первое качественное приложение для туркменского языка</li>
-                <li><strong>Технологическое превосходство</strong> — ИИ, нативное аудио, современный стек</li>
-                <li><strong>Масштабируемость</strong> — архитектура позволяет быстро добавлять языки и функции</li>
-                <li><strong>Команда</strong> — экспертиза в мобильной разработке и знание туркменского языка</li>
-            </ol>
-        </div>
+        <h3>Конкурентные преимущества</h3>
+        <ul class="features-list">
+            <li>🥇 <strong>Первопроходец</strong> — первое качественное приложение для туркменского языка</li>
+            <li>💎 <strong>Проверенный контент</strong> — на основе книги «Русско-Китайский разговорник» (2013)</li>
+            <li>🚀 <strong>Технологическое превосходство</strong> — современный стек, offline-first</li>
+            <li>📈 <strong>Масштабируемость</strong> — архитектура позволяет быстро добавлять языки</li>
+            <li>👨‍💻 <strong>Команда</strong> — экспертиза в мобильной разработке и знание туркменского языка</li>
+        </ul>
 
         <div class="footer">
+            <h3>Контакты</h3>
             <p><strong>Разработчик:</strong> Shapak</p>
             <p><strong>Приложение:</strong> Ykjam Terjime</p>
             <p><strong>Платформа:</strong> Android (iOS в разработке)</p>
+            <p><strong>Организация:</strong> Shapak-Apps</p>
             <br>
-            <p><em>Документ подготовлен для презентации инвесторам • 2025</em></p>
+            <p><strong>Документ подготовлен для презентации инвесторам</strong></p>
+            <p>Последнее обновление: <strong>Июль 2026</strong></p>
+            <p>Версия: <strong>1.0.3</strong></p>
         </div>
     </div>
 </body>
+
 </html>
