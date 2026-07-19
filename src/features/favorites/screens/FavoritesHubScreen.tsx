@@ -14,33 +14,19 @@ import { Ionicons } from '@expo/vector-icons';
 
 import { useSafeArea } from '../../../hooks/useSafeArea';
 import { scale, verticalScale, moderateScale } from '../../../utils/ResponsiveUtils';
-
-// CHANGED: Imported useFavorites to unify favorites management across the app
-import { useFavorites } from '../../../hooks/useFavorites';
-
+import { FavoritesService } from '../services/FavoritesService';
+import { FavoriteTab, FavoriteTranslation } from '../types/favorites.types';
 import { usePhrases } from '../../../hooks/usePhrases';
 import { useAppLanguage } from '../../../contexts/LanguageContext';
 import { PhraseWithTranslation } from '../../../types';
 import { categories } from '../../../data/categories';
 import { TextTranslationResult } from '../../text-translator/types/text-translator.types';
 
-// CHANGED: Added local type definition since we removed FavoritesService types import
-type FavoriteTab = 'phrases' | 'translations' | 'words';
-interface FavoriteTranslation {
-  id: string;
-  translationType: 'text' | 'visual';
-  data: TextTranslationResult;
-  timestamp: number;
-}
-
 export default function FavoritesHubScreen() {
   const navigation = useNavigation<any>();
   const { phrases } = usePhrases();
   const { config } = useAppLanguage();
   const { bottom: safeAreaBottom } = useSafeArea();
-
-  // CHANGED: Destructured favorites state and actions from the unified hook
-  const { favorites, toggleFavorite, getFavoritesPhrases } = useFavorites();
 
   const [activeTab, setActiveTab] = useState<FavoriteTab>('phrases');
   const [isLoading, setIsLoading] = useState(true);
@@ -53,33 +39,32 @@ export default function FavoritesHubScreen() {
     initializeFavorites();
   }, []);
 
-  // CHANGED: Added 'favorites' to dependency array so the list updates immediately 
-  // when a phrase is favorited/unfavorited from another screen
   useFocusEffect(
     React.useCallback(() => {
       loadFavoritesData();
-    }, [phrases, favorites])
+    }, [phrases])
   );
 
-  // CHANGED: Simplified initialization. No longer needs async service loading.
   const initializeFavorites = async () => {
+    setIsLoading(true);
+    await FavoritesService.initialize();
+    await loadFavoritesData();
     setIsLoading(false);
   };
 
-  // CHANGED: Load data directly from the useFavorites hook instead of FavoritesService.
-  // This ensures data consistency with CategoryScreen and PhraseDetailScreen.
-  const loadFavoritesData = () => {
-    const phrasesData = getFavoritesPhrases(phrases);
+  const loadFavoritesData = async () => {
+    const phrasesData = FavoritesService.getFavoritePhrases(phrases);
     setFavoritePhrases(phrasesData);
-
-    setFavoriteTranslations([]);
-    setFavoriteWords([]);
+    const translationsData = FavoritesService.getFavoriteTranslations();
+    setFavoriteTranslations(translationsData);
+    const wordsData = FavoritesService.getFavoriteWords();
+    setFavoriteWords(wordsData);
   };
 
   const getText = (tk: string, zh: string, ru: string, en: string) => {
     return config.mode === 'tk' ? tk :
-      config.mode === 'zh' ? zh :
-        config.mode === 'en' ? en : ru;
+           config.mode === 'zh' ? zh :
+           config.mode === 'en' ? en : ru;
   };
 
   const tabs: Array<{
@@ -88,32 +73,32 @@ export default function FavoritesHubScreen() {
     icon: keyof typeof Ionicons.glyphMap;
     count: number;
   }> = [
-      {
-        key: 'phrases',
-        title: getText('Sözlemler', '短语', 'Фразы', 'Phrases'),
-        icon: 'book-outline',
-        count: favoritePhrases.length,
-      },
-      {
-        key: 'translations',
-        title: getText('Terjimeler', '翻译', 'Переводы', 'Translations'),
-        icon: 'language-outline',
-        count: favoriteTranslations.length,
-      },
-      {
-        key: 'words',
-        title: getText('Sözler', '单词', 'Слова', 'Words'),
-        icon: 'text-outline',
-        count: favoriteWords.length,
-      },
-    ];
+    {
+      key: 'phrases',
+      title: getText('Sözlemler', '短语', 'Фразы', 'Phrases'),
+      icon: 'book-outline',
+      count: favoritePhrases.length,
+    },
+    {
+      key: 'translations',
+      title: getText('Terjimeler', '翻译', 'Переводы', 'Translations'),
+      icon: 'language-outline',
+      count: favoriteTranslations.length,
+    },
+    {
+      key: 'words',
+      title: getText('Sözler', '单词', 'Слова', 'Words'),
+      icon: 'text-outline',
+      count: favoriteWords.length,
+    },
+  ];
 
   const renderPhraseItem = ({ item, index }: { item: PhraseWithTranslation; index: number }) => {
     const category = categories.find(cat => cat.id === item.categoryId);
     const categoryName = category ? (
       config.mode === 'tk' ? category.nameTk :
-        config.mode === 'zh' ? category.nameZh :
-          category.nameRu
+      config.mode === 'zh' ? category.nameZh :
+      category.nameRu
     ) : '';
 
     return (
@@ -140,9 +125,7 @@ export default function FavoritesHubScreen() {
           <TouchableOpacity
             style={styles.heartButton}
             onPress={async () => {
-              // CHANGED: Replaced FavoritesService.removePhrase with toggleFavorite from useFavorites hook.
-              // This ensures the phrase is removed from the global favorites state and AsyncStorage correctly.
-              await toggleFavorite(item.id);
+              await FavoritesService.removePhrase(item.id);
               loadFavoritesData();
             }}
           >
@@ -176,7 +159,7 @@ export default function FavoritesHubScreen() {
               {data.originalText || 'N/A'}
             </Text>
             <Text style={styles.secondaryText} numberOfLines={2}>
-              {data.translatedText || '.N/A'}
+              {data.translatedText || 'N/A'}
             </Text>
             <Text style={styles.dateText}>
               {new Date(data.timestamp).toLocaleDateString()}
@@ -186,10 +169,7 @@ export default function FavoritesHubScreen() {
           <TouchableOpacity
             style={styles.heartButton}
             onPress={async () => {
-              // CHANGED: Temporarily disabled removal for translations.
-              // The useFavorites hook currently only manages phrases. 
-              // TODO: Implement translation removal when useFavorites supports it.
-              console.log('Translation removal not yet implemented in useFavorites hook');
+              await FavoritesService.removeTranslation(item.id);
               loadFavoritesData();
             }}
           >
@@ -360,17 +340,18 @@ export default function FavoritesHubScreen() {
   );
 }
 
-// ... (styles remain exactly the same as in your original file) ...
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#FFFFFF',
     flex: 1,
   },
+
   headerArea: {
     backgroundColor: '#FFFFFF',
     borderBottomColor: '#E5E7EB',
     borderBottomWidth: 1,
   },
+
   header: {
     alignItems: 'center',
     flexDirection: 'row',
@@ -378,12 +359,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: scale(16),
     paddingVertical: verticalScale(12),
   },
+
   backButton: {
     alignItems: 'center',
     height: scale(40),
     justifyContent: 'center',
     width: scale(40),
   },
+
   headerTitle: {
     color: '#1A1A1A',
     flex: 1,
@@ -391,21 +374,26 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     textAlign: 'center',
   },
+
   placeholder: {
     width: scale(40),
   },
+
   headerSubtitle: {
     color: '#6B7280',
     fontSize: moderateScale(13),
     paddingBottom: verticalScale(12),
     paddingHorizontal: scale(20),
   },
+
+  // Tabs
   tabsContainer: {
     flexDirection: 'row',
     gap: scale(6),
     paddingBottom: verticalScale(12),
     paddingHorizontal: scale(16),
   },
+
   tab: {
     alignItems: 'center',
     borderColor: '#E5E7EB',
@@ -418,18 +406,22 @@ const styles = StyleSheet.create({
     paddingHorizontal: scale(8),
     paddingVertical: verticalScale(10),
   },
+
   activeTab: {
     backgroundColor: '#F0F7FF',
     borderColor: '#2D8CFF',
   },
+
   tabText: {
     color: '#9CA3AF',
     fontSize: moderateScale(12),
     fontWeight: '600',
   },
+
   activeTabText: {
     color: '#2D8CFF',
   },
+
   tabBadge: {
     alignItems: 'center',
     backgroundColor: '#E5E7EB',
@@ -439,72 +431,91 @@ const styles = StyleSheet.create({
     paddingHorizontal: scale(5),
     paddingVertical: verticalScale(1),
   },
+
   activeTabBadge: {
     backgroundColor: '#2D8CFF',
   },
+
   tabBadgeText: {
     color: '#6B7280',
     fontSize: moderateScale(10),
     fontWeight: '700',
   },
+
   activeTabBadgeText: {
     color: '#FFFFFF',
   },
+
+  // Content
   contentContainer: {
     flex: 1,
   },
+
   listContent: {
     paddingHorizontal: scale(20),
     paddingTop: verticalScale(8),
   },
+
+  // Row items
   row: {
     alignItems: 'center',
     flexDirection: 'row',
     gap: scale(12),
     paddingVertical: verticalScale(14),
   },
+
   rowContent: {
     flex: 1,
   },
+
   primaryText: {
     color: '#1A1A1A',
     fontSize: moderateScale(16),
     fontWeight: '600',
     marginBottom: verticalScale(2),
   },
+
   transcription: {
     color: '#6B7280',
     fontSize: moderateScale(13),
     fontStyle: 'italic',
     marginBottom: verticalScale(2),
   },
+
   secondaryText: {
     color: '#6B7280',
     fontSize: moderateScale(14),
   },
+
   categoryRow: {
     alignItems: 'center',
     flexDirection: 'row',
     gap: scale(4),
     marginTop: verticalScale(4),
   },
+
   categoryIcon: {
     fontSize: moderateScale(12),
   },
+
   categoryLabel: {
     color: '#9CA3AF',
     fontSize: moderateScale(12),
   },
+
   heartButton: {
     alignItems: 'center',
     height: scale(40),
     justifyContent: 'center',
     width: scale(40),
   },
+
   divider: {
     backgroundColor: '#E5E7EB',
     height: 1,
   },
+
+  // Type badge (for translations)
   typeBadge: {
     alignItems: 'center',
     alignSelf: 'flex-start',
@@ -516,16 +527,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: scale(8),
     paddingVertical: verticalScale(2),
   },
+
   typeBadgeText: {
     color: '#FFFFFF',
     fontSize: moderateScale(11),
     fontWeight: '600',
   },
+
   dateText: {
     color: '#9CA3AF',
     fontSize: moderateScale(11),
     marginTop: verticalScale(4),
   },
+
+  // Empty state
   emptyContainer: {
     alignItems: 'center',
     flex: 1,
@@ -533,6 +548,7 @@ const styles = StyleSheet.create({
     minHeight: verticalScale(300),
     padding: scale(40),
   },
+
   emptyTitle: {
     color: '#1A1A1A',
     fontSize: moderateScale(18),
@@ -541,6 +557,7 @@ const styles = StyleSheet.create({
     marginTop: verticalScale(16),
     textAlign: 'center',
   },
+
   emptyText: {
     color: '#6B7280',
     fontSize: moderateScale(14),
