@@ -5627,35 +5627,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0828",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Banderol",
     order: 828
   },
   {
     id: "phrase_0829",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Blank",
     order: 829
   },
   {
     id: "phrase_0830",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 830
   },
   {
     id: "phrase_0831",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Pul geçirim",
     order: 831
   },
   {
     id: "phrase_0832",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "?",
     order: 832
   },
   {
