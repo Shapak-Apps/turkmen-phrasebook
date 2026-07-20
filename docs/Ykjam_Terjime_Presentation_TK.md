@@ -1,60 +1,65 @@
 # Ykjam Terjime — Akylly Sözlük
 
-## Türkmen dilini öwrenmek üçin mobil programma
+**Hytaý we rus dillerini öwrenmek üçin mobil programma**
 
 ---
 
-# 1. Taslama hakynda
+## 1. Taslama hakynda
 
-## Ykjam Terjime näme?
+### Ykjam Terjime näme?
 
-**Ykjam Terjime** — bu gündelik ýagdaýlarda türkmen dilini öwrenmäge we onda gürleşmäge kömek edýän häzirki zaman mobil programma-sözlükdir.
+**Ykjam Terjime** — bu gündelik ýagdaýlarda hytaý we rus dillerini öwrenmäge hem-de şol dillerde aragatnaşyk saklamaga kömek edýän häzirki zaman mobil programma-sözlükdir.
 
-Programma özünde birleşdirýär:
-- Giň gepleşik sözlemler bazasyny
-- Teksti terjime etmek üçin emeli aň
-- Professional ses aýdylyşyny
-- Düşnükli interfeýsi
+Programma **«Rus-Hytaý gepleşik kitaby» (2013)** esasynda guruldy we özünde birleşdirýär:
 
-## Maksatlaýyn tomaşaçylar
+- ✅ **2174 gepleşik sözleminiň** giň bazasy
+- ✅ **13 tematiki kategoriýa** (~60 kiçi kategoriýa bilen)
+- ✅ Hytaý sözlemleri üçin **kiril transkripsiýasy** (kitapdan)
+- ✅ Düşnükli interfeýs
+- ✅ **Oflaýn tertip** (internetsiz işleýär)
+
+### Maksatlaýyn tomaşaçylar
 
 | Segment | Düşündiriş |
-|---------|------------|
-| **Syýahatçylar** | Türkmenistana gelýän myhmanlar |
-| **Işewürler** | Türkmen hyzmatdaşlary bilen işleýän telekeçiler |
-| **Talyplar** | Okuw jaýlarynda türkmen dilini öwrenýänler |
-| **Diaspora** | Daşary ýurtlardaky türkmenler we olaryň maşgalalary |
-| **Ekspatlar** | Türkmenistanda ýaşaýan we işleýän daşary ýurtlylar |
+| --- | --- |
+| Talyplar | Hytaý we rus dillerini öwrenýänler |
+| Işewürler | Hytaý we rus hyzmatdaşlary bilen işleýän telekeçiler |
+| Syýahatçylar | Hytaýa we Russiýa syýahat edýänler |
+| Diaspora | Daşary ýurtlardaky türkmenler we olaryň maşgalalary |
+| Ekspatlar | Türkmenistanda ýaşaýan daşary ýurtlylar |
 
-## Esasy artykmaçlyklar
+### Esasy artykmaçlyklar
 
-1. **31 dil goldawy** — türkmen dili üçin iň uly köp dilli sözlük
-2. **Emeli aň terjimeçisi** — Google Gemini esasynda islendik tekstiň hakyky wagt terjimesi
-3. **Ýerli ses** — türkmen sözlemleriniň hünärmenler tarapyndan ýazga alnan aýdylyşy
-4. **Oflaýn tertip** — esasy funksiýalar internetsiz işleýär
-5. **Häzirki zaman dizaýny** — 2025-nji ýylyň standartlaryna laýyk düşnükli interfeýs
-6. **Mugt model** — giň tomaşaçylar üçin elýeterlilik
+- 🗣️ **2174 sözlem** 13 tematiki kategoriýada (+ ~60 kiçi kategoriýa)
+- 🌍 **2 dil doly taýýar**: 🇨🇳 Hytaý, 🇷🇺 Rus
+- 🔄 **1 dil terjime işlenilýär**: 🇹🇲 Türkmen
+- 📖 **Kiril transkripsiýasy** «Rus-Hytaý gepleşik kitabyndan» (2013)
+- 📴 **Oflaýn tertip** — esasy funksiýalar internetsiz işleýär
+- 🎨 **Häzirki zaman dizaýny** — 2025-nji ýylyň standartlaryna laýyk interfeýs
+- 🆓 **Mugt model** — 100% mugt, mahabatsyz, yzarlamasyz
+- ⏸️ **Ses aýdylyşy** — wagtlaýyn öçürilen (geljekki wersiýalarda gaýdyp geler)
+- 🔜 **AI terjimeçi** — v2.0-da meýilleşdirilýär
 
-## Bazar mümkinçiligi
+### Bazar mümkinçiligi
 
-- **Türkmenistanyň ilaty**: 6+ million adam
-- **Türkmen diasporasy**: dünýä boýunça 2+ million adam
-- **Ösýän gyzyklanma**: Merkezi Aziýa syýahatçylyk we işewürlik akymynyň artmagy
-- **Bäsdeşleriň ýoklugy**: türkmen dili üçin hilli analoglaryň ýoklugy
+- Türkmenistanyň ilaty: **6+ million adam**
+- Türkmen diasporasy: dünýä boýunça **2+ million adam**
+- Ösýän gyzyklanma: Hytaý we Russiýa bilen syýahatçylyk hem-de işewürlik akymynyň artmagy
+- Bäsdeşleriň ýoklugy: türkmen dili üçin hilli analoglaryň ýoklugy
 
 ---
 
-# 2. Funksiýalar
+## 2. Funksiýalar
 
-## Esasy modullar
+### Esasy modullar
 
-### Sözlük
+#### 📖 Sözlük
 
-Programmanyň ýüregi — **22 temalaýyn kategoriýa** boýunça guralan **1000+ sözlemden** ybarat gurluşly baza:
+Programmanyň ýüregi — **13 tematiki kategoriýa** (~60 kiçi kategoriýa bilen) boýunça guralan **2174 sözlemden** ybarat gurluşly baza:
 
 | Kategoriýa | Sözlem mysallary |
-|------------|------------------|
-| Salamlaşmak | «Salam», «Sag boluň» |
+| --- | --- |
+| Salamlaşmak | «Salam» — Привет, «Sag boluň» — Спасибо |
 | Iýmit we restoranlar | Nahar sargamak, islegler, töleg |
 | Myhmanhana | Bronlamak, hyzmatlar, meseleler |
 | Ulag | Taksi, awtobus, ugurlar |
@@ -62,155 +67,136 @@ Programmanyň ýüregi — **22 temalaýyn kategoriýa** boýunça guralan **100
 | Söwda | Bahalar, söwdalaşmak, töleg |
 | Işewürlik | Iş duşuşyklary, gepleşikler |
 | Gyssagly ýagdaýlar | Kömek, polisiýa, tiz kömek |
+| Sanlar we wagt | Hasap, sagat, hepdäniň günleri |
+| Howa | Möwsümleýin aňlatmalar, çaklama |
+| Maşgala | Garyndaşlar, şahsy maglumatlar |
+| Syýahat | Howa menzili, wokzal, serhetler |
+| Aragaltnaşyk | Umumy sözlemler, soraglar, jogaplar |
 
 Her sözlem öz içine alýar:
-- Türkmen dilindäki tekst
-- Ulanyjynyň saýlan diline terjime
-- Ses aýdylyşy
-- Halananlara goşmak mümkinçiligi
+- ✅ Hytaý/rus dilindäki tekst
+- ✅ Türkmen diline terjime
+- ✅ Kiril transkripsiýasy (hytaý sözlemleri üçin)
+- ✅ Halananlara goşmak mümkinçiligi
 
-### Tekst terjimeçisi
+#### 📝 Tekst terjimeçisi
 
-**Google Gemini AI** esasyndaky erkin terjime moduly:
-
-- 31 diliň islendigi arasynda terjime
+Erkin terjime moduly (🔜 **v2.0-da meýilleşdirilýär**):
+- Dilleriň arasynda terjime
 - Giriş dilini awtomatik kesgitlemek
 - Terjimeleriň taryhy
 - Netijäni göçürmek we ibermek
 
-### Emeli aň kömekçisi
+#### 🤖 Emeli aň kömekçisi
 
-Dil öwrenmek üçin uniwersal kömekçi:
-
+Dil öwrenmek üçin uniwersal kömekçi (🔜 **v2.0-da meýilleşdirilýär**):
 - Grammatikany düşündirmek
 - Sözlemleri ulanmagyň konteksti
 - Medeni aýratynlyklar
 - Dil hakynda soraglara jogaplar
 
-### Halananlar
+### Goşmaça funksiýalar
 
+#### ⭐ Halananlar
 Ulanyjynyň şahsy kolleksiýasy:
-
 - Halaýan sözlemleri saklamak
-- Terjimeleri saklamak
 - Köp ulanylýan aňlatmalara çalt girmek
 - Sessiýalaryň arasynda sinhronizasiýa
 
-### Gözleg
-
+#### 🔍 Gözleg
 Ösen gözleg ulgamy:
-
 - Ähli sözlemler we kategoriýalar boýunça gözleg
 - Bulaşyk gözleg (fuzzy matching)
 - Kategoriýalar boýunça süzgüç
 - Gözleg soraglarynyň taryhy
 
-### Öwreniş statistikasy
-
+#### 📊 Öwreniş statistikasy
 Ulanyjynyň ösüşini yzarlamak:
-
 - Öwrenilen sözlemleriň sany
 - Ulanyş ýygylygy
 - Meşhur kategoriýalar
 - Şahsy maslahatlar
+- Gündelik maksat we gün yzygiderleri
 
-## Ses ulgamy
+#### 🎲 Tötänleýin sözlemler
+- Tötänleýin kartlar arkaly çalt öwrenmek
+- Diller hakynda gyzykly maglumatlar
 
-Seslendirmäge gibrid çemeleşme:
+### ⏸️ Ses ulgamy
 
-| Dil | Tehnologiýa | Hil |
-|-----|-------------|-----|
-| Türkmen | Ýerli adamlaryň ýazgylary (MP3) | Ýokary |
-| 20+ dil | Microsoft Edge TTS | Ýokary |
-| Galanlary | Ulgam TTS | Orta |
+**Wagtlaýyn öçürilen** (geljekki wersiýalarda gaýdyp geler):
 
----
-
-# 3. Goldanýan diller
-
-## 31 dil — global gurşaw
-
-### Esasy diller (doly goldaw)
-
-| Baýdak | Dil | Kod |
-|--------|-----|-----|
-| 🇹🇲 | Türkmen | tk |
-| 🇨🇳 | Hytaý | zh |
-| 🇷🇺 | Rus | ru |
-| 🇬🇧 | Iňlis | en |
-
-### Merkezi Aziýa we Kawkaz
-
-| Baýdak | Dil | Kod |
-|--------|-----|-----|
-| 🇰🇿 | Gazak | kk |
-| 🇺🇿 | Özbek | uz |
-| 🇰🇬 | Gyrgyz | ky |
-| 🇹🇯 | Täjik | tg |
-| 🇦🇿 | Azerbaýjan | az |
-| 🇦🇲 | Ermeni | hy |
-| 🇬🇪 | Gruzin | ka |
-
-### Ýakyn Gündogar
-
-| Baýdak | Dil | Kod |
-|--------|-----|-----|
-| 🇸🇦 | Arap | ar |
-| 🇮🇷 | Pars | fa |
-| 🇹🇷 | Türk | tr |
-| 🇵🇰 | Urdu | ur |
-| 🇦🇫 | Puştu | ps |
-
-### Gündogar Aziýa
-
-| Baýdak | Dil | Kod |
-|--------|-----|-----|
-| 🇯🇵 | Ýapon | ja |
-| 🇰🇷 | Koreý | ko |
-| 🇹🇭 | Taý | th |
-| 🇻🇳 | Wýetnam | vi |
-| 🇮🇩 | Indoneziýa | id |
-| 🇲🇾 | Malaý | ms |
-| 🇮🇳 | Hindi | hi |
-
-### Ýewropa
-
-| Baýdak | Dil | Kod |
-|--------|-----|-----|
-| 🇩🇪 | Nemes | de |
-| 🇫🇷 | Fransuz | fr |
-| 🇪🇸 | Ispan | es |
-| 🇮🇹 | Italýan | it |
-| 🇵🇹 | Portugaliýa | pt |
-| 🇳🇱 | Niderland | nl |
-| 🇵🇱 | Polýak | pl |
-| 🇺🇦 | Ukrain | uk |
-
-## Üýtgeşiklik
-
-**Ykjam Terjime** — şeýle giň dil spektri üçin türkmen dilinden/diline terjime hödürleýän **ýeke-täk programma**. Bäsdeşleriň (Google Translate, Yandex) türkmen dili üçin çäkli ýa-da ýok goldawy bar.
+| Dil | Tehnologiýa | Ýagdaý |
+| --- | --- | --- |
+| Türkmen | Ýerli adamlaryň ýazgylary (MP3) | ⏸️ Öçürilen |
+| Hytaý | Kiril transkripsiýasy | ✅ Işjeň |
+| Rus | Kiril transkripsiýasy | ✅ Işjeň |
 
 ---
 
-# 4. Tehniki amala aşyrylyş
+## 3. Goldanýan diller
 
-## Tehnologiýa stakasy
+### Taýýar diller (doly goldaw)
 
-### Programmanyň esasy
+| Baýdak | Dil | Ýagdaý |
+| --- | --- | --- |
+| 🇨🇳 | Hytaý | ✅ Doly taýýar (2174 sözlem) |
+| 🇷🇺 | Rus | ✅ Doly taýýar (2174 sözlem) |
+
+### Terjime işlenilýär
+
+| Baýdak | Dil | Ýagdaý |
+| --- | --- | --- |
+| 🇹🇲 | Türkmen | 🔄 Terjime işlenilýär |
+
+### v2.0-da meýilleşdirilýär
+
+**25 goşmaça dil:**
+- 🇩🇪 Nemes
+- 🇫🇷 Fransuz
+- 🇪🇸 Ispan
+- 🇯🇵 Ýapon
+- 🇰🇷 Koreý
+- 🇸🇦 Arap
+- 🇹🇷 Türk
+- 🇬🇧 Iňlis
+- 🇮🇹 Italýan
+- 🇵🇹 Portugaliýa
+- we başgalar...
+
+### Üýtgeşiklik
+
+**Ykjam Terjime** — barlanan çeşme (2013-nji ýylyň kitaby) esasynda gurulan, türkmen terjimesi bilen hilli rus-hytaý gepleşik kitabyny hödürleýän ýeke-täk programmadır.
+
+---
+
+## 4. Tehniki amala aşyrylyş
+
+### Tehnologiýa stakasy
+
+#### Programmanyň esasy
 
 | Tehnologiýa | Wersiýa | Maksat |
-|-------------|---------|--------|
+| --- | --- | --- |
 | React Native | 0.81.5 | Krossplatforma işläp düzme |
-| Expo | 54.0.25 | Işläp düzme we ýygnamak platformasy |
-| TypeScript | 5.9.2 | Tipizasiýa we kodun ygtybarlylygy |
+| Expo | 54 | Işläp düzme we ýygnamak platformasy |
+| TypeScript | 5.9 | Tipizasiýa we koduň ygtybarlylygy |
 | React | 19.1.0 | UI-kitaphana |
 
-### Emeli aň
+#### Nawigasiýa we UI
 
-| Hyzmat | Maksat |
-|--------|--------|
-| Google Gemini API | Tekst terjimesi, emeli aň kömekçisi |
-| Microsoft Edge TTS | 20+ dil üçin sözleýiş sintezi |
+| Kitaphana | Maksat |
+| --- | --- |
+| React Navigation 7 | Stack + Bottom Tabs nawigasiýa |
+| Reanimated 4 | Ýokary öndürijilikli animasiýalar |
+| Lottie 7 | JSON-animasiýalar |
+
+#### Saklamak we ýagdaý
+
+| Tehnologiýa | Maksat |
+| --- | --- |
+| AsyncStorage | Ýerli ammar (offline-first) |
+| React Context API | Global ýagdaý dolandyryşy |
 
 ### Arhitektura
 
@@ -220,113 +206,122 @@ Seslendirmäge gibrid çemeleşme:
 ├─────────────────────────────────────────────┤
 │        Nawigasiýa (React Navigation)        │
 ├──────────┬──────────┬──────────┬────────────┤
-│  Sözlük  │Terjimeçi │Emeli aň  │ Sazlamalar │
+│  Sözlük  │  Gözleg  │Halananlar│ Sazlamalar │
 ├──────────┴──────────┴──────────┴────────────┤
 │              Hyzmat gatlagy                 │
-│  ┌────────┐ ┌────────┐ ┌────────┐          │
-│  │Storage │ │  TTS   │ │  AI    │          │
-│  │Service │ │ Router │ │Service │          │
-│  └────────┘ └────────┘ └────────┘          │
+│  ┌────────┐ ┌────────┐ ┌────────┐           │
+│  │Storage │ │ Search │ │Favorites│          │
+│  │Service │ │ Engine │ │ Service │          │
+│  └────────┘ └────────┘ └────────┘           │
 ├─────────────────────────────────────────────┤
-│              Maglumat we keş               │
-│     AsyncStorage / JSON / Audio faýllar    │
+│              Maglumat we keş                │
+│      AsyncStorage / JSON / Data faýllar     │
 └─────────────────────────────────────────────┘
+
 ```
 
-### Esasy kitaphanalar
+Programma 4 esasy gatlakdan ybarat:
+1. **Ulanyjy interfeýsi** — ekranlar we komponentler
+2. **Nawigasiýa** — React Navigation arkaly geçişler
+3. **Hyzmat gatlagy** — Storage, Search Engine, Favorites Service
+4. **Maglumat we keş** — AsyncStorage / JSON / Maglumat faýllary
 
-| Kitaphana | Maksat |
-|-----------|--------|
-| @react-navigation | Ekranlar arasynda nawigasiýa |
-| expo-av | Audio oýnatmak |
-| expo-speech | Sözleýiş sintezi |
-| @google/generative-ai | Gemini bilen integrasiýa |
-| react-native-reanimated | Ýumşak animasiýalar |
-| lottie-react-native | Animasiýaly suratlar |
+### Maglumat gurluşy
 
-## Öndürijilik
+#### Sözlemler
+2174 esasy sözlem terjimeler bilen:
+- Her sözlemiň ID-si, kategoriýa ID-si, türkmen teksti
+- Hytaý we rus terjimeleri
+- Kiril transkripsiýasy
 
-- **Programmanyň ölçegi**: ~50 MB (audio faýllar bilen)
-- **Başlangyç wagty**: < 2 sekunt
-- **Oflaýn funksiýa**: sözlük internetsiz işleýär
-- **Gözleg optimizasiýasy**: 1000+ sözlem boýunça indeksli gözleg
+#### Kategoriýalar
+13 esasy kategoriýa we ~60 kiçi kategoriýa:
+- Her kategoriýanyň ID-si, emojisi, atlary (tk/zh/ru)
+- Kiçi kategoriýalar sanawy
 
-## Howpsuzlyk
+### Öndürijilik we howpsuzlyk
 
-- Maglumatlar enjamda ýerli saklanýar
-- API açarlary daşky üýtgeýjiler arkaly goralýar
-- Ulanyjylaryň şahsy maglumatlary ýygnalmaýar
+- 📦 **Programmanyň ölçegi**: ~30 MB (ses faýllary bolmazdan)
+- ⚡ **Başlangyç wagty**: 2 sekuntdan az
+- 🔒 **Maglumatlar enjamda ýerli saklanýar**
+- 🛡️ **API açarlary daşky üýtgeýjiler arkaly goralýar**
+- 🔐 **Ulanyjylaryň şahsy maglumatlary ýygnalmaýar**
 
-## Häzirki ýagdaý
+### Häzirki ýagdaý
 
 | Parametr | Baha |
-|----------|------|
-| Wersiýa | 1.0.0 |
-| Platforma | Android |
-| Ýagdaý | Içerki synag |
-| Dükan | Google Play Console |
+| --- | --- |
+| **Wersiýa** | 1.0.3 |
+| **Platforma** | Android (iOS işlenip düzülýär) |
+| **Ýagdaý** | Işjeň işlenip düzülýär |
+| **Dükan** | Google Play Console (neşir etmäge taýýarlanýar) |
+| **Ses** | ⏸️ Wagtlaýyn öçürilen |
+| **AI funksiýalar** | 🔜 v2.0-da meýilleşdirilýär |
 
 ---
 
-# 5. Ösüş meýilnamalary
+## 5. Ösüş meýilnamalary
 
-## Ýol kartasy
+### Ýol kartasy
 
-### Faza 2: Platformalary giňeltmek
-- Google Play-de neşir etmek (açyk giriş)
-- iOS wersiýasyny işläp düzmek we App Store-da neşir etmek
-- Planşetler üçin optimizasiýa
+#### Faza 2: Platformalary giňeltmek (Q3 2026)
+- 📱 Google Play-de neşir etmek (açyk giriş)
+- 🍎 iOS wersiýasyny işläp düzmek we App Store-da neşir etmek
+- 📲 Planşetler üçin optimizasiýa
 
-### Faza 3: Wizual terjimeçi
-- Kameradan tekst terjimesi (OCR)
-- Ýazgylary, menýulary, resminamalary tanamak
-- AR tertibinde dessine terjime
+#### Faza 3: Wizual terjimeçi (Q4 2026)
+- 📷 Kameradan tekst terjimesi (OCR)
+- 🪧 Ýazgylary, menýulary, resminamalary tanamak
+- 🥽 AR tertibinde dessine terjime
 
-### Faza 4: Ses terjimeçisi
-- Sözleýşi tanamak
-- Hakyky wagtda ses terjimesi
-- Gepleşik tertibi (conversation mode)
+#### Faza 4: Ses terjimeçisi + AI (Q1 2027)
+- 🎤 Sözleýşi tanamak
+- 🗣️ Hakyky wagtda ses terjimesi
+- 🤖 Google Gemini esasynda AI kömekçi integrasiýasy
+- 💬 Gepleşik tertibi (conversation mode)
 
-### Faza 5: Sözlük
-- Doly türkmen-köp dilli sözlük
-- Sözleri ulanmagyň mysallary
-- Grammatiki bellikler
-- Sinonimler we antonimler
+#### Faza 5: Sözlük (Q2 2027)
+- 📚 Doly türkmen-köp dilli sözlük
+- 📝 Sözleri ulanmagyň mysallary
+- 🔤 Grammatiki bellikler, sinonimler we antonimler
 
-### Faza 6: Sosial funksiýalar
-- Ulanyjylary hasaba almak
-- Halananlary bulut sinhronizasiýasy
-- Sözlemlere baha we synlar
-- Türkmen dilini öwrenýänleriň jemgyýeti
+#### Faza 6: Köp dillilik (2027+)
+- 🌍 25 täze dil goşmak
+- ☁️ Halananlary bulut sinhronizasiýasy
+- 👥 Dil öwrenýänleriň jemgyýeti
 
-## Pul gazanmak modelleri
+### Pul gazanmak modelleri
 
 | Model | Düşündiriş |
-|-------|------------|
+| --- | --- |
 | **Freemium** | Esasy funksiýalar mugt, giňeldilen funksiýalar abuna bilen |
 | **Abuna** | Aýlyk/ýyllyk premium funksiýalar abunasy |
-| **Mahabat** | Mugt wersiýada ýumşak mahabat |
 | **B2B** | Bilim edaralary üçin lisenziýa |
 
-## Bäsdeşlik artykmaçlyklary
+### Bäsdeşlik artykmaçlyklary
 
-1. **Öňdebaryjy** — türkmen dili üçin ilkinji hilli programma
-2. **Tehnologiki artykmaçlyk** — emeli aň, ýerli audio, häzirki zaman stak
-3. **Giňeldip boluş** — arhitektura dilleri we funksiýalary çalt goşmaga mümkinçilik berýär
-4. **Topar** — mobil işläp düzmede tejribe we türkmen dilini bilmek
+1. 🥇 **Öňdebaryjy** — türkmen dili üçin ilkinji hilli programma
+2. 💎 **Barlanan mazmun** — «Rus-Hytaý gepleşik kitaby» (2013) esasynda
+3. 🚀 **Tehnologiki artykmaçlyk** — häzirki zaman stak, offline-first
+4. 📈 **Giňeldip boluş** — arhitektura dilleri çalt goşmaga mümkinçilik berýär
+5. 👨‍💻 **Topar** — mobil işläp düzmede tejribe we türkmen dilini bilmek
 
 ---
 
 ## Aragatnaşyk
 
-**Işläp düzüji**: Shapak
+- **Işläp düzüji**: Shapak
 
-**Programma**: Ykjam Terjime
+- **Programma**: Ykjam Terjime
 
-**Platforma**: Android (iOS işlenip düzülýär)
+- **Platforma**: Android (iOS işlenip düzülýär)
+
+- **Gurama**: Shapak-Apps —
 
 ---
 
 *Bu resminama maýadarlar üçin prezentasiýa hökmünde taýýarlandy*
 
-*2025-nji ýyl*
+*Soňky täzelenme: Iýul 2026*
+
+*Wersiýa: 1.0.3*
