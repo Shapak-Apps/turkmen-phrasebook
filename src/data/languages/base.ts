@@ -5662,35 +5662,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0833",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Kwitansiýa",
     order: 833
   },
   {
     id: "phrase_0834",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Konwert",
     order: 834
   },
   {
     id: "phrase_0835",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Marka",
     order: 835
   },
   {
     id: "phrase_0836",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Ykjam telefon (mobil)",
     order: 836
   },
   {
     id: "phrase_0837",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "Telefon belgisi",
     order: 837
   },
   {
