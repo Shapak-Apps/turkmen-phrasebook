@@ -29,11 +29,13 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.shapak.translator",
-      "buildNumber": "4",
+      "buildNumber": "5",
       "infoPlist": {
         "CFBundleDisplayName": "Ykjam Terjime",
         "CFBundleName": "Ykjam Terjime",
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "This app uses the camera to scan text for translation.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photos to translate text from images."
       },
       "associatedDomains": []
     },
