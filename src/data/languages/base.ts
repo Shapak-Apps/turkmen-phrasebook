@@ -5732,35 +5732,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0843",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "telegramma",
     order: 843
   },
   {
     id: "phrase_0844",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "telefon",
     order: 844
   },
   {
     id: "phrase_0845",
     categoryId: "communication",
     subcategoryId: "communication_useful_words",
-    turkmen: "",
+    turkmen: "telefon-awtomat",
     order: 845
   },
   {
     id: "phrase_0846",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Maňa gowy ýol beledi maslahat berip bilermisiziňiz?",
     order: 846
   },
   {
     id: "phrase_0847",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Golaýda ekskursiýa býurosy barmyka?",
     order: 847
   },
   {
