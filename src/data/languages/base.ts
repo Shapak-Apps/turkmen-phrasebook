@@ -5872,35 +5872,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0863",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Bu ýadygärlik kime goýuldy?",
     order: 863
   },
   {
     id: "phrase_0864",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Bu memorial kime bagyş edildi?",
     order: 864
   },
   {
     id: "phrase_0865",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Bu heýkel nämäni şekillendirýär?",
     order: 865
   },
   {
     id: "phrase_0866",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Heýkeltaraş kim?",
     order: 866
   },
   {
     id: "phrase_0867",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Bu näme bina?",
     order: 867
   },
   {
