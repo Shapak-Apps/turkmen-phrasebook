@@ -5942,35 +5942,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0873",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "meýdança",
     order: 873
   },
   {
     id: "phrase_0874",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Golaýda... barmyka?",
     order: 874
   },
   {
     id: "phrase_0875",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "prawoslaw ybadathanasy (serkowy)",
     order: 875
   },
   {
     id: "phrase_0876",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "lýuteran serkowy",
     order: 876
   },
   {
     id: "phrase_0877",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "katolik serkowy",
     order: 877
   },
   {
