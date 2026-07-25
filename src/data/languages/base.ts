@@ -6012,35 +6012,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0883",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "daşda",
     order: 883
   },
   {
     id: "phrase_0884",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "?",
     order: 884
   },
   {
     id: "phrase_0885",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "çepe we köçäň soňuna çenli göni",
     order: 885
   },
   {
     id: "phrase_0886",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "gaty daş däl",
     order: 886
   },
   {
     id: "phrase_0887",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "gaty daş",
     order: 887
   },
   {
