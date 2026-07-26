@@ -6082,35 +6082,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0893",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Haçan ýakyndaky ... ýüzüşe gidýär?",
     order: 893
   },
   {
     id: "phrase_0894",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "gezelenç kateri",
     order: 894
   },
   {
     id: "phrase_0895",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "teplohod",
     order: 895
   },
   {
     id: "phrase_0896",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "ýüzüş näçe wagtlap dowam edýär?",
     order: 896
   },
   {
     id: "phrase_0897",
     categoryId: "city",
     subcategoryId: "city_sightseeing",
-    turkmen: "",
+    turkmen: "Priçal nirede ýerleşýär?",
     order: 897
   },
   {
