@@ -6222,35 +6222,35 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0913",
     categoryId: "city",
     subcategoryId: "city_transport",
-    turkmen: "",
+    turkmen: "tramwaý duralgasy",
     order: 913
   },
   {
     id: "phrase_0914",
     categoryId: "city",
     subcategoryId: "city_transport",
-    turkmen: "",
+    turkmen: "metro stansiýasy",
     order: 914
   },
   {
     id: "phrase_0915",
     categoryId: "city",
     subcategoryId: "city_transport",
-    turkmen: "",
+    turkmen: "taksi duralgasy",
     order: 915
   },
   {
     id: "phrase_0916",
     categoryId: "city",
     subcategoryId: "city_transport",
-    turkmen: "",
+    turkmen: "Men ... çenli barmaly",
     order: 916
   },
   {
     id: "phrase_0917",
     categoryId: "city",
     subcategoryId: "city_transport",
-    turkmen: "",
+    turkmen: "... çenli nädip bolar?",
     order: 917
   },
   {
