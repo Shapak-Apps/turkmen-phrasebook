@@ -50,14 +50,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0007",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "?",
+    turkmen: "Gelişiňiz bilen gutlaýaryn!",
     order: 7
   },
   {
     id: "phrase_0008",
     categoryId: "basic",
     subcategoryId: "basic_greetings",
-    turkmen: "?",
+    turkmen: "Sag-aman geldiňiz!",
     order: 8
   },
   {
@@ -106,7 +106,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0015",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "?",
+    turkmen: "Gyz",
     order: 15
   },
   {
@@ -120,14 +120,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0017",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "?",
+    turkmen: "Oglan",
     order: 17
   },
   {
     id: "phrase_0018",
     categoryId: "basic",
     subcategoryId: "basic_address",
-    turkmen: "?",
+    turkmen: "Gyzjagaz",
     order: 18
   },
   {
@@ -281,7 +281,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0040",
     categoryId: "basic",
     subcategoryId: "basic_gratitude",
-    turkmen: "?",
+    turkmen: "Ýoldaşlyk üçin",
     order: 40
   },
   {
@@ -302,14 +302,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0043",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "?",
+    turkmen: "Gerek dal",
     order: 43
   },
   {
     id: "phrase_0044",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "?",
+    turkmen: "Zat üçin dal",
     order: 44
   },
   {
@@ -323,28 +323,28 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0046",
     categoryId: "basic",
     subcategoryId: "basic_replies",
-    turkmen: "?",
+    turkmen: "Munuňy etmek maňa hoş boldy",
     order: 46
   },
   {
     id: "phrase_0047",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "?",
+    turkmen: "Mähribanlyk ediň",
     order: 47
   },
   {
     id: "phrase_0048",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "?",
+    turkmen: "Mähirli boluň...",
     order: 48
   },
   {
     id: "phrase_0049",
     categoryId: "basic",
     subcategoryId: "basic_request",
-    turkmen: "?",
+    turkmen: "biraz garaşyň",
     order: 49
   },
   {
@@ -407,14 +407,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0058",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "?",
+    turkmen: "Ötünç soraýaryn...",
     order: 58
   },
   {
     id: "phrase_0059",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "?",
+    turkmen: "biynjalyk edendigim üçin",
     order: 59
   },
   {
@@ -428,7 +428,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0061",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "?",
+    turkmen: "işiňizden bölýändigim üçin",
     order: 61
   },
   {
@@ -456,14 +456,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0065",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "?",
+    turkmen: "çyk",
     order: 65
   },
   {
     id: "phrase_0066",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "?",
+    turkmen: "aýtmak",
     order: 66
   },
   {
@@ -484,7 +484,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0069",
     categoryId: "basic",
     subcategoryId: "basic_apology",
-    turkmen: "?",
+    turkmen: "Men sizden ötünç soramaly",
     order: 69
   },
   {
@@ -722,7 +722,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0103",
     categoryId: "basic",
     subcategoryId: "basic_invitation",
-    turkmen: "?",
+    turkmen: "agşam çäresine",
     order: 103
   },
   {
@@ -799,7 +799,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0114",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "?",
+    turkmen: "Hökman",
     order: 114
   },
   {
@@ -820,7 +820,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0117",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "?",
+    turkmen: "siziň nukdaýnazaryňyz bilen",
     order: 117
   },
   {
@@ -904,7 +904,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0129",
     categoryId: "basic",
     subcategoryId: "basic_agreement",
-    turkmen: "?",
+    turkmen: "Höwes bilen",
     order: 129
   },
   {
@@ -925,7 +925,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0132",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "?",
+    turkmen: "Bu mümkin däl ýaly",
     order: 132
   },
   {
@@ -946,7 +946,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0135",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "?",
+    turkmen: "Bu asla mümkin däl",
     order: 135
   },
   {
@@ -967,14 +967,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0138",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "?",
+    turkmen: "Gorkýaryn...",
     order: 138
   },
   {
     id: "phrase_0139",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "?",
+    turkmen: "ýok öýdýärin",
     order: 139
   },
   {
@@ -1072,14 +1072,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0153",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "?",
+    turkmen: "Bu ähtimallyk az",
     order: 153
   },
   {
     id: "phrase_0154",
     categoryId: "basic",
     subcategoryId: "basic_refusal",
-    turkmen: "?",
+    turkmen: "Beýle zat ýok",
     order: 154
   },
   {
@@ -1114,7 +1114,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0159",
     categoryId: "basic",
     subcategoryId: "basic_misunderstanding",
-    turkmen: "?",
+    turkmen: "Siz ynanýarsyňyzmy?",
     order: 159
   },
   {
@@ -1135,21 +1135,21 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0162",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "?",
+    turkmen: "Nähili gynanç!",
     order: 162
   },
   {
     id: "phrase_0163",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "?",
+    turkmen: "Nähili betbagtçylyk!",
     order: 163
   },
   {
     id: "phrase_0164",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "?",
+    turkmen: "Nähili oňaýsyzlyk",
     order: 164
   },
   {
@@ -1163,21 +1163,21 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0166",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "?",
+    turkmen: "Men örän gynanýaryn",
     order: 166
   },
   {
     id: "phrase_0167",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "?",
+    turkmen: "Nähili gynançly!",
     order: 167
   },
   {
     id: "phrase_0168",
     categoryId: "basic",
     subcategoryId: "basic_regret",
-    turkmen: "?",
+    turkmen: "Men örän lapykeç boldum",
     order: 168
   },
   {
@@ -1233,14 +1233,14 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0176",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "?",
+    turkmen: "Sagat boluň!",
     order: 176
   },
   {
     id: "phrase_0177",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "?",
+    turkmen: "Hemme gowulyklar!",
     order: 177
   },
   {
@@ -1261,7 +1261,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0180",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "?",
+    turkmen: "Tiz görüşýänçäk!",
     order: 180
   },
   {
@@ -1275,7 +1275,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0182",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "?",
+    turkmen: "Ýoluňyz ak bolsun!",
     order: 182
   },
   {
@@ -1317,7 +1317,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0188",
     categoryId: "basic",
     subcategoryId: "basic_farewell",
-    turkmen: "?",
+    turkmen: "Iň gowy arzuwlar!",
     order: 188
   },
   {
@@ -1408,7 +1408,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0201",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "?",
+    turkmen: "Men durjak",
     order: 201
   },
   {
@@ -1443,7 +1443,7 @@ export const basePhrases: BasePhrase[] = [
     id: "phrase_0206",
     categoryId: "travel",
     subcategoryId: "travel_passport",
-    turkmen: "?",
+    turkmen: "Men-de wiza aýyn... çislosyna",
     order: 206
   },
   {
