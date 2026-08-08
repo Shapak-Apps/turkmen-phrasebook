@@ -6,2172 +6,2172 @@ export const chineseTranslations: LanguageTranslation[] = [
   {
     phraseId: "phrase_0001",
     text: "你好!",
-    transcription: "Ни хао!"
+    transcription: "nǐ hǎo!"
   },
   {
     phraseId: "phrase_0002",
     text: "早上好!",
-    transcription: "Цзаошан хао!"
+    transcription: "zǎo shàng hǎo!"
   },
   {
     phraseId: "phrase_0003",
     text: "百天好!",
-    transcription: "Байтянь хао!"
+    transcription: "bǎi tiān hǎo!"
   },
   {
     phraseId: "phrase_0004",
     text: "晚上好!",
-    transcription: "Ваньшан хао!"
+    transcription: "wǎn shàng hǎo!"
   },
   {
     phraseId: "phrase_0005",
     text: "欢迎!",
-    transcription: "Хуаньин!"
+    transcription: "huān yíng!"
   },
   {
     phraseId: "phrase_0006",
     text: "很高兴见到你",
-    transcription: "Хэнь гаосин цзяньдао ни"
+    transcription: "hěn gāo xìng jiàn dào nǐ"
   },
   {
     phraseId: "phrase_0007",
     text: "欢迎到来!",
-    transcription: "Хуаньин дао лай"
+    transcription: "huān yíng dào lái!"
   },
   {
     phraseId: "phrase_0008",
     text: "欢迎抵达!",
-    transcription: "Хуаньин дида"
+    transcription: "huān yíng dǐ dá!"
   },
   {
     phraseId: "phrase_0009",
     text: "你过得号吗?",
-    transcription: "Ни гö дэ хао ма?"
+    transcription: "nǐ guò dé hào ma?"
   },
   {
     phraseId: "phrase_0010",
     text: "努事们, 先生们!",
-    transcription: "Нюйшимэнь, сяньшэнмэнь!"
+    transcription: "nǔ shì men, xiān shēng men!"
   },
   {
     phraseId: "phrase_0011",
     text: "尊敬的同事们!",
-    transcription: "Цзуньцзиндэ туншимэнь!"
+    transcription: "zūn jìng de tóng shì men!"
   },
   {
     phraseId: "phrase_0012",
     text: "亲爱的朋友们!",
-    transcription: "Циньайдэ пэньюмэнь!"
+    transcription: "qīn ài de péng yǒu men!"
   },
   {
     phraseId: "phrase_0013",
     text: "太太 ; 夫人",
-    transcription: "Тайтай; Фужэнь"
+    transcription: "tài tài; fū rén"
   },
   {
     phraseId: "phrase_0014",
     text: "先生",
-    transcription: "Сяньшэн"
+    transcription: "xiān shēng"
   },
   {
     phraseId: "phrase_0015",
     text: "姑娘",
-    transcription: "Гунян"
+    transcription: "gū niáng"
   },
   {
     phraseId: "phrase_0016",
     text: "年轻人",
-    transcription: "Няньцинжэнь"
+    transcription: "nián qīng rén"
   },
   {
     phraseId: "phrase_0017",
     text: "小男孩",
-    transcription: "Сонаньхай"
+    transcription: "xiǎo nán hái"
   },
   {
     phraseId: "phrase_0018",
     text: "小姑娘",
-    transcription: "Сяогунян"
+    transcription: "xiǎo gū niáng"
   },
   {
     phraseId: "phrase_0019",
     text: "对不起",
-    transcription: "Дуйбуци"
+    transcription: "duì bù qǐ"
   },
   {
     phraseId: "phrase_0020",
     text: "请告诉我",
-    transcription: "Цин гаосу во"
+    transcription: "qǐng gào sù wǒ"
   },
   {
     phraseId: "phrase_0021",
     text: "你们认识吗?",
-    transcription: "Нимэнь жэньши ма?"
+    transcription: "nǐ men rèn shi ma?"
   },
   {
     phraseId: "phrase_0022",
     text: "请允许给您介绍",
-    transcription: "Цин юньсюй гэй нинь цзешао..."
+    transcription: "qǐng yǔn xǔ gěi nín jiè shào"
   },
   {
     phraseId: "phrase_0023",
     text: "我的朋友",
-    transcription: "Водэ пэнъю"
+    transcription: "wǒ de péng yǒu"
   },
   {
     phraseId: "phrase_0024",
     text: "我的女朋友",
-    transcription: "Водэ нюй пэнъю"
+    transcription: "wǒ de nǚ péng yǒu"
   },
   {
     phraseId: "phrase_0025",
     text: "我的丈夫",
-    transcription: "Водэ чжанфу"
+    transcription: "wǒ de zhàng fu"
   },
   {
     phraseId: "phrase_0026",
     text: "我的妻子",
-    transcription: "Водэ цицзы"
+    transcription: "wǒ de qī zǐ"
   },
   {
     phraseId: "phrase_0027",
     text: "请允许我自我介绍一下...",
-    transcription: "Цин юньсюй во цзыво цзешао ися..."
+    transcription: "qǐng yǔn xǔ wǒ zì wǒ jiè shào yí xià..."
   },
   {
     phraseId: "phrase_0028",
     text: "我叫...",
-    transcription: "Во цзяо..."
+    transcription: "wǒ jiào..."
   },
   {
     phraseId: "phrase_0029",
     text: "我的名字是...",
-    transcription: "Водэ минцзы ши..."
+    transcription: "wǒ de míng zì shì..."
   },
   {
     phraseId: "phrase_0030",
     text: "我姓...",
-    transcription: "Во син..."
+    transcription: "wǒ xìng..."
   },
   {
     phraseId: "phrase_0031",
     text: "您叫什么名字?",
-    transcription: "Нинь цзяо шэньмэ минцзы?"
+    transcription: "nín jiào shén me míng zì?"
   },
   {
     phraseId: "phrase_0032",
     text: "很愉快!",
-    transcription: "Хэнь юйкуай!"
+    transcription: "hěn yú kuài!"
   },
   {
     phraseId: "phrase_0033",
     text: "高兴同您认识!",
-    transcription: "Гаосин тун нинь жэньши!"
+    transcription: "gāo xìng tóng nín rèn shi!"
   },
   {
     phraseId: "phrase_0034",
     text: "谢谢!",
-    transcription: "Сесе!"
+    transcription: "xiè xiè!"
   },
   {
     phraseId: "phrase_0035",
     text: "非常感谢...",
-    transcription: "Фэйчан ганьсе..."
+    transcription: "fēi cháng gǎn xiè..."
   },
   {
     phraseId: "phrase_0036",
     text: "您的帮助",
-    transcription: "Ниньдэ банчжу"
+    transcription: "nín de bāng zhù"
   },
   {
     phraseId: "phrase_0037",
     text: "您的支持",
-    transcription: "Ниньдэ чжичи"
+    transcription: "nín de zhī chí"
   },
   {
     phraseId: "phrase_0038",
     text: "您的谅解",
-    transcription: "Ниньдэ лянцзе"
+    transcription: "nín de liàng jiě"
   },
   {
     phraseId: "phrase_0039",
     text: "这个美好的晚上",
-    transcription: "Чжэгэ мэйхаодэ ваньшан"
+    transcription: "zhè ge měi hǎo de wǎn shàng"
   },
   {
     phraseId: "phrase_0040",
     text: "大家",
-    transcription: "Дацзя"
+    transcription: "dà jiā"
   },
   {
     phraseId: "phrase_0041",
     text: "你太客气了",
-    transcription: "Ни тай кэци лэ"
+    transcription: "nǐ tài kè qì le"
   },
   {
     phraseId: "phrase_0042",
     text: "谢谢您",
-    transcription: "Сесе нинь"
+    transcription: "xiè xiè nín"
   },
   {
     phraseId: "phrase_0043",
     text: "不止的",
-    transcription: "Бу чжи дэ"
+    transcription: "bù zhǐ de"
   },
   {
     phraseId: "phrase_0044",
     text: "不止的感谢",
-    transcription: "Бу чжи дэ ганьсе"
+    transcription: "bù zhǐ de gǎn xiè"
   },
   {
     phraseId: "phrase_0045",
     text: "不要客气",
-    transcription: "Бу яо кэци"
+    transcription: "bú yào kè qì"
   },
   {
     phraseId: "phrase_0046",
     text: "我很愿意这样做",
-    transcription: "Во хэнь юаньи чжэян цзо"
+    transcription: "wǒ hěn yuàn yì zhè yàng zuò"
   },
   {
     phraseId: "phrase_0047",
     text: "劳驾",
-    transcription: "Лаоцзя"
+    transcription: "láo jià"
   },
   {
     phraseId: "phrase_0048",
     text: "麻烦...",
-    transcription: "Мафань..."
+    transcription: "má fán..."
   },
   {
     phraseId: "phrase_0049",
     text: "稍等一下",
-    transcription: "Шаодэн ися"
+    transcription: "shāo děng yí xià"
   },
   {
     phraseId: "phrase_0050",
     text: "再来电话",
-    transcription: "Цзай лай дяньхуа"
+    transcription: "zài lái diàn huà"
   },
   {
     phraseId: "phrase_0051",
     text: "帮我一下",
-    transcription: "Бан во ися"
+    transcription: "bāng wǒ yí xià"
   },
   {
     phraseId: "phrase_0052",
     text: "我可以...吗?",
-    transcription: "Кэи...ма?"
+    transcription: "wǒ kě yǐ... ma?"
   },
   {
     phraseId: "phrase_0053",
     text: "打电话",
-    transcription: "Да дяньхуа"
+    transcription: "dǎ diàn huà"
   },
   {
     phraseId: "phrase_0054",
     text: "看看",
-    transcription: "Канькань"
+    transcription: "kàn kàn"
   },
   {
     phraseId: "phrase_0055",
     text: "拿",
-    transcription: "На"
+    transcription: "ná"
   },
   {
     phraseId: "phrase_0056",
     text: "清帮助一下",
-    transcription: "Цин банчжу ися"
+    transcription: "qīng bāng zhù yí xià"
   },
   {
     phraseId: "phrase_0057",
     text: "请原谅",
-    transcription: "Цин юаньлян"
+    transcription: "qǐng yuán liàng"
   },
   {
     phraseId: "phrase_0058",
     text: "原谅...",
-    transcription: "Юаньлян..."
+    transcription: "yuán liàng..."
   },
   {
     phraseId: "phrase_0059",
     text: "我的打扰",
-    transcription: "Водэ дажао"
+    transcription: "wǒ de dǎ rǎo"
   },
   {
     phraseId: "phrase_0060",
     text: "我迟到了",
-    transcription: "Во чидаолэ"
+    transcription: "wǒ chí dào le"
   },
   {
     phraseId: "phrase_0061",
     text: "我耽误你做事",
-    transcription: "Во даньу ни цзоши"
+    transcription: "wǒ dān wù nǐ zuò shì"
   },
   {
     phraseId: "phrase_0062",
     text: "对不起,请允许",
-    transcription: "Дуйбуци, цин юньсюй"
+    transcription: "duì bù qǐ, qǐng yǔn xǔ"
   },
   {
     phraseId: "phrase_0063",
     text: "过去",
-    transcription: "Гоцюй"
+    transcription: "guò qù"
   },
   {
     phraseId: "phrase_0064",
     text: "进去",
-    transcription: "Цзиньцюй"
+    transcription: "jìn qù"
   },
   {
     phraseId: "phrase_0065",
     text: "出去",
-    transcription: "Чуцюй"
+    transcription: "chū qù"
   },
   {
     phraseId: "phrase_0066",
     text: "告诉",
-    transcription: "Гаосу"
+    transcription: "gào sù"
   },
   {
     phraseId: "phrase_0067",
     text: "问问",
-    transcription: "Вэньвэнь"
+    transcription: "wèn wèn"
   },
   {
     phraseId: "phrase_0068",
     text: "对不起,打扰你",
-    transcription: "Дуйбуци, дажао ни"
+    transcription: "duì bù qǐ, dǎ rǎo nǐ"
   },
   {
     phraseId: "phrase_0069",
     text: "我应该向你道歉",
-    transcription: "Во ингай сян ни даоцянь"
+    transcription: "wǒ yīng gāi xiàng nǐ dào qiàn"
   },
   {
     phraseId: "phrase_0070",
     text: "我不想让你生气",
-    transcription: "Во бу сян жан ни шэнци"
+    transcription: "wǒ bù xiǎng ràng nǐ shēng qì"
   },
   {
     phraseId: "phrase_0071",
     text: "真遗憾!",
-    transcription: "Чжэнь ихань!"
+    transcription: "zhēn yí hàn!"
   },
   {
     phraseId: "phrase_0072",
     text: "很遗憾!",
-    transcription: "Хэнь ихань!"
+    transcription: "hěn yí hàn!"
   },
   {
     phraseId: "phrase_0073",
     text: "我很同情你",
-    transcription: "Во хэнь тунцин ни"
+    transcription: "wǒ hěn tóng qíng nǐ"
   },
   {
     phraseId: "phrase_0074",
     text: "我非常理解你",
-    transcription: "Во фэйчан лицзе ни"
+    transcription: "wǒ fēi cháng lǐ jiě nǐ"
   },
   {
     phraseId: "phrase_0075",
     text: "没什么可耽心的",
-    transcription: "Мэй шэньмэ кэ даньсиньдэ"
+    transcription: "méi shén me kě dān xīn de"
   },
   {
     phraseId: "phrase_0076",
     text: "别着急",
-    transcription: "Бе чжаоцзи"
+    transcription: "bié zháo jí"
   },
   {
     phraseId: "phrase_0077",
     text: "出什么事了?",
-    transcription: "Чу шэньмэ шилэ?"
+    transcription: "chū shén me shì le?"
   },
   {
     phraseId: "phrase_0078",
     text: "别着急,一切都会好的",
-    transcription: "Бе чжаоцзи, ице доу хуй хаодэ"
+    transcription: "bié zháo jí, yí qiè dōu huì hǎo de"
   },
   {
     phraseId: "phrase_0079",
     text: "请接受我的慰问",
-    transcription: "Цин цзешоу водэ вэйвэнь"
+    transcription: "qǐng jiē shòu wǒ de wèi wèn"
   },
   {
     phraseId: "phrase_0080",
     text: "祝贺你",
-    transcription: "Чжухэ ни"
+    transcription: "zhù hè nǐ"
   },
   {
     phraseId: "phrase_0081",
     text: "请接受我的祝贺",
-    transcription: "Цин цзешоу водэ чжухэ"
+    transcription: "qǐng jiē shòu wǒ de zhù hè"
   },
   {
     phraseId: "phrase_0082",
     text: "祝贺...",
-    transcription: "Чжухэ..."
+    transcription: "zhù hè..."
   },
   {
     phraseId: "phrase_0083",
     text: "生日愉快",
-    transcription: "Шэнжи юйкуай"
+    transcription: "shēng rì yú kuài"
   },
   {
     phraseId: "phrase_0084",
     text: "结婚纪念日愉快",
-    transcription: "Цзехунь цзиняньжи юйкуай"
+    transcription: "jié hūn jì niàn rì yú kuài"
   },
   {
     phraseId: "phrase_0085",
     text: "纪念日",
-    transcription: "Цзиняньжи"
+    transcription: "jì niàn rì"
   },
   {
     phraseId: "phrase_0086",
     text: "节日",
-    transcription: "Цзежи"
+    transcription: "jié rì"
   },
   {
     phraseId: "phrase_0087",
     text: "新年好!",
-    transcription: "Синьнянь хао!"
+    transcription: "xīn nián hǎo!"
   },
   {
     phraseId: "phrase_0088",
     text: "圣诞快乐!",
-    transcription: "Шэндань куайлэ!"
+    transcription: "shèng dàn kuài lè!"
   },
   {
     phraseId: "phrase_0089",
     text: "生日快乐!",
-    transcription: "Шэнжи куайлэ!"
+    transcription: "shēng rì kuài lè!"
   },
   {
     phraseId: "phrase_0090",
     text: "请接受我的良好祝愿",
-    transcription: "Цин цзешоу водэ лянхао чжуюань"
+    transcription: "qǐng jiē shòu wǒ de liáng hǎo zhù yuàn"
   },
   {
     phraseId: "phrase_0091",
     text: "祝愿...",
-    transcription: "Чжуюань..."
+    transcription: "zhù yuàn..."
   },
   {
     phraseId: "phrase_0092",
     text: "心想事成",
-    transcription: "Синьсян шичэн"
+    transcription: "xīn xiǎng shì chéng"
   },
   {
     phraseId: "phrase_0093",
     text: "幸福",
-    transcription: "Синьфу"
+    transcription: "xìng fú"
   },
   {
     phraseId: "phrase_0094",
     text: "健康",
-    transcription: "Цзянькан"
+    transcription: "jiàn kāng"
   },
   {
     phraseId: "phrase_0095",
     text: "成功",
-    transcription: "Чэнгун"
+    transcription: "chéng gōng"
   },
   {
     phraseId: "phrase_0096",
     text: "这是给你的一个小礼物",
-    transcription: "Чжэ ши гэй нидэ игэ сяо лиу"
+    transcription: "zhè shì gěi nǐ de yí gè xiǎo lǐ wù"
   },
   {
     phraseId: "phrase_0097",
     text: "谢谢.你也一样!",
-    transcription: "Сесе. Ни е иян!"
+    transcription: "xiè xiè. nǐ yě yí yàng!"
   },
   {
     phraseId: "phrase_0098",
     text: "请允许我邀请你到...",
-    transcription: "Цин юньсюй во яоцин ни дао..."
+    transcription: "qǐng yǔn xǔ wǒ yāo qǐng nǐ dào..."
   },
   {
     phraseId: "phrase_0099",
     text: "剧院",
-    transcription: "Цзююань"
+    transcription: "jù yuàn"
   },
   {
     phraseId: "phrase_0100",
     text: "电影院",
-    transcription: "Дяньинъюань"
+    transcription: "diàn yǐng yuàn"
   },
   {
     phraseId: "phrase_0101",
     text: "作客",
-    transcription: "Цзо кэ"
+    transcription: "zuò kè"
   },
   {
     phraseId: "phrase_0102",
     text: "音乐会",
-    transcription: "Иньюэхуй"
+    transcription: "yīn yuè huì"
   },
   {
     phraseId: "phrase_0103",
     text: "晚会",
-    transcription: "Ваньхуй"
+    transcription: "wǎn huì"
   },
   {
     phraseId: "phrase_0104",
     text: "餐厅",
-    transcription: "Цаньтин"
+    transcription: "cān tīng"
   },
   {
     phraseId: "phrase_0105",
     text: "博物馆",
-    transcription: "Боугуань"
+    transcription: "bó wù guǎn"
   },
   {
     phraseId: "phrase_0106",
     text: "过生日",
-    transcription: "Го шэнжи"
+    transcription: "guò shēng rì"
   },
   {
     phraseId: "phrase_0107",
     text: "请再到我们这里来",
-    transcription: "Цин цзай дао вомэнь чжэли лай"
+    transcription: "qǐng zài dào wǒ men zhè lǐ lái"
   },
   {
     phraseId: "phrase_0108",
     text: "很高兴再一次见到你",
-    transcription: "Хэнь гаосин цзай ицы цзяньдао ни"
+    transcription: "hěn gāo xìng zài yí cì jiàn dào nǐ"
   },
   {
     phraseId: "phrase_0109",
     text: "请进",
-    transcription: "Цин цзинь"
+    transcription: "qǐng jìn"
   },
   {
     phraseId: "phrase_0110",
     text: "请坐",
-    transcription: "Цин цзо"
+    transcription: "qǐng zuò"
   },
   {
     phraseId: "phrase_0111",
     text: "是",
-    transcription: "Ши"
+    transcription: "shì"
   },
   {
     phraseId: "phrase_0112",
     text: "对",
-    transcription: "Дуй"
+    transcription: "duì"
   },
   {
     phraseId: "phrase_0113",
     text: "对,当然",
-    transcription: "Дуй, данжань"
+    transcription: "duì, dāng rán"
   },
   {
     phraseId: "phrase_0114",
     text: "一定",
-    transcription: "Идин"
+    transcription: "yí dìng"
   },
   {
     phraseId: "phrase_0115",
     text: "我同意...",
-    transcription: "Во туньи..."
+    transcription: "wǒ tóng yì..."
   },
   {
     phraseId: "phrase_0116",
     text: "这件事",
-    transcription: "Чжэ цзянь ши"
+    transcription: "zhè jiàn shì"
   },
   {
     phraseId: "phrase_0117",
     text: "你的观点",
-    transcription: "Нидэ гуаньдянь"
+    transcription: "nǐ de guān diǎn"
   },
   {
     phraseId: "phrase_0118",
     text: "你的想法",
-    transcription: "Нидэ сянфа"
+    transcription: "nǐ de xiǎng fǎ"
   },
   {
     phraseId: "phrase_0119",
     text: "你的条件",
-    transcription: "Нидэ тяоцзянь"
+    transcription: "nǐ de tiáo jiàn"
   },
   {
     phraseId: "phrase_0120",
     text: "你完全正确",
-    transcription: "Ни ваньцюань чжэнцюэ"
+    transcription: "nǐ wán quán zhèng què"
   },
   {
     phraseId: "phrase_0121",
     text: "好",
-    transcription: "Хао"
+    transcription: "hǎo"
   },
   {
     phraseId: "phrase_0122",
     text: "行",
-    transcription: "Син"
+    transcription: "xíng"
   },
   {
     phraseId: "phrase_0123",
     text: "我赞成",
-    transcription: "Во цзаньчэн"
+    transcription: "wǒ zàn chéng"
   },
   {
     phraseId: "phrase_0124",
     text: "我同意",
-    transcription: "Во туньи"
+    transcription: "wǒ tóng yì"
   },
   {
     phraseId: "phrase_0125",
     text: "说定了",
-    transcription: "Шодинлэ"
+    transcription: "shuō dìng le"
   },
   {
     phraseId: "phrase_0126",
     text: "我不反对",
-    transcription: "Во бу фаньдуй"
+    transcription: "wǒ bù fǎn duì"
   },
   {
     phraseId: "phrase_0127",
     text: "这个想法非常好",
-    transcription: "Чжэгэ сянфа фэйчан хао"
+    transcription: "zhè ge xiǎng fǎ fēi cháng hǎo"
   },
   {
     phraseId: "phrase_0128",
     text: "非常好",
-    transcription: "Фэйчан хао"
+    transcription: "fēi cháng hǎo"
   },
   {
     phraseId: "phrase_0129",
     text: "很高兴",
-    transcription: "Хэнь гаосин"
+    transcription: "hěn gāo xìng"
   },
   {
     phraseId: "phrase_0130",
     text: "不",
-    transcription: "Бу"
+    transcription: "bù"
   },
   {
     phraseId: "phrase_0131",
     text: "我想,不行",
-    transcription: "Во сян, бу син"
+    transcription: "wǒ xiǎng, bù xíng"
   },
   {
     phraseId: "phrase_0132",
     text: "这好像不可能",
-    transcription: "Чжэ хаосян бу кэнэн"
+    transcription: "zhè hǎo xiàng bù kě néng"
   },
   {
     phraseId: "phrase_0133",
     text: "我想你错了",
-    transcription: "Во сян ницолэ"
+    transcription: "wǒ xiǎng nǐ cuò le"
   },
   {
     phraseId: "phrase_0134",
     text: "这不是这样",
-    transcription: "Чжэ бу ши чжэян"
+    transcription: "zhè bú shì zhè yàng"
   },
   {
     phraseId: "phrase_0135",
     text: "这绝不行",
-    transcription: "Чжэ цзюэ бу син"
+    transcription: "zhè jué bù xíng"
   },
   {
     phraseId: "phrase_0136",
     text: "我不同意你",
-    transcription: "Во бу туньи ни"
+    transcription: "wǒ bù tóng yì nǐ"
   },
   {
     phraseId: "phrase_0137",
     text: "我不这样认为",
-    transcription: "Во бу чжэян жэньвэй"
+    transcription: "wǒ bú zhè yàng rèn wéi"
   },
   {
     phraseId: "phrase_0138",
     text: "恐怕...",
-    transcription: "Кунпа..."
+    transcription: "kǒng pà..."
   },
   {
     phraseId: "phrase_0139",
     text: "这不行",
-    transcription: "Чжэ бу син"
+    transcription: "zhè bù xíng"
   },
   {
     phraseId: "phrase_0140",
     text: "你不对",
-    transcription: "Ни бу дуй"
+    transcription: "nǐ bú duì"
   },
   {
     phraseId: "phrase_0141",
     text: "当然,不",
-    transcription: "Данжань, бу"
+    transcription: "dāng rán, bù"
   },
   {
     phraseId: "phrase_0142",
     text: "不完全是这样",
-    transcription: "Бу ваньцюань ши чжэян"
+    transcription: "bù wán quán shì zhè yàng"
   },
   {
     phraseId: "phrase_0143",
     text: "通常不行",
-    transcription: "Тунчан бу син"
+    transcription: "tōng cháng bù xíng"
   },
   {
     phraseId: "phrase_0144",
     text: "这不公平",
-    transcription: "Чжэ бу гунпин"
+    transcription: "zhè bù gōng píng"
   },
   {
     phraseId: "phrase_0145",
     text: "我不想",
-    transcription: "Во бу сян"
+    transcription: "wǒ bù xiǎng"
   },
   {
     phraseId: "phrase_0146",
     text: "我不能",
-    transcription: "Во бу нэн"
+    transcription: "wǒ bù néng"
   },
   {
     phraseId: "phrase_0147",
     text: "我没有心情",
-    transcription: "Во мэйю синьцин"
+    transcription: "wǒ méi yǒu xīn qíng"
   },
   {
     phraseId: "phrase_0148",
     text: "很遗憾...",
-    transcription: "Хэнь ихань..."
+    transcription: "hěn yí hàn..."
   },
   {
     phraseId: "phrase_0149",
     text: "我很忙",
-    transcription: "Во хэнь ман"
+    transcription: "wǒ hěn máng"
   },
   {
     phraseId: "phrase_0150",
     text: "我不能",
-    transcription: "Во бу нэн"
+    transcription: "wǒ bù néng"
   },
   {
     phraseId: "phrase_0151",
     text: "我有事",
-    transcription: "Во ю ши"
+    transcription: "wǒ yǒu shì"
   },
   {
     phraseId: "phrase_0152",
     text: "我反对",
-    transcription: "Во фаньдуй"
+    transcription: "wǒ fǎn duì"
   },
   {
     phraseId: "phrase_0153",
     text: "这不太可能",
-    transcription: "Чжэ бу тай кэнэн"
+    transcription: "zhè bú tài kě néng"
   },
   {
     phraseId: "phrase_0154",
     text: "没什么可取的",
-    transcription: "Мэй шеньмэ кэ цюйдэ"
+    transcription: "méi shén me kě qǔ de"
   },
   {
     phraseId: "phrase_0155",
     text: "我坚决反对",
-    transcription: "Во цзянь цзюэ фаньдуй"
+    transcription: "wǒ jiān jué fǎn duì"
   },
   {
     phraseId: "phrase_0156",
     text: "我不完全理解你",
-    transcription: "Во бу ваньцюань лйцзё ни"
+    transcription: "wǒ bù wán quán lǐ jiě nǐ"
   },
   {
     phraseId: "phrase_0157",
     text: "我不明白",
-    transcription: "Во бу минбай"
+    transcription: "wǒ bù míng bái"
   },
   {
     phraseId: "phrase_0158",
     text: "我听不懂你说的话",
-    transcription: "Во тин бу дун ни шодэ хуа"
+    transcription: "wǒ tīng bù dǒng nǐ shuō de huà"
   },
   {
     phraseId: "phrase_0159",
     text: "你确信吗?",
-    transcription: "Ни цюэсинь ма?"
+    transcription: "nǐ què xìn ma?"
   },
   {
     phraseId: "phrase_0160",
     text: "你听得童我说的话吗?",
-    transcription: "Ни тин дэ дун во шодэ хуа ма?"
+    transcription: "nǐ tīng dé tóng wǒ shuō de huà ma?"
   },
   {
     phraseId: "phrase_0161",
     text: "多么可惜!",
-    transcription: "Домэ кэ си!"
+    transcription: "duō me kě xī!"
   },
   {
     phraseId: "phrase_0162",
     text: "多么伤心!",
-    transcription: "Домэ шансинь!"
+    transcription: "duō me shāng xīn!"
   },
   {
     phraseId: "phrase_0163",
     text: "多么不幸!",
-    transcription: "Домэ бусин!"
+    transcription: "duō me bú xìng!"
   },
   {
     phraseId: "phrase_0164",
     text: "多么不愉快的事",
-    transcription: "Домэ бу юйкуай дэ ши"
+    transcription: "duō me bù yú kuài de shì"
   },
   {
     phraseId: "phrase_0165",
     text: "很可惜!",
-    transcription: "Хэнь кэси!"
+    transcription: "hěn kě xī!"
   },
   {
     phraseId: "phrase_0166",
     text: "我很抱歉",
-    transcription: "Во хэнь баоцянь"
+    transcription: "wǒ hěn bào qiàn"
   },
   {
     phraseId: "phrase_0167",
     text: "多么可怜!",
-    transcription: "Домэ кэлянь!"
+    transcription: "duō me kě lián!"
   },
   {
     phraseId: "phrase_0168",
     text: "我很伤心",
-    transcription: "Во хэнь шансинь"
+    transcription: "wǒ hěn shāng xīn"
   },
   {
     phraseId: "phrase_0169",
     text: "可惜,竟然发生了这种情形",
-    transcription: "Кэси, цзинжань фашэнлэ чжэ чжун цинсин"
+    transcription: "kě xī, jìng rán fā shēng le zhè zhǒng qíng xíng"
   },
   {
     phraseId: "phrase_0170",
     text: "我很同情您",
-    transcription: "Во хэнь тунцин нинь"
+    transcription: "wǒ hěn tóng qíng nín"
   },
   {
     phraseId: "phrase_0171",
     text: "别难过",
-    transcription: "Бе наньго"
+    transcription: "bié nán guò"
   },
   {
     phraseId: "phrase_0172",
     text: "毫无办法",
-    transcription: "Хао у баньфа"
+    transcription: "háo wú bàn fǎ"
   },
   {
     phraseId: "phrase_0173",
     text: "我能用什么帮助您?",
-    transcription: "Во нэн юн шэньмэ банчжу нинь?"
+    transcription: "wǒ néng yòng shén me bāng zhù nín?"
   },
   {
     phraseId: "phrase_0174",
     text: "再见!",
-    transcription: "Цзай цзянь!"
+    transcription: "zài jiàn!"
   },
   {
     phraseId: "phrase_0175",
     text: "回头见!",
-    transcription: "Хуйтоу цзянь!"
+    transcription: "huí tóu jiàn!"
   },
   {
     phraseId: "phrase_0176",
     text: "祝幸福!",
-    transcription: "Чжу синфу!"
+    transcription: "zhù xìng fú!"
   },
   {
     phraseId: "phrase_0177",
     text: "祝一侧好!",
-    transcription: "Чжу йцэ хао!"
+    transcription: "zhù yí cè hǎo!"
   },
   {
     phraseId: "phrase_0178",
     text: "明天见!",
-    transcription: "Минтянь цзянь!"
+    transcription: "míng tiān jiàn!"
   },
   {
     phraseId: "phrase_0179",
     text: "以后见!",
-    transcription: "Ихоу цзянь!"
+    transcription: "yǐ hòu jiàn!"
   },
   {
     phraseId: "phrase_0180",
     text: "希望很快又见面",
-    transcription: "Сиван хэнь куай ю цзяньмянь"
+    transcription: "xī wàng hěn kuài yòu jiàn miàn"
   },
   {
     phraseId: "phrase_0181",
     text: "请向...传达问候",
-    transcription: "Цин сян...чуаньда вэньхоу"
+    transcription: "qǐng xiàng... chuán dá wèn hòu"
   },
   {
     phraseId: "phrase_0182",
     text: "一路平安!",
-    transcription: "И лу пинъань"
+    transcription: "yí lù píng ān!"
   },
   {
     phraseId: "phrase_0183",
     text: "希望在一次见到你",
-    transcription: "Сиван цзай и цы цзяньдао ни"
+    transcription: "xī wàng zài yí cì jiàn dào nǐ"
   },
   {
     phraseId: "phrase_0184",
     text: "请到...来",
-    transcription: "Цин дао... лай"
+    transcription: "qǐng dào... lái"
   },
   {
     phraseId: "phrase_0185",
     text: "俄罗斯",
-    transcription: "Элосы"
+    transcription: "é luó sī"
   },
   {
     phraseId: "phrase_0186",
     text: "莫斯科",
-    transcription: "Мосыкэ"
+    transcription: "mò sī kē"
   },
   {
     phraseId: "phrase_0187",
     text: "圣彼得堡",
-    transcription: "Шэнбидэбао"
+    transcription: "shèng bǐ dé bǎo"
   },
   {
     phraseId: "phrase_0188",
     text: "一切顺利!",
-    transcription: "Ицэ шуньли"
+    transcription: "yí qiè shùn lì!"
   },
   {
     phraseId: "phrase_0189",
     text: "护照查验处在哪里?",
-    transcription: "Хучжао чаяньчу цзай нали?"
+    transcription: "hù zhào chá yàn chù zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0190",
     text: "你的护照?",
-    transcription: "Нидэ хучжао?"
+    transcription: "nǐ de hù zhào?"
   },
   {
     phraseId: "phrase_0191",
     text: "这是我的护照",
-    transcription: "Чжэши водэ хучжао"
+    transcription: "zhè shì wǒ de hù zhào"
   },
   {
     phraseId: "phrase_0192",
     text: "你的护照是哪儿签发的?",
-    transcription: "Нидэ хучжао ши нар цяньфадэ?"
+    transcription: "nǐ de hù zhào shì nǎ ér qiān fā de?"
   },
   {
     phraseId: "phrase_0193",
     text: "我此行的目的是...",
-    transcription: "Во цысин дэ муди ши..."
+    transcription: "wǒ cǐ xíng de mù dì shì..."
   },
   {
     phraseId: "phrase_0194",
     text: "旅行",
-    transcription: "Люйсин"
+    transcription: "lǚ xíng"
   },
   {
     phraseId: "phrase_0195",
     text: "经商",
-    transcription: "Цзяншан"
+    transcription: "jīng shāng"
   },
   {
     phraseId: "phrase_0196",
     text: "办私事",
-    transcription: "Баньсыши"
+    transcription: "bàn sī shì"
   },
   {
     phraseId: "phrase_0197",
     text: "我打算在中国逗留...",
-    transcription: "Во дасуань цзай Чжунго доулю..."
+    transcription: "wǒ dǎ suàn zài zhōng guó dòu liú..."
   },
   {
     phraseId: "phrase_0198",
     text: "几天",
-    transcription: "Цзитянь"
+    transcription: "jǐ tiān"
   },
   {
     phraseId: "phrase_0199",
     text: "一星期",
-    transcription: "И синци"
+    transcription: "yì xīng qī"
   },
   {
     phraseId: "phrase_0200",
     text: "一个月",
-    transcription: "Игэ юэ"
+    transcription: "yí gè yuè"
   },
   {
     phraseId: "phrase_0201",
     text: "我住在...",
-    transcription: "Во чжу цзай..."
+    transcription: "wǒ zhù zài..."
   },
   {
     phraseId: "phrase_0202",
     text: "旅馆里",
-    transcription: "Люйгуаньли"
+    transcription: "lǚ guǎn lǐ"
   },
   {
     phraseId: "phrase_0203",
     text: "朋友家里",
-    transcription: "Пэнъю цзяли"
+    transcription: "péng yǒu jiā lǐ"
   },
   {
     phraseId: "phrase_0204",
     text: "我的签证一次有效...天",
-    transcription: "Водэ цяньчжэн йцы юсяо...тянь"
+    transcription: "wǒ de qiān zhèng yí cì yǒu xiào... tiān"
   },
   {
     phraseId: "phrase_0205",
     text: "我的签证在今年多次有效",
-    transcription: "Водэ цяньчжэн цзай цзиньнянь доцы юсяо"
+    transcription: "wǒ de qiān zhèng zài jīn nián duō cì yǒu xiào"
   },
   {
     phraseId: "phrase_0206",
     text: "我的签证到...月...日有效",
-    transcription: "Водэ цяньчжэн дао...юэ...жи юсяо"
+    transcription: "wǒ de qiān zhèng dào... yuè... rì yǒu xiào"
   },
   {
     phraseId: "phrase_0207",
     text: "我在贵国过境",
-    transcription: "Во цзай гуйго гоцзин"
+    transcription: "wǒ zài guì guó guò jìng"
   },
   {
     phraseId: "phrase_0208",
     text: "我从...去...",
-    transcription: "Во цун...цюй..."
+    transcription: "wǒ cóng... qù..."
   },
   {
     phraseId: "phrase_0209",
     text: "你的报关单?",
-    transcription: "Нидэ баогуаньдань?"
+    transcription: "nǐ de bào guān dān?"
   },
   {
     phraseId: "phrase_0210",
     text: "这是我的报关单",
-    transcription: "Чжэ ши водэ баогуаньдань"
+    transcription: "zhè shì wǒ de bào guān dān"
   },
   {
     phraseId: "phrase_0211",
     text: "请帮助我填一下这个表格",
-    transcription: "Цин банчжу во тянь йся чжэгэ бяогэ"
+    transcription: "qǐng bāng zhù wǒ tián yí xià zhè ge biǎo gé"
   },
   {
     phraseId: "phrase_0212",
     text: "你的行李在哪儿?",
-    transcription: "Нидэ синли цзай нар?"
+    transcription: "nǐ de xíng li zài nǎ ér?"
   },
   {
     phraseId: "phrase_0213",
     text: "这是我的行李",
-    transcription: "Чжэ ши водэ синли"
+    transcription: "zhè shì wǒ de xíng li"
   },
   {
     phraseId: "phrase_0214",
     text: "我有...件行李",
-    transcription: "Во ю...цзянь синли"
+    transcription: "wǒ yǒu... jiàn xíng li"
   },
   {
     phraseId: "phrase_0215",
     text: "我的行李中没有...",
-    transcription: "Водэ синли чжун мэйю..."
+    transcription: "wǒ de xíng li zhōng méi yǒu..."
   },
   {
     phraseId: "phrase_0216",
     text: "武器",
-    transcription: "Уци"
+    transcription: "wǔ qì"
   },
   {
     phraseId: "phrase_0217",
     text: "麻醉品",
-    transcription: "Мацзуйпинь"
+    transcription: "má zuì pǐn"
   },
   {
     phraseId: "phrase_0218",
     text: "禁止带入(带出)境的物品",
-    transcription: "Цзиньчжи дайжу (дайчу) цзиндэ упинь"
+    transcription: "jìn zhǐ dài rù (dài chū) jìng de wù pǐn"
   },
   {
     phraseId: "phrase_0219",
     text: "古董和艺术品",
-    transcription: "Гудун хэ ишупинь"
+    transcription: "gǔ dǒng hé yì shù pǐn"
   },
   {
     phraseId: "phrase_0220",
     text: "我随身带有...",
-    transcription: "Во суйшэнь дайю..."
+    transcription: "wǒ suí shēn dài yǒu..."
   },
   {
     phraseId: "phrase_0221",
     text: "俄国卢布",
-    transcription: "Эго лубу"
+    transcription: "é guó lú bù"
   },
   {
     phraseId: "phrase_0222",
     text: "美元",
-    transcription: "Мэйюань"
+    transcription: "měi yuán"
   },
   {
     phraseId: "phrase_0223",
     text: "人民币",
-    transcription: "Жэньминьби"
+    transcription: "rén mín bì"
   },
   {
     phraseId: "phrase_0224",
     text: "...国货币...",
-    transcription: "...го хоби..."
+    transcription: "... guó huò bì..."
   },
   {
     phraseId: "phrase_0225",
     text: "这是我的私人行李",
-    transcription: "Чжэ ши водэ сыжэнь синли"
+    transcription: "zhè shì wǒ de sī rén xíng li"
   },
   {
     phraseId: "phrase_0226",
     text: "我随身带有...",
-    transcription: "Во суйшэнь дайю..."
+    transcription: "wǒ suí shēn dài yǒu..."
   },
   {
     phraseId: "phrase_0227",
     text: "一条香烟",
-    transcription: "Итяо сянъянь"
+    transcription: "yì tiáo xiāng yān"
   },
   {
     phraseId: "phrase_0228",
     text: "一瓶白酒",
-    transcription: "Ипин байцзю"
+    transcription: "yì píng bái jiǔ"
   },
   {
     phraseId: "phrase_0229",
     text: "药",
-    transcription: "Яо"
+    transcription: "yào"
   },
   {
     phraseId: "phrase_0230",
     text: "我有携带...的许可证",
-    transcription: "Во ю седай...дэ сюйкэчжэн"
+    transcription: "wǒ yǒu xié dài... de xǔ kě zhèng"
   },
   {
     phraseId: "phrase_0231",
     text: "需付多少税款?",
-    transcription: "Сюй фу дошао шуйкуань?"
+    transcription: "xū fù duō shǎo shuì kuǎn?"
   },
   {
     phraseId: "phrase_0232",
     text: "我已经交税了",
-    transcription: "Во йцзин цзяо шуйлэ"
+    transcription: "wǒ yǐ jīng jiāo shuì le"
   },
   {
     phraseId: "phrase_0233",
     text: "我想打电话给大使馆 (领事馆)",
-    transcription: "Во сян да дяньхуа гэй дашигуань (линшигуань)"
+    transcription: "wǒ xiǎng dǎ diàn huà gěi dà shǐ guǎn (lǐng shì guǎn)"
   },
   {
     phraseId: "phrase_0234",
     text: "在哪儿签字?",
-    transcription: "Цзай нар цянь цзы?"
+    transcription: "zài nǎ ér qiān zì?"
   },
   {
     phraseId: "phrase_0235",
     text: "行李",
-    transcription: "Синли"
+    transcription: "xíng li"
   },
   {
     phraseId: "phrase_0236",
     text: "外汇",
-    transcription: "Вайхуй"
+    transcription: "wài huì"
   },
   {
     phraseId: "phrase_0237",
     text: "带入",
-    transcription: "Дайжу"
+    transcription: "dài rù"
   },
   {
     phraseId: "phrase_0238",
     text: "带出",
-    transcription: "Дайчу"
+    transcription: "dài chū"
   },
   {
     phraseId: "phrase_0239",
     text: "签证",
-    transcription: "Цяньчжэн"
+    transcription: "qiān zhèng"
   },
   {
     phraseId: "phrase_0240",
     text: "报关单",
-    transcription: "Баогуаньдань"
+    transcription: "bào guān dān"
   },
   {
     phraseId: "phrase_0241",
     text: "皮箱",
-    transcription: "Писян"
+    transcription: "pí xiāng"
   },
   {
     phraseId: "phrase_0242",
     text: "武器",
-    transcription: "Уци"
+    transcription: "wǔ qì"
   },
   {
     phraseId: "phrase_0243",
     text: "麻醉品",
-    transcription: "Мацзуйпинь"
+    transcription: "má zuì pǐn"
   },
   {
     phraseId: "phrase_0244",
     text: "查验处",
-    transcription: "Чаяньчу"
+    transcription: "chá yàn chù"
   },
   {
     phraseId: "phrase_0245",
     text: "护照",
-    transcription: "Хучжао"
+    transcription: "hù zhào"
   },
   {
     phraseId: "phrase_0246",
     text: "关税",
-    transcription: "Гуаньшуй"
+    transcription: "guān shuì"
   },
   {
     phraseId: "phrase_0247",
     text: "包",
-    transcription: "Бао"
+    transcription: "bāo"
   },
   {
     phraseId: "phrase_0248",
     text: "旅行",
-    transcription: "Люйсин"
+    transcription: "lǚ xíng"
   },
   {
     phraseId: "phrase_0249",
     text: "我想买一张飞机票",
-    transcription: "Во сян май и чжан фэйцзи пяо"
+    transcription: "wǒ xiǎng mǎi yì zhāng fēi jī piào"
   },
   {
     phraseId: "phrase_0250",
     text: "我想确认一下我顶的票",
-    transcription: "Во сян цюэжэнь йся во диндэ пяо"
+    transcription: "wǒ xiǎng què rèn yí xià wǒ dǐng de piào"
   },
   {
     phraseId: "phrase_0251",
     text: "几等舱?",
-    transcription: "Цзи дэн цан?"
+    transcription: "jǐ děng cāng?"
   },
   {
     phraseId: "phrase_0252",
     text: "请看,...",
-    transcription: "Цин кань,..."
+    transcription: "qǐng kàn,..."
   },
   {
     phraseId: "phrase_0253",
     text: "头等舱",
-    transcription: "Тоудэн цан"
+    transcription: "tóu děng cāng"
   },
   {
     phraseId: "phrase_0254",
     text: "经济舱",
-    transcription: "Цзинцзи цан"
+    transcription: "jīng jì cāng"
   },
   {
     phraseId: "phrase_0255",
     text: "普通舱",
-    transcription: "Путун цан"
+    transcription: "pǔ tōng cāng"
   },
   {
     phraseId: "phrase_0256",
     text: "我可以带多少行李?",
-    transcription: "Во кэй дай дошао синли?"
+    transcription: "wǒ kě yǐ dài duō shǎo xíng li?"
   },
   {
     phraseId: "phrase_0257",
     text: "应当付多少超重费?",
-    transcription: "Индан фу дошао чаочжун фэй?"
+    transcription: "yīng dāng fù duō shǎo chāo zhòng fèi?"
   },
   {
     phraseId: "phrase_0258",
     text: "我想要一张...航班的机票",
-    transcription: "Во сян яо и чжан...ханьбаньдэ цзипяо"
+    transcription: "wǒ xiǎng yào yì zhāng... háng bān de jī piào"
   },
   {
     phraseId: "phrase_0259",
     text: "哪几天有去...的飞机?",
-    transcription: "На цзи тянь ю цюй...дэ фэйцзи?"
+    transcription: "nǎ jǐ tiān yǒu qù... de fēi jī?"
   },
   {
     phraseId: "phrase_0260",
     text: "到...机票多少钱?",
-    transcription: "Дао...цзипяо дошао цянь?"
+    transcription: "dào... jī piào duō shǎo qián?"
   },
   {
     phraseId: "phrase_0261",
     text: "清取消我顶的...航班的机票",
-    transcription: "Цин цюйсяо во диндэ...ханьбаньдэ цзипяо"
+    transcription: "qīng qǔ xiāo wǒ dǐng de... háng bān de jī piào"
   },
   {
     phraseId: "phrase_0262",
     text: "我误了飞机",
-    transcription: "Во улэ фэйцзи"
+    transcription: "wǒ wù le fēi jī"
   },
   {
     phraseId: "phrase_0263",
     text: "我该怎么办?",
-    transcription: "Во гай цзэньмэ бань?"
+    transcription: "wǒ gāi zěn me bàn?"
   },
   {
     phraseId: "phrase_0264",
     text: "什么时候可以办...航班的登机手续?",
-    transcription: "Шэньмэ шихоу кэй бань...ханьбаньдэ дэнцзи шоусюй?"
+    transcription: "shén me shí hòu kě yǐ bàn... háng bān de dēng jī shǒu xù?"
   },
   {
     phraseId: "phrase_0265",
     text: "...航班在哪里办登机手续?",
-    transcription: "...ханьбань цзай нали бань дэнцзи шоусюй?"
+    transcription: "... háng bān zài nǎ lǐ bàn dēng jī shǒu xù?"
   },
   {
     phraseId: "phrase_0266",
     text: "今天的天气适于(不适于)飞行",
-    transcription: "Цзиньтяньдэ тяньци шиюй (бушиюй) фэйсин"
+    transcription: "jīn tiān de tiān qì shì yú (bú shì yú) fēi xíng"
   },
   {
     phraseId: "phrase_0267",
     text: "航班号是多少?",
-    transcription: "Ханьбань хао ши дошао?"
+    transcription: "háng bān hào shì duō shǎo?"
   },
   {
     phraseId: "phrase_0268",
     text: "什么时候登机?",
-    transcription: "Шэньмэ шихоу дэнцзи?"
+    transcription: "shén me shí hòu dēng jī?"
   },
   {
     phraseId: "phrase_0269",
     text: "已经通知...航班登机",
-    transcription: "Ицзин тунчжи...ханьбань дэнцзи"
+    transcription: "yǐ jīng tōng zhī... háng bān dēng jī"
   },
   {
     phraseId: "phrase_0270",
     text: "...航班 已停止办登机手续",
-    transcription: "...ханьбань й тинчжи бань дэнцзи шоусюй"
+    transcription: "... háng bān yǐ tíng zhǐ bàn dēng jī shǒu xù"
   },
   {
     phraseId: "phrase_0271",
     text: "行李托运在哪里?",
-    transcription: "Синли тоюнь цзай нали?"
+    transcription: "xíng li tuō yùn zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0272",
     text: "什么时候起飞?",
-    transcription: "Шэньмэ шихоу цифэй?"
+    transcription: "shén me shí hòu qǐ fēi?"
   },
   {
     phraseId: "phrase_0273",
     text: "飞机起飞(降落)正点",
-    transcription: "Фэйцзи цифэй (цзянло) чжэньдянь"
+    transcription: "fēi jī qǐ fēi (jiàng luò) zhèng diǎn"
   },
   {
     phraseId: "phrase_0274",
     text: "飞机延误",
-    transcription: "Фэйцзи яньу"
+    transcription: "fēi jī yán wù"
   },
   {
     phraseId: "phrase_0275",
     text: "航班延误多长时间?",
-    transcription: "Ханьбань яньу дочан шицзянь?"
+    transcription: "háng bān yán wù duō cháng shí jiān?"
   },
   {
     phraseId: "phrase_0276",
     text: "飞行多长时间?",
-    transcription: "Фэйсин дочан шицзянь?"
+    transcription: "fēi xíng duō cháng shí jiān?"
   },
   {
     phraseId: "phrase_0277",
     text: "要飞行...小时",
-    transcription: "Яо фэйсин ...сяоши"
+    transcription: "yào fēi xíng... xiǎo shí"
   },
   {
     phraseId: "phrase_0278",
     text: "清告诉我的位置好吗?",
-    transcription: "Цин гаосу водэ вэйчжи, хао ма?"
+    transcription: "qīng gào sù wǒ de wèi zhì hǎo ma?"
   },
   {
     phraseId: "phrase_0279",
     text: "清帮助系一下安全带",
-    transcription: "Цин банчжу цзи йся аньцюаньдай"
+    transcription: "qīng bāng zhù xì yí xià ān quán dài"
   },
   {
     phraseId: "phrase_0280",
     text: "飞机什么时候到达?",
-    transcription: "Фэйцзи шэньмэ шихоу даода?"
+    transcription: "fēi jī shén me shí hòu dào dá?"
   },
   {
     phraseId: "phrase_0281",
     text: "航空公司",
-    transcription: "Ханькун гунсы"
+    transcription: "háng kōng gōng sī"
   },
   {
     phraseId: "phrase_0282",
     text: "航空港",
-    transcription: "Ханькун ган"
+    transcription: "háng kōng gǎng"
   },
   {
     phraseId: "phrase_0283",
     text: "票",
-    transcription: "Пяо"
+    transcription: "piào"
   },
   {
     phraseId: "phrase_0284",
     text: "飞抵",
-    transcription: "Фэйди"
+    transcription: "fēi dǐ"
   },
   {
     phraseId: "phrase_0285",
     text: "飞离",
-    transcription: "Фэйли"
+    transcription: "fēi lí"
   },
   {
     phraseId: "phrase_0286",
     text: "高度",
-    transcription: "Гаоду"
+    transcription: "gāo dù"
   },
   {
     phraseId: "phrase_0287",
     text: "清洁袋",
-    transcription: "Цинцзедай"
+    transcription: "qīng jié dài"
   },
   {
     phraseId: "phrase_0288",
     text: "座位",
-    transcription: "Цзовэй"
+    transcription: "zuò wèi"
   },
   {
     phraseId: "phrase_0289",
     text: "办手续",
-    transcription: "Бань шоусюй"
+    transcription: "bàn shǒu xù"
   },
   {
     phraseId: "phrase_0290",
     text: "超重",
-    transcription: "Чаочжун"
+    transcription: "chāo zhòng"
   },
   {
     phraseId: "phrase_0291",
     text: "飞行",
-    transcription: "Фэйсин"
+    transcription: "fēi xíng"
   },
   {
     phraseId: "phrase_0292",
     text: "降落",
-    transcription: "Цзянло"
+    transcription: "jiàng luò"
   },
   {
     phraseId: "phrase_0293",
     text: "登机",
-    transcription: "Дэнцзи"
+    transcription: "dēng jī"
   },
   {
     phraseId: "phrase_0294",
     text: "落地",
-    transcription: "Лоди"
+    transcription: "luò dì"
   },
   {
     phraseId: "phrase_0295",
     text: "办手续",
-    transcription: "Бань шоусюй"
+    transcription: "bàn shǒu xù"
   },
   {
     phraseId: "phrase_0296",
     text: "航班",
-    transcription: "Ханьбань"
+    transcription: "háng bān"
   },
   {
     phraseId: "phrase_0297",
     text: "航班号",
-    transcription: "Ханьбань хао"
+    transcription: "háng bān hào"
   },
   {
     phraseId: "phrase_0298",
     text: "飞机",
-    transcription: "Фэйцзи"
+    transcription: "fēi jī"
   },
   {
     phraseId: "phrase_0299",
     text: "火车什么时候到达?",
-    transcription: "Хочэ шэньмэ шихоу даода?"
+    transcription: "huǒ chē shén me shí hòu dào dá?"
   },
   {
     phraseId: "phrase_0300",
     text: "火车什么时候开车?",
-    transcription: "Хочэ шэньмэ шихоу кайчэ?"
+    transcription: "huǒ chē shén me shí hòu kāi chē?"
   },
   {
     phraseId: "phrase_0301",
     text: "火车停在第几道?",
-    transcription: "Хочэ тин цзай ди цзи дао?"
+    transcription: "huǒ chē tíng zài dì jǐ dào?"
   },
   {
     phraseId: "phrase_0302",
     text: "...在哪儿?",
-    transcription: "...цзай нар?"
+    transcription: "... zài nǎ ér?"
   },
   {
     phraseId: "phrase_0303",
     text: "存务处",
-    transcription: "Цуньучу"
+    transcription: "cún wù chù"
   },
   {
     phraseId: "phrase_0304",
     text: "售票处",
-    transcription: "Шоупяочу"
+    transcription: "shòu piào chù"
   },
   {
     phraseId: "phrase_0305",
     text: "月台",
-    transcription: "Юэтай"
+    transcription: "yuè tái"
   },
   {
     phraseId: "phrase_0306",
     text: "去城市出口",
-    transcription: "Цюй чэнши чукоу"
+    transcription: "qù chéng shì chū kǒu"
   },
   {
     phraseId: "phrase_0307",
     text: "出租车站",
-    transcription: "Чуцзу чэчжань"
+    transcription: "chū zū chē zhàn"
   },
   {
     phraseId: "phrase_0308",
     text: "公共汽车站",
-    transcription: "Гунгунцичэ чжань"
+    transcription: "gōng gòng qì chē zhàn"
   },
   {
     phraseId: "phrase_0309",
     text: "...车厢",
-    transcription: "...чэсян"
+    transcription: "... chē xiāng"
   },
   {
     phraseId: "phrase_0310",
     text: "软卧",
-    transcription: "Жуань во"
+    transcription: "ruǎn wò"
   },
   {
     phraseId: "phrase_0311",
     text: "硬卧",
-    transcription: "Ин во"
+    transcription: "yìng wò"
   },
   {
     phraseId: "phrase_0312",
     text: "硬座",
-    transcription: "Ин цзо"
+    transcription: "yìng zuò"
   },
   {
     phraseId: "phrase_0313",
     text: "去往一个方向",
-    transcription: "Цюй ван йгэ фансян"
+    transcription: "qù wǎng yí gè fāng xiàng"
   },
   {
     phraseId: "phrase_0314",
     text: "只去那里",
-    transcription: "Чжи цюй нали"
+    transcription: "zhī qù nà lǐ"
   },
   {
     phraseId: "phrase_0315",
     text: "往返",
-    transcription: "Ваньфань"
+    transcription: "wǎng fǎn"
   },
   {
     phraseId: "phrase_0316",
     text: "长途车",
-    transcription: "Чанту чэ"
+    transcription: "cháng tú chē"
   },
   {
     phraseId: "phrase_0317",
     text: "近郊车",
-    transcription: "Цзиньцзяо чэ"
+    transcription: "jìn jiāo chē"
   },
   {
     phraseId: "phrase_0318",
     text: "特快车",
-    transcription: "Тэкуай чэ"
+    transcription: "tè kuài chē"
   },
   {
     phraseId: "phrase_0319",
     text: "火车上有餐车吗?",
-    transcription: "Хочэ шан ю цаньчэ ма?"
+    transcription: "huǒ chē shàng yǒu cān chē ma?"
   },
   {
     phraseId: "phrase_0320",
     text: "我要在哪换车?",
-    transcription: "Во яо цзай на хуань чэ?"
+    transcription: "wǒ yào zài nǎ huàn chē?"
   },
   {
     phraseId: "phrase_0321",
     text: "下站是什么?",
-    transcription: "Ся чжань ши шэньмэ?"
+    transcription: "xià zhàn shì shén me?"
   },
   {
     phraseId: "phrase_0322",
     text: "火车在这里停多长",
-    transcription: "Хочэ цзай чжэли тин дочан шицзянь?"
+    transcription: "huǒ chē zài zhè lǐ tíng duō cháng"
   },
   {
     phraseId: "phrase_0323",
     text: "去...的火车在哪个车站?",
-    transcription: "Цюй...дэ хочэ цзай нагэ чэчжань?"
+    transcription: "qù... de huǒ chē zài nǎ gè chē zhàn?"
   },
   {
     phraseId: "phrase_0324",
     text: "清买一张去...的票",
-    transcription: "Цин май и чжан цюй...дэ пяо"
+    transcription: "qīng mǎi yì zhāng qù... de piào"
   },
   {
     phraseId: "phrase_0325",
     text: "餐车",
-    transcription: "Цаньчэ"
+    transcription: "cān chē"
   },
   {
     phraseId: "phrase_0326",
     text: "火车站",
-    transcription: "Хочэ чжань"
+    transcription: "huǒ chē zhàn"
   },
   {
     phraseId: "phrase_0327",
     text: "入口",
-    transcription: "Жукоу"
+    transcription: "rù kǒu"
   },
   {
     phraseId: "phrase_0328",
     text: "出口",
-    transcription: "Чукоу"
+    transcription: "chū kǒu"
   },
   {
     phraseId: "phrase_0329",
     text: "在哪里?",
-    transcription: "Цзай нали?"
+    transcription: "zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0330",
     text: "城市",
-    transcription: "Чэнши"
+    transcription: "chéng shì"
   },
   {
     phraseId: "phrase_0331",
     text: "铁路",
-    transcription: "Телу"
+    transcription: "tiě lù"
   },
   {
     phraseId: "phrase_0332",
     text: "存误处",
-    transcription: "Цуньучу"
+    transcription: "cún wù chù"
   },
   {
     phraseId: "phrase_0333",
     text: "包厢",
-    transcription: "Баосян"
+    transcription: "bāo xiāng"
   },
   {
     phraseId: "phrase_0334",
     text: "买",
-    transcription: "Май"
+    transcription: "mǎi"
   },
   {
     phraseId: "phrase_0335",
     text: "位于",
-    transcription: "Вэйюй"
+    transcription: "wèi yú"
   },
   {
     phraseId: "phrase_0336",
     text: "搬运工",
-    transcription: "Баньюньгун"
+    transcription: "bān yùn gōng"
   },
   {
     phraseId: "phrase_0337",
     text: "停车站",
-    transcription: "Тинчэ чжань"
+    transcription: "tíng chē zhàn"
   },
   {
     phraseId: "phrase_0338",
     text: "换车",
-    transcription: "Хуаньчэ"
+    transcription: "huàn chē"
   },
   {
     phraseId: "phrase_0339",
     text: "月台",
-    transcription: "Юэтай"
+    transcription: "yuè tái"
   },
   {
     phraseId: "phrase_0340",
     text: "火车",
-    transcription: "Хочэ"
+    transcription: "huǒ chē"
   },
   {
     phraseId: "phrase_0341",
     text: "更换",
-    transcription: "Гэнхуань"
+    transcription: "gēng huàn"
   },
   {
     phraseId: "phrase_0342",
     text: "丢失",
-    transcription: "Дюши"
+    transcription: "diū shī"
   },
   {
     phraseId: "phrase_0343",
     text: "到达",
-    transcription: "Даода"
+    transcription: "dào dá"
   },
   {
     phraseId: "phrase_0344",
     text: "列车员",
-    transcription: "Лечэюань"
+    transcription: "liè chē yuán"
   },
   {
     phraseId: "phrase_0345",
     text: "道",
-    transcription: "Дао"
+    transcription: "dào"
   },
   {
     phraseId: "phrase_0346",
     text: "交给",
-    transcription: "Цзяо гэй"
+    transcription: "jiāo gěi"
   },
   {
     phraseId: "phrase_0347",
     text: "卧铺",
-    transcription: "Во пу"
+    transcription: "wò pù"
   },
   {
     phraseId: "phrase_0348",
     text: "价值",
-    transcription: "Цзячжи"
+    transcription: "jià zhí"
   },
   {
     phraseId: "phrase_0349",
     text: "停车场",
-    transcription: "Тинчэчан"
+    transcription: "tíng chē chǎng"
   },
   {
     phraseId: "phrase_0350",
     text: "出租汽车",
-    transcription: "Чуцзуцичэ"
+    transcription: "chū zū qì chē"
   },
   {
     phraseId: "phrase_0351",
     text: "在哪儿可以换钱?",
-    transcription: "Цзай нар кэй хуань цянь?"
+    transcription: "zài nǎ ér kě yǐ huàn qián?"
   },
   {
     phraseId: "phrase_0352",
     text: "我想换...",
-    transcription: "Во сян хуань..."
+    transcription: "wǒ xiǎng huàn..."
   },
   {
     phraseId: "phrase_0353",
     text: "钱",
-    transcription: "Цянь"
+    transcription: "qián"
   },
   {
     phraseId: "phrase_0354",
     text: "旅行支票",
-    transcription: "Люйсин чжипяо"
+    transcription: "lǚ xíng zhī piào"
   },
   {
     phraseId: "phrase_0355",
     text: "银行什么时候开门?",
-    transcription: "Иньхан шэньмэ шихоу кай мэнь?"
+    transcription: "yín háng shén me shí hòu kāi mén?"
   },
   {
     phraseId: "phrase_0356",
     text: "银行什么时候关门?",
-    transcription: "Иньхан шэньмэ шихоу гуань мэнь?"
+    transcription: "yín háng shén me shí hòu guān mén?"
   },
   {
     phraseId: "phrase_0357",
     text: "我需要把美元换乘...",
-    transcription: "Во сюйяо ба мэйюань хуань чэн..."
+    transcription: "wǒ xū yào bǎ měi yuán huàn chéng..."
   },
   {
     phraseId: "phrase_0358",
     text: "马克",
-    transcription: "Макэ"
+    transcription: "mǎ kè"
   },
   {
     phraseId: "phrase_0359",
     text: "换...的比价是多少?",
-    transcription: "Хуань...дэ бицзя ши дошао?"
+    transcription: "huàn... de bǐ jià shì duō shǎo?"
   },
   {
     phraseId: "phrase_0360",
     text: "卢布",
-    transcription: "Лубу"
+    transcription: "lú bù"
   },
   {
     phraseId: "phrase_0361",
     text: "美元",
-    transcription: "Мэйюань"
+    transcription: "měi yuán"
   },
   {
     phraseId: "phrase_0362",
     text: "马克",
-    transcription: "Макэ"
+    transcription: "mǎ kè"
   },
   {
     phraseId: "phrase_0363",
     text: "我能凭信用卡现款吗?",
-    transcription: "Во нэн пин синьюнка сянькуань ма?"
+    transcription: "wǒ néng píng xìn yòng kǎ xiàn kuǎn ma?"
   },
   {
     phraseId: "phrase_0364",
     text: "请给大票",
-    transcription: "Цин гэй дапяо"
+    transcription: "qǐng gěi dà piào"
   },
   {
     phraseId: "phrase_0365",
     text: "请给换乘零钱",
-    transcription: "Цин гэй хуаньчэн линь цянь"
+    transcription: "qǐng gěi huàn chéng líng qián"
   },
   {
     phraseId: "phrase_0366",
     text: "银行",
-    transcription: "Иньхан"
+    transcription: "yín háng"
   },
   {
     phraseId: "phrase_0367",
     text: "钞票",
-    transcription: "Чаопяо"
+    transcription: "chāo piào"
   },
   {
     phraseId: "phrase_0368",
     text: "银行形式要件",
-    transcription: "Иньхан синши яоцзянь"
+    transcription: "yín háng xíng shì yào jiàn"
   },
   {
     phraseId: "phrase_0369",
     text: "自动付款机",
-    transcription: "Цзыдун фукуаньцзи"
+    transcription: "zì dòng fù kuǎn jī"
   },
   {
     phraseId: "phrase_0370",
     text: "外汇牌价",
-    transcription: "Вайхуй пайцзя"
+    transcription: "wài huì pái jià"
   },
   {
     phraseId: "phrase_0371",
     text: "钱",
-    transcription: "Цянь"
+    transcription: "qián"
   },
   {
     phraseId: "phrase_0372",
     text: "美元",
-    transcription: "Мэйюань"
+    transcription: "měi yuán"
   },
   {
     phraseId: "phrase_0373",
     text: "收银台",
-    transcription: "Шоуинь тай"
+    transcription: "shōu yín tái"
   },
   {
     phraseId: "phrase_0374",
     text: "手续费",
-    transcription: "Шоусюй фэй"
+    transcription: "shǒu xù fèi"
   },
   {
     phraseId: "phrase_0375",
     text: "信用卡",
-    transcription: "Синьюнка"
+    transcription: "xìn yòng kǎ"
   },
   {
     phraseId: "phrase_0376",
     text: "钞票",
-    transcription: "Чаопяо"
+    transcription: "chāo piào"
   },
   {
     phraseId: "phrase_0377",
     text: "零钱",
-    transcription: "Линьцянь"
+    transcription: "líng qián"
   },
   {
     phraseId: "phrase_0378",
     text: "硬币",
-    transcription: "Инби"
+    transcription: "yìng bì"
   },
   {
     phraseId: "phrase_0379",
     text: "现款",
-    transcription: "Сянькуань"
+    transcription: "xiàn kuǎn"
   },
   {
     phraseId: "phrase_0380",
     text: "交换",
-    transcription: "Цзяохуань"
+    transcription: "jiāo huàn"
   },
   {
     phraseId: "phrase_0381",
     text: "汇款",
-    transcription: "Хуйкуань"
+    transcription: "huì kuǎn"
   },
   {
     phraseId: "phrase_0382",
     text: "卢布",
-    transcription: "Лубу"
+    transcription: "lú bù"
   },
   {
     phraseId: "phrase_0383",
     text: "旅行支票",
-    transcription: "Люйсин чжипяо"
+    transcription: "lǚ xíng zhī piào"
   },
   {
     phraseId: "phrase_0384",
     text: "人民币",
-    transcription: "Жэньминьби"
+    transcription: "rén mín bì"
   },
   {
     phraseId: "phrase_0385",
     text: "我们住哪个旅馆?",
-    transcription: "Вомэнь чжу нагэ люйгуань?"
+    transcription: "wǒ men zhù nǎ gè lǚ guǎn?"
   },
   {
     phraseId: "phrase_0386",
     text: "请给旅馆的地址",
-    transcription: "Цин гэй люйгуаньдэ дичжи"
+    transcription: "qǐng gěi lǚ guǎn de dì zhǐ"
   },
   {
     phraseId: "phrase_0387",
     text: "我需要旅馆",
-    transcription: "Во сюй яо люйгуань"
+    transcription: "wǒ xū yào lǚ guǎn"
   },
   {
     phraseId: "phrase_0388",
     text: "我想预定一个房间",
-    transcription: "Во сян юйдин йгэ фанцзянь"
+    transcription: "wǒ xiǎng yù dìng yí gè fáng jiān"
   },
   {
     phraseId: "phrase_0389",
     text: "应当是已经给我预定了房间",
-    transcription: "Индан ши йцзин гэй во юйдинлэ фанцзянь"
+    transcription: "yīng dāng shì yǐ jīng gěi wǒ yù dìng le fáng jiān"
   },
   {
     phraseId: "phrase_0390",
     text: "你们还有没有空房间?",
-    transcription: "Нимэнь хай ю мэйю кун фанцзянь?"
+    transcription: "nǐ men hái yǒu méi yǒu kōng fáng jiān?"
   },
   {
     phraseId: "phrase_0391",
     text: "我想要得到...",
-    transcription: "Во сян яо дэдао..."
+    transcription: "wǒ xiǎng yào dé dào..."
   },
   {
     phraseId: "phrase_0392",
     text: "单人房间",
-    transcription: "Даньжэнь фанцзянь"
+    transcription: "dān rén fáng jiān"
   },
   {
     phraseId: "phrase_0393",
     text: "双人房间",
-    transcription: "Шуанжэнь фанцзянь"
+    transcription: "shuāng rén fáng jiān"
   },
   {
     phraseId: "phrase_0394",
     text: "待浴室的房间",
-    transcription: "Дай юйшидэ фанцзянь"
+    transcription: "dài yù shì de fáng jiān"
   },
   {
     phraseId: "phrase_0395",
     text: "待淋浴的房间",
-    transcription: "Дай линьюйдэ фанцзянь"
+    transcription: "dài lín yù de fáng jiān"
   },
   {
     phraseId: "phrase_0396",
     text: "待阳台的房间",
-    transcription: "Дай янтайдэ фанцзянь"
+    transcription: "dài yáng tái de fáng jiān"
   },
   {
     phraseId: "phrase_0397",
     text: "房间里有没有...?",
-    transcription: "Фанцзянь ли ю мэйю...?"
+    transcription: "fáng jiān lǐ yǒu méi yǒu...?"
   },
   {
     phraseId: "phrase_0398",
     text: "浴室",
-    transcription: "Юйши"
+    transcription: "yù shì"
   },
   {
     phraseId: "phrase_0399",
     text: "淋浴",
-    transcription: "Линьюй"
+    transcription: "lín yù"
   },
   {
     phraseId: "phrase_0400",
     text: "空调",
-    transcription: "Кунтяо"
+    transcription: "kōng tiáo"
   },
   {
     phraseId: "phrase_0401",
     text: "电视",
-    transcription: "Дяньши"
+    transcription: "diàn shì"
   },
   {
     phraseId: "phrase_0402",
     text: "电话",
-    transcription: "Дяньхуа"
+    transcription: "diàn huà"
   },
   {
     phraseId: "phrase_0403",
     text: "冰箱",
-    transcription: "Бинсян"
+    transcription: "bīng xiāng"
   },
   {
     phraseId: "phrase_0404",
     text: "保险柜",
-    transcription: "Баосяньгуй"
+    transcription: "bǎo xiǎn guì"
   },
   {
     phraseId: "phrase_0405",
     text: "请给一件安静的房子",
-    transcription: "Цин гэй и цзянь аньцзиндэ фанцзы"
+    transcription: "qǐng gěi yí jiàn ān jìng de fáng zi"
   },
   {
     phraseId: "phrase_0406",
     text: "我想要...层的房间",
-    transcription: "Во сян яо... цэндэ фанцзянь"
+    transcription: "wǒ xiǎng yào... céng de fáng jiān"
   },
   {
     phraseId: "phrase_0407",
     text: "我的房间在第几层?",
-    transcription: "Водэ фанцзянь цзай ди цзи цэн?"
+    transcription: "wǒ de fáng jiān zài dì jǐ céng?"
   },
   {
     phraseId: "phrase_0408",
     text: "这个房间一昼夜多少钱?",
-    transcription: "Чжэгэ фанцзянь и чжоуе дошао цянь?"
+    transcription: "zhè ge fáng jiān yí zhòu yè duō shǎo qián?"
   },
   {
     phraseId: "phrase_0409",
     text: "你们有没有...的房间?",
-    transcription: "Нимэнь ю мэйю ...дэ фанцзянь?"
+    transcription: "nǐ men yǒu méi yǒu... de fáng jiān?"
   },
   {
     phraseId: "phrase_0410",
     text: "便宜一点",
-    transcription: "Пяньи идянь"
+    transcription: "pián yi yì diǎn"
   },
   {
     phraseId: "phrase_0411",
     text: "小一点",
-    transcription: "Сяо идянь"
+    transcription: "xiǎo yì diǎn"
   },
   {
     phraseId: "phrase_0412",
     text: "大一点",
-    transcription: "Да идянь"
+    transcription: "dà yì diǎn"
   },
   {
     phraseId: "phrase_0413",
     text: "这包括早餐费了吗?",
-    transcription: "Чжэ баоко цзаоцань фэйлэ ма?"
+    transcription: "zhè bāo kuò zǎo cān fèi le ma?"
   },
   {
     phraseId: "phrase_0414",
     text: "我什么时候该交方钱?",
-    transcription: "Во шэньмэ шихоу гай цзяо фанцянь?"
+    transcription: "wǒ shén me shí hòu gāi jiāo fāng qián?"
   },
   {
     phraseId: "phrase_0415",
     text: "这个房间我(不)喜欢",
-    transcription: "Чжэгэ фанцзянь во (бу) сихуань"
+    transcription: "zhè ge fáng jiān wǒ (bù) xǐ huan"
   },
   {
     phraseId: "phrase_0416",
     text: "为我们的代表团预留房间了",
-    transcription: "Вэй вомэньдэ дайбяотуань юйлю фанцзянь лэ"
+    transcription: "wèi wǒ men de dài biǎo tuán yù liú fáng jiān le"
   },
   {
     phraseId: "phrase_0417",
     text: "旅馆里有没有...?",
-    transcription: "Люйгуань ли ю мэйю...?"
+    transcription: "lǚ guǎn lǐ yǒu méi yǒu...?"
   },
   {
     phraseId: "phrase_0418",
     text: "适应室",
-    transcription: "Шиинши"
+    transcription: "shì yìng shì"
   },
   {
     phraseId: "phrase_0419",
     text: "游泳池",
-    transcription: "Ююнчи"
+    transcription: "yóu yǒng chí"
   },
   {
     phraseId: "phrase_0420",
     text: "桑拿",
-    transcription: "Санна"
+    transcription: "sāng ná"
   },
   {
     phraseId: "phrase_0421",
     text: "会议室",
-    transcription: "Хуйиши"
+    transcription: "huì yì shì"
   },
   {
     phraseId: "phrase_0422",
     text: "网球场",
-    transcription: "Ванцючан"
+    transcription: "wǎng qiú chǎng"
   },
   {
     phraseId: "phrase_0423",
     text: "我要一间房,住一夜",
-    transcription: "Во яо ицзянь фан, чжу и е"
+    transcription: "wǒ yào yì jiān fáng, zhù yí yè"
   },
   {
     phraseId: "phrase_0424",
     text: "我要豪华套房",
-    transcription: "Во яо хаохуа таофан"
+    transcription: "wǒ yào háo huá tào fáng"
   },
   {
     phraseId: "phrase_0425",
     text: "我能看看房间吗?",
-    transcription: "Во нэн канькань фанцзянь ма?"
+    transcription: "wǒ néng kàn kàn fáng jiān ma?"
   },
   {
     phraseId: "phrase_0426",
     text: "这里太...",
-    transcription: "Чжэли тай..."
+    transcription: "zhè lǐ tài..."
   },
   {
     phraseId: "phrase_0427",
     text: "吵闹",
-    transcription: "Чаонао"
+    transcription: "chǎo nào"
   },
   {
     phraseId: "phrase_0428",
     text: "狭窄",
-    transcription: "Сячжай"
+    transcription: "xiá zhǎi"
   },
   {
     phraseId: "phrase_0429",
     text: "几点钟开早饭?",
-    transcription: "Цзидянь чжун кай цзаофань?"
+    transcription: "jǐ diǎn zhōng kāi zǎo fàn?"
   },
   {
     phraseId: "phrase_0430",
     text: "...在哪里?",
-    transcription: "...цзай нали?"
+    transcription: "... zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0431",
     text: "酒吧",
-    transcription: "Цзюба"
+    transcription: "jiǔ bā"
   },
   {
     phraseId: "phrase_0432",
     text: "餐厅",
-    transcription: "Цаньтин"
+    transcription: "cān tīng"
   },
   {
     phraseId: "phrase_0433",
     text: "理发馆",
-    transcription: "Лифагуань"
+    transcription: "lǐ fā guǎn"
   },
   {
     phraseId: "phrase_0434",
     text: "我想住...天",
-    transcription: "Во сян чжу...тянь"
+    transcription: "wǒ xiǎng zhù... tiān"
   },
   {
     phraseId: "phrase_0435",
@@ -2181,2227 +2181,2227 @@ export const chineseTranslations: LanguageTranslation[] = [
   {
     phraseId: "phrase_0436",
     text: "我还想住...天",
-    transcription: "Во хай сян чжу...тянь"
+    transcription: "wǒ hái xiǎng zhù... tiān"
   },
   {
     phraseId: "phrase_0437",
     text: "我要早离开些",
-    transcription: "Во яо цзао ликай се"
+    transcription: "wǒ yào zǎo lí kāi xiē"
   },
   {
     phraseId: "phrase_0438",
     text: "我想结帐",
-    transcription: "Во сян цзечжан"
+    transcription: "wǒ xiǎng jié zhàng"
   },
   {
     phraseId: "phrase_0439",
     text: "请给我房间的钥匙",
-    transcription: "Цин гэй во фанцзяньдэ яоши"
+    transcription: "qǐng gěi wǒ fáng jiān de yào shi"
   },
   {
     phraseId: "phrase_0440",
     text: "清把我的行李拿上去",
-    transcription: "Цин ба водэ синли нашан цюй"
+    transcription: "qīng bǎ wǒ de xíng li ná shàng qù"
   },
   {
     phraseId: "phrase_0441",
     text: "清在...点叫我",
-    transcription: "Цин цзай... дянь цзяо во"
+    transcription: "qīng zài... diǎn jiào wǒ"
   },
   {
     phraseId: "phrase_0442",
     text: "可以订...送到客房吗?",
-    transcription: "Кэи дин ...сундао кэфан ма?"
+    transcription: "kě yǐ dìng... sòng dào kè fáng ma?"
   },
   {
     phraseId: "phrase_0443",
     text: "早餐",
-    transcription: "Цзаоцань"
+    transcription: "zǎo cān"
   },
   {
     phraseId: "phrase_0444",
     text: "午餐",
-    transcription: "Уцань"
+    transcription: "wǔ cān"
   },
   {
     phraseId: "phrase_0445",
     text: "晚餐",
-    transcription: "Ваньцань"
+    transcription: "wǎn cān"
   },
   {
     phraseId: "phrase_0446",
     text: "请不要打扰我",
-    transcription: "Цин бу яо дажао во"
+    transcription: "qǐng bú yào dǎ rǎo wǒ"
   },
   {
     phraseId: "phrase_0447",
     text: "请给我叫一辆出租车",
-    transcription: "Цин гэй во цзяо илян чуцзучэ"
+    transcription: "qǐng gěi wǒ jiào yí liàng chū zū chē"
   },
   {
     phraseId: "phrase_0448",
     text: "请叫一下服务员",
-    transcription: "Цин цзяо ися фуюань"
+    transcription: "qǐng jiào yí xià fú wù yuán"
   },
   {
     phraseId: "phrase_0449",
     text: "我想洗内衣",
-    transcription: "Во сян си нэйи"
+    transcription: "wǒ xiǎng xǐ nèi yī"
   },
   {
     phraseId: "phrase_0450",
     text: "谁在哪里?",
-    transcription: "Шуй цзай нали?"
+    transcription: "shuí zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0451",
     text: "清进!",
-    transcription: "Цин цзинь!"
+    transcription: "qīng jìn!"
   },
   {
     phraseId: "phrase_0452",
     text: "房间太脏了",
-    transcription: "Фанцзянь тай цзанлэ"
+    transcription: "fáng jiān tài zāng le"
   },
   {
     phraseId: "phrase_0453",
     text: "厕所坏了",
-    transcription: "Цэсо хуайлэ"
+    transcription: "cè suǒ huài le"
   },
   {
     phraseId: "phrase_0454",
     text: "热水没有了",
-    transcription: "Жэшуй мэйюлэ"
+    transcription: "rè shuǐ méi yǒu le"
   },
   {
     phraseId: "phrase_0455",
     text: "暖气没有了",
-    transcription: "Нуаньци мэйюлэ"
+    transcription: "nuǎn qì méi yǒu le"
   },
   {
     phraseId: "phrase_0456",
     text: "闷锁坏了",
-    transcription: "Мэньсо хуайлэ"
+    transcription: "mēn suǒ huài le"
   },
   {
     phraseId: "phrase_0457",
     text: "窗子打不开",
-    transcription: "Чуанцзы дабукай"
+    transcription: "chuāng zǐ dǎ bù kāi"
   },
   {
     phraseId: "phrase_0458",
     text: "门打不开",
-    transcription: "Мэнь дабукай"
+    transcription: "mén dǎ bù kāi"
   },
   {
     phraseId: "phrase_0459",
     text: "灯泡烧坏了",
-    transcription: "Дэнпао шао хуайлэ"
+    transcription: "dēng pào shāo huài le"
   },
   {
     phraseId: "phrase_0460",
     text: "房间里冷",
-    transcription: "Фанцзянь ли лэн"
+    transcription: "fáng jiān lǐ lěng"
   },
   {
     phraseId: "phrase_0461",
     text: "房间里热",
-    transcription: "Фанцзянь ли жэ"
+    transcription: "fáng jiān lǐ rè"
   },
   {
     phraseId: "phrase_0462",
     text: "登记人员",
-    transcription: "Дэнцзи жэньюань"
+    transcription: "dēng jì rén yuán"
   },
   {
     phraseId: "phrase_0463",
     text: "酒吧",
-    transcription: "Цзюба"
+    transcription: "jiǔ bā"
   },
   {
     phraseId: "phrase_0464",
     text: "游泳池",
-    transcription: "Ююнчи"
+    transcription: "yóu yǒng chí"
   },
   {
     phraseId: "phrase_0465",
     text: "叫醒",
-    transcription: "Цзяосин"
+    transcription: "jiào xǐng"
   },
   {
     phraseId: "phrase_0466",
     text: "浴室",
-    transcription: "Юйши"
+    transcription: "yù shì"
   },
   {
     phraseId: "phrase_0467",
     text: "水",
-    transcription: "Шуй"
+    transcription: "shuǐ"
   },
   {
     phraseId: "phrase_0468",
     text: "东西",
-    transcription: "Дунси"
+    transcription: "dōng xī"
   },
   {
     phraseId: "phrase_0469",
     text: "清洁工",
-    transcription: "Цинцзе гун"
+    transcription: "qīng jié gōng"
   },
   {
     phraseId: "phrase_0470",
     text: "楼层值班员",
-    transcription: "Лоуцэн чжибаньюань"
+    transcription: "lóu céng zhí bān yuán"
   },
   {
     phraseId: "phrase_0471",
     text: "淋浴",
-    transcription: "Линьюй"
+    transcription: "lín yù"
   },
   {
     phraseId: "phrase_0472",
     text: "预订",
-    transcription: "Юйдин"
+    transcription: "yù dìng"
   },
   {
     phraseId: "phrase_0473",
     text: "早餐",
-    transcription: "Цзаоцань"
+    transcription: "zǎo cān"
   },
   {
     phraseId: "phrase_0474",
     text: "钥匙",
-    transcription: "Яоши"
+    transcription: "yào shi"
   },
   {
     phraseId: "phrase_0475",
     text: "空调",
-    transcription: "Кунтяо"
+    transcription: "kōng tiáo"
   },
   {
     phraseId: "phrase_0476",
     text: "房间",
-    transcription: "Фанцзянь"
+    transcription: "fáng jiān"
   },
   {
     phraseId: "phrase_0477",
     text: "午餐",
-    transcription: "Уцань"
+    transcription: "wǔ cān"
   },
   {
     phraseId: "phrase_0478",
     text: "服务员",
-    transcription: "Фуюань"
+    transcription: "fú wù yuán"
   },
   {
     phraseId: "phrase_0479",
     text: "离去",
-    transcription: "Лицюй"
+    transcription: "lí qù"
   },
   {
     phraseId: "phrase_0480",
     text: "门岗",
-    transcription: "Мэньган"
+    transcription: "mén gǎng"
   },
   {
     phraseId: "phrase_0481",
     text: "登记",
-    transcription: "Дэнцзи"
+    transcription: "dēng jì"
   },
   {
     phraseId: "phrase_0482",
     text: "餐厅",
-    transcription: "Цаньтин"
+    transcription: "cān tīng"
   },
   {
     phraseId: "phrase_0483",
     text: "洗衣",
-    transcription: "Сии"
+    transcription: "xǐ yī"
   },
   {
     phraseId: "phrase_0484",
     text: "昼夜",
-    transcription: "Чжоуе"
+    transcription: "zhòu yè"
   },
   {
     phraseId: "phrase_0485",
     text: "桑拿",
-    transcription: "Санна"
+    transcription: "sāng ná"
   },
   {
     phraseId: "phrase_0486",
     text: "帐单",
-    transcription: "Чжандань"
+    transcription: "zhàng dān"
   },
   {
     phraseId: "phrase_0487",
     text: "清洁",
-    transcription: "Цинцзе"
+    transcription: "qīng jié"
   },
   {
     phraseId: "phrase_0488",
     text: "晚餐",
-    transcription: "Ваньцань"
+    transcription: "wǎn cān"
   },
   {
     phraseId: "phrase_0489",
     text: "熨斗",
-    transcription: "Юньдоу"
+    transcription: "yùn dòu"
   },
   {
     phraseId: "phrase_0490",
     text: "冰箱",
-    transcription: "Бинсян"
+    transcription: "bīng xiāng"
   },
   {
     phraseId: "phrase_0491",
     text: "守门人",
-    transcription: "Шоумэньжэнь"
+    transcription: "shǒu mén rén"
   },
   {
     phraseId: "phrase_0492",
     text: "层",
-    transcription: "Цэн"
+    transcription: "céng"
   },
   {
     phraseId: "phrase_0493",
     text: "我想吃饭",
-    transcription: "Во сян чифань"
+    transcription: "wǒ xiǎng chī fàn"
   },
   {
     phraseId: "phrase_0494",
     text: "我饿了",
-    transcription: "Во элэ"
+    transcription: "wǒ è le"
   },
   {
     phraseId: "phrase_0495",
     text: "我渴了",
-    transcription: "Во кэлэ"
+    transcription: "wǒ kě le"
   },
   {
     phraseId: "phrase_0496",
     text: "你已经...吗?",
-    transcription: "Ни ицзин...ма?"
+    transcription: "nǐ yǐ jīng... ma?"
   },
   {
     phraseId: "phrase_0497",
     text: "吃早饭了",
-    transcription: "Чи цзаофань лэ"
+    transcription: "chī zǎo fàn le"
   },
   {
     phraseId: "phrase_0498",
     text: "吃午饭了",
-    transcription: "Чи уфань лэ"
+    transcription: "chī wǔ fàn le"
   },
   {
     phraseId: "phrase_0499",
     text: "吃晚饭了",
-    transcription: "Чи ваньфань лэ"
+    transcription: "chī wǎn fàn le"
   },
   {
     phraseId: "phrase_0500",
     text: "我已经(还没)...",
-    transcription: "Во ицзин (хай мэй)..."
+    transcription: "wǒ yǐ jīng (hái méi)..."
   },
   {
     phraseId: "phrase_0501",
     text: "吃早饭",
-    transcription: "Чи цзаофань"
+    transcription: "chī zǎo fàn"
   },
   {
     phraseId: "phrase_0502",
     text: "吃午饭",
-    transcription: "Чи уфань"
+    transcription: "chī wǔ fàn"
   },
   {
     phraseId: "phrase_0503",
     text: "吃晚饭",
-    transcription: "Чи ваньфань"
+    transcription: "chī wǎn fàn"
   },
   {
     phraseId: "phrase_0504",
     text: "这里在哪儿可以吃饭?",
-    transcription: "Чжэли цзай нар кэи чифань?"
+    transcription: "zhè lǐ zài nǎ ér kě yǐ chī fàn?"
   },
   {
     phraseId: "phrase_0505",
     text: "我们去吃...餐厅吧",
-    transcription: "Вомэнь цюй чи ...цаньтин ба"
+    transcription: "wǒ men qù chī... cān tīng ba"
   },
   {
     phraseId: "phrase_0506",
     text: "中国",
-    transcription: "Чжунго"
+    transcription: "zhōng guó"
   },
   {
     phraseId: "phrase_0507",
     text: "俄国",
-    transcription: "Эго"
+    transcription: "é guó"
   },
   {
     phraseId: "phrase_0508",
     text: "日本",
-    transcription: "Жибэнь"
+    transcription: "rì běn"
   },
   {
     phraseId: "phrase_0509",
     text: "西餐",
-    transcription: "Сицань"
+    transcription: "xī cān"
   },
   {
     phraseId: "phrase_0510",
     text: "我们要...个人的餐桌",
-    transcription: "Вомэнь яо ...гэ жэньдэ цаньчжо"
+    transcription: "wǒ men yào... gè rén de cān zhuō"
   },
   {
     phraseId: "phrase_0511",
     text: "两",
-    transcription: "Лян"
+    transcription: "liǎng"
   },
   {
     phraseId: "phrase_0512",
     text: "三",
-    transcription: "Сань"
+    transcription: "sān"
   },
   {
     phraseId: "phrase_0513",
     text: "四",
-    transcription: "Сы"
+    transcription: "sì"
   },
   {
     phraseId: "phrase_0514",
     text: "我们想坐在...",
-    transcription: "Вомэнь сян цзо цзай..."
+    transcription: "wǒ men xiǎng zuò zài..."
   },
   {
     phraseId: "phrase_0515",
     text: "角落里",
-    transcription: "Цзяоло ли"
+    transcription: "jiǎo luò lǐ"
   },
   {
     phraseId: "phrase_0516",
     text: "窗子旁",
-    transcription: "Чуанцзы пан"
+    transcription: "chuāng zǐ páng"
   },
   {
     phraseId: "phrase_0517",
     text: "凉台上",
-    transcription: "Лянтай шан"
+    transcription: "liáng tái shàng"
   },
   {
     phraseId: "phrase_0518",
     text: "请拿菜单来",
-    transcription: "Цин на цайдань лай"
+    transcription: "qǐng ná cài dān lái"
   },
   {
     phraseId: "phrase_0519",
     text: "你要点什么?",
-    transcription: "Ни яодянь шэньмэ?"
+    transcription: "nǐ yào diǎn shén me?"
   },
   {
     phraseId: "phrase_0520",
     text: "你看呢",
-    transcription: "Ни кань на"
+    transcription: "nǐ kàn ne"
   },
   {
     phraseId: "phrase_0521",
     text: "这个好吃吗?",
-    transcription: "Чжэгэ хаочи ма?"
+    transcription: "zhè ge hǎo chī ma?"
   },
   {
     phraseId: "phrase_0522",
     text: "这个(不)好吃",
-    transcription: "Чжэгэ (бу) хаочи"
+    transcription: "zhè ge (bù) hǎo chī"
   },
   {
     phraseId: "phrase_0523",
     text: "我从没吃过这个",
-    transcription: "Во цун мэй чиго чжэгэ"
+    transcription: "wǒ cóng méi chī guò zhè ge"
   },
   {
     phraseId: "phrase_0524",
     text: "你们的拿手菜是什么?",
-    transcription: "Нимэньдэ нашоу цай ши шэньмэ?"
+    transcription: "nǐ men de ná shǒu cài shì shén me?"
   },
   {
     phraseId: "phrase_0525",
     text: "你们有哪些民族菜?",
-    transcription: "Нимэнь ю насе миньцзу цай?"
+    transcription: "nǐ men yǒu nǎ xiē mín zú cài?"
   },
   {
     phraseId: "phrase_0526",
     text: "这菜用什么做的?",
-    transcription: "Чжэ цай юн шэньмэ цзодэ?"
+    transcription: "zhè cài yòng shén me zuò de?"
   },
   {
     phraseId: "phrase_0527",
     text: "请把...拿来",
-    transcription: "Цин ба...налай"
+    transcription: "qǐng bǎ... ná lái"
   },
   {
     phraseId: "phrase_0528",
     text: "一把叉子",
-    transcription: "Иба чацзы"
+    transcription: "yì bǎ chā zi"
   },
   {
     phraseId: "phrase_0529",
     text: "一把刀子",
-    transcription: "Иба даоцзы"
+    transcription: "yì bǎ dāo zǐ"
   },
   {
     phraseId: "phrase_0530",
     text: "一把勺子",
-    transcription: "Иба шаоцзы"
+    transcription: "yì bǎ sháo zǐ"
   },
   {
     phraseId: "phrase_0531",
     text: "一套餐具",
-    transcription: "Итао цань цзюй"
+    transcription: "yí tào cān jù"
   },
   {
     phraseId: "phrase_0532",
     text: "一个高教杯",
-    transcription: "Игэ гаоцзяобэй"
+    transcription: "yí gè gāo jiào bēi"
   },
   {
     phraseId: "phrase_0533",
     text: "一个酒杯",
-    transcription: "Игэ цзюбэй"
+    transcription: "yí gè jiǔ bēi"
   },
   {
     phraseId: "phrase_0534",
     text: "餐巾",
-    transcription: "Цаньцзинь"
+    transcription: "cān jīn"
   },
   {
     phraseId: "phrase_0535",
     text: "牙签",
-    transcription: "Яцянь"
+    transcription: "yá qiān"
   },
   {
     phraseId: "phrase_0536",
     text: "烟灰缸",
-    transcription: "Яньхуйган"
+    transcription: "yān huī gāng"
   },
   {
     phraseId: "phrase_0537",
     text: "一包纸烟",
-    transcription: "Ибао чжиянь"
+    transcription: "yì bāo zhǐ yān"
   },
   {
     phraseId: "phrase_0538",
     text: "一瓶酒",
-    transcription: "И пин цзю"
+    transcription: "yì píng jiǔ"
   },
   {
     phraseId: "phrase_0539",
     text: "一杯啤酒",
-    transcription: "И бэй пицзю"
+    transcription: "yì bēi pí jiǔ"
   },
   {
     phraseId: "phrase_0540",
     text: "一杯咖啡",
-    transcription: "И бэй кафэй"
+    transcription: "yì bēi kā fēi"
   },
   {
     phraseId: "phrase_0541",
     text: "矿泉水",
-    transcription: "Куанцюаньшуй"
+    transcription: "kuàng quán shuǐ"
   },
   {
     phraseId: "phrase_0542",
     text: "请叫一下服务员",
-    transcription: "Цин цзяо ися фуюань"
+    transcription: "qǐng jiào yí xià fú wù yuán"
   },
   {
     phraseId: "phrase_0543",
     text: "祝你胃口好!",
-    transcription: "Чжу ни вэйкоу хао!"
+    transcription: "zhù nǐ wèi kǒu hǎo!"
   },
   {
     phraseId: "phrase_0544",
     text: "我吃好了!",
-    transcription: "Во чи хао лэ"
+    transcription: "wǒ chī hǎo le!"
   },
   {
     phraseId: "phrase_0545",
     text: "请把帐单拿来",
-    transcription: "Цин ба чжандань налай"
+    transcription: "qǐng bǎ zhàng dān ná lái"
   },
   {
     phraseId: "phrase_0546",
     text: "凉菜",
-    transcription: "Лянцай"
+    transcription: "liáng cài"
   },
   {
     phraseId: "phrase_0547",
     text: "肉拼盘",
-    transcription: "Жоу пиньпань"
+    transcription: "ròu pīn pán"
   },
   {
     phraseId: "phrase_0548",
     text: "鱼拼盘",
-    transcription: "Юй пиньпань"
+    transcription: "yú pīn pán"
   },
   {
     phraseId: "phrase_0549",
     text: "火腿",
-    transcription: "Хотуй"
+    transcription: "huǒ tuǐ"
   },
   {
     phraseId: "phrase_0550",
     text: "蘑菇",
-    transcription: "Могу"
+    transcription: "mó gu"
   },
   {
     phraseId: "phrase_0551",
     text: "鱼冻",
-    transcription: "Юйдун"
+    transcription: "yú dòng"
   },
   {
     phraseId: "phrase_0552",
     text: "肉冻",
-    transcription: "Жоудун"
+    transcription: "ròu dòng"
   },
   {
     phraseId: "phrase_0553",
     text: "鱼子酱",
-    transcription: "Юйцзыцзян"
+    transcription: "yú zǐ jiàng"
   },
   {
     phraseId: "phrase_0554",
     text: "红鱼子酱",
-    transcription: "Хун юйцзыцзян"
+    transcription: "hóng yú zǐ jiàng"
   },
   {
     phraseId: "phrase_0555",
     text: "黑鱼子酱",
-    transcription: "Хэй юйцзыцзян"
+    transcription: "hēi yú zǐ jiàng"
   },
   {
     phraseId: "phrase_0556",
     text: "墨鱼",
-    transcription: "Моюй"
+    transcription: "mò yú"
   },
   {
     phraseId: "phrase_0557",
     text: "香肠",
-    transcription: "Сянчан"
+    transcription: "xiāng cháng"
   },
   {
     phraseId: "phrase_0558",
     text: "螃蟹",
-    transcription: "Пансе"
+    transcription: "páng xiè"
   },
   {
     phraseId: "phrase_0559",
     text: "虾",
-    transcription: "Ся"
+    transcription: "xiā"
   },
   {
     phraseId: "phrase_0560",
     text: "龙虾",
-    transcription: "Лунся"
+    transcription: "lóng xiā"
   },
   {
     phraseId: "phrase_0561",
     text: "鲑鱼",
-    transcription: "Гуйюй"
+    transcription: "guī yú"
   },
   {
     phraseId: "phrase_0562",
     text: "橄榄",
-    transcription: "Ганьлань"
+    transcription: "gǎn lǎn"
   },
   {
     phraseId: "phrase_0563",
     text: "阳橄榄",
-    transcription: "Янганьлань"
+    transcription: "yáng gǎn lǎn"
   },
   {
     phraseId: "phrase_0564",
     text: "熬虾",
-    transcription: "Аося"
+    transcription: "áo xiā"
   },
   {
     phraseId: "phrase_0565",
     text: "蛋羹",
-    transcription: "Даньгэн"
+    transcription: "dàn gēng"
   },
   {
     phraseId: "phrase_0566",
     text: "肉泥",
-    transcription: "Жоуни"
+    transcription: "ròu ní"
   },
   {
     phraseId: "phrase_0567",
     text: "色拉",
-    transcription: "Сэла"
+    transcription: "sè lā"
   },
   {
     phraseId: "phrase_0568",
     text: "伴生菜",
-    transcription: "Баньшэнцай"
+    transcription: "bàn shēng cài"
   },
   {
     phraseId: "phrase_0569",
     text: "蘑菇色拉",
-    transcription: "Могу сэла"
+    transcription: "mó gu sè lā"
   },
   {
     phraseId: "phrase_0570",
     text: "土豆色拉",
-    transcription: "Тудоу сэла"
+    transcription: "tǔ dòu sè lā"
   },
   {
     phraseId: "phrase_0571",
     text: "肉色拉",
-    transcription: "Жоу сэла"
+    transcription: "ròu sè lā"
   },
   {
     phraseId: "phrase_0572",
     text: "生伴番茄",
-    transcription: "Шэньбань фаньця"
+    transcription: "shēng bàn fān qié"
   },
   {
     phraseId: "phrase_0573",
     text: "生伴黄瓜",
-    transcription: "Шэньбань хуангуа"
+    transcription: "shēng bàn huáng guā"
   },
   {
     phraseId: "phrase_0574",
     text: "生伴请萝卜",
-    transcription: "Шэньбань цинлобо"
+    transcription: "shēng bàn qǐng luó bo"
   },
   {
     phraseId: "phrase_0575",
     text: "生伴甜菜",
-    transcription: "Шэньбань тяньцай"
+    transcription: "shēng bàn tián cài"
   },
   {
     phraseId: "phrase_0576",
     text: "生伴白菜",
-    transcription: "Шэньбань байцай"
+    transcription: "shēng bàn bái cài"
   },
   {
     phraseId: "phrase_0577",
     text: "肉冻",
-    transcription: "Жоудун"
+    transcription: "ròu dòng"
   },
   {
     phraseId: "phrase_0578",
     text: "干落",
-    transcription: "Ганьло"
+    transcription: "gān luò"
   },
   {
     phraseId: "phrase_0579",
     text: "奶扎",
-    transcription: "Найчжа"
+    transcription: "nǎi zhā"
   },
   {
     phraseId: "phrase_0580",
     text: "牡蛎",
-    transcription: "Мули"
+    transcription: "mǔ lì"
   },
   {
     phraseId: "phrase_0581",
     text: "间鸡蛋",
-    transcription: "Цзяньцзидань"
+    transcription: "jiān jī dàn"
   },
   {
     phraseId: "phrase_0582",
     text: "鸡蛋",
-    transcription: "Цзидань"
+    transcription: "jī dàn"
   },
   {
     phraseId: "phrase_0583",
     text: "菜汤",
-    transcription: "Цайтан"
+    transcription: "cài tāng"
   },
   {
     phraseId: "phrase_0584",
     text: "红甜菜汤",
-    transcription: "Хунтянь цайтан"
+    transcription: "hóng tián cài tāng"
   },
   {
     phraseId: "phrase_0585",
     text: "豌豆汤",
-    transcription: "Ваньдоутан"
+    transcription: "wān dòu tāng"
   },
   {
     phraseId: "phrase_0586",
     text: "土豆汤",
-    transcription: "Тудоутан"
+    transcription: "tǔ dòu tāng"
   },
   {
     phraseId: "phrase_0587",
     text: "鸡汤面",
-    transcription: "Цзитанмянь"
+    transcription: "jī tāng miàn"
   },
   {
     phraseId: "phrase_0588",
     text: "洋葱汤",
-    transcription: "Янцунтан"
+    transcription: "yáng cōng tāng"
   },
   {
     phraseId: "phrase_0589",
     text: "清肉汤",
-    transcription: "Цин жоутан"
+    transcription: "qīng ròu tāng"
   },
   {
     phraseId: "phrase_0590",
     text: "菜汤",
-    transcription: "Цайтан"
+    transcription: "cài tāng"
   },
   {
     phraseId: "phrase_0591",
     text: "鱼汤",
-    transcription: "Юйтан"
+    transcription: "yú tāng"
   },
   {
     phraseId: "phrase_0592",
     text: "羊肉汤",
-    transcription: "Янжоутан"
+    transcription: "yáng ròu tāng"
   },
   {
     phraseId: "phrase_0593",
     text: "红甜菜良汤",
-    transcription: "Хунтянь цайлян тан"
+    transcription: "hóng tián cài liáng tāng"
   },
   {
     phraseId: "phrase_0594",
     text: "牛尾汤",
-    transcription: "Нювэйтан"
+    transcription: "niú wěi tāng"
   },
   {
     phraseId: "phrase_0595",
     text: "汤面",
-    transcription: "Танмянь"
+    transcription: "tāng miàn"
   },
   {
     phraseId: "phrase_0596",
     text: "菠菜泥汤",
-    transcription: "Боцай нитан"
+    transcription: "bō cài ní tāng"
   },
   {
     phraseId: "phrase_0597",
     text: "番茄汤",
-    transcription: "Фаньцетан"
+    transcription: "fān qié tāng"
   },
   {
     phraseId: "phrase_0598",
     text: "云豆汤",
-    transcription: "Юньдоутан"
+    transcription: "yún dòu tāng"
   },
   {
     phraseId: "phrase_0599",
     text: "甲鱼汤",
-    transcription: "Цзяюйтан"
+    transcription: "jiǎ yú tāng"
   },
   {
     phraseId: "phrase_0600",
     text: "扁豆汤",
-    transcription: "Бяньдоутан"
+    transcription: "biǎn dòu tāng"
   },
   {
     phraseId: "phrase_0601",
     text: "肉",
-    transcription: "Жоу"
+    transcription: "ròu"
   },
   {
     phraseId: "phrase_0602",
     text: "勋猪肉",
-    transcription: "Сюньчжужоу"
+    transcription: "xūn zhū ròu"
   },
   {
     phraseId: "phrase_0603",
     text: "件牛肉排",
-    transcription: "Цзяньню жоупай"
+    transcription: "jiàn niú ròu pái"
   },
   {
     phraseId: "phrase_0604",
     text: "牛肉",
-    transcription: "Нюжоу"
+    transcription: "niú ròu"
   },
   {
     phraseId: "phrase_0605",
     text: "羊肉",
-    transcription: "Янжоу"
+    transcription: "yáng ròu"
   },
   {
     phraseId: "phrase_0606",
     text: "猪肉",
-    transcription: "Чжужоу"
+    transcription: "zhū ròu"
   },
   {
     phraseId: "phrase_0607",
     text: "煎...",
-    transcription: "Цзянь"
+    transcription: "jiān..."
   },
   {
     phraseId: "phrase_0608",
     text: "煮...",
-    transcription: "Чжу"
+    transcription: "zhǔ..."
   },
   {
     phraseId: "phrase_0609",
     text: "焖...",
-    transcription: "Мэнь"
+    transcription: "mèn..."
   },
   {
     phraseId: "phrase_0610",
     text: "肉饼",
-    transcription: "Жоубин"
+    transcription: "ròu bǐng"
   },
   {
     phraseId: "phrase_0611",
     text: "鸡",
-    transcription: "Цзи"
+    transcription: "jī"
   },
   {
     phraseId: "phrase_0612",
     text: "小猪",
-    transcription: "Сяочжу"
+    transcription: "xiǎo zhū"
   },
   {
     phraseId: "phrase_0613",
     text: "猪排骨",
-    transcription: "Чжупайгу"
+    transcription: "zhū pái gǔ"
   },
   {
     phraseId: "phrase_0614",
     text: "短粗灌肠",
-    transcription: "Дуаньцу гуаньчан"
+    transcription: "duǎn cū guàn cháng"
   },
   {
     phraseId: "phrase_0615",
     text: "小灌肠",
-    transcription: "Сяо гуаньчан"
+    transcription: "xiǎo guàn cháng"
   },
   {
     phraseId: "phrase_0616",
     text: "扫牛肉",
-    transcription: "Саонюжоу"
+    transcription: "sǎo niú ròu"
   },
   {
     phraseId: "phrase_0617",
     text: "鸭",
-    transcription: "Я"
+    transcription: "yā"
   },
   {
     phraseId: "phrase_0618",
     text: "鱼",
-    transcription: "Юй"
+    transcription: "yú"
   },
   {
     phraseId: "phrase_0619",
     text: "鱼子",
-    transcription: "Юйцзы"
+    transcription: "yú zǐ"
   },
   {
     phraseId: "phrase_0620",
     text: "墨鱼",
-    transcription: "Моюй"
+    transcription: "mò yú"
   },
   {
     phraseId: "phrase_0621",
     text: "比目鱼",
-    transcription: "Бимуюй"
+    transcription: "bǐ mù yú"
   },
   {
     phraseId: "phrase_0622",
     text: "鲫鱼",
-    transcription: "Цзиюй"
+    transcription: "jì yú"
   },
   {
     phraseId: "phrase_0623",
     text: "鲤鱼",
-    transcription: "Лиюй"
+    transcription: "lǐ yú"
   },
   {
     phraseId: "phrase_0624",
     text: "瘟鱼",
-    transcription: "Взньюй"
+    transcription: "wēn yú"
   },
   {
     phraseId: "phrase_0625",
     text: "胡瓜鱼",
-    transcription: "Хугуаюй"
+    transcription: "hú guā yú"
   },
   {
     phraseId: "phrase_0626",
     text: "鳊鱼",
-    transcription: "Бяньюй"
+    transcription: "biān yú"
   },
   {
     phraseId: "phrase_0627",
     text: "鳗鱼",
-    transcription: "Маньюй"
+    transcription: "mán yú"
   },
   {
     phraseId: "phrase_0628",
     text: "鲈鱼",
-    transcription: "Луюй"
+    transcription: "lú yú"
   },
   {
     phraseId: "phrase_0629",
     text: "熬虾",
-    transcription: "Аося"
+    transcription: "áo xiā"
   },
   {
     phraseId: "phrase_0630",
     text: "鲟鱼",
-    transcription: "Сюнь юй"
+    transcription: "xún yú"
   },
   {
     phraseId: "phrase_0631",
     text: "德鱼",
-    transcription: "Дэюй"
+    transcription: "dé yú"
   },
   {
     phraseId: "phrase_0632",
     text: "醒浔鱼",
-    transcription: "Синсюньюй"
+    transcription: "xǐng xún yú"
   },
   {
     phraseId: "phrase_0633",
     text: "肺鱼",
-    transcription: "Фэйюй"
+    transcription: "fèi yú"
   },
   {
     phraseId: "phrase_0634",
     text: "鲑鱼",
-    transcription: "Гуйюй"
+    transcription: "guī yú"
   },
   {
     phraseId: "phrase_0635",
     text: "青鱼",
-    transcription: "Цинюй"
+    transcription: "qīng yú"
   },
   {
     phraseId: "phrase_0636",
     text: "鲈鱼",
-    transcription: "Луюй"
+    transcription: "lú yú"
   },
   {
     phraseId: "phrase_0637",
     text: "鳕鱼",
-    transcription: "Сюэюй"
+    transcription: "xuě yú"
   },
   {
     phraseId: "phrase_0638",
     text: "鲔鱼",
-    transcription: "Взйюй"
+    transcription: "wěi yú"
   },
   {
     phraseId: "phrase_0639",
     text: "蟎鱼",
-    transcription: "Маньюй"
+    transcription: "mǎn yú"
   },
   {
     phraseId: "phrase_0640",
     text: "淡水鲑鱼",
-    transcription: "Даньшуй гуйюй"
+    transcription: "dàn shuǐ guī yú"
   },
   {
     phraseId: "phrase_0641",
     text: "西鲱鱼",
-    transcription: "Сифэйюй"
+    transcription: "xī fēi yú"
   },
   {
     phraseId: "phrase_0642",
     text: "狗鱼",
-    transcription: "Гоуюй"
+    transcription: "gǒu yú"
   },
   {
     phraseId: "phrase_0643",
     text: "蔬菜",
-    transcription: "Шуцай"
+    transcription: "shū cài"
   },
   {
     phraseId: "phrase_0644",
     text: "茄子",
-    transcription: "Цецзы"
+    transcription: "qié zi"
   },
   {
     phraseId: "phrase_0645",
     text: "豆角",
-    transcription: "Доуцзяо"
+    transcription: "dòu jiǎo"
   },
   {
     phraseId: "phrase_0646",
     text: "豌豆",
-    transcription: "Ваньдоу"
+    transcription: "wān dòu"
   },
   {
     phraseId: "phrase_0647",
     text: "绿豌豆",
-    transcription: "Люй ваньдоу"
+    transcription: "lǜ wān dòu"
   },
   {
     phraseId: "phrase_0648",
     text: "西葫芦",
-    transcription: "Сихулу"
+    transcription: "xī hú lu"
   },
   {
     phraseId: "phrase_0649",
     text: "白菜",
-    transcription: "Байцай"
+    transcription: "bái cài"
   },
   {
     phraseId: "phrase_0650",
     text: "土豆",
-    transcription: "Тудоу"
+    transcription: "tǔ dòu"
   },
   {
     phraseId: "phrase_0651",
     text: "玉米",
-    transcription: "Юйми"
+    transcription: "yù mǐ"
   },
   {
     phraseId: "phrase_0652",
     text: "葱",
-    transcription: "Цун"
+    transcription: "cōng"
   },
   {
     phraseId: "phrase_0653",
     text: "胡萝卜",
-    transcription: "Хулобо"
+    transcription: "hú luó bo"
   },
   {
     phraseId: "phrase_0654",
     text: "番椒",
-    transcription: "Фаньцзяо"
+    transcription: "fān jiāo"
   },
   {
     phraseId: "phrase_0655",
     text: "洋菱",
-    transcription: "Янсуй"
+    transcription: "yáng líng"
   },
   {
     phraseId: "phrase_0656",
     text: "西红柿",
-    transcription: "Сихунши"
+    transcription: "xī hóng shì"
   },
   {
     phraseId: "phrase_0657",
     text: "四季萝卜",
-    transcription: "Сыцзи лобо"
+    transcription: "sì jì luó bo"
   },
   {
     phraseId: "phrase_0658",
     text: "芜菁",
-    transcription: "Уцзин"
+    transcription: "wú jīng"
   },
   {
     phraseId: "phrase_0659",
     text: "甜菜",
-    transcription: "Тяньцай"
+    transcription: "tián cài"
   },
   {
     phraseId: "phrase_0660",
     text: "南瓜",
-    transcription: "Наньгуа"
+    transcription: "nán guā"
   },
   {
     phraseId: "phrase_0661",
     text: "茴香",
-    transcription: "Хуйсян"
+    transcription: "huí xiāng"
   },
   {
     phraseId: "phrase_0662",
     text: "菜豆",
-    transcription: "Цайдоу"
+    transcription: "cài dòu"
   },
   {
     phraseId: "phrase_0663",
     text: "辣根",
-    transcription: "Лагэнь"
+    transcription: "là gēn"
   },
   {
     phraseId: "phrase_0664",
     text: "蒜",
-    transcription: "Суань"
+    transcription: "suàn"
   },
   {
     phraseId: "phrase_0665",
     text: "水果",
-    transcription: "Шуйго"
+    transcription: "shuǐ guǒ"
   },
   {
     phraseId: "phrase_0666",
     text: "坚果",
-    transcription: "Цзяньго"
+    transcription: "jiān guǒ"
   },
   {
     phraseId: "phrase_0667",
     text: "浆果",
-    transcription: "Цзянго"
+    transcription: "jiāng guǒ"
   },
   {
     phraseId: "phrase_0668",
     text: "杏",
-    transcription: "Син"
+    transcription: "xìng"
   },
   {
     phraseId: "phrase_0669",
     text: "凤梨",
-    transcription: "Фэнли"
+    transcription: "fèng lí"
   },
   {
     phraseId: "phrase_0670",
     text: "呈子",
-    transcription: "Чэнцзы"
+    transcription: "chéng zǐ"
   },
   {
     phraseId: "phrase_0671",
     text: "西瓜",
-    transcription: "Сигуа"
+    transcription: "xī guā"
   },
   {
     phraseId: "phrase_0672",
     text: "葡萄",
-    transcription: "Путао"
+    transcription: "pú táo"
   },
   {
     phraseId: "phrase_0673",
     text: "樱桃",
-    transcription: "Интао"
+    transcription: "yīng táo"
   },
   {
     phraseId: "phrase_0674",
     text: "石榴",
-    transcription: "Шилю"
+    transcription: "shí liú"
   },
   {
     phraseId: "phrase_0675",
     text: "柚子",
-    transcription: "Юцзы"
+    transcription: "yòu zǐ"
   },
   {
     phraseId: "phrase_0676",
     text: "胡桃",
-    transcription: "Хутао"
+    transcription: "hú táo"
   },
   {
     phraseId: "phrase_0677",
     text: "梨",
-    transcription: "Ли"
+    transcription: "lí"
   },
   {
     phraseId: "phrase_0678",
     text: "甜瓜",
-    transcription: "Тяньгуа"
+    transcription: "tián guā"
   },
   {
     phraseId: "phrase_0679",
     text: "猕猴桃",
-    transcription: "Михбутао"
+    transcription: "mí hóu táo"
   },
   {
     phraseId: "phrase_0680",
     text: "草莓",
-    transcription: "Цаомэй"
+    transcription: "cǎo méi"
   },
   {
     phraseId: "phrase_0681",
     text: "椰",
-    transcription: "Е"
+    transcription: "yē"
   },
   {
     phraseId: "phrase_0682",
     text: "柠檬",
-    transcription: "Нинмэн"
+    transcription: "níng méng"
   },
   {
     phraseId: "phrase_0683",
     text: "马林",
-    transcription: "Малинь"
+    transcription: "mǎ lín"
   },
   {
     phraseId: "phrase_0684",
     text: "桔子",
-    transcription: "Цзюйцзы"
+    transcription: "jú zi"
   },
   {
     phraseId: "phrase_0685",
     text: "扁桃",
-    transcription: "Бяньтао"
+    transcription: "biǎn táo"
   },
   {
     phraseId: "phrase_0686",
     text: "木瓜",
-    transcription: "Мугуа"
+    transcription: "mù guā"
   },
   {
     phraseId: "phrase_0687",
     text: "陶",
-    transcription: "Тао"
+    transcription: "táo"
   },
   {
     phraseId: "phrase_0688",
     text: "李子",
-    transcription: "Лицзы"
+    transcription: "lǐ zǐ"
   },
   {
     phraseId: "phrase_0689",
     text: "茶镳子",
-    transcription: "Чабяоцзы"
+    transcription: "chá biāo zǐ"
   },
   {
     phraseId: "phrase_0690",
     text: "椰枣",
-    transcription: "Ецзао"
+    transcription: "yē zǎo"
   },
   {
     phraseId: "phrase_0691",
     text: "榛子",
-    transcription: "Чжэньцзы"
+    transcription: "zhēn zǐ"
   },
   {
     phraseId: "phrase_0692",
     text: "樱桃",
-    transcription: "Интао"
+    transcription: "yīng táo"
   },
   {
     phraseId: "phrase_0693",
     text: "苹果",
-    transcription: "Пинго"
+    transcription: "píng guǒ"
   },
   {
     phraseId: "phrase_0694",
     text: "开胃酒",
-    transcription: "Кайвэйцзю"
+    transcription: "kāi wèi jiǔ"
   },
   {
     phraseId: "phrase_0695",
     text: "白兰地",
-    transcription: "Байланьди"
+    transcription: "bái lán dì"
   },
   {
     phraseId: "phrase_0696",
     text: "味美斯",
-    transcription: "Вэймэйсы"
+    transcription: "wèi měi sī"
   },
   {
     phraseId: "phrase_0697",
     text: "葡萄酒",
-    transcription: "Путаоцзю"
+    transcription: "pú táo jiǔ"
   },
   {
     phraseId: "phrase_0698",
     text: "白葡萄酒",
-    transcription: "Бай путаоцзю"
+    transcription: "bái pú táo jiǔ"
   },
   {
     phraseId: "phrase_0699",
     text: "甜葡萄酒",
-    transcription: "Тянь путаоцзю"
+    transcription: "tián pú táo jiǔ"
   },
   {
     phraseId: "phrase_0700",
     text: "红葡萄酒",
-    transcription: "Хун путаоцзю"
+    transcription: "hóng pú táo jiǔ"
   },
   {
     phraseId: "phrase_0701",
     text: "加上酒精的葡萄酒",
-    transcription: "Цзяшан цзюцзиндэ путаоцзю"
+    transcription: "jiā shàng jiǔ jīng de pú táo jiǔ"
   },
   {
     phraseId: "phrase_0702",
     text: "半酸半甜的葡萄酒",
-    transcription: "Баньсуань баньтяньдэ путаоцзю"
+    transcription: "bàn suān bàn tián de pú táo jiǔ"
   },
   {
     phraseId: "phrase_0703",
     text: "半干的葡萄酒",
-    transcription: "Баньганьдэ путаоцзю"
+    transcription: "bàn gān de pú táo jiǔ"
   },
   {
     phraseId: "phrase_0704",
     text: "甜酒",
-    transcription: "Тяньцзю"
+    transcription: "tián jiǔ"
   },
   {
     phraseId: "phrase_0705",
     text: "下饭的葡萄酒",
-    transcription: "Сяфаньдэ путаоцзю"
+    transcription: "xià fàn de pú táo jiǔ"
   },
   {
     phraseId: "phrase_0706",
     text: "干葡萄酒",
-    transcription: "Гань путаоцзю"
+    transcription: "gān pú táo jiǔ"
   },
   {
     phraseId: "phrase_0707",
     text: "威士忌酒",
-    transcription: "Вэйшицзыцзю"
+    transcription: "wēi shì jì jiǔ"
   },
   {
     phraseId: "phrase_0708",
     text: "加上病的威士忌酒",
-    transcription: "Цзяшанбиндэ вэйшицзыцзю"
+    transcription: "jiā shàng bìng de wēi shì jì jiǔ"
   },
   {
     phraseId: "phrase_0709",
     text: "加苏打水的威士忌酒",
-    transcription: "Цзясудашуйдэ вэйшицзыцзю"
+    transcription: "jiā sū dá shuǐ de wēi shì jì jiǔ"
   },
   {
     phraseId: "phrase_0710",
     text: "付特加",
-    transcription: "Футэцзя"
+    transcription: "fù tè jiā"
   },
   {
     phraseId: "phrase_0711",
     text: "金辣椒的白酒",
-    transcription: "Цзяньлацзяодэ байцзю"
+    transcription: "jīn là jiāo de bái jiǔ"
   },
   {
     phraseId: "phrase_0712",
     text: "度松子酒",
-    transcription: "Дусунцзыцзю"
+    transcription: "dù sōng zǐ jiǔ"
   },
   {
     phraseId: "phrase_0713",
     text: "白兰地",
-    transcription: "Байланьди"
+    transcription: "bái lán dì"
   },
   {
     phraseId: "phrase_0714",
     text: "露酒",
-    transcription: "Луцзю"
+    transcription: "lù jiǔ"
   },
   {
     phraseId: "phrase_0715",
     text: "马德拉酒",
-    transcription: "Мадэлацзю"
+    transcription: "mǎ dé lā jiǔ"
   },
   {
     phraseId: "phrase_0716",
     text: "马蹄泥酒",
-    transcription: "Матиницзю"
+    transcription: "mǎ tí ní jiǔ"
   },
   {
     phraseId: "phrase_0717",
     text: "白马蹄泥酒",
-    transcription: "Бай матиницзю"
+    transcription: "bái mǎ tí ní jiǔ"
   },
   {
     phraseId: "phrase_0718",
     text: "粉红马蹄泥酒",
-    transcription: "Фэньхун матиницзю"
+    transcription: "fěn hóng mǎ tí ní jiǔ"
   },
   {
     phraseId: "phrase_0719",
     text: "红马蹄泥酒",
-    transcription: "Хун матиницзю"
+    transcription: "hóng mǎ tí ní jiǔ"
   },
   {
     phraseId: "phrase_0720",
     text: "啤酒",
-    transcription: "Пицзю"
+    transcription: "pí jiǔ"
   },
   {
     phraseId: "phrase_0721",
     text: "不含酒精的啤酒",
-    transcription: "Буханьцзюцзиндэ пицзю"
+    transcription: "bù hán jiǔ jīng de pí jiǔ"
   },
   {
     phraseId: "phrase_0722",
     text: "淡色啤酒",
-    transcription: "Даньсэ пицзю"
+    transcription: "dàn sè pí jiǔ"
   },
   {
     phraseId: "phrase_0723",
     text: "黑啤酒",
-    transcription: "Хэй пицзю"
+    transcription: "hēi pí jiǔ"
   },
   {
     phraseId: "phrase_0724",
     text: "波尔特温酒",
-    transcription: "Боэртэвэньцзю"
+    transcription: "bō ěr tè wēn jiǔ"
   },
   {
     phraseId: "phrase_0725",
     text: "落幕酒",
-    transcription: "Ломуцзю"
+    transcription: "luò mù jiǔ"
   },
   {
     phraseId: "phrase_0726",
     text: "苹果酒",
-    transcription: "Пингоцзю"
+    transcription: "píng guǒ jiǔ"
   },
   {
     phraseId: "phrase_0727",
     text: "赫列似酒",
-    transcription: "Хэлесыцзю"
+    transcription: "hè liè sì jiǔ"
   },
   {
     phraseId: "phrase_0728",
     text: "香槟酒",
-    transcription: "Сянбиньцзю"
+    transcription: "xiāng bīn jiǔ"
   },
   {
     phraseId: "phrase_0729",
     text: "半甜的香槟酒",
-    transcription: "Баньтяньдэ сянбиньцзю"
+    transcription: "bàn tián de xiāng bīn jiǔ"
   },
   {
     phraseId: "phrase_0730",
     text: "甜香槟酒",
-    transcription: "Тянь сянбиньцзю"
+    transcription: "tián xiāng bīn jiǔ"
   },
   {
     phraseId: "phrase_0731",
     text: "干香槟酒",
-    transcription: "Гань сянбиньцзю"
+    transcription: "gān xiāng bīn jiǔ"
   },
   {
     phraseId: "phrase_0732",
     text: "水",
-    transcription: "Шуй"
+    transcription: "shuǐ"
   },
   {
     phraseId: "phrase_0733",
     text: "汽水",
-    transcription: "Цишуй"
+    transcription: "qì shuǐ"
   },
   {
     phraseId: "phrase_0734",
     text: "矿泉水",
-    transcription: "Куанцюаньшуй"
+    transcription: "kuàng quán shuǐ"
   },
   {
     phraseId: "phrase_0735",
     text: "苏打水",
-    transcription: "Судашуй"
+    transcription: "sū dá shuǐ"
   },
   {
     phraseId: "phrase_0736",
     text: "待病的水",
-    transcription: "Дайбиндэ шуй"
+    transcription: "dài bìng de shuǐ"
   },
   {
     phraseId: "phrase_0737",
     text: "水果汽水",
-    transcription: "Шуйго цишуй"
+    transcription: "shuǐ guǒ qì shuǐ"
   },
   {
     phraseId: "phrase_0738",
     text: "克瓦斯",
-    transcription: "Кэвасы"
+    transcription: "kè wǎ sī"
   },
   {
     phraseId: "phrase_0739",
     text: "可口可乐",
-    transcription: "Кэкоукэлэ"
+    transcription: "kě kǒu kě lè"
   },
   {
     phraseId: "phrase_0740",
     text: "柠檬水",
-    transcription: "Ниньмэншуй"
+    transcription: "níng méng shuǐ"
   },
   {
     phraseId: "phrase_0741",
     text: "饮料",
-    transcription: "Иньляо"
+    transcription: "yǐn liào"
   },
   {
     phraseId: "phrase_0742",
     text: "汁",
-    transcription: "Чжи"
+    transcription: "zhī"
   },
   {
     phraseId: "phrase_0743",
     text: "可可",
-    transcription: "Кэкэ"
+    transcription: "kě kě"
   },
   {
     phraseId: "phrase_0744",
     text: "咖啡",
-    transcription: "Кафэй"
+    transcription: "kā fēi"
   },
   {
     phraseId: "phrase_0745",
     text: "卡普奇喏咖啡",
-    transcription: "Капуцино кафэй"
+    transcription: "kǎ pǔ qí nuò kā fēi"
   },
   {
     phraseId: "phrase_0746",
     text: "茶",
-    transcription: "Ча"
+    transcription: "chá"
   },
   {
     phraseId: "phrase_0747",
     text: "牛奶",
-    transcription: "Нюнай"
+    transcription: "niú nǎi"
   },
   {
     phraseId: "phrase_0748",
     text: "蛋糕",
-    transcription: "Даньгао"
+    transcription: "dàn gāo"
   },
   {
     phraseId: "phrase_0749",
     text: "果酱",
-    transcription: "Гоцзян"
+    transcription: "guǒ jiàng"
   },
   {
     phraseId: "phrase_0750",
     text: "果冻",
-    transcription: "Годун"
+    transcription: "guǒ dòng"
   },
   {
     phraseId: "phrase_0751",
     text: "蛋糕",
-    transcription: "Даньгао"
+    transcription: "dàn gāo"
   },
   {
     phraseId: "phrase_0752",
     text: "糖水水果",
-    transcription: "Таншуй шуйго"
+    transcription: "táng shuǐ shuǐ guǒ"
   },
   {
     phraseId: "phrase_0753",
     text: "糖果",
-    transcription: "Танго"
+    transcription: "táng guǒ"
   },
   {
     phraseId: "phrase_0754",
     text: "水果软糖",
-    transcription: "Шуйго жуаньтан"
+    transcription: "shuǐ guǒ ruǎn táng"
   },
   {
     phraseId: "phrase_0755",
     text: "奶油",
-    transcription: "Найю"
+    transcription: "nǎi yóu"
   },
   {
     phraseId: "phrase_0756",
     text: "蜂蜜",
-    transcription: "Фэнми"
+    transcription: "fēng mì"
   },
   {
     phraseId: "phrase_0757",
     text: "冰激凌",
-    transcription: "Бинцзилин"
+    transcription: "bīng jī líng"
   },
   {
     phraseId: "phrase_0758",
     text: "饼干",
-    transcription: "Бингань"
+    transcription: "bǐng gān"
   },
   {
     phraseId: "phrase_0759",
     text: "糕点",
-    transcription: "Гаодянь"
+    transcription: "gāo diǎn"
   },
   {
     phraseId: "phrase_0760",
     text: "巧克力",
-    transcription: "Цяокэли"
+    transcription: "qiǎo kè lì"
   },
   {
     phraseId: "phrase_0761",
     text: "最近的邮局在哪里?",
-    transcription: "Цзуйцзиньдэ юцзюй цзай нали?"
+    transcription: "zuì jìn de yóu jú zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0762",
     text: "邮局何时工作?",
-    transcription: "Юцзюй хэши гунцзо?"
+    transcription: "yóu jú hé shí gōng zuò?"
   },
   {
     phraseId: "phrase_0763",
     text: "我要发…",
-    transcription: "Во яо фа…"
+    transcription: "wǒ yào fā…"
   },
   {
     phraseId: "phrase_0764",
     text: "信",
-    transcription: "Синь"
+    transcription: "xìn"
   },
   {
     phraseId: "phrase_0765",
     text: "汇款",
-    transcription: "Хуйкуань"
+    transcription: "huì kuǎn"
   },
   {
     phraseId: "phrase_0766",
     text: "印刷品邮件",
-    transcription: "Иньшуапинь юцзянь"
+    transcription: "yìn shuā pǐn yóu jiàn"
   },
   {
     phraseId: "phrase_0767",
     text: "明信片",
-    transcription: "Минсиньпянь"
+    transcription: "míng xìn piàn"
   },
   {
     phraseId: "phrase_0768",
     text: "请给我…",
-    transcription: "Цин гэй во…"
+    transcription: "qǐng gěi wǒ…"
   },
   {
     phraseId: "phrase_0769",
     text: "两张邮票",
-    transcription: "Лянчжан юпяо"
+    transcription: "liǎng zhāng yóu piào"
   },
   {
     phraseId: "phrase_0770",
     text: "信纸",
-    transcription: "Синьчжи"
+    transcription: "xìn zhǐ"
   },
   {
     phraseId: "phrase_0771",
     text: "三个信封",
-    transcription: "Саньгэ синьфэн"
+    transcription: "sān gè xìn fēng"
   },
   {
     phraseId: "phrase_0772",
     text: "请替我写上收信人的地址",
-    transcription: "Цин тиво сешан шоусинь жэньдэ дичжи"
+    transcription: "qǐng tì wǒ xiě shàng shōu xìn rén de dì zhǐ"
   },
   {
     phraseId: "phrase_0773",
     text: "有没有我的信?",
-    transcription: "Ю мэйю водэ синь?"
+    transcription: "yǒu méi yǒu wǒ de xìn?"
   },
   {
     phraseId: "phrase_0774",
     text: "在哪个窗口我能付…?",
-    transcription: "Цзай нагэ чуанькоу во нэн фу…?"
+    transcription: "zài nǎ gè chuāng kǒu wǒ néng fù…?"
   },
   {
     phraseId: "phrase_0775",
     text: "电话手机适用费",
-    transcription: "Дяньхуа шоуцзи шиюн фэй"
+    transcription: "diàn huà shǒu jī shì yòng fèi"
   },
   {
     phraseId: "phrase_0776",
     text: "电费",
-    transcription: "Дяньфэй"
+    transcription: "diàn fèi"
   },
   {
     phraseId: "phrase_0777",
     text: "最近的又想在哪里?",
-    transcription: "Цзуйцзиньдэ юсян цзай нали?"
+    transcription: "zuì jìn de yòu xiǎng zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0778",
     text: "我要发电表",
-    transcription: "Во яо фа дяньбао"
+    transcription: "wǒ yào fā diàn biǎo"
   },
   {
     phraseId: "phrase_0779",
     text: "请给我一张电报纸",
-    transcription: "Цин гэй во ичжан дяньбаочжи"
+    transcription: "qǐng gěi wǒ yì zhāng diàn bào zhǐ"
   },
   {
     phraseId: "phrase_0780",
     text: "我要发…",
-    transcription: "Во яо фа…"
+    transcription: "wǒ yào fā…"
   },
   {
     phraseId: "phrase_0781",
     text: "普通电表",
-    transcription: "Путун дяньбао"
+    transcription: "pǔ tōng diàn biǎo"
   },
   {
     phraseId: "phrase_0782",
     text: "加急电表",
-    transcription: "Цзяцзи дяньбао"
+    transcription: "jiā jí diàn biǎo"
   },
   {
     phraseId: "phrase_0783",
     text: "预付回电",
-    transcription: "Юйфу хуйдянь"
+    transcription: "yù fù huí diàn"
   },
   {
     phraseId: "phrase_0784",
     text: "国际电表",
-    transcription: "Гоцзи дяньбао"
+    transcription: "guó jì diàn biǎo"
   },
   {
     phraseId: "phrase_0785",
     text: "我应付多少钱?",
-    transcription: "Во ин фу дошао цянь?"
+    transcription: "wǒ yìng fù duō shǎo qián?"
   },
   {
     phraseId: "phrase_0786",
     text: "电话在哪里?",
-    transcription: "Дяньхуа цзай нали?"
+    transcription: "diàn huà zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0787",
     text: "我要打电话",
-    transcription: "Во яо да дяньхуа"
+    transcription: "wǒ yào dǎ diàn huà"
   },
   {
     phraseId: "phrase_0788",
     text: "从哪里可以打电话?",
-    transcription: "Цун нали кэй да дяньхуа?"
+    transcription: "cóng nǎ lǐ kě yǐ dǎ diàn huà?"
   },
   {
     phraseId: "phrase_0789",
     text: "在哪里可以买电话卡?",
-    transcription: "Цзай нали кэй май дяньхуакаа?"
+    transcription: "zài nǎ lǐ kě yǐ mǎi diàn huà kǎ?"
   },
   {
     phraseId: "phrase_0790",
     text: "可以使用你的电话吗?",
-    transcription: "Кэй шиюн нидэ дяньхуа ма?"
+    transcription: "kě yǐ shǐ yòng nǐ de diàn huà ma?"
   },
   {
     phraseId: "phrase_0791",
     text: "你的电话号码是多少?",
-    transcription: "Нидэ дяньхуа хаома ши дошао?"
+    transcription: "nǐ de diàn huà hào mǎ shì duō shǎo?"
   },
   {
     phraseId: "phrase_0792",
     text: "电话费多少钱?",
-    transcription: "Дяньхуа фэй дошао цянь?"
+    transcription: "diàn huà fèi duō shǎo qián?"
   },
   {
     phraseId: "phrase_0793",
     text: "请把我的电话号码写下来",
-    transcription: "Цин ба водэ дяньхуа хаома сесялай"
+    transcription: "qǐng bǎ wǒ de diàn huà hào mǎ xiě xià lái"
   },
   {
     phraseId: "phrase_0794",
     text: "我想预定一个打…的电话",
-    transcription: "Во сян юйдин игэ да…дэ дяньхуа"
+    transcription: "wǒ xiǎng yù dìng yí gè dǎ… de diàn huà"
   },
   {
     phraseId: "phrase_0795",
     text: "莫斯科",
-    transcription: "Мосыкэ"
+    transcription: "mò sī kē"
   },
   {
     phraseId: "phrase_0796",
     text: "圣彼得堡",
-    transcription: "Шэнбидэбао"
+    transcription: "shèng bǐ dé bǎo"
   },
   {
     phraseId: "phrase_0797",
     text: "在哪里可以过买电话手机",
-    transcription: "Цзай нали кэй гомай дяньхуа шоуцзи"
+    transcription: "zài nǎ lǐ kě yǐ guò mǎi diàn huà shǒu jī"
   },
   {
     phraseId: "phrase_0798",
     text: "在哪里可以把我的电话手机接在服务网上?",
-    transcription: "Цзай нали кэй ба водэ дяньхуа шоуцзи цзецзай фууваньшан?"
+    transcription: "zài nǎ lǐ kě yǐ bǎ wǒ de diàn huà shǒu jī jiē zài fú wù wǎng shàng?"
   },
   {
     phraseId: "phrase_0799",
     text: "我还想办网上漫游",
-    transcription: "Во хай сян бань ваньшан маньёу"
+    transcription: "wǒ hái xiǎng bàn wǎng shàng màn yóu"
   },
   {
     phraseId: "phrase_0800",
     text: "一分钟多少钱?",
-    transcription: "Ифэнь чжун дошао цянь?"
+    transcription: "yì fēn zhōng duō shǎo qián?"
   },
   {
     phraseId: "phrase_0801",
     text: "喂!",
-    transcription: "Вэй!"
+    transcription: "wèi!"
   },
   {
     phraseId: "phrase_0802",
     text: "我在听电话",
-    transcription: "Во цзай тин дяньхуа"
+    transcription: "wǒ zài tīng diàn huà"
   },
   {
     phraseId: "phrase_0803",
     text: "听不清楚",
-    transcription: "Тин бу цинчу"
+    transcription: "tīng bù qīng chǔ"
   },
   {
     phraseId: "phrase_0804",
     text: "大典声",
-    transcription: "Дадянь шэн"
+    transcription: "dà diǎn shēng"
   },
   {
     phraseId: "phrase_0805",
     text: "我能同…说话吗?",
-    transcription: "Во нэн тун…шохуа ма?"
+    transcription: "wǒ néng tóng… shuō huà ma?"
   },
   {
     phraseId: "phrase_0806",
     text: "日安! 请…",
-    transcription: "Жиань! Цин…"
+    transcription: "rì ān! qǐng…"
   },
   {
     phraseId: "phrase_0807",
     text: "我需要…",
-    transcription: "Во сюйяо…"
+    transcription: "wǒ xū yào…"
   },
   {
     phraseId: "phrase_0808",
     text: "他什么时候在呢?",
-    transcription: "Та шэньмэ шихоу цзай нэ?"
+    transcription: "tā shén me shí hòu zài ne?"
   },
   {
     phraseId: "phrase_0809",
     text: "你事谁?",
-    transcription: "Ни ши шуй?"
+    transcription: "nǐ shì shuí?"
   },
   {
     phraseId: "phrase_0810",
     text: "请转告…",
-    transcription: "Цин чжуаньгао…"
+    transcription: "qǐng zhuǎn gào…"
   },
   {
     phraseId: "phrase_0811",
     text: "…打来了电话",
-    transcription: "…далайлэ дяньхуа"
+    transcription: "… dǎ lái le diàn huà"
   },
   {
     phraseId: "phrase_0812",
     text: "我等他的电话",
-    transcription: "Во дэн тадэ дяньхуа"
+    transcription: "wǒ děng tā de diàn huà"
   },
   {
     phraseId: "phrase_0813",
     text: "我的电话号码是…",
-    transcription: "Водэ дяньхуа хаома ши…"
+    transcription: "wǒ de diàn huà hào mǎ shì…"
   },
   {
     phraseId: "phrase_0814",
     text: "我过一会再打",
-    transcription: "Во го ихуй цзай да"
+    transcription: "wǒ guò yí huì zài dǎ"
   },
   {
     phraseId: "phrase_0815",
     text: "战线",
-    transcription: "Чжаньсянь"
+    transcription: "zhàn xiàn"
   },
   {
     phraseId: "phrase_0816",
     text: "没人",
-    transcription: "Мэйжэнь"
+    transcription: "méi rén"
   },
   {
     phraseId: "phrase_0817",
     text: "请再打一遍",
-    transcription: "Цин цзай да ибянь"
+    transcription: "qǐng zài dǎ yí biàn"
   },
   {
     phraseId: "phrase_0818",
     text: "请别挂机",
-    transcription: "Цин бе гуацзи"
+    transcription: "qǐng bié guà jī"
   },
   {
     phraseId: "phrase_0819",
     text: "你到错了",
-    transcription: "Ни дао цолэ"
+    transcription: "nǐ dào cuò le"
   },
   {
     phraseId: "phrase_0820",
     text: "我想和…说话",
-    transcription: "Во сян хэ…шохуа"
+    transcription: "wǒ xiǎng hé… shuō huà"
   },
   {
     phraseId: "phrase_0821",
     text: "懂英语的人",
-    transcription: "Дун инъюйдэ жэнь"
+    transcription: "dǒng yīng yǔ de rén"
   },
   {
     phraseId: "phrase_0822",
     text: "懂俄语的人",
-    transcription: "Дун эюйдэ жэнь"
+    transcription: "dǒng é yǔ de rén"
   },
   {
     phraseId: "phrase_0823",
     text: "祝一切好!",
-    transcription: "Чжу ице хао!"
+    transcription: "zhù yí qiè hǎo!"
   },
   {
     phraseId: "phrase_0824",
     text: "电话用户",
-    transcription: "Дяньхуа юнху"
+    transcription: "diàn huà yòng hù"
   },
   {
     phraseId: "phrase_0825",
     text: "航空信封",
-    transcription: "Ханкун синьфэн"
+    transcription: "háng kōng xìn fēng"
   },
   {
     phraseId: "phrase_0826",
     text: "地址",
-    transcription: "Дичжи"
+    transcription: "dì zhǐ"
   },
   {
     phraseId: "phrase_0827",
     text: "收信人",
-    transcription: "Шоусиньжэнь"
+    transcription: "shōu xìn rén"
   },
   {
     phraseId: "phrase_0828",
     text: "印刷品",
-    transcription: "Иньшуапинь"
+    transcription: "yìn shuā pǐn"
   },
   {
     phraseId: "phrase_0829",
     text: "单子",
-    transcription: "Даньцзы"
+    transcription: "dān zi"
   },
   {
     phraseId: "phrase_0830",
     text: "传呼",
-    transcription: "Чуаньху"
+    transcription: "chuán hū"
   },
   {
     phraseId: "phrase_0831",
     text: "汇款",
-    transcription: "Хуйкуань"
+    transcription: "huì kuǎn"
   },
   {
     phraseId: "phrase_0832",
     text: "战线",
-    transcription: "Чжаньсянь"
+    transcription: "zhàn xiàn"
   },
   {
     phraseId: "phrase_0833",
     text: "收据",
-    transcription: "Шоуцзюй"
+    transcription: "shōu jù"
   },
   {
     phraseId: "phrase_0834",
     text: "信封",
-    transcription: "Синьфэн"
+    transcription: "xìn fēng"
   },
   {
     phraseId: "phrase_0835",
     text: "邮票",
-    transcription: "Юпяо"
+    transcription: "yóu piào"
   },
   {
     phraseId: "phrase_0836",
     text: "电话手机",
-    transcription: "Дяньхуа шоуцзи"
+    transcription: "diàn huà shǒu jī"
   },
   {
     phraseId: "phrase_0837",
     text: "电话号码",
-    transcription: "Дяньхуа хаома"
+    transcription: "diàn huà hào mǎ"
   },
   {
     phraseId: "phrase_0838",
     text: "明信片",
-    transcription: "Минсиньпянь"
+    transcription: "míng xìn piàn"
   },
   {
     phraseId: "phrase_0839",
     text: "信",
-    transcription: "Синь"
+    transcription: "xìn"
   },
   {
     phraseId: "phrase_0840",
     text: "预报",
-    transcription: "Юбао"
+    transcription: "yù bào"
   },
   {
     phraseId: "phrase_0841",
     text: "信纸",
-    transcription: "Синьчжи"
+    transcription: "xìn zhǐ"
   },
   {
     phraseId: "phrase_0842",
     text: "邮箱",
-    transcription: "Юсян"
+    transcription: "yóu xiāng"
   },
   {
     phraseId: "phrase_0843",
     text: "电表",
-    transcription: "Дяньбао"
+    transcription: "diàn biǎo"
   },
   {
     phraseId: "phrase_0844",
     text: "电话",
-    transcription: "Дяньхуа"
+    transcription: "diàn huà"
   },
   {
     phraseId: "phrase_0845",
     text: "自动电话",
-    transcription: "Цзыдун дяньхуа"
+    transcription: "zì dòng diàn huà"
   },
   {
     phraseId: "phrase_0846",
     text: "您能向我推荐很好的游览指南吗?",
-    transcription: "Нинь нэн сянво туйцзянь хэньхаодэ юлань чжинань ма?"
+    transcription: "nín néng xiàng wǒ tuī jiàn hěn hǎo de yóu lǎn zhǐ nán ma?"
   },
   {
     phraseId: "phrase_0847",
     text: "附近有导游处吗?",
-    transcription: "Фуцзинь ю даоючу ма?"
+    transcription: "fù jìn yǒu dǎo yóu chù ma?"
   },
   {
     phraseId: "phrase_0848",
     text: "您建议我们游览哪些主要的名胜?",
-    transcription: "Нинь цзяньи вомэнь юлань насе чжуяодэ миншэн?"
+    transcription: "nín jiàn yì wǒ men yóu lǎn nǎ xiē zhǔ yào de míng shèng?"
   },
   {
     phraseId: "phrase_0849",
     text: "游览何时开始呢?",
-    transcription: "Юлань хэши кайши на?"
+    transcription: "yóu lǎn hé shí kāi shǐ ne?"
   },
   {
     phraseId: "phrase_0850",
     text: "游览车从哪里开出?",
-    transcription: "Юланьчэ цун нали кайчу?"
+    transcription: "yóu lǎn chē cóng nǎ lǐ kāi chū?"
   },
   {
     phraseId: "phrase_0851",
     text: "游览市中值多少钱?",
-    transcription: "Юлань шижун чжи дошао цянь?"
+    transcription: "yóu lǎn shì zhōng zhí duō shǎo qián?"
   },
   {
     phraseId: "phrase_0852",
     text: "是否有讲…的导游员?",
-    transcription: "Шифоу ю цзян…дэ даоюйюань?"
+    transcription: "shì fǒu yǒu jiǎng… de dǎo yóu yuán?"
   },
   {
     phraseId: "phrase_0853",
     text: "俄语",
-    transcription: "Эюй"
+    transcription: "é yǔ"
   },
   {
     phraseId: "phrase_0854",
     text: "英语",
-    transcription: "Инъюй"
+    transcription: "yīng yǔ"
   },
   {
     phraseId: "phrase_0855",
     text: "法语",
-    transcription: "Фаюй"
+    transcription: "fǎ yǔ"
   },
   {
     phraseId: "phrase_0856",
     text: "德语",
-    transcription: "Дэюй"
+    transcription: "dé yǔ"
   },
   {
     phraseId: "phrase_0857",
     text: "请告诉我…在哪里?",
-    transcription: "Цин гаосу во…цзай нали?"
+    transcription: "qǐng gào sù wǒ… zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0858",
     text: "…街",
-    transcription: "…цзе"
+    transcription: "… jiē"
   },
   {
     phraseId: "phrase_0859",
     text: "…广场",
-    transcription: "…гуаньчан"
+    transcription: "… guǎng chǎng"
   },
   {
     phraseId: "phrase_0860",
     text: "大教堂",
-    transcription: "Дацзяотан"
+    transcription: "dà jiào táng"
   },
   {
     phraseId: "phrase_0861",
     text: "历史博物馆",
-    transcription: "Лиши богугуань"
+    transcription: "lì shǐ bó wù guǎn"
   },
   {
     phraseId: "phrase_0862",
     text: "剧院",
-    transcription: "Цзююань"
+    transcription: "jù yuàn"
   },
   {
     phraseId: "phrase_0863",
     text: "这是谁的纪念碑?",
-    transcription: "Чжэши шуйдэ цзиняньбэй?"
+    transcription: "zhè shì shuí de jì niàn bēi?"
   },
   {
     phraseId: "phrase_0864",
     text: "这纪念谁(什么)?",
-    transcription: "Чжэ цзинянь шуй (шэньмэ)?"
+    transcription: "zhè jì niàn shuí (shén me)?"
   },
   {
     phraseId: "phrase_0865",
     text: "这雕塑品表达的是什么?",
-    transcription: "Чжэ дяосупинь бяодадэ ши шэньмэ?"
+    transcription: "zhè diāo sù pǐn biǎo dá de shì shén me?"
   },
   {
     phraseId: "phrase_0866",
     text: "雕塑者是谁?",
-    transcription: "Дяосучжэ ши шуй?"
+    transcription: "diāo sù zhě shì shuí?"
   },
   {
     phraseId: "phrase_0867",
     text: "这座建筑物是什么?",
-    transcription: "Чжэцзо цзяньчжуу ши шэньмэ?"
+    transcription: "zhè zuò jiàn zhù wù shì shén me?"
   },
   {
     phraseId: "phrase_0868",
     text: "它是在何时建成的?",
-    transcription: "Та ши цзай хэши цзяньчэндэ?"
+    transcription: "tā shì zài hé shí jiàn chéng de?"
   },
   {
     phraseId: "phrase_0869",
     text: "建筑师是谁?",
-    transcription: "Цзяньчжуши ши шуй?"
+    transcription: "jiàn zhù shī shì shuí?"
   },
   {
     phraseId: "phrase_0870",
     text: "谁在这座房子里主过?",
-    transcription: "Шуй цзай чжэцзо фанцзыли чжуго?"
+    transcription: "shuí zài zhè zuò fáng zi lǐ zhǔ guò?"
   },
   {
     phraseId: "phrase_0871",
     text: "请告诉我,怎样到…去?",
-    transcription: "Цин гаосу во, цзэньян дао…цюй?"
+    transcription: "qǐng gào sù wǒ, zěn yàng dào… qù?"
   },
   {
     phraseId: "phrase_0872",
     text: "…街",
-    transcription: "…цзе"
+    transcription: "… jiē"
   },
   {
     phraseId: "phrase_0873",
     text: "…广场",
-    transcription: "…гуаньчан"
+    transcription: "… guǎng chǎng"
   },
   {
     phraseId: "phrase_0874",
     text: "附近有…吗?",
-    transcription: "Фуцзинь ю…ма?"
+    transcription: "fù jìn yǒu… ma?"
   },
   {
     phraseId: "phrase_0875",
     text: "东正教教堂",
-    transcription: "Дунчжэнцзяо цзяотан"
+    transcription: "dōng zhèng jiào jiào táng"
   },
   {
     phraseId: "phrase_0876",
     text: "陆德派新教教堂",
-    transcription: "Лудэпай синьцзяо цзяотан"
+    transcription: "lù dé pài xīn jiào jiào táng"
   },
   {
     phraseId: "phrase_0877",
     text: "天主教教堂",
-    transcription: "Тяньчжуцзяо цзяотан"
+    transcription: "tiān zhǔ jiào jiào táng"
   },
   {
     phraseId: "phrase_0878",
     text: "犹太教教堂",
-    transcription: "Ютайцзяо цзяотан"
+    transcription: "yóu tài jiào jiào táng"
   },
   {
     phraseId: "phrase_0879",
     text: "清真寺",
-    transcription: "Цин чжэньсы"
+    transcription: "qīng zhēn sì"
   },
   {
     phraseId: "phrase_0880",
     text: "从这里到市中心远吗?",
-    transcription: "Цун чжэли дао шичжунсинь юань ма?"
+    transcription: "cóng zhè lǐ dào shì zhōng xīn yuǎn ma?"
   },
   {
     phraseId: "phrase_0881",
@@ -4411,6466 +4411,6466 @@ export const chineseTranslations: LanguageTranslation[] = [
   {
     phraseId: "phrase_0882",
     text: "近",
-    transcription: "Цзинь"
+    transcription: "jìn"
   },
   {
     phraseId: "phrase_0883",
     text: "远",
-    transcription: "Юань"
+    transcription: "yuǎn"
   },
   {
     phraseId: "phrase_0884",
     text: "往右拐过弯就是",
-    transcription: "Ванъю гуайго вань цзюши"
+    transcription: "wǎng yòu guǎi guò wān jiù shì"
   },
   {
     phraseId: "phrase_0885",
     text: "向左转,然后一直走到胡同",
-    transcription: "Сянцзочжуань, жаньхоу ичжи цзоудао хутун"
+    transcription: "xiàng zuǒ zhuǎn, rán hòu yì zhí zǒu dào hú tòng"
   },
   {
     phraseId: "phrase_0886",
     text: "不很远",
-    transcription: "Бу хэнь юань"
+    transcription: "bù hěn yuǎn"
   },
   {
     phraseId: "phrase_0887",
     text: "很远",
-    transcription: "Хэнь юань"
+    transcription: "hěn yuǎn"
   },
   {
     phraseId: "phrase_0888",
     text: "就在近旁",
-    transcription: "Цзюцзай цзиньпан"
+    transcription: "jiù zài jìn páng"
   },
   {
     phraseId: "phrase_0889",
     text: "不行五分钟就到了",
-    transcription: "Бусин уфэньчжун цзюдао лэ"
+    transcription: "bù xíng wǔ fēn zhōng jiù dào le"
   },
   {
     phraseId: "phrase_0890",
     text: "我很想…",
-    transcription: "Во хэнь сян…"
+    transcription: "wǒ hěn xiǎng…"
   },
   {
     phraseId: "phrase_0891",
     text: "在河上沿河游览",
-    transcription: "Цзай хэшан яньхэ юлань"
+    transcription: "zài hé shàng yán hé yóu lǎn"
   },
   {
     phraseId: "phrase_0892",
     text: "在海上游览",
-    transcription: "Цзай хайшан юлань"
+    transcription: "zài hǎi shàng yóu lǎn"
   },
   {
     phraseId: "phrase_0893",
     text: "最近一般…何时开?",
-    transcription: "Цзуйцзинь ибань…хэши кай?"
+    transcription: "zuì jìn yì bān… hé shí kāi?"
   },
   {
     phraseId: "phrase_0894",
     text: "游艇",
-    transcription: "Ютин"
+    transcription: "yóu tǐng"
   },
   {
     phraseId: "phrase_0895",
     text: "轮船",
-    transcription: "Луньчуань"
+    transcription: "lún chuán"
   },
   {
     phraseId: "phrase_0896",
     text: "乘船航行多久?",
-    transcription: "Чэнчуань хансин доцзю?"
+    transcription: "chéng chuán háng xíng duō jiǔ?"
   },
   {
     phraseId: "phrase_0897",
     text: "码头在哪里?",
-    transcription: "Матоу цзай нали?"
+    transcription: "mǎ tóu zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0898",
     text: "售票处在哪里?",
-    transcription: "Шоупяочу цзай нали?"
+    transcription: "shòu piào chù zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0899",
     text: "到…去我走得对吗?",
-    transcription: "Дао…цюй во цзоудэ дуй ма?"
+    transcription: "dào… qù wǒ zǒu dé duì ma?"
   },
   {
     phraseId: "phrase_0900",
     text: "剧院",
-    transcription: "Цзююань"
+    transcription: "jù yuàn"
   },
   {
     phraseId: "phrase_0901",
     text: "博物馆",
-    transcription: "Богугуань"
+    transcription: "bó wù guǎn"
   },
   {
     phraseId: "phrase_0902",
     text: "动物园",
-    transcription: "Дунъуюань"
+    transcription: "dòng wù yuán"
   },
   {
     phraseId: "phrase_0903",
     text: "我是外国人, 不知道城市. 你能帮助我找到…吗?",
-    transcription: "Во ши вайгожэнь, бу чжидао чэнши. Ни нэн банчжу во чжаодао…ма?"
+    transcription: "wǒ shì wài guó rén, bù zhī dào chéng shì. nǐ néng bāng zhù wǒ zhǎo dào… ma?"
   },
   {
     phraseId: "phrase_0904",
     text: "我迷路了,请帮助我!",
-    transcription: "Во милу лэ, цин банчжу во!"
+    transcription: "wǒ mí lù le, qǐng bāng zhù wǒ!"
   },
   {
     phraseId: "phrase_0905",
     text: "请在城市地图上指给我看, 现在我在哪里?",
-    transcription: "Цин цзай чэнши дитушан чжигэй во кань, сяньцзай во цзай нали?"
+    transcription: "qǐng zài chéng shì dì tú shàng zhǐ gěi wǒ kàn, xiàn zài wǒ zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0906",
     text: "请原谅,附近有…吗?",
-    transcription: "Цин юаньлян, фуцзинь ю…ма?"
+    transcription: "qǐng yuán liàng, fù jìn yǒu… ma?"
   },
   {
     phraseId: "phrase_0907",
     text: "邮局",
-    transcription: "Юцзюй"
+    transcription: "yóu jú"
   },
   {
     phraseId: "phrase_0908",
     text: "旅馆",
-    transcription: "Люйгуань"
+    transcription: "lǚ guǎn"
   },
   {
     phraseId: "phrase_0909",
     text: "厕所",
-    transcription: "Цесо"
+    transcription: "cè suǒ"
   },
   {
     phraseId: "phrase_0910",
     text: "怎么样到…旅馆?",
-    transcription: "Цзэньмэян дао…люйгуань?"
+    transcription: "zěn me yàng dào… lǚ guǎn?"
   },
   {
     phraseId: "phrase_0911",
     text: "最近的…在哪里?",
-    transcription: "Цзуйцзиньдэ…цзай нали?"
+    transcription: "zuì jìn de… zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_0912",
     text: "无轨电车站",
-    transcription: "Угуйдяньчэ чжань"
+    transcription: "wú guǐ diàn chē zhàn"
   },
   {
     phraseId: "phrase_0913",
     text: "有轨电车站",
-    transcription: "Югуйдяньчэ чжань"
+    transcription: "yǒu guǐ diàn chē zhàn"
   },
   {
     phraseId: "phrase_0914",
     text: "地铁站",
-    transcription: "Дитхэ чжань"
+    transcription: "dì tiě zhàn"
   },
   {
     phraseId: "phrase_0915",
     text: "出租汽车站",
-    transcription: "Чуцзуцичэ чжань"
+    transcription: "chū zū qì chē zhàn"
   },
   {
     phraseId: "phrase_0916",
     text: "我要去…",
-    transcription: "Во яо цюй…"
+    transcription: "wǒ yào qù…"
   },
   {
     phraseId: "phrase_0917",
     text: "怎么办法可以去…?",
-    transcription: "Цзэньмэ баньфа кэй цюй…?"
+    transcription: "zěn me bàn fǎ kě yǐ qù…?"
   },
   {
     phraseId: "phrase_0918",
     text: "市中心",
-    transcription: "Ши чжунсинь"
+    transcription: "shì zhōng xīn"
   },
   {
     phraseId: "phrase_0919",
     text: "旅馆",
-    transcription: "Люйгуань"
+    transcription: "lǚ guǎn"
   },
   {
     phraseId: "phrase_0920",
     text: "广场",
-    transcription: "Гуаньчан"
+    transcription: "guǎng chǎng"
   },
   {
     phraseId: "phrase_0921",
     text: "火车站",
-    transcription: "Хочэчжань"
+    transcription: "huǒ chē zhàn"
   },
   {
     phraseId: "phrase_0922",
     text: "机场",
-    transcription: "Цзичан"
+    transcription: "jī chǎng"
   },
   {
     phraseId: "phrase_0923",
     text: "剧院",
-    transcription: "Цзююань"
+    transcription: "jù yuàn"
   },
   {
     phraseId: "phrase_0924",
     text: "体育场",
-    transcription: "Тиюйчан"
+    transcription: "tǐ yù chǎng"
   },
   {
     phraseId: "phrase_0925",
     text: "商店",
-    transcription: "Шандянь"
+    transcription: "shāng diàn"
   },
   {
     phraseId: "phrase_0926",
     text: "我要座几站?",
-    transcription: "Во яо цзо цзи чжань?"
+    transcription: "wǒ yào zuò jǐ zhàn?"
   },
   {
     phraseId: "phrase_0927",
     text: "这…到哪儿去?",
-    transcription: "Чжэ…дао нар цюй?"
+    transcription: "zhè… dào nǎ ér qù?"
   },
   {
     phraseId: "phrase_0928",
     text: "公共汽车",
-    transcription: "Гунгунцичэ"
+    transcription: "gōng gòng qì chē"
   },
   {
     phraseId: "phrase_0929",
     text: "无轨电车",
-    transcription: "Угуйдяньчэ"
+    transcription: "wú guǐ diàn chē"
   },
   {
     phraseId: "phrase_0930",
     text: "有轨电车",
-    transcription: "Югуйдяньчэ"
+    transcription: "yǒu guǐ diàn chē"
   },
   {
     phraseId: "phrase_0931",
     text: "这个公共汽车去…?",
-    transcription: "Чжэгэ гунгунцичэ цюй…?"
+    transcription: "zhè ge gōng gòng qì chē qù…?"
   },
   {
     phraseId: "phrase_0932",
     text: "是的,去",
-    transcription: "Шидэ, цюй"
+    transcription: "shì de, qù"
   },
   {
     phraseId: "phrase_0933",
     text: "不,不去",
-    transcription: "Бу, бу цюй"
+    transcription: "bù, bú qù"
   },
   {
     phraseId: "phrase_0934",
     text: "这个…叫什么?",
-    transcription: "Чжэгэ…цзяо шэньмэ?"
+    transcription: "zhè ge… jiào shén me?"
   },
   {
     phraseId: "phrase_0935",
     text: "车站",
-    transcription: "Чэчжань"
+    transcription: "chē zhàn"
   },
   {
     phraseId: "phrase_0936",
     text: "我应在哪里换车?",
-    transcription: "Во ин цзай нали хуаньчэ?"
+    transcription: "wǒ yìng zài nǎ lǐ huàn chē?"
   },
   {
     phraseId: "phrase_0937",
     text: "到…多少钱?",
-    transcription: "Дао…дошао цянь?"
+    transcription: "dào… duō shǎo qián?"
   },
   {
     phraseId: "phrase_0938",
     text: "下一站是哪站?",
-    transcription: "Ся ичжань ши на чжань?"
+    transcription: "xià yí zhàn shì nǎ zhàn?"
   },
   {
     phraseId: "phrase_0939",
     text: "下站你下车吗?",
-    transcription: "Ся чжань ни ся чэ ма?"
+    transcription: "xià zhàn nǐ xià chē ma?"
   },
   {
     phraseId: "phrase_0940",
     text: "请让我过去",
-    transcription: "Цин жан во гоцюй"
+    transcription: "qǐng ràng wǒ guò qù"
   },
   {
     phraseId: "phrase_0941",
     text: "这个座位空着吗？",
-    transcription: "Чжэгэ цзовэй кунчжо ма?"
+    transcription: "zhè ge zuò wèi kōng zhe ma？"
   },
   {
     phraseId: "phrase_0942",
     text: "在哪里我能买到地铁线路草图？",
-    transcription: "Цзай нали во нэн майдао дитхёсяньлу цаоту?"
+    transcription: "zài nǎ lǐ wǒ néng mǎi dào dì tiě xiàn lù cǎo tú？"
   },
   {
     phraseId: "phrase_0943",
     text: "请卖给我一张车票",
-    transcription: "Цин майгэй во ичжан чэпяо"
+    transcription: "qǐng mài gěi wǒ yì zhāng chē piào"
   },
   {
     phraseId: "phrase_0944",
     text: "打哪个电话我能顶出租车？",
-    transcription: "Да нэгэ дяньхуа во нэн дин чуцзучэ"
+    transcription: "dǎ nǎ gè diàn huà wǒ néng dǐng chū zū chē？"
   },
   {
     phraseId: "phrase_0945",
     text: "我想顶一辆出租车",
-    transcription: "Во сян дин илян чучэучэ"
+    transcription: "wǒ xiǎng dǐng yí liàng chū zū chē"
   },
   {
     phraseId: "phrase_0946",
     text: "请把我送到...",
-    transcription: "Цин ба во сундао..."
+    transcription: "qǐng bǎ wǒ sòng dào..."
   },
   {
     phraseId: "phrase_0947",
     text: "火车站",
-    transcription: "Хочэчжань"
+    transcription: "huǒ chē zhàn"
   },
   {
     phraseId: "phrase_0948",
     text: "机场",
-    transcription: "Цзичан"
+    transcription: "jī chǎng"
   },
   {
     phraseId: "phrase_0949",
     text: "旅馆",
-    transcription: "Люйгуань"
+    transcription: "lǚ guǎn"
   },
   {
     phraseId: "phrase_0950",
     text: "体育场",
-    transcription: "Тиюйчан"
+    transcription: "tǐ yù chǎng"
   },
   {
     phraseId: "phrase_0951",
     text: "这个地址",
-    transcription: "Чжэгэ дичжи"
+    transcription: "zhè ge dì zhǐ"
   },
   {
     phraseId: "phrase_0952",
     text: "乘车到...得多么久？",
-    transcription: "Чэнчэ дао... дэй домо цзю?"
+    transcription: "chéng chē dào... dé duō me jiǔ？"
   },
   {
     phraseId: "phrase_0953",
     text: "这个多少钱？",
-    transcription: "Чжэгэ дошао цянь?"
+    transcription: "zhè ge duō shǎo qián？"
   },
   {
     phraseId: "phrase_0954",
     text: "请快一点",
-    transcription: "Цин куай идянь"
+    transcription: "qǐng kuài yì diǎn"
   },
   {
     phraseId: "phrase_0955",
     text: "请在这里停车",
-    transcription: "Цин цзай чжэли тинчэ"
+    transcription: "qǐng zài zhè lǐ tíng chē"
   },
   {
     phraseId: "phrase_0956",
     text: "到了",
-    transcription: "Даолэ"
+    transcription: "dào le"
   },
   {
     phraseId: "phrase_0957",
     text: "收我多少车钱？",
-    transcription: "Шоу во дошао чэцянь?"
+    transcription: "shōu wǒ duō shǎo chē qián？"
   },
   {
     phraseId: "phrase_0958",
     text: "请吧! 不必找零钱",
-    transcription: "Цинба! Буби чжао линцянь"
+    transcription: "qǐng ba! bú bì zhǎo líng qián"
   },
   {
     phraseId: "phrase_0959",
     text: "公共汽车",
-    transcription: "Гунгун цичэ"
+    transcription: "gōng gòng qì chē"
   },
   {
     phraseId: "phrase_0960",
     text: "机场",
-    transcription: "Цзичан"
+    transcription: "jī chǎng"
   },
   {
     phraseId: "phrase_0961",
     text: "市场",
-    transcription: "Шичан"
+    transcription: "shì chǎng"
   },
   {
     phraseId: "phrase_0962",
     text: "医院",
-    transcription: "Июань"
+    transcription: "yī yuàn"
   },
   {
     phraseId: "phrase_0963",
     text: "切心花园",
-    transcription: "Цесиньхуаюань"
+    transcription: "qiè xīn huā yuán"
   },
   {
     phraseId: "phrase_0964",
     text: "司机",
-    transcription: "Сыцзи"
+    transcription: "sī jī"
   },
   {
     phraseId: "phrase_0965",
     text: "展览会",
-    transcription: "Чжаньляньхуй"
+    transcription: "zhǎn lǎn huì"
   },
   {
     phraseId: "phrase_0966",
     text: "导游员",
-    transcription: "Даоююань"
+    transcription: "dǎo yóu yuán"
   },
   {
     phraseId: "phrase_0967",
     text: "中学",
-    transcription: "Чжунсюэ"
+    transcription: "zhōng xué"
   },
   {
     phraseId: "phrase_0968",
     text: "散步",
-    transcription: "Саньбу"
+    transcription: "sàn bù"
   },
   {
     phraseId: "phrase_0969",
     text: "宫",
-    transcription: "Гун"
+    transcription: "gōng"
   },
   {
     phraseId: "phrase_0970",
     text: "房子",
-    transcription: "Фанцзы"
+    transcription: "fáng zi"
   },
   {
     phraseId: "phrase_0971",
     text: "工厂",
-    transcription: "Гунчан"
+    transcription: "gōng chǎng"
   },
   {
     phraseId: "phrase_0972",
     text: "城堡",
-    transcription: "Чэнбао"
+    transcription: "chéng bǎo"
   },
   {
     phraseId: "phrase_0973",
     text: "道路",
-    transcription: "Далоу"
+    transcription: "dào lù"
   },
   {
     phraseId: "phrase_0974",
     text: "动物园",
-    transcription: "Дунуюань"
+    transcription: "dòng wù yuán"
   },
   {
     phraseId: "phrase_0975",
     text: "大教堂",
-    transcription: "Дацзяотан"
+    transcription: "dà jiào táng"
   },
   {
     phraseId: "phrase_0976",
     text: "街区",
-    transcription: "Цзецю"
+    transcription: "jiē qū"
   },
   {
     phraseId: "phrase_0977",
     text: "电影院",
-    transcription: "Дяньинюань"
+    transcription: "diàn yǐng yuàn"
   },
   {
     phraseId: "phrase_0978",
     text: "售货亭",
-    transcription: "Шоухотин"
+    transcription: "shòu huò tíng"
   },
   {
     phraseId: "phrase_0979",
     text: "陵园",
-    transcription: "Линюань"
+    transcription: "líng yuán"
   },
   {
     phraseId: "phrase_0980",
     text: "音乐学院",
-    transcription: "Иньюэ сюэюань"
+    transcription: "yīn yuè xué yuàn"
   },
   {
     phraseId: "phrase_0981",
     text: "阴雨听",
-    transcription: "Иньюэтин"
+    transcription: "yīn yǔ tīng"
   },
   {
     phraseId: "phrase_0982",
     text: "堡里",
-    transcription: "Баоли"
+    transcription: "bǎo lǐ"
   },
   {
     phraseId: "phrase_0983",
     text: "商店",
-    transcription: "Шандянь"
+    transcription: "shāng diàn"
   },
   {
     phraseId: "phrase_0984",
     text: "纪念碑",
-    transcription: "Цзиняньбэй"
+    transcription: "jì niàn bēi"
   },
   {
     phraseId: "phrase_0985",
     text: "地铁",
-    transcription: "Дитхё"
+    transcription: "dì tiě"
   },
   {
     phraseId: "phrase_0986",
     text: "纪念项",
-    transcription: "Цзиняньсян"
+    transcription: "jì niàn xiàng"
   },
   {
     phraseId: "phrase_0987",
     text: "乔",
-    transcription: "Цяо"
+    transcription: "qiáo"
   },
   {
     phraseId: "phrase_0988",
     text: "博物馆",
-    transcription: "Боугуань"
+    transcription: "bó wù guǎn"
   },
   {
     phraseId: "phrase_0989",
     text: "音乐厅",
-    transcription: "Иньюэтин"
+    transcription: "yīn yuè tīng"
   },
   {
     phraseId: "phrase_0990",
     text: "沿河路",
-    transcription: "Яньхэлу"
+    transcription: "yán hé lù"
   },
   {
     phraseId: "phrase_0991",
     text: "门牌号",
-    transcription: "Мэньпайхао"
+    transcription: "mén pái hào"
   },
   {
     phraseId: "phrase_0992",
     text: "湖",
-    transcription: "Ху"
+    transcription: "hú"
   },
   {
     phraseId: "phrase_0993",
     text: "歌剧院",
-    transcription: "Гэцзюйюань"
+    transcription: "gē jù yuàn"
   },
   {
     phraseId: "phrase_0994",
     text: "车站",
-    transcription: "Чэчжань"
+    transcription: "chē zhàn"
   },
   {
     phraseId: "phrase_0995",
     text: "纪念碑",
-    transcription: "Цзиняньбэй"
+    transcription: "jì niàn bēi"
   },
   {
     phraseId: "phrase_0996",
     text: "公园",
-    transcription: "Гунъюань"
+    transcription: "gōng yuán"
   },
   {
     phraseId: "phrase_0997",
     text: "十字路口",
-    transcription: "Шицзылукоу"
+    transcription: "shí zì lù kǒu"
   },
   {
     phraseId: "phrase_0998",
     text: "小巷",
-    transcription: "Сяосян"
+    transcription: "xiǎo xiàng"
   },
   {
     phraseId: "phrase_0999",
     text: "不行过道",
-    transcription: "Бусингодао"
+    transcription: "bù xíng guò dào"
   },
   {
     phraseId: "phrase_1000",
     text: "过街",
-    transcription: "Го цзе"
+    transcription: "guò jiē"
   },
   {
     phraseId: "phrase_1001",
     text: "不行的人",
-    transcription: "Бусиндэ жэнь"
+    transcription: "bù xíng de rén"
   },
   {
     phraseId: "phrase_1002",
     text: "不行区",
-    transcription: "Бусинцюй"
+    transcription: "bù xíng qū"
   },
   {
     phraseId: "phrase_1003",
     text: "天文馆",
-    transcription: "Тяньвэньгуань"
+    transcription: "tiān wén guǎn"
   },
   {
     phraseId: "phrase_1004",
     text: "广场",
-    transcription: "Гуанчан"
+    transcription: "guǎng chǎng"
   },
   {
     phraseId: "phrase_1005",
     text: "警察",
-    transcription: "Цзинча"
+    transcription: "jǐng chá"
   },
   {
     phraseId: "phrase_1006",
     text: "港口",
-    transcription: "Ганкоу"
+    transcription: "gǎng kǒu"
   },
   {
     phraseId: "phrase_1007",
     text: "邮局",
-    transcription: "Юцзюй"
+    transcription: "yóu jú"
   },
   {
     phraseId: "phrase_1008",
     text: "市郊",
-    transcription: "Шицзяо"
+    transcription: "shì jiāo"
   },
   {
     phraseId: "phrase_1009",
     text: "码头",
-    transcription: "Матоу"
+    transcription: "mǎ tóu"
   },
   {
     phraseId: "phrase_1010",
     text: "散步",
-    transcription: "Саньбу"
+    transcription: "sàn bù"
   },
   {
     phraseId: "phrase_1011",
     text: "游艇",
-    transcription: "Ютин"
+    transcription: "yóu tǐng"
   },
   {
     phraseId: "phrase_1012",
     text: "胡同",
-    transcription: "Хутун"
+    transcription: "hú tòng"
   },
   {
     phraseId: "phrase_1013",
     text: "大街",
-    transcription: "Дацзе"
+    transcription: "dà jiē"
   },
   {
     phraseId: "phrase_1014",
     text: "池塘",
-    transcription: "Читан"
+    transcription: "chí táng"
   },
   {
     phraseId: "phrase_1015",
     text: "区",
-    transcription: "Цюй"
+    transcription: "qū"
   },
   {
     phraseId: "phrase_1016",
     text: "交通警",
-    transcription: "Цзяотунцзин"
+    transcription: "jiāo tōng jǐng"
   },
   {
     phraseId: "phrase_1017",
     text: "市场",
-    transcription: "Шичан"
+    transcription: "shì chǎng"
   },
   {
     phraseId: "phrase_1018",
     text: "花园",
-    transcription: "Хуаюань"
+    transcription: "huā yuán"
   },
   {
     phraseId: "phrase_1019",
     text: "红绿灯",
-    transcription: "Хунлюйдэн"
+    transcription: "hóng lǜ dēng"
   },
   {
     phraseId: "phrase_1020",
     text: "雕塑品",
-    transcription: "Дяосупинь"
+    transcription: "diāo sù pǐn"
   },
   {
     phraseId: "phrase_1021",
     text: "教堂",
-    transcription: "Цзяотан"
+    transcription: "jiào táng"
   },
   {
     phraseId: "phrase_1022",
     text: "体育场",
-    transcription: "Тиюйчан"
+    transcription: "tǐ yù chǎng"
   },
   {
     phraseId: "phrase_1023",
     text: "超级商店",
-    transcription: "Чаоцзишандянь"
+    transcription: "chāo jí shāng diàn"
   },
   {
     phraseId: "phrase_1024",
     text: "出租车",
-    transcription: "Чуцзучэ"
+    transcription: "chū zū chē"
   },
   {
     phraseId: "phrase_1025",
     text: "剧院",
-    transcription: "Цзюйюань"
+    transcription: "jù yuàn"
   },
   {
     phraseId: "phrase_1026",
     text: "贸易中心",
-    transcription: "Маои чжунсинь"
+    transcription: "mào yì zhōng xīn"
   },
   {
     phraseId: "phrase_1027",
     text: "有轨电车",
-    transcription: "Югуйдяньчэ"
+    transcription: "yǒu guǐ diàn chē"
   },
   {
     phraseId: "phrase_1028",
     text: "无轨电车",
-    transcription: "Угуйдяньчэ"
+    transcription: "wú guǐ diàn chē"
   },
   {
     phraseId: "phrase_1029",
     text: "行人道",
-    transcription: "Синжэньдао"
+    transcription: "xíng rén dào"
   },
   {
     phraseId: "phrase_1030",
     text: "厕所",
-    transcription: "Цэсо"
+    transcription: "cè suǒ"
   },
   {
     phraseId: "phrase_1031",
     text: "街",
-    transcription: "Цзе"
+    transcription: "jiē"
   },
   {
     phraseId: "phrase_1032",
     text: "百货商店",
-    transcription: "Байхошандянь"
+    transcription: "bǎi huò shāng diàn"
   },
   {
     phraseId: "phrase_1033",
     text: "大学",
-    transcription: "Дасюэ"
+    transcription: "dà xué"
   },
   {
     phraseId: "phrase_1034",
     text: "工厂",
-    transcription: "Гунчан"
+    transcription: "gōng chǎng"
   },
   {
     phraseId: "phrase_1035",
     text: "寺庙",
-    transcription: "Сымяо"
+    transcription: "sì miào"
   },
   {
     phraseId: "phrase_1036",
     text: "中心",
-    transcription: "Чжунсинь"
+    transcription: "zhōng xīn"
   },
   {
     phraseId: "phrase_1037",
     text: "教堂",
-    transcription: "Цзяотан"
+    transcription: "jiào táng"
   },
   {
     phraseId: "phrase_1038",
     text: "游览",
-    transcription: "Юлань"
+    transcription: "yóu lǎn"
   },
   {
     phraseId: "phrase_1039",
     text: "展销会",
-    transcription: "Чжаньсяохуй"
+    transcription: "zhǎn xiāo huì"
   },
   {
     phraseId: "phrase_1040",
     text: "我要买些东西",
-    transcription: "Во яо майсе дунси"
+    transcription: "wǒ yào mǎi xiē dōng xī"
   },
   {
     phraseId: "phrase_1041",
     text: "我想买礼品",
-    transcription: "Во сян май липинь"
+    transcription: "wǒ xiǎng mǎi lǐ pǐn"
   },
   {
     phraseId: "phrase_1042",
     text: "...在哪里？",
-    transcription: "...цзай нали?"
+    transcription: "... zài nǎ lǐ？"
   },
   {
     phraseId: "phrase_1043",
     text: "贸易中心",
-    transcription: "Маои чжунсинь"
+    transcription: "mào yì zhōng xīn"
   },
   {
     phraseId: "phrase_1044",
     text: "超级商店",
-    transcription: "Чаоцзишичан"
+    transcription: "chāo jí shāng diàn"
   },
   {
     phraseId: "phrase_1045",
     text: "市场",
-    transcription: "Шичан"
+    transcription: "shì chǎng"
   },
   {
     phraseId: "phrase_1046",
     text: "百货商店",
-    transcription: "Байхо шандянь"
+    transcription: "bǎi huò shāng diàn"
   },
   {
     phraseId: "phrase_1047",
     text: "食品商店",
-    transcription: "Шипинь шандянь"
+    transcription: "shí pǐn shāng diàn"
   },
   {
     phraseId: "phrase_1048",
     text: "书店",
-    transcription: "Шудянь"
+    transcription: "shū diàn"
   },
   {
     phraseId: "phrase_1049",
     text: "商店何时开门？",
-    transcription: "Шандянь хэши кай мэнь?"
+    transcription: "shāng diàn hé shí kāi mén？"
   },
   {
     phraseId: "phrase_1050",
     text: "商店何时关门？",
-    transcription: "Шандянь хэши гуаньмэнь?"
+    transcription: "shāng diàn hé shí guān mén？"
   },
   {
     phraseId: "phrase_1051",
     text: "我要买...",
-    transcription: "Во яо май..."
+    transcription: "wǒ yào mǎi..."
   },
   {
     phraseId: "phrase_1052",
     text: "我需要...",
-    transcription: "Во сюйяо..."
+    transcription: "wǒ xū yào..."
   },
   {
     phraseId: "phrase_1053",
     text: "在哪里我能买...？",
-    transcription: "Цзай нали во нэн май...?"
+    transcription: "zài nǎ lǐ wǒ néng mǎi...？"
   },
   {
     phraseId: "phrase_1054",
     text: "这是多少钱？",
-    transcription: "Чжэши дошао цянь?"
+    transcription: "zhè shì duō shǎo qián？"
   },
   {
     phraseId: "phrase_1055",
     text: "我能用信用卡付款吗？",
-    transcription: "Во нэн юн синьюнка фукуань ма?"
+    transcription: "wǒ néng yòng xìn yòng kǎ fù kuǎn ma？"
   },
   {
     phraseId: "phrase_1056",
     text: "请给我...",
-    transcription: "Цин гэй во..."
+    transcription: "qǐng gěi wǒ..."
   },
   {
     phraseId: "phrase_1057",
     text: "你们有...吗？",
-    transcription: "Нимэнь ю... ма?"
+    transcription: "nǐ men yǒu... ma？"
   },
   {
     phraseId: "phrase_1058",
     text: "可以看看吗？",
-    transcription: "Кэй каньань ма?"
+    transcription: "kě yǐ kàn kàn ma？"
   },
   {
     phraseId: "phrase_1059",
     text: "可以试一试吗？",
-    transcription: "Кэй шиыши ма?"
+    transcription: "kě yǐ shì yi shì ma？"
   },
   {
     phraseId: "phrase_1060",
     text: "这是多少尺寸？",
-    transcription: "Чжэши дошао чицунь?"
+    transcription: "zhè shì duō shǎo chǐ cùn？"
   },
   {
     phraseId: "phrase_1061",
     text: "劳驾! 请把...拿给我看看",
-    transcription: "Лаоцзя! Цин ба...нагэй во каньань"
+    transcription: "láo jià! qǐng bǎ... ná gěi wǒ kàn kàn"
   },
   {
     phraseId: "phrase_1062",
     text: "对我来说, 这...",
-    transcription: "Дуйво лайшо, чжэ..."
+    transcription: "duì wǒ lái shuō, zhè..."
   },
   {
     phraseId: "phrase_1063",
     text: "大",
-    transcription: "Да"
+    transcription: "dà"
   },
   {
     phraseId: "phrase_1064",
     text: "小",
-    transcription: "Сяо"
+    transcription: "xiǎo"
   },
   {
     phraseId: "phrase_1065",
     text: "腓",
-    transcription: "Фэй"
+    transcription: "féi"
   },
   {
     phraseId: "phrase_1066",
     text: "瘦",
-    transcription: "Шоу"
+    transcription: "shòu"
   },
   {
     phraseId: "phrase_1067",
     text: "长",
-    transcription: "Чан"
+    transcription: "cháng"
   },
   {
     phraseId: "phrase_1068",
     text: "短",
-    transcription: "Дуань"
+    transcription: "duǎn"
   },
   {
     phraseId: "phrase_1069",
     text: "正合适",
-    transcription: "Чжэн хэши"
+    transcription: "zhèng hé shì"
   },
   {
     phraseId: "phrase_1070",
     text: "这种颜色对我不合适",
-    transcription: "Чжэчжун яньсэ дуйво бухэши"
+    transcription: "zhè zhǒng yán sè duì wǒ bù hé shì"
   },
   {
     phraseId: "phrase_1071",
     text: "我需要别的颜色",
-    transcription: "Во сюйяо бэдэ яньсэ"
+    transcription: "wǒ xū yào bié de yán sè"
   },
   {
     phraseId: "phrase_1072",
     text: "我想要同样的, 但是别的颜色的",
-    transcription: "Во сянао туньяндэ, даньши бэдэ яньсэдэ"
+    transcription: "wǒ xiǎng yào tóng yàng de, dàn shì bié de yán sè de"
   },
   {
     phraseId: "phrase_1073",
     text: "我买这个",
-    transcription: "Во май чжэгэ"
+    transcription: "wǒ mǎi zhè ge"
   },
   {
     phraseId: "phrase_1074",
     text: "我该付多少钱？",
-    transcription: "Во гай фу дошао цянь?"
+    transcription: "wǒ gāi fù duō shǎo qián？"
   },
   {
     phraseId: "phrase_1075",
     text: "这个东西保修吗？",
-    transcription: "Чжэгэ дунси баосю ма?"
+    transcription: "zhè ge dōng xī bǎo xiū ma？"
   },
   {
     phraseId: "phrase_1076",
     text: "一公斤多少钱？",
-    transcription: "И гунцзинь дошао цянь?"
+    transcription: "yì gōng jīn duō shǎo qián？"
   },
   {
     phraseId: "phrase_1077",
     text: "...部在哪里？",
-    transcription: "...бу цзай нали?"
+    transcription: "... bù zài nǎ lǐ？"
   },
   {
     phraseId: "phrase_1078",
     text: "玩具",
-    transcription: "Ваньцзюй"
+    transcription: "wán jù"
   },
   {
     phraseId: "phrase_1079",
     text: "照相器材",
-    transcription: "Чжаосян цицай"
+    transcription: "zhào xiàng qì cái"
   },
   {
     phraseId: "phrase_1080",
     text: "服装",
-    transcription: "Фучжуан"
+    transcription: "fú zhuāng"
   },
   {
     phraseId: "phrase_1081",
     text: "鞋",
-    transcription: "Се"
+    transcription: "xié"
   },
   {
     phraseId: "phrase_1082",
     text: "哪层楼卖...？",
-    transcription: "На цэнлоу май...?"
+    transcription: "nǎ céng lóu mài...？"
   },
   {
     phraseId: "phrase_1083",
     text: "妇女用品",
-    transcription: "Фунюй юнпинь"
+    transcription: "fù nǚ yòng pǐn"
   },
   {
     phraseId: "phrase_1084",
     text: "男人用品",
-    transcription: "Наньжэнь юнпинь"
+    transcription: "nán rén yòng pǐn"
   },
   {
     phraseId: "phrase_1085",
     text: "体育用品",
-    transcription: "Тиюй юнпинь"
+    transcription: "tǐ yù yòng pǐn"
   },
   {
     phraseId: "phrase_1086",
     text: "日用品",
-    transcription: "Жиюнпинь"
+    transcription: "rì yòng pǐn"
   },
   {
     phraseId: "phrase_1087",
     text: "交款处",
-    transcription: "Цзяокуаньчу"
+    transcription: "jiāo kuǎn chù"
   },
   {
     phraseId: "phrase_1088",
     text: "入口",
-    transcription: "Жукоу"
+    transcription: "rù kǒu"
   },
   {
     phraseId: "phrase_1089",
     text: "出口",
-    transcription: "Чукоу"
+    transcription: "chū kǒu"
   },
   {
     phraseId: "phrase_1090",
     text: "试衣间",
-    transcription: "Шия цзянь"
+    transcription: "shì yī jiān"
   },
   {
     phraseId: "phrase_1091",
     text: "电梯",
-    transcription: "Дяньти"
+    transcription: "diàn tī"
   },
   {
     phraseId: "phrase_1092",
     text: "升降梯",
-    transcription: "Шэнцзянти"
+    transcription: "shēng jiàng tī"
   },
   {
     phraseId: "phrase_1093",
     text: "楼梯",
-    transcription: "Лоути"
+    transcription: "lóu tī"
   },
   {
     phraseId: "phrase_1094",
     text: "这个东西多少钱？",
-    transcription: "Чжэгэ дунси дошао цянь?"
+    transcription: "zhè ge dōng xī duō shǎo qián？"
   },
   {
     phraseId: "phrase_1095",
     text: "这是贵了",
-    transcription: "Чжэши гуйлэ"
+    transcription: "zhè shì guì le"
   },
   {
     phraseId: "phrase_1096",
     text: "这是便宜",
-    transcription: "Чжэши пяньи"
+    transcription: "zhè shì pián yi"
   },
   {
     phraseId: "phrase_1097",
     text: "你能给我打折吗？",
-    transcription: "Ни нэн гэй во дачжэ ма?"
+    transcription: "nǐ néng gěi wǒ dǎ zhé ma？"
   },
   {
     phraseId: "phrase_1098",
     text: "请写一下价格",
-    transcription: "Цин се ися цзягэ"
+    transcription: "qǐng xiě yí xià jià gé"
   },
   {
     phraseId: "phrase_1099",
     text: "请包一下",
-    transcription: "Цин бао ися"
+    transcription: "qǐng bāo yí xià"
   },
   {
     phraseId: "phrase_1100",
     text: "那里卖纪念品？",
-    transcription: "Нали май цзинянь пинь?"
+    transcription: "nà lǐ mài jì niàn pǐn？"
   },
   {
     phraseId: "phrase_1101",
     text: "请帮助我选择送给...的礼物",
-    transcription: "Цин банчжу во сюаньцзэ сунгэй...дэ лиу"
+    transcription: "qǐng bāng zhù wǒ xuǎn zé sòng gěi... de lǐ wù"
   },
   {
     phraseId: "phrase_1102",
     text: "妇女",
-    transcription: "Фунюй"
+    transcription: "fù nǚ"
   },
   {
     phraseId: "phrase_1103",
     text: "年轻的姑娘",
-    transcription: "Няньциндэ гунян"
+    transcription: "nián qīng de gū niáng"
   },
   {
     phraseId: "phrase_1104",
     text: "男人",
-    transcription: "Наньжэнь"
+    transcription: "nán rén"
   },
   {
     phraseId: "phrase_1105",
     text: "小孩子",
-    transcription: "Сяохайцзы"
+    transcription: "xiǎo hái zi"
   },
   {
     phraseId: "phrase_1106",
     text: "您能想我推荐什么？",
-    transcription: "Нинь нэн сян во туйцзянь шэньмэ?"
+    transcription: "nín néng xiǎng wǒ tuī jiàn shén me？"
   },
   {
     phraseId: "phrase_1107",
     text: "您还能想我推荐什么？",
-    transcription: "Нинь хайнэн сян во туйцзянь шэньмэ?"
+    transcription: "nín hái néng xiǎng wǒ tuī jiàn shén me？"
   },
   {
     phraseId: "phrase_1108",
     text: "我要不很贵的礼物",
-    transcription: "Во яо бухэнь гуйдэ лиу"
+    transcription: "wǒ yào bù hěn guì de lǐ wù"
   },
   {
     phraseId: "phrase_1109",
     text: "对我来说这太贵",
-    transcription: "Дуйво лайшо чжэ тайгуй"
+    transcription: "duì wǒ lái shuō zhè tài guì"
   },
   {
     phraseId: "phrase_1110",
     text: "我对...感兴趣",
-    transcription: "Во дуй... гань синцюй"
+    transcription: "wǒ duì... gǎn xìng qù"
   },
   {
     phraseId: "phrase_1111",
     text: "我需要一大批",
-    transcription: "Во сюйяо и дапи"
+    transcription: "wǒ xū yào yí dà pī"
   },
   {
     phraseId: "phrase_1112",
     text: "衣服",
-    transcription: "Ифу"
+    transcription: "yī fu"
   },
   {
     phraseId: "phrase_1113",
     text: "内衣",
-    transcription: "Нэйи"
+    transcription: "nèi yī"
   },
   {
     phraseId: "phrase_1114",
     text: "女短衫",
-    transcription: "Нюйдуаньшань"
+    transcription: "nǚ duǎn shān"
   },
   {
     phraseId: "phrase_1115",
     text: "裤子",
-    transcription: "Куцзы"
+    transcription: "kù zǐ"
   },
   {
     phraseId: "phrase_1116",
     text: "乳罩",
-    transcription: "Жучжао"
+    transcription: "rǔ zhào"
   },
   {
     phraseId: "phrase_1117",
     text: "领带",
-    transcription: "Линдай"
+    transcription: "lǐng dài"
   },
   {
     phraseId: "phrase_1118",
     text: "长统袜",
-    transcription: "Чантунва"
+    transcription: "cháng tǒng wà"
   },
   {
     phraseId: "phrase_1119",
     text: "毛衣",
-    transcription: "Маои"
+    transcription: "máo yī"
   },
   {
     phraseId: "phrase_1120",
     text: "牛仔服",
-    transcription: "Нюцзайфу"
+    transcription: "niú zǎi fú"
   },
   {
     phraseId: "phrase_1121",
     text: "皮大衣",
-    transcription: "Пидаи"
+    transcription: "pí dà yī"
   },
   {
     phraseId: "phrase_1122",
     text: "坎肩",
-    transcription: "Каньцзянь"
+    transcription: "kǎn jiān"
   },
   {
     phraseId: "phrase_1123",
     text: "鸭舌帽",
-    transcription: "Яшэмао"
+    transcription: "yā shé mào"
   },
   {
     phraseId: "phrase_1124",
     text: "连挖苦",
-    transcription: "Ляньваку"
+    transcription: "lián wā kǔ"
   },
   {
     phraseId: "phrase_1125",
     text: "西服",
-    transcription: "Сифу"
+    transcription: "xī fú"
   },
   {
     phraseId: "phrase_1126",
     text: "游泳衣",
-    transcription: "Юнъи"
+    transcription: "yóu yǒng yī"
   },
   {
     phraseId: "phrase_1127",
     text: "上衣",
-    transcription: "Шанъи"
+    transcription: "shàng yī"
   },
   {
     phraseId: "phrase_1128",
     text: "背心",
-    transcription: "Бэйсянь"
+    transcription: "bèi xīn"
   },
   {
     phraseId: "phrase_1129",
     text: "秋皮",
-    transcription: "Цюпи"
+    transcription: "qiū pí"
   },
   {
     phraseId: "phrase_1130",
     text: "袜子",
-    transcription: "Вацзы"
+    transcription: "wà zi"
   },
   {
     phraseId: "phrase_1131",
     text: "大衣",
-    transcription: "Даи"
+    transcription: "dà yī"
   },
   {
     phraseId: "phrase_1132",
     text: "西服上衣",
-    transcription: "Сифу шанъи"
+    transcription: "xī fú shàng yī"
   },
   {
     phraseId: "phrase_1133",
     text: "游泳库",
-    transcription: "Юнку"
+    transcription: "yóu yǒng kù"
   },
   {
     phraseId: "phrase_1134",
     text: "连衣裙",
-    transcription: "Ляньицюнь"
+    transcription: "lián yī qún"
   },
   {
     phraseId: "phrase_1135",
     text: "风雨衣",
-    transcription: "Фэнъюйи"
+    transcription: "fēng yǔ yī"
   },
   {
     phraseId: "phrase_1136",
     text: "腰带",
-    transcription: "Яодай"
+    transcription: "yāo dài"
   },
   {
     phraseId: "phrase_1137",
     text: "套头衫",
-    transcription: "Таотоушань"
+    transcription: "tào tóu shān"
   },
   {
     phraseId: "phrase_1138",
     text: "衬衫",
-    transcription: "Чэньшань"
+    transcription: "chèn shān"
   },
   {
     phraseId: "phrase_1139",
     text: "运动服",
-    transcription: "Юньдунфу"
+    transcription: "yùn dòng fú"
   },
   {
     phraseId: "phrase_1140",
     text: "裤衩",
-    transcription: "Куча"
+    transcription: "kù chà"
   },
   {
     phraseId: "phrase_1141",
     text: "长衫",
-    transcription: "Чаньшань"
+    transcription: "cháng shān"
   },
   {
     phraseId: "phrase_1142",
     text: "长统袜",
-    transcription: "Чантунва"
+    transcription: "cháng tǒng wà"
   },
   {
     phraseId: "phrase_1143",
     text: "围巾",
-    transcription: "Вэйцзинь"
+    transcription: "wéi jīn"
   },
   {
     phraseId: "phrase_1144",
     text: "礼帽",
-    transcription: "Лимао"
+    transcription: "lǐ mào"
   },
   {
     phraseId: "phrase_1145",
     text: "裘皮大衣",
-    transcription: "Цюпидаи"
+    transcription: "qiú pí dà yī"
   },
   {
     phraseId: "phrase_1146",
     text: "裙子",
-    transcription: "Цюньцзы"
+    transcription: "qún zǐ"
   },
   {
     phraseId: "phrase_1147",
     text: "鞋",
-    transcription: "Се"
+    transcription: "xié"
   },
   {
     phraseId: "phrase_1148",
     text: "凉鞋",
-    transcription: "Лянсе"
+    transcription: "liáng xié"
   },
   {
     phraseId: "phrase_1149",
     text: "皮鞋",
-    transcription: "Писе"
+    transcription: "pí xié"
   },
   {
     phraseId: "phrase_1150",
     text: "鞋油",
-    transcription: "Сею"
+    transcription: "xié yóu"
   },
   {
     phraseId: "phrase_1151",
     text: "越野鞋",
-    transcription: "Юэесе"
+    transcription: "yuè yě xié"
   },
   {
     phraseId: "phrase_1152",
     text: "凉鞋",
-    transcription: "Лянсе"
+    transcription: "liáng xié"
   },
   {
     phraseId: "phrase_1153",
     text: "皮靴",
-    transcription: "Писюэ"
+    transcription: "pí xuē"
   },
   {
     phraseId: "phrase_1154",
     text: "平地便鞋",
-    transcription: "Пинди бяньсе"
+    transcription: "píng dì biàn xié"
   },
   {
     phraseId: "phrase_1155",
     text: "便鞋",
-    transcription: "Бяньсе"
+    transcription: "biàn xié"
   },
   {
     phraseId: "phrase_1156",
     text: "鞋刷",
-    transcription: "Сешуа"
+    transcription: "xié shuā"
   },
   {
     phraseId: "phrase_1157",
     text: "日用小百货, 化妆品",
-    transcription: "Жиюнсяобайхо, хуачжуанпинь"
+    transcription: "rì yòng xiǎo bǎi huò, huà zhuāng pǐn"
   },
   {
     phraseId: "phrase_1158",
     text: "刮脸刀",
-    transcription: "Гуаляньдао"
+    transcription: "guā liǎn dāo"
   },
   {
     phraseId: "phrase_1159",
     text: "除狐臭剂",
-    transcription: "Чухучоуцзи"
+    transcription: "chú hú chòu jì"
   },
   {
     phraseId: "phrase_1160",
     text: "香水",
-    transcription: "Сяншуй"
+    transcription: "xiāng shuǐ"
   },
   {
     phraseId: "phrase_1161",
     text: "发卡",
-    transcription: "Фацзя"
+    transcription: "fà qiǎ"
   },
   {
     phraseId: "phrase_1162",
     text: "雨伞",
-    transcription: "Юйсань"
+    transcription: "yǔ sǎn"
   },
   {
     phraseId: "phrase_1163",
     text: "牙刷",
-    transcription: "Яшуа"
+    transcription: "yá shuā"
   },
   {
     phraseId: "phrase_1164",
     text: "香脂粉",
-    transcription: "Сянчжифэнь"
+    transcription: "xiāng zhī fěn"
   },
   {
     phraseId: "phrase_1165",
     text: "刮脸刀片",
-    transcription: "Гуаляньдаопянь"
+    transcription: "guā liǎn dāo piàn"
   },
   {
     phraseId: "phrase_1166",
     text: "拉锁",
-    transcription: "Ласо"
+    transcription: "lā suǒ"
   },
   {
     phraseId: "phrase_1167",
     text: "肥皂",
-    transcription: "Фэйцзао"
+    transcription: "féi zào"
   },
   {
     phraseId: "phrase_1168",
     text: "线",
-    transcription: "Сянь"
+    transcription: "xiàn"
   },
   {
     phraseId: "phrase_1169",
     text: "针",
-    transcription: "Чжэнь"
+    transcription: "zhēn"
   },
   {
     phraseId: "phrase_1170",
     text: "花露水",
-    transcription: "Хуалушуй"
+    transcription: "huā lù shuǐ"
   },
   {
     phraseId: "phrase_1171",
     text: "眼镜",
-    transcription: "Яньцзин"
+    transcription: "yǎn jìng"
   },
   {
     phraseId: "phrase_1172",
     text: "手套",
-    transcription: "Шоутао"
+    transcription: "shǒu tào"
   },
   {
     phraseId: "phrase_1173",
     text: "纱线",
-    transcription: "Шасянь"
+    transcription: "shā xiàn"
   },
   {
     phraseId: "phrase_1174",
     text: "梳子",
-    transcription: "Шуцзы"
+    transcription: "shū zǐ"
   },
   {
     phraseId: "phrase_1175",
     text: "皮带",
-    transcription: "Пидай"
+    transcription: "pí dài"
   },
   {
     phraseId: "phrase_1176",
     text: "手提包",
-    transcription: "Шоутибао"
+    transcription: "shǒu tí bāo"
   },
   {
     phraseId: "phrase_1177",
     text: "西头液",
-    transcription: "Ситоуе"
+    transcription: "xī tóu yè"
   },
   {
     phraseId: "phrase_1178",
     text: "刷子",
-    transcription: "Шуацзы"
+    transcription: "shuā zi"
   },
   {
     phraseId: "phrase_1179",
     text: "布匹",
-    transcription: "Бупи"
+    transcription: "bù pǐ"
   },
   {
     phraseId: "phrase_1180",
     text: "丝绒",
-    transcription: "Сыжун"
+    transcription: "sī róng"
   },
   {
     phraseId: "phrase_1181",
     text: "灯心绒",
-    transcription: "Дэнсиньжун"
+    transcription: "dēng xīn róng"
   },
   {
     phraseId: "phrase_1182",
     text: "容面歌",
-    transcription: "Жунмяньгэ"
+    transcription: "róng miàn gē"
   },
   {
     phraseId: "phrase_1183",
     text: "平针织品",
-    transcription: "Пинчжэньчжипинь"
+    transcription: "píng zhēn zhī pǐn"
   },
   {
     phraseId: "phrase_1184",
     text: "鸡皮",
-    transcription: "Цзипи"
+    transcription: "jī pí"
   },
   {
     phraseId: "phrase_1185",
     text: "人造皮",
-    transcription: "Жэньцзаопи"
+    transcription: "rén zào pí"
   },
   {
     phraseId: "phrase_1186",
     text: "人造裘皮",
-    transcription: "Жэньцзаоцюпи"
+    transcription: "rén zào qiú pí"
   },
   {
     phraseId: "phrase_1187",
     text: "皮革",
-    transcription: "Пигэ"
+    transcription: "pí gé"
   },
   {
     phraseId: "phrase_1188",
     text: "亚麻",
-    transcription: "Яма"
+    transcription: "yà má"
   },
   {
     phraseId: "phrase_1189",
     text: "针织品",
-    transcription: "Чжэньчжипинь"
+    transcription: "zhēn zhī pǐn"
   },
   {
     phraseId: "phrase_1190",
     text: "棉花",
-    transcription: "Мяньхуа"
+    transcription: "mián huā"
   },
   {
     phraseId: "phrase_1191",
     text: "丝绸",
-    transcription: "Сычоу"
+    transcription: "sī chóu"
   },
   {
     phraseId: "phrase_1192",
     text: "羊毛",
-    transcription: "Янмао"
+    transcription: "yáng máo"
   },
   {
     phraseId: "phrase_1193",
     text: "床上用品",
-    transcription: "Чуаншан юнпинь"
+    transcription: "chuáng shàng yòng pǐn"
   },
   {
     phraseId: "phrase_1194",
     text: "枕头套",
-    transcription: "Чжэньтоутао"
+    transcription: "zhěn tou tào"
   },
   {
     phraseId: "phrase_1195",
     text: "被子",
-    transcription: "Бэйцзы"
+    transcription: "bèi zi"
   },
   {
     phraseId: "phrase_1196",
     text: "后毛配件",
-    transcription: "Хоумаопэйцзянь"
+    transcription: "hòu máo pèi jiàn"
   },
   {
     phraseId: "phrase_1197",
     text: "被套",
-    transcription: "Бэйтао"
+    transcription: "bèi tào"
   },
   {
     phraseId: "phrase_1198",
     text: "枕头",
-    transcription: "Чжэньтоу"
+    transcription: "zhěn tou"
   },
   {
     phraseId: "phrase_1199",
     text: "传单",
-    transcription: "Чуаньдань"
+    transcription: "chuán dān"
   },
   {
     phraseId: "phrase_1200",
     text: "被单",
-    transcription: "Бэйдань"
+    transcription: "bèi dān"
   },
   {
     phraseId: "phrase_1201",
     text: "日用设备",
-    transcription: "Жиюн шэбэй"
+    transcription: "rì yòng shè bèi"
   },
   {
     phraseId: "phrase_1202",
     text: "录音带",
-    transcription: "Луиньдай"
+    transcription: "lù yīn dài"
   },
   {
     phraseId: "phrase_1203",
     text: "电池",
-    transcription: "Дяньчи"
+    transcription: "diàn chí"
   },
   {
     phraseId: "phrase_1204",
     text: "闹钟",
-    transcription: "Наочжун"
+    transcription: "nào zhōng"
   },
   {
     phraseId: "phrase_1205",
     text: "录像机",
-    transcription: "Лусянцзи"
+    transcription: "lù xiàng jī"
   },
   {
     phraseId: "phrase_1206",
     text: "录像带",
-    transcription: "Лусяндай"
+    transcription: "lù xiàng dài"
   },
   {
     phraseId: "phrase_1207",
     text: "录放机",
-    transcription: "Луфанцзи"
+    transcription: "lù fàng jī"
   },
   {
     phraseId: "phrase_1208",
     text: "录音带",
-    transcription: "Луиньдай"
+    transcription: "lù yīn dài"
   },
   {
     phraseId: "phrase_1209",
     text: "密文唱片",
-    transcription: "Мивэнь чанпянь"
+    transcription: "mì wén chàng piàn"
   },
   {
     phraseId: "phrase_1210",
     text: "电脑",
-    transcription: "Дяньнао"
+    transcription: "diàn nǎo"
   },
   {
     phraseId: "phrase_1211",
     text: "咖啡壶",
-    transcription: "Кафэйху"
+    transcription: "kā fēi hú"
   },
   {
     phraseId: "phrase_1212",
     text: "成套的厨用机具",
-    transcription: "Чэнтаодэ чуюнцзицзюй"
+    transcription: "chéng tào de chú yòng jī jù"
   },
   {
     phraseId: "phrase_1213",
     text: "吊灯",
-    transcription: "Дяодэн"
+    transcription: "diào dēng"
   },
   {
     phraseId: "phrase_1214",
     text: "录音机",
-    transcription: "Луиньцзи"
+    transcription: "lù yīn jī"
   },
   {
     phraseId: "phrase_1215",
     text: "电视检视机",
-    transcription: "Дяньшицзяньшицзи"
+    transcription: "diàn shì jiǎn shì jī"
   },
   {
     phraseId: "phrase_1216",
     text: "音乐音响设备",
-    transcription: "Иньюэиньсян шэбэй"
+    transcription: "yīn yuè yīn xiǎng shè bèi"
   },
   {
     phraseId: "phrase_1217",
     text: "耳机",
-    transcription: "Эрцзи"
+    transcription: "ěr jī"
   },
   {
     phraseId: "phrase_1218",
     text: "笔记版",
-    transcription: "Бицзибань"
+    transcription: "bǐ jì bǎn"
   },
   {
     phraseId: "phrase_1219",
     text: "小收录机",
-    transcription: "Сяо шоулуцзи"
+    transcription: "xiǎo shōu lù jī"
   },
   {
     phraseId: "phrase_1220",
     text: "传真因刷机",
-    transcription: "Чуаньчжэньиньшуацзи"
+    transcription: "chuán zhēn yīn shuā jī"
   },
   {
     phraseId: "phrase_1221",
     text: "电视机",
-    transcription: "Дяньшицзи"
+    transcription: "diàn shì jī"
   },
   {
     phraseId: "phrase_1222",
     text: "面包片烘烤器",
-    transcription: "Мяньбаопянь хунькаоци"
+    transcription: "miàn bāo piàn hōng kǎo qì"
   },
   {
     phraseId: "phrase_1223",
     text: "半导体收音机",
-    transcription: "Баньдаоти шоуиньцзи"
+    transcription: "bàn dǎo tǐ shōu yīn jī"
   },
   {
     phraseId: "phrase_1224",
     text: "吹风机",
-    transcription: "Чуйфэнцзи"
+    transcription: "chuī fēng jī"
   },
   {
     phraseId: "phrase_1225",
     text: "照相机",
-    transcription: "Чжаосянцзи"
+    transcription: "zhào xiàng jī"
   },
   {
     phraseId: "phrase_1226",
     text: "胶卷",
-    transcription: "Цзяоцзюань"
+    transcription: "jiāo juǎn"
   },
   {
     phraseId: "phrase_1227",
     text: "钟表",
-    transcription: "Чжунбяо"
+    transcription: "zhōng biǎo"
   },
   {
     phraseId: "phrase_1228",
     text: "手表",
-    transcription: "Шоубяо"
+    transcription: "shǒu biǎo"
   },
   {
     phraseId: "phrase_1229",
     text: "挂钟",
-    transcription: "Гуачжун"
+    transcription: "guà zhōng"
   },
   {
     phraseId: "phrase_1230",
     text: "缝纫机",
-    transcription: "Фэнжэньцзи"
+    transcription: "féng rèn jī"
   },
   {
     phraseId: "phrase_1231",
     text: "电刮脸刀",
-    transcription: "Дяньгуаляньдао"
+    transcription: "diàn guā liǎn dāo"
   },
   {
     phraseId: "phrase_1232",
     text: "图书, 文具",
-    transcription: "Тушу, вэньцзюй"
+    transcription: "tú shū, wén jù"
   },
   {
     phraseId: "phrase_1233",
     text: "钢笔",
-    transcription: "Ганби"
+    transcription: "gāng bǐ"
   },
   {
     phraseId: "phrase_1234",
     text: "相册",
-    transcription: "Сянцэ"
+    transcription: "xiàng cè"
   },
   {
     phraseId: "phrase_1235",
     text: "报纸",
-    transcription: "Баочжи"
+    transcription: "bào zhǐ"
   },
   {
     phraseId: "phrase_1236",
     text: "杂志",
-    transcription: "Цзачжи"
+    transcription: "zá zhì"
   },
   {
     phraseId: "phrase_1237",
     text: "目录",
-    transcription: "Мулу"
+    transcription: "mù lù"
   },
   {
     phraseId: "phrase_1238",
     text: "书",
-    transcription: "Шу"
+    transcription: "shū"
   },
   {
     phraseId: "phrase_1239",
     text: "不肝胶胶带",
-    transcription: "Буганьцзяо цзяодай"
+    transcription: "bù gān jiāo jiāo dài"
   },
   {
     phraseId: "phrase_1240",
     text: "词典",
-    transcription: "Цыдянь"
+    transcription: "cí diǎn"
   },
   {
     phraseId: "phrase_1241",
     text: "手册",
-    transcription: "Шоуцэ"
+    transcription: "shǒu cè"
   },
   {
     phraseId: "phrase_1242",
     text: "目笔心彩色油笔",
-    transcription: "Мубисинь цайсэюби"
+    transcription: "mù bǐ xīn cǎi sè yóu bǐ"
   },
   {
     phraseId: "phrase_1243",
     text: "照相步",
-    transcription: "Чжаосянбу"
+    transcription: "zhào xiàng bù"
   },
   {
     phraseId: "phrase_1244",
     text: "圆珠笔",
-    transcription: "Юаньчжуби"
+    transcription: "yuán zhū bǐ"
   },
   {
     phraseId: "phrase_1245",
     text: "小叠",
-    transcription: "Сяоде"
+    transcription: "xiǎo dié"
   },
   {
     phraseId: "phrase_1246",
     text: "手镯",
-    transcription: "Шоучжо"
+    transcription: "shǒu zhuó"
   },
   {
     phraseId: "phrase_1247",
     text: "叉子",
-    transcription: "Чацзы"
+    transcription: "chā zi"
   },
   {
     phraseId: "phrase_1248",
     text: "绣扣",
-    transcription: "Сюкоу"
+    transcription: "xiù kòu"
   },
   {
     phraseId: "phrase_1249",
     text: "黄金",
-    transcription: "Хуанцзинь"
+    transcription: "huáng jīn"
   },
   {
     phraseId: "phrase_1250",
     text: "宝石项链",
-    transcription: "Баошисянлянь"
+    transcription: "bǎo shí xiàng liàn"
   },
   {
     phraseId: "phrase_1251",
     text: "指环",
-    transcription: "Чжихуань"
+    transcription: "zhǐ huán"
   },
   {
     phraseId: "phrase_1252",
     text: "杯子",
-    transcription: "Бэйцзы"
+    transcription: "bēi zi"
   },
   {
     phraseId: "phrase_1253",
     text: "项链上的坠子",
-    transcription: "Сянляньшандэ чжуйцзы"
+    transcription: "xiàng liàn shàng de zhuì zǐ"
   },
   {
     phraseId: "phrase_1254",
     text: "勺子",
-    transcription: "Шаоцзы"
+    transcription: "sháo zǐ"
   },
   {
     phraseId: "phrase_1255",
     text: "刀",
-    transcription: "Дао"
+    transcription: "dāo"
   },
   {
     phraseId: "phrase_1256",
     text: "银",
-    transcription: "Инь"
+    transcription: "yín"
   },
   {
     phraseId: "phrase_1257",
     text: "耳环",
-    transcription: "Эрхуань"
+    transcription: "ěr huán"
   },
   {
     phraseId: "phrase_1258",
     text: "盘子",
-    transcription: "Паньцзы"
+    transcription: "pán zi"
   },
   {
     phraseId: "phrase_1259",
     text: "项链",
-    transcription: "Сянлянь"
+    transcription: "xiàng liàn"
   },
   {
     phraseId: "phrase_1260",
     text: "茶碗",
-    transcription: "Чавань"
+    transcription: "chá wǎn"
   },
   {
     phraseId: "phrase_1261",
     text: "小箱子",
-    transcription: "Сяосянцзы"
+    transcription: "xiǎo xiāng zǐ"
   },
   {
     phraseId: "phrase_1262",
     text: "螺旋拔塞器",
-    transcription: "Лосюаньбасайци"
+    transcription: "luó xuán bá sāi qì"
   },
   {
     phraseId: "phrase_1263",
     text: "紫菀",
-    transcription: "Цзывань"
+    transcription: "zǐ wǎn"
   },
   {
     phraseId: "phrase_1264",
     text: "花束",
-    transcription: "Хуашу"
+    transcription: "huā shù"
   },
   {
     phraseId: "phrase_1265",
     text: "石竹",
-    transcription: "Шичжу"
+    transcription: "shí zhú"
   },
   {
     phraseId: "phrase_1266",
     text: "天竺葵",
-    transcription: "Тяньчжукуй"
+    transcription: "tiān zhú kuí"
   },
   {
     phraseId: "phrase_1267",
     text: "风信子",
-    transcription: "Фэнсиньцзы"
+    transcription: "fēng xìn zǐ"
   },
   {
     phraseId: "phrase_1268",
     text: "鸢尾",
-    transcription: "Юаньвэй"
+    transcription: "yuān wěi"
   },
   {
     phraseId: "phrase_1269",
     text: "百合",
-    transcription: "Байхэ"
+    transcription: "bǎi hé"
   },
   {
     phraseId: "phrase_1270",
     text: "水仙",
-    transcription: "Шуйсянь"
+    transcription: "shuǐ xiān"
   },
   {
     phraseId: "phrase_1271",
     text: "牡丹",
-    transcription: "Мудань"
+    transcription: "mǔ dān"
   },
   {
     phraseId: "phrase_1272",
     text: "玫瑰",
-    transcription: "Мэйгуй"
+    transcription: "méi guī"
   },
   {
     phraseId: "phrase_1273",
     text: "姆菊",
-    transcription: "Муцзюй"
+    transcription: "mǔ jú"
   },
   {
     phraseId: "phrase_1274",
     text: "郁金香",
-    transcription: "Юйцзиньсян"
+    transcription: "yù jīn xiāng"
   },
   {
     phraseId: "phrase_1275",
     text: "打火机",
-    transcription: "Дахоцзи"
+    transcription: "dǎ huǒ jī"
   },
   {
     phraseId: "phrase_1276",
     text: "纸烟",
-    transcription: "Чжиянь"
+    transcription: "zhǐ yān"
   },
   {
     phraseId: "phrase_1277",
     text: "雪茄",
-    transcription: "Сюэцзя"
+    transcription: "xuě qié"
   },
   {
     phraseId: "phrase_1278",
     text: "火柴",
-    transcription: "Хочай"
+    transcription: "huǒ chái"
   },
   {
     phraseId: "phrase_1279",
     text: "您喜欢哪种娱乐?",
-    transcription: "Нинь сихуань начжун юйлэ?"
+    transcription: "nín xǐ huan nǎ zhǒng yú lè?"
   },
   {
     phraseId: "phrase_1280",
     text: "您怎么样消遣自由时间呢?",
-    transcription: "Нинь цзэньмэян сяоцянь цзыю шицзянь нэ?"
+    transcription: "nín zěn me yàng xiāo qiǎn zì yóu shí jiān ne?"
   },
   {
     phraseId: "phrase_1281",
     text: "我喜欢...",
-    transcription: "Во сихуань..."
+    transcription: "wǒ xǐ huan..."
   },
   {
     phraseId: "phrase_1282",
     text: "旅行",
-    transcription: "Люйсин"
+    transcription: "lǚ xíng"
   },
   {
     phraseId: "phrase_1283",
     text: "游泳",
-    transcription: "Ююн"
+    transcription: "yóu yǒng"
   },
   {
     phraseId: "phrase_1284",
     text: "滑冰",
-    transcription: "Хуабин"
+    transcription: "huá bīng"
   },
   {
     phraseId: "phrase_1285",
     text: "滑雪",
-    transcription: "Хуасюэ"
+    transcription: "huá xuě"
   },
   {
     phraseId: "phrase_1286",
     text: "我收集...",
-    transcription: "Во шоуцзи..."
+    transcription: "wǒ shōu jí..."
   },
   {
     phraseId: "phrase_1287",
     text: "邮票",
-    transcription: "Юпяо"
+    transcription: "yóu piào"
   },
   {
     phraseId: "phrase_1288",
     text: "硬币",
-    transcription: "Инби"
+    transcription: "yìng bì"
   },
   {
     phraseId: "phrase_1289",
     text: "徽章",
-    transcription: "Хуйчжан"
+    transcription: "huī zhāng"
   },
   {
     phraseId: "phrase_1290",
     text: "明信片",
-    transcription: "Минсиньпянь"
+    transcription: "míng xìn piàn"
   },
   {
     phraseId: "phrase_1291",
     text: "广告化",
-    transcription: "Гуангаохуа"
+    transcription: "guǎng gào huà"
   },
   {
     phraseId: "phrase_1292",
     text: "我特别喜欢...",
-    transcription: "Во тебе сихуань..."
+    transcription: "wǒ tè bié xǐ huan..."
   },
   {
     phraseId: "phrase_1293",
     text: "现代音乐",
-    transcription: "Сяньдай иньюэ"
+    transcription: "xiàn dài yīn yuè"
   },
   {
     phraseId: "phrase_1294",
     text: "照相",
-    transcription: "Чжаосян"
+    transcription: "zhào xiàng"
   },
   {
     phraseId: "phrase_1295",
     text: "录像",
-    transcription: "Лусян"
+    transcription: "lù xiàng"
   },
   {
     phraseId: "phrase_1296",
     text: "钓鱼",
-    transcription: "Дяоюй"
+    transcription: "diào yú"
   },
   {
     phraseId: "phrase_1297",
     text: "我喜欢...",
-    transcription: "Во сихуань..."
+    transcription: "wǒ xǐ huan..."
   },
   {
     phraseId: "phrase_1298",
     text: "弹吉他",
-    transcription: "Таньцзита"
+    transcription: "tán jí tā"
   },
   {
     phraseId: "phrase_1299",
     text: "打网球",
-    transcription: "Даванцю"
+    transcription: "dǎ wǎng qiú"
   },
   {
     phraseId: "phrase_1300",
     text: "大高尔夫球",
-    transcription: "Дагаоэрфуцю"
+    transcription: "dà gāo ěr fū qiú"
   },
   {
     phraseId: "phrase_1301",
     text: "打台球",
-    transcription: "Датайцю"
+    transcription: "dǎ tái qiú"
   },
   {
     phraseId: "phrase_1302",
     text: "您喜欢跳舞吗?",
-    transcription: "Нинь сихуань тяоу ма?"
+    transcription: "nín xǐ huan tiào wǔ ma?"
   },
   {
     phraseId: "phrase_1303",
     text: "晚上可以去迪斯科舞厅",
-    transcription: "Ваньшан кэй цюй дисыкэ утин"
+    transcription: "wǎn shàng kě yǐ qù dí sī kē wǔ tīng"
   },
   {
     phraseId: "phrase_1304",
     text: "最好是去夜总会",
-    transcription: "Цзуйхао ши цюй ецзунхуй"
+    transcription: "zuì hǎo shì qù yè zǒng huì"
   },
   {
     phraseId: "phrase_1305",
     text: "你想在旁边的酒吧喝啤酒吗?",
-    transcription: "Ни сян цзай паньбяньдэ цзюба хэ пицзю ма?"
+    transcription: "nǐ xiǎng zài páng biān de jiǔ bā hē pí jiǔ ma?"
   },
   {
     phraseId: "phrase_1306",
     text: "我好冒险, 喜欢去赌场",
-    transcription: "Во хао маосянь, сихуань цюй дучан"
+    transcription: "wǒ hǎo mào xiǎn, xǐ huan qù dǔ chǎng"
   },
   {
     phraseId: "phrase_1307",
     text: "最近的赌场在哪里?",
-    transcription: "Цзуйцзиньдэ дучан цзай нали?"
+    transcription: "zuì jìn de dǔ chǎng zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_1308",
     text: "我情愿在自动赌博机上消磨时间",
-    transcription: "Во цинъюань цзай цзыдун дубоцзишан сяомо шицзянь"
+    transcription: "wǒ qíng yuàn zài zì dòng dǔ bó jī shàng xiāo mó shí jiān"
   },
   {
     phraseId: "phrase_1309",
     text: "我有空喜欢去看赛马",
-    transcription: "Во юкун сихуань цюй кань сайма"
+    transcription: "wǒ yǒu kōng xǐ huan qù kàn sài mǎ"
   },
   {
     phraseId: "phrase_1310",
     text: "我喜欢参加赛马赌博",
-    transcription: "Во сихуань цаньцзя сайма дубо"
+    transcription: "wǒ xǐ huan cān jiā sài mǎ dǔ bó"
   },
   {
     phraseId: "phrase_1311",
     text: "我情愿骑自行车广大街",
-    transcription: "Во цинъюань ци цзысинчэ гуан дацзе"
+    transcription: "wǒ qíng yuàn qí zì xíng chē guǎng dà jiē"
   },
   {
     phraseId: "phrase_1312",
     text: "在哪里可以租用自行车?",
-    transcription: "Цзай нали кэй цзуюн цзысинчэ?"
+    transcription: "zài nǎ lǐ kě yǐ zū yòng zì xíng chē?"
   },
   {
     phraseId: "phrase_1313",
     text: "逛公园是我最惬意的事",
-    transcription: "Гуангуньюань ши во цзуйцейдэ ши"
+    transcription: "guàng gōng yuán shì wǒ zuì qiè yì de shì"
   },
   {
     phraseId: "phrase_1314",
     text: "我喜欢眼拙河散步",
-    transcription: "Во сихуань яньчжо хэ саньбу"
+    transcription: "wǒ xǐ huan yǎn zhuō hé sàn bù"
   },
   {
     phraseId: "phrase_1315",
     text: "我想去看戏",
-    transcription: "Во сян цюй каньси"
+    transcription: "wǒ xiǎng qù kàn xì"
   },
   {
     phraseId: "phrase_1316",
     text: "我喜欢...",
-    transcription: "Во сихуань..."
+    transcription: "wǒ xǐ huan..."
   },
   {
     phraseId: "phrase_1317",
     text: "歌剧",
-    transcription: "Гэцзюй"
+    transcription: "gē jù"
   },
   {
     phraseId: "phrase_1318",
     text: "芭蕾舞",
-    transcription: "Балэй у"
+    transcription: "bā lěi wǔ"
   },
   {
     phraseId: "phrase_1319",
     text: "音乐剧",
-    transcription: "Иньюэцзюй"
+    transcription: "yīn yuè jù"
   },
   {
     phraseId: "phrase_1320",
     text: "清歌剧",
-    transcription: "Цингэцзюй"
+    transcription: "qīng gē jù"
   },
   {
     phraseId: "phrase_1321",
     text: "话剧",
-    transcription: "Хуацзюй"
+    transcription: "huà jù"
   },
   {
     phraseId: "phrase_1322",
     text: "有...的票吗?",
-    transcription: "Ю...дэ пяо ма?"
+    transcription: "yǒu... de piào ma?"
   },
   {
     phraseId: "phrase_1323",
     text: "今天",
-    transcription: "Цзиньтянь"
+    transcription: "jīn tiān"
   },
   {
     phraseId: "phrase_1324",
     text: "明天",
-    transcription: "Минтянь"
+    transcription: "míng tiān"
   },
   {
     phraseId: "phrase_1325",
     text: "今天在剧院演什么戏?",
-    transcription: "Цзиньтянь цзай цзююань янь шэньмэ си?"
+    transcription: "jīn tiān zài jù yuàn yǎn shén me xì?"
   },
   {
     phraseId: "phrase_1326",
     text: "一张...票多少钱?",
-    transcription: "Ичжан...пяо дошао цянь?"
+    transcription: "yì zhāng... piào duō shǎo qián?"
   },
   {
     phraseId: "phrase_1327",
     text: "池座",
-    transcription: "Чицзо"
+    transcription: "chí zuò"
   },
   {
     phraseId: "phrase_1328",
     text: "楼座",
-    transcription: "Лоуцзо"
+    transcription: "lóu zuò"
   },
   {
     phraseId: "phrase_1329",
     text: "戏何时开场?",
-    transcription: "Си хэши кайчан?"
+    transcription: "xì hé shí kāi chǎng?"
   },
   {
     phraseId: "phrase_1330",
     text: "戏何时终场?",
-    transcription: "Си хэши чжунчан?"
+    transcription: "xì hé shí zhōng chǎng?"
   },
   {
     phraseId: "phrase_1331",
     text: "请给我两张池座票",
-    transcription: "Цин гэй во лянчжан чицзо пяо"
+    transcription: "qǐng gěi wǒ liǎng zhāng chí zuò piào"
   },
   {
     phraseId: "phrase_1332",
     text: "谁演追缴?",
-    transcription: "Шуй янь чжуцзяо?"
+    transcription: "shuí yǎn zhuī jiǎo?"
   },
   {
     phraseId: "phrase_1333",
     text: "这出戏的导演是谁?",
-    transcription: "Чжэчусидэ даоянь ши шуй?"
+    transcription: "zhè chū xì de dǎo yǎn shì shuí?"
   },
   {
     phraseId: "phrase_1334",
     text: "剧本的作者是谁?",
-    transcription: "Цзюйбэньдэ цзочжэ ши шуй?"
+    transcription: "jù běn de zuò zhě shì shuí?"
   },
   {
     phraseId: "phrase_1335",
     text: "在哪里我能买到节目表?",
-    transcription: "Цзай нали во нэн майдао цземубяо?"
+    transcription: "zài nǎ lǐ wǒ néng mǎi dào jié mù biǎo?"
   },
   {
     phraseId: "phrase_1336",
     text: "请指给我我们的座位",
-    transcription: "Цин чжигэй во вомэньдэ цзовэй"
+    transcription: "qǐng zhǐ gěi wǒ wǒ men de zuò wèi"
   },
   {
     phraseId: "phrase_1337",
     text: "目见有休息吗?",
-    transcription: "Муцзянь ю сюси ма?"
+    transcription: "mù jiàn yǒu xiū xi ma?"
   },
   {
     phraseId: "phrase_1338",
     text: "小吃部在哪里?",
-    transcription: "Сяочибу цзай нали?"
+    transcription: "xiǎo chī bù zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_1339",
     text: "我想去看电影",
-    transcription: "Во сяньцюй кань дяньин"
+    transcription: "wǒ xiǎng qù kàn diàn yǐng"
   },
   {
     phraseId: "phrase_1340",
     text: "附近的电影院在哪里?",
-    transcription: "Фуцзиньдэ дяньинъюань цзай нали?"
+    transcription: "fù jìn de diàn yǐng yuàn zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_1341",
     text: "今天演什么影片?",
-    transcription: "Цзиньтянь янь шэньмэ инпянь?"
+    transcription: "jīn tiān yǎn shén me yǐng piàn?"
   },
   {
     phraseId: "phrase_1342",
     text: "这是谁的影片?",
-    transcription: "Чжэши шуйдэ инпянь?"
+    transcription: "zhè shì shuí de yǐng piàn?"
   },
   {
     phraseId: "phrase_1343",
     text: "导演是谁?",
-    transcription: "Даоянь ши шуй?"
+    transcription: "dǎo yǎn shì shuí?"
   },
   {
     phraseId: "phrase_1344",
     text: "影片的脚本作者是谁?",
-    transcription: "Инпяньдэ цзяобэнь цзочжэ ши шуй?"
+    transcription: "yǐng piàn de jiǎo běn zuò zhě shì shuí?"
   },
   {
     phraseId: "phrase_1345",
     text: "谁演主角?",
-    transcription: "Шуй янь чжуцзюэ?"
+    transcription: "shuí yǎn zhǔ jué?"
   },
   {
     phraseId: "phrase_1346",
     text: "我需要两张...的票",
-    transcription: "Во сююяо лянчжан...дэ пяо"
+    transcription: "wǒ xū yào liǎng zhāng... de piào"
   },
   {
     phraseId: "phrase_1347",
     text: "何时开场?",
-    transcription: "Хэши кайчан?"
+    transcription: "hé shí kāi chǎng?"
   },
   {
     phraseId: "phrase_1348",
     text: "我喜欢听...音乐演周",
-    transcription: "Во сихуань тин...иньюэ яньчжоу"
+    transcription: "wǒ xǐ huan tīng... yīn yuè yǎn zhōu"
   },
   {
     phraseId: "phrase_1349",
     text: "交响乐",
-    transcription: "Цзяосяньюэ"
+    transcription: "jiāo xiǎng yuè"
   },
   {
     phraseId: "phrase_1350",
     text: "室内乐",
-    transcription: "Шинэйюэ"
+    transcription: "shì nèi lè"
   },
   {
     phraseId: "phrase_1351",
     text: "风琴乐曲",
-    transcription: "Фэнцинь юэцюй"
+    transcription: "fēng qín yuè qǔ"
   },
   {
     phraseId: "phrase_1352",
     text: "民间音乐",
-    transcription: "Миньцзянь иньюэ"
+    transcription: "mín jiān yīn yuè"
   },
   {
     phraseId: "phrase_1353",
     text: "爵士乐",
-    transcription: "Цзюэшиюэ"
+    transcription: "jué shì yuè"
   },
   {
     phraseId: "phrase_1354",
     text: "友谊音乐",
-    transcription: "Юй иньюэ"
+    transcription: "yǒu yì yīn yuè"
   },
   {
     phraseId: "phrase_1355",
     text: "谁是你最喜欢的...?",
-    transcription: "Шуй ши ни цзуй сихуаньдэ...?"
+    transcription: "shuí shì nǐ zuì xǐ huan de...?"
   },
   {
     phraseId: "phrase_1356",
     text: "演周折",
-    transcription: "Яньцзоучжэ"
+    transcription: "yǎn zhōu zhé"
   },
   {
     phraseId: "phrase_1357",
     text: "乐队指挥",
-    transcription: "Юэдуйчжихуй"
+    transcription: "yuè duì zhǐ huī"
   },
   {
     phraseId: "phrase_1358",
     text: "音乐厅",
-    transcription: "Иньюэтин"
+    transcription: "yīn yuè tīng"
   },
   {
     phraseId: "phrase_1359",
     text: "音乐学院",
-    transcription: "Иньюэ сюэюань"
+    transcription: "yīn yuè xué yuàn"
   },
   {
     phraseId: "phrase_1360",
     text: "一张票多少钱?",
-    transcription: "Ичжан пяо дошао цянь?"
+    transcription: "yì zhāng piào duō shǎo qián?"
   },
   {
     phraseId: "phrase_1361",
     text: "今天谁指挥?",
-    transcription: "Цзиньтянь шуй чжихуй?"
+    transcription: "jīn tiān shuí zhǐ huī?"
   },
   {
     phraseId: "phrase_1362",
     text: "谁领导这个音乐团体?",
-    transcription: "Шуй линдао чжэгэ иньюэ туаньти?"
+    transcription: "shuí lǐng dǎo zhè ge yīn yuè tuán tǐ?"
   },
   {
     phraseId: "phrase_1363",
     text: "我想听现代友谊音乐",
-    transcription: "Во сян тин сяньдай юй иньюэ"
+    transcription: "wǒ xiǎng tīng xiàn dài yǒu yì yīn yuè"
   },
   {
     phraseId: "phrase_1364",
     text: "我很喜欢音乐会",
-    transcription: "Во хэнь сихуань иньюэхуй"
+    transcription: "wǒ hěn xǐ huan yīn yuè huì"
   },
   {
     phraseId: "phrase_1365",
     text: "我对绘画感兴趣",
-    transcription: "Во дуй хуйхуа гань синцюй"
+    transcription: "wǒ duì huì huà gǎn xìng qù"
   },
   {
     phraseId: "phrase_1366",
     text: "我想参观历史博物馆",
-    transcription: "Во сян цаньгуань лиши боугуань"
+    transcription: "wǒ xiǎng cān guān lì shǐ bó wù guǎn"
   },
   {
     phraseId: "phrase_1367",
     text: "怎么样到...去?",
-    transcription: "Цзэньмэян дао...цюй?"
+    transcription: "zěn me yàng dào... qù?"
   },
   {
     phraseId: "phrase_1368",
     text: "展览会",
-    transcription: "Чжаньланьхуй"
+    transcription: "zhǎn lǎn huì"
   },
   {
     phraseId: "phrase_1369",
     text: "画廊",
-    transcription: "Хуалань"
+    transcription: "huà láng"
   },
   {
     phraseId: "phrase_1370",
     text: "现代艺术博物馆",
-    transcription: "Сяньдай ишу боугуань"
+    transcription: "xiàn dài yì shù bó wù guǎn"
   },
   {
     phraseId: "phrase_1371",
     text: "我想参观展览会",
-    transcription: "Восян цаньгуань чжаньланьхуй"
+    transcription: "wǒ xiǎng cān guān zhǎn lǎn huì"
   },
   {
     phraseId: "phrase_1372",
     text: "入门俊多少钱?",
-    transcription: "Жумэньцзюань дошао цянь?"
+    transcription: "rù mén jùn duō shǎo qián?"
   },
   {
     phraseId: "phrase_1373",
     text: "博物馆何时...?",
-    transcription: "Боугуань хэши...?"
+    transcription: "bó wù guǎn hé shí...?"
   },
   {
     phraseId: "phrase_1374",
     text: "开",
-    transcription: "Кай"
+    transcription: "kāi"
   },
   {
     phraseId: "phrase_1375",
     text: "关",
-    transcription: "Гуань"
+    transcription: "guān"
   },
   {
     phraseId: "phrase_1376",
     text: "绘画",
-    transcription: "Хуйхуа"
+    transcription: "huì huà"
   },
   {
     phraseId: "phrase_1377",
     text: "雕塑",
-    transcription: "Дяосу"
+    transcription: "diāo sù"
   },
   {
     phraseId: "phrase_1378",
     text: "版画",
-    transcription: "Баньхуа"
+    transcription: "bǎn huà"
   },
   {
     phraseId: "phrase_1379",
     text: "古代世界的艺术",
-    transcription: "Гудайшицзедэ ишу"
+    transcription: "gǔ dài shì jiè de yì shù"
   },
   {
     phraseId: "phrase_1380",
     text: "文艺复兴时代的艺术",
-    transcription: "Вэньифусин шидайдэ ишу"
+    transcription: "wén yì fù xīng shí dài de yì shù"
   },
   {
     phraseId: "phrase_1381",
     text: "歌德时艺术",
-    transcription: "Гэдэши ишу"
+    transcription: "gē dé shí yì shù"
   },
   {
     phraseId: "phrase_1382",
     text: "印象派艺术",
-    transcription: "Иньсянпай ишу"
+    transcription: "yìn xiàng pài yì shù"
   },
   {
     phraseId: "phrase_1383",
     text: "现代艺术",
-    transcription: "Сяньдай ишу"
+    transcription: "xiàn dài yì shù"
   },
   {
     phraseId: "phrase_1384",
     text: "抽象派艺术",
-    transcription: "Чоусянпай ишу"
+    transcription: "chōu xiàng pài yì shù"
   },
   {
     phraseId: "phrase_1385",
     text: "这个...的作者是谁?",
-    transcription: "Чжэгэ...дэ цзочжэ ши шуй?"
+    transcription: "zhè ge... de zuò zhě shì shuí?"
   },
   {
     phraseId: "phrase_1386",
     text: "画",
-    transcription: "Хуа"
+    transcription: "huà"
   },
   {
     phraseId: "phrase_1387",
     text: "雕塑品",
-    transcription: "Дяосупинь"
+    transcription: "diāo sù pǐn"
   },
   {
     phraseId: "phrase_1388",
     text: "壁画",
-    transcription: "Бихуа"
+    transcription: "bì huà"
   },
   {
     phraseId: "phrase_1389",
     text: "可以拍照吗?",
-    transcription: "Кэй пайчжао ма?"
+    transcription: "kě yǐ pāi zhào ma?"
   },
   {
     phraseId: "phrase_1390",
     text: "这个画家属于哪个画派?",
-    transcription: "Чжэгэ хуацзя шуюй нагэ хуапай?"
+    transcription: "zhè ge huà jiā shǔ yú nǎ gè huà pài?"
   },
   {
     phraseId: "phrase_1391",
     text: "你们有讲俄语的导游吗?",
-    transcription: "Нимэнь ю цзян эюйдэ даою ма?"
+    transcription: "nǐ men yǒu jiǎng é yǔ de dǎo yóu ma?"
   },
   {
     phraseId: "phrase_1392",
     text: "抽象主义",
-    transcription: "Чоусян чжуй"
+    transcription: "chōu xiàng zhǔ yì"
   },
   {
     phraseId: "phrase_1393",
     text: "水彩画",
-    transcription: "Шуйцайхуа"
+    transcription: "shuǐ cǎi huà"
   },
   {
     phraseId: "phrase_1394",
     text: "演员",
-    transcription: "Яньюань"
+    transcription: "yǎn yuán"
   },
   {
     phraseId: "phrase_1395",
     text: "女演员",
-    transcription: "Нюйяньюань"
+    transcription: "nǚ yǎn yuán"
   },
   {
     phraseId: "phrase_1396",
     text: "预告",
-    transcription: "Юйгао"
+    transcription: "yù gào"
   },
   {
     phraseId: "phrase_1397",
     text: "乐团",
-    transcription: "Юэтуань"
+    transcription: "yuè tuán"
   },
   {
     phraseId: "phrase_1398",
     text: "目见休息",
-    transcription: "Муцзянь сюси"
+    transcription: "mù jiàn xiū xi"
   },
   {
     phraseId: "phrase_1399",
     text: "满座",
-    transcription: "Маньцзо"
+    transcription: "mǎn zuò"
   },
   {
     phraseId: "phrase_1400",
     text: "鼓掌",
-    transcription: "Гучжан"
+    transcription: "gǔ zhǎng"
   },
   {
     phraseId: "phrase_1401",
     text: "演员",
-    transcription: "Яньюань"
+    transcription: "yǎn yuán"
   },
   {
     phraseId: "phrase_1402",
     text: "女演员",
-    transcription: "Нюйяньюань"
+    transcription: "nǚ yǎn yuán"
   },
   {
     phraseId: "phrase_1403",
     text: "建筑师",
-    transcription: "Цзяньчжуши"
+    transcription: "jiàn zhù shī"
   },
   {
     phraseId: "phrase_1404",
     text: "建筑术",
-    transcription: "Цзяньчжушу"
+    transcription: "jiàn zhù shù"
   },
   {
     phraseId: "phrase_1405",
     text: "海报",
-    transcription: "Хайбао"
+    transcription: "hǎi bào"
   },
   {
     phraseId: "phrase_1406",
     text: "巴黎舞",
-    transcription: "Балиу"
+    transcription: "bā lí wǔ"
   },
   {
     phraseId: "phrase_1407",
     text: "鼓",
-    transcription: "Гу"
+    transcription: "gǔ"
   },
   {
     phraseId: "phrase_1408",
     text: "上低音",
-    transcription: "Шандиинь"
+    transcription: "shàng dī yīn"
   },
   {
     phraseId: "phrase_1409",
     text: "男低音",
-    transcription: "Наньдиинь"
+    transcription: "nán dī yīn"
   },
   {
     phraseId: "phrase_1410",
     text: "武打片",
-    transcription: "Удапянь"
+    transcription: "wǔ dǎ piàn"
   },
   {
     phraseId: "phrase_1411",
     text: "望远镜",
-    transcription: "Ванъюаньцзин"
+    transcription: "wàng yuǎn jìng"
   },
   {
     phraseId: "phrase_1412",
     text: "画廊",
-    transcription: "Хуалань"
+    transcription: "huà láng"
   },
   {
     phraseId: "phrase_1413",
     text: "存衣处",
-    transcription: "Цуньичу"
+    transcription: "cún yī chù"
   },
   {
     phraseId: "phrase_1414",
     text: "巡回引出",
-    transcription: "Сюньхуй иньчу"
+    transcription: "xún huí yǐn chū"
   },
   {
     phraseId: "phrase_1415",
     text: "吉他",
-    transcription: "Цзита"
+    transcription: "jí tā"
   },
   {
     phraseId: "phrase_1416",
     text: "主角",
-    transcription: "Чжуцзюэ"
+    transcription: "zhǔ jué"
   },
   {
     phraseId: "phrase_1417",
     text: "版画",
-    transcription: "Баньхуа"
+    transcription: "bǎn huà"
   },
   {
     phraseId: "phrase_1418",
     text: "剧中人",
-    transcription: "Цзюйчжунжэнь"
+    transcription: "jù zhōng rén"
   },
   {
     phraseId: "phrase_1419",
     text: "侦探片",
-    transcription: "Чжэньтаньпянь"
+    transcription: "zhēn tàn piàn"
   },
   {
     phraseId: "phrase_1420",
     text: "乐队指挥",
-    transcription: "Юэдуйчжихуй"
+    transcription: "yuè duì zhǐ huī"
   },
   {
     phraseId: "phrase_1421",
     text: "二重唱",
-    transcription: "Эрчунчан"
+    transcription: "èr chóng chàng"
   },
   {
     phraseId: "phrase_1422",
     text: "风格",
-    transcription: "Фэнгэ"
+    transcription: "fēng gé"
   },
   {
     phraseId: "phrase_1423",
     text: "彩画",
-    transcription: "Цайхуа"
+    transcription: "cǎi huà"
   },
   {
     phraseId: "phrase_1424",
     text: "印象主义",
-    transcription: "Иньсянчжуй"
+    transcription: "yìn xiàng zhǔ yì"
   },
   {
     phraseId: "phrase_1425",
     text: "艺术",
-    transcription: "Ишу"
+    transcription: "yì shù"
   },
   {
     phraseId: "phrase_1426",
     text: "扮演者",
-    transcription: "Баньяньчжэ"
+    transcription: "bàn yǎn zhě"
   },
   {
     phraseId: "phrase_1427",
     text: "绘画",
-    transcription: "Хуйхуа"
+    transcription: "huì huà"
   },
   {
     phraseId: "phrase_1428",
     text: "售票处",
-    transcription: "Шоупяочу"
+    transcription: "shòu piào chù"
   },
   {
     phraseId: "phrase_1429",
     text: "电影制片厂",
-    transcription: "Дяньин чжипяньчан"
+    transcription: "diàn yǐng zhì piàn chǎng"
   },
   {
     phraseId: "phrase_1430",
     text: "电影节",
-    transcription: "Дяньинцзе"
+    transcription: "diàn yǐng jié"
   },
   {
     phraseId: "phrase_1431",
     text: "作曲家",
-    transcription: "Цзоцюйцзя"
+    transcription: "zuò qǔ jiā"
   },
   {
     phraseId: "phrase_1432",
     text: "音乐会",
-    transcription: "Иньюэхуй"
+    transcription: "yīn yuè huì"
   },
   {
     phraseId: "phrase_1433",
     text: "音乐厅",
-    transcription: "Иньюэтин"
+    transcription: "yīn yuè tīng"
   },
   {
     phraseId: "phrase_1434",
     text: "据装",
-    transcription: "Цзюйчжуан"
+    transcription: "jù zhuāng"
   },
   {
     phraseId: "phrase_1435",
     text: "立体派",
-    transcription: "Литипай"
+    transcription: "lì tǐ pài"
   },
   {
     phraseId: "phrase_1436",
     text: "包厢",
-    transcription: "Баосян"
+    transcription: "bāo xiāng"
   },
   {
     phraseId: "phrase_1437",
     text: "技艺",
-    transcription: "Цзий"
+    transcription: "jì yì"
   },
   {
     phraseId: "phrase_1438",
     text: "现代派",
-    transcription: "Сяньдайпай"
+    transcription: "xiàn dài pài"
   },
   {
     phraseId: "phrase_1439",
     text: "马赛克",
-    transcription: "Масайкэ"
+    transcription: "mǎ sài kè"
   },
   {
     phraseId: "phrase_1440",
     text: "音乐",
-    transcription: "Иньюэ"
+    transcription: "yīn yuè"
   },
   {
     phraseId: "phrase_1441",
     text: "音乐家",
-    transcription: "Иньюэцзя"
+    transcription: "yīn yuè jiā"
   },
   {
     phraseId: "phrase_1442",
     text: "动画片",
-    transcription: "Дунхуапянь"
+    transcription: "dòng huà piàn"
   },
   {
     phraseId: "phrase_1443",
     text: "音乐剧",
-    transcription: "Иньюэцзюй"
+    transcription: "yīn yuè jù"
   },
   {
     phraseId: "phrase_1444",
     text: "景物画",
-    transcription: "Цзинухуа"
+    transcription: "jǐng wù huà"
   },
   {
     phraseId: "phrase_1445",
     text: "歌剧",
-    transcription: "Гэцзюй"
+    transcription: "gē jù"
   },
   {
     phraseId: "phrase_1446",
     text: "清歌剧",
-    transcription: "Цингэцзюй"
+    transcription: "qīng gē jù"
   },
   {
     phraseId: "phrase_1447",
     text: "乐队",
-    transcription: "Юэдуй"
+    transcription: "yuè duì"
   },
   {
     phraseId: "phrase_1448",
     text: "池座",
-    transcription: "Чицзо"
+    transcription: "chí zuò"
   },
   {
     phraseId: "phrase_1449",
     text: "男歌手",
-    transcription: "Наньгэшоу"
+    transcription: "nán gē shǒu"
   },
   {
     phraseId: "phrase_1450",
     text: "女歌手",
-    transcription: "Нюйгэшоу"
+    transcription: "nǚ gē shǒu"
   },
   {
     phraseId: "phrase_1451",
     text: "风景",
-    transcription: "Фэнцзин"
+    transcription: "fēng jǐng"
   },
   {
     phraseId: "phrase_1452",
     text: "歌剧",
-    transcription: "Гэцюй"
+    transcription: "gē jù"
   },
   {
     phraseId: "phrase_1453",
     text: "小巷",
-    transcription: "Сяосян"
+    transcription: "xiǎo xiàng"
   },
   {
     phraseId: "phrase_1454",
     text: "旅行音乐",
-    transcription: "Люйсин иньюэ"
+    transcription: "lǚ xíng yīn yuè"
   },
   {
     phraseId: "phrase_1455",
     text: "首场演出",
-    transcription: "Шоучаньяньчу"
+    transcription: "shǒu chǎng yǎn chū"
   },
   {
     phraseId: "phrase_1456",
     text: "节目表",
-    transcription: "Цземубяо"
+    transcription: "jié mù biǎo"
   },
   {
     phraseId: "phrase_1457",
     text: "乐曲",
-    transcription: "Юэцюй"
+    transcription: "yuè qǔ"
   },
   {
     phraseId: "phrase_1458",
     text: "现实主义",
-    transcription: "Сяньшичжуй"
+    transcription: "xiàn shí zhǔ yì"
   },
   {
     phraseId: "phrase_1459",
     text: "乐队指挥",
-    transcription: "Юэдуйчжихуй"
+    transcription: "yuè duì zhǐ huī"
   },
   {
     phraseId: "phrase_1460",
     text: "剧目",
-    transcription: "Цзююму"
+    transcription: "jù mù"
   },
   {
     phraseId: "phrase_1461",
     text: "修复",
-    transcription: "Сюфу"
+    transcription: "xiū fù"
   },
   {
     phraseId: "phrase_1462",
     text: "摇滚乐",
-    transcription: "Ягуньюэ"
+    transcription: "yáo gǔn yuè"
   },
   {
     phraseId: "phrase_1463",
     text: "系列片",
-    transcription: "Силепянь"
+    transcription: "xì liè piàn"
   },
   {
     phraseId: "phrase_1464",
     text: "交响乐",
-    transcription: "Цзяосяньюэ"
+    transcription: "jiāo xiǎng yuè"
   },
   {
     phraseId: "phrase_1465",
     text: "小提琴",
-    transcription: "Сяотицинь"
+    transcription: "xiǎo tí qín"
   },
   {
     phraseId: "phrase_1466",
     text: "独唱者",
-    transcription: "Дучанчжэ"
+    transcription: "dú chàng zhě"
   },
   {
     phraseId: "phrase_1467",
     text: "戏剧",
-    transcription: "Сицзюй"
+    transcription: "xì jù"
   },
   {
     phraseId: "phrase_1468",
     text: "风格",
-    transcription: "Фэнгэ"
+    transcription: "fēng gé"
   },
   {
     phraseId: "phrase_1469",
     text: "舞台",
-    transcription: "Утай"
+    transcription: "wǔ tái"
   },
   {
     phraseId: "phrase_1470",
     text: "电影脚本",
-    transcription: "Дяньин цзяобэнь"
+    transcription: "diàn yǐng jiǎo běn"
   },
   {
     phraseId: "phrase_1471",
     text: "超现实主义",
-    transcription: "Чаосяньшичжуй"
+    transcription: "chāo xiàn shí zhǔ yì"
   },
   {
     phraseId: "phrase_1472",
     text: "舞蹈",
-    transcription: "Удао"
+    transcription: "wǔ dǎo"
   },
   {
     phraseId: "phrase_1473",
     text: "恐怖片",
-    transcription: "Кунбупянь"
+    transcription: "kǒng bù piàn"
   },
   {
     phraseId: "phrase_1474",
     text: "剧团",
-    transcription: "Цзюйтуань"
+    transcription: "jù tuán"
   },
   {
     phraseId: "phrase_1475",
     text: "影片",
-    transcription: "Инпянь"
+    transcription: "yǐng piàn"
   },
   {
     phraseId: "phrase_1476",
     text: "水彩壁画",
-    transcription: "Шуйцайбихуа"
+    transcription: "shuǐ cǎi bì huà"
   },
   {
     phraseId: "phrase_1477",
     text: "合唱团",
-    transcription: "Хэчантуань"
+    transcription: "hé chàng tuán"
   },
   {
     phraseId: "phrase_1478",
     text: "画家",
-    transcription: "Хуацзя"
+    transcription: "huà jiā"
   },
   {
     phraseId: "phrase_1479",
     text: "杰作",
-    transcription: "Цзецзо"
+    transcription: "jié zuò"
   },
   {
     phraseId: "phrase_1480",
     text: "表演",
-    transcription: "Бяоянь"
+    transcription: "biǎo yǎn"
   },
   {
     phraseId: "phrase_1481",
     text: "屏幕",
-    transcription: "Пинму"
+    transcription: "píng mù"
   },
   {
     phraseId: "phrase_1482",
     text: "导游",
-    transcription: "Даою"
+    transcription: "dǎo yóu"
   },
   {
     phraseId: "phrase_1483",
     text: "舞台",
-    transcription: "Утай"
+    transcription: "wǔ tái"
   },
   {
     phraseId: "phrase_1484",
     text: "你热衷于哪种运动呢?",
-    transcription: "Ни жэчжунъюй начжун юньдун нэ?"
+    transcription: "nǐ rè zhōng yú nǎ zhǒng yùn dòng ne?"
   },
   {
     phraseId: "phrase_1485",
     text: "你们城市里有多少运动场?",
-    transcription: "Нимэнь чэншили ю дошао юньдунчан?"
+    transcription: "nǐ men chéng shì lǐ yǒu duō shǎo yùn dòng chǎng?"
   },
   {
     phraseId: "phrase_1486",
     text: "我情愿去看...",
-    transcription: "Во цинъюань цюй кань..."
+    transcription: "wǒ qíng yuàn qù kàn..."
   },
   {
     phraseId: "phrase_1487",
     text: "足球比赛",
-    transcription: "Цзуцю бисай"
+    transcription: "zú qiú bǐ sài"
   },
   {
     phraseId: "phrase_1488",
     text: "冰球比赛",
-    transcription: "Бинцю бисай"
+    transcription: "bīng qiú bǐ sài"
   },
   {
     phraseId: "phrase_1489",
     text: "网球比赛",
-    transcription: "Ванцю бисай"
+    transcription: "wǎng qiú bǐ sài"
   },
   {
     phraseId: "phrase_1490",
     text: "你从事哪种运动呢?",
-    transcription: "Ни цуньши начжун юньдун нэ?"
+    transcription: "nǐ cóng shì nǎ zhǒng yùn dòng ne?"
   },
   {
     phraseId: "phrase_1491",
     text: "我从事...",
-    transcription: "Во цуньши..."
+    transcription: "wǒ cóng shì..."
   },
   {
     phraseId: "phrase_1492",
     text: "游泳",
-    transcription: "Ююн"
+    transcription: "yóu yǒng"
   },
   {
     phraseId: "phrase_1493",
     text: "击剑",
-    transcription: "Цзицзянь"
+    transcription: "jī jiàn"
   },
   {
     phraseId: "phrase_1494",
     text: "摔跤",
-    transcription: "Шуайцзяо"
+    transcription: "shuāi jiāo"
   },
   {
     phraseId: "phrase_1495",
     text: "举重",
-    transcription: "Цзюйчжун"
+    transcription: "jǔ zhòng"
   },
   {
     phraseId: "phrase_1496",
     text: "拳击",
-    transcription: "Цюаньцзи"
+    transcription: "quán jī"
   },
   {
     phraseId: "phrase_1497",
     text: "我打...",
-    transcription: "Во да..."
+    transcription: "wǒ dǎ..."
   },
   {
     phraseId: "phrase_1498",
     text: "排球",
-    transcription: "Пайцю"
+    transcription: "pái qiú"
   },
   {
     phraseId: "phrase_1499",
     text: "篮球",
-    transcription: "Ланьцю"
+    transcription: "lán qiú"
   },
   {
     phraseId: "phrase_1500",
     text: "下象棋",
-    transcription: "Сясянци"
+    transcription: "xià xiàng qí"
   },
   {
     phraseId: "phrase_1501",
     text: "我爱好运动",
-    transcription: "Во айхао юньдун"
+    transcription: "wǒ ài hào yùn dòng"
   },
   {
     phraseId: "phrase_1502",
     text: "我常常到运动场去",
-    transcription: "Во чанчан дао юньдунчан цюй"
+    transcription: "wǒ cháng cháng dào yùn dòng chǎng qù"
   },
   {
     phraseId: "phrase_1503",
     text: "你为哪个队主针呢?",
-    transcription: "Ни вэй нагэ дуй чжучжэнь нэ?"
+    transcription: "nǐ wèi nǎ gè duì zhǔ zhēn ne?"
   },
   {
     phraseId: "phrase_1504",
     text: "我为...队助威",
-    transcription: "Во вэй...дуй чжувэй"
+    transcription: "wǒ wèi... duì zhù wēi"
   },
   {
     phraseId: "phrase_1505",
     text: "今天谁比赛?",
-    transcription: "Цзиньтянь шуй бисай?"
+    transcription: "jīn tiān shuí bǐ sài?"
   },
   {
     phraseId: "phrase_1506",
     text: "比赛何时开始?",
-    transcription: "Бисай хэши кайши?"
+    transcription: "bǐ sài hé shí kāi shǐ?"
   },
   {
     phraseId: "phrase_1507",
     text: "第...号运动员是谁?",
-    transcription: "Ди...хао юньдунъюань ши шуй?"
+    transcription: "dì... hào yùn dòng yuán shì shuí?"
   },
   {
     phraseId: "phrase_1508",
     text: "比分是多少?",
-    transcription: "Бифэнь шы дошао?"
+    transcription: "bǐ fēn shì duō shǎo?"
   },
   {
     phraseId: "phrase_1509",
     text: "今天这个运动员...",
-    transcription: "Цзиньтянь чжэгэ юньдунъюань..."
+    transcription: "jīn tiān zhè ge yùn dòng yuán..."
   },
   {
     phraseId: "phrase_1510",
     text: "很卖力气",
-    transcription: "Хэньмайлици"
+    transcription: "hěn mài lì qi"
   },
   {
     phraseId: "phrase_1511",
     text: "竞技状态不加",
-    transcription: "Цзинцзичжуантай буцзя"
+    transcription: "jìng jì zhuàng tài bù jiā"
   },
   {
     phraseId: "phrase_1512",
     text: "今天(不)走运队",
-    transcription: "Цзиньтянь (бу) цзоуюнь дуй"
+    transcription: "jīn tiān (bù) zǒu yùn duì"
   },
   {
     phraseId: "phrase_1513",
     text: "队以三比零领先",
-    transcription: "Дуй и саньбилин линсянь"
+    transcription: "duì yǐ sān bǐ líng lǐng xiān"
   },
   {
     phraseId: "phrase_1514",
     text: "队以一比二实力",
-    transcription: "Дуй и ибиэр шили"
+    transcription: "duì yǐ yì bǐ èr shí lì"
   },
   {
     phraseId: "phrase_1515",
     text: "打平了",
-    transcription: "Дапинлэ"
+    transcription: "dǎ píng le"
   },
   {
     phraseId: "phrase_1516",
     text: "谁名列第...?",
-    transcription: "Шуй минлэ ди...?"
+    transcription: "shuí míng liè dì...?"
   },
   {
     phraseId: "phrase_1517",
     text: "一",
-    transcription: "И"
+    transcription: "yī"
   },
   {
     phraseId: "phrase_1518",
     text: "二",
-    transcription: "Эр"
+    transcription: "èr"
   },
   {
     phraseId: "phrase_1519",
     text: "三",
-    transcription: "Сань"
+    transcription: "sān"
   },
   {
     phraseId: "phrase_1520",
     text: "谁胜了?",
-    transcription: "Шуй шэнлэ?"
+    transcription: "shuí shèng le?"
   },
   {
     phraseId: "phrase_1521",
     text: "谁最鲜达到了终点?",
-    transcription: "Шуй цзуйсянь дадаолэ чжундянь?"
+    transcription: "shuí zuì xiān dá dào le zhōng diǎn?"
   },
   {
     phraseId: "phrase_1522",
     text: "谁金求得分?",
-    transcription: "Шуй цзиньцюдэ фэнь?"
+    transcription: "shuí jīn qiú dé fēn?"
   },
   {
     phraseId: "phrase_1523",
     text: "谁冰球?",
-    transcription: "Шуй бинцю?"
+    transcription: "shuí bīng qiú?"
   },
   {
     phraseId: "phrase_1524",
     text: "谁的成绩最好?",
-    transcription: "Шуйдэ чэнцзи цзуйхао?"
+    transcription: "shuí de chéng jì zuì hǎo?"
   },
   {
     phraseId: "phrase_1525",
     text: "我在哪里能...?",
-    transcription: "Во цзай нали нэн...?"
+    transcription: "wǒ zài nǎ lǐ néng...?"
   },
   {
     phraseId: "phrase_1526",
     text: "打网球",
-    transcription: "Да ванцю"
+    transcription: "dǎ wǎng qiú"
   },
   {
     phraseId: "phrase_1527",
     text: "大高尔夫球",
-    transcription: "Да гаоэрфуцю"
+    transcription: "dà gāo ěr fū qiú"
   },
   {
     phraseId: "phrase_1528",
     text: "游泳",
-    transcription: "Ююн"
+    transcription: "yóu yǒng"
   },
   {
     phraseId: "phrase_1529",
     text: "在哪里可以租用...?",
-    transcription: "Цзай нали кэи цзуюн...?"
+    transcription: "zài nǎ lǐ kě yǐ zū yòng...?"
   },
   {
     phraseId: "phrase_1530",
     text: "网球拍",
-    transcription: "Ванцюпай"
+    transcription: "wǎng qiú pāi"
   },
   {
     phraseId: "phrase_1531",
     text: "滑水版",
-    transcription: "Хуашуйбань"
+    transcription: "huá shuǐ bǎn"
   },
   {
     phraseId: "phrase_1532",
     text: "高尔夫球取棍",
-    transcription: "Гаоэрфуцю цюйгунь"
+    transcription: "gāo ěr fū qiú qǔ gùn"
   },
   {
     phraseId: "phrase_1533",
     text: "汽车越野赛",
-    transcription: "Цичэюэесай"
+    transcription: "qì chē yuè yě sài"
   },
   {
     phraseId: "phrase_1534",
     text: "登山运动",
-    transcription: "Дэншаньюньдун"
+    transcription: "dēng shān yùn dòng"
   },
   {
     phraseId: "phrase_1535",
     text: "篮球",
-    transcription: "Ланьцю"
+    transcription: "lán qiú"
   },
   {
     phraseId: "phrase_1536",
     text: "垒球",
-    transcription: "Лэйцю"
+    transcription: "lěi qiú"
   },
   {
     phraseId: "phrase_1537",
     text: "现代两相滑雪",
-    transcription: "Сяньдай лянсян хуасюэ"
+    transcription: "xiàn dài liǎng xiāng huá xuě"
   },
   {
     phraseId: "phrase_1538",
     text: "山坡冰刀华侨",
-    transcription: "Шаньпо биндао хуацяо"
+    transcription: "shān pō bīng dāo huá qiáo"
   },
   {
     phraseId: "phrase_1539",
     text: "健美运动",
-    transcription: "Цзяньмэйюньдун"
+    transcription: "jiàn měi yùn dòng"
   },
   {
     phraseId: "phrase_1540",
     text: "拳击",
-    transcription: "Цюаньцзи"
+    transcription: "quán jī"
   },
   {
     phraseId: "phrase_1541",
     text: "助威的人",
-    transcription: "Чжувэйдэжэнь"
+    transcription: "zhù wēi de rén"
   },
   {
     phraseId: "phrase_1542",
     text: "摔跤",
-    transcription: "Шуайцзяо"
+    transcription: "shuāi jiāo"
   },
   {
     phraseId: "phrase_1543",
     text: "保龄球",
-    transcription: "Баолинцю"
+    transcription: "bǎo líng qiú"
   },
   {
     phraseId: "phrase_1544",
     text: "自行车运动",
-    transcription: "Цзысинчэюньдун"
+    transcription: "zì xíng chē yùn dòng"
   },
   {
     phraseId: "phrase_1545",
     text: "运动助理",
-    transcription: "Юньдун чжули"
+    transcription: "yùn dòng zhù lǐ"
   },
   {
     phraseId: "phrase_1546",
     text: "冲浪",
-    transcription: "Чунлан"
+    transcription: "chōng làng"
   },
   {
     phraseId: "phrase_1547",
     text: "水球",
-    transcription: "Шуйцю"
+    transcription: "shuǐ qiú"
   },
   {
     phraseId: "phrase_1548",
     text: "滑水",
-    transcription: "Хуашуй"
+    transcription: "huá shuǐ"
   },
   {
     phraseId: "phrase_1549",
     text: "排球",
-    transcription: "Пайцю"
+    transcription: "pái qiú"
   },
   {
     phraseId: "phrase_1550",
     text: "球门",
-    transcription: "Цюмэнь"
+    transcription: "qiú mén"
   },
   {
     phraseId: "phrase_1551",
     text: "体操",
-    transcription: "Тицао"
+    transcription: "tǐ cāo"
   },
   {
     phraseId: "phrase_1552",
     text: "高尔夫球",
-    transcription: "Гаоэрфуцю"
+    transcription: "gāo ěr fū qiú"
   },
   {
     phraseId: "phrase_1553",
     text: "划船运动",
-    transcription: "Хуачуань юньдун"
+    transcription: "huá chuán yùn dòng"
   },
   {
     phraseId: "phrase_1554",
     text: "标枪支援",
-    transcription: "Бяоцян чжиюань"
+    transcription: "biāo qiāng zhī yuán"
   },
   {
     phraseId: "phrase_1555",
     text: "体育宫",
-    transcription: "Тиюйгун"
+    transcription: "tǐ yù gōng"
   },
   {
     phraseId: "phrase_1556",
     text: "现代十项比赛",
-    transcription: "Сяньдайшисян бисай"
+    transcription: "xiàn dài shí xiàng bǐ sài"
   },
   {
     phraseId: "phrase_1557",
     text: "柔道",
-    transcription: "Жоудао"
+    transcription: "róu dào"
   },
   {
     phraseId: "phrase_1558",
     text: "兴奋剂",
-    transcription: "Синфэньцзи"
+    transcription: "xīng fèn jì"
   },
   {
     phraseId: "phrase_1559",
     text: "观众",
-    transcription: "Гуаньчжун"
+    transcription: "guān zhòng"
   },
   {
     phraseId: "phrase_1560",
     text: "比赛",
-    transcription: "Бисай"
+    transcription: "bǐ sài"
   },
   {
     phraseId: "phrase_1561",
     text: "运动员",
-    transcription: "Юньдунъюань"
+    transcription: "yùn dòng yuán"
   },
   {
     phraseId: "phrase_1562",
     text: "队长",
-    transcription: "Дуйчжан"
+    transcription: "duì zhǎng"
   },
   {
     phraseId: "phrase_1563",
     text: "滑冰长",
-    transcription: "Хуабинчан"
+    transcription: "huá bīng cháng"
   },
   {
     phraseId: "phrase_1564",
     text: "队",
-    transcription: "Дуй"
+    transcription: "duì"
   },
   {
     phraseId: "phrase_1565",
     text: "马术运动",
-    transcription: "Машу юньдун"
+    transcription: "mǎ shù yùn dòng"
   },
   {
     phraseId: "phrase_1566",
     text: "滑冰运动",
-    transcription: "Хуабин юньдун"
+    transcription: "huá bīng yùn dòng"
   },
   {
     phraseId: "phrase_1567",
     text: "杯",
-    transcription: "Бэй"
+    transcription: "bēi"
   },
   {
     phraseId: "phrase_1568",
     text: "田径运动",
-    transcription: "Тяньцзин юньдун"
+    transcription: "tián jìng yùn dòng"
   },
   {
     phraseId: "phrase_1569",
     text: "滑雪运动",
-    transcription: "Хуасюэ юньдун"
+    transcription: "huá xuě yùn dòng"
   },
   {
     phraseId: "phrase_1570",
     text: "球赛",
-    transcription: "Цюсай"
+    transcription: "qiú sài"
   },
   {
     phraseId: "phrase_1571",
     text: "...奖牌",
-    transcription: "...цзянпай"
+    transcription: "... jiǎng pái"
   },
   {
     phraseId: "phrase_1572",
     text: "金",
-    transcription: "Цзинь"
+    transcription: "jīn"
   },
   {
     phraseId: "phrase_1573",
     text: "银",
-    transcription: "Инь"
+    transcription: "yín"
   },
   {
     phraseId: "phrase_1574",
     text: "铜",
-    transcription: "Тун"
+    transcription: "tóng"
   },
   {
     phraseId: "phrase_1575",
     text: "多项比赛",
-    transcription: "Досянбисай"
+    transcription: "duō xiàng bǐ sài"
   },
   {
     phraseId: "phrase_1576",
     text: "摩托车足球",
-    transcription: "Моточэцзуцю"
+    transcription: "mó tuō chē zú qiú"
   },
   {
     phraseId: "phrase_1577",
     text: "平",
-    transcription: "Пин"
+    transcription: "píng"
   },
   {
     phraseId: "phrase_1578",
     text: "奥运会",
-    transcription: "Аоюньхуй"
+    transcription: "ào yùn huì"
   },
   {
     phraseId: "phrase_1579",
     text: "奥运会冠军",
-    transcription: "Аоюньхуй гуаньцзюнь"
+    transcription: "ào yùn huì guàn jūn"
   },
   {
     phraseId: "phrase_1580",
     text: "分",
-    transcription: "Фэнь"
+    transcription: "fēn"
   },
   {
     phraseId: "phrase_1581",
     text: "跳伞运动",
-    transcription: "Тяосань юньдун"
+    transcription: "tiào sǎn yùn dòng"
   },
   {
     phraseId: "phrase_1582",
     text: "盘",
-    transcription: "Пань"
+    transcription: "pán"
   },
   {
     phraseId: "phrase_1583",
     text: "赛间休息",
-    transcription: "Сайцзяньсюси"
+    transcription: "sài jiān xiū xi"
   },
   {
     phraseId: "phrase_1584",
     text: "半场",
-    transcription: "Баньчан"
+    transcription: "bàn chǎng"
   },
   {
     phraseId: "phrase_1585",
     text: "游泳",
-    transcription: "Ююн"
+    transcription: "yóu yǒng"
   },
   {
     phraseId: "phrase_1586",
     text: "游泳池",
-    transcription: "Ююнчи"
+    transcription: "yóu yǒng chí"
   },
   {
     phraseId: "phrase_1587",
     text: "胜利",
-    transcription: "Шэнли"
+    transcription: "shèng lì"
   },
   {
     phraseId: "phrase_1588",
     text: "胜利者",
-    transcription: "Шэнличжэ"
+    transcription: "shèng lì zhě"
   },
   {
     phraseId: "phrase_1589",
     text: "半决赛",
-    transcription: "Баньцзюэсай"
+    transcription: "bàn jué sài"
   },
   {
     phraseId: "phrase_1590",
     text: "比赛规则",
-    transcription: "Бисайгуйцзэ"
+    transcription: "bǐ sài guī zé"
   },
   {
     phraseId: "phrase_1591",
     text: "奖",
-    transcription: "Цзян"
+    transcription: "jiǎng"
   },
   {
     phraseId: "phrase_1592",
     text: "获奖者",
-    transcription: "Хоцзянчжэ"
+    transcription: "huò jiǎng zhě"
   },
   {
     phraseId: "phrase_1593",
     text: "绷床弹跳比赛",
-    transcription: "Бэнчуантаньтяо бисай"
+    transcription: "bēng chuáng tán tiào bǐ sài"
   },
   {
     phraseId: "phrase_1594",
     text: "现代五项比赛",
-    transcription: "Сяньдайусян бисай"
+    transcription: "xiàn dài wǔ xiàng bǐ sài"
   },
   {
     phraseId: "phrase_1595",
     text: "划船比赛",
-    transcription: "Хуачуань бисай"
+    transcription: "huá chuán bǐ sài"
   },
   {
     phraseId: "phrase_1596",
     text: "橄榄球",
-    transcription: "Ганьланьцю"
+    transcription: "gǎn lǎn qiú"
   },
   {
     phraseId: "phrase_1597",
     text: "比赛成绩",
-    transcription: "Бисай чэнцзи"
+    transcription: "bǐ sài chéng jì"
   },
   {
     phraseId: "phrase_1598",
     text: "知名度",
-    transcription: "Чжиминду"
+    transcription: "zhī míng dù"
   },
   {
     phraseId: "phrase_1599",
     text: "纪录",
-    transcription: "Цзилу"
+    transcription: "jì lù"
   },
   {
     phraseId: "phrase_1600",
     text: "冲浪",
-    transcription: "Чунлан"
+    transcription: "chōng làng"
   },
   {
     phraseId: "phrase_1601",
     text: "比赛",
-    transcription: "Бисай"
+    transcription: "bǐ sài"
   },
   {
     phraseId: "phrase_1602",
     text: "运动",
-    transcription: "Юньдун"
+    transcription: "yùn dòng"
   },
   {
     phraseId: "phrase_1603",
     text: "运动俱乐部",
-    transcription: "Юньдун цзюйлэбу"
+    transcription: "yùn dòng jù lè bù"
   },
   {
     phraseId: "phrase_1604",
     text: "运动员",
-    transcription: "Юньдунъюань"
+    transcription: "yùn dòng yuán"
   },
   {
     phraseId: "phrase_1605",
     text: "起跑",
-    transcription: "Ципао"
+    transcription: "qǐ pǎo"
   },
   {
     phraseId: "phrase_1606",
     text: "射击运动",
-    transcription: "Шэцзи юньдун"
+    transcription: "shè jī yùn dòng"
   },
   {
     phraseId: "phrase_1607",
     text: "裁判",
-    transcription: "Цайпань"
+    transcription: "cái pàn"
   },
   {
     phraseId: "phrase_1608",
     text: "比分",
-    transcription: "Бифэнь"
+    transcription: "bǐ fēn"
   },
   {
     phraseId: "phrase_1609",
     text: "半时",
-    transcription: "Баньши"
+    transcription: "bàn shí"
   },
   {
     phraseId: "phrase_1610",
     text: "网球",
-    transcription: "Ванцю"
+    transcription: "wǎng qiú"
   },
   {
     phraseId: "phrase_1611",
     text: "教练",
-    transcription: "Цзяолянь"
+    transcription: "jiào liàn"
   },
   {
     phraseId: "phrase_1612",
     text: "锻炼",
-    transcription: "Дуаньлянь"
+    transcription: "duàn liàn"
   },
   {
     phraseId: "phrase_1613",
     text: "看台",
-    transcription: "Каньтай"
+    transcription: "kàn tái"
   },
   {
     phraseId: "phrase_1614",
     text: "三项比赛",
-    transcription: "Саньсянбисай"
+    transcription: "sān xiàng bǐ sài"
   },
   {
     phraseId: "phrase_1615",
     text: "旅游",
-    transcription: "Люйю"
+    transcription: "lǚ yóu"
   },
   {
     phraseId: "phrase_1616",
     text: "举重运动",
-    transcription: "Цзюйчжун юньдун"
+    transcription: "jǔ zhòng yùn dòng"
   },
   {
     phraseId: "phrase_1617",
     text: "联合会",
-    transcription: "Ляньхэхуй"
+    transcription: "lián hé huì"
   },
   {
     phraseId: "phrase_1618",
     text: "击剑",
-    transcription: "Цзицзянь"
+    transcription: "jī jiàn"
   },
   {
     phraseId: "phrase_1619",
     text: "决赛",
-    transcription: "Цзюэсай"
+    transcription: "jué sài"
   },
   {
     phraseId: "phrase_1620",
     text: "终点",
-    transcription: "Чжундянь"
+    transcription: "zhōng diǎn"
   },
   {
     phraseId: "phrase_1621",
     text: "自由诗滑雪",
-    transcription: "Цзыюшихуасюэ"
+    transcription: "zì yóu shī huá xuě"
   },
   {
     phraseId: "phrase_1622",
     text: "足球",
-    transcription: "Цзуцю"
+    transcription: "zú qiú"
   },
   {
     phraseId: "phrase_1623",
     text: "足球场",
-    transcription: "Цзуцючан"
+    transcription: "zú qiú chǎng"
   },
   {
     phraseId: "phrase_1624",
     text: "冰球",
-    transcription: "Бинцю"
+    transcription: "bīng qiú"
   },
   {
     phraseId: "phrase_1625",
     text: "冠军",
-    transcription: "Гуаньцзюнь"
+    transcription: "guàn jūn"
   },
   {
     phraseId: "phrase_1626",
     text: "冠军赛",
-    transcription: "Гуаньцзюньсай"
+    transcription: "guàn jūn sài"
   },
   {
     phraseId: "phrase_1627",
     text: "四分之一决赛",
-    transcription: "Сыфэньчжии цзюэсай"
+    transcription: "sì fēn zhī yī jué sài"
   },
   {
     phraseId: "phrase_1628",
     text: "象棋",
-    transcription: "Сянци"
+    transcription: "xiàng qí"
   },
   {
     phraseId: "phrase_1629",
     text: "我病了",
-    transcription: "Во бинлэ"
+    transcription: "wǒ bìng le"
   },
   {
     phraseId: "phrase_1630",
     text: "我身体不舒服",
-    transcription: "Во шэньти бу шуфу"
+    transcription: "wǒ shēn tǐ bù shū fú"
   },
   {
     phraseId: "phrase_1631",
     text: "我觉得不舒服",
-    transcription: "Во цзюэдэ бу шуфу"
+    transcription: "wǒ jué de bù shū fú"
   },
   {
     phraseId: "phrase_1632",
     text: "我需要医生",
-    transcription: "Во сюйяо ишэн"
+    transcription: "wǒ xū yào yī shēng"
   },
   {
     phraseId: "phrase_1633",
     text: "附近那里有...?",
-    transcription: "Фуцзинь нали ю...?"
+    transcription: "fù jìn nà lǐ yǒu...?"
   },
   {
     phraseId: "phrase_1634",
     text: "门诊部",
-    transcription: "Мэньчжэньбу"
+    transcription: "mén zhěn bù"
   },
   {
     phraseId: "phrase_1635",
     text: "医院",
-    transcription: "Июань"
+    transcription: "yī yuàn"
   },
   {
     phraseId: "phrase_1636",
     text: "旅馆里有医生吗?",
-    transcription: "Люйгуаньли ю ишэн ма?"
+    transcription: "lǚ guǎn lǐ yǒu yī shēng ma?"
   },
   {
     phraseId: "phrase_1637",
     text: "请叫一下...",
-    transcription: "Цин цзяо ися..."
+    transcription: "qǐng jiào yí xià..."
   },
   {
     phraseId: "phrase_1638",
     text: "医生",
-    transcription: "Ишэн"
+    transcription: "yī shēng"
   },
   {
     phraseId: "phrase_1639",
     text: "急救",
-    transcription: "Цзицзю"
+    transcription: "jí jiù"
   },
   {
     phraseId: "phrase_1640",
     text: "我感冒了",
-    transcription: "Во ганьмаолэ"
+    transcription: "wǒ gǎn mào le"
   },
   {
     phraseId: "phrase_1641",
     text: "我...疼",
-    transcription: "Во...тэн"
+    transcription: "wǒ... téng"
   },
   {
     phraseId: "phrase_1642",
     text: "这里",
-    transcription: "Чжэли"
+    transcription: "zhè lǐ"
   },
   {
     phraseId: "phrase_1643",
     text: "头",
-    transcription: "Тоу"
+    transcription: "tóu"
   },
   {
     phraseId: "phrase_1644",
     text: "胃",
-    transcription: "Вэй"
+    transcription: "wèi"
   },
   {
     phraseId: "phrase_1645",
     text: "喉咙",
-    transcription: "Хоулун"
+    transcription: "hóu lóng"
   },
   {
     phraseId: "phrase_1646",
     text: "心",
-    transcription: "Синь"
+    transcription: "xīn"
   },
   {
     phraseId: "phrase_1647",
     text: "膝",
-    transcription: "Си"
+    transcription: "xī"
   },
   {
     phraseId: "phrase_1648",
     text: "腰",
-    transcription: "Яо"
+    transcription: "yāo"
   },
   {
     phraseId: "phrase_1649",
     text: "我...",
-    transcription: "Во..."
+    transcription: "wǒ..."
   },
   {
     phraseId: "phrase_1650",
     text: "流弊题",
-    transcription: "Любити"
+    transcription: "liú bì tí"
   },
   {
     phraseId: "phrase_1651",
     text: "咳嗽",
-    transcription: "Кэсоу"
+    transcription: "ké sou"
   },
   {
     phraseId: "phrase_1652",
     text: "发烧",
-    transcription: "Фашао"
+    transcription: "fā shāo"
   },
   {
     phraseId: "phrase_1653",
     text: "呼吸困难",
-    transcription: "Хуси куньнань"
+    transcription: "hū xī kùn nán"
   },
   {
     phraseId: "phrase_1654",
     text: "发高烧",
-    transcription: "Фагаошао"
+    transcription: "fā gāo shāo"
   },
   {
     phraseId: "phrase_1655",
     text: "头晕",
-    transcription: "Тоуюнь"
+    transcription: "tóu yūn"
   },
   {
     phraseId: "phrase_1656",
     text: "呕吐",
-    transcription: "Оуту"
+    transcription: "ǒu tǔ"
   },
   {
     phraseId: "phrase_1657",
     text: "泻肚",
-    transcription: "Седу"
+    transcription: "xiè dù"
   },
   {
     phraseId: "phrase_1658",
     text: "便秘",
-    transcription: "Бяньби"
+    transcription: "biàn mì"
   },
   {
     phraseId: "phrase_1659",
     text: "没有食欲",
-    transcription: "Мэйю шиюй"
+    transcription: "méi yǒu shí yù"
   },
   {
     phraseId: "phrase_1660",
     text: "全身不舒服",
-    transcription: "Цюаньшэнь бушуфу"
+    transcription: "quán shēn bù shū fú"
   },
   {
     phraseId: "phrase_1661",
     text: "失眠",
-    transcription: "Шимянь"
+    transcription: "shī mián"
   },
   {
     phraseId: "phrase_1662",
     text: "过敏反应",
-    transcription: "Гоминьфаньин"
+    transcription: "guò mǐn fǎn yìng"
   },
   {
     phraseId: "phrase_1663",
     text: "关节痛",
-    transcription: "Гуаньцзетун"
+    transcription: "guān jié tòng"
   },
   {
     phraseId: "phrase_1664",
     text: "我很久没生过病",
-    transcription: "Во хэньцзю мэй шэнгобин"
+    transcription: "wǒ hěn jiǔ méi shēng guò bìng"
   },
   {
     phraseId: "phrase_1665",
     text: "...我觉得不舒服",
-    transcription: "...во цзюэдэ бушуфу"
+    transcription: "... wǒ jué de bù shū fú"
   },
   {
     phraseId: "phrase_1666",
     text: "昨天",
-    transcription: "Цзотянь"
+    transcription: "zuó tiān"
   },
   {
     phraseId: "phrase_1667",
     text: "夜间",
-    transcription: "Ецзянь"
+    transcription: "yè jiān"
   },
   {
     phraseId: "phrase_1668",
     text: "今天早晨",
-    transcription: "Цзиньтянь цзаочэнь"
+    transcription: "jīn tiān zǎo chén"
   },
   {
     phraseId: "phrase_1669",
     text: "...咬了我",
-    transcription: "...яолэ во"
+    transcription: "... yǎo le wǒ"
   },
   {
     phraseId: "phrase_1670",
     text: "狗",
-    transcription: "Гоу"
+    transcription: "gǒu"
   },
   {
     phraseId: "phrase_1671",
     text: "蛇",
-    transcription: "Шэ"
+    transcription: "shé"
   },
   {
     phraseId: "phrase_1672",
     text: "蜜蜂",
-    transcription: "Мифэн"
+    transcription: "mì fēng"
   },
   {
     phraseId: "phrase_1673",
     text: "蚂蜂",
-    transcription: "Мафэн"
+    transcription: "mǎ fēng"
   },
   {
     phraseId: "phrase_1674",
     text: "某种虫子咬了我",
-    transcription: "Моучжун чунцзы яолэ во"
+    transcription: "mǒu zhǒng chóng zǐ yǎo le wǒ"
   },
   {
     phraseId: "phrase_1675",
     text: "我的...不能动",
-    transcription: "Водэ...бунэн дун"
+    transcription: "wǒ de... bù néng dòng"
   },
   {
     phraseId: "phrase_1676",
     text: "手指",
-    transcription: "Шоучжи"
+    transcription: "shǒu zhǐ"
   },
   {
     phraseId: "phrase_1677",
     text: "手臂",
-    transcription: "Шоуби"
+    transcription: "shǒu bì"
   },
   {
     phraseId: "phrase_1678",
     text: "腿脚",
-    transcription: "Туйцзяо"
+    transcription: "tuǐ jiǎo"
   },
   {
     phraseId: "phrase_1679",
     text: "在哪里...验?",
-    transcription: "Цзай нали янь...?"
+    transcription: "zài nǎ lǐ... yàn?"
   },
   {
     phraseId: "phrase_1680",
     text: "血",
-    transcription: "Сюэ"
+    transcription: "xuè"
   },
   {
     phraseId: "phrase_1681",
     text: "尿",
-    transcription: "Няо"
+    transcription: "niào"
   },
   {
     phraseId: "phrase_1682",
     text: "粪便",
-    transcription: "Фэньбянь"
+    transcription: "fèn biàn"
   },
   {
     phraseId: "phrase_1683",
     text: "平常我的血压...",
-    transcription: "Пинчан водэ сюэя..."
+    transcription: "píng cháng wǒ de xuè yā..."
   },
   {
     phraseId: "phrase_1684",
     text: "偏高",
-    transcription: "Пяньгао"
+    transcription: "piān gāo"
   },
   {
     phraseId: "phrase_1685",
     text: "偏低",
-    transcription: "Пяньди"
+    transcription: "piān dī"
   },
   {
     phraseId: "phrase_1686",
     text: "正常",
-    transcription: "Чжэнчан"
+    transcription: "zhèng cháng"
   },
   {
     phraseId: "phrase_1687",
     text: "我把...冻坏了",
-    transcription: "Во ба... дунхуайлэ"
+    transcription: "wǒ bǎ... dòng huài le"
   },
   {
     phraseId: "phrase_1688",
     text: "鼻子",
-    transcription: "Бицзы"
+    transcription: "bí zi"
   },
   {
     phraseId: "phrase_1689",
     text: "耳朵",
-    transcription: "Эрдо"
+    transcription: "ěr duo"
   },
   {
     phraseId: "phrase_1690",
     text: "面颊",
-    transcription: "Мяньцзя"
+    transcription: "miàn jiá"
   },
   {
     phraseId: "phrase_1691",
     text: "手指",
-    transcription: "Шоучжи"
+    transcription: "shǒu zhǐ"
   },
   {
     phraseId: "phrase_1692",
     text: "手",
-    transcription: "Шоу"
+    transcription: "shǒu"
   },
   {
     phraseId: "phrase_1693",
     text: "脚",
-    transcription: "Цзяо"
+    transcription: "jiǎo"
   },
   {
     phraseId: "phrase_1694",
     text: "我恶心",
-    transcription: "Во эсинь"
+    transcription: "wǒ ě xīn"
   },
   {
     phraseId: "phrase_1695",
     text: "我把...歌破了",
-    transcription: "Во ба... гэполэ"
+    transcription: "wǒ bǎ... gē pò le"
   },
   {
     phraseId: "phrase_1696",
     text: "我烧伤了",
-    transcription: "Во шаошанлэ"
+    transcription: "wǒ shāo shāng le"
   },
   {
     phraseId: "phrase_1697",
     text: "我好像是骨折",
-    transcription: "Во хаосян ши гучжэ"
+    transcription: "wǒ hǎo xiàng shì gǔ zhé"
   },
   {
     phraseId: "phrase_1698",
     text: "请给我作...",
-    transcription: "Цин гэй во цзо..."
+    transcription: "qǐng gěi wǒ zuò..."
   },
   {
     phraseId: "phrase_1699",
     text: "爆炸",
-    transcription: "Баочжа"
+    transcription: "bào zhà"
   },
   {
     phraseId: "phrase_1700",
     text: "打伤俘布",
-    transcription: "Дашанфубу"
+    transcription: "dǎ shāng fú bù"
   },
   {
     phraseId: "phrase_1701",
     text: "打麻药",
-    transcription: "Да маяо"
+    transcription: "dǎ má yào"
   },
   {
     phraseId: "phrase_1702",
     text: "最紧的药房在哪里?",
-    transcription: "Цзуйцзиньдэ яофан цзай нали?"
+    transcription: "zuì jǐn de yào fáng zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_1703",
     text: "请给我...",
-    transcription: "Цин гэй во..."
+    transcription: "qǐng gěi wǒ..."
   },
   {
     phraseId: "phrase_1704",
     text: "多种维他命",
-    transcription: "Дочжун вэйтамин"
+    transcription: "duō zhǒng wéi tā mìng"
   },
   {
     phraseId: "phrase_1705",
     text: "多种微量元素",
-    transcription: "Дочжун вэйлян юаньсу"
+    transcription: "duō zhǒng wēi liáng yuán sù"
   },
   {
     phraseId: "phrase_1706",
     text: "泻药",
-    transcription: "Сеяо"
+    transcription: "xiè yào"
   },
   {
     phraseId: "phrase_1707",
     text: "止疼药",
-    transcription: "Чжи тэньяо"
+    transcription: "zhǐ téng yào"
   },
   {
     phraseId: "phrase_1708",
     text: "止咳嗽的药",
-    transcription: "Чжи кэсоудэ яо"
+    transcription: "zhǐ ké sou de yào"
   },
   {
     phraseId: "phrase_1709",
     text: "止流弊题的药",
-    transcription: "Чжи любитидэ яо"
+    transcription: "zhǐ liú bì tí de yào"
   },
   {
     phraseId: "phrase_1710",
     text: "止头疼的药",
-    transcription: "Чжи тоутэндэ яо"
+    transcription: "zhǐ tóu téng de yào"
   },
   {
     phraseId: "phrase_1711",
     text: "止胃疼的药",
-    transcription: "Чжи вэйтэндэ яо"
+    transcription: "zhǐ wèi téng de yào"
   },
   {
     phraseId: "phrase_1712",
     text: "这种药怎么样服用?",
-    transcription: "Чжэчжун яо цзэньмэян фуюн?"
+    transcription: "zhè zhǒng yào zěn me yàng fú yòng?"
   },
   {
     phraseId: "phrase_1713",
     text: "饭前",
-    transcription: "Фаньцянь"
+    transcription: "fàn qián"
   },
   {
     phraseId: "phrase_1714",
     text: "饭后",
-    transcription: "Фаньхоу"
+    transcription: "fàn hòu"
   },
   {
     phraseId: "phrase_1715",
     text: "一天几次?",
-    transcription: "Итянь цзицы?"
+    transcription: "yì tiān jǐ cì?"
   },
   {
     phraseId: "phrase_1716",
     text: "每次多少...?",
-    transcription: "Мэйцы дошао...?"
+    transcription: "měi cì duō shǎo...?"
   },
   {
     phraseId: "phrase_1717",
     text: "药片",
-    transcription: "Яопянь"
+    transcription: "yào piàn"
   },
   {
     phraseId: "phrase_1718",
     text: "滴剂",
-    transcription: "Дицзи"
+    transcription: "dī jì"
   },
   {
     phraseId: "phrase_1719",
     text: "我们来到这里有些什么工作?",
-    transcription: "Вомэнь лайдао чжэли юсе шэньмэ гунцзо?"
+    transcription: "wǒ men lái dào zhè lǐ yǒu xiē shén me gōng zuò?"
   },
   {
     phraseId: "phrase_1720",
     text: "我们希望参观...",
-    transcription: "Вомэнь сиван цаньгуань..."
+    transcription: "wǒ men xī wàng cān guān..."
   },
   {
     phraseId: "phrase_1721",
     text: "公司",
-    transcription: "Гунсы"
+    transcription: "gōng sī"
   },
   {
     phraseId: "phrase_1722",
     text: "工厂",
-    transcription: "Гунчан"
+    transcription: "gōng chǎng"
   },
   {
     phraseId: "phrase_1723",
     text: "实验室",
-    transcription: "Шияньшы"
+    transcription: "shí yàn shì"
   },
   {
     phraseId: "phrase_1724",
     text: "科研中心",
-    transcription: "Кэянь чжунсинь"
+    transcription: "kē yán zhōng xīn"
   },
   {
     phraseId: "phrase_1725",
     text: "汽车厂",
-    transcription: "Цичэчан"
+    transcription: "qì chē chǎng"
   },
   {
     phraseId: "phrase_1726",
     text: "我们建议讨论一下...",
-    transcription: "Вомэнь цзяньи таолунь ися..."
+    transcription: "wǒ men jiàn yì tǎo lùn yí xià..."
   },
   {
     phraseId: "phrase_1727",
     text: "合作的可能方式",
-    transcription: "Хэцзодэ кэнэн фанши"
+    transcription: "hé zuò de kě néng fāng shì"
   },
   {
     phraseId: "phrase_1728",
     text: "工作计划",
-    transcription: "Гунцзо цзихуа"
+    transcription: "gōng zuò jì huà"
   },
   {
     phraseId: "phrase_1729",
     text: "协议草案",
-    transcription: "Сей цаоань"
+    transcription: "xié yì cǎo àn"
   },
   {
     phraseId: "phrase_1730",
     text: "合同条件",
-    transcription: "Хэтун тяоцзянь"
+    transcription: "hé tong tiáo jiàn"
   },
   {
     phraseId: "phrase_1731",
     text: "双方供货的品种表及日期",
-    transcription: "Шуанфан гунходэ пиньчжунбяо цзи жици"
+    transcription: "shuāng fāng gòng huò de pǐn zhǒng biǎo jí rì qī"
   },
   {
     phraseId: "phrase_1732",
     text: "专家互换日期",
-    transcription: "Чжуаньцзя хухуань жици"
+    transcription: "zhuān jiā hù huàn rì qī"
   },
   {
     phraseId: "phrase_1733",
     text: "贵方将由谁参与合作?",
-    transcription: "Гуйфан цзян ю шуй цаньюй хэцзо?"
+    transcription: "guì fāng jiāng yóu shuí cān yù hé zuò?"
   },
   {
     phraseId: "phrase_1734",
     text: "什么时候你能将...给我们?",
-    transcription: "Шэньмэ шихоу ни нэн цзян ...гэй вомэнь?"
+    transcription: "shén me shí hòu nǐ néng jiāng... gěi wǒ men?"
   },
   {
     phraseId: "phrase_1735",
     text: "资料",
-    transcription: "Цзыляо"
+    transcription: "zī liào"
   },
   {
     phraseId: "phrase_1736",
     text: "样品",
-    transcription: "Янпинь"
+    transcription: "yàng pǐn"
   },
   {
     phraseId: "phrase_1737",
     text: "试验结果",
-    transcription: "Шиянь цзего"
+    transcription: "shì yàn jié guǒ"
   },
   {
     phraseId: "phrase_1738",
     text: "...的最后期限是什么时候?",
-    transcription: "...дэ цзуй хоу цисянь ши шэньмэ шихоу?"
+    transcription: "... de zuì hòu qī xiàn shì shén me shí hòu?"
   },
   {
     phraseId: "phrase_1739",
     text: "提建议",
-    transcription: "Ти цзяньи"
+    transcription: "tí jiàn yì"
   },
   {
     phraseId: "phrase_1740",
     text: "工作完成",
-    transcription: "Гунцзо ваньчэн"
+    transcription: "gōng zuò wán chéng"
   },
   {
     phraseId: "phrase_1741",
     text: "投入使用",
-    transcription: "Тоужу шиюн"
+    transcription: "tóu rù shǐ yòng"
   },
   {
     phraseId: "phrase_1742",
     text: "何时(何地)举行...签字仪式?",
-    transcription: "Хэши (хэди) цзюйсин... цяньцзы иши?"
+    transcription: "hé shí (hé dì) jǔ xíng... qiān zì yí shì?"
   },
   {
     phraseId: "phrase_1743",
     text: "合作协议",
-    transcription: "Хэцзо сей"
+    transcription: "hé zuò xié yì"
   },
   {
     phraseId: "phrase_1744",
     text: "会议记录",
-    transcription: "Хуйи цзилу"
+    transcription: "huì yì jì lù"
   },
   {
     phraseId: "phrase_1745",
     text: "合作计划",
-    transcription: "Хэцзо цзихуа"
+    transcription: "hé zuò jì huà"
   },
   {
     phraseId: "phrase_1746",
     text: "合同",
-    transcription: "Хэтун"
+    transcription: "hé tong"
   },
   {
     phraseId: "phrase_1747",
     text: "非常感谢...",
-    transcription: "Фэйчан ганьсе..."
+    transcription: "fēi cháng gǎn xiè..."
   },
   {
     phraseId: "phrase_1748",
     text: "给予的热情招待",
-    transcription: "Цзиюйдэ жэцин чжаодай"
+    transcription: "jǐ yǔ de rè qíng zhāo dài"
   },
   {
     phraseId: "phrase_1749",
     text: "会议出色的组织工作",
-    transcription: "Хуйи чусэдэ цзучжи гунцзо"
+    transcription: "huì yì chū sè de zǔ zhī gōng zuò"
   },
   {
     phraseId: "phrase_1750",
     text: "热情接待",
-    transcription: "Жэцин цзедай"
+    transcription: "rè qíng jiē dài"
   },
   {
     phraseId: "phrase_1751",
     text: "情报局",
-    transcription: "Цинбаоцзюй"
+    transcription: "qíng bào jú"
   },
   {
     phraseId: "phrase_1752",
     text: "筹委会秘书处",
-    transcription: "Чоувэйхуй мишучу"
+    transcription: "chóu wěi huì mì shū chù"
   },
   {
     phraseId: "phrase_1753",
     text: "新闻中心",
-    transcription: "Синьвэнь чжунсинь"
+    transcription: "xīn wén zhōng xīn"
   },
   {
     phraseId: "phrase_1754",
     text: "翻译室",
-    transcription: "Фаньиши"
+    transcription: "fān yì shì"
   },
   {
     phraseId: "phrase_1755",
     text: "会议厅",
-    transcription: "Хуйитин"
+    transcription: "huì yì tīng"
   },
   {
     phraseId: "phrase_1756",
     text: "在哪里我能付登记费?",
-    transcription: "Цзай нали во нэн фу дэнцзифэй?"
+    transcription: "zài nǎ lǐ wǒ néng fù dēng jì fèi?"
   },
   {
     phraseId: "phrase_1757",
     text: "何时举行...?",
-    transcription: "Хэши цзюйсин...?"
+    transcription: "hé shí jǔ xíng...?"
   },
   {
     phraseId: "phrase_1758",
     text: "会议开幕式",
-    transcription: "Хуйи каймуши"
+    transcription: "huì yì kāi mù shì"
   },
   {
     phraseId: "phrase_1759",
     text: "全体会议",
-    transcription: "Цюаньти хуйи"
+    transcription: "quán tǐ huì yì"
   },
   {
     phraseId: "phrase_1760",
     text: "圆桌会议",
-    transcription: "Юаньчжо хуйи"
+    transcription: "yuán zhuō huì yì"
   },
   {
     phraseId: "phrase_1761",
     text: "在哪里我能得到...?",
-    transcription: "Цзай нали во нэн дэдао...?"
+    transcription: "zài nǎ lǐ wǒ néng dé dào...?"
   },
   {
     phraseId: "phrase_1762",
     text: "会议时间表",
-    transcription: "Хуйи шицзяньбяо"
+    transcription: "huì yì shí jiān biǎo"
   },
   {
     phraseId: "phrase_1763",
     text: "与会者人名单",
-    transcription: "Юйхуйчжэ жэньминдань"
+    transcription: "yù huì zhě rén míng dān"
   },
   {
     phraseId: "phrase_1764",
     text: "徽章",
-    transcription: "Хуйчжан"
+    transcription: "huī zhāng"
   },
   {
     phraseId: "phrase_1765",
     text: "耳机",
-    transcription: "Эрцзи"
+    transcription: "ěr jī"
   },
   {
     phraseId: "phrase_1766",
     text: "...会议将在哪里举行?",
-    transcription: "...хуйи цзян цзай нали цзюйсин?"
+    transcription: "... huì yì jiāng zài nǎ lǐ jǔ xíng?"
   },
   {
     phraseId: "phrase_1767",
     text: "工作组会议",
-    transcription: "Гунцзоцзухуйи"
+    transcription: "gōng zuò zǔ huì yì"
   },
   {
     phraseId: "phrase_1768",
     text: "技术委员会的会议",
-    transcription: "Цзишу вэйюаньхуйдэ хуйи"
+    transcription: "jì shù wěi yuán huì de huì yì"
   },
   {
     phraseId: "phrase_1769",
     text: "会议适用哪种语言?",
-    transcription: "Хуйи шиюн начжун юйянь?"
+    transcription: "huì yì shì yòng nǎ zhǒng yǔ yán?"
   },
   {
     phraseId: "phrase_1770",
     text: "发言的时间有多久?",
-    transcription: "Фаяньдэ шицзянь ю доцзю?"
+    transcription: "fā yán de shí jiān yǒu duō jiǔ?"
   },
   {
     phraseId: "phrase_1771",
     text: "将用俄语翻译吗?",
-    transcription: "Цзян юн эюй фаньи ма?"
+    transcription: "jiāng yòng é yǔ fān yì ma?"
   },
   {
     phraseId: "phrase_1772",
     text: "用多少时间展开辩论?",
-    transcription: "Юн дошао шицзянь чжанькай бяньлунь?"
+    transcription: "yòng duō shǎo shí jiān zhǎn kāi biàn lùn?"
   },
   {
     phraseId: "phrase_1773",
     text: "我将用...语发言",
-    transcription: "Во цзян юн ...юй фаянь"
+    transcription: "wǒ jiāng yòng... yǔ fā yán"
   },
   {
     phraseId: "phrase_1774",
     text: "俄语",
-    transcription: "Эюй"
+    transcription: "é yǔ"
   },
   {
     phraseId: "phrase_1775",
     text: "英语",
-    transcription: "Инъюй"
+    transcription: "yīng yǔ"
   },
   {
     phraseId: "phrase_1776",
     text: "法语",
-    transcription: "Фаюй"
+    transcription: "fǎ yǔ"
   },
   {
     phraseId: "phrase_1777",
     text: "德语",
-    transcription: "Дэюй"
+    transcription: "dé yǔ"
   },
   {
     phraseId: "phrase_1778",
     text: "静电复印机在哪里?",
-    transcription: "Цзиндяньфуиньцзи цзай нали?"
+    transcription: "jìng diàn fù yìn jī zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_1779",
     text: "这是我的给翻译用的发言稿",
-    transcription: "Чжэшы водэ гэй фаньи юндэ фаньгао"
+    transcription: "zhè shì wǒ de gěi fān yì yòng de fā yán gǎo"
   },
   {
     phraseId: "phrase_1780",
     text: "我在谁之后发言?",
-    transcription: "Во цзай шуй чжихоу фаянь?"
+    transcription: "wǒ zài shuí zhī hòu fā yán?"
   },
   {
     phraseId: "phrase_1781",
     text: "您在哪个分组会议上作报告?",
-    transcription: "Нинь цзай нагэ фэньцзу хуйи шан цзо баогао?"
+    transcription: "nín zài nǎ gè fēn zǔ huì yì shàng zuò bào gào?"
   },
   {
     phraseId: "phrase_1782",
     text: "您报告的题目是什么?",
-    transcription: "Нинь баогаодэ тиму ши шэньмэ?"
+    transcription: "nín bào gào de tí mù shì shén me?"
   },
   {
     phraseId: "phrase_1783",
     text: "您代表哪家公司?",
-    transcription: "Нинь дайбяо нацзя гунсы?"
+    transcription: "nín dài biǎo nǎ jiā gōng sī?"
   },
   {
     phraseId: "phrase_1784",
     text: "我代表...公司",
-    transcription: "Во дайбяо... гунсы"
+    transcription: "wǒ dài biǎo... gōng sī"
   },
   {
     phraseId: "phrase_1785",
     text: "我代表...股份公司",
-    transcription: "Во дайбяо... гуфэньгунсы"
+    transcription: "wǒ dài biǎo... gǔ fèn gōng sī"
   },
   {
     phraseId: "phrase_1786",
     text: "我有几个...",
-    transcription: "Во ю цзйгэ..."
+    transcription: "wǒ yǒu jǐ gè..."
   },
   {
     phraseId: "phrase_1787",
     text: "问题",
-    transcription: "Вэньти"
+    transcription: "wèn tí"
   },
   {
     phraseId: "phrase_1788",
     text: "反对意见",
-    transcription: "Фаньдуйицзянь"
+    transcription: "fǎn duì yì jiàn"
   },
   {
     phraseId: "phrase_1789",
     text: "意见",
-    transcription: "Ицзянь"
+    transcription: "yì jiàn"
   },
   {
     phraseId: "phrase_1790",
     text: "我(不)同意...",
-    transcription: "Во (бу) тунъи..."
+    transcription: "wǒ (bù) tóng yì..."
   },
   {
     phraseId: "phrase_1791",
     text: "您的礼遇",
-    transcription: "Ниньдэ лию"
+    transcription: "nín de lǐ yù"
   },
   {
     phraseId: "phrase_1792",
     text: "问题的这种提法",
-    transcription: "Вэньтидэ чжэчжун тифа"
+    transcription: "wèn tí de zhè zhǒng tí fǎ"
   },
   {
     phraseId: "phrase_1793",
     text: "请宣布决议",
-    transcription: "Цин сюаньбу цзюэи"
+    transcription: "qǐng xuān bù jué yì"
   },
   {
     phraseId: "phrase_1794",
     text: "怎么样表决?",
-    transcription: "Цзэньмэян бяоцзюэ?"
+    transcription: "zěn me yàng biǎo jué?"
   },
   {
     phraseId: "phrase_1795",
     text: "你们组织处理哪些问题呢?",
-    transcription: "Нимэнь цзучжи чули насе вэньти нэ?"
+    transcription: "nǐ men zǔ zhī chǔ lǐ nǎ xiē wèn tí ne?"
   },
   {
     phraseId: "phrase_1796",
     text: "您同那个公司保持接触?",
-    transcription: "Нинь тун нагэ гунсы баочи цзечу?"
+    transcription: "nín tóng nà ge gōng sī bǎo chí jiē chù?"
   },
   {
     phraseId: "phrase_1797",
     text: "我们想看看展览会",
-    transcription: "Вомэнь сян канькань чжаньланьхуй"
+    transcription: "wǒ men xiǎng kàn kàn zhǎn lǎn huì"
   },
   {
     phraseId: "phrase_1798",
     text: "展览会在哪些钟点工作?",
-    transcription: "Чжаньланьхуй цзай насе чжундянь гунцзо?"
+    transcription: "zhǎn lǎn huì zài nǎ xiē zhōng diǎn gōng zuò?"
   },
   {
     phraseId: "phrase_1799",
     text: "多少国家参加展览会?",
-    transcription: "Дошао гоцзя цаньцзя чжаньланьхуй?"
+    transcription: "duō shǎo guó jiā cān jiā zhǎn lǎn huì?"
   },
   {
     phraseId: "phrase_1800",
     text: "多少个展馆?",
-    transcription: "Дошаогэ чжаньгуань?"
+    transcription: "duō shǎo gè zhǎn guǎn?"
   },
   {
     phraseId: "phrase_1801",
     text: "可以得到展览目录吗?",
-    transcription: "Кэй дэдао чжаньлань мулу ма?"
+    transcription: "kě yǐ dé dào zhǎn lǎn mù lù ma?"
   },
   {
     phraseId: "phrase_1802",
     text: "问世处",
-    transcription: "Вэньшичу"
+    transcription: "wèn shì chù"
   },
   {
     phraseId: "phrase_1803",
     text: "...公司的展台在哪里?",
-    transcription: "...гунсыдэ чжаньтай цзай нали?"
+    transcription: "... gōng sī de zhǎn tái zài nǎ lǐ?"
   },
   {
     phraseId: "phrase_1804",
     text: "谁组织展览会?",
-    transcription: "Шуй цзучжи чжаньланьхуй?"
+    transcription: "shuí zǔ zhī zhǎn lǎn huì?"
   },
   {
     phraseId: "phrase_1805",
     text: "这是谁设计的?",
-    transcription: "Чжэши шуй шэцзидэ?"
+    transcription: "zhè shì shuí shè jì de?"
   },
   {
     phraseId: "phrase_1806",
     text: "这台机器的生产效率如何?",
-    transcription: "Чжэтай цзицидэ шэнчаньсяолюй жухэ?"
+    transcription: "zhè tái jī qì de shēng chǎn xiào lǜ rú hé?"
   },
   {
     phraseId: "phrase_1807",
     text: "我想了解这台装置的技术资料",
-    transcription: "Во сян ляоцзе чжэтай чжуанчжидэ цзишу цзыляо"
+    transcription: "wǒ xiǎng liǎo jiě zhè tái zhuāng zhì de jì shù zī liào"
   },
   {
     phraseId: "phrase_1808",
     text: "我们想购买...",
-    transcription: "Вомэнь сян гоумай..."
+    transcription: "wǒ men xiǎng gòu mǎi..."
   },
   {
     phraseId: "phrase_1809",
     text: "这种装置",
-    transcription: "Чжэчжун чжуанчжи"
+    transcription: "zhè zhǒng zhuāng zhì"
   },
   {
     phraseId: "phrase_1810",
     text: "这套设备",
-    transcription: "Чжэтао шэбэй"
+    transcription: "zhè tào shè bèi"
   },
   {
     phraseId: "phrase_1811",
     text: "许可证",
-    transcription: "Сюйкэчжэнь"
+    transcription: "xǔ kě zhèng"
   },
   {
     phraseId: "phrase_1812",
     text: "专利",
-    transcription: "Чжуаньли"
+    transcription: "zhuān lì"
   },
   {
     phraseId: "phrase_1813",
     text: "我们想看一看...",
-    transcription: "Вомэнь сян канькань..."
+    transcription: "wǒ men xiǎng kàn yi kàn..."
   },
   {
     phraseId: "phrase_1814",
     text: "技术说明书",
-    transcription: "Цзишу шомиьншу"
+    transcription: "jì shù shuō míng shū"
   },
   {
     phraseId: "phrase_1815",
     text: "你们的最新开发产品",
-    transcription: "Нимэньдэ цзуй синь кайфа чаньпинь"
+    transcription: "nǐ men de zuì xīn kāi fā chǎn pǐn"
   },
   {
     phraseId: "phrase_1816",
     text: "这是你们自己开发的吗?",
-    transcription: "Чжэши нимэнь цзыцзи кайфадэ ма?"
+    transcription: "zhè shì nǐ men zì jǐ kāi fā de ma?"
   },
   {
     phraseId: "phrase_1817",
     text: "我是来讨论问题的",
-    transcription: "Во ши лай таолунь вэньтидэ"
+    transcription: "wǒ shì lái tǎo lùn wèn tí de"
   },
   {
     phraseId: "phrase_1818",
     text: "我们希望能和...会谈",
-    transcription: "Вомэнь сиван нэн хэ...хуйтань"
+    transcription: "wǒ men xī wàng néng hé... huì tán"
   },
   {
     phraseId: "phrase_1819",
     text: "总经理",
-    transcription: "Цзун цзинли"
+    transcription: "zǒng jīng lǐ"
   },
   {
     phraseId: "phrase_1820",
     text: "销售经理",
-    transcription: "Сяошоу цзинли"
+    transcription: "xiāo shòu jīng lǐ"
   },
   {
     phraseId: "phrase_1821",
     text: "技术经理",
-    transcription: "Цзишу цзинли"
+    transcription: "jì shù jīng lǐ"
   },
   {
     phraseId: "phrase_1822",
     text: "总工程师",
-    transcription: "Цзун гунчэнши"
+    transcription: "zǒng gōng chéng shī"
   },
   {
     phraseId: "phrase_1823",
     text: "我们希望了解一下生产",
-    transcription: "Вомэнь сиван ляоцзе ися шэнчань"
+    transcription: "wǒ men xī wàng liǎo jiě yí xià shēng chǎn"
   },
   {
     phraseId: "phrase_1824",
     text: "你们生产规模有多大?",
-    transcription: "Нимэнь шэнчань гуймо ю дода?"
+    transcription: "nǐ men shēng chǎn guī mó yǒu duō dà?"
   },
   {
     phraseId: "phrase_1825",
     text: "你们公司买(卖)哪些商品?",
-    transcription: "Нимэнь гунсы май (май) насе шанпинь?"
+    transcription: "nǐ men gōng sī mǎi (mài) nǎ xiē shāng pǐn?"
   },
   {
     phraseId: "phrase_1826",
     text: "我们公司买(卖)...",
-    transcription: "Вомэнь гунсы май (май)..."
+    transcription: "wǒ men gōng sī mǎi (mài)..."
   },
   {
     phraseId: "phrase_1827",
     text: "原料",
-    transcription: "Юаньляо"
+    transcription: "yuán liào"
   },
   {
     phraseId: "phrase_1828",
     text: "设备",
-    transcription: "Шэбэй"
+    transcription: "shè bèi"
   },
   {
     phraseId: "phrase_1829",
     text: "汽车和配件",
-    transcription: "Цичэ хэ пэйцзянь"
+    transcription: "qì chē hé pèi jiàn"
   },
   {
     phraseId: "phrase_1830",
     text: "食品",
-    transcription: "Шипинь"
+    transcription: "shí pǐn"
   },
   {
     phraseId: "phrase_1831",
     text: "产品的成本价是多少?",
-    transcription: "Чаньпиньдэ чэнбэньцзя ши дошао?"
+    transcription: "chǎn pǐn de chéng běn jià shì duō shǎo?"
   },
   {
     phraseId: "phrase_1832",
     text: "产品出口哪些国家?",
-    transcription: "Чаньпинь чукоу насе гоцзя?"
+    transcription: "chǎn pǐn chū kǒu nǎ xiē guó jiā?"
   },
   {
     phraseId: "phrase_1833",
     text: "你们适用哪些原料?",
-    transcription: "Нимэнь шиюн насе юаньляо?"
+    transcription: "nǐ men shì yòng nǎ xiē yuán liào?"
   },
   {
     phraseId: "phrase_1834",
     text: "我们想讨论一下...",
-    transcription: "Вомэнь сян таолунь ися..."
+    transcription: "wǒ men xiǎng tǎo lùn yí xià..."
   },
   {
     phraseId: "phrase_1835",
     text: "合作的可能形式",
-    transcription: "Хэцзодэ кэнэн синши"
+    transcription: "hé zuò de kě néng xíng shì"
   },
   {
     phraseId: "phrase_1836",
     text: "交货(付款)条件",
-    transcription: "Цзяохо (фукуань) тяоцзянь"
+    transcription: "jiāo huò (fù kuǎn) tiáo jiàn"
   },
   {
     phraseId: "phrase_1837",
     text: "我们想买...",
-    transcription: "Вомэнь сян май..."
+    transcription: "wǒ men xiǎng mǎi..."
   },
   {
     phraseId: "phrase_1838",
     text: "一批你们的产品",
-    transcription: "Ипи нимэньдэ чаньпинь"
+    transcription: "yì pī nǐ men de chǎn pǐn"
   },
   {
     phraseId: "phrase_1839",
     text: "设备用易货方式",
-    transcription: "Шэбэй юн ихо фанши"
+    transcription: "shè bèi yòng yì huò fāng shì"
   },
   {
     phraseId: "phrase_1840",
     text: "生产技术",
-    transcription: "Шэнчань цзишу"
+    transcription: "shēng chǎn jì shù"
   },
   {
     phraseId: "phrase_1841",
     text: "用...运输对我们更合适",
-    transcription: "Юн...юньшу дуй вомэнь гэн хэши"
+    transcription: "yòng... yùn shū duì wǒ men gèng hé shì"
   },
   {
     phraseId: "phrase_1842",
     text: "铁路",
-    transcription: "Телу"
+    transcription: "tiě lù"
   },
   {
     phraseId: "phrase_1843",
     text: "飞机",
-    transcription: "Фэйцзи"
+    transcription: "fēi jī"
   },
   {
     phraseId: "phrase_1844",
     text: "水路",
-    transcription: "Шуйлу"
+    transcription: "shuǐ lù"
   },
   {
     phraseId: "phrase_1845",
     text: "汽车",
-    transcription: "Цичэ"
+    transcription: "qì chē"
   },
   {
     phraseId: "phrase_1846",
     text: "请给看一下...",
-    transcription: "Цин гэй кань ися..."
+    transcription: "qǐng gěi kàn yí xià..."
   },
   {
     phraseId: "phrase_1847",
     text: "新产品目录",
-    transcription: "Синь чаньпинь мулу"
+    transcription: "xīn chǎn pǐn mù lù"
   },
   {
     phraseId: "phrase_1848",
     text: "广告材料",
-    transcription: "Гуангао цайляо"
+    transcription: "guǎng gào cái liào"
   },
   {
     phraseId: "phrase_1849",
     text: "价格表",
-    transcription: "Цзягэбяо"
+    transcription: "jià gé biǎo"
   },
   {
     phraseId: "phrase_1850",
     text: "我们对...有兴趣",
-    transcription: "Вомэнь дуй...ю синцюй"
+    transcription: "wǒ men duì... yǒu xìng qù"
   },
   {
     phraseId: "phrase_1851",
     text: "我们要讨论一下你的建议",
-    transcription: "Вомэнь яо таолунь ися нидэ цзяньи"
+    transcription: "wǒ men yào tǎo lùn yí xià nǐ de jiàn yì"
   },
   {
     phraseId: "phrase_1852",
     text: "我们想得到...",
-    transcription: "Вомэнь сян дэдао..."
+    transcription: "wǒ men xiǎng dé dào..."
   },
   {
     phraseId: "phrase_1853",
     text: "贷款",
-    transcription: "Дайкуань"
+    transcription: "dài kuǎn"
   },
   {
     phraseId: "phrase_1854",
     text: "长期贷款",
-    transcription: "Чанци дайкуань"
+    transcription: "cháng qī dài kuǎn"
   },
   {
     phraseId: "phrase_1855",
     text: "唤起付款",
-    transcription: "Хуань ци фукуань"
+    transcription: "huàn qǐ fù kuǎn"
   },
   {
     phraseId: "phrase_1856",
     text: "这让你满意吗?",
-    transcription: "Чжэ жан ни маньи ма?"
+    transcription: "zhè ràng nǐ mǎn yì ma?"
   },
   {
     phraseId: "phrase_1857",
     text: "我们对此满意",
-    transcription: "Вомэнь дуй цы маньи"
+    transcription: "wǒ men duì cǐ mǎn yì"
   },
   {
     phraseId: "phrase_1858",
     text: "我们这是最终决定",
-    transcription: "Вомэнь чжэши цзуйчжун цзюэдин"
+    transcription: "wǒ men zhè shì zuì zhōng jué dìng"
   },
   {
     phraseId: "phrase_1859",
     text: "我们同意你的条件",
-    transcription: "Вомэнь тунъи нидэ тяоцзянь"
+    transcription: "wǒ men tóng yì nǐ de tiáo jiàn"
   },
   {
     phraseId: "phrase_1860",
     text: "什么时候我们可以签最终...?",
-    transcription: "Шэньмэ шихоу вомэнь кэй цянь цзуйчжун...?"
+    transcription: "shén me shí hòu wǒ men kě yǐ qiān zuì zhōng...?"
   },
   {
     phraseId: "phrase_1861",
     text: "议定书",
-    transcription: "Идиншу"
+    transcription: "yì dìng shū"
   },
   {
     phraseId: "phrase_1862",
     text: "协议",
-    transcription: "Сеи"
+    transcription: "xié yì"
   },
   {
     phraseId: "phrase_1863",
     text: "我们对谈判的结果满意",
-    transcription: "Вомэнь дуй таньпаньдэ цзего маньи"
+    transcription: "wǒ men duì tán pàn de jié guǒ mǎn yì"
   },
   {
     phraseId: "phrase_1864",
     text: "我们很高兴与你们继续业务关系",
-    transcription: "Вомэнь хэнь гаосин юй нимэнь цзисюй еу гуаньси"
+    transcription: "wǒ men hěn gāo xìng yǔ nǐ men jì xù yè wù guān xì"
   },
   {
     phraseId: "phrase_1865",
     text: "你叫什么名字?",
-    transcription: "Ни цзяо шэньмэ минцзы?"
+    transcription: "nǐ jiào shén me míng zì?"
   },
   {
     phraseId: "phrase_1866",
     text: "你姓什么?",
-    transcription: "Ни син шэньмэ?"
+    transcription: "nǐ xìng shén me?"
   },
   {
     phraseId: "phrase_1867",
     text: "你多大?",
-    transcription: "Ни до да?"
+    transcription: "nǐ duō dà?"
   },
   {
     phraseId: "phrase_1868",
     text: "我...岁",
-    transcription: "Во...суй"
+    transcription: "wǒ... suì"
   },
   {
     phraseId: "phrase_1869",
     text: "十七",
-    transcription: "Шици"
+    transcription: "shí qī"
   },
   {
     phraseId: "phrase_1870",
     text: "二十五",
-    transcription: "Эрши у"
+    transcription: "èr shí wǔ"
   },
   {
     phraseId: "phrase_1871",
     text: "三十六",
-    transcription: "Саньши лю"
+    transcription: "sān shí liù"
   },
   {
     phraseId: "phrase_1872",
     text: "四十七",
-    transcription: "Сыши ци"
+    transcription: "sì shí qī"
   },
   {
     phraseId: "phrase_1873",
     text: "你什么时候出生?",
-    transcription: "Ни шэньмэ шихоу чушэн?"
+    transcription: "nǐ shén me shí hòu chū shēng?"
   },
   {
     phraseId: "phrase_1874",
     text: "我生于...年",
-    transcription: "Во шэнъюй...нянь"
+    transcription: "wǒ shēng yú... nián"
   },
   {
     phraseId: "phrase_1875",
     text: "你的生日是什么时候?",
-    transcription: "Нидэ шэнжи ши шэньмэ шихоу?"
+    transcription: "nǐ de shēng rì shì shén me shí hòu?"
   },
   {
     phraseId: "phrase_1876",
     text: "我的生日是...",
-    transcription: "Водэ шэнжи ши..."
+    transcription: "wǒ de shēng rì shì..."
   },
   {
     phraseId: "phrase_1877",
     text: "三月十三日",
-    transcription: "Сань юэ шисань жи"
+    transcription: "sān yuè shí sān rì"
   },
   {
     phraseId: "phrase_1878",
     text: "六月二十八日",
-    transcription: "Лю юэ эршиба жи"
+    transcription: "liù yuè èr shí bā rì"
   },
   {
     phraseId: "phrase_1879",
     text: "十二月十日",
-    transcription: "Шиэр юэ ши жи"
+    transcription: "shí èr yuè shí rì"
   },
   {
     phraseId: "phrase_1880",
     text: "你从哪里来?",
-    transcription: "Ни цун нали лай?"
+    transcription: "nǐ cóng nǎ lǐ lái?"
   },
   {
     phraseId: "phrase_1881",
     text: "你从哪个国家来?",
-    transcription: "Ни цун нагэ гоцзя лай?"
+    transcription: "nǐ cóng nǎ gè guó jiā lái?"
   },
   {
     phraseId: "phrase_1882",
     text: "我来自",
-    transcription: "Во лай цзы..."
+    transcription: "wǒ lái zì"
   },
   {
     phraseId: "phrase_1883",
     text: "俄罗斯",
-    transcription: "Элосы"
+    transcription: "é luó sī"
   },
   {
     phraseId: "phrase_1884",
     text: "莫斯科",
-    transcription: "Мосыкэ"
+    transcription: "mò sī kē"
   },
   {
     phraseId: "phrase_1885",
     text: "圣彼得堡",
-    transcription: "Шэнбидэбао"
+    transcription: "shèng bǐ dé bǎo"
   },
   {
     phraseId: "phrase_1886",
     text: "你住在哪儿?",
-    transcription: "Ни чжу цзай наэр?"
+    transcription: "nǐ zhù zài nǎ ér?"
   },
   {
     phraseId: "phrase_1887",
     text: "我住在...",
-    transcription: "Во чжу цзай..."
+    transcription: "wǒ zhù zài..."
   },
   {
     phraseId: "phrase_1888",
     text: "城市",
-    transcription: "Чэнши"
+    transcription: "chéng shì"
   },
   {
     phraseId: "phrase_1889",
     text: "农村",
-    transcription: "Нунцунь"
+    transcription: "nóng cūn"
   },
   {
     phraseId: "phrase_1890",
     text: "小镇",
-    transcription: "Сяочжэнь"
+    transcription: "xiǎo zhèn"
   },
   {
     phraseId: "phrase_1891",
     text: "你结婚了吗?",
-    transcription: "Ни цзехуньлэ ма?"
+    transcription: "nǐ jié hūn le ma?"
   },
   {
     phraseId: "phrase_1892",
     text: "我...",
-    transcription: "Во..."
+    transcription: "wǒ..."
   },
   {
     phraseId: "phrase_1893",
     text: "结婚了",
-    transcription: "Цзехуньлэ"
+    transcription: "jié hūn le"
   },
   {
     phraseId: "phrase_1894",
     text: "没结婚了",
-    transcription: "Мэй цзехуньлэ"
+    transcription: "méi jié hūn le"
   },
   {
     phraseId: "phrase_1895",
     text: "独身",
-    transcription: "Душэнь"
+    transcription: "dú shēn"
   },
   {
     phraseId: "phrase_1896",
     text: "离婚了",
-    transcription: "Лихуньлэ"
+    transcription: "lí hūn le"
   },
   {
     phraseId: "phrase_1897",
     text: "你家里人多吗?",
-    transcription: "Ни цзяли жэнь до ма?"
+    transcription: "nǐ jiā lǐ rén duō ma?"
   },
   {
     phraseId: "phrase_1898",
     text: "我们家四口人",
-    transcription: "Вомэнь цзя сы коу жэнь"
+    transcription: "wǒ men jiā sì kǒu rén"
   },
   {
     phraseId: "phrase_1899",
     text: "你的...是谁?",
-    transcription: "Нидэ...ши шуй?"
+    transcription: "nǐ de... shì shuí?"
   },
   {
     phraseId: "phrase_1900",
     text: "丈夫",
-    transcription: "Чжанфу"
+    transcription: "zhàng fu"
   },
   {
     phraseId: "phrase_1901",
     text: "妻子",
-    transcription: "Цицзы"
+    transcription: "qī zǐ"
   },
   {
     phraseId: "phrase_1902",
     text: "父亲",
-    transcription: "Фуцинь"
+    transcription: "fù qīn"
   },
   {
     phraseId: "phrase_1903",
     text: "母亲",
-    transcription: "Муцинь"
+    transcription: "mǔ qīn"
   },
   {
     phraseId: "phrase_1904",
     text: "我的丈夫...",
-    transcription: "Водэ чжанфу..."
+    transcription: "wǒ de zhàng fu..."
   },
   {
     phraseId: "phrase_1905",
     text: "我的妻子...",
-    transcription: "Водэ цицзы..."
+    transcription: "wǒ de qī zǐ..."
   },
   {
     phraseId: "phrase_1906",
     text: "你有孩子吗?",
-    transcription: "Ни ю хайцзы ма?"
+    transcription: "nǐ yǒu hái zi ma?"
   },
   {
     phraseId: "phrase_1907",
     text: "我没有孩子",
-    transcription: "Во мэйю хайцзы"
+    transcription: "wǒ méi yǒu hái zi"
   },
   {
     phraseId: "phrase_1908",
     text: "我有...",
-    transcription: "Во ю..."
+    transcription: "wǒ yǒu..."
   },
   {
     phraseId: "phrase_1909",
     text: "一个孩子",
-    transcription: "Игэ хайцзы"
+    transcription: "yí gè hái zi"
   },
   {
     phraseId: "phrase_1910",
     text: "两个孩子",
-    transcription: "Лянгэ хайцзы"
+    transcription: "liǎng gè hái zi"
   },
   {
     phraseId: "phrase_1911",
     text: "三个孩子",
-    transcription: "Саньгэ хайцзы"
+    transcription: "sān gè hái zi"
   },
   {
     phraseId: "phrase_1912",
     text: "你的...多大了?",
-    transcription: "Нидэ... до да лэ?"
+    transcription: "nǐ de... duō dà le?"
   },
   {
     phraseId: "phrase_1913",
     text: "儿子",
-    transcription: "Эрцзы"
+    transcription: "ér zi"
   },
   {
     phraseId: "phrase_1914",
     text: "女儿",
-    transcription: "Нюйэр"
+    transcription: "nǚ ér"
   },
   {
     phraseId: "phrase_1915",
     text: "孙子",
-    transcription: "Суньцзы"
+    transcription: "sūn zi"
   },
   {
     phraseId: "phrase_1916",
     text: "孙女",
-    transcription: "Суньнюй"
+    transcription: "sūn nǚ"
   },
   {
     phraseId: "phrase_1917",
     text: "我的儿子十岁",
-    transcription: "Водэ эрцзы ши суй"
+    transcription: "wǒ de ér zi shí suì"
   },
   {
     phraseId: "phrase_1918",
     text: "这是我的全家福",
-    transcription: "Чжэши водэ цюаньцзя фу"
+    transcription: "zhè shì wǒ de quán jiā fú"
   },
   {
     phraseId: "phrase_1919",
     text: "我妻子有个儿子",
-    transcription: "Во цицзы ю гэ эрцзы"
+    transcription: "wǒ qī zǐ yǒu gè ér zi"
   },
   {
     phraseId: "phrase_1920",
     text: "我丈夫也有两个孩子",
-    transcription: "Во чжанфу е ю лянгэ хайцзы"
+    transcription: "wǒ zhàng fu yě yǒu liǎng gè hái zi"
   },
   {
     phraseId: "phrase_1921",
     text: "你做什么工作?",
-    transcription: "Ни цзо шэньмэ гунцзо?"
+    transcription: "nǐ zuò shén me gōng zuò?"
   },
   {
     phraseId: "phrase_1922",
     text: "你在...吗?",
-    transcription: "Ни цзай...ма?"
+    transcription: "nǐ zài... ma?"
   },
   {
     phraseId: "phrase_1923",
     text: "工作",
-    transcription: "Гунцзо"
+    transcription: "gōng zuò"
   },
   {
     phraseId: "phrase_1924",
     text: "学习",
-    transcription: "Сюэси"
+    transcription: "xué xí"
   },
   {
     phraseId: "phrase_1925",
     text: "您干哪个专业?",
-    transcription: "Нинь гань нагэ чжуанье?"
+    transcription: "nín gān nǎ gè zhuān yè?"
   },
   {
     phraseId: "phrase_1926",
     text: "你是作什么的?",
-    transcription: "Ни ши цзо шэньмэдэ?"
+    transcription: "nǐ shì zuò shén me de?"
   },
   {
     phraseId: "phrase_1927",
     text: "我是...",
-    transcription: "Во ши..."
+    transcription: "wǒ shì..."
   },
   {
     phraseId: "phrase_1928",
     text: "农艺师",
-    transcription: "Нунъиши"
+    transcription: "nóng yì shī"
   },
   {
     phraseId: "phrase_1929",
     text: "律师",
-    transcription: "Люйши"
+    transcription: "lǜ shī"
   },
   {
     phraseId: "phrase_1930",
     text: "建筑师",
-    transcription: "Цзяньчжуши"
+    transcription: "jiàn zhù shī"
   },
   {
     phraseId: "phrase_1931",
     text: "酒吧间侍者",
-    transcription: "Цзюбацзянь шичжэ"
+    transcription: "jiǔ bā jiān shì zhě"
   },
   {
     phraseId: "phrase_1932",
     text: "经商",
-    transcription: "Цзиншан"
+    transcription: "jīng shāng"
   },
   {
     phraseId: "phrase_1933",
     text: "生物学家",
-    transcription: "Шэнъу сюэцзя"
+    transcription: "shēng wù xué jiā"
   },
   {
     phraseId: "phrase_1934",
     text: "经纪人",
-    transcription: "Цзинцзижэнь"
+    transcription: "jīng jì rén"
   },
   {
     phraseId: "phrase_1935",
     text: "会计师",
-    transcription: "Куайцзиши"
+    transcription: "kuài jì shī"
   },
   {
     phraseId: "phrase_1936",
     text: "汽车司机",
-    transcription: "Цичэ сыцзи"
+    transcription: "qì chē sī jī"
   },
   {
     phraseId: "phrase_1937",
     text: "军人",
-    transcription: "Цзюньжэнь"
+    transcription: "jūn rén"
   },
   {
     phraseId: "phrase_1938",
     text: "医生",
-    transcription: "Ишэн"
+    transcription: "yī shēng"
   },
   {
     phraseId: "phrase_1939",
     text: "公司的领导人",
-    transcription: "Гунсыдэ линдаожэнь"
+    transcription: "gōng sī de lǐng dǎo rén"
   },
   {
     phraseId: "phrase_1940",
     text: "工艺美术设计师",
-    transcription: "Гунъи мэйшу шэцзиши"
+    transcription: "gōng yì měi shù shè jì shī"
   },
   {
     phraseId: "phrase_1941",
     text: "外交家",
-    transcription: "Вайцзяо цзя"
+    transcription: "wài jiāo jiā"
   },
   {
     phraseId: "phrase_1942",
     text: "新闻工作人",
-    transcription: "Синьвэнь гунцзочжэ"
+    transcription: "xīn wén gōng zuò rén"
   },
   {
     phraseId: "phrase_1943",
     text: "工程师",
-    transcription: "Гунчэнши"
+    transcription: "gōng chéng shī"
   },
   {
     phraseId: "phrase_1944",
     text: "历史学家",
-    transcription: "Лиши сюэцзя"
+    transcription: "lì shǐ xué jiā"
   },
   {
     phraseId: "phrase_1945",
     text: "商人",
-    transcription: "Шанжэнь"
+    transcription: "shāng rén"
   },
   {
     phraseId: "phrase_1946",
     text: "设计师",
-    transcription: "Шэцзиши"
+    transcription: "shè jì shī"
   },
   {
     phraseId: "phrase_1947",
     text: "飞行员",
-    transcription: "Фэйсинъюань"
+    transcription: "fēi xíng yuán"
   },
   {
     phraseId: "phrase_1948",
     text: "经理",
-    transcription: "Цзинли"
+    transcription: "jīng lǐ"
   },
   {
     phraseId: "phrase_1949",
     text: "技师",
-    transcription: "Цзиши"
+    transcription: "jì shī"
   },
   {
     phraseId: "phrase_1950",
     text: "海员",
-    transcription: "Хайюань"
+    transcription: "hǎi yuán"
   },
   {
     phraseId: "phrase_1951",
     text: "音乐家",
-    transcription: "Иньюэцзя"
+    transcription: "yīn yuè jiā"
   },
   {
     phraseId: "phrase_1952",
     text: "科学家",
-    transcription: "Кэсюэцзя"
+    transcription: "kē xué jiā"
   },
   {
     phraseId: "phrase_1953",
     text: "教师",
-    transcription: "Цзяоши"
+    transcription: "jiào shī"
   },
   {
     phraseId: "phrase_1954",
     text: "翻译",
-    transcription: "Фаньи"
+    transcription: "fān yì"
   },
   {
     phraseId: "phrase_1955",
     text: "企业家",
-    transcription: "Циецзя"
+    transcription: "qǐ yè jiā"
   },
   {
     phraseId: "phrase_1956",
     text: "教师",
-    transcription: "Цзяоши"
+    transcription: "jiào shī"
   },
   {
     phraseId: "phrase_1957",
     text: "电脑程序编制员",
-    transcription: "Дяньнао чэнсюй бяньчжиюань"
+    transcription: "diàn nǎo chéng xù biān zhì yuán"
   },
   {
     phraseId: "phrase_1958",
     text: "生产者",
-    transcription: "Шэнчаньчжэ"
+    transcription: "shēng chǎn zhě"
   },
   {
     phraseId: "phrase_1959",
     text: "检察官",
-    transcription: "Цзяньчагуань"
+    transcription: "jiǎn chá guān"
   },
   {
     phraseId: "phrase_1960",
     text: "心理学家",
-    transcription: "Синьли сюэцзя"
+    transcription: "xīn lǐ xué jiā"
   },
   {
     phraseId: "phrase_1961",
     text: "工人",
-    transcription: "Гунжэнь"
+    transcription: "gōng rén"
   },
   {
     phraseId: "phrase_1962",
     text: "边际",
-    transcription: "Бяньцзи"
+    transcription: "biān jì"
   },
   {
     phraseId: "phrase_1963",
     text: "导演",
-    transcription: "Даоянь"
+    transcription: "dǎo yǎn"
   },
   {
     phraseId: "phrase_1964",
     text: "神甫",
-    transcription: "Шэньфу"
+    transcription: "shén fǔ"
   },
   {
     phraseId: "phrase_1965",
     text: "雕塑家",
-    transcription: "Дяосуцзя"
+    transcription: "diāo sù jiā"
   },
   {
     phraseId: "phrase_1966",
     text: "职员",
-    transcription: "Чжиюань"
+    transcription: "zhí yuán"
   },
   {
     phraseId: "phrase_1967",
     text: "运动员",
-    transcription: "Юньдунъюань"
+    transcription: "yùn dòng yuán"
   },
   {
     phraseId: "phrase_1968",
     text: "建筑工人",
-    transcription: "Цзяньчжу гунжэнь"
+    transcription: "jiàn zhù gōng rén"
   },
   {
     phraseId: "phrase_1969",
     text: "大学生",
-    transcription: "Дасюэшэн"
+    transcription: "dà xué shēng"
   },
   {
     phraseId: "phrase_1970",
     text: "老师",
-    transcription: "Лаоши"
+    transcription: "lǎo shī"
   },
   {
     phraseId: "phrase_1971",
     text: "药剂师",
-    transcription: "Яоцзиши"
+    transcription: "yào jì shī"
   },
   {
     phraseId: "phrase_1972",
     text: "物理学家",
-    transcription: "Ули сюэцзя"
+    transcription: "wù lǐ xué jiā"
   },
   {
     phraseId: "phrase_1973",
     text: "金融家",
-    transcription: "Цзиньжунцзя"
+    transcription: "jīn róng jiā"
   },
   {
     phraseId: "phrase_1974",
     text: "摄影师",
-    transcription: "Шэйнши"
+    transcription: "shè yǐng shī"
   },
   {
     phraseId: "phrase_1975",
     text: "化学家",
-    transcription: "Хуасюэцзя"
+    transcription: "huà xué jiā"
   },
   {
     phraseId: "phrase_1976",
     text: "画家",
-    transcription: "Хуацзя"
+    transcription: "huà jiā"
   },
   {
     phraseId: "phrase_1977",
     text: "经济学家",
-    transcription: "Цзинцзи сюэцзя"
+    transcription: "jīng jì xué jiā"
   },
   {
     phraseId: "phrase_1978",
     text: "法学家",
-    transcription: "Фасюэцзя"
+    transcription: "fǎ xué jiā"
   },
   {
     phraseId: "phrase_1979",
     text: "你在哪儿工作?",
-    transcription: "Ни цзай наэр гунцзо?"
+    transcription: "nǐ zài nǎ ér gōng zuò?"
   },
   {
     phraseId: "phrase_1980",
     text: "我在...里工作",
-    transcription: "Во цзай...ли гунцзо"
+    transcription: "wǒ zài... lǐ gōng zuò"
   },
   {
     phraseId: "phrase_1981",
     text: "工厂",
-    transcription: "Гунчан"
+    transcription: "gōng chǎng"
   },
   {
     phraseId: "phrase_1982",
     text: "银行",
-    transcription: "Иньхан"
+    transcription: "yín háng"
   },
   {
     phraseId: "phrase_1983",
     text: "医院",
-    transcription: "Июань"
+    transcription: "yī yuàn"
   },
   {
     phraseId: "phrase_1984",
     text: "科学研究所",
-    transcription: "Кэсюэ яньцзюсо"
+    transcription: "kē xué yán jiū suǒ"
   },
   {
     phraseId: "phrase_1985",
     text: "公司",
-    transcription: "Гунсы"
+    transcription: "gōng sī"
   },
   {
     phraseId: "phrase_1986",
     text: "你的夫人作什么工作?",
-    transcription: "Нидэ фужэнь цзо шэньмэ гунцзо?"
+    transcription: "nǐ de fū rén zuò shén me gōng zuò?"
   },
   {
     phraseId: "phrase_1987",
     text: "我的妻子是家庭妇女",
-    transcription: "Водэ цицзы ши цзятинфунюй"
+    transcription: "wǒ de qī zǐ shì jiā tíng fù nǚ"
   },
   {
     phraseId: "phrase_1988",
     text: "你在哪儿学习呢?",
-    transcription: "Ни цзай наэр сюэси нэ?"
+    transcription: "nǐ zài nǎ ér xué xí ne?"
   },
   {
     phraseId: "phrase_1989",
     text: "我在...里学习",
-    transcription: "Во цзай...ли сюэси"
+    transcription: "wǒ zài... lǐ xué xí"
   },
   {
     phraseId: "phrase_1990",
     text: "学院",
-    transcription: "Сюэюань"
+    transcription: "xué yuàn"
   },
   {
     phraseId: "phrase_1991",
     text: "大学",
-    transcription: "Дасюэ"
+    transcription: "dà xué"
   },
   {
     phraseId: "phrase_1992",
     text: "你学什么?",
-    transcription: "Ни сюэ шэньмэ?"
+    transcription: "nǐ xué shén me?"
   },
   {
     phraseId: "phrase_1993",
     text: "我学...",
-    transcription: "Во сюэ..."
+    transcription: "wǒ xué..."
   },
   {
     phraseId: "phrase_1994",
     text: "生物学",
-    transcription: "Шэнъусюэ"
+    transcription: "shēng wù xué"
   },
   {
     phraseId: "phrase_1995",
     text: "汉语",
-    transcription: "Ханьюй"
+    transcription: "hàn yǔ"
   },
   {
     phraseId: "phrase_1996",
     text: "数学",
-    transcription: "Шусюэ"
+    transcription: "shù xué"
   },
   {
     phraseId: "phrase_1997",
     text: "物理学",
-    transcription: "Улисюэ"
+    transcription: "wù lǐ xué"
   },
   {
     phraseId: "phrase_1998",
     text: "语文学",
-    transcription: "Юйвэньсюэ"
+    transcription: "yǔ wén xué"
   },
   {
     phraseId: "phrase_1999",
     text: "哲学",
-    transcription: "Чжэсюэ"
+    transcription: "zhé xué"
   },
   {
     phraseId: "phrase_2000",
     text: "化学",
-    transcription: "Хуасюэ"
+    transcription: "huà xué"
   },
   {
     phraseId: "phrase_2001",
     text: "经济学",
-    transcription: "Цзинцзисюэ"
+    transcription: "jīng jì xué"
   },
   {
     phraseId: "phrase_2002",
     text: "法律学",
-    transcription: "Фалюйсюэ"
+    transcription: "fǎ lǜ xué"
   },
   {
     phraseId: "phrase_2003",
     text: "你在哪个学系里学习?",
-    transcription: "Ни цзай нагэ сюэсили сюэси?"
+    transcription: "nǐ zài nǎ gè xué xì lǐ xué xí?"
   },
   {
     phraseId: "phrase_2004",
     text: "我在...系学习",
-    transcription: "Во цзай...си сюэси"
+    transcription: "wǒ zài... xì xué xí"
   },
   {
     phraseId: "phrase_2005",
     text: "物理",
-    transcription: "Ули"
+    transcription: "wù lǐ"
   },
   {
     phraseId: "phrase_2006",
     text: "语文",
-    transcription: "Юйвэнь"
+    transcription: "yǔ wén"
   },
   {
     phraseId: "phrase_2007",
     text: "哲学",
-    transcription: "Чжэсюэ"
+    transcription: "zhé xué"
   },
   {
     phraseId: "phrase_2008",
     text: "化学",
-    transcription: "Хуасюэ"
+    transcription: "huà xué"
   },
   {
     phraseId: "phrase_2009",
     text: "经济",
-    transcription: "Цзинцзи"
+    transcription: "jīng jì"
   },
   {
     phraseId: "phrase_2010",
     text: "法律",
-    transcription: "Фалюй"
+    transcription: "fǎ lǜ"
   },
   {
     phraseId: "phrase_2011",
     text: "我在...年级学习",
-    transcription: "Во цзай...няньцзи сюэси"
+    transcription: "wǒ zài... nián jí xué xí"
   },
   {
     phraseId: "phrase_2012",
     text: "我学外语",
-    transcription: "Во сюэ вайюй"
+    transcription: "wǒ xué wài yǔ"
   },
   {
     phraseId: "phrase_2013",
     text: "你说...吗?",
-    transcription: "Ни шо...ма?"
+    transcription: "nǐ shuō... ma?"
   },
   {
     phraseId: "phrase_2014",
     text: "西班牙语",
-    transcription: "Сибаньяюй"
+    transcription: "xī bān yá yǔ"
   },
   {
     phraseId: "phrase_2015",
     text: "汉语",
-    transcription: "Ханьюй"
+    transcription: "hàn yǔ"
   },
   {
     phraseId: "phrase_2016",
     text: "日本语",
-    transcription: "Жибэньюй"
+    transcription: "rì běn yǔ"
   },
   {
     phraseId: "phrase_2017",
     text: "不说",
-    transcription: "Бу шо"
+    transcription: "bù shuō"
   },
   {
     phraseId: "phrase_2018",
     text: "说一点",
-    transcription: "Шо идянь"
+    transcription: "shuō yì diǎn"
   },
   {
     phraseId: "phrase_2019",
     text: "懂一点",
-    transcription: "Дун идянь"
+    transcription: "dǒng yì diǎn"
   },
   {
     phraseId: "phrase_2020",
     text: "不懂",
-    transcription: "Бу дун"
+    transcription: "bù dǒng"
   },
   {
     phraseId: "phrase_2021",
     text: "能阅读, 但不能说",
-    transcription: "Нэн юэду, дань бу нэн шо"
+    transcription: "néng yuè dú, dàn bù néng shuō"
   },
   {
     phraseId: "phrase_2022",
     text: "你通宵哪种语言?",
-    transcription: "Ни тунсяо начжун юйянь?"
+    transcription: "nǐ tōng xiāo nǎ zhǒng yǔ yán?"
   },
   {
     phraseId: "phrase_2023",
     text: "我通宵...语",
-    transcription: "Во тунсяо...юй"
+    transcription: "wǒ tōng xiāo... yǔ"
   },
   {
     phraseId: "phrase_2024",
     text: "我学习...",
-    transcription: "Во сюэси..."
+    transcription: "wǒ xué xí..."
   },
   {
     phraseId: "phrase_2025",
     text: "意大利语",
-    transcription: "Идали юй"
+    transcription: "yì dà lì yǔ"
   },
   {
     phraseId: "phrase_2026",
     text: "葡萄牙语",
-    transcription: "Путаоя юй"
+    transcription: "pú táo yá yǔ"
   },
   {
     phraseId: "phrase_2027",
     text: "朝鲜语",
-    transcription: "Чаосянь юй"
+    transcription: "cháo xiān yǔ"
   },
   {
     phraseId: "phrase_2028",
     text: "丹麦语",
-    transcription: "Даньмай юй"
+    transcription: "dān mài yǔ"
   },
   {
     phraseId: "phrase_2029",
     text: "荷兰语",
-    transcription: "Хэлань юй"
+    transcription: "hé lán yǔ"
   },
   {
     phraseId: "phrase_2030",
     text: "挪威语",
-    transcription: "Новэй юй"
+    transcription: "nuó wēi yǔ"
   },
   {
     phraseId: "phrase_2031",
     text: "芬兰语",
-    transcription: "Фэньлань юй"
+    transcription: "fēn lán yǔ"
   },
   {
     phraseId: "phrase_2032",
     text: "瑞典语",
-    transcription: "Жуйдянь юй"
+    transcription: "ruì diǎn yǔ"
   },
   {
     phraseId: "phrase_2033",
     text: "希腊语",
-    transcription: "Сила юй"
+    transcription: "xī là yǔ"
   },
   {
     phraseId: "phrase_2034",
     text: "遗憾的是, 我没有时间的机会",
-    transcription: "Иханьдэ ши, во мэйю шицзянь дэ цзихуй"
+    transcription: "yí hàn de shì, wǒ méi yǒu shí jiān de jī huì"
   },
   {
     phraseId: "phrase_2035",
     text: "我想学会说汉语",
-    transcription: "Во сян сюэхуй шо ханьюй"
+    transcription: "wǒ xiǎng xué huì shuō hàn yǔ"
   },
   {
     phraseId: "phrase_2036",
     text: "你懂我的话吗?",
-    transcription: "Ни дун водэ хуа ма?"
+    transcription: "nǐ dǒng wǒ de huà ma?"
   },
   {
     phraseId: "phrase_2037",
     text: "我说的话你都懂吗?",
-    transcription: "Во шодэ хуа ни ду дун ма?"
+    transcription: "wǒ shuō de huà nǐ dōu dǒng ma?"
   },
   {
     phraseId: "phrase_2038",
     text: "请重复一遍",
-    transcription: "Цин чунфу и бянь"
+    transcription: "qǐng chóng fù yí biàn"
   },
   {
     phraseId: "phrase_2039",
     text: "请说慢慢",
-    transcription: "Цин шо маньмань"
+    transcription: "qǐng shuō màn màn"
   },
   {
     phraseId: "phrase_2040",
     text: "请原谅, 你怎么说?",
-    transcription: "Цйн юаньлян, нй цзэньмэ шо?"
+    transcription: "qǐng yuán liàng, nǐ zěn me shuō?"
   },
   {
     phraseId: "phrase_2041",
     text: "请原谅, 你说什么?",
-    transcription: "Цйн юаньлян, нй шо шэньмэ?"
+    transcription: "qǐng yuán liàng, nǐ shuō shén me?"
   },
   {
     phraseId: "phrase_2042",
     text: "这里写的是什么?",
-    transcription: "Чжэли сёдэ шй шэньмэ?"
+    transcription: "zhè lǐ xiě de shì shén me?"
   },
   {
     phraseId: "phrase_2043",
     text: "这是什么意思?",
-    transcription: "Чжэшй шэньмэ йсы?"
+    transcription: "zhè shì shén me yì sī?"
   },
   {
     phraseId: "phrase_2044",
     text: "这个词怎么读?",
-    transcription: "Чжэгэ цы цзэньмэ ду?"
+    transcription: "zhè ge cí zěn me dú?"
   },
   {
     phraseId: "phrase_2045",
     text: "这个词怎么翻译?",
-    transcription: "Чжэгэ цы цзэньмэ фаньй?"
+    transcription: "zhè ge cí zěn me fān yì?"
   },
   {
     phraseId: "phrase_2046",
     text: "请给翻译一下",
-    transcription: "Цйн гэй фаньй ися"
+    transcription: "qǐng gěi fān yì yí xià"
   },
   {
     phraseId: "phrase_2047",
     text: "毫米",
-    transcription: "Хаомй"
+    transcription: "háo mǐ"
   },
   {
     phraseId: "phrase_2048",
     text: "厘米",
-    transcription: "Лимй"
+    transcription: "lí mǐ"
   },
   {
     phraseId: "phrase_2049",
     text: "公寸",
-    transcription: "Гунцунь"
+    transcription: "gōng cùn"
   },
   {
     phraseId: "phrase_2050",
     text: "米",
-    transcription: "Мй"
+    transcription: "mǐ"
   },
   {
     phraseId: "phrase_2051",
     text: "公里",
-    transcription: "Гунлй"
+    transcription: "gōng lǐ"
   },
   {
     phraseId: "phrase_2052",
     text: "英寸",
-    transcription: "Инцунь"
+    transcription: "yīng cùn"
   },
   {
     phraseId: "phrase_2053",
     text: "英尺",
-    transcription: "Инчй"
+    transcription: "yīng chǐ"
   },
   {
     phraseId: "phrase_2054",
     text: "码",
-    transcription: "Ма"
+    transcription: "mǎ"
   },
   {
     phraseId: "phrase_2055",
     text: "英里",
-    transcription: "Инлй"
+    transcription: "yīng lǐ"
   },
   {
     phraseId: "phrase_2056",
     text: "毫克",
-    transcription: "Хаокэ"
+    transcription: "háo kè"
   },
   {
     phraseId: "phrase_2057",
     text: "克",
-    transcription: "Кэ"
+    transcription: "kè"
   },
   {
     phraseId: "phrase_2058",
     text: "公斤",
-    transcription: "Гунцзинь"
+    transcription: "gōng jīn"
   },
   {
     phraseId: "phrase_2059",
     text: "公担",
-    transcription: "Гундань"
+    transcription: "gōng dān"
   },
   {
     phraseId: "phrase_2060",
     text: "吨",
-    transcription: "Дунь"
+    transcription: "dūn"
   },
   {
     phraseId: "phrase_2061",
     text: "英两",
-    transcription: "Инлян"
+    transcription: "yīng liǎng"
   },
   {
     phraseId: "phrase_2062",
     text: "英镑",
-    transcription: "Инбан"
+    transcription: "yīng bàng"
   },
   {
     phraseId: "phrase_2063",
     text: "毫升",
-    transcription: "Хаошэн"
+    transcription: "háo shēng"
   },
   {
     phraseId: "phrase_2064",
     text: "公升",
-    transcription: "Гуншэн"
+    transcription: "gōng shēng"
   },
   {
     phraseId: "phrase_2065",
     text: "百升",
-    transcription: "Байшэн"
+    transcription: "bǎi shēng"
   },
   {
     phraseId: "phrase_2066",
     text: "加仑",
-    transcription: "Цзялунь"
+    transcription: "jiā lún"
   },
   {
     phraseId: "phrase_2067",
     text: "巴里",
-    transcription: "Балй"
+    transcription: "bā lǐ"
   },
   {
     phraseId: "phrase_2068",
     text: "汉字",
-    transcription: "Эквивалент"
+    transcription: "hàn zì"
   },
   {
     phraseId: "phrase_2069",
     text: "寸",
-    transcription: "3,33 см"
+    transcription: "cùn"
   },
   {
     phraseId: "phrase_2070",
     text: "尺",
-    transcription: "0,33 м"
+    transcription: "chǐ"
   },
   {
     phraseId: "phrase_2071",
     text: "丈",
-    transcription: "3,33 м"
+    transcription: "zhàng"
   },
   {
     phraseId: "phrase_2072",
     text: "里",
-    transcription: "0,5 км"
+    transcription: "lǐ"
   },
   {
     phraseId: "phrase_2073",
     text: "平方里",
-    transcription: "0,25 кв. км"
+    transcription: "píng fāng lǐ"
   },
   {
     phraseId: "phrase_2074",
     text: "亩",
-    transcription: "0,0667 га"
+    transcription: "mǔ"
   },
   {
     phraseId: "phrase_2075",
     text: "顷",
-    transcription: "6,6667 га"
+    transcription: "qǐng"
   },
   {
     phraseId: "phrase_2076",
     text: "斗",
-    transcription: "10 л"
+    transcription: "dòu"
   },
   {
     phraseId: "phrase_2077",
     text: "钱",
-    transcription: "5 г"
+    transcription: "qián"
   },
   {
     phraseId: "phrase_2078",
     text: "两",
-    transcription: "50 г"
+    transcription: "liǎng"
   },
   {
     phraseId: "phrase_2079",
     text: "斤",
-    transcription: "0,5 кг"
+    transcription: "jīn"
   },
   {
     phraseId: "phrase_2080",
     text: "几点钟?",
-    transcription: "Цзй дянь чжун?"
+    transcription: "jǐ diǎn zhōng?"
   },
   {
     phraseId: "phrase_2081",
     text: "八点钟",
-    transcription: "Ба дянь чжун"
+    transcription: "bā diǎn zhōng"
   },
   {
     phraseId: "phrase_2082",
     text: "八点二十五分",
-    transcription: "Ба дянь эршйу фэнь"
+    transcription: "bā diǎn èr shí wǔ fēn"
   },
   {
     phraseId: "phrase_2083",
     text: "秒",
-    transcription: "Мяо"
+    transcription: "miǎo"
   },
   {
     phraseId: "phrase_2084",
     text: "分",
-    transcription: "Фэнь"
+    transcription: "fēn"
   },
   {
     phraseId: "phrase_2085",
     text: "一刻钟",
-    transcription: "Икэчжун"
+    transcription: "yí kè zhōng"
   },
   {
     phraseId: "phrase_2086",
     text: "半小时",
-    transcription: "Баньсёошй"
+    transcription: "bàn xiǎo shí"
   },
   {
     phraseId: "phrase_2087",
     text: "小时",
-    transcription: "Сёошй"
+    transcription: "xiǎo shí"
   },
   {
     phraseId: "phrase_2088",
     text: "星期",
-    transcription: "Сйнци"
+    transcription: "xīng qī"
   },
   {
     phraseId: "phrase_2089",
     text: "月",
-    transcription: "Юэ"
+    transcription: "yuè"
   },
   {
     phraseId: "phrase_2090",
     text: "半年",
-    transcription: "Бань нянь"
+    transcription: "bàn nián"
   },
   {
     phraseId: "phrase_2091",
     text: "年",
-    transcription: "Нянь"
+    transcription: "nián"
   },
   {
     phraseId: "phrase_2092",
     text: "一百年",
-    transcription: "Ибай нянь"
+    transcription: "yì bǎi nián"
   },
   {
     phraseId: "phrase_2093",
     text: "一千年",
-    transcription: "Ицянь нянь"
+    transcription: "yì qiān nián"
   },
   {
     phraseId: "phrase_2094",
     text: "冬天",
-    transcription: "Дунтянь"
+    transcription: "dōng tiān"
   },
   {
     phraseId: "phrase_2095",
     text: "春天",
-    transcription: "Чуньтянь"
+    transcription: "chūn tiān"
   },
   {
     phraseId: "phrase_2096",
     text: "夏天",
-    transcription: "Сятянь"
+    transcription: "xià tiān"
   },
   {
     phraseId: "phrase_2097",
     text: "秋天",
-    transcription: "Цютянь"
+    transcription: "qiū tiān"
   },
   {
     phraseId: "phrase_2098",
     text: "早上",
-    transcription: "Цзаошан"
+    transcription: "zǎo shàng"
   },
   {
     phraseId: "phrase_2099",
     text: "百天",
-    transcription: "Байтянь"
+    transcription: "bǎi tiān"
   },
   {
     phraseId: "phrase_2100",
     text: "中午",
-    transcription: "Чжунъу"
+    transcription: "zhōng wǔ"
   },
   {
     phraseId: "phrase_2101",
     text: "晚上",
-    transcription: "Ваньшан"
+    transcription: "wǎn shàng"
   },
   {
     phraseId: "phrase_2102",
     text: "午夜",
-    transcription: "У е"
+    transcription: "wǔ yè"
   },
   {
     phraseId: "phrase_2103",
     text: "夜间",
-    transcription: "Ецзянь"
+    transcription: "yè jiān"
   },
   {
     phraseId: "phrase_2104",
     text: "星期一",
-    transcription: "Сйнци и"
+    transcription: "xīng qī yī"
   },
   {
     phraseId: "phrase_2105",
     text: "星期二",
-    transcription: "Сйнци эр"
+    transcription: "xīng qī èr"
   },
   {
     phraseId: "phrase_2106",
     text: "星期三",
-    transcription: "Сйнци сань"
+    transcription: "xīng qī sān"
   },
   {
     phraseId: "phrase_2107",
     text: "星期四",
-    transcription: "Сйнци сы"
+    transcription: "xīng qī sì"
   },
   {
     phraseId: "phrase_2108",
     text: "星期五",
-    transcription: "Сйнци у"
+    transcription: "xīng qī wǔ"
   },
   {
     phraseId: "phrase_2109",
     text: "星期六",
-    transcription: "Сйнци лю"
+    transcription: "xīng qī liù"
   },
   {
     phraseId: "phrase_2110",
     text: "星期日",
-    transcription: "Сйнци жй"
+    transcription: "xīng qī rì"
   },
   {
     phraseId: "phrase_2111",
     text: "一月",
-    transcription: "И юэ"
+    transcription: "yī yuè"
   },
   {
     phraseId: "phrase_2112",
     text: "二月",
-    transcription: "Эр юэ"
+    transcription: "èr yuè"
   },
   {
     phraseId: "phrase_2113",
     text: "三月",
-    transcription: "Сань юэ"
+    transcription: "sān yuè"
   },
   {
     phraseId: "phrase_2114",
     text: "四月",
-    transcription: "Сы юэ"
+    transcription: "sì yuè"
   },
   {
     phraseId: "phrase_2115",
     text: "五月",
-    transcription: "У юэ"
+    transcription: "wǔ yuè"
   },
   {
     phraseId: "phrase_2116",
     text: "六月",
-    transcription: "Лю юэ"
+    transcription: "liù yuè"
   },
   {
     phraseId: "phrase_2117",
     text: "七月",
-    transcription: "Ця юэ"
+    transcription: "qī yuè"
   },
   {
     phraseId: "phrase_2118",
     text: "八月",
-    transcription: "Ба юэ"
+    transcription: "bā yuè"
   },
   {
     phraseId: "phrase_2119",
     text: "九月",
-    transcription: "Цзю юэ"
+    transcription: "jiǔ yuè"
   },
   {
     phraseId: "phrase_2120",
     text: "十月",
-    transcription: "Шй юэ"
+    transcription: "shí yuè"
   },
   {
     phraseId: "phrase_2121",
     text: "十一月",
-    transcription: "Шйи юэ"
+    transcription: "shí yī yuè"
   },
   {
     phraseId: "phrase_2122",
     text: "十二月",
-    transcription: "Шйэр юэ"
+    transcription: "shí èr yuè"
   },
   {
     phraseId: "phrase_2123",
     text: "零",
-    transcription: "Лин"
+    transcription: "líng"
   },
   {
     phraseId: "phrase_2124",
     text: "一",
-    transcription: "И"
+    transcription: "yī"
   },
   {
     phraseId: "phrase_2125",
     text: "二",
-    transcription: "Эр"
+    transcription: "èr"
   },
   {
     phraseId: "phrase_2126",
     text: "三",
-    transcription: "Сань"
+    transcription: "sān"
   },
   {
     phraseId: "phrase_2127",
     text: "四",
-    transcription: "Сы"
+    transcription: "sì"
   },
   {
     phraseId: "phrase_2128",
     text: "五",
-    transcription: "У"
+    transcription: "wǔ"
   },
   {
     phraseId: "phrase_2129",
     text: "六",
-    transcription: "Лю"
+    transcription: "liù"
   },
   {
     phraseId: "phrase_2130",
     text: "七",
-    transcription: "Ци"
+    transcription: "qī"
   },
   {
     phraseId: "phrase_2131",
     text: "八",
-    transcription: "Ба"
+    transcription: "bā"
   },
   {
     phraseId: "phrase_2132",
     text: "九",
-    transcription: "Цзю"
+    transcription: "jiǔ"
   },
   {
     phraseId: "phrase_2133",
     text: "十",
-    transcription: "Шй"
+    transcription: "shí"
   },
   {
     phraseId: "phrase_2134",
     text: "十一",
-    transcription: "Шй и"
+    transcription: "shí yī"
   },
   {
     phraseId: "phrase_2135",
     text: "十二",
-    transcription: "Шй эр"
+    transcription: "shí èr"
   },
   {
     phraseId: "phrase_2136",
     text: "十三",
-    transcription: "Шй сань"
+    transcription: "shí sān"
   },
   {
     phraseId: "phrase_2137",
     text: "十四",
-    transcription: "Шй сы"
+    transcription: "shí sì"
   },
   {
     phraseId: "phrase_2138",
     text: "十五",
-    transcription: "Шй у"
+    transcription: "shí wǔ"
   },
   {
     phraseId: "phrase_2139",
     text: "十六",
-    transcription: "Шй лю"
+    transcription: "shí liù"
   },
   {
     phraseId: "phrase_2140",
     text: "十七",
-    transcription: "Шй ця"
+    transcription: "shí qī"
   },
   {
     phraseId: "phrase_2141",
     text: "十八",
-    transcription: "Шй ба"
+    transcription: "shí bā"
   },
   {
     phraseId: "phrase_2142",
     text: "十九",
-    transcription: "Шй цзю"
+    transcription: "shí jiǔ"
   },
   {
     phraseId: "phrase_2143",
     text: "二十",
-    transcription: "Эр шй"
+    transcription: "èr shí"
   },
   {
     phraseId: "phrase_2144",
     text: "二十一",
-    transcription: "Эр шй и"
+    transcription: "èr shí yī"
   },
   {
     phraseId: "phrase_2145",
     text: "三十",
-    transcription: "Сань шй"
+    transcription: "sān shí"
   },
   {
     phraseId: "phrase_2146",
     text: "四十",
-    transcription: "Сы шй"
+    transcription: "sì shí"
   },
   {
     phraseId: "phrase_2147",
     text: "五十",
-    transcription: "У шй"
+    transcription: "wǔ shí"
   },
   {
     phraseId: "phrase_2148",
     text: "六十",
-    transcription: "Лю шй"
+    transcription: "liù shí"
   },
   {
     phraseId: "phrase_2149",
     text: "七十",
-    transcription: "Ця шй"
+    transcription: "qī shí"
   },
   {
     phraseId: "phrase_2150",
     text: "八十",
-    transcription: "Ба шй"
+    transcription: "bā shí"
   },
   {
     phraseId: "phrase_2151",
     text: "九十",
-    transcription: "Цзю шй"
+    transcription: "jiǔ shí"
   },
   {
     phraseId: "phrase_2152",
     text: "一百",
-    transcription: "И бай"
+    transcription: "yì bǎi"
   },
   {
     phraseId: "phrase_2153",
     text: "一百零一",
-    transcription: "И бай лин и"
+    transcription: "yì bǎi líng yī"
   },
   {
     phraseId: "phrase_2154",
     text: "一百一十",
-    transcription: "Ибай йшй"
+    transcription: "yì bǎi yī shí"
   },
   {
     phraseId: "phrase_2155",
     text: "二百",
-    transcription: "Эрбай"
+    transcription: "èr bǎi"
   },
   {
     phraseId: "phrase_2156",
     text: "三百",
-    transcription: "Саньбай"
+    transcription: "sān bǎi"
   },
   {
     phraseId: "phrase_2157",
     text: "一千",
-    transcription: "И цянь"
+    transcription: "yì qiān"
   },
   {
     phraseId: "phrase_2158",
     text: "两千",
-    transcription: "Лян цянь"
+    transcription: "liǎng qiān"
   },
   {
     phraseId: "phrase_2159",
     text: "一万",
-    transcription: "И вань"
+    transcription: "yí wàn"
   },
   {
     phraseId: "phrase_2160",
     text: "五万",
-    transcription: "У вань"
+    transcription: "wǔ wàn"
   },
   {
     phraseId: "phrase_2161",
     text: "十万",
-    transcription: "Шй вань"
+    transcription: "shí wàn"
   },
   {
     phraseId: "phrase_2162",
     text: "一百万",
-    transcription: "И байвань"
+    transcription: "yì bǎi wàn"
   },
   {
     phraseId: "phrase_2163",
     text: "一亿",
-    transcription: "И й"
+    transcription: "yí yì"
   },
   {
     phraseId: "phrase_2164",
     text: "十亿",
-    transcription: "Шй й"
+    transcription: "shí yì"
   },
   {
     phraseId: "phrase_2165",
     text: "白色的",
-    transcription: "Байсэдэ"
+    transcription: "bái sè de"
   },
   {
     phraseId: "phrase_2166",
     text: "黄色的",
-    transcription: "Хуансэдэ"
+    transcription: "huáng sè de"
   },
   {
     phraseId: "phrase_2167",
     text: "绿色的",
-    transcription: "Люйсэдэ"
+    transcription: "lǜ sè de"
   },
   {
     phraseId: "phrase_2168",
     text: "褐色的",
-    transcription: "Хэсэдэ"
+    transcription: "hè sè de"
   },
   {
     phraseId: "phrase_2169",
     text: "红色的",
-    transcription: "Хунсэдэ"
+    transcription: "hóng sè de"
   },
   {
     phraseId: "phrase_2170",
     text: "橙色的",
-    transcription: "Чэнсэдэ"
+    transcription: "chéng sè de"
   },
   {
     phraseId: "phrase_2171",
     text: "粉红色的",
-    transcription: "Фэньхунсэдэ"
+    transcription: "fěn hóng sè de"
   },
   {
     phraseId: "phrase_2172",
     text: "灰色的",
-    transcription: "Хуйсэдэ"
+    transcription: "huī sè de"
   },
   {
     phraseId: "phrase_2173",
     text: "蓝色的",
-    transcription: "Ланьсэдэ"
+    transcription: "lán sè de"
   },
   {
     phraseId: "phrase_2174",
     text: "黑色的",
-    transcription: "Хэйсэдэ"
+    transcription: "hēi sè de"
   },
 ];
