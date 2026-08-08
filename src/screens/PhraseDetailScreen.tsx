@@ -1,7 +1,7 @@
 // src/screens/PhraseDetailScreen.tsx
 // Updated for multilingual system with PhraseWithTranslation
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -44,8 +44,14 @@ export default function PhraseDetailScreen() {
 
   const texts = getTexts();
 
-  // Add phrase to history when screen opens
+  // Add phrase to history when screen opens.
+  // addToHistory пересоздаётся при каждой записи в историю, поэтому без защёлки
+  // эффект зацикливается: запись → новая функция → снова эффект (Maximum update depth).
+  // Ref гарантирует ровно одну запись на фразу.
+  const loggedPhraseId = useRef<string | null>(null);
   useEffect(() => {
+    if (loggedPhraseId.current === phrase.id) return;
+    loggedPhraseId.current = phrase.id;
     addToHistory(phrase.id);
   }, [phrase.id, addToHistory]);
 
