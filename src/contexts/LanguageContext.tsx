@@ -314,7 +314,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Gepleşik kitaby',
-    phrasebookSubtitle: '13 kategoriýada 2174 söz düzümi',
+    phrasebookSubtitle: '{c} kategoriýada {p} söz düzümi',
     visualTranslatorTitle: 'Wizual terjimeçi',
     visualTranslatorSubtitle: 'Kamera bilen teksti skanirleme',
     textTranslatorTitle: 'Tekst terjimeçi',
@@ -582,7 +582,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: '常用语手册',
-    phrasebookSubtitle: '13个类别中的2174个短语',
+    phrasebookSubtitle: '{c}个类别中的{p}个短语',
     visualTranslatorTitle: '图像翻译',
     visualTranslatorSubtitle: '用相机扫描文本',
     textTranslatorTitle: '文本翻译',
@@ -835,7 +835,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Разговорник',
-    phrasebookSubtitle: '2174 фраз в 13 категориях',
+    phrasebookSubtitle: '{p} фраз в {c} категориях',
     visualTranslatorTitle: 'Визуальный переводчик',
     visualTranslatorSubtitle: 'Сканирование текста камерой',
     textTranslatorTitle: 'Текстовый переводчик',
@@ -1088,7 +1088,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Phrasebook',
-    phrasebookSubtitle: '2174 phrases in 13 categories',
+    phrasebookSubtitle: '{p} phrases in {c} categories',
     visualTranslatorTitle: 'Visual Translator',
     visualTranslatorSubtitle: 'Scan text with camera',
     textTranslatorTitle: 'Text Translator',
@@ -1341,7 +1341,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Konuşma Kılavuzu',
-    phrasebookSubtitle: '13 kategoride 2174 ifade',
+    phrasebookSubtitle: '{c} kategoride {p} ifade',
     visualTranslatorTitle: 'Görsel Çevirmen',
     visualTranslatorSubtitle: 'Kamera ile metin tarama',
     textTranslatorTitle: 'Metin Çevirmen',
@@ -1594,7 +1594,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Sprachführer',
-    phrasebookSubtitle: '2174 Phrasen in 13 Kategorien',
+    phrasebookSubtitle: '{p} Phrasen in {c} Kategorien',
     visualTranslatorTitle: 'Visueller Übersetzer',
     visualTranslatorSubtitle: 'Text mit Kamera scannen',
     textTranslatorTitle: 'Textübersetzer',
@@ -1821,7 +1821,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Guide de conversation',
-    phrasebookSubtitle: '2174 phrases dans 13 catégories',
+    phrasebookSubtitle: '{p} phrases dans {c} catégories',
     visualTranslatorTitle: 'Traducteur visuel',
     visualTranslatorSubtitle: 'Scanner le texte avec la caméra',
     textTranslatorTitle: 'Traducteur de texte',
@@ -2048,7 +2048,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Guía de conversación',
-    phrasebookSubtitle: '2174 frases en 13 categorías',
+    phrasebookSubtitle: '{p} frases en {c} categorías',
     visualTranslatorTitle: 'Traductor visual',
     visualTranslatorSubtitle: 'Escanear texto con cámara',
     textTranslatorTitle: 'Traductor de texto',
@@ -2272,7 +2272,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Frasario',
-    phrasebookSubtitle: '2174 frasi in 13 categorie',
+    phrasebookSubtitle: '{p} frasi in {c} categorie',
     visualTranslatorTitle: 'Traduttore visivo',
     visualTranslatorSubtitle: 'Scansiona testo con la fotocamera',
     textTranslatorTitle: 'Traduttore di testo',
@@ -2496,7 +2496,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Guia de conversação',
-    phrasebookSubtitle: '2174 frases em 13 categorias',
+    phrasebookSubtitle: '{p} frases em {c} categorias',
     visualTranslatorTitle: 'Tradutor visual',
     visualTranslatorSubtitle: 'Digitalizar texto com câmera',
     textTranslatorTitle: 'Tradutor de texto',
@@ -2719,7 +2719,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Taalgids',
-    phrasebookSubtitle: '2174 zinnen in 13 categorieën',
+    phrasebookSubtitle: '{p} zinnen in {c} categorieën',
     visualTranslatorTitle: 'Visuele vertaler',
     visualTranslatorSubtitle: 'Scan tekst met camera',
     textTranslatorTitle: 'Tekstvertaler',
@@ -2942,7 +2942,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Rozmówki',
-    phrasebookSubtitle: '2174 zwrotów w 13 kategoriach',
+    phrasebookSubtitle: '{p} zwrotów w {c} kategoriach',
     visualTranslatorTitle: 'Tłumacz wizualny',
     visualTranslatorSubtitle: 'Skanuj tekst aparatem',
     textTranslatorTitle: 'Tłumacz tekstu',
@@ -3165,7 +3165,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
 
     // Main Hub Modules
     phrasebookTitle: 'Розмовник',
-    phrasebookSubtitle: '2174 фраз у 13 категоріях',
+    phrasebookSubtitle: '{p} фраз у {c} категоріях',
     visualTranslatorTitle: 'Візуальний перекладач',
     visualTranslatorSubtitle: 'Сканування тексту камерою',
     textTranslatorTitle: 'Текстовий перекладач',
@@ -3390,7 +3390,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: '学習する',
 
     phrasebookTitle: 'フレーズブック',
-    phrasebookSubtitle: '13カテゴリーに2174フレーズ',
+    phrasebookSubtitle: '{c}カテゴリーに{p}フレーズ',
     visualTranslatorTitle: 'ビジュアル翻訳',
     visualTranslatorSubtitle: 'カメラでテキストをスキャン',
     textTranslatorTitle: 'テキスト翻訳',
@@ -3615,7 +3615,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: '학습하기',
 
     phrasebookTitle: '회화집',
-    phrasebookSubtitle: '13개 카테고리에 2174개 문구',
+    phrasebookSubtitle: '{c}개 카테고리에 {p}개 문구',
     visualTranslatorTitle: '비주얼 번역',
     visualTranslatorSubtitle: '카메라로 텍스트 스캔',
     textTranslatorTitle: '텍스트 번역',
@@ -3840,7 +3840,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'เรียน',
 
     phrasebookTitle: 'หนังสือวลี',
-    phrasebookSubtitle: '2174 วลีใน 13 หมวดหมู่',
+    phrasebookSubtitle: '{p} วลีใน {c} หมวดหมู่',
     visualTranslatorTitle: 'แปลภาพ',
     visualTranslatorSubtitle: 'สแกนข้อความด้วยกล้อง',
     textTranslatorTitle: 'แปลข้อความ',
@@ -4065,7 +4065,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Học',
 
     phrasebookTitle: 'Sách cụm từ',
-    phrasebookSubtitle: '2174 cụm từ trong 13 danh mục',
+    phrasebookSubtitle: '{p} cụm từ trong {c} danh mục',
     visualTranslatorTitle: 'Dịch hình ảnh',
     visualTranslatorSubtitle: 'Quét văn bản bằng camera',
     textTranslatorTitle: 'Dịch văn bản',
@@ -4290,7 +4290,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Belajar',
 
     phrasebookTitle: 'Buku Frasa',
-    phrasebookSubtitle: '2174 frasa dalam 13 kategori',
+    phrasebookSubtitle: '{p} frasa dalam {c} kategori',
     visualTranslatorTitle: 'Penerjemah Visual',
     visualTranslatorSubtitle: 'Pindai teks dengan kamera',
     textTranslatorTitle: 'Penerjemah Teks',
@@ -4515,7 +4515,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Belajar',
 
     phrasebookTitle: 'Buku Frasa',
-    phrasebookSubtitle: '2174 frasa dalam 13 kategori',
+    phrasebookSubtitle: '{p} frasa dalam {c} kategori',
     visualTranslatorTitle: 'Penterjemah Visual',
     visualTranslatorSubtitle: 'Imbas teks dengan kamera',
     textTranslatorTitle: 'Penterjemah Teks',
@@ -4740,7 +4740,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'अध्ययन करें',
 
     phrasebookTitle: 'वाक्यांश पुस्तक',
-    phrasebookSubtitle: '13 श्रेणियों में 2174 वाक्यांश',
+    phrasebookSubtitle: '{c} श्रेणियों में {p} वाक्यांश',
     visualTranslatorTitle: 'दृश्य अनुवादक',
     visualTranslatorSubtitle: 'कैमरे से टेक्स्ट स्कैन करें',
     textTranslatorTitle: 'टेक्स्ट अनुवादक',
@@ -4965,7 +4965,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'مطالعہ کریں',
 
     phrasebookTitle: 'جملوں کی کتاب',
-    phrasebookSubtitle: '13 زمروں میں 2174 جملے',
+    phrasebookSubtitle: '{c} زمروں میں {p} جملے',
     visualTranslatorTitle: 'بصری مترجم',
     visualTranslatorSubtitle: 'کیمرے سے متن سکین کریں',
     textTranslatorTitle: 'متن کا مترجم',
@@ -5190,7 +5190,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'مطالعه',
 
     phrasebookTitle: 'کتاب عبارات',
-    phrasebookSubtitle: '2174 عبارت در 13 دسته',
+    phrasebookSubtitle: '{p} عبارت در {c} دسته',
     visualTranslatorTitle: 'مترجم بصری',
     visualTranslatorSubtitle: 'اسکن متن با دوربین',
     textTranslatorTitle: 'مترجم متن',
@@ -5415,7 +5415,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'مطالعه',
 
     phrasebookTitle: 'د جملو کتاب',
-    phrasebookSubtitle: 'په 13 کټګوریو کې 2174 جملې',
+    phrasebookSubtitle: 'په {c} کټګوریو کې {p} جملې',
     visualTranslatorTitle: 'لیدلی ژباړن',
     visualTranslatorSubtitle: 'د کیمرې سره متن سکین کړئ',
     textTranslatorTitle: 'د متن ژباړن',
@@ -5640,7 +5640,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'O\'rganish',
 
     phrasebookTitle: 'Iboralar kitobi',
-    phrasebookSubtitle: '13 kategoriyada 2174 ibora',
+    phrasebookSubtitle: '{c} kategoriyada {p} ibora',
     visualTranslatorTitle: 'Vizual tarjimon',
     visualTranslatorSubtitle: 'Kamera bilan matnni skanerlash',
     textTranslatorTitle: 'Matn tarjimoni',
@@ -5865,7 +5865,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Оқу',
 
     phrasebookTitle: 'Сөйлем кітабы',
-    phrasebookSubtitle: '13 санатта 2174 сөйлем',
+    phrasebookSubtitle: '{c} санатта {p} сөйлем',
     visualTranslatorTitle: 'Визуалды аудармашы',
     visualTranslatorSubtitle: 'Камерамен мәтінді сканерлеу',
     textTranslatorTitle: 'Мәтін аудармашысы',
@@ -6090,7 +6090,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Öyrən',
 
     phrasebookTitle: 'İfadələr kitabı',
-    phrasebookSubtitle: '13 kateqoriyada 2174 ifadə',
+    phrasebookSubtitle: '{c} kateqoriyada {p} ifadə',
     visualTranslatorTitle: 'Vizual tərcüməçi',
     visualTranslatorSubtitle: 'Kamera ilə mətn skan et',
     textTranslatorTitle: 'Mətn tərcüməçisi',
@@ -6315,7 +6315,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Окуу',
 
     phrasebookTitle: 'Сөздөр китеби',
-    phrasebookSubtitle: '13 категорияда 2174 сөз',
+    phrasebookSubtitle: '{c} категорияда {p} сөз',
     visualTranslatorTitle: 'Визуалдык котормочу',
     visualTranslatorSubtitle: 'Камера менен текст сканерлөө',
     textTranslatorTitle: 'Текст котормочусу',
@@ -6540,7 +6540,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Омӯхтан',
 
     phrasebookTitle: 'Китоби иборот',
-    phrasebookSubtitle: '2174 ибора дар 13 категория',
+    phrasebookSubtitle: '{p} ибора дар {c} категория',
     visualTranslatorTitle: 'Тарҷумони визуалӣ',
     visualTranslatorSubtitle: 'Сканкунии матн бо дурбин',
     textTranslatorTitle: 'Тарҷумони матн',
@@ -6765,7 +6765,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'Ուսումնասիրել',
 
     phrasebookTitle: 'Արտահայտությունների գիրք',
-    phrasebookSubtitle: '2174 արտահայտություն 13 կատեգորիայում',
+    phrasebookSubtitle: '{p} արտահայտություն {c} կատեգորիայում',
     visualTranslatorTitle: 'Տեսողական թարգմանիչ',
     visualTranslatorSubtitle: 'Տեքստը սկանավորել տեսախցիկով',
     textTranslatorTitle: 'Տեքստի թարգմանիչ',
@@ -6990,7 +6990,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'სწავლა',
 
     phrasebookTitle: 'ფრაზების წიგნი',
-    phrasebookSubtitle: '2174 ფრაზა 13 კატეგორიაში',
+    phrasebookSubtitle: '{p} ფრაზა {c} კატეგორიაში',
     visualTranslatorTitle: 'ვიზუალური თარჯიმანი',
     visualTranslatorSubtitle: 'ტექსტის სკანირება კამერით',
     textTranslatorTitle: 'ტექსტის თარჯიმანი',
@@ -7215,7 +7215,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     study: 'دراسة',
 
     phrasebookTitle: 'كتاب العبارات',
-    phrasebookSubtitle: '2174 عبارة في 13 فئة',
+    phrasebookSubtitle: '{p} عبارة في {c} فئة',
     visualTranslatorTitle: 'المترجم المرئي',
     visualTranslatorSubtitle: 'مسح النص بالكاميرا',
     textTranslatorTitle: 'مترجم النصوص',

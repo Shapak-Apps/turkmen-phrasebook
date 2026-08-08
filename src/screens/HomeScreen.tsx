@@ -20,7 +20,7 @@ import { Colors } from '../constants/Colors';
 import { useAppLanguage } from '../contexts/LanguageContext';
 import { useConfig } from '../contexts/ConfigContext';
 import { getLanguageByCode } from '../config/languages.config';
-import { categories } from '../data/categories';
+import { usePhrases } from '../hooks/usePhrases';
 import CategoryCard from '../components/CategoryCard';
 import ErrorBoundary from '../components/ErrorBoundary';
 import { TabScreen } from '../components/Screen';
@@ -65,6 +65,7 @@ export default function HomeScreen() {
   const navigation = useNavigation<any>();
   const { bottom: safeAreaBottom } = useSafeArea();
   const languageMode: string = selectedLanguage;
+  const { availableCategories } = usePhrases();
 
   const handleCategoryPress = useCallback((category: Category) => {
     navigation.navigate('CategoryScreen', { category });
@@ -94,10 +95,10 @@ export default function HomeScreen() {
         category={item}
         onPress={handleCategoryPress}
         languageMode={languageMode}
-        showDivider={index < categories.length - 1}
+        showDivider={index < availableCategories.length - 1}
       />
     ),
-    [handleCategoryPress, languageMode]
+    [handleCategoryPress, languageMode, availableCategories.length]
   );
 
   return (
@@ -111,7 +112,7 @@ export default function HomeScreen() {
         />
 
         <FlatList
-          data={categories}
+          data={availableCategories}
           renderItem={renderCategory}
           keyExtractor={(item) => item.id}
           contentContainerStyle={[

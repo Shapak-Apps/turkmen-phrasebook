@@ -3,8 +3,19 @@
 import { useMemo } from 'react';
 import { useConfig } from '../contexts/ConfigContext';
 import { basePhrases } from '../data/languages/base';
+import { categories } from '../data/categories';
 import { getTranslationsForLanguage } from '../data/languages';
 import { PhraseWithTranslation } from '../types';
+
+/**
+ * Фраза считается готовой, если туркменский текст есть и это не метка «?»,
+ * которой в рабочем процессе перевода помечают фразы «нужно вернуться».
+ * Непереведённые фразы остаются в base.ts, но в приложении не показываются.
+ */
+const isTranslated = (phrase: { turkmen: string }): boolean => {
+  const text = phrase.turkmen.trim();
+  return text !== '' && text !== '?';
+};
 
 /**
  * Hook для получения фраз с переводами на выбранный язык
@@ -20,7 +31,7 @@ export const usePhrases = () => {
   const phrases = useMemo(() => {
     const translations = getTranslationsForLanguage(selectedLanguage);
 
-    return basePhrases.map(basePhrase => {
+    return basePhrases.filter(isTranslated).map(basePhrase => {
       // Ищем перевод для текущей фразы
       const translation = translations.find(t => t.phraseId === basePhrase.id);
 
@@ -34,6 +45,15 @@ export const usePhrases = () => {
       } as PhraseWithTranslation;
     });
   }, [selectedLanguage]);
+
+  /**
+   * Категории, в которых есть хотя бы одна готовая фраза.
+   * Пока перевод не закончен, пустые категории в приложении не показываем.
+   */
+  const availableCategories = useMemo(
+    () => categories.filter(category => phrases.some(phrase => phrase.categoryId === category.id)),
+    [phrases]
+  );
 
   /**
    * Получить фразы по категории
@@ -105,6 +125,7 @@ export const usePhrases = () => {
 
   return {
     phrases,                    // Все фразы с переводами
+    availableCategories,        // Категории, где есть готовые фразы
     getPhrasesByCategory,       // Фильтр по категории
     getPhrasesBySubcategory,    // Фильтр по подкатегории
     getPhraseById,              // Получить одну фразу

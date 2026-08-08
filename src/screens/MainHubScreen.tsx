@@ -22,6 +22,7 @@ import type { RootStackParamList } from '../types';
 import { DesignColors, Spacing, Typography, BorderRadius } from '../constants/Design';
 import { scale, verticalScale, moderateScale } from '../utils/ResponsiveUtils';
 import { useSafeArea } from '../hooks/useSafeArea';
+import { usePhrases } from '../hooks/usePhrases';
 
 interface ModuleItem {
   id: string;
@@ -81,7 +82,19 @@ export default function MainHubScreen() {
   const { config, getTexts } = useAppLanguage();
   const currentLanguage = getLanguageByCode(config.mode);
   const texts = getTexts();
-  const modules = getModules(texts);
+  const { phrases, availableCategories } = usePhrases();
+
+  // Подпись разговорника считается по факту: показываем столько, сколько реально готово
+  const modules = getModules(texts).map(module =>
+    module.id === 'phrasebook'
+      ? {
+          ...module,
+          subtitle: module.subtitle
+            .replace('{c}', String(availableCategories.length))
+            .replace('{p}', String(phrases.length)),
+        }
+      : module
+  );
 
   const { top: safeAreaTop, bottom: safeAreaBottom } = useSafeArea();
 
