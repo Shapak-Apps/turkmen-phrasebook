@@ -32,7 +32,7 @@ interface ModuleItem {
   isComingSoon?: boolean;
 }
 
-const getModules = (texts: InterfaceTexts, config: any): ModuleItem[] => [
+const getModules = (texts: InterfaceTexts): ModuleItem[] => [
   {
     id: 'phrasebook',
     title: texts.phrasebookTitle,
@@ -72,17 +72,6 @@ const getModules = (texts: InterfaceTexts, config: any): ModuleItem[] => [
     route: 'ComingSoon',
     isComingSoon: true,
   },
-  {
-    id: 'favorites',
-    title: config.mode === 'tk' ? 'Goşmaça' : 
-           config.mode === 'zh' ? '更多' : 
-           'Дополнительно',
-    subtitle: config.mode === 'tk' ? 'Gözleg, halanýanlar, statistika' :
-              config.mode === 'zh' ? '搜索、收藏、统计' :
-              'Поиск, избранное, статистика',
-    iconName: 'grid-outline',
-    route: 'AdditionalFeatures',
-  },
 ];
 
 type MainHubScreenNavigationProp = StackNavigationProp<RootStackParamList>;
@@ -92,7 +81,7 @@ export default function MainHubScreen() {
   const { config, getTexts } = useAppLanguage();
   const currentLanguage = getLanguageByCode(config.mode);
   const texts = getTexts();
-  const modules = getModules(texts, config);
+  const modules = getModules(texts);
 
   const { top: safeAreaTop, bottom: safeAreaBottom } = useSafeArea();
 
