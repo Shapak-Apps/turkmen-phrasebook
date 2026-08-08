@@ -33,9 +33,17 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# OS junk
 .DS_Store
+Thumbs.db
+desktop.ini
 *.pem
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+*.swp
 
 # local env files
 .env
