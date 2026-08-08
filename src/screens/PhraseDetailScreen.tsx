@@ -25,8 +25,6 @@ import { useFavorites } from '../hooks/useFavorites';
 import { useAppLanguage } from '../contexts/LanguageContext';
 import { useConfig } from '../contexts/ConfigContext';
 import { getTranslationsForLanguage } from '../data/languages';
-import AudioPlayer from '../components/AudioPlayer';
-import { useAudio } from '../hooks/useAudio';
 
 type PhraseDetailScreenRouteProp = RouteProp<RootStackParamList, 'PhraseDetail'>;
 
@@ -40,7 +38,6 @@ export default function PhraseDetailScreen() {
   const { isFavorite, toggleFavorite } = useFavorites();
   const { getTexts, config: appConfig, getPhraseTexts } = useAppLanguage();
   const { selectedLanguage } = useConfig();
-  const { stopAudio } = useAudio();
 
   // Safe Area для bottom padding (home indicator)
   const { bottom: safeAreaBottom } = useSafeArea();
@@ -51,13 +48,6 @@ export default function PhraseDetailScreen() {
   useEffect(() => {
     addToHistory(phrase.id);
   }, [phrase.id, addToHistory]);
-
-  // ✅ FIXED: Cleanup audio on unmount (CRITICAL memory leak fix)
-  useEffect(() => {
-    return () => {
-      stopAudio();
-    };
-  }, [stopAudio]);
 
   // ✅ ИСПРАВЛЕНО: Получаем перевод для ТЕКУЩЕГО выбранного языка
   const currentLanguageTranslation = phrase.translation; // Уже содержит перевод для выбранного языка
@@ -89,23 +79,6 @@ export default function PhraseDetailScreen() {
   // ✅ УНИВЕРСАЛЬНАЯ логика для всех 31 языков
   const mainText = currentLanguageTranslation.text;
   const transcription = currentLanguageTranslation.transcription || '';
-
-  // Map language code to audio language name
-  const getAudioLanguage = (langCode: string): string => {
-    const languageMap: { [key: string]: string } = {
-      'tk': 'turkmen', 'zh': 'chinese', 'ru': 'russian', 'en': 'english',
-      'ja': 'japanese', 'ko': 'korean', 'th': 'thai', 'vi': 'vietnamese',
-      'id': 'indonesian', 'ms': 'malay', 'hi': 'hindi', 'ur': 'urdu',
-      'fa': 'persian', 'ps': 'pashto', 'de': 'german', 'fr': 'french',
-      'es': 'spanish', 'it': 'italian', 'tr': 'turkish', 'pl': 'polish',
-      'uk': 'ukrainian', 'pt': 'portuguese', 'nl': 'dutch', 'uz': 'uzbek',
-      'kk': 'kazakh', 'az': 'azerbaijani', 'ky': 'kyrgyz', 'tg': 'tajik',
-      'hy': 'armenian', 'ka': 'georgian', 'ar': 'arabic',
-    };
-    return languageMap[langCode] || 'english';
-  };
-
-  const audioLanguage = getAudioLanguage(selectedLanguage);
 
   // Get language label with flag
   const getLanguageLabel = (): string => {
@@ -174,30 +147,6 @@ export default function PhraseDetailScreen() {
             <Text style={styles.languageLabelSecondary}>🇹🇲 Türkmençe</Text>
             <Text style={styles.secondaryText}>{phrase.turkmen}</Text>
           </View>
-        </View>
-
-        {/* ✅ Аудио кнопки с увеличенным расстоянием */}
-        <View style={styles.audioButtonsContainer}>
-          {/* Audio button for selected language (TTS) */}
-          {selectedLanguage !== 'tk' && (
-            <AudioPlayer
-              text={mainText}
-              language={audioLanguage}
-              label={getLanguageLabel()}
-              style="primary"
-              size="large"
-            />
-          )}
-
-          {/* Turkmen audio button (MP3) */}
-          <AudioPlayer
-            text={phrase.turkmen}
-            language="turkmen"
-            audioPath={phrase.audioFileTurkmen}
-            label="🇹🇲 Türkmençe"
-            style="secondary"
-            size="large"
-          />
         </View>
 
         {/* Action buttons */}
@@ -328,10 +277,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   // ✅ МИНИМАЛИЗМ - контейнер для аудио кнопок
-  audioButtonsContainer: {
-    gap: verticalScale(10),                   // ✅ Компактнее
-    marginBottom: verticalScale(16),
-  },
   actionsContainer: {
     gap: verticalScale(8),
     marginBottom: verticalScale(16),

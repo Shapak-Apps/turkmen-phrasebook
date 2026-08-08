@@ -29,25 +29,10 @@ import {
 import { useFavorites } from '../hooks/useFavorites';
 import { useAppLanguage } from '../contexts/LanguageContext';
 import { useConfig } from '../contexts/ConfigContext';
-import { useAudio } from '../hooks/useAudio';
 import { SubCategoriesGrid } from '../components/SubCategoryCard';
 
 type CategoryScreenRouteProp = RouteProp<HomeStackParamList, 'CategoryScreen'>;
 type CategoryScreenNavigationProp = StackNavigationProp<HomeStackParamList, 'CategoryScreen'>;
-
-const getAudioLanguage = (langCode: string): string => {
-  const languageMap: { [key: string]: string } = {
-    'tk': 'turkmen', 'zh': 'chinese', 'ru': 'russian', 'en': 'english',
-    'ja': 'japanese', 'ko': 'korean', 'th': 'thai', 'vi': 'vietnamese',
-    'id': 'indonesian', 'ms': 'malay', 'hi': 'hindi', 'ur': 'urdu',
-    'fa': 'persian', 'ps': 'pashto', 'de': 'german', 'fr': 'french',
-    'es': 'spanish', 'it': 'italian', 'tr': 'turkish', 'pl': 'polish',
-    'uk': 'ukrainian', 'pt': 'portuguese', 'nl': 'dutch', 'uz': 'uzbek',
-    'kk': 'kazakh', 'az': 'azerbaijani', 'ky': 'kyrgyz', 'tg': 'tajik',
-    'hy': 'armenian', 'ka': 'georgian', 'ar': 'arabic',
-  };
-  return languageMap[langCode] || 'english';
-};
 
 // Lingify-стиль: чистая строка фразы
 const PhraseItem = React.memo<{
@@ -56,17 +41,8 @@ const PhraseItem = React.memo<{
   config: any;
   isFavorite: (id: string) => boolean;
   toggleFavorite: (id: string) => void;
-  onPlayAudio: (phraseId: string, type: 'translation' | 'turkmen', text: string, language: string, audioPath?: string) => void;
-  playingPhraseId: string | null;
-  playingType: 'translation' | 'turkmen' | null;
-  audioIsPlaying: boolean;
-  audioIsLoading: boolean;
   isLast: boolean;
-}>(({ phrase, onPress, config, isFavorite, toggleFavorite, onPlayAudio, playingPhraseId, playingType, audioIsPlaying, audioIsLoading, isLast }) => {
-  const isThisPlaying = playingPhraseId === phrase.id;
-  const thisIsLoading = isThisPlaying && audioIsLoading;
-  const thisIsPlaying = isThisPlaying && audioIsPlaying;
-
+}>(({ phrase, onPress, config, isFavorite, toggleFavorite, isLast }) => {
   const handleToggleFavorite = useCallback(() => {
     toggleFavorite(phrase.id);
   }, [phrase.id, toggleFavorite]);
@@ -74,14 +50,6 @@ const PhraseItem = React.memo<{
   const handlePress = useCallback(() => {
     onPress(phrase);
   }, [phrase, onPress]);
-
-  const handlePlayTranslation = useCallback(() => {
-    onPlayAudio(phrase.id, 'translation', phrase.translation.text, phrase.translation.text, undefined);
-  }, [phrase.id, phrase.translation.text, onPlayAudio]);
-
-  const handlePlayTurkmen = useCallback(() => {
-    onPlayAudio(phrase.id, 'turkmen', phrase.turkmen, 'turkmen', phrase.audioFileTurkmen);
-  }, [phrase.id, phrase.turkmen, phrase.audioFileTurkmen, onPlayAudio]);
 
   const handleCopy = useCallback(async () => {
     const textToCopy = `${phrase.turkmen}\n${phrase.translation.text}`;
@@ -92,50 +60,18 @@ const PhraseItem = React.memo<{
   return (
     <>
       <TouchableOpacity style={styles.phraseRow} onPress={handlePress} activeOpacity={0.6}>
-        {/* Turkmen line: text + audio */}
+        {/* Turkmen line */}
         <View style={styles.textLine}>
           <Text style={styles.turkmenText} numberOfLines={2}>
             {phrase.turkmen}
           </Text>
-          <TouchableOpacity
-            style={styles.inlineAudioBtn}
-            onPress={handlePlayTurkmen}
-            activeOpacity={0.6}
-            disabled={audioIsLoading}
-          >
-            {thisIsLoading && playingType === 'turkmen' ? (
-              <ActivityIndicator size="small" color="#2D8CFF" />
-            ) : (
-              <Ionicons
-                name={thisIsPlaying && playingType === 'turkmen' ? 'pause-circle' : 'volume-medium-outline'}
-                size={moderateScale(18)}
-                color="#2D8CFF"
-              />
-            )}
-          </TouchableOpacity>
         </View>
 
-        {/* Translation line: text + audio */}
+        {/* Translation line */}
         <View style={styles.textLine}>
           <Text style={styles.translationText} numberOfLines={2}>
             {phrase.translation.text}
           </Text>
-          <TouchableOpacity
-            style={styles.inlineAudioBtn}
-            onPress={handlePlayTranslation}
-            activeOpacity={0.6}
-            disabled={audioIsLoading}
-          >
-            {thisIsLoading && playingType === 'translation' ? (
-              <ActivityIndicator size="small" color="#6B7280" />
-            ) : (
-              <Ionicons
-                name={thisIsPlaying && playingType === 'translation' ? 'pause-circle' : 'volume-medium-outline'}
-                size={moderateScale(16)}
-                color="#6B7280"
-              />
-            )}
-          </TouchableOpacity>
         </View>
 
         {/* Transcription */}
@@ -174,32 +110,11 @@ export default function CategoryScreen() {
   const { selectedLanguage } = useConfig();
   const [isLoading, setIsLoading] = useState(true);
   const [selectedSubcategory, setSelectedSubcategory] = useState<SubCategory | null>(null);
-  const [playingPhraseId, setPlayingPhraseId] = useState<string | null>(null);
-  const [playingType, setPlayingType] = useState<'translation' | 'turkmen' | null>(null);
 
   const { getPhrasesByCategory, getPhrasesBySubcategory } = usePhrases();
   const { isFavorite, toggleFavorite } = useFavorites();
-  const { playAudio, isPlaying: audioIsPlaying, isLoading: audioIsLoading } = useAudio();
   const { bottom: safeAreaBottom } = useSafeArea();
   const { category } = route.params;
-
-  // Reset playing state when audio stops
-  useEffect(() => {
-    if (!audioIsPlaying && !audioIsLoading) {
-      setPlayingPhraseId(null);
-      setPlayingType(null);
-    }
-  }, [audioIsPlaying, audioIsLoading]);
-
-  const handlePlayAudio = useCallback((phraseId: string, type: 'translation' | 'turkmen', text: string, language: string, audioPath?: string) => {
-    setPlayingPhraseId(phraseId);
-    setPlayingType(type);
-    if (type === 'turkmen') {
-      playAudio(text, 'turkmen', audioPath);
-    } else {
-      playAudio(text, getAudioLanguage(selectedLanguage));
-    }
-  }, [playAudio, selectedLanguage]);
 
   const subcategories = useMemo(() => {
     return getSubcategoriesByParentId(category.id);
@@ -344,11 +259,6 @@ export default function CategoryScreen() {
             config={config}
             isFavorite={isFavorite}
             toggleFavorite={toggleFavorite}
-            onPlayAudio={handlePlayAudio}
-            playingPhraseId={playingPhraseId}
-            playingType={playingType}
-            audioIsPlaying={audioIsPlaying}
-            audioIsLoading={audioIsLoading}
             isLast={index === filteredPhrases.length - 1}
           />
         )}
@@ -529,10 +439,6 @@ const styles = StyleSheet.create({
     color: '#9CA3AF',
     lineHeight: moderateScale(18),
     marginBottom: verticalScale(2),
-  },
-
-  inlineAudioBtn: {
-    padding: scale(4),
   },
 
   bottomActions: {

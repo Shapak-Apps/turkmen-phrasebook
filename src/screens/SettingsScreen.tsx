@@ -24,7 +24,6 @@ import { useConfig } from '../contexts/ConfigContext';
 import { getLanguageByCode } from '../config/languages.config';
 import { useSearchHistory } from '../hooks/useSearchHistory';
 import { RootStackParamList } from '../types';
-import { TTSRouter } from '../services/tts/TTSRouter';
 import { scale, verticalScale, moderateScale } from '../utils/ResponsiveUtils';
 import { useSafeArea } from '../hooks/useSafeArea';
 
@@ -39,7 +38,6 @@ const SETTINGS_ICON_COLORS = {
 type SettingsScreenNavigationProp = StackNavigationProp<RootStackParamList, 'LanguageSelection'>;
 
 // Импортируем модальные компоненты
-import SpeechRateModal from '../components/SpeechRateModal';
 
 const SETTINGS_KEYS = {
   SOUND_ENABLED: 'settings_sound_enabled',
@@ -103,7 +101,6 @@ const SectionHeader = React.memo(({ title }: { title: string }) => (
 export default function SettingsScreen() {
   const navigation = useNavigation<SettingsScreenNavigationProp>();
   const [preferences, setPreferences] = useState<AppPreferences>(DEFAULT_PREFERENCES);
-  const [showSpeechRateModal, setShowSpeechRateModal] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   // Скрываем стандартный header навигации
@@ -161,13 +158,6 @@ export default function SettingsScreen() {
     loadPreferences();
   }, [loadPreferences]);
 
-  // Синхронизируем настройку голоса при изменении
-  useEffect(() => {
-    if (!isLoading) {
-      TTSRouter.setVoiceGender(preferences.voiceGender === 'male');
-    }
-  }, [preferences.voiceGender, isLoading]);
-
   // Оптимизированное сохранение настроек
   const savePreference = useCallback(async (key: keyof AppPreferences, value: any) => {
     try {
@@ -194,51 +184,6 @@ export default function SettingsScreen() {
     const newValue = !preferences[key];
     await savePreference(key, newValue);
   }, [preferences, savePreference]);
-
-  // Тестовые фразы для разных языков
-  const getTestPhrase = useCallback((lang: string): { text: string; language: string } => {
-    const phrases: Record<string, { text: string; language: string }> = {
-      'tk': { text: 'Salam, men Şapak programmasy!', language: 'turkmen' },
-      'zh': { text: '你好，我是Shapak应用程序！', language: 'chinese' },
-      'ru': { text: 'Привет, я приложение Шапак!', language: 'russian' },
-      'en': { text: 'Hello, I am the Shapak app!', language: 'english' },
-      'tr': { text: 'Merhaba, ben Shapak uygulamasıyım!', language: 'turkish' },
-      'de': { text: 'Hallo, ich bin die Shapak-App!', language: 'german' },
-      'fr': { text: 'Bonjour, je suis l\'application Shapak!', language: 'french' },
-      'es': { text: '¡Hola, soy la aplicación Shapak!', language: 'spanish' },
-      'ja': { text: 'こんにちは、Shapakアプリです！', language: 'japanese' },
-      'ko': { text: '안녕하세요, 저는 Shapak 앱입니다!', language: 'korean' },
-      'ar': { text: 'مرحباً، أنا تطبيق شاباك!', language: 'arabic' },
-    };
-    return phrases[lang] || phrases['en'];
-  }, []);
-
-  const testTTS = useCallback(async () => {
-    const { text, language } = getTestPhrase(config.mode);
-
-    try {
-      const result = await TTSRouter.play({
-        text,
-        language,
-        rate: preferences.speechRate,
-      });
-
-      if (!result.success) {
-        Alert.alert(
-          texts.error ?? 'Error',
-          texts.testVoiceError ?? 'Could not play audio. Check your internet connection.'
-        );
-      }
-    } catch (error) {
-      Alert.alert(texts.error ?? 'Error', texts.testVoiceError ?? 'Audio playback failed');
-    }
-  }, [config.mode, preferences.speechRate, getTestPhrase, texts]);
-
-  const handleVoiceGenderChange = useCallback(async () => {
-    const newGender = preferences.voiceGender === 'female' ? 'male' : 'female';
-    await savePreference('voiceGender', newGender);
-    TTSRouter.setVoiceGender(newGender === 'male');
-  }, [preferences.voiceGender, savePreference]);
 
   const handleAbout = useCallback(() => {
     navigation.navigate('About' as any);
@@ -298,55 +243,6 @@ export default function SettingsScreen() {
               title={texts.phrasebookLanguage ?? 'Phrasebook Language'}
               subtitle={`${texts.currentLanguage ?? 'Current: '}${getLanguageByCode(selectedLanguage)?.nameEn || selectedLanguage}-Turkmen`}
               onPress={handlePhrasebookLanguageChange}
-              rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
-            />
-          </View>
-
-          {/* Секция аудио */}
-          <View style={styles.section}>
-            <SectionHeader title={settingsTexts.audioSettings ?? 'Audio Settings'} />
-
-            <SettingsItem
-              icon="volume-high"
-              iconColor={SETTINGS_ICON_COLORS.audio}
-              title={texts.soundEffects}
-              subtitle={texts.pronunciationPlayback}
-              rightComponent={
-                <Switch
-                  value={preferences.soundEnabled}
-                  onValueChange={() => handleTogglePreference('soundEnabled')}
-                  trackColor={{ false: '#D1D5DB', true: '#2D8CFF' }}
-                  thumbColor="#FFFFFF"
-                />
-              }
-            />
-
-            <SettingsItem
-              icon="person"
-              iconColor={SETTINGS_ICON_COLORS.audio}
-              title={texts.voiceGender ?? 'Voice Type'}
-              subtitle={preferences.voiceGender === 'female'
-                ? (texts.voiceFemale ?? 'Female')
-                : (texts.voiceMale ?? 'Male')}
-              onPress={handleVoiceGenderChange}
-              rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
-            />
-
-            <SettingsItem
-              icon="play-circle"
-              iconColor={SETTINGS_ICON_COLORS.audio}
-              title={texts.testVoice ?? 'Test Voice'}
-              subtitle={texts.testVoiceDesc ?? 'Play a sample phrase'}
-              onPress={testTTS}
-              rightComponent={<Ionicons name="play" size={20} color="#9CA3AF" />}
-            />
-
-            <SettingsItem
-              icon="speedometer"
-              iconColor={SETTINGS_ICON_COLORS.audio}
-              title={texts.settingsSpeechRate ?? 'Speech Rate'}
-              subtitle={`${preferences.speechRate}x`}
-              onPress={() => setShowSpeechRateModal(true)}
               rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
             />
           </View>
@@ -456,19 +352,6 @@ export default function SettingsScreen() {
         </View>
       </ScrollView>
 
-      {/* Модальное окно скорости речи */}
-      <SpeechRateModal
-        visible={showSpeechRateModal}
-        onClose={() => setShowSpeechRateModal(false)}
-        currentRate={preferences.speechRate}
-        onSave={(rate) => savePreference('speechRate', rate)}
-        texts={{
-          title: texts.settingsSpeechRate,
-          test: texts.testVoice,
-          cancel: texts.cancel,
-          save: texts.success,
-        }}
-      />
     </SafeAreaView>
   );
 }
