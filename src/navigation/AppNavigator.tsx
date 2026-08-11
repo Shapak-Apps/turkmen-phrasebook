@@ -27,9 +27,6 @@ import TextTranslatorScreen from '../features/text-translator/screens/TextTransl
 // Coming Soon screen (for Visual Translator v1.5 & Voice Translator v2.0)
 import ComingSoonScreen from '../screens/ComingSoonScreen';
 
-// AI Assistants screens (Phase 4)
-import UniversalAIChatScreen from '../features/ai-assistants/screens/UniversalAIChatScreen';
-
 // Dictionary screen (Phase 5)
 import DictionaryScreen from '../screens/DictionaryScreen';
 
@@ -192,13 +189,6 @@ export default function AppNavigator() {
         <RootStack.Screen
           name="ComingSoon"
           component={ComingSoonScreen}
-          options={{ headerShown: false }}
-        />
-
-        {/* AI Assistants (Phase 4) */}
-        <RootStack.Screen
-          name="UniversalAIChat"
-          component={UniversalAIChatScreen}
           options={{ headerShown: false }}
         />
 

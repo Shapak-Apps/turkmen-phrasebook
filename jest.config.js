@@ -11,7 +11,7 @@ module.exports = {
     '/ios/',
   ],
   transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|@google/generative-ai)',
+    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)',
   ],
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',
@@ -27,8 +27,5 @@ module.exports = {
       functions: 30,
       lines: 30,
     },
-  },
-  moduleNameMapper: {
-    '^@env$': '<rootDir>/__mocks__/@env.js',
   },
 };

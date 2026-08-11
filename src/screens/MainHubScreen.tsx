@@ -109,8 +109,6 @@ export default function MainHubScreen() {
       navigation.navigate('Home');
     } else if (module.id === 'text-translator') {
       navigation.navigate('TextTranslator');
-    } else if (module.id === 'ai-assistants') {
-      navigation.navigate('UniversalAIChat');
     } else if (module.id === 'dictionary') {
       navigation.navigate('Dictionary');
     } else if (module.id === 'favorites') {

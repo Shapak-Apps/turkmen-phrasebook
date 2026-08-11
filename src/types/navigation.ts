@@ -28,9 +28,6 @@ export type RootStackParamList = {
   // Coming Soon Screen (for unreleased features)
   ComingSoon: { feature: 'voice' | 'visual' | 'ai' | 'translator' };
 
-  // AI Assistants Module (Phase 4 - Ready)
-  UniversalAIChat: undefined; // Universal AI assistant (replaces old separate assistants)
-
   // Dictionary Module (v2.0 - Coming Soon Placeholder)
   Dictionary: undefined;
 
@@ -56,7 +53,6 @@ export type HomeStackParamList = {
     parentCategory: Category;
   };
   PhraseDetail: { phrase: PhraseWithTranslation };
-  AskAIScreen: { phrase: PhraseWithTranslation; categoryId: string };
 };
 
 /**

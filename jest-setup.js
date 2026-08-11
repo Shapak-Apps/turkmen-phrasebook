@@ -116,24 +116,6 @@ jest.mock('@react-native-community/netinfo', () => ({
   addEventListener: jest.fn(() => jest.fn()),
 }));
 
-// Mock @env for environment variables
-jest.mock('@env', () => ({
-  GEMINI_API_KEY: 'test-api-key-mock',
-}));
-
-// Mock @google/generative-ai
-jest.mock('@google/generative-ai', () => ({
-  GoogleGenerativeAI: jest.fn().mockImplementation(() => ({
-    getGenerativeModel: jest.fn().mockReturnValue({
-      generateContent: jest.fn().mockResolvedValue({
-        response: {
-          text: jest.fn().mockReturnValue('Mock AI response'),
-        },
-      }),
-    }),
-  })),
-}));
-
 // Mock react-native-gesture-handler
 jest.mock('react-native-gesture-handler', () => {
   const View = require('react-native/Libraries/Components/View/View');
