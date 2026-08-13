@@ -35,6 +35,12 @@ import LanguagePairSelectionScreen from '../screens/LanguagePairSelectionScreen'
 // About screen
 import AboutScreen from '../screens/AboutScreen';
 
+// Сценарный разговорник (ТЗ-02)
+import ScenarioHomeScreen from '../features/scenarios/screens/ScenarioHomeScreen';
+import ScenarioFlowScreen from '../features/scenarios/screens/ScenarioFlowScreen';
+import ScenarioPhraseScreen from '../features/scenarios/screens/ScenarioPhraseScreen';
+import ShowScreen from '../features/scenarios/screens/ShowScreen';
+
 // Импортируем типы
 import { RootStackParamList, HomeStackParamList } from '../types';
 import { Colors } from '../constants/Colors';
@@ -220,6 +226,28 @@ export default function AppNavigator() {
         <RootStack.Screen
           name="About"
           component={AboutScreen}
+          options={{ headerShown: false }}
+        />
+
+        {/* Сценарный разговорник (ТЗ-02) */}
+        <RootStack.Screen
+          name="ScenarioHome"
+          component={ScenarioHomeScreen}
+          options={{ headerShown: false }}
+        />
+        <RootStack.Screen
+          name="ScenarioFlow"
+          component={ScenarioFlowScreen}
+          options={{ headerShown: false }}
+        />
+        <RootStack.Screen
+          name="ScenarioPhrase"
+          component={ScenarioPhraseScreen}
+          options={{ headerShown: false }}
+        />
+        <RootStack.Screen
+          name="ShowScreen"
+          component={ShowScreen}
           options={{ headerShown: false }}
         />
 

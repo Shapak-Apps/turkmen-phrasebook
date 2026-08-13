@@ -8,6 +8,7 @@ import { LanguageProvider } from './src/contexts/LanguageContext';
 import { ConfigProvider } from './src/contexts/ConfigContext';
 import { OfflineDataProvider } from './src/contexts/OfflineDataContext';
 import ErrorBoundary from './src/components/ErrorBoundary';
+import { TargetLangProvider } from './src/features/scenarios/TargetLangContext';
 
 // Предотвращаем автоматическое скрытие splash screen
 SplashScreen.preventAutoHideAsync();
@@ -24,8 +25,10 @@ export default function App() {
         <ConfigProvider>
           <LanguageProvider>
             <OfflineDataProvider>
-              <AppNavigator />
-              <StatusBar style="auto" />
+              <TargetLangProvider>
+                <AppNavigator />
+                <StatusBar style="auto" />
+              </TargetLangProvider>
             </OfflineDataProvider>
           </LanguageProvider>
         </ConfigProvider>

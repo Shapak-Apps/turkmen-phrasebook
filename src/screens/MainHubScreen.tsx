@@ -22,7 +22,7 @@ import type { RootStackParamList } from '../types';
 import { DesignColors, Spacing, Typography, BorderRadius } from '../constants/Design';
 import { scale, verticalScale, moderateScale } from '../utils/ResponsiveUtils';
 import { useSafeArea } from '../hooks/useSafeArea';
-import { usePhrases } from '../hooks/usePhrases';
+import { uiLabels } from '../features/scenarios/ui-labels';
 
 interface ModuleItem {
   id: string;
@@ -82,18 +82,11 @@ export default function MainHubScreen() {
   const { config, getTexts } = useAppLanguage();
   const currentLanguage = getLanguageByCode(config.mode);
   const texts = getTexts();
-  const { phrases, availableCategories } = usePhrases();
 
-  // Подпись разговорника считается по факту: показываем столько, сколько реально готово
+  // Подпись разговорника статичная: счётчики {c}/{p} считались по старому корпусу
+  // и врали бы про сценарный экран, который живёт на других данных.
   const modules = getModules(texts).map(module =>
-    module.id === 'phrasebook'
-      ? {
-          ...module,
-          subtitle: module.subtitle
-            .replace('{c}', String(availableCategories.length))
-            .replace('{p}', String(phrases.length)),
-        }
-      : module
+    module.id === 'phrasebook' ? { ...module, subtitle: uiLabels.hubTileSubtitle } : module
   );
 
   const { top: safeAreaTop, bottom: safeAreaBottom } = useSafeArea();
@@ -106,7 +99,7 @@ export default function MainHubScreen() {
     }
 
     if (module.id === 'phrasebook') {
-      navigation.navigate('Home');
+      navigation.navigate('ScenarioHome');
     } else if (module.id === 'text-translator') {
       navigation.navigate('TextTranslator');
     } else if (module.id === 'dictionary') {

@@ -52,3 +52,11 @@ export const getAvailableScenarios = (wing: Wing, lang: ContentLang): Scenario[]
         .filter((step) => step.phrases.length > 0),
     }))
     .filter((scenario) => scenario.steps.length > 0);
+
+/**
+ * id ответов на фразу, у которых готов перевод на lang.
+ * Пустой массив, если ответов нет, фраза неизвестна или переводы ответов не готовы:
+ * кнопка без текста в UI хуже, чем отсутствующая кнопка.
+ */
+export const getAvailableReplies = (id: string, lang: ContentLang): string[] =>
+  (phrases[id]?.replies ?? []).filter((replyId) => isPhraseAvailable(replyId, lang));

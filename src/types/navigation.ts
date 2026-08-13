@@ -38,6 +38,12 @@ export type RootStackParamList = {
   Settings: undefined;
   // About
   About: undefined;
+
+  // Сценарный разговорник (ТЗ-02)
+  ScenarioHome: undefined;
+  ScenarioFlow: { scenarioId: string };
+  ScenarioPhrase: { phraseId: string };
+  ShowScreen: { phraseId: string };
 };
 
 /**
