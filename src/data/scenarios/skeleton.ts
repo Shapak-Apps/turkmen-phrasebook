@@ -367,6 +367,277 @@ export const phrases: Record<string, ScenarioPhrase> = {
   'problems.conflict.didnt-order': { id: 'problems.conflict.didnt-order', speaker: 'me', emoji: '🙅' },
   'problems.conflict.overcharged': { id: 'problems.conflict.overcharged', speaker: 'me', emoji: '💸' },
   'problems.conflict.dont-touch': { id: 'problems.conflict.dont-touch', speaker: 'me', emoji: '✋' },
+  // --- сценарий directions (крыло host): спрашивают дорогу ---
+  'directions.questions.q-where-is': {
+    id: 'directions.questions.q-where-is',
+    speaker: 'them',
+    replies: [
+      'directions.answers.a-straight',
+      'directions.answers.a-follow-me',
+      'directions.answers.a-dont-know',
+    ],
+    emoji: '❓',
+  },
+  'directions.questions.q-how-get': {
+    id: 'directions.questions.q-how-get',
+    speaker: 'them',
+    replies: [
+      'directions.answers.a-straight',
+      'directions.answers.a-turn-left',
+      'directions.answers.a-turn-right',
+    ],
+    emoji: '🚶',
+  },
+  'directions.questions.q-is-far': {
+    id: 'directions.questions.q-is-far',
+    speaker: 'them',
+    replies: ['directions.answers.a-near', 'directions.answers.a-far'],
+    emoji: '📏',
+  },
+  'directions.questions.q-where-toilet': {
+    id: 'directions.questions.q-where-toilet',
+    speaker: 'them',
+    replies: ['directions.answers.a-near', 'directions.answers.a-follow-me'],
+    emoji: '🚻',
+  },
+  'directions.questions.q-where-taxi': {
+    id: 'directions.questions.q-where-taxi',
+    speaker: 'them',
+    replies: ['directions.answers.a-follow-me', 'directions.answers.a-ask-there'],
+    emoji: '🚕',
+  },
+  'directions.questions.q-can-photo': {
+    id: 'directions.questions.q-can-photo',
+    speaker: 'them',
+    replies: ['directions.answers.a-yes-can', 'directions.answers.a-better-not'],
+    emoji: '📷',
+  },
+
+  // --- сценарий directions: ответы юзера ---
+  'directions.answers.a-straight': { id: 'directions.answers.a-straight', speaker: 'me', emoji: '⬆️' },
+  'directions.answers.a-turn-left': { id: 'directions.answers.a-turn-left', speaker: 'me', emoji: '⬅️' },
+  'directions.answers.a-turn-right': { id: 'directions.answers.a-turn-right', speaker: 'me', emoji: '➡️' },
+  'directions.answers.a-near': { id: 'directions.answers.a-near', speaker: 'me', emoji: '📍' },
+  'directions.answers.a-far': { id: 'directions.answers.a-far', speaker: 'me', emoji: '🚕' },
+  'directions.answers.a-follow-me': { id: 'directions.answers.a-follow-me', speaker: 'me', emoji: '🚶' },
+  'directions.answers.a-ask-there': { id: 'directions.answers.a-ask-there', speaker: 'me', emoji: '👉' },
+  'directions.answers.a-dont-know': { id: 'directions.answers.a-dont-know', speaker: 'me', emoji: '🤷' },
+  'directions.answers.a-yes-can': { id: 'directions.answers.a-yes-can', speaker: 'me', emoji: '✅' },
+  'directions.answers.a-better-not': { id: 'directions.answers.a-better-not', speaker: 'me', emoji: '🚫' },
+
+  // --- сценарий taxi-driver: посадка ---
+  'taxi-driver.start.q-free': {
+    id: 'taxi-driver.start.q-free',
+    speaker: 'them',
+    replies: ['taxi-driver.start.a-yes-sit', 'taxi-driver.start.a-no-busy'],
+    emoji: '🙋',
+  },
+  'taxi-driver.start.a-yes-sit': { id: 'taxi-driver.start.a-yes-sit', speaker: 'me', emoji: '✅' },
+  'taxi-driver.start.a-no-busy': { id: 'taxi-driver.start.a-no-busy', speaker: 'me', emoji: '❌' },
+  // Вопрос задаёт юзер: спикеры всё равно противоположны, ответ — реплика иностранца.
+  'taxi-driver.start.ask-where': {
+    id: 'taxi-driver.start.ask-where',
+    speaker: 'me',
+    replies: ['taxi-driver.start.q-to-address'],
+    emoji: '❓',
+  },
+  'taxi-driver.start.q-to-address': {
+    id: 'taxi-driver.start.q-to-address',
+    speaker: 'them',
+    replies: ['taxi-driver.start.a-ok-lets-go'],
+    emoji: '📍',
+  },
+  'taxi-driver.start.a-ok-lets-go': { id: 'taxi-driver.start.a-ok-lets-go', speaker: 'me', emoji: '🚗' },
+
+  // --- сценарий taxi-driver: цена ---
+  'taxi-driver.price.q-how-much': {
+    id: 'taxi-driver.price.q-how-much',
+    speaker: 'them',
+    replies: ['taxi-driver.price.a-price', 'taxi-driver.price.a-by-meter'],
+    emoji: '💰',
+  },
+  'taxi-driver.price.a-price': { id: 'taxi-driver.price.a-price', speaker: 'me', emoji: '💵' },
+  'taxi-driver.price.a-by-meter': { id: 'taxi-driver.price.a-by-meter', speaker: 'me', emoji: '🧮' },
+  'taxi-driver.price.q-expensive': {
+    id: 'taxi-driver.price.q-expensive',
+    speaker: 'them',
+    replies: ['taxi-driver.price.a-ok-discount', 'taxi-driver.price.a-normal-price'],
+    emoji: '😮',
+  },
+  'taxi-driver.price.a-ok-discount': { id: 'taxi-driver.price.a-ok-discount', speaker: 'me', emoji: '🤝' },
+  'taxi-driver.price.a-normal-price': { id: 'taxi-driver.price.a-normal-price', speaker: 'me', emoji: '📊' },
+
+  // --- сценарий taxi-driver: поездка ---
+  'taxi-driver.ride.a-arrived': { id: 'taxi-driver.ride.a-arrived', speaker: 'me', emoji: '🏁' },
+  'taxi-driver.ride.q-wait-me': {
+    id: 'taxi-driver.ride.q-wait-me',
+    speaker: 'them',
+    replies: ['taxi-driver.ride.a-ok-wait', 'taxi-driver.ride.a-cant-wait'],
+    emoji: '⏳',
+  },
+  'taxi-driver.ride.a-ok-wait': { id: 'taxi-driver.ride.a-ok-wait', speaker: 'me', emoji: '✅' },
+  'taxi-driver.ride.a-cant-wait': { id: 'taxi-driver.ride.a-cant-wait', speaker: 'me', emoji: '❌' },
+  'taxi-driver.ride.q-pay-card': {
+    id: 'taxi-driver.ride.q-pay-card',
+    speaker: 'them',
+    replies: ['taxi-driver.ride.a-cash-only', 'taxi-driver.ride.a-card-ok'],
+    emoji: '💳',
+  },
+  'taxi-driver.ride.a-cash-only': { id: 'taxi-driver.ride.a-cash-only', speaker: 'me', emoji: '💵' },
+  'taxi-driver.ride.a-card-ok': { id: 'taxi-driver.ride.a-card-ok', speaker: 'me', emoji: '✅' },
+  'taxi-driver.ride.a-here-change': { id: 'taxi-driver.ride.a-here-change', speaker: 'me', emoji: '🪙' },
+  // --- сценарий seller (host): цена ---
+  'seller.price.q-how-much': {
+    id: 'seller.price.q-how-much',
+    speaker: 'them',
+    replies: ['seller.price.a-price'],
+    emoji: '💰',
+  },
+  'seller.price.a-price': { id: 'seller.price.a-price', speaker: 'me', emoji: '💵' },
+  'seller.price.q-can-try': {
+    id: 'seller.price.q-can-try',
+    speaker: 'them',
+    replies: ['seller.price.a-try-please'],
+    emoji: '🥄',
+  },
+  'seller.price.a-try-please': { id: 'seller.price.a-try-please', speaker: 'me', emoji: '😊' },
+  'seller.price.a-fresh': { id: 'seller.price.a-fresh', speaker: 'me', emoji: '🌿' },
+  'seller.price.q-how-sold': {
+    id: 'seller.price.q-how-sold',
+    speaker: 'them',
+    replies: ['seller.price.a-per-kg', 'seller.price.a-per-piece'],
+    emoji: '⚖️',
+  },
+  'seller.price.a-per-kg': { id: 'seller.price.a-per-kg', speaker: 'me', emoji: '⚖️' },
+  'seller.price.a-per-piece': { id: 'seller.price.a-per-piece', speaker: 'me', emoji: '🔢' },
+
+  // --- сценарий seller: торг ---
+  'seller.bargain.q-discount': {
+    id: 'seller.bargain.q-discount',
+    speaker: 'them',
+    replies: ['seller.bargain.a-ok-for-you', 'seller.bargain.a-cant-cheap'],
+    emoji: '🏷️',
+  },
+  'seller.bargain.a-ok-for-you': { id: 'seller.bargain.a-ok-for-you', speaker: 'me', emoji: '🤝' },
+  'seller.bargain.a-cant-cheap': { id: 'seller.bargain.a-cant-cheap', speaker: 'me', emoji: '🙅' },
+  'seller.bargain.a-take-two': { id: 'seller.bargain.a-take-two', speaker: 'me', emoji: '2️⃣' },
+
+  // --- сценарий seller: оплата ---
+  'seller.pay.q-pay-card': {
+    id: 'seller.pay.q-pay-card',
+    speaker: 'them',
+    replies: ['seller.pay.a-cash-only', 'seller.pay.a-terminal-here'],
+    emoji: '💳',
+  },
+  'seller.pay.a-cash-only': { id: 'seller.pay.a-cash-only', speaker: 'me', emoji: '💵' },
+  'seller.pay.a-terminal-here': { id: 'seller.pay.a-terminal-here', speaker: 'me', emoji: '✅' },
+  'seller.pay.a-here-change': { id: 'seller.pay.a-here-change', speaker: 'me', emoji: '🪙' },
+  'seller.pay.ask-bag': { id: 'seller.pay.ask-bag', speaker: 'me', emoji: '🛍️' },
+  'seller.pay.a-welcome-again': { id: 'seller.pay.a-welcome-again', speaker: 'me', emoji: '👋' },
+
+  // --- сценарий hospitality: приглашение ---
+  'hospitality.invite.inv-welcome': { id: 'hospitality.invite.inv-welcome', speaker: 'me', emoji: '🎉' },
+  'hospitality.invite.inv-come-in': { id: 'hospitality.invite.inv-come-in', speaker: 'me', emoji: '🚪' },
+  'hospitality.invite.inv-sit': { id: 'hospitality.invite.inv-sit', speaker: 'me', emoji: '💺' },
+  'hospitality.invite.q-thank-invite': {
+    id: 'hospitality.invite.q-thank-invite',
+    speaker: 'them',
+    replies: ['hospitality.invite.a-our-pleasure'],
+    emoji: '🙏',
+  },
+  'hospitality.invite.a-our-pleasure': { id: 'hospitality.invite.a-our-pleasure', speaker: 'me', emoji: '😊' },
+
+  // --- сценарий hospitality: чай и угощение ---
+  'hospitality.tea.offer-tea': {
+    id: 'hospitality.tea.offer-tea',
+    speaker: 'me',
+    replies: ['hospitality.tea.q-yes-gladly', 'hospitality.tea.q-no-thanks'],
+    emoji: '🍵',
+  },
+  'hospitality.tea.q-yes-gladly': { id: 'hospitality.tea.q-yes-gladly', speaker: 'them', emoji: '😊' },
+  'hospitality.tea.q-no-thanks': { id: 'hospitality.tea.q-no-thanks', speaker: 'them', emoji: '🙅' },
+  'hospitality.tea.offer-try': { id: 'hospitality.tea.offer-try', speaker: 'me', emoji: '🥘' },
+  'hospitality.tea.q-what-is-it': {
+    id: 'hospitality.tea.q-what-is-it',
+    speaker: 'them',
+    replies: ['hospitality.tea.a-this-is'],
+    emoji: '❓',
+  },
+  'hospitality.tea.a-this-is': { id: 'hospitality.tea.a-this-is', speaker: 'me', emoji: '🍲' },
+  'hospitality.tea.q-delicious': {
+    id: 'hospitality.tea.q-delicious',
+    speaker: 'them',
+    replies: ['hospitality.tea.a-eat-more'],
+    emoji: '😋',
+  },
+  'hospitality.tea.a-eat-more': { id: 'hospitality.tea.a-eat-more', speaker: 'me', emoji: '🍽️' },
+
+  // --- сценарий hospitality: разговор ---
+  'hospitality.talk.ask-how-tm': {
+    id: 'hospitality.talk.ask-how-tm',
+    speaker: 'me',
+    replies: ['hospitality.talk.q-very-beautiful'],
+    emoji: '🇹🇲',
+  },
+  'hospitality.talk.q-very-beautiful': {
+    id: 'hospitality.talk.q-very-beautiful',
+    speaker: 'them',
+    replies: ['hospitality.talk.a-glad-hear'],
+    emoji: '😍',
+  },
+  'hospitality.talk.a-glad-hear': { id: 'hospitality.talk.a-glad-hear', speaker: 'me', emoji: '😊' },
+  'hospitality.talk.ask-where-from': {
+    id: 'hospitality.talk.ask-where-from',
+    speaker: 'me',
+    replies: ['hospitality.talk.q-im-from'],
+    emoji: '🌍',
+  },
+  'hospitality.talk.q-im-from': { id: 'hospitality.talk.q-im-from', speaker: 'them', emoji: '📍' },
+  'hospitality.talk.photo-together': { id: 'hospitality.talk.photo-together', speaker: 'me', emoji: '📸' },
+
+  // --- сценарий help-tourist: предложить помощь ---
+  'help-tourist.offer.ask-help': {
+    id: 'help-tourist.offer.ask-help',
+    speaker: 'me',
+    replies: ['help-tourist.offer.q-yes-help', 'help-tourist.offer.q-no-thanks-fine'],
+    emoji: '🤝',
+  },
+  'help-tourist.offer.q-yes-help': {
+    id: 'help-tourist.offer.q-yes-help',
+    speaker: 'them',
+    replies: ['help-tourist.offer.a-no-worry'],
+    emoji: '🙏',
+  },
+  'help-tourist.offer.a-no-worry': { id: 'help-tourist.offer.a-no-worry', speaker: 'me', emoji: '😌' },
+  'help-tourist.offer.q-no-thanks-fine': { id: 'help-tourist.offer.q-no-thanks-fine', speaker: 'them', emoji: '👌' },
+  'help-tourist.offer.ask-lost': { id: 'help-tourist.offer.ask-lost', speaker: 'me', emoji: '🧭' },
+
+  // --- сценарий help-tourist: беда ---
+  'help-tourist.problem.q-lost-docs': {
+    id: 'help-tourist.problem.q-lost-docs',
+    speaker: 'them',
+    replies: ['help-tourist.problem.a-call-police'],
+    emoji: '📄',
+  },
+  'help-tourist.problem.a-call-police': { id: 'help-tourist.problem.a-call-police', speaker: 'me', emoji: '🚓' },
+  'help-tourist.problem.q-need-doctor': {
+    id: 'help-tourist.problem.q-need-doctor',
+    speaker: 'them',
+    replies: ['help-tourist.problem.a-call-ambulance'],
+    emoji: '🩺',
+  },
+  'help-tourist.problem.a-call-ambulance': { id: 'help-tourist.problem.a-call-ambulance', speaker: 'me', emoji: '🚑' },
+  'help-tourist.problem.q-not-understand': {
+    id: 'help-tourist.problem.q-not-understand',
+    speaker: 'them',
+    replies: ['help-tourist.problem.a-use-app'],
+    emoji: '🗣️',
+  },
+  'help-tourist.problem.a-use-app': { id: 'help-tourist.problem.a-use-app', speaker: 'me', emoji: '📱' },
+
+  // --- сценарий help-tourist: проводить ---
+  'help-tourist.guide.a-take-you': { id: 'help-tourist.guide.a-take-you', speaker: 'me', emoji: '🚶' },
+  'help-tourist.guide.a-this-way': { id: 'help-tourist.guide.a-this-way', speaker: 'me', emoji: '👉' },
 };
 
 /** Сценарии обоих крыльев. Порядок шагов = порядок реального прохода ситуации. */
@@ -748,6 +1019,208 @@ export const scenarios: Scenario[] = [
           'problems.conflict.overcharged',
           'problems.conflict.dont-touch',
         ],
+      },
+    ],
+  },
+  {
+    id: 'directions',
+    wing: 'host',
+    emoji: '🗺️',
+    steps: [
+      {
+        id: 'directions.questions',
+        emoji: '❓',
+        phrases: [
+          'directions.questions.q-where-is',
+          'directions.questions.q-how-get',
+          'directions.questions.q-is-far',
+          'directions.questions.q-where-toilet',
+          'directions.questions.q-where-taxi',
+          'directions.questions.q-can-photo',
+        ],
+      },
+      {
+        id: 'directions.answers',
+        emoji: '👉',
+        phrases: [
+          'directions.answers.a-straight',
+          'directions.answers.a-turn-left',
+          'directions.answers.a-turn-right',
+          'directions.answers.a-near',
+          'directions.answers.a-far',
+          'directions.answers.a-follow-me',
+          'directions.answers.a-ask-there',
+          'directions.answers.a-dont-know',
+          'directions.answers.a-yes-can',
+          'directions.answers.a-better-not',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'taxi-driver',
+    wing: 'host',
+    emoji: '🚕',
+    steps: [
+      {
+        id: 'taxi-driver.start',
+        emoji: '🚦',
+        phrases: [
+          'taxi-driver.start.q-free',
+          'taxi-driver.start.a-yes-sit',
+          'taxi-driver.start.a-no-busy',
+          'taxi-driver.start.ask-where',
+          'taxi-driver.start.q-to-address',
+          'taxi-driver.start.a-ok-lets-go',
+        ],
+      },
+      {
+        id: 'taxi-driver.price',
+        emoji: '💰',
+        phrases: [
+          'taxi-driver.price.q-how-much',
+          'taxi-driver.price.a-price',
+          'taxi-driver.price.a-by-meter',
+          'taxi-driver.price.q-expensive',
+          'taxi-driver.price.a-ok-discount',
+          'taxi-driver.price.a-normal-price',
+        ],
+      },
+      {
+        id: 'taxi-driver.ride',
+        emoji: '🛣️',
+        phrases: [
+          'taxi-driver.ride.a-arrived',
+          'taxi-driver.ride.q-wait-me',
+          'taxi-driver.ride.a-ok-wait',
+          'taxi-driver.ride.a-cant-wait',
+          'taxi-driver.ride.q-pay-card',
+          'taxi-driver.ride.a-cash-only',
+          'taxi-driver.ride.a-card-ok',
+          'taxi-driver.ride.a-here-change',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'seller',
+    wing: 'host',
+    emoji: '🛍️',
+    steps: [
+      {
+        id: 'seller.price',
+        emoji: '💰',
+        phrases: [
+          'seller.price.q-how-much',
+          'seller.price.a-price',
+          'seller.price.q-can-try',
+          'seller.price.a-try-please',
+          'seller.price.a-fresh',
+          'seller.price.q-how-sold',
+          'seller.price.a-per-kg',
+          'seller.price.a-per-piece',
+        ],
+      },
+      {
+        id: 'seller.bargain',
+        emoji: '🤝',
+        phrases: [
+          'seller.bargain.q-discount',
+          'seller.bargain.a-ok-for-you',
+          'seller.bargain.a-cant-cheap',
+          'seller.bargain.a-take-two',
+        ],
+      },
+      {
+        id: 'seller.pay',
+        emoji: '💳',
+        phrases: [
+          'seller.pay.q-pay-card',
+          'seller.pay.a-cash-only',
+          'seller.pay.a-terminal-here',
+          'seller.pay.a-here-change',
+          'seller.pay.ask-bag',
+          'seller.pay.a-welcome-again',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'hospitality',
+    wing: 'host',
+    emoji: '🫖',
+    steps: [
+      {
+        id: 'hospitality.invite',
+        emoji: '🏡',
+        phrases: [
+          'hospitality.invite.inv-welcome',
+          'hospitality.invite.inv-come-in',
+          'hospitality.invite.inv-sit',
+          'hospitality.invite.q-thank-invite',
+          'hospitality.invite.a-our-pleasure',
+        ],
+      },
+      {
+        id: 'hospitality.tea',
+        emoji: '🍵',
+        phrases: [
+          'hospitality.tea.offer-tea',
+          'hospitality.tea.q-yes-gladly',
+          'hospitality.tea.q-no-thanks',
+          'hospitality.tea.offer-try',
+          'hospitality.tea.q-what-is-it',
+          'hospitality.tea.a-this-is',
+          'hospitality.tea.q-delicious',
+          'hospitality.tea.a-eat-more',
+        ],
+      },
+      {
+        id: 'hospitality.talk',
+        emoji: '💬',
+        phrases: [
+          'hospitality.talk.ask-how-tm',
+          'hospitality.talk.q-very-beautiful',
+          'hospitality.talk.a-glad-hear',
+          'hospitality.talk.ask-where-from',
+          'hospitality.talk.q-im-from',
+          'hospitality.talk.photo-together',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'help-tourist',
+    wing: 'host',
+    emoji: '🤝',
+    steps: [
+      {
+        id: 'help-tourist.offer',
+        emoji: '👋',
+        phrases: [
+          'help-tourist.offer.ask-help',
+          'help-tourist.offer.q-yes-help',
+          'help-tourist.offer.a-no-worry',
+          'help-tourist.offer.q-no-thanks-fine',
+          'help-tourist.offer.ask-lost',
+        ],
+      },
+      {
+        id: 'help-tourist.problem',
+        emoji: '🆘',
+        phrases: [
+          'help-tourist.problem.q-lost-docs',
+          'help-tourist.problem.a-call-police',
+          'help-tourist.problem.q-need-doctor',
+          'help-tourist.problem.a-call-ambulance',
+          'help-tourist.problem.q-not-understand',
+          'help-tourist.problem.a-use-app',
+        ],
+      },
+      {
+        id: 'help-tourist.guide',
+        emoji: '🚶',
+        phrases: ['help-tourist.guide.a-take-you', 'help-tourist.guide.a-this-way'],
       },
     ],
   },

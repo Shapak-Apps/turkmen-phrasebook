@@ -1,12 +1,13 @@
 // src/features/scenarios/screens/ScenarioFlowScreen.tsx
 // Сценарий целиком: таймлайн шагов, внутри раскрытого шага — диалог карточками.
-import React, { useMemo, useState } from 'react';
+import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import type { RouteProp } from '@react-navigation/native';
 import type { StackNavigationProp } from '@react-navigation/stack';
 import { getAvailableScenarios, getPhraseText, phrases } from '../../../data/scenarios';
+import type { ScenarioStep, Wing } from '../../../data/scenarios';
 import type { RootStackParamList } from '../../../types';
 import { useSafeArea } from '../../../hooks/useSafeArea';
 import { useTargetLang } from '../TargetLangContext';
@@ -16,6 +17,8 @@ import { ScreenHeader } from '../components/ScreenHeader';
 type NavigationProp = StackNavigationProp<RootStackParamList>;
 type FlowRoute = RouteProp<RootStackParamList, 'ScenarioFlow'>;
 
+const WINGS: Wing[] = ['travel', 'host'];
+
 export default function ScenarioFlowScreen() {
   const navigation = useNavigation<NavigationProp>();
   const { params } = useRoute<FlowRoute>();
@@ -23,14 +26,9 @@ export default function ScenarioFlowScreen() {
   const { bottom } = useSafeArea();
   const [openStep, setOpenStep] = useState(0);
 
-  const scenario = getAvailableScenarios('travel', targetLang).find(
+  // Крыло берём из данных: экран открывают с обеих вкладок главного.
+  const scenario = WINGS.flatMap((wing) => getAvailableScenarios(wing, targetLang)).find(
     (item) => item.id === params.scenarioId
-  );
-
-  // Фраза, на которую кто-то ссылается как на ответ, — это реплика пользователя в диалоге.
-  const replyIds = useMemo(
-    () => new Set(Object.keys(phrases).flatMap((id) => phrases[id].replies ?? [])),
-    []
   );
 
   if (!scenario) {
@@ -41,12 +39,16 @@ export default function ScenarioFlowScreen() {
     );
   }
 
-  const renderPhrase = (id: string) => {
+  const renderPhrase = (id: string, step: ScenarioStep) => {
     const phrase = phrases[id];
     const target = getPhraseText(id, targetLang);
     const tk = getPhraseText(id, 'tk');
     const isThem = phrase.speaker === 'them';
-    const withTag = isThem || replyIds.has(id);
+    // «Ваш ответ» — только когда вопрос стоит в этом же шаге. Ссылка из соседнего шага
+    // (directions, problems) тег в чужом шаге не создаёт.
+    const isAnswerHere =
+      !isThem && step.phrases.some((otherId) => phrases[otherId]?.replies?.includes(id));
+    const withTag = isThem || isAnswerHere;
 
     return (
       <TouchableOpacity
@@ -118,7 +120,11 @@ export default function ScenarioFlowScreen() {
                   </View>
                 </TouchableOpacity>
 
-                {expanded ? <View style={styles.dialog}>{step.phrases.map(renderPhrase)}</View> : null}
+                {expanded ? (
+                  <View style={styles.dialog}>
+                    {step.phrases.map((id) => renderPhrase(id, step))}
+                  </View>
+                ) : null}
               </View>
             </View>
           );

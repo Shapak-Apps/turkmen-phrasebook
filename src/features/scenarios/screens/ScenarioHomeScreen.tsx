@@ -1,15 +1,7 @@
 // src/features/scenarios/screens/ScenarioHomeScreen.tsx
 // Главный экран сценарного разговорника: язык собеседника, полка выживания, список сцен.
-import React from 'react';
-import {
-  Platform,
-  ScrollView,
-  StyleSheet,
-  Text,
-  ToastAndroid,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import React, { useState } from 'react';
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import type { StackNavigationProp } from '@react-navigation/stack';
@@ -20,6 +12,7 @@ import {
   phrases,
   survivalCore,
 } from '../../../data/scenarios';
+import type { Wing } from '../../../data/scenarios';
 import type { RootStackParamList } from '../../../types';
 import { useSafeArea } from '../../../hooks/useSafeArea';
 import { useTargetLang } from '../TargetLangContext';
@@ -28,6 +21,11 @@ import { ScreenHeader } from '../components/ScreenHeader';
 
 type NavigationProp = StackNavigationProp<RootStackParamList>;
 
+const WINGS: { wing: Wing; label: string }[] = [
+  { wing: 'travel', label: uiLabels.wingTravel },
+  { wing: 'host', label: uiLabels.wingHost },
+];
+
 export default function ScenarioHomeScreen() {
   const navigation = useNavigation<NavigationProp>();
   const { targetLang, setTargetLang } = useTargetLang();
@@ -35,13 +33,8 @@ export default function ScenarioHomeScreen() {
 
   const meta = targetLangMeta[targetLang];
   const survival = survivalCore.filter((id) => isPhraseAvailable(id, targetLang));
-  const scenarios = getAvailableScenarios('travel', targetLang);
-
-  const handleHostWing = () => {
-    if (Platform.OS === 'android') {
-      ToastAndroid.show(uiLabels.soonToast, ToastAndroid.SHORT);
-    }
-  };
+  const [wing, setWing] = useState<Wing>('travel');
+  const scenarios = getAvailableScenarios(wing, targetLang);
 
   return (
     <View style={styles.container}>
@@ -98,15 +91,23 @@ export default function ScenarioHomeScreen() {
 
         {/* Крылья */}
         <View style={styles.wingRow}>
-          <View style={[styles.wingTab, styles.wingTabActive]}>
-            <Text style={[styles.wingText, styles.wingTextActive]}>{uiLabels.wingTravel}</Text>
-          </View>
-          <TouchableOpacity style={styles.wingTab} onPress={handleHostWing} activeOpacity={0.8}>
-            <Text style={styles.wingTextDisabled}>{uiLabels.wingHost}</Text>
-            <View style={styles.soonBadge}>
-              <Text style={styles.soonBadgeText}>{uiLabels.soonBadge}</Text>
-            </View>
-          </TouchableOpacity>
+          {WINGS.map((item) => {
+            const active = item.wing === wing;
+            return (
+              <TouchableOpacity
+                key={item.wing}
+                style={[styles.wingTab, active && styles.wingTabActive]}
+                onPress={() => setWing(item.wing)}
+                activeOpacity={0.8}
+                accessibilityRole="button"
+                accessibilityState={{ selected: active }}
+              >
+                <Text style={[styles.wingText, active && styles.wingTextActive]}>
+                  {item.label}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
         </View>
 
         {/* Сцены */}
