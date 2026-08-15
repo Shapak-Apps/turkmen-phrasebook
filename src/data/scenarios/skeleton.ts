@@ -117,6 +117,256 @@ export const phrases: Record<string, ScenarioPhrase> = {
   'air.sim-money.have-esim': { id: 'air.sim-money.have-esim', speaker: 'me', emoji: '📲' },
   'air.sim-money.how-topup': { id: 'air.sim-money.how-topup', speaker: 'me', emoji: '💵' },
   'air.sim-money.official-taxi': { id: 'air.sim-money.official-taxi', speaker: 'me', emoji: '🚕' },
+  // --- сценарий transport: такси ---
+  'transport.taxi.to-address': { id: 'transport.taxi.to-address', speaker: 'me', emoji: '📍' },
+  'transport.taxi.how-much-to': { id: 'transport.taxi.how-much-to', speaker: 'me', emoji: '💰' },
+  'transport.taxi.by-meter': { id: 'transport.taxi.by-meter', speaker: 'me', emoji: '🧮' },
+  'transport.taxi.q-where-to': {
+    id: 'transport.taxi.q-where-to',
+    speaker: 'them',
+    replies: ['transport.taxi.a-here-address'],
+    emoji: '❓',
+  },
+  'transport.taxi.a-here-address': { id: 'transport.taxi.a-here-address', speaker: 'me', emoji: '📄' },
+  'transport.taxi.stop-here': { id: 'transport.taxi.stop-here', speaker: 'me', emoji: '✋' },
+  'transport.taxi.wait-me': { id: 'transport.taxi.wait-me', speaker: 'me', emoji: '⏳' },
+  'transport.taxi.app-ordered': { id: 'transport.taxi.app-ordered', speaker: 'me', emoji: '📱' },
+  'transport.taxi.need-receipt': { id: 'transport.taxi.need-receipt', speaker: 'me', emoji: '🧾' },
+
+  // --- сценарий transport: метро и автобус ---
+  'transport.metro-bus.ticket-where': { id: 'transport.metro-bus.ticket-where', speaker: 'me', emoji: '🎟️' },
+  'transport.metro-bus.which-line': { id: 'transport.metro-bus.which-line', speaker: 'me', emoji: '🚇' },
+  'transport.metro-bus.is-this-bus': { id: 'transport.metro-bus.is-this-bus', speaker: 'me', emoji: '🚌' },
+  'transport.metro-bus.which-stop': { id: 'transport.metro-bus.which-stop', speaker: 'me', emoji: '🚏' },
+  'transport.metro-bus.tell-me-stop': { id: 'transport.metro-bus.tell-me-stop', speaker: 'me', emoji: '🙋' },
+  'transport.metro-bus.transfer-where': { id: 'transport.metro-bus.transfer-where', speaker: 'me', emoji: '🔄' },
+  'transport.metro-bus.card-topup': { id: 'transport.metro-bus.card-topup', speaker: 'me', emoji: '💳' },
+  'transport.metro-bus.last-train': { id: 'transport.metro-bus.last-train', speaker: 'me', emoji: '🕛' },
+
+  // --- сценарий transport: поезд ---
+  'transport.train.ticket-to': { id: 'transport.train.ticket-to', speaker: 'me', emoji: '🎫' },
+  'transport.train.when-depart': { id: 'transport.train.when-depart', speaker: 'me', emoji: '🕐' },
+  'transport.train.which-platform': { id: 'transport.train.which-platform', speaker: 'me', emoji: '🛤️' },
+  'transport.train.q-ticket-please': {
+    id: 'transport.train.q-ticket-please',
+    speaker: 'them',
+    replies: ['transport.train.a-here-ticket'],
+    emoji: '🎫',
+  },
+  'transport.train.a-here-ticket': { id: 'transport.train.a-here-ticket', speaker: 'me', emoji: '🤲' },
+  'transport.train.where-my-seat': { id: 'transport.train.where-my-seat', speaker: 'me', emoji: '💺' },
+  'transport.train.is-seat-free': { id: 'transport.train.is-seat-free', speaker: 'me', emoji: '🪑' },
+
+  // --- сценарий hotel: заселение ---
+  'hotel.checkin.have-booking': { id: 'hotel.checkin.have-booking', speaker: 'me', emoji: '📋' },
+  'hotel.checkin.q-passport': {
+    id: 'hotel.checkin.q-passport',
+    speaker: 'them',
+    replies: ['hotel.checkin.a-here-passport'],
+    emoji: '🛂',
+  },
+  'hotel.checkin.a-here-passport': { id: 'hotel.checkin.a-here-passport', speaker: 'me', emoji: '🤲' },
+  'hotel.checkin.breakfast-included': { id: 'hotel.checkin.breakfast-included', speaker: 'me', emoji: '🥐' },
+  'hotel.checkin.breakfast-when': { id: 'hotel.checkin.breakfast-when', speaker: 'me', emoji: '🕗' },
+  'hotel.checkin.which-floor': { id: 'hotel.checkin.which-floor', speaker: 'me', emoji: '🛗' },
+  'hotel.checkin.quiet-room': { id: 'hotel.checkin.quiet-room', speaker: 'me', emoji: '🤫' },
+
+  // --- сценарий hotel: проблемы в номере ---
+  'hotel.problems.ac-broken': { id: 'hotel.problems.ac-broken', speaker: 'me', emoji: '❄️' },
+  'hotel.problems.no-hot-water': { id: 'hotel.problems.no-hot-water', speaker: 'me', emoji: '🚿' },
+  'hotel.problems.room-cold': { id: 'hotel.problems.room-cold', speaker: 'me', emoji: '🥶' },
+  'hotel.problems.clean-room': { id: 'hotel.problems.clean-room', speaker: 'me', emoji: '🧹' },
+  'hotel.problems.towels-please': { id: 'hotel.problems.towels-please', speaker: 'me', emoji: '🧻' },
+  'hotel.problems.key-lost': { id: 'hotel.problems.key-lost', speaker: 'me', emoji: '🔑' },
+  'hotel.problems.noisy-room': { id: 'hotel.problems.noisy-room', speaker: 'me', emoji: '🔊' },
+
+  // --- сценарий hotel: выезд ---
+  'hotel.checkout.checkout-when': { id: 'hotel.checkout.checkout-when', speaker: 'me', emoji: '🕛' },
+  'hotel.checkout.checkout-now': { id: 'hotel.checkout.checkout-now', speaker: 'me', emoji: '🧾' },
+  'hotel.checkout.late-checkout': { id: 'hotel.checkout.late-checkout', speaker: 'me', emoji: '⏰' },
+  'hotel.checkout.keep-luggage': { id: 'hotel.checkout.keep-luggage', speaker: 'me', emoji: '🧳' },
+  'hotel.checkout.invoice-please': { id: 'hotel.checkout.invoice-please', speaker: 'me', emoji: '🧾' },
+  'hotel.checkout.q-how-was': {
+    id: 'hotel.checkout.q-how-was',
+    speaker: 'them',
+    replies: ['hotel.checkout.a-all-good'],
+    emoji: '❓',
+  },
+  'hotel.checkout.a-all-good': { id: 'hotel.checkout.a-all-good', speaker: 'me', emoji: '👍' },
+  // --- сценарий food: стол ---
+  'food.table.table-for-two': { id: 'food.table.table-for-two', speaker: 'me', emoji: '🪑' },
+  'food.table.menu-please': { id: 'food.table.menu-please', speaker: 'me', emoji: '📖' },
+  'food.table.menu-english': { id: 'food.table.menu-english', speaker: 'me', emoji: '🇬🇧' },
+  'food.table.what-recommend': { id: 'food.table.what-recommend', speaker: 'me', emoji: '👨‍🍳' },
+  'food.table.q-ready-order': {
+    id: 'food.table.q-ready-order',
+    speaker: 'them',
+    replies: ['food.table.a-minute', 'food.table.a-yes-this'],
+    emoji: '❓',
+  },
+  'food.table.a-minute': { id: 'food.table.a-minute', speaker: 'me', emoji: '⏳' },
+  'food.table.a-yes-this': { id: 'food.table.a-yes-this', speaker: 'me', emoji: '👉' },
+
+  // --- сценарий food: заказ ---
+  'food.order.no-pork': { id: 'food.order.no-pork', speaker: 'me', emoji: '🚫' },
+  'food.order.halal-have': { id: 'food.order.halal-have', speaker: 'me', emoji: '🕌' },
+  'food.order.vegetarian': { id: 'food.order.vegetarian', speaker: 'me', emoji: '🥗' },
+  'food.order.portion-big': { id: 'food.order.portion-big', speaker: 'me', emoji: '🍽️' },
+  'food.order.q-drinks': {
+    id: 'food.order.q-drinks',
+    speaker: 'them',
+    replies: ['food.order.a-tea', 'food.order.a-water'],
+    emoji: '❓',
+  },
+  'food.order.a-tea': { id: 'food.order.a-tea', speaker: 'me', emoji: '🍵' },
+  'food.order.a-water': { id: 'food.order.a-water', speaker: 'me', emoji: '💧' },
+  'food.order.very-tasty': { id: 'food.order.very-tasty', speaker: 'me', emoji: '😋' },
+
+  // --- сценарий food: счёт ---
+  'food.bill.bill-please': { id: 'food.bill.bill-please', speaker: 'me', emoji: '🧾' },
+  'food.bill.pay-card': { id: 'food.bill.pay-card', speaker: 'me', emoji: '💳' },
+  'food.bill.q-together-separate': {
+    id: 'food.bill.q-together-separate',
+    speaker: 'them',
+    replies: ['food.bill.a-together', 'food.bill.a-separate'],
+    emoji: '❓',
+  },
+  'food.bill.a-together': { id: 'food.bill.a-together', speaker: 'me', emoji: '🤝' },
+  'food.bill.a-separate': { id: 'food.bill.a-separate', speaker: 'me', emoji: '✂️' },
+  'food.bill.bill-wrong': { id: 'food.bill.bill-wrong', speaker: 'me', emoji: '⚠️' },
+  'food.bill.takeaway': { id: 'food.bill.takeaway', speaker: 'me', emoji: '🥡' },
+
+  // --- сценарий shopping: цена ---
+  'shopping.price.discount-please': { id: 'shopping.price.discount-please', speaker: 'me', emoji: '🏷️' },
+  'shopping.price.last-price': { id: 'shopping.price.last-price', speaker: 'me', emoji: '💰' },
+  'shopping.price.cheaper-have': { id: 'shopping.price.cheaper-have', speaker: 'me', emoji: '🔻' },
+  'shopping.price.just-looking': { id: 'shopping.price.just-looking', speaker: 'me', emoji: '👀' },
+  'shopping.price.q-how-many': {
+    id: 'shopping.price.q-how-many',
+    speaker: 'them',
+    replies: ['shopping.price.a-one-kg', 'shopping.price.a-two-pieces'],
+    emoji: '❓',
+  },
+  'shopping.price.a-one-kg': { id: 'shopping.price.a-one-kg', speaker: 'me', emoji: '⚖️' },
+  'shopping.price.a-two-pieces': { id: 'shopping.price.a-two-pieces', speaker: 'me', emoji: '2️⃣' },
+
+  // --- сценарий shopping: примерка ---
+  'shopping.fitting.can-try': { id: 'shopping.fitting.can-try', speaker: 'me', emoji: '👕' },
+  'shopping.fitting.where-fitting': { id: 'shopping.fitting.where-fitting', speaker: 'me', emoji: '🚪' },
+  'shopping.fitting.size-bigger': { id: 'shopping.fitting.size-bigger', speaker: 'me', emoji: '⬆️' },
+  'shopping.fitting.size-smaller': { id: 'shopping.fitting.size-smaller', speaker: 'me', emoji: '⬇️' },
+  'shopping.fitting.other-color': { id: 'shopping.fitting.other-color', speaker: 'me', emoji: '🎨' },
+  'shopping.fitting.q-what-size': {
+    id: 'shopping.fitting.q-what-size',
+    speaker: 'them',
+    replies: ['shopping.fitting.a-my-size'],
+    emoji: '❓',
+  },
+  'shopping.fitting.a-my-size': { id: 'shopping.fitting.a-my-size', speaker: 'me', emoji: '📏' },
+  'shopping.fitting.take-it': { id: 'shopping.fitting.take-it', speaker: 'me', emoji: '✅' },
+  'shopping.fitting.not-fit': { id: 'shopping.fitting.not-fit', speaker: 'me', emoji: '❌' },
+
+  // --- сценарий shopping: оплата ---
+  'shopping.payment.q-cash-card': {
+    id: 'shopping.payment.q-cash-card',
+    speaker: 'them',
+    replies: ['shopping.payment.a-by-card', 'shopping.payment.a-by-cash'],
+    emoji: '❓',
+  },
+  'shopping.payment.a-by-card': { id: 'shopping.payment.a-by-card', speaker: 'me', emoji: '💳' },
+  'shopping.payment.a-by-cash': { id: 'shopping.payment.a-by-cash', speaker: 'me', emoji: '💵' },
+  'shopping.payment.qr-pay': { id: 'shopping.payment.qr-pay', speaker: 'me', emoji: '📱' },
+  'shopping.payment.receipt-please': { id: 'shopping.payment.receipt-please', speaker: 'me', emoji: '🧾' },
+  'shopping.payment.return-this': { id: 'shopping.payment.return-this', speaker: 'me', emoji: '↩️' },
+  'shopping.payment.exchange-this': { id: 'shopping.payment.exchange-this', speaker: 'me', emoji: '🔄' },
+
+  // --- сценарий money: банкомат ---
+  'money.atm.where-atm': { id: 'money.atm.where-atm', speaker: 'me', emoji: '🏧' },
+  'money.atm.card-declined': { id: 'money.atm.card-declined', speaker: 'me', emoji: '⚠️' },
+  'money.atm.atm-kept-card': { id: 'money.atm.atm-kept-card', speaker: 'me', emoji: '😱' },
+  'money.atm.what-commission': { id: 'money.atm.what-commission', speaker: 'me', emoji: '📊' },
+  'money.atm.where-bank': { id: 'money.atm.where-bank', speaker: 'me', emoji: '🏦' },
+
+  // --- сценарий money: обмен ---
+  'money.exchange.exchange-usd': { id: 'money.exchange.exchange-usd', speaker: 'me', emoji: '💵' },
+  'money.exchange.what-rate': { id: 'money.exchange.what-rate', speaker: 'me', emoji: '📈' },
+  'money.exchange.small-bills': { id: 'money.exchange.small-bills', speaker: 'me', emoji: '💴' },
+  'money.exchange.q-how-much-exchange': {
+    id: 'money.exchange.q-how-much-exchange',
+    speaker: 'them',
+    replies: ['money.exchange.a-hundred'],
+    emoji: '❓',
+  },
+  'money.exchange.a-hundred': { id: 'money.exchange.a-hundred', speaker: 'me', emoji: '💯' },
+
+  // --- сценарий money: связь ---
+  'money.comms.topup-sim': { id: 'money.comms.topup-sim', speaker: 'me', emoji: '📲' },
+  'money.comms.no-internet': { id: 'money.comms.no-internet', speaker: 'me', emoji: '📵' },
+  'money.comms.tariff-internet': { id: 'money.comms.tariff-internet', speaker: 'me', emoji: '📶' },
+  'money.comms.wifi-not-connect': { id: 'money.comms.wifi-not-connect', speaker: 'me', emoji: '📡' },
+  'money.comms.my-number': { id: 'money.comms.my-number', speaker: 'me', emoji: '🔢' },
+  // --- сценарий health: аптека ---
+  'health.pharmacy.for-headache': { id: 'health.pharmacy.for-headache', speaker: 'me', emoji: '🤕' },
+  'health.pharmacy.for-cold': { id: 'health.pharmacy.for-cold', speaker: 'me', emoji: '🤧' },
+  'health.pharmacy.for-stomach': { id: 'health.pharmacy.for-stomach', speaker: 'me', emoji: '🤢' },
+  'health.pharmacy.need-prescription': { id: 'health.pharmacy.need-prescription', speaker: 'me', emoji: '📝' },
+  'health.pharmacy.how-take': { id: 'health.pharmacy.how-take', speaker: 'me', emoji: '💊' },
+  'health.pharmacy.band-aid': { id: 'health.pharmacy.band-aid', speaker: 'me', emoji: '🩹' },
+  'health.pharmacy.q-allergy-med': {
+    id: 'health.pharmacy.q-allergy-med',
+    speaker: 'them',
+    replies: ['health.pharmacy.a-yes-on', 'health.pharmacy.a-no-allergy'],
+    emoji: '❓',
+  },
+  'health.pharmacy.a-yes-on': { id: 'health.pharmacy.a-yes-on', speaker: 'me', emoji: '⚠️' },
+  'health.pharmacy.a-no-allergy': { id: 'health.pharmacy.a-no-allergy', speaker: 'me', emoji: '✅' },
+
+  // --- сценарий health: врач ---
+  'health.doctor.hurts-here': { id: 'health.doctor.hurts-here', speaker: 'me', emoji: '👉' },
+  'health.doctor.have-fever': { id: 'health.doctor.have-fever', speaker: 'me', emoji: '🌡️' },
+  'health.doctor.dizzy': { id: 'health.doctor.dizzy', speaker: 'me', emoji: '😵' },
+  'health.doctor.nausea': { id: 'health.doctor.nausea', speaker: 'me', emoji: '🤮' },
+  'health.doctor.q-since-when': {
+    id: 'health.doctor.q-since-when',
+    speaker: 'them',
+    replies: ['health.doctor.a-since-days'],
+    emoji: '❓',
+  },
+  'health.doctor.a-since-days': { id: 'health.doctor.a-since-days', speaker: 'me', emoji: '📅' },
+  'health.doctor.have-insurance': { id: 'health.doctor.have-insurance', speaker: 'me', emoji: '📄' },
+  'health.doctor.need-interpreter': { id: 'health.doctor.need-interpreter', speaker: 'me', emoji: '🗣️' },
+  'health.doctor.is-serious': { id: 'health.doctor.is-serious', speaker: 'me', emoji: '❔' },
+
+  // --- сценарий health: экстренное ---
+  'health.emergency.call-ambulance': { id: 'health.emergency.call-ambulance', speaker: 'me', emoji: '🚑' },
+  'health.emergency.person-bad': { id: 'health.emergency.person-bad', speaker: 'me', emoji: '🆘' },
+  'health.emergency.where-hospital': { id: 'health.emergency.where-hospital', speaker: 'me', emoji: '🏥' },
+
+  // --- сценарий problems: пропажа ---
+  'problems.lost.lost-passport': { id: 'problems.lost.lost-passport', speaker: 'me', emoji: '🛂' },
+  'problems.lost.lost-phone': { id: 'problems.lost.lost-phone', speaker: 'me', emoji: '📱' },
+  'problems.lost.lost-wallet': { id: 'problems.lost.lost-wallet', speaker: 'me', emoji: '👛' },
+  'problems.lost.stolen': { id: 'problems.lost.stolen', speaker: 'me', emoji: '🚨' },
+  'problems.lost.left-in-taxi': { id: 'problems.lost.left-in-taxi', speaker: 'me', emoji: '🚕' },
+
+  // --- сценарий problems: полиция ---
+  'problems.police.where-station': { id: 'problems.police.where-station', speaker: 'me', emoji: '🚔' },
+  'problems.police.want-report': { id: 'problems.police.want-report', speaker: 'me', emoji: '📝' },
+  'problems.police.call-embassy': { id: 'problems.police.call-embassy', speaker: 'me', emoji: '🏛️' },
+  'problems.police.need-interpreter': { id: 'problems.police.need-interpreter', speaker: 'me', emoji: '🗣️' },
+  // Ответы живут в соседнем шаге того же сценария — так разрешено п. 0.3 ТЗ-03.
+  'problems.police.q-what-happened': {
+    id: 'problems.police.q-what-happened',
+    speaker: 'them',
+    replies: ['problems.lost.stolen', 'problems.lost.lost-passport'],
+    emoji: '❓',
+  },
+
+  // --- сценарий problems: конфликт ---
+  'problems.conflict.cheated': { id: 'problems.conflict.cheated', speaker: 'me', emoji: '😠' },
+  'problems.conflict.didnt-order': { id: 'problems.conflict.didnt-order', speaker: 'me', emoji: '🙅' },
+  'problems.conflict.overcharged': { id: 'problems.conflict.overcharged', speaker: 'me', emoji: '💸' },
+  'problems.conflict.dont-touch': { id: 'problems.conflict.dont-touch', speaker: 'me', emoji: '✋' },
 };
 
 /** Сценарии обоих крыльев. Порядок шагов = порядок реального прохода ситуации. */
@@ -182,6 +432,321 @@ export const scenarios: Scenario[] = [
           'air.sim-money.have-esim',
           'air.sim-money.how-topup',
           'air.sim-money.official-taxi',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'transport',
+    wing: 'travel',
+    emoji: '🚕',
+    steps: [
+      {
+        id: 'transport.taxi',
+        emoji: '🚖',
+        phrases: [
+          'transport.taxi.to-address',
+          'transport.taxi.how-much-to',
+          'transport.taxi.by-meter',
+          'transport.taxi.q-where-to',
+          'transport.taxi.a-here-address',
+          'transport.taxi.stop-here',
+          'transport.taxi.wait-me',
+          'transport.taxi.app-ordered',
+          'transport.taxi.need-receipt',
+        ],
+      },
+      {
+        id: 'transport.metro-bus',
+        emoji: '🚇',
+        phrases: [
+          'transport.metro-bus.ticket-where',
+          'transport.metro-bus.which-line',
+          'transport.metro-bus.is-this-bus',
+          'transport.metro-bus.which-stop',
+          'transport.metro-bus.tell-me-stop',
+          'transport.metro-bus.transfer-where',
+          'transport.metro-bus.card-topup',
+          'transport.metro-bus.last-train',
+        ],
+      },
+      {
+        id: 'transport.train',
+        emoji: '🚄',
+        phrases: [
+          'transport.train.ticket-to',
+          'transport.train.when-depart',
+          'transport.train.which-platform',
+          'transport.train.q-ticket-please',
+          'transport.train.a-here-ticket',
+          'transport.train.where-my-seat',
+          'transport.train.is-seat-free',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'hotel',
+    wing: 'travel',
+    emoji: '🏨',
+    steps: [
+      {
+        id: 'hotel.checkin',
+        emoji: '🛎️',
+        phrases: [
+          'hotel.checkin.have-booking',
+          'hotel.checkin.q-passport',
+          'hotel.checkin.a-here-passport',
+          'hotel.checkin.breakfast-included',
+          'hotel.checkin.breakfast-when',
+          'hotel.checkin.which-floor',
+          'hotel.checkin.quiet-room',
+        ],
+      },
+      {
+        id: 'hotel.problems',
+        emoji: '🔧',
+        phrases: [
+          'hotel.problems.ac-broken',
+          'hotel.problems.no-hot-water',
+          'hotel.problems.room-cold',
+          'hotel.problems.clean-room',
+          'hotel.problems.towels-please',
+          'hotel.problems.key-lost',
+          'hotel.problems.noisy-room',
+        ],
+      },
+      {
+        id: 'hotel.checkout',
+        emoji: '🧳',
+        phrases: [
+          'hotel.checkout.checkout-when',
+          'hotel.checkout.checkout-now',
+          'hotel.checkout.late-checkout',
+          'hotel.checkout.keep-luggage',
+          'hotel.checkout.invoice-please',
+          'hotel.checkout.q-how-was',
+          'hotel.checkout.a-all-good',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'food',
+    wing: 'travel',
+    emoji: '🍜',
+    steps: [
+      {
+        id: 'food.table',
+        emoji: '🪑',
+        phrases: [
+          'food.table.table-for-two',
+          'food.table.menu-please',
+          'food.table.menu-english',
+          'food.table.what-recommend',
+          'food.table.q-ready-order',
+          'food.table.a-minute',
+          'food.table.a-yes-this',
+        ],
+      },
+      {
+        id: 'food.order',
+        emoji: '🍜',
+        phrases: [
+          'food.order.no-pork',
+          'food.order.halal-have',
+          'food.order.vegetarian',
+          'food.order.portion-big',
+          'food.order.q-drinks',
+          'food.order.a-tea',
+          'food.order.a-water',
+          'food.order.very-tasty',
+        ],
+      },
+      {
+        id: 'food.bill',
+        emoji: '🧾',
+        phrases: [
+          'food.bill.bill-please',
+          'food.bill.pay-card',
+          'food.bill.q-together-separate',
+          'food.bill.a-together',
+          'food.bill.a-separate',
+          'food.bill.bill-wrong',
+          'food.bill.takeaway',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'shopping',
+    wing: 'travel',
+    emoji: '🛍️',
+    steps: [
+      {
+        id: 'shopping.price',
+        emoji: '💰',
+        phrases: [
+          'shopping.price.discount-please',
+          'shopping.price.last-price',
+          'shopping.price.cheaper-have',
+          'shopping.price.just-looking',
+          'shopping.price.q-how-many',
+          'shopping.price.a-one-kg',
+          'shopping.price.a-two-pieces',
+        ],
+      },
+      {
+        id: 'shopping.fitting',
+        emoji: '👕',
+        phrases: [
+          'shopping.fitting.can-try',
+          'shopping.fitting.where-fitting',
+          'shopping.fitting.size-bigger',
+          'shopping.fitting.size-smaller',
+          'shopping.fitting.other-color',
+          'shopping.fitting.q-what-size',
+          'shopping.fitting.a-my-size',
+          'shopping.fitting.take-it',
+          'shopping.fitting.not-fit',
+        ],
+      },
+      {
+        id: 'shopping.payment',
+        emoji: '💳',
+        phrases: [
+          'shopping.payment.q-cash-card',
+          'shopping.payment.a-by-card',
+          'shopping.payment.a-by-cash',
+          'shopping.payment.qr-pay',
+          'shopping.payment.receipt-please',
+          'shopping.payment.return-this',
+          'shopping.payment.exchange-this',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'money',
+    wing: 'travel',
+    emoji: '💳',
+    steps: [
+      {
+        id: 'money.atm',
+        emoji: '🏧',
+        phrases: [
+          'money.atm.where-atm',
+          'money.atm.card-declined',
+          'money.atm.atm-kept-card',
+          'money.atm.what-commission',
+          'money.atm.where-bank',
+        ],
+      },
+      {
+        id: 'money.exchange',
+        emoji: '💱',
+        phrases: [
+          'money.exchange.exchange-usd',
+          'money.exchange.what-rate',
+          'money.exchange.small-bills',
+          'money.exchange.q-how-much-exchange',
+          'money.exchange.a-hundred',
+        ],
+      },
+      {
+        id: 'money.comms',
+        emoji: '📶',
+        phrases: [
+          'money.comms.topup-sim',
+          'money.comms.no-internet',
+          'money.comms.tariff-internet',
+          'money.comms.wifi-not-connect',
+          'money.comms.my-number',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'health',
+    wing: 'travel',
+    emoji: '💊',
+    steps: [
+      {
+        id: 'health.pharmacy',
+        emoji: '💊',
+        phrases: [
+          'health.pharmacy.for-headache',
+          'health.pharmacy.for-cold',
+          'health.pharmacy.for-stomach',
+          'health.pharmacy.need-prescription',
+          'health.pharmacy.how-take',
+          'health.pharmacy.band-aid',
+          'health.pharmacy.q-allergy-med',
+          'health.pharmacy.a-yes-on',
+          'health.pharmacy.a-no-allergy',
+        ],
+      },
+      {
+        id: 'health.doctor',
+        emoji: '🩺',
+        phrases: [
+          'health.doctor.hurts-here',
+          'health.doctor.have-fever',
+          'health.doctor.dizzy',
+          'health.doctor.nausea',
+          'health.doctor.q-since-when',
+          'health.doctor.a-since-days',
+          'health.doctor.have-insurance',
+          'health.doctor.need-interpreter',
+          'health.doctor.is-serious',
+        ],
+      },
+      {
+        id: 'health.emergency',
+        emoji: '🚑',
+        phrases: [
+          'health.emergency.call-ambulance',
+          'health.emergency.person-bad',
+          'health.emergency.where-hospital',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'problems',
+    wing: 'travel',
+    emoji: '🆘',
+    steps: [
+      {
+        id: 'problems.lost',
+        emoji: '🕳️',
+        phrases: [
+          'problems.lost.lost-passport',
+          'problems.lost.lost-phone',
+          'problems.lost.lost-wallet',
+          'problems.lost.stolen',
+          'problems.lost.left-in-taxi',
+        ],
+      },
+      {
+        id: 'problems.police',
+        emoji: '🚔',
+        phrases: [
+          'problems.police.where-station',
+          'problems.police.want-report',
+          'problems.police.call-embassy',
+          'problems.police.need-interpreter',
+          'problems.police.q-what-happened',
+        ],
+      },
+      {
+        id: 'problems.conflict',
+        emoji: '⚖️',
+        phrases: [
+          'problems.conflict.cheated',
+          'problems.conflict.didnt-order',
+          'problems.conflict.overcharged',
+          'problems.conflict.dont-touch',
         ],
       },
     ],
