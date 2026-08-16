@@ -74,7 +74,6 @@ export interface InterfaceTexts {
   phrasebookLanguage?: string;
   languageChangeHint?: string;
   fontSize?: string;
-  fontSizePreview?: string;
   currentFontSize?: string;
   hapticFeedback?: string;
   hapticFeedbackDesc?: string;
@@ -306,7 +305,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     statistics: 'Statistika',
     
     // ✅ ИСПРАВЛЕНО: Правильный заголовок для туркменского интерфейса
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Dil öwrenmek üçin ähli gurallary',
     selectCategory: 'Kategoriýa saýlaň',
     recentlyStudied: 'Soňky öwrenilen',
@@ -352,7 +351,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     phrasebookLanguage: 'Gepleşik kitaby dili',
     languageChangeHint: 'Siz dili islendik wagt sazlamalarda üýtgedip bilersiňiz',
     fontSize: 'Harpyň ululygy',
-    fontSizePreview: 'Mysal tekst - Şapak Gepleşik Kitaby',
     currentFontSize: 'Häzirki: ',
     hapticFeedback: 'Yrgyldy',
     hapticFeedbackDesc: 'Düwme basylanda yrgyldy',
@@ -574,7 +572,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     statistics: '统计',
     
     // ✅ ИСПРАВЛЕНО: Правильный заголовок для китайского интерфейса
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: '语言学习的所有工具',
     selectCategory: '选择类别',
     recentlyStudied: '最近学习',
@@ -620,7 +618,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     phrasebookLanguage: '会话手册语言',
     languageChangeHint: '您可以随时在设置中更改语言',
     fontSize: '字体大小',
-    fontSizePreview: '示例文本 - Shapak会话手册',
     currentFontSize: '当前: ',
     hapticFeedback: '触觉反馈',
     hapticFeedbackDesc: '按钮按下时振动',
@@ -827,7 +824,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Дополнительно',
     statistics: 'Статистика',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Все инструменты для изучения языка',
     selectCategory: 'Выберите категорию',
     recentlyStudied: 'Недавно изученное',
@@ -873,7 +870,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     phrasebookLanguage: 'Язык разговорника',
     languageChangeHint: 'Вы можете изменить язык в любое время в настройках',
     fontSize: 'Размер шрифта',
-    fontSizePreview: 'Пример текста - Shapak Разговорник',
     currentFontSize: 'Текущий: ',
     hapticFeedback: 'Тактильная отдача',
     hapticFeedbackDesc: 'Вибрация при нажатии кнопок',
@@ -1080,7 +1076,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'More Features',
     statistics: 'Statistics',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'All tools for language learning',
     selectCategory: 'Select a category',
     recentlyStudied: 'Recently studied',
@@ -1126,7 +1122,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     phrasebookLanguage: 'Phrasebook language',
     languageChangeHint: 'You can change the language anytime in settings',
     fontSize: 'Font size',
-    fontSizePreview: 'Sample text - Shapak Phrasebook',
     currentFontSize: 'Current: ',
     hapticFeedback: 'Haptic feedback',
     hapticFeedbackDesc: 'Vibration on button press',
@@ -1333,7 +1328,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Daha Fazla Özellik',
     statistics: 'İstatistikler',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Dil öğrenimi için tüm araçlar',
     selectCategory: 'Kategori seçin',
     recentlyStudied: 'Son çalışılanlar',
@@ -1379,7 +1374,6 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     phrasebookLanguage: 'Konuşma kılavuzu dili',
     languageChangeHint: 'Dili istediğiniz zaman ayarlardan değiştirebilirsiniz',
     fontSize: 'Yazı boyutu',
-    fontSizePreview: 'Örnek metin - Shapak Konuşma Kılavuzu',
     currentFontSize: 'Mevcut: ',
     hapticFeedback: 'Dokunsal geri bildirim',
     hapticFeedbackDesc: 'Düğmeye basıldığında titreşim',
@@ -1586,7 +1580,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Weitere Funktionen',
     statistics: 'Statistiken',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Alle Werkzeuge zum Sprachenlernen',
     selectCategory: 'Kategorie wählen',
     recentlyStudied: 'Kürzlich gelernt',
@@ -1813,7 +1807,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Plus de fonctionnalités',
     statistics: 'Statistiques',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Tous les outils pour apprendre la langue',
     selectCategory: 'Sélectionner une catégorie',
     recentlyStudied: 'Récemment étudié',
@@ -2040,7 +2034,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Más funciones',
     statistics: 'Estadísticas',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Todas las herramientas para aprender idiomas',
     selectCategory: 'Seleccionar categoría',
     recentlyStudied: 'Estudiado recientemente',
@@ -2264,7 +2258,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Altre funzionalità',
     statistics: 'Statistiche',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Tutti gli strumenti per imparare la lingua',
     selectCategory: 'Seleziona una categoria',
     recentlyStudied: 'Studiato di recente',
@@ -2488,7 +2482,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Mais recursos',
     statistics: 'Estatísticas',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Todas as ferramentas para aprender idiomas',
     selectCategory: 'Selecionar categoria',
     recentlyStudied: 'Estudado recentemente',
@@ -2711,7 +2705,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Meer functies',
     statistics: 'Statistieken',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Alle tools voor het leren van talen',
     selectCategory: 'Selecteer een categorie',
     recentlyStudied: 'Recent bestudeerd',
@@ -2934,7 +2928,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Więcej funkcji',
     statistics: 'Statystyki',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Wszystkie narzędzia do nauki języka',
     selectCategory: 'Wybierz kategorię',
     recentlyStudied: 'Ostatnio studiowane',
@@ -3157,7 +3151,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Додаткові функції',
     statistics: 'Статистика',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Всі інструменти для вивчення мови',
     selectCategory: 'Виберіть категорію',
     recentlyStudied: 'Нещодавно вивчене',
@@ -3383,7 +3377,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: '追加機能',
     statistics: '統計',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: '言語学習のための全てのツール',
     selectCategory: 'カテゴリーを選択',
     recentlyStudied: '最近学習した項目',
@@ -3608,7 +3602,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: '추가 기능',
     statistics: '통계',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: '언어 학습을 위한 모든 도구',
     selectCategory: '카테고리 선택',
     recentlyStudied: '최근 학습 항목',
@@ -3833,7 +3827,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'ฟีเจอร์เพิ่มเติม',
     statistics: 'สถิติ',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'เครื่องมือทั้งหมดสำหรับการเรียนภาษา',
     selectCategory: 'เลือกหมวดหมู่',
     recentlyStudied: 'เรียนล่าสุด',
@@ -4058,7 +4052,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Tính năng bổ sung',
     statistics: 'Thống kê',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Tất cả công cụ để học ngôn ngữ',
     selectCategory: 'Chọn danh mục',
     recentlyStudied: 'Học gần đây',
@@ -4283,7 +4277,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Fitur tambahan',
     statistics: 'Statistik',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Semua alat untuk belajar bahasa',
     selectCategory: 'Pilih kategori',
     recentlyStudied: 'Baru dipelajari',
@@ -4508,7 +4502,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Ciri tambahan',
     statistics: 'Statistik',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Semua alat untuk belajar bahasa',
     selectCategory: 'Pilih kategori',
     recentlyStudied: 'Baru dipelajari',
@@ -4733,7 +4727,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'अतिरिक्त सुविधाएं',
     statistics: 'आंकड़े',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'भाषा सीखने के लिए सभी उपकरण',
     selectCategory: 'श्रेणी चुनें',
     recentlyStudied: 'हाल ही में अध्ययन किया',
@@ -4958,7 +4952,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'اضافی خصوصیات',
     statistics: 'اعدادوشمار',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'زبان سیکھنے کے لیے تمام ٹولز',
     selectCategory: 'زمرہ منتخب کریں',
     recentlyStudied: 'حال ہی میں مطالعہ کیا',
@@ -5183,7 +5177,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'ویژگی‌های اضافی',
     statistics: 'آمار',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'تمام ابزارها برای یادگیری زبان',
     selectCategory: 'انتخاب دسته‌بندی',
     recentlyStudied: 'اخیراً مطالعه شده',
@@ -5408,7 +5402,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'اضافي ځانګړتیاوې',
     statistics: 'شمېرنه',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'د ژبې زده کړې لپاره ټولې وسیلې',
     selectCategory: 'کټګورۍ وټاکئ',
     recentlyStudied: 'وروستۍ مطالعه شوي',
@@ -5633,7 +5627,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Qo\'shimcha xususiyatlar',
     statistics: 'Statistika',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Til o\'rganish uchun barcha vositalar',
     selectCategory: 'Kategoriyani tanlang',
     recentlyStudied: 'Yaqinda o\'rganilgan',
@@ -5858,7 +5852,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Қосымша мүмкіндіктер',
     statistics: 'Статистика',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Тіл үйрену үшін барлық құралдар',
     selectCategory: 'Санатты таңдаңыз',
     recentlyStudied: 'Жақында үйренілген',
@@ -6083,7 +6077,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Əlavə xüsusiyyətlər',
     statistics: 'Statistika',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Dil öyrənmək üçün bütün alətlər',
     selectCategory: 'Kateqoriya seçin',
     recentlyStudied: 'Son öyrənilənlər',
@@ -6308,7 +6302,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Кошумча мүмкүнчүлүктөр',
     statistics: 'Статистика',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Тил үйрөнүү үчүн бардык куралдар',
     selectCategory: 'Категорияны тандоо',
     recentlyStudied: 'Жакында үйрөнгөндөр',
@@ -6533,7 +6527,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Хусусиятҳои иловагӣ',
     statistics: 'Омор',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Ҳамаи воситаҳо барои омӯхтани забон',
     selectCategory: 'Категорияро интихоб кунед',
     recentlyStudied: 'Ба наздикӣ омӯхташуда',
@@ -6758,7 +6752,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'Լրացուցիչ գործառույթներ',
     statistics: 'Վիճակագրություն',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'Բոլոր գործիքները լեզու սովորելու համար',
     selectCategory: 'Ընտրել կատեգորիա',
     recentlyStudied: 'Վերջերս ուսումնասիրված',
@@ -6983,7 +6977,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'დამატებითი ფუნქციები',
     statistics: 'სტატისტიკა',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'ყველა ხელსაწყო ენის შესასწავლად',
     selectCategory: 'აირჩიეთ კატეგორია',
     recentlyStudied: 'ახლახან შესწავლილი',
@@ -7208,7 +7202,7 @@ const INTERFACE_TEXTS: Record<AppLanguageMode, InterfaceTexts> = {
     additionalFeatures: 'ميزات إضافية',
     statistics: 'الإحصائيات',
 
-    appTitle: 'Şapak - Ykjam Terjime',
+    appTitle: 'Ykjam Terjime',
     appSubtitle: 'جميع الأدوات لتعلم اللغة',
     selectCategory: 'اختر الفئة',
     recentlyStudied: 'المدروس مؤخراً',

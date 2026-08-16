@@ -2,7 +2,7 @@
   "expo": {
     "name": "Ykjam Terjime",
     "slug": "shapak-translator",
-    "description": "Şapak - Turkmen translation and AI language companion. Learn Turkmen with 31 languages support, AI assistants, visual translator, and more.",
+    "description": "Ykjam Terjime — Turkmen scenario phrasebook for real situations: Chinese, English and Russian, 31 interface languages, works offline.",
     "version": "1.0.3",
     "orientation": "default",
     "icon": "./assets/icon.png",
