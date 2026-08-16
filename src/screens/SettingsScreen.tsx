@@ -17,12 +17,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Colors } from '../constants/Colors';
-import { useOffline } from '../hooks/useOffline';
-import { useHistory } from '../hooks/useHistory';
 import { useAppLanguage } from '../contexts/LanguageContext';
-import { useConfig } from '../contexts/ConfigContext';
 import { getLanguageByCode } from '../config/languages.config';
-import { useSearchHistory } from '../hooks/useSearchHistory';
 import { RootStackParamList } from '../types';
 import { scale, verticalScale, moderateScale } from '../utils/ResponsiveUtils';
 import { useSafeArea } from '../hooks/useSafeArea';
@@ -110,13 +106,8 @@ export default function SettingsScreen() {
     });
   }, [navigation]);
 
-  const { isOnline, isDataCached, refreshCache, getCacheInfo } = useOffline();
-  const { clearHistory, getStats } = useHistory();
-  const { selectedLanguage } = useConfig();
-  const { clearSearchHistory } = useSearchHistory();
   const { getTexts, config, switchMode, getLanguageName, resetLanguageSettings } = useAppLanguage();
 
-  const stats = getStats();
   const texts = getTexts();
 
   // Safe Area для bottom padding (home indicator)
@@ -175,11 +166,6 @@ export default function SettingsScreen() {
     navigation.navigate('LanguageSelection');
   }, [navigation]);
 
-  const handlePhrasebookLanguageChange = useCallback(() => {
-    // Navigate to phrasebook and show language pair selection
-    navigation.navigate('Home', { screen: 'LanguagePairSelection' } as any);
-  }, [navigation]);
-
   const handleTogglePreference = useCallback(async (key: keyof AppPreferences) => {
     const newValue = !preferences[key];
     await savePreference(key, newValue);
@@ -235,71 +221,11 @@ export default function SettingsScreen() {
               onPress={handleLanguageToggle}
               rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
             />
-
-            {/* Phrasebook Language */}
-            <SettingsItem
-              icon="book"
-              iconColor={SETTINGS_ICON_COLORS.language}
-              title={texts.phrasebookLanguage ?? 'Phrasebook Language'}
-              subtitle={`${texts.currentLanguage ?? 'Current: '}${getLanguageByCode(selectedLanguage)?.nameEn || selectedLanguage}-Turkmen`}
-              onPress={handlePhrasebookLanguageChange}
-              rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
-            />
           </View>
 
           {/* Секция данных */}
           <View style={styles.section}>
             <SectionHeader title={texts.settingsDataStorage ?? 'Data & Storage'} />
-
-            <SettingsItem
-              icon="time"
-              iconColor={SETTINGS_ICON_COLORS.data}
-              title={texts.clearHistory}
-              subtitle={`${stats.uniquePhrases} ${texts.phrases} • ${stats.totalViews} ${texts.views}`}
-              onPress={() => {
-                Alert.alert(
-                  texts.clearHistory,
-                  texts.clearHistoryConfirm,
-                  [
-                    { text: texts.cancel, style: 'cancel' },
-                    {
-                      text: texts.delete,
-                      style: 'destructive',
-                      onPress: () => {
-                        clearHistory();
-                        Alert.alert('✅', texts.historyCleared);
-                      }
-                    }
-                  ]
-                );
-              }}
-              rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
-            />
-
-            <SettingsItem
-              icon="search"
-              iconColor={SETTINGS_ICON_COLORS.data}
-              title={texts.settingsClearSearchHistory ?? 'Clear Search History'}
-              subtitle={texts.settingsClearSearchHistoryDesc ?? 'Delete all search records'}
-              onPress={() => {
-                Alert.alert(
-                  texts.settingsClearSearchHistory ?? 'Clear Search History',
-                  texts.clearHistoryConfirm ?? 'This cannot be undone.',
-                  [
-                    { text: texts.cancel, style: 'cancel' },
-                    {
-                      text: texts.delete ?? 'Clear',
-                      style: 'destructive',
-                      onPress: () => {
-                        clearSearchHistory();
-                        Alert.alert('✅', texts.historyCleared ?? 'Search history cleared');
-                      }
-                    }
-                  ]
-                );
-              }}
-              rightComponent={<Ionicons name="chevron-forward" size={20} color="#9CA3AF" />}
-            />
 
             <SettingsItem
               icon="refresh"

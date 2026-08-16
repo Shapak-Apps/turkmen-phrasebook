@@ -100,12 +100,6 @@ export default function MainHubScreen() {
 
     if (module.id === 'phrasebook') {
       navigation.navigate('ScenarioHome');
-    } else if (module.id === 'text-translator') {
-      navigation.navigate('TextTranslator');
-    } else if (module.id === 'dictionary') {
-      navigation.navigate('Dictionary');
-    } else if (module.id === 'favorites') {
-      navigation.navigate('AdditionalFeatures');
     }
   };
 

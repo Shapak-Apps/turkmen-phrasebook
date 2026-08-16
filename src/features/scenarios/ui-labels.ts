@@ -37,8 +37,6 @@ export const uiLabels = {
   scenariosSection: 'SAHNALAR',
   wingTravel: '✈️ Men gidýärin',
   wingHost: '🏡 Myhman geldi',
-  soonBadge: 'Ýakynda',
-  soonToast: 'Bu bölüm heniz taýýar däl',
   flowSubtitle: 'Ädimme-ädim',
   stepWord: 'ädim',
   phraseWord: 'sözlem',

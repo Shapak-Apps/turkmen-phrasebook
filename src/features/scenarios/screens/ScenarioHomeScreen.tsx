@@ -232,23 +232,6 @@ const styles = StyleSheet.create({
   wingTextActive: {
     color: ScenarioColors.brand,
   },
-  wingTextDisabled: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: ScenarioColors.muted,
-  },
-  soonBadge: {
-    marginLeft: 6,
-    paddingHorizontal: 7,
-    paddingVertical: 2,
-    borderRadius: 8,
-    backgroundColor: ScenarioColors.line,
-  },
-  soonBadgeText: {
-    fontSize: 10,
-    fontWeight: '700',
-    color: ScenarioColors.muted,
-  },
   card: {
     flexDirection: 'row',
     alignItems: 'center',

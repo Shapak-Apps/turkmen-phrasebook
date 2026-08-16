@@ -4,34 +4,7 @@ import { renderHook, act, waitFor } from '@testing-library/react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ConfigProvider, useConfig } from '../ConfigContext';
 
-// Mock dependencies
 jest.mock('@react-native-async-storage/async-storage');
-jest.mock('../../config/languages.config', () => ({
-  getLanguageByCode: jest.fn((code: string) => {
-    const languages: Record<string, any> = {
-      tk: { code: 'tk', name: 'Türkmen', isAvailable: true },
-      zh: { code: 'zh', name: '中文', isAvailable: true },
-      ru: { code: 'ru', name: 'Русский', isAvailable: true },
-      en: { code: 'en', name: 'English', isAvailable: true },
-      unavailable: { code: 'unavailable', name: 'Unavailable', isAvailable: false },
-    };
-    return languages[code] || null;
-  }),
-}));
-
-jest.mock('../../services/LanguageAnalytics', () => ({
-  LanguageAnalyticsService: {
-    startSession: jest.fn(() => Promise.resolve()),
-    endSession: jest.fn(() => Promise.resolve()),
-  },
-}));
-
-jest.mock('../../services/TranslationVersioning', () => ({
-  TranslationVersioningService: {
-    setLanguageVersion: jest.fn(() => Promise.resolve()),
-    addDownloadHistory: jest.fn(() => Promise.resolve()),
-  },
-}));
 
 const wrapper = ({ children }: { children: React.ReactNode }) => (
   <ConfigProvider>{children}</ConfigProvider>
@@ -41,13 +14,11 @@ beforeEach(() => {
   jest.clearAllMocks();
   (AsyncStorage.getItem as jest.Mock).mockResolvedValue(null);
   (AsyncStorage.setItem as jest.Mock).mockResolvedValue(undefined);
-  (AsyncStorage.multiSet as jest.Mock).mockResolvedValue(undefined);
 });
 
 describe('ConfigContext', () => {
   describe('useConfig hook', () => {
     it('should throw error when used outside provider', () => {
-      // Suppress console.error for this test
       const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
 
       expect(() => {
@@ -57,26 +28,20 @@ describe('ConfigContext', () => {
       consoleSpy.mockRestore();
     });
 
-    it('should provide default values', async () => {
+    it('should finish loading and expose the first launch flag', async () => {
       const { result } = renderHook(() => useConfig(), { wrapper });
 
       await waitFor(() => {
         expect(result.current.isLoading).toBe(false);
       });
 
-      expect(result.current.turkmenLanguage).toBe('tk');
-      expect(result.current.selectedLanguage).toBe('tk');
+      expect(result.current.isFirstLaunch).toBe(true);
     });
   });
 
-  describe('ConfigProvider', () => {
-    it('should load saved language on mount', async () => {
-      (AsyncStorage.getItem as jest.Mock).mockImplementation((key: string) => {
-        if (key === '@turkmen_phrasebook:selected_language') {
-          return Promise.resolve('zh');
-        }
-        return Promise.resolve(null);
-      });
+  describe('first launch', () => {
+    it('treats a missing flag as first launch', async () => {
+      (AsyncStorage.getItem as jest.Mock).mockResolvedValue(null);
 
       const { result } = renderHook(() => useConfig(), { wrapper });
 
@@ -84,31 +49,22 @@ describe('ConfigContext', () => {
         expect(result.current.isLoading).toBe(false);
       });
 
-      expect(result.current.selectedLanguage).toBe('zh');
+      expect(result.current.isFirstLaunch).toBe(true);
+    });
+
+    it('treats a stored flag as a repeat launch', async () => {
+      (AsyncStorage.getItem as jest.Mock).mockResolvedValue('false');
+
+      const { result } = renderHook(() => useConfig(), { wrapper });
+
+      await waitFor(() => {
+        expect(result.current.isLoading).toBe(false);
+      });
+
       expect(result.current.isFirstLaunch).toBe(false);
     });
 
-    it('should use default language when saved language is unavailable', async () => {
-      (AsyncStorage.getItem as jest.Mock).mockImplementation((key: string) => {
-        if (key === '@turkmen_phrasebook:selected_language') {
-          return Promise.resolve('unavailable');
-        }
-        return Promise.resolve(null);
-      });
-
-      const { result } = renderHook(() => useConfig(), { wrapper });
-
-      await waitFor(() => {
-        expect(result.current.isLoading).toBe(false);
-      });
-
-      expect(result.current.selectedLanguage).toBe('tk');
-    });
-
-  });
-
-  describe('setSelectedLanguage', () => {
-    it('should change language and save to storage', async () => {
+    it('completeFirstLaunch persists the flag and flips the state', async () => {
       const { result } = renderHook(() => useConfig(), { wrapper });
 
       await waitFor(() => {
@@ -116,58 +72,30 @@ describe('ConfigContext', () => {
       });
 
       await act(async () => {
-        await result.current.setSelectedLanguage('ru');
+        await result.current.completeFirstLaunch();
       });
 
-      expect(result.current.selectedLanguage).toBe('ru');
-      expect(AsyncStorage.multiSet).toHaveBeenCalled();
+      expect(AsyncStorage.setItem).toHaveBeenCalledWith(
+        '@turkmen_phrasebook:first_launch',
+        'false'
+      );
+      expect(result.current.isFirstLaunch).toBe(false);
     });
 
-    it('should throw error for non-existent language', async () => {
+    it('surfaces storage failures from completeFirstLaunch', async () => {
+      const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+      (AsyncStorage.setItem as jest.Mock).mockRejectedValue(new Error('disk full'));
+
       const { result } = renderHook(() => useConfig(), { wrapper });
 
       await waitFor(() => {
         expect(result.current.isLoading).toBe(false);
       });
 
-      await expect(async () => {
-        await act(async () => {
-          await result.current.setSelectedLanguage('invalid');
-        });
-      }).rejects.toThrow('Language invalid not found in configuration');
-    });
+      await expect(result.current.completeFirstLaunch()).rejects.toThrow('disk full');
+      expect(result.current.isFirstLaunch).toBe(true);
 
-    it('should throw error for unavailable language', async () => {
-      const { result } = renderHook(() => useConfig(), { wrapper });
-
-      await waitFor(() => {
-        expect(result.current.isLoading).toBe(false);
-      });
-
-      await expect(async () => {
-        await act(async () => {
-          await result.current.setSelectedLanguage('unavailable');
-        });
-      }).rejects.toThrow('Language unavailable is not available yet');
-    });
-  });
-
-  describe('turkmenLanguage', () => {
-    it('should always return tk', async () => {
-      const { result } = renderHook(() => useConfig(), { wrapper });
-
-      await waitFor(() => {
-        expect(result.current.isLoading).toBe(false);
-      });
-
-      expect(result.current.turkmenLanguage).toBe('tk');
-
-      // Change language, turkmenLanguage should still be 'tk'
-      await act(async () => {
-        await result.current.setSelectedLanguage('en');
-      });
-
-      expect(result.current.turkmenLanguage).toBe('tk');
+      consoleSpy.mockRestore();
     });
   });
 });

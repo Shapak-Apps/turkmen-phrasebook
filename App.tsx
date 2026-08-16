@@ -6,7 +6,6 @@ import * as SplashScreen from 'expo-splash-screen';
 import AppNavigator from './src/navigation/AppNavigator';
 import { LanguageProvider } from './src/contexts/LanguageContext';
 import { ConfigProvider } from './src/contexts/ConfigContext';
-import { OfflineDataProvider } from './src/contexts/OfflineDataContext';
 import ErrorBoundary from './src/components/ErrorBoundary';
 import { TargetLangProvider } from './src/features/scenarios/TargetLangContext';
 
@@ -24,12 +23,10 @@ export default function App() {
       <ErrorBoundary>
         <ConfigProvider>
           <LanguageProvider>
-            <OfflineDataProvider>
-              <TargetLangProvider>
-                <AppNavigator />
-                <StatusBar style="auto" />
-              </TargetLangProvider>
-            </OfflineDataProvider>
+            <TargetLangProvider>
+              <AppNavigator />
+              <StatusBar style="auto" />
+            </TargetLangProvider>
           </LanguageProvider>
         </ConfigProvider>
       </ErrorBoundary>
