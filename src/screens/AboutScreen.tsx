@@ -11,6 +11,7 @@ import {
   Image,
   Linking,
 } from 'react-native';
+import { version as appVersion } from '../../package.json';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
@@ -804,7 +805,7 @@ export default function AboutScreen() {
             resizeMode="contain"
           />
           <Text style={styles.appName}>Ykjam Terjime</Text>
-          <Text style={styles.versionText}>{t.version} 1.0.0</Text>
+          <Text style={styles.versionText}>{t.version} {appVersion}</Text>
         </View>
 
         {/* Menu Items */}
