@@ -30,7 +30,6 @@ export const TARGET_LANGS: TargetLang[] = ['zh', 'en', 'ru'];
 
 /** Подписи хрома. Черновики. */
 export const uiLabels = {
-  hubTileSubtitle: 'Sahnalar boýunça sözlemler',
   homeTitle: 'Gepleşik kitaby',
   ownFlag: '🇹🇲',
   survivalSection: 'IŇ GEREK SÖZLEMLER',

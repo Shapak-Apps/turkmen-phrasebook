@@ -1,7 +1,7 @@
 // src/screens/MainHubScreen.tsx
 // Lingify-стиль: чистый список модулей
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   View,
   Text,
@@ -22,7 +22,8 @@ import type { RootStackParamList } from '../types';
 import { DesignColors, Spacing, Typography, BorderRadius } from '../constants/Design';
 import { scale, verticalScale, moderateScale } from '../utils/ResponsiveUtils';
 import { useSafeArea } from '../hooks/useSafeArea';
-import { uiLabels } from '../features/scenarios/ui-labels';
+import { useTargetLang } from '../features/scenarios/TargetLangContext';
+import { getAvailableScenarios, isPhraseAvailable, survivalCore } from '../data/scenarios';
 
 interface ModuleItem {
   id: string;
@@ -83,10 +84,33 @@ export default function MainHubScreen() {
   const currentLanguage = getLanguageByCode(config.mode);
   const texts = getTexts();
 
-  // Подпись разговорника статичная: счётчики {c}/{p} считались по старому корпусу
-  // и врали бы про сценарный экран, который живёт на других данных.
+  const { targetLang } = useTargetLang();
+
+  // Счётчики берём из сценарного корпуса: сколько сцен и фраз реально доступно
+  // для выбранного языка собеседника. Подпись остаётся переведённой на все языки.
+  const { sceneCount, phraseCount } = useMemo(() => {
+    const scenarios = [
+      ...getAvailableScenarios('travel', targetLang),
+      ...getAvailableScenarios('host', targetLang),
+    ];
+    const inScenes = scenarios.reduce(
+      (total, scenario) =>
+        total + scenario.steps.reduce((stepTotal, step) => stepTotal + step.phrases.length, 0),
+      0
+    );
+    const inSurvival = survivalCore.filter((id) => isPhraseAvailable(id, targetLang)).length;
+    return { sceneCount: scenarios.length, phraseCount: inScenes + inSurvival };
+  }, [targetLang]);
+
   const modules = getModules(texts).map(module =>
-    module.id === 'phrasebook' ? { ...module, subtitle: uiLabels.hubTileSubtitle } : module
+    module.id === 'phrasebook'
+      ? {
+          ...module,
+          subtitle: module.subtitle
+            .replace('{c}', String(sceneCount))
+            .replace('{p}', String(phraseCount)),
+        }
+      : module
   );
 
   const { top: safeAreaTop, bottom: safeAreaBottom } = useSafeArea();

@@ -2,7 +2,7 @@
   "expo": {
     "name": "Ykjam Terjime",
     "slug": "shapak-translator",
-    "description": "Ykjam Terjime — Turkmen scenario phrasebook for real situations: Chinese, English and Russian, 31 interface languages, works offline.",
+    "description": "Ykjam Terjime — Turkmen scenario phrasebook for real situations: Chinese, English and Russian, interface in 5 languages, works offline.",
     "version": "1.0.3",
     "orientation": "default",
     "icon": "./assets/icon.png",
