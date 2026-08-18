@@ -1,9 +1,16 @@
 # Не загружать на EAS эти папки/файлы
 
-# Android build папки
+# Android build папки (Android собираем локально в Android Studio,
+# на EAS эти артефакты не нужны ни для одной платформы)
 android/app/build/
+android/app/.cxx/
+android/app/release/
 android/.gradle/
 android/.cxx/
+android/build/
+
+# Исходники книги: 24 МБ сканов, в сборку не входят
+content/
 
 # Node modules кэш (будет переустановлен на сервере)
 node_modules/
