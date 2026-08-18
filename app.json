@@ -3,7 +3,7 @@
     "name": "Ykjam Terjime",
     "slug": "shapak-translator",
     "description": "Ykjam Terjime — Turkmen scenario phrasebook for real situations: Chinese, English and Russian, interface in 5 languages, works offline.",
-    "version": "1.0.3",
+    "version": "2.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -29,7 +29,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.shapak.translator",
-      "buildNumber": "4",
+      "buildNumber": "1",
       "infoPlist": {
         "CFBundleDisplayName": "Ykjam Terjime",
         "CFBundleName": "Ykjam Terjime",
@@ -45,7 +45,7 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.shapak.translator",
-      "versionCode": 8,
+      "versionCode": 9,
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE"
