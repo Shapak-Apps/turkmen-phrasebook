@@ -20,19 +20,15 @@ type ComingSoonRouteProp = RouteProp<RootStackParamList, 'ComingSoon'>;
 
 const FEATURE_CONFIG = {
   voice: {
-    version: '2.0',
     icon: 'mic-outline' as const,
   },
   visual: {
-    version: '1.5',
     icon: 'camera-outline' as const,
   },
   ai: {
-    version: '2.0',
     icon: 'sparkles-outline' as const,
   },
   translator: {
-    version: '2.0',
     icon: 'text-outline' as const,
   },
 };
@@ -129,7 +125,7 @@ export default function ComingSoonScreen() {
           {/* Version badge */}
           <View style={styles.badge}>
             <Ionicons name="time-outline" size={moderateScale(14)} color="#FFFFFF" />
-            <Text style={styles.badgeText}>Coming in v{config.version}</Text>
+            <Text style={styles.badgeText}>{texts.vtComingSoon || 'Coming soon'}</Text>
           </View>
 
           {/* Title & Description */}
