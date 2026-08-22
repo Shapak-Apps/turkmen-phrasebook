@@ -1,3 +1,6 @@
+// Usage: node scripts/generate-brand-images.js
+// Requires sharp, which is not a dependency — install without saving:
+//   npm install --no-save sharp
 const sharp = require('sharp');
 const path = require('path');
 
@@ -31,8 +34,16 @@ async function main() {
     .toFile(A('logo.png'));
   console.log('OK logo.png');
 
-  const logo = await sharp(A('logo-source.png'))
-    .resize(300, 300, { fit: 'inside' })
+  // Banner logo (issue #21): text-free mark (icon-source.png), masked into a
+  // circle so the square corners no longer stick out of the white r=170 circle.
+  const size = 300;
+  const mask = Buffer.from(
+    `<svg width="${size}" height="${size}"><circle cx="${size / 2}" cy="${size / 2}" r="${size / 2}" fill="#fff"/></svg>`
+  );
+  const logo = await sharp(A('icon-source.png'))
+    .resize(size, size, { fit: 'inside' })
+    .composite([{ input: mask, blend: 'dest-in' }])
+    .png()
     .toBuffer();
   const svg = Buffer.from(`
 <svg width="1024" height="500" xmlns="http://www.w3.org/2000/svg">
