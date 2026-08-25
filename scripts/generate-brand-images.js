@@ -1,4 +1,4 @@
-// Usage: npm install --no-save sharp && node scripts/generate-brand-image.js
+// Usage: npm install --no-save sharp && node scripts/generate-brand-images.js
 
 const sharp = require('sharp');
 const path = require('path');
@@ -24,13 +24,14 @@ async function main() {
   console.log('OK adaptive-icon-foreground.png (safe zone 66%)');
 
   // Monochrome layer for Android 13+ themed icons
-  const monoInnerBuf = await sharp(A('icon-source.png'))
-    .resize(inner, inner)
-    .toBuffer();
-  await sharp({ create: { width: 1024, height: 1024, channels: 4, background: {r: 0, g: 0, b: 0, alpha: 0} } } )
-    .png()
-    .composite([{ input: monoInnerBuf, gravity: 'centre' }])
-    .toFile(A('adaptive-icon-monochrome.png'));
+  const monoMask = await sharp(innerBuf)
+  .threshold(200)
+  .toBuffer();
+
+  await sharp({ create: { width: 1024, height: 1024, channels: 4, background: { r: 255, g: 255, b: 255, alpha: 0 } } } )
+  .composite([{ input: monoMask, gravity: 'centre' } ])
+  .png()
+  .toFile(A('adaptive-icon-monochrome.png'));
   console.log('OK adaptive-icon-monochrome.png (safe zone 66%)');
 
   await sharp({ create: { width: 1024, height: 1024, channels: 4, background: BLUE } })
