@@ -11,18 +11,18 @@
 
 ### Short description (≤80 chars) — Turkmen only
 
-Hakyky ýagdaýlarda türkmençe gürleň — 295 jümle, 13 ssenariý, offlaýn.
+Hakyky ýagdaýlarda türkmençe gürleň — 295 jümle, 13 ssenariý, oflaýn.
 
 ### Full description — ONE BLOCK, paste as-is (Turkmen first, then English)
 
 Ykjam Terjime — hakyky durmuş ýagdaýlarynda türkmençe gepleşmäge kömek edýän ssenariýaly gepleşik kitaby: aeroport we serhet, ulag, myhmanhana, iýmit, söwda, pul, saglyk we başgalar.
 
-• 295 jümle — hakyky ýagdaýlar üçin ýazylan, iki ganatdaky 13 ssenariý: «Men syýahat edýärin» we «Myhman geldi»
+• 295 jümle — hakyky ýagdaýlar üçin ýazylan, iki ganatdaky 13 ssenariý: «Men gidýärin» we «Myhman geldi»
 • Dialog modeli: eşidýän soraglaryňyz taýýar jogaplar bilen gelýär, ssenariýler älipbiý sanawy bolman, ädimme-ädim geçýär
 • Ekrany görkezme režimi: telefony beriň — söhbetdeşiňiz jümläni okap, jogaby basýar, siz ony türkmençe görýärsiňiz
 • Türkmen dili hytaý, iňlis ýa-da rus dilleri bilen jübütde
 • 5 dilde interfeýs
-• Doly offlaýn işleýär
+• Doly oflaýn işleýär
 • Täze programma nyşany we has arassa interfeýs
 
 Türkmenistana syýahat edýänler we ýurda gelýän myhmanlar üçin.
@@ -46,16 +46,11 @@ Feedback and suggestions: shapak.apps@gmail.com
 ### What's new (≤500 chars) — Turkmen only
 
 2.0.0 — gepleşik kitabynyň doly gaýtadan işlenmegi.
-• Täze korpus: hakyky ýagdaýlar üçin 295 jümle, 13 ssenariý («Men syýahat edýärin» we «Myhman geldi»)
+• Täze korpus: hakyky ýagdaýlar üçin 295 jümle, 13 ssenariý («Men gidýärin» we «Myhman geldi»)
 • Dialog modeli: eşidýän soraglaryňyz taýýar jogaplar bilen gelýär; ssenariýler ädimme-ädim
 • Söhbetler üçin ekrany görkezme režimi
 • Türkmen dili hytaý, iňlis ýa-da rus bilen; 5 dilde interfeýs
-• Täze nyşan, arassa interfeýs, doly offlaýn
-
-## Russian listing — DEPRECATED
-
-(Перевод `ru` удаляется из Console вместе с остальными 21 языком — см. UPLOAD.md.
-Текст оставлен здесь только для истории; в стор он больше не идёт.)
+• Täze nyşan, arassa interfeýs, doly oflaýn
 
 ## Upload
 

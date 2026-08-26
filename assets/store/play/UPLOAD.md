@@ -26,19 +26,25 @@ sources live in this folder.
 | --- | --- |
 | Short description / Краткое описание | «Short description» block — Turkmen |
 | Full description / Полное описание | «Full description» block — one block as-is (Turkmen, blank line, English) |
-| What's new / Что нового | «What's new» block — Turkmen |
 
-## 4. Remove the 21 other languages
+## 4. What's new (release notes, not store listing)
+
+- EN: **Production → Releases → Create new release** (or edit the latest draft)
+- RU: **Производство → Релизы → Создать новый релиз** (или редактировать последний черновик)
+
+Reuse the existing app bundle (do not upload a new one). Write the «What's new» block from `store-listing.md` (Turkmen) into the **Release notes** field. Save the release.
+
+## 5. Remove the 21 other languages
 
 Language menu on the store listing page → manage translations → delete:
 `ru, tr, zh, ar, es, fr, de, ja, ko, hi, it, pt, uk, kk, az, fa, id, vi, pl, nl, ms`.
 Removing is reversible: those users then see the default card.
 
-## 5. Final step
+## 6. Final step
 
 **Publishing overview / Обзор публикаций → send the changes for review / отправить на проверку.**
 This is the step that failed last time. Until it is done, the store keeps the old listing.
 
-## 6. After publishing
+## 7. After publishing
 
 Open the public page a day or two later and compare the icon and the first screenshot.
