@@ -1,4 +1,6 @@
-// Usage: npm install --no-save sharp && node scripts/generate-brand-images.js
+// Usage: node scripts/generate-brand-images.js
+// Requires sharp, which is not a dependency — install without saving:
+//   npm install --no-save sharp
 
 const sharp = require('sharp');
 const path = require('path');
@@ -23,16 +25,26 @@ async function main() {
     .toFile(A('adaptive-icon-foreground.png'));
   console.log('OK adaptive-icon-foreground.png (safe zone 66%)');
 
-  // Monochrome layer for Android 13+ themed icons
-  const monoMask = await sharp(innerBuf)
-  .threshold(200)
-  .toBuffer();
+// 1-band mask: white letters -> 255, blue background -> 0
+  const alpha = await sharp(A('icon-source.png'))
+    .resize(inner, inner)
+    .greyscale()
+    .threshold(200)
+    .toColourspace('b-w')
+    .raw()
+    .toBuffer();
 
-  await sharp({ create: { width: 1024, height: 1024, channels: 4, background: { r: 255, g: 255, b: 255, alpha: 0 } } } )
-  .composite([{ input: monoMask, gravity: 'centre' } ])
-  .png()
-  .toFile(A('adaptive-icon-monochrome.png'));
-  console.log('OK adaptive-icon-monochrome.png (safe zone 66%)');
+  // black pixels, letters carried by the alpha channel
+  const glyph = await sharp({ create: { width: inner, height: inner, channels: 3, background: { r: 0, g: 0, b: 0 } } })
+    .joinChannel(alpha, { raw: { width: inner, height: inner, channels: 1 } })
+    .png()
+    .toBuffer();
+
+  await sharp({ create: { width: 1024, height: 1024, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+    .composite([{ input: glyph, gravity: 'centre' }])
+    .png()
+    .toFile(A('adaptive-icon-monochrome.png'));
+  console.log('OK adaptive-icon-monochrome.png');
 
   await sharp({ create: { width: 1024, height: 1024, channels: 4, background: BLUE } })
     .png()
