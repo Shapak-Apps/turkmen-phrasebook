@@ -44,8 +44,8 @@ Senariýalar iki ganada bölünýär:
 
 | Ganat | Senariýalar |
 |-------|-------------|
-| ✈️ **Men gidýärin** — "Men syýahat edýärin" | Howa menzili · Transport · Myhmanhana · Nahar · Söwda · Pul · Saglyk · Meseleler (8) |
-| 🏡 **Myhman geldi** — "Myhman geldi" | Ugur · Taksi sürüjisi · Satyjy · Myhmansöýerlik · Syýahatça kömek (5) |
+| ✈️ **Men gidýärin** | Howa menzili · Transport · Myhmanhana · Nahar · Söwda · Pul · Saglyk · Meseleler (8) |
+| 🏡 **Myhman geldi** | Ugur · Taksi sürüjisi · Satyjy · Myhmansöýerlik · Syýahatça kömek (5) |
 
 ## 📴 Näme üçin oflaýn-ileri?
 
