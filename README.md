@@ -3,7 +3,7 @@
 
 # Ykjam Terjime
 
-Russian-Chinese phrasebook with 2174 phrases across 13 categories
+Offline scenario phrasebook — 295 curated phrases in 13 real-life scenarios, Turkmen paired with Chinese, English or Russian
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
@@ -11,10 +11,10 @@ Russian-Chinese phrasebook with 2174 phrases across 13 categories
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
-[🇷🇺 По-русски](./README.ru.md) · [🇹🇲 Türkmençe](./README.tk.md)
+[🇷🇺 По-русски](./README.ru.md) · [🇹 Türkmençe](./README.tk.md)
 </div>
 
-Ykjam Terjime ("Ready Translation" in Turkmen) is a free, offline-first phrasebook and language companion. Currently focused on Russian-Chinese phrases with 2174 phrases across 13 categories, with more languages coming.
+Ykjam Terjime ("Ready Translation" in Turkmen) is a free, offline-first, scenario-based phrasebook. Instead of word lists, it walks you through 13 real-life scenarios — 295 curated phrases in total — pairing Turkmen with Chinese, English or Russian. The interface is available in 5 languages, and the app makes zero network calls.
 
 Part of [Shapak-Apps](https://github.com/Shapak-Apps) — the first open-source organization in Turkmenistan.
 
@@ -29,18 +29,27 @@ Part of [Shapak-Apps](https://github.com/Shapak-Apps) — the first open-source 
   <img src="./assets/screenshots/6.jpg" width="240" />
 </div>
 
-## ✨ Features
+## ✨ What the app does today
 
-- 🗣️ **2174 phrases** across 13 categories (+ ~60 subcategories)
-- 🌍 Languages: 🇨🇳 Chinese, 🇷🇺 Russian (ready); 🇹🇲 Turkmen (in progress)
-- 📖 Cyrillic transcription from the book (for Chinese phrases)
-- 📴 Fully offline — works without internet
-- ⭐ Favorites, statistics, full-text search
-- 🎨 Clean, minimalist design (Lingify-inspired)
+- 🎭 **13 real-life scenarios** with **295 curated phrases** — 260 inside the scenarios, plus 35 in the survival core that the app shows as its own section, **"IŇ GEREK SÖZLEMLER"**
+- 💬 **Expected replies** — every phrase can show what the other person is likely to answer
+- 📺 **Show-screen mode** — the phone flips to large text that the other person can read, with tappable answers
+- 🏷️ Dialogs are tagged **SIZDEN SORARLAR** ("they will ask you") and **SIZIŇ JOGABYŇYZ** ("your answer")
+- 🌍 **3 content pairs**: Turkmen ↔ Chinese (with pinyin), Turkmen ↔ English, Turkmen ↔ Russian
+- 🗺️ **5 interface languages**: Turkmen, Chinese, Russian, English and Turkish. 26 more are already translated in the code and will be unlocked later, once their missing interface keys are completed
+- 📴 **Fully offline** — no internet, no accounts, zero network calls
 - 🆓 100% free, no ads, no tracking
-- 🔊 Native pronunciation audio (coming back in future)
 
-Coming in v2.0: 25 more languages (German, French, Spanish, Japanese, Korean, Arabic, and more), AI-powered translator, visual translator.
+The scenarios are grouped into two wings:
+
+| Wing | Scenarios |
+|------|-----------|
+| ✈️ **Men gidýärin** — "I am traveling" | Airport · Transport · Hotel · Food · Shopping · Money · Health · Problems (8) |
+| 🏡 **Myhman geldi** — "A guest arrived" | Directions · Taxi driver · Seller · Hospitality · Helping a tourist (5) |
+
+## 📴 Why offline-first?
+
+Internet in Turkmenistan can be slow or absent, older people who only speak Russian still need to be understood, and a tourist needs an answer in seconds — not a loading spinner. Being offline-first is not a missing feature; it is the core design decision of the app.
 
 ## 🛠 Tech Stack
 
@@ -48,10 +57,8 @@ Coming in v2.0: 25 more languages (German, French, Spanish, Japanese, Korean, Ar
 |-------|------------|
 | Framework | [Expo SDK 54](https://expo.dev) + [React Native 0.81](https://reactnative.dev) |
 | Language | [TypeScript 5.9](https://www.typescriptlang.org) (strict mode) |
-| Navigation | [React Navigation 7](https://reactnavigation.org) (Stack + Bottom Tabs) |
+| Navigation | [React Navigation 7](https://reactnavigation.org) (Stack) |
 | Storage | AsyncStorage (local-first) |
-| Audio | expo-av (local MP3 + Expo Speech fallback) |
-| Translation API | [MyMemory](https://mymemory.translated.net) + [LibreTranslate](https://libretranslate.com) |
 | Build | [EAS Build](https://expo.dev/eas) |
 
 ## 🚀 Getting Started
@@ -60,8 +67,7 @@ Coming in v2.0: 25 more languages (German, French, Spanish, Japanese, Korean, Ar
 
 - [Node.js](https://nodejs.org) 20+
 - [Git](https://git-scm.com)
-- [Android Studio](https://developer.android.com/studio) (for Android emulator) or [Xcode](https://developer.apple.com/xcode/) (for iOS simulator)
-- [Expo CLI](https://docs.expo.dev/more/expo-cli/) (installed automatically via `npx`)
+- [Android Studio](https://developer.android.com/studio) (for the Android emulator) or [Xcode](https://developer.apple.com/xcode/) (for the iOS simulator)
 
 ### Installation
 
@@ -73,61 +79,50 @@ cd turkmen-phrasebook
 # Install dependencies
 npm install
 
-# Create your environment file (optional, for AI features)
-cp .env.example .env
-# Then edit .env and add your API keys if needed
+# Start the app
+npx expo start
 ```
 
-### Running the App
+### Other commands
 
 ```bash
-# Start the Metro bundler
-npm start
-
-# Then:
-#   Press `a` to open on Android emulator
-#   Press `i` to open on iOS simulator
-#   Press `w` to open in the browser
-```
-
-Or run directly on a device:
-
-```bash
-npm run android    # Android
-npm run ios        # iOS (macOS only)
-```
-
-### Other Commands
-
-```bash
+npm start          # Start the Metro bundler
+npm run android    # Run on an Android emulator/device
+npm run ios        # Run on the iOS simulator (macOS only)
 npm test           # Run tests
-npm run lint       # Lint code
-npm run lint:fix   # Auto-fix lint issues
 ```
+
+More details in the [Contributing Guide](./CONTRIBUTING.md).
 
 ## 📁 Project Structure
 
 ```
 turkmen-phrasebook/
 ├── src/
-│   ├── api/             # Translation API clients
-│   ├── components/      # Reusable UI components
-│   ├── contexts/        # React contexts (language, config)
-│   ├── data/            # Phrases, categories, translations
-│   ├── features/        # Feature modules (translator, AI, favorites)
-│   ├── navigation/      # Navigation configuration
-│   ├── screens/         # App screens
-│   ├── services/        # Business logic services
-│   └── utils/           # Helpers and utilities
-├── assets/              # Images, icons, audio files
-├── android/             # Native Android project
-├── ios/                 # Native iOS project
-└── App.tsx              # Entry point
+│   ├── config/            # languages.config.ts — interface languages (5 available, 26 locked)
+│   ├── data/
+│   │   └── scenarios/     # the corpus: skeleton.ts + texts/{tk,ru,en,zh}.ts
+│   ├── features/
+│   │   └── scenarios/     # scenario screens, show-screen mode, ui-labels.ts
+│   └── navigation/        # AppNavigator.tsx (Stack)
+├── assets/                # logo, screenshots, store assets
+├── android/               # native Android project
+├── ios/                   # native iOS project
+└── App.tsx                # entry point
 ```
+
+## 🗺️ Roadmap (planned — not in the app yet)
+
+- 📝 Text translator
+- 🎤 Voice translator
+- 📷 Visual translator (OCR + translate)
+- 🤖 AI assistants
+
+Everything in this list is a plan for future versions. None of it exists in the current release.
 
 ## 🤝 Contributing
 
-We welcome contributions of all kinds — from fixing typos to adding full languages!
+We welcome contributions of all kinds — from fixing typos to improving phrases!
 
 Read our **[Contributing Guide](./CONTRIBUTING.md)** for:
 
@@ -137,9 +132,9 @@ Read our **[Contributing Guide](./CONTRIBUTING.md)** for:
 - "Good first issue" tags for newcomers
 
 **Good first issues:**
-- Add translations for a new language
-- Record pronunciation audio for existing phrases
-- Fix a typo, improve an icon, polish a screen
+
+- Add or complete an interface translation (26 languages are waiting to be unlocked)
+- Fix a typo, improve a phrase, polish a screen
 - Write unit tests for existing code
 
 Found a bug or have a feature idea? **[Open an issue](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)**.
@@ -169,7 +164,6 @@ You are free to use, modify, and distribute this software, as long as the origin
 
 - Built with [Expo](https://expo.dev) — the fastest way to build cross-platform mobile apps
 - Icons by [Ionicons](https://ionic.io/ionicons)
-- Translation APIs by [MyMemory](https://mymemory.translated.net) and [LibreTranslate](https://libretranslate.com)
 
 ---
 
