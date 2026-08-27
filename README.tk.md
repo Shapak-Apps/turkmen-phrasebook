@@ -3,7 +3,7 @@
 
 # Ykjam Terjime
 
-Rus-Hytaý gepleşik kitaby: 13 kategoriýada 2174 fraza
+Oflaýn senariý gepleşik kitaby — 13 durmuş senariýasynda 295 saýlama fraza, türkmen dili hytaý, iňlis ýa-da rus dili bilen
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
@@ -14,7 +14,7 @@ Rus-Hytaý gepleşik kitaby: 13 kategoriýada 2174 fraza
 [🇬🇧 English](./README.md) · [🇷🇺 По-русски](./README.ru.md)
 </div>
 
-Ykjam Terjime — mugt, oflaýn işleýän gepleşik kitaby. Häzirki wagtda rus-hytaý frazalaryna üns berilýär: 13 kategoriýada 2174 fraza, geljekde has köp dil goşular.
+Ykjam Terjime — mugt, oflaýn-ileri, senariý esasly gepleşik kitabydyr. Söz sanawlarynyň ýerine, ol sizi 13 durmuş senariýasyndan geçirýär — jemi 295 saýlama fraza — türkmen dilini hytaý, iňlis ýa-da rus dili bilen birleşdirýär. Interfeýs 5 dilde elýeterlidir we programa nol ulgam çagyryşlaryny amala aşyrýar.
 
 [Shapak-Apps](https://github.com/Shapak-Apps) — Türkmenistanyň ilkinji açyk kodly guramasynyň bir bölegi.
 
@@ -29,29 +29,36 @@ Ykjam Terjime — mugt, oflaýn işleýän gepleşik kitaby. Häzirki wagtda rus
   <img src="./assets/screenshots/6.jpg" width="240" />
 </div>
 
-## ✨ Mümkinçilikler
+## ✨ Programma häzir näme edýär
 
-- 🗣️ **2174 fraza** — 13 kategoriýada (+ ~60 kiçi kategoriýa)
-- 🌍 Diller: 🇨🇳 Hytaý, 🇷🇺 Rus (taýýar); 🇹🇲 Türkmen (terjime işlenilýär)
-- 📖 Kitapdan alynýan kiril transkripsiýasy (hytaý frazalary üçin)
-- 📴 Doly oflaýn — internet gerek däl
-- ⭐ Halanlar, statistika, doly tekst gözlegi
-- 🎨 Arassa, minimalistik dizaýn (Lingify stilinde)
+- 🎭 **13 durmuş senariýasy** we **295 saýlama fraza** — 260-y senariýalaryň içinde, goşmaça 35-i programmanyň öz bölümi hökmünde görkezilýär, **"IŇ GEREK SÖZLEMLER"**
+- 💬 **Garaşylýan jogaplar** — her fraza beýleki adamyň ähtimal jogabyny görkezip bilýär
+- 📺 **Ekrany görkezmek re žimi** — telefon beýleki adamyň okap biljek uly tekstine aýlanýar, basyp bolýan jogaplar bilen
+- 🏷️ Dialoglara **SIZDEN SORARLAR** ("senden sorarlar") we **SIZIŇ JOGABYŇYZ** ("siziň jogabyňyz") bellikleri goýulýar
+- 🌍 **3 mazmun jübüti**: Türkmen ↔ Hytaý (piniýn bilen), Türkmen ↔ Iňlis, Türkmen ↔ Rus
+- 🗺️ **5 interfeýs dili**: türkmen, hytaý, rus, iňlis we türk. Ýene 26-sy eýýäm kodda terjime edildi we eksik interfeýs açarlary tamamlanandan soň açylar
+- 📴 **Doly oflaýn** — internet ýok, hasap ýok, nol ulgam çagyryşy
 - 🆓 100% mugt, mahabatsyz, yzarlamasyz
-- 🔊 Ene dilinde ses aýdylyşy (geljekki wersiýalarda gaýdyp geler)
 
-v2.0 wersiýasynda: ýene 25 dil (nemes, fransuz, ispan, ýapon, koreý, arap we başg.), AI-terjimeçi, wizual terjimeçi.
+Senariýalar iki ganada bölünýär:
+
+| Ganat | Senariýalar |
+|-------|-------------|
+| ✈️ **Men gidýärin** — "Men syýahat edýärin" | Howa menzili · Transport · Myhmanhana · Nahar · Söwda · Pul · Saglyk · Meseleler (8) |
+| 🏡 **Myhman geldi** — "Myhman geldi" | Ugur · Taksi sürüjisi · Satyjy · Myhmansöýerlik · Syýahatça kömek (5) |
+
+## 📴 Näme üçin oflaýn-ileri?
+
+Türkmenistanda internet haýal ýa-da elýetersiz bolup biler, diňe rusça gürleýän ýaşuly adamlara düşünilmegi zerur, we syýahatça birnäçe sekuntda jogap gerek — ýüklenme aýlawy däl. Oflaýn-ileri bolmak ýetmezçilik däl; bu programmanyň esasy dizaýn kararydyr.
 
 ## 🛠 Tehnologiýalar
 
 | Gat | Tehnologiýa |
 |-----|-------------|
 | Freýmwork | [Expo SDK 54](https://expo.dev) + [React Native 0.81](https://reactnative.dev) |
-| Dil | [TypeScript 5.9](https://www.typescriptlang.org) (strict) |
-| Nawigasiýa | [React Navigation 7](https://reactnavigation.org) (Stack + Bottom Tabs) |
-| Ammar | AsyncStorage (lokal) |
-| Ses | expo-av (lokal MP3 + Expo Speech) |
-| Terjime API | [MyMemory](https://mymemory.translated.net) + [LibreTranslate](https://libretranslate.com) |
+| Dil | [TypeScript 5.9](https://www.typescriptlang.org) (strict mode) |
+| Nawigasiýa | [React Navigation 7](https://reactnavigation.org) (Stack) |
+| Ammar | AsyncStorage (lokal-ileri) |
 | Gurnama | [EAS Build](https://expo.dev/eas) |
 
 ## 🚀 Başlamak
@@ -60,8 +67,7 @@ v2.0 wersiýasynda: ýene 25 dil (nemes, fransuz, ispan, ýapon, koreý, arap we
 
 - [Node.js](https://nodejs.org) 20+
 - [Git](https://git-scm.com)
-- [Android Studio](https://developer.android.com/studio) (Android emulýator üçin) ýa-da [Xcode](https://developer.apple.com/xcode/) (iOS simulýator üçin)
-- [Expo CLI](https://docs.expo.dev/more/expo-cli/) (`npx` arkaly awtomatiki gurulýar)
+- [Android Studio](https://developer.android.com/studio) (Android emulýatory üçin) ýa-da [Xcode](https://developer.apple.com/xcode/) (iOS simulýatory üçin)
 
 ### Gurnama
 
@@ -70,79 +76,68 @@ v2.0 wersiýasynda: ýene 25 dil (nemes, fransuz, ispan, ýapon, koreý, arap we
 git clone https://github.com/Shapak-Apps/turkmen-phrasebook.git
 cd turkmen-phrasebook
 
-# Bagalylyklary gurýarys
+# Baglylyklaryny gurýarys
 npm install
 
-# .env faýlyny döredýäris (islege görä, AI üçin)
-cp .env.example .env
-# Gerek bolsa .env faýlyny açyp, API açarlaryňyzy goşuň
-```
-
-### Programmany işletmek
-
-```bash
-# Metro bundler-ni başladýarys
-npm start
-
-# Soňra:
-#   `a` basyň — Android emulýatorda açylar
-#   `i` basyň — iOS simulýatorda açylar
-#   `w` basyň — brauzerde açylar
-```
-
-Ýa-da enjamda gönüden-göni işletmek:
-
-```bash
-npm run android    # Android
-npm run ios        # iOS (diňe macOS)
+# Programmany başladýarys
+npx expo start
 ```
 
 ### Beýleki buýruklar
 
 ```bash
+npm start          # Metro bundler-ni başlatmak
+npm run android    # Android emulýatorda/enjamda işletmek
+npm run ios        # iOS simulýatorda işletmek (diňe macOS)
 npm test           # Testleri işletmek
-npm run lint       # Kody barlamak
-npm run lint:fix   # Lint ýalňyşlaryny düzetmek
 ```
+
+Goşmaça maglumat [Goşant goşmak boýunça gollanmada](./CONTRIBUTING.md).
 
 ## 📁 Proýekt gurluşy
 
 ```
 turkmen-phrasebook/
 ├── src/
-│   ├── api/             # Terjime API klientleri
-│   ├── components/      # Gaýtadan ulanylýan UI-komponentler
-│   ├── contexts/        # React kontekstler (dil, konfig)
-│   ├── data/            # Frazalar, kategoriýalar, terjimeler
-│   ├── features/        # Funksiýa modullary (terjimeçi, AI, halanlar)
-│   ├── navigation/      # Nawigasiýa konfigurasiýasy
-│   ├── screens/         # Programmanyň ekranlary
-│   ├── services/        # Biznes-logika hyzmatlary
-│   └── utils/           # Kömekçi funksiýalar
-├── assets/              # Suratlar, ikonalar, ses faýllary
-├── android/             # Native Android proýekti
-├── ios/                 # Native iOS proýekti
-└── App.tsx              # Giriş nokady
+│   ├── config/            # languages.config.ts — interfeýs dilleri (5 elýeterli, 26 gulply)
+│   ├── data/
+│   │   └── scenarios/     # korpus: skeleton.ts + texts/{tk,ru,en,zh}.ts
+│   ├── features/
+│   │   └── scenarios/     # senariý ekranlary, ekrany görkezmek re žimi, ui-labels.ts
+│   └── navigation/        # AppNavigator.tsx (Stack)
+├── assets/                # logo, ekran şekilleri, dükan materiallary
+├── android/               # native Android proýekti
+├── ios/                   # native iOS proýekti
+└── App.tsx                # giriş nokady
 ```
+
+## 🗺️ Ýol kartasy (meýilnama — heniz programmada ýok)
+
+- 📝 Tekst terjimeçisi
+- 🎤 Ses terjimeçisi
+- 📷 Wizual terjimeçi (OCR + terjime)
+- 🤖 AI kömekçiler
+
+Bu sanawdaky ähli zat geljekki wersiýalar üçin meýilnamadyr. Bularyň hiç biri häzirki çykarylyşda ýok.
 
 ## 🤝 Goşant goşmak
 
-Biz islendik goşantlary kabul edýäris — harp ýalňyşyny düzetmekden başlap, täze dilleri goşmaga çenli!
+Biz islendik goşantlary kabul edýäris — harp ýalňyşyny düzetmekden başlap, frazalary gowulandyrmaga çenli!
 
 **[Goşant goşmak boýunça gollanma](./CONTRIBUTING.md)** okaň — şol ýerde bar:
 
-- Proýekti nädip lokal gurmaly
+- Proýekti lokal nädip gurmaly
 - Pull request-i nädip tabşyrmaly
 - Kod ýazmak düzgünleri
-- Täze gelenler üçin «good first issue» bellikleri
+- Täze gelenler üçin «Good first issue» bellikleri
 
 **Täze başlaýanlar üçin gowy wezipeler:**
-- Täze dile terjime goşmak
-- Bar bolan frazalar üçin ses aýdylyşyny ýazga almak
-- Harp ýalňyşyny düzetmek, ikonany gowulandyrmak, ekrany timarlamak
+
+- Interfeýs terjimesini goşmak ýa-da tamamlamak (26 dil açylmagyna garaşýar)
+- Harp ýalňyşyny düzetmek, frazany gowulandyrmak, ekrany timarlamak
 - Bar bolan kod üçin unit-test ýazmak
 
-Säwlik tapdyňyzmy ýa-da pikiriňiz barmy? **[Issue açyň](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)**.
+Säwlik tapdyňyzmy ýa-da täze pikiriňiz barmy? **[Issue açyň](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)**.
 
 ## 📲 Programmany göçürip almak
 
@@ -154,9 +149,9 @@ Säwlik tapdyňyzmy ýa-da pikiriňiz barmy? **[Issue açyň](https://github.com
 
 ## 📄 Litsenziýa
 
-Bu proýekt **MIT Litsenziýa** esasynda paýlanýar — [LICENSE](./LICENSE) faýlyna serediň.
+Bu proýekt **MIT Litsenziýa** esasynda paýlanýar — jikme-jiklikler üçin [LICENSE](./LICENSE) faýlyna serediň.
 
-Asyl awtorlyk belligini saklap, bu kody erkin ulanmaga, üýtgetmäge we paýlaşmaga hukugyňyz bar.
+Asyl awtorlyk belligini saklap, bu programma erkin ulanmaga, üýtgetmäge we paýlaşmaga hukugyňyz bar.
 
 ## 👤 Awtor
 
@@ -167,9 +162,8 @@ Asyl awtorlyk belligini saklap, bu kody erkin ulanmaga, üýtgetmäge we paýla�
 
 ## 🙏 Minnetdarlyk
 
-- [Expo](https://expo.dev) — kross-platforma mobil programmalary döretmegiň iň çalt ýoly
+- [Expo](https://expo.dev) bilen guruldy — kross-platforma mobil programmalary döretmegiň iň çalt ýoly
 - Ikonalar: [Ionicons](https://ionic.io/ionicons)
-- Terjime API: [MyMemory](https://mymemory.translated.net) we [LibreTranslate](https://libretranslate.com)
 
 ---
 
