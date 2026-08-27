@@ -29,6 +29,33 @@ async function main() {
     .toFile(A('adaptive-icon-background.png'));
   console.log('OK adaptive-icon-background.png #2FA0D9');
 
+  // Monochrome layer (issue #22): Android 13+ themed icons read only the
+  // alpha channel, so the letters must BE the alpha channel — white source
+  // pixels -> 255, blue background -> 0. Result: a black "YT" silhouette on
+  // a transparent canvas, centred in the same 66% safe zone.
+  // 1-band mask: white letters -> 255, blue background -> 0
+  const alpha = await sharp(A('icon-source.png'))
+    .resize(inner, inner)
+    .greyscale()
+    .threshold(200)
+    .toColourspace('b-w')
+    .raw()
+    .toBuffer();
+  // black pixels, letters carried by the alpha channel
+  const glyph = await sharp({
+    create: { width: inner, height: inner, channels: 3, background: { r: 0, g: 0, b: 0 } },
+  })
+    .joinChannel(alpha, { raw: { width: inner, height: inner, channels: 1 } })
+    .png()
+    .toBuffer();
+  await sharp({
+    create: { width: 1024, height: 1024, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } },
+  })
+    .composite([{ input: glyph, gravity: 'centre' }])
+    .png()
+    .toFile(A('adaptive-icon-monochrome.png'));
+  console.log('OK adaptive-icon-monochrome.png (alpha mask, safe zone 66%)');
+
   await sharp(A('logo-source.png'))
     .png()
     .toFile(A('logo.png'));
