@@ -26,26 +26,6 @@ jest.mock('react-native-reanimated', () => {
   };
 });
 
-// Mock expo-audio for audio testing
-jest.mock('expo-audio', () => ({
-  createAudioPlayer: jest.fn(() => ({
-    play: jest.fn(),
-    pause: jest.fn(),
-    remove: jest.fn(),
-    seekTo: jest.fn(),
-    addListener: jest.fn(() => ({ remove: jest.fn() })),
-    volume: 1.0,
-    playbackRate: 1.0,
-    currentTime: 0,
-    duration: 0,
-    playing: false,
-    paused: true,
-    isLoaded: true,
-  })),
-  setAudioModeAsync: jest.fn(() => Promise.resolve()),
-  AudioPlayer: jest.fn(),
-}));
-
 // Mock expo-haptics
 jest.mock('expo-haptics', () => ({
   impactAsync: jest.fn(),
@@ -74,36 +54,6 @@ jest.mock('expo-file-system', () => ({
   makeDirectoryAsync: jest.fn(() => Promise.resolve()),
   copyAsync: jest.fn(() => Promise.resolve()),
   downloadAsync: jest.fn(() => Promise.resolve({ uri: 'file://mock-uri' })),
-}));
-
-// Mock expo-image-picker
-jest.mock('expo-image-picker', () => ({
-  launchImageLibraryAsync: jest.fn(() => Promise.resolve({
-    canceled: false,
-    assets: [{ uri: 'file://mock-image.jpg' }],
-  })),
-  launchCameraAsync: jest.fn(() => Promise.resolve({
-    canceled: false,
-    assets: [{ uri: 'file://mock-camera-image.jpg' }],
-  })),
-  requestMediaLibraryPermissionsAsync: jest.fn(() => Promise.resolve({ status: 'granted' })),
-  requestCameraPermissionsAsync: jest.fn(() => Promise.resolve({ status: 'granted' })),
-  MediaTypeOptions: {
-    Images: 'Images',
-    Videos: 'Videos',
-    All: 'All',
-  },
-}));
-
-// Mock expo-camera
-jest.mock('expo-camera', () => ({
-  Camera: {
-    requestCameraPermissionsAsync: jest.fn(() => Promise.resolve({ status: 'granted' })),
-  },
-  CameraType: {
-    back: 'back',
-    front: 'front',
-  },
 }));
 
 // Mock @react-native-community/netinfo
@@ -148,9 +98,6 @@ jest.mock('react-native-gesture-handler', () => {
     Directions: {},
   };
 });
-
-// Mock lottie-react-native
-jest.mock('lottie-react-native', () => 'LottieView');
 
 // Mock expo-linear-gradient
 jest.mock('expo-linear-gradient', () => ({

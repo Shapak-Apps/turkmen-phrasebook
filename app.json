@@ -10,8 +10,7 @@
     "newArchEnabled": true,
     "plugins": [
       "expo-font",
-      "expo-splash-screen",
-      "expo-audio"
+      "expo-splash-screen"
     ],
     "platforms": [
       "ios",
