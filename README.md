@@ -3,7 +3,9 @@
 
 # Ykjam Terjime
 
-Offline scenario phrasebook — 295 curated phrases in 13 real-life scenarios, Turkmen paired with Chinese, English or Russian
+**Hakyky durmuş ýagdaýlarynda türkmençe gepleşmäge we terjime etmäge ýardam berýän mobil goşundysy**
+
+<a href="https://apps.apple.com/app/ykjam-terjime/id6758071845"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" height="50" alt="App Store" /></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shapak.translator"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" height="50" alt="Google Play" /></a>
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Expo](https://img.shields.io/badge/Expo_SDK-54-000020.svg?logo=expo)](https://expo.dev)
@@ -11,23 +13,19 @@ Offline scenario phrasebook — 295 curated phrases in 13 real-life scenarios, T
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
-[🇷🇺 По-русски](./README.ru.md) · [🇹 Türkmençe](./README.tk.md)
 </div>
 
-Ykjam Terjime ("Ready Translation" in Turkmen) is a free, offline-first, scenario-based phrasebook. Instead of word lists, it walks you through 13 real-life scenarios — 295 curated phrases in total — pairing Turkmen with Chinese, English or Russian. The interface is available in 5 languages, and the app makes zero network calls.
+Ykjam Terjime - hakyky durmuş ýagdaýlarynda türkmençe gepleşmäge we terjime etmäge ýardam berýän mobil goşundysydyr.
 
-Part of [Shapak-Apps](https://github.com/Shapak-Apps) — the first open-source organization in Turkmenistan.
+• Dialog modeli: eşidýän soraglaryňyz taýýar jogaplar bilen gelýär, ssenariýler elipbiý sanawy bolman, ädimme-ädim geçýär
+• Ekrany görkezmek režimi: telefony beriň — söhbetdeşiňiz jümläni okap, jogaby basýar, siz ony türkmençe görýärsiňiz
+• Türkmen dili hytaý, iňlis ýa-da rus dilleri bilen jübütde
+• 5 dilde interfeýs
+• Oflaýn işleýär
 
-## 📱 Screenshots
+Teklipler we pikirler: shapak.apps@gmail.com
 
-<div align="center">
-  <img src="./assets/screenshots/1.jpg" width="240" />
-  <img src="./assets/screenshots/2.jpg" width="240" />
-  <img src="./assets/screenshots/3.jpg" width="240" />
-  <img src="./assets/screenshots/4.jpg" width="240" />
-  <img src="./assets/screenshots/5.jpg" width="240" />
-  <img src="./assets/screenshots/6.jpg" width="240" />
-</div>
+[Shapak-Apps](https://github.com/Shapak-Apps) guramasynyň bir bölegi — Türkmenistandan açyk kodly mobil goşundylar.
 
 ## ✨ What the app does today
 
@@ -138,14 +136,6 @@ Read our **[Contributing Guide](./CONTRIBUTING.md)** for:
 - Write unit tests for existing code
 
 Found a bug or have a feature idea? **[Open an issue](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)**.
-
-## 📲 Download the App
-
-<div align="center">
-
-<a href="https://apps.apple.com/app/ykjam-terjime/id6758071845"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" height="50" alt="Download on the App Store" /></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shapak.translator"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" height="50" alt="Get it on Google Play" /></a>
-
-</div>
 
 ## 📄 License
 
