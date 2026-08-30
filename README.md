@@ -29,6 +29,6 @@ Biz islendik goşantlary kabul edýäris — harp ýalňyşyny düzetmekden baş
 
 Säwlik tapdyňyzmy ýa-da täze pikiriňiz barmy? **[Issue açyň](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)**.
 
-## 📄 Litsenziýa
+## 📄 Lisenziýa
 
 Bu proýekt **MIT Litsenziýa** esasynda paýlanýar — jikme-jiklikler üçin [LICENSE](./LICENSE) faýlyna serediň.
