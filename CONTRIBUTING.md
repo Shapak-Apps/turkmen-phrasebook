@@ -45,8 +45,10 @@ Planned but **not in the app yet**: text translator, voice translator, visual tr
 | `src/data/scenarios/texts/ru.ts` | Russian layer — 295 entries |
 | `src/data/scenarios/texts/en.ts` | English layer — 295 entries |
 | `src/data/scenarios/texts/zh.ts` | Chinese layer — 295 entries, each with pinyin in `translit` |
+| `src/data/scenarios/tests/integrity.test.ts` | Integrity test: every layer has every skeleton key; every zh entry has a non-empty `translit` |
 | `src/features/scenarios/` | Scenario screens, show-screen mode |
-| `src/features/scenarios/ui-labels.ts` | Interface labels: wing names, dialog tags, buttons |
+| `src/features/scenarios/ui-labels.ts` | Scenario labels (Turkmen only): wing names, dialog tags, buttons |
+| `src/contexts/LanguageContext.tsx` | Interface strings for all interface languages, including the 26 locked ones |
 | `src/config/languages.config.ts` | Interface languages: 5 with `isAvailable: true`, 26 locked |
 
 ---
@@ -147,24 +149,24 @@ This is the contribution the project needs most.
 1. Find the phrase id in `src/data/scenarios/skeleton.ts`
 2. Open the language layer you want to fix, e.g. `src/data/scenarios/texts/ru.ts`
 3. Edit the entry with that id
-4. Run `npx tsc --noEmit` and check the phrase in the app
+4. Run `npx tsc --noEmit` and `npm test`, then check the phrase in the app
 
 ### Adding a phrase
 
 1. Register the phrase in `src/data/scenarios/skeleton.ts` (scenario, step, new id)
 2. Add an entry with the same id to **all four** layers: `texts/tk.ts`, `texts/ru.ts`, `texts/en.ts`, `texts/zh.ts`
 3. For Chinese, fill the `translit` field with pinyin
-4. Run `npx tsc --noEmit` — it fails if a layer misses an entry
-5. Open the scenario in the app and verify the phrase shows in every content language
+4. Run `npm test` — the integrity test (`src/data/scenarios/tests/integrity.test.ts`) compares every layer's keys against the skeleton and fails if a layer misses an entry; it also checks that every zh entry has a non-empty `translit`
+5. Run `npx tsc --noEmit` to confirm everything compiles, then open the scenario in the app and verify the phrase shows in every content language
 
 ---
 
 ## 🌍 Completing an Interface Language
 
-The interface is configured in `src/config/languages.config.ts`. Five languages are available; 26 more are translated in the code but locked because some interface keys are missing.
+The interface is configured in `src/config/languages.config.ts`; the interface strings themselves live in `src/contexts/LanguageContext.tsx`. Five languages are available; 26 more are translated in the code but locked because some interface keys are missing.
 
 1. Pick a locked language in `src/config/languages.config.ts`
-2. Compare its interface strings with the Turkmen ones in `src/features/scenarios/ui-labels.ts` and fill every missing key
+2. Compare its interface strings with the Turkmen ones in `src/contexts/LanguageContext.tsx` and fill every missing key
 3. Set `isAvailable: true` in `src/config/languages.config.ts`
 4. Run the app and switch the interface to your language — walk through a scenario end to end
 
@@ -206,10 +208,59 @@ Open an issue at [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://gith
 ## 💬 Getting Help
 
 - **GitHub Issues:** [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
-- **Email:** [seydi.charyev@gmail.com](mailto:seydi.charyev@gmail.com)
+- **Email:** [shapak.apps@gmail.com](mailto:shapak.apps@gmail.com)
+
+---
+
+## Как внести вклад на русском
+
+Прежде всего — **спасибо!** Любой вклад, даже самый маленький, делает приложение лучше для туркменоязычного сообщества.
+
+### Как помочь
+
+- 🌍 **Довести перевод интерфейса до конца** — 26 языков уже переведены, но заблокированы: им не хватает части ключей
+- ✏️ **Добавить или исправить фразы** в разговорнике (туркменский, китайский, английский, русский)
+- 🐛 **Исправить ошибки** — список в [issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
+- 📝 **Улучшить документацию** и **писать тесты**
+
+### Быстрый старт
+
+```bash
+git clone https://github.com/YOUR_USERNAME/turkmen-phrasebook.git
+cd turkmen-phrasebook
+npm install
+npx expo start
+```
+
+### Рабочий процесс
+
+1. Создайте ветку: `git checkout -b feat/...`, `fix/...` или `docs/...`
+2. Внесите изменения, соблюдая стиль кода.
+3. Проверьте: `npx tsc --noEmit` (ноль ошибок), `npm test` (тесты проходят), `npm run lint`.
+4. Закоммитьте и отправьте: `git push origin <имя-ветки>`.
+5. Откройте Pull Request в `master` и опишите: **что** делает, **зачем** нужно и **как** вы проверяли.
+
+### Добавление или исправление фразы
+
+1. Найдите (или зарегистрируйте) id фразы в `src/data/scenarios/skeleton.ts`.
+2. Добавьте/исправьте запись с этим id во **всех четырёх** слоях: `texts/tk.ts`, `texts/ru.ts`, `texts/en.ts`, `texts/zh.ts`.
+3. Для китайского заполните `translit` (пиньинь).
+4. Запустите `npm test` — тест целостности упадёт, если какой-то слой пропустит запись или у китайской записи будет пустой `translit`.
+
+### Завершение перевода интерфейса
+
+1. Выберите заблокированный язык в `src/config/languages.config.ts`.
+2. Сравните его строки интерфейса с туркменскими в `src/contexts/LanguageContext.tsx` и заполните все недостающие ключи.
+3. Поставьте `isAvailable: true` в `src/config/languages.config.ts`.
+4. Запустите приложение и пройдите сценарий от начала до конца на своём языке.
+
+### Куда писать
+
+- **GitHub Issues:** [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
+- **Email:** [shapak.apps@gmail.com](mailto:shapak.apps@gmail.com)
 
 ---
 
 ## 📄 License
 
-By contributing, you agree that your contributions will be licensed under the **[MIT License](
+By contributing, you agree that your contributions will be licensed under the **[MIT License](https://github.com/Shapak-Apps/turkmen-phrasebook/blob/master/LICENSE)**.
