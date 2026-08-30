@@ -20,3 +20,15 @@ Ykjam Terjime - hakyky durmuş ýagdaýlarynda türkmençe gepleşmäge we terji
 Teklipler we pikirler: shapak.apps@gmail.com
 
 [Shapak-Apps](https://github.com/Shapak-Apps) guramasynyň bir bölegi — Türkmenistandan açyk kodly mobil goşundylar.
+
+## 🤝 Goşant goşmak
+
+Biz islendik goşantlary kabul edýäris — harp ýalňyşyny düzetmekden başlap, frazalary gowulandyrmaga çenli.
+
+**[Goşant goşmak boýunça gollanma](./CONTRIBUTING.md)** okaň: proýekti lokal nädip gurmaly, pull request-i nädip tabşyrmaly, kod ýazmak düzgünleri.
+
+Säwlik tapdyňyzmy ýa-da täze pikiriňiz barmy? **[Issue açyň](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)**.
+
+## 📄 Litsenziýa
+
+Bu proýekt **MIT Litsenziýa** esasynda paýlanýar — jikme-jiklikler üçin [LICENSE](./LICENSE) faýlyna serediň.
