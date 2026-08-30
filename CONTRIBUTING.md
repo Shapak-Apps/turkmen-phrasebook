@@ -1,10 +1,8 @@
 # Contributing to Ykjam Terjime
 
-First of all — **thank you!** Every contribution, no matter how small, helps make this project better for the Turkmen language community.
+First of all — thank you! Every contribution, no matter how small, helps make this project better for the Turkmen language community.
 
-> 🇷🇺 Русскоязычная версия — смотри раздел [Как внести вклад на русском](#как-внести-вклад-на-русском) ниже.
-
----
+🇷 Русскоязычная версия — смотри раздел [Как внести вклад на русском](#как-внести-вклад-на-русском) ниже.
 
 ## 🤝 Ways to Contribute
 
@@ -19,39 +17,33 @@ You don't have to be a senior developer to contribute. Here are some ways anyone
 - ✅ **Write tests** — unit tests or integration tests
 - 💡 **Suggest features** — open a GitHub issue with your idea
 
-Look for issues tagged **`good first issue`** — those are designed for newcomers.
-
----
+Look for issues tagged `good first issue` — those are designed for newcomers.
 
 ## 📖 What This App Is
 
 Ykjam Terjime is a free, offline-first, scenario-based phrasebook:
 
-- **295 curated phrases** in **13 real-life scenarios**, grouped into two wings: ✈️ *Men gidýärin* (I am traveling) and 🏡 *Myhman geldi* (A guest arrived)
-- **3 content pairs**: Turkmen ↔ Chinese (with pinyin), Turkmen ↔ English, Turkmen ↔ Russian
-- **5 interface languages**: Turkmen, Chinese, Russian, English, Turkish — plus 26 more locked until their translations are completed
-- **Zero network calls** — everything works offline
+- 295 curated phrases in 13 real-life scenarios, grouped into two wings: ✈️ *Men gidýärin* (I am traveling) and 🏡 *Myhman geldi* (A guest arrived)
+- 3 content pairs: Turkmen ↔ Chinese (with pinyin), Turkmen ↔ English, Turkmen ↔ Russian
+- 5 interface languages: Turkmen, Chinese, Russian, English, Turkish — plus 26 more locked until their translations are completed
+- Zero network calls — everything works offline
 
-Planned but **not in the app yet**: text translator, voice translator, visual translator (OCR), AI assistants. Do not write code or docs as if they exist.
-
----
+Planned but not in the app yet: text translator, voice translator, visual translator (OCR), AI assistants. Do not write code or docs as if they exist.
 
 ## 🗂️ Where Things Live
 
 | Path | What it holds |
-|------|---------------|
+| --- | --- |
 | `src/data/scenarios/skeleton.ts` | The phrase registry: scenarios, steps, the survival core (shown as «IŇ GEREK SÖZLEMLER») |
 | `src/data/scenarios/texts/tk.ts` | Turkmen layer — 295 entries |
 | `src/data/scenarios/texts/ru.ts` | Russian layer — 295 entries |
 | `src/data/scenarios/texts/en.ts` | English layer — 295 entries |
 | `src/data/scenarios/texts/zh.ts` | Chinese layer — 295 entries, each with pinyin in `translit` |
-| `src/data/scenarios/tests/integrity.test.ts` | Integrity test: every layer has every skeleton key; every zh entry has a non-empty `translit` |
+| `src/data/scenarios/__tests__/integrity.test.ts` | Integrity test: every layer has every skeleton key; every zh entry has a non-empty `translit` |
 | `src/features/scenarios/` | Scenario screens, show-screen mode |
 | `src/features/scenarios/ui-labels.ts` | Scenario labels (Turkmen only): wing names, dialog tags, buttons |
 | `src/contexts/LanguageContext.tsx` | Interface strings for all interface languages, including the 26 locked ones |
 | `src/config/languages.config.ts` | Interface languages: 5 with `isAvailable: true`, 26 locked |
-
----
 
 ## 🚀 Quick Start
 
@@ -79,8 +71,6 @@ npx expo start
 ```
 
 Scan the QR code with Expo Go, or press `a` for the Android emulator, `i` for the iOS simulator, `w` for web.
-
----
 
 ## 🌳 Workflow
 
@@ -133,12 +123,10 @@ git push origin feat/add-german-interface
 
 Go to GitHub and open a PR against `master`. In the description:
 
-- **What** does this PR do?
-- **Why** is it needed?
-- **How** did you test it?
+- What does this PR do?
+- Why is it needed?
+- How did you test it?
 - Screenshots/videos for UI changes
-
----
 
 ## ✏️ Adding or Correcting Phrases
 
@@ -154,12 +142,10 @@ This is the contribution the project needs most.
 ### Adding a phrase
 
 1. Register the phrase in `src/data/scenarios/skeleton.ts` (scenario, step, new id)
-2. Add an entry with the same id to **all four** layers: `texts/tk.ts`, `texts/ru.ts`, `texts/en.ts`, `texts/zh.ts`
+2. Add an entry with the same id to all four layers: `src/data/scenarios/texts/tk.ts`, `src/data/scenarios/texts/ru.ts`, `src/data/scenarios/texts/en.ts`, `src/data/scenarios/texts/zh.ts`
 3. For Chinese, fill the `translit` field with pinyin
-4. Run `npm test` — the integrity test (`src/data/scenarios/tests/integrity.test.ts`) compares every layer's keys against the skeleton and fails if a layer misses an entry; it also checks that every zh entry has a non-empty `translit`
+4. Run `npm test` — the integrity test (`src/data/scenarios/__tests__/integrity.test.ts`) compares every layer's keys against the skeleton and fails if a layer misses an entry; it also checks that every zh entry has a non-empty `translit`
 5. Run `npx tsc --noEmit` to confirm everything compiles, then open the scenario in the app and verify the phrase shows in every content language
-
----
 
 ## 🌍 Completing an Interface Language
 
@@ -170,16 +156,14 @@ The interface is configured in `src/config/languages.config.ts`; the interface s
 3. Set `isAvailable: true` in `src/config/languages.config.ts`
 4. Run the app and switch the interface to your language — walk through a scenario end to end
 
----
-
 ## 📝 Code Style
 
-- **Language:** TypeScript (strict mode is ON)
-- **Linter:** ESLint
-- **Indent:** 2 spaces
-- **Quotes:** single (`'`) in JS/TS, double (`"`) in JSX attributes
-- **Imports:** ordered — React first, third-party, then local
-- **Components:** functional with hooks, `PascalCase` filenames
+- Language: TypeScript (strict mode is ON)
+- Linter: ESLint
+- Indent: 2 spaces
+- Quotes: single (`'`) in JS/TS, double (`"`) in JSX attributes
+- Imports: ordered — React first, third-party, then local
+- Components: functional with hooks, `PascalCase` filenames
 
 ### TypeScript tips
 
@@ -191,37 +175,31 @@ The interface is configured in `src/config/languages.config.ts`; the interface s
 - Use `StyleSheet.create` — not inline styles for repeated use
 - For performance-critical lists, use `FlatList` — not `map()` in `ScrollView`
 
----
-
 ## 🐛 Reporting Bugs
 
 Open an issue at [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues) with:
 
-- **Steps to reproduce** — what did you do?
-- **Expected behavior** — what should happen?
-- **Actual behavior** — what actually happens?
-- **Environment** — OS, device, app version
-- **Screenshots/logs** — if applicable
-
----
+- Steps to reproduce — what did you do?
+- Expected behavior — what should happen?
+- Actual behavior — what actually happens?
+- Environment — OS, device, app version
+- Screenshots/logs — if applicable
 
 ## 💬 Getting Help
 
-- **GitHub Issues:** [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
-- **Email:** [shapak.apps@gmail.com](mailto:shapak.apps@gmail.com)
-
----
+- GitHub Issues: [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
+- Email: [shapak.apps@gmail.com](mailto:shapak.apps@gmail.com)
 
 ## Как внести вклад на русском
 
-Прежде всего — **спасибо!** Любой вклад, даже самый маленький, делает приложение лучше для туркменоязычного сообщества.
+Прежде всего — спасибо! Любой вклад, даже самый маленький, делает приложение лучше для туркменоязычного сообщества.
 
 ### Как помочь
 
-- 🌍 **Довести перевод интерфейса до конца** — 26 языков уже переведены, но заблокированы: им не хватает части ключей
-- ✏️ **Добавить или исправить фразы** в разговорнике (туркменский, китайский, английский, русский)
-- 🐛 **Исправить ошибки** — список в [issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
-- 📝 **Улучшить документацию** и **писать тесты**
+- 🌍 Довести перевод интерфейса до конца — 26 языков уже переведены, но заблокированы: им не хватает части ключей
+- ✏️ Добавить или исправить фразы в разговорнике (туркменский, китайский, английский, русский)
+- 🐛 Исправить ошибки — список в [issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
+- 📝 Улучшить документацию и писать тесты
 
 ### Быстрый старт
 
@@ -238,12 +216,12 @@ npx expo start
 2. Внесите изменения, соблюдая стиль кода.
 3. Проверьте: `npx tsc --noEmit` (ноль ошибок), `npm test` (тесты проходят), `npm run lint`.
 4. Закоммитьте и отправьте: `git push origin <имя-ветки>`.
-5. Откройте Pull Request в `master` и опишите: **что** делает, **зачем** нужно и **как** вы проверяли.
+5. Откройте Pull Request в `master` и опишите: что делает, зачем нужно и как вы проверяли.
 
 ### Добавление или исправление фразы
 
 1. Найдите (или зарегистрируйте) id фразы в `src/data/scenarios/skeleton.ts`.
-2. Добавьте/исправьте запись с этим id во **всех четырёх** слоях: `texts/tk.ts`, `texts/ru.ts`, `texts/en.ts`, `texts/zh.ts`.
+2. Добавьте/исправьте запись с этим id во всех четырёх слоях: `src/data/scenarios/texts/tk.ts`, `src/data/scenarios/texts/ru.ts`, `src/data/scenarios/texts/en.ts`, `src/data/scenarios/texts/zh.ts`.
 3. Для китайского заполните `translit` (пиньинь).
 4. Запустите `npm test` — тест целостности упадёт, если какой-то слой пропустит запись или у китайской записи будет пустой `translit`.
 
@@ -256,11 +234,9 @@ npx expo start
 
 ### Куда писать
 
-- **GitHub Issues:** [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
-- **Email:** [shapak.apps@gmail.com](mailto:shapak.apps@gmail.com)
-
----
+- GitHub Issues: [github.com/Shapak-Apps/turkmen-phrasebook/issues](https://github.com/Shapak-Apps/turkmen-phrasebook/issues)
+- Email: [shapak.apps@gmail.com](mailto:shapak.apps@gmail.com)
 
 ## 📄 License
 
-By contributing, you agree that your contributions will be licensed under the **[MIT License](https://github.com/Shapak-Apps/turkmen-phrasebook/blob/master/LICENSE)**.
+By contributing, you agree that your contributions will be licensed under the [MIT License](https://github.com/Shapak-Apps/turkmen-phrasebook/blob/master/LICENSE).
